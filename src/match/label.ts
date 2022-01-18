@@ -1,3 +1,5 @@
+import { ClaimObject } from "../types/wikidata";
+
 const { remove: removeAccents } = require("diacritics");
 
 interface Label {
@@ -22,37 +24,40 @@ export const query = (): [string[], string] => [
 `,
 ];
 
-export const simplify = (itemList: { label?: any; alias?: any }[]) => {
+export const simplify = (
+  itemList: { label?: ClaimObject<string>; alias?: ClaimObject<string> }[]
+) => {
   return itemList
     .reduce<Label[]>((acc, { label, alias }) => {
-      [label, alias].filter(Boolean).forEach((value) => {
-        const lang = value["xml:lang"];
-        if (!acc.some((a) => a.lang !== lang && a.value === value)) {
-          acc.push({
-            lang,
-            value,
-          });
-        }
-      });
+      [label, alias]
+        .filter((x): x is ClaimObject<string> => !!x)
+        .forEach(({ value, "xml:lang": lang }) => {
+          if (value && !acc.some((a) => a.lang === lang && a.value === value)) {
+            acc.push({
+              lang,
+              value,
+            });
+          }
+        });
       return acc;
     }, [])
     .flat();
 };
 
-
 export const match = (source: Label[], destination: Label[]) => {
-  const mapVariants = (label: Label) => [
-    label,
-    ...(label.variants || []).map((value) => ({ value, lang: label.lang })),
-  ];
-
   const matches = source.map((name) => {
     const destinationLabels =
       (name.lang
         ? destination.filter(({ lang }) => !lang || lang === name.lang)
         : destination
       )
-        ?.map(mapVariants)
+        ?.map((label) => [
+          label,
+          ...(label.variants || []).map((value) => ({
+            value,
+            lang: label.lang,
+          })),
+        ])
         .flat() || [];
     let match = destinationLabels.find(({ value }) =>
       normalizeName(value).includes(normalizeName(name.value))
