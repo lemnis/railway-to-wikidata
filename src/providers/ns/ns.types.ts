@@ -1,8 +1,4 @@
-import fetch from "node-fetch";
-import { LocationV3 } from "../types/location";
-import { CodeIssuer, ISOAlpha2Code, Property } from "../types/wikidata";
-
-interface Station {
+export interface Station {
   UICCode: string;
   stationType: string;
   EVACode?: string;
@@ -30,17 +26,6 @@ interface Station {
   ingangsDatum?: string;
   /** @format date */
   eindDatum?: string;
-}
-
-/** international vehicle registration code to ISO 3166-1 alpha-2 */
-enum IVRtoISO {
-  NL = "NL",
-  D = "DE",
-  B = "BE",
-  GB = "GB",
-  A = "AT",
-  CH = "CH",
-  F = "FR",
 }
 
 /**
@@ -91,7 +76,7 @@ interface Link {
 /**
  * Represents a single location with usually a lat, lng. A place can have multiple locations.
  */
-interface Location {
+export interface Location {
   /**
    * Unique identifier of the location
    * @example ChIJ2QUls2lrxkcRI4_mKWufkOM
@@ -131,7 +116,7 @@ interface Location {
   location?: GeoLocation;
 
   /** Is this location open? */
-  open?: "Yes" | "No" | "Unknown" | "open,close,unknown";
+  open?: "Yes" | "No" | "Unknown";
 
   /** Image which can be used as header image. This is usually a larger full color/resolution image. */
   link?: Link;
@@ -187,7 +172,7 @@ interface OpeningHour {
   closesNextDay?: boolean;
 }
 
-interface Place {
+export interface Place {
   /**
    * Type
    * @example poi
@@ -335,61 +320,3 @@ interface Site {
   qualifier?: string;
   url?: string;
 }
-
-const getPlaces = async () => {
-  const response = await fetch(
-    "https://gateway.apiportal.ns.nl/places-api/v2/places?limit=1000&type=stationV2",
-    {
-      method: "GET",
-      headers: {
-        "Ocp-Apim-Subscription-Key": "51cd7a8d239c429ea12306b62f17d8a7",
-      },
-    }
-  );
-
-  const { payload }: { links: {}; payload: Place[]; meta: {} } =
-    await response.json();
-  return payload;
-};
-
-export const getRawStations = async (): Promise<LocationV3[]> => {
-  const payload = await getPlaces();
-  const stations: (Station & Location)[] | undefined = payload.find(
-    ({ type }) => type === "stationV2"
-  )?.locations as any;
-  return (
-    stations?.map((station) => ({
-      labels: Array.from(
-        new Set([
-          ...station.synoniemen,
-          ...Object.values(station.namen || {}),
-          station.name!,
-        ])
-      )
-        .filter(Boolean)
-        .map((value) => ({ value })),
-      claims: {
-        [CodeIssuer.UIC]: [parseInt(station.UICCode)],
-        [CodeIssuer.IBNR]: [station.EVACode],
-        [Property.StationCode]: [station.code],
-        [Property.Country]: [
-          (ISOAlpha2Code as any)[(IVRtoISO as any)[station.land!]],
-        ],
-        [Property.CoordinateLocation]: [[station.lat, station.lng]],
-        ...(station.sporen && {
-          [Property.NumberOfPlatformFaces]: [station.sporen?.length].filter(
-            Boolean
-          ),
-          [Property.NumberOfPlatformTracks]: [station.sporen?.length].filter(
-            Boolean
-          ),
-        }),
-        ...(station.land === "NL" && {
-          [Property.OfficialWebsite]: station.sites
-            ?.map((i) => i.url)
-            .filter(Boolean),
-        }),
-      },
-    })) || []
-  );
-};
