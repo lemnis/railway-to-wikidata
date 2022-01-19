@@ -21,26 +21,22 @@ export const getLocations = (): Promise<LocationV4[]> =>
         labels: [{ value: stop_name }],
         claims: {
           [CodeIssuer.UIC]: [
-            [
-              {
-                value: "94" + stop_id.slice(3, 8),
-                references: {
-                  [Property.ReferenceURL]: stopUrl,
-                },
+            {
+              value: "94" + stop_id.slice(3, 8),
+              references: {
+                [Property.ReferenceURL]: stopUrl,
               },
-            ],
+            },
           ],
           [Property.StationCode]: [
-            [
-              {
-                value: stop_id,
-                references: {
-                  [Property.ReferenceURL]: stopUrl,
-                },
+            {
+              value: stop_id,
+              references: {
+                [Property.ReferenceURL]: stopUrl,
               },
-            ],
+            },
           ],
-          [Property.Country]: [[{ value: Country.Portugal }]],
+          [Property.Country]: [{ value: Country.Portugal }],
           [Property.CoordinateLocation]: [
             [{ value: [parseFloat(stop_lat), parseFloat(stop_lon)] }],
           ],
