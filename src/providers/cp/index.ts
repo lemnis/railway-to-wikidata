@@ -38,7 +38,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
           ],
           [Property.Country]: [{ value: Country.Portugal }],
           [Property.CoordinateLocation]: [
-            [{ value: [parseFloat(stop_lat), parseFloat(stop_lon)] }],
+            { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
           ],
         },
       };
