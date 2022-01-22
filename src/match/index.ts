@@ -1,23 +1,40 @@
-import { match as matchLabel } from "./label";
-import { match as matchClaims } from "./property";
-import { LocationV3, LocationV4 } from "../types/location";
+import { ResultSet } from "@lokidb/loki/types/loki/src/result_set";
+import { destination } from "pino";
+import { LocationV4 } from "../types/location";
+import { Property, CodeIssuer, ClaimObject } from "../types/wikidata";
 
-export const match = (location: LocationV3, wikidata: LocationV4) => {
-  const locationClaims: any = {};
-  for (const key in location.claims) {
-    if (Object.prototype.hasOwnProperty.call(location.claims, key)) {
-      const element: any[] = (location.claims as any)[key];
-      locationClaims[key] = element.map((value) => ({ value }));
-    }
-  }
+const ids: (CodeIssuer | Property.StationCode)[] = [
+  Property.StationCode,
+  CodeIssuer.ATOC,
+  CodeIssuer.Benerail,
+  CodeIssuer.DB,
+  CodeIssuer.GaresAndConnexions,
+  CodeIssuer.IATA,
+  CodeIssuer.IBNR,
+  CodeIssuer.SNCF,
+  CodeIssuer.Trainline,
+  CodeIssuer.UIC,
+];
 
-  return {
-    labels: matchLabel(location.labels, wikidata.labels),
-    claims: matchClaims(
-      locationClaims,
-      wikidata.claims,
-      { id: location.id, labels: location.labels, claims: locationClaims },
-      wikidata
-    ),
-  };
-};
+const matchValue = (
+  id: Property | CodeIssuer,
+  claim: ClaimObject,
+  source: LocationV4
+) => source.claims[id]?.some(({ value }) => value === claim.value) || false;
+
+export const matchIds = (source: LocationV4, destination: LocationV4) =>
+  ids.some((id) =>
+    id === Property.StationCode
+      ? destination.claims[id]?.some((claim) =>
+          matchValue(id, claim, source)
+        ) &&
+        destination.claims[Property.Country]?.some((claim) =>
+          matchValue(Property.Country, claim, source)
+        )
+      : destination.claims[id]?.some((claim) => matchValue(id, claim, source))
+  );
+
+// export const map = (sourceList: LocationV4[], destinationList: LocationV4[]) =>
+//   sourceList.map((entity) =>
+//     destinationList.map((destination) => matchIds(entity, destination))
+//   );

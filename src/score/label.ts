@@ -1,12 +1,7 @@
+import { Label } from "../types/location";
 import { ClaimObject } from "../types/wikidata";
 
 const { remove: removeAccents } = require("diacritics");
-
-interface Label {
-  value: string;
-  lang?: string;
-  variants?: string[];
-}
 
 /** Remove accents (diacrítics), dashes and removes duplicates spaces */
 const normalizeName = (name: string) =>

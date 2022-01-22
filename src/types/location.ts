@@ -1,39 +1,33 @@
-import { CodeIssuer, Country, Property } from "./wikidata";
+import { ClaimObject, CodeIssuer, Property } from "./wikidata";
 
-export type Location = {
-  stationCode?: string;
-  uic?: number;
-  names: string[];
-  latitude?: number;
-  longitude?: number;
-  country?: Country;
-  language?: string;
-} & {
-  [key in Property]?: string;
-};
-
-export type LocationV2 = {
-  labels: { value: string; lang?: string; variants?: string[] }[];
-} & Partial<Record<CodeIssuer | Property, any[]>>;
+export interface Label {
+  value: string;
+  lang?: string;
+  variants?: string[];
+}
 
 export interface LocationV3 {
-  labels: { value: string; lang?: string; variants?: string[] }[];
+  labels: Label[];
   claims: Partial<Record<CodeIssuer | Property, any[]>>;
   info?: Record<string, any>;
+  id?: string;
 }
 
 export interface LocationV4 {
-  labels: { value: string; lang?: string; variants?: string[] }[];
+  id?: string;
+  labels: Label[];
   claims: {
     [key in Property | CodeIssuer]?: key extends Property.CoordinateLocation
-      ? { value: [number, number] }[]
-      : { value: string[] };
+      ? ClaimObject<[number, number]>[]
+      : ClaimObject<string>[];
   };
   info?: {
-    matched: {
-      match: any;
-      wikidat: any;
+    match?: {
+      match?: any;
+      wikidata?: any;
+      [key: string]: any;
     }[];
+    matched?: number;
     [key: string]: any;
   };
 }

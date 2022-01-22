@@ -1,13 +1,16 @@
 import { parse } from "csv-parse/sync";
-import { promises as fs } from "fs";
 import { distanceTo } from "geolocation-utils";
 import { LocationV4 } from "../../types/location";
 import { CodeIssuer, ISOAlpha2Code, Property } from "../../types/wikidata";
 import ProgressBar from "progress";
 import { TrainlineStation } from "./trainline.types";
+import fetch from "node-fetch";
 
 export const getStations = async (): Promise<TrainlineStation[]> => {
-  return parse(await fs.readFile(__dirname + "/../../stations/stations.csv"), {
+  const rawCsv = await fetch(
+    "https://raw.githubusercontent.com/trainline-eu/stations/master/stations.csv"
+  ).then((response) => response.text());
+  return parse(rawCsv, {
     delimiter: ";",
     columns: true,
   }).map((d: any) => {
@@ -293,21 +296,49 @@ export const map = (station: {
     });
   });
 
+  const url = `https://trainline-eu.github.io/stations-studio/#/station/${station.id?.[0]}`;
+
   return {
+    id: url,
     labels,
     claims: {
       [Property.StationCode]: stationCode.flat().map((value) => ({ value })),
-      [CodeIssuer.UIC]: station.uic?.map((value) => ({ value })),
+      [CodeIssuer.UIC]: station.uic?.map((value) => ({
+        value,
+        references: {
+          [Property.ReferenceURL]: url,
+        },
+      })),
       [Property.CoordinateLocation]: station.coordinates?.map((value) => ({
         value,
       })),
       [Property.Country]: station.country
         .map((c) => (ISOAlpha2Code as any)[c])
         ?.map((value) => ({ value })),
-      [CodeIssuer.Benerail]: station.benerail_id?.map((value) => ({ value })),
-      [CodeIssuer.ATOC]: station.atoc_id?.map((value) => ({ value })),
-      [CodeIssuer.SNCF]: station.sncf_id?.map((value) => ({ value })),
-      [CodeIssuer.Trainline]: station.id?.map((value) => ({ value })),
+      [CodeIssuer.Benerail]: station.benerail_id?.map((value) => ({
+        value,
+        references: {
+          [Property.ReferenceURL]: url,
+        },
+      })),
+      [CodeIssuer.ATOC]: station.atoc_id?.map((value) => ({
+        value,
+        references: {
+          [Property.ReferenceURL]: url,
+        },
+      })),
+      [CodeIssuer.SNCF]: station.sncf_id?.map((value) => ({
+        value,
+        references: {
+          [Property.ReferenceURL]: url,
+        },
+      })),
+      [CodeIssuer.Trainline]: station.id?.map((value) => ({
+        value,
+        references: {
+          [Property.ReferenceURL]: url,
+        },
+      })),
       [Property.LocatedInTimeZone]: station.time_zone?.map((value) => ({
         value,
       })),
@@ -316,7 +347,12 @@ export const map = (station: {
         new Set(
           [station.cff_id, station.db_id, station.obb_id].flat().filter(Boolean)
         )
-      )?.map((value) => ({ value })),
+      )?.map((value) => ({
+        value,
+        references: {
+          [Property.ReferenceURL]: url,
+        },
+      }))
     },
   };
 };
