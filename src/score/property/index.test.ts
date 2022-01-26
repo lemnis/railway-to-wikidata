@@ -1,9 +1,9 @@
 import test from "ava";
-import { match } from ".";
+import { score } from ".";
 import { Property } from "../../types/wikidata";
 
 test("Should fully match to empty object", ({ deepEqual }) => {
-  deepEqual(match({}, {}), {
+  deepEqual(score({}, {}), {
     matches: {},
     amountMissing: 0,
     percentage: 0,
@@ -12,7 +12,7 @@ test("Should fully match to empty object", ({ deepEqual }) => {
 
 test("Should fully match to equal objects", ({ deepEqual }) => {
   deepEqual(
-    match(
+    score(
       { [Property.Country]: [{ value: "h" }] },
       { [Property.Country]: [{ value: "h" }] }
     ),
@@ -36,7 +36,7 @@ test("Should fully match to equal objects", ({ deepEqual }) => {
 
 test("Should mark missing with missing counter claims", ({ deepEqual }) => {
   deepEqual(
-    match({ [Property.Country]: [{ value: "h" }] }, { [Property.Country]: [] }),
+    score({ [Property.Country]: [{ value: "h" }] }, { [Property.Country]: [] }),
     {
       matches: {
         [Property.Country]: {
@@ -57,7 +57,7 @@ test("Should mark missing with missing counter claims", ({ deepEqual }) => {
 
 test("Should match to one of destination objects", ({ deepEqual }) => {
   deepEqual(
-    match(
+    score(
       { [Property.Country]: [{ value: "two" }] },
       {
         [Property.Country]: [
@@ -87,7 +87,7 @@ test("Should match to one of destination objects", ({ deepEqual }) => {
 
 test("Should only match second object", ({ deepEqual }) => {
   deepEqual(
-    match(
+    score(
       {
         [Property.Country]: [
           { value: "one" },
@@ -127,7 +127,7 @@ test("Percentage should match percentage of single existing property", ({
   deepEqual,
 }) => {
   deepEqual(
-    match(
+    score(
       {
         [Property.Country]: [{ value: "two" }],
         [Property.Location]: [{ value: "location" }],
@@ -165,7 +165,7 @@ test("Percentage should be calculated against all existing properties", ({
   deepEqual,
 }) => {
   deepEqual(
-    match(
+    score(
       {
         [Property.Country]: [{ value: "one" }, { value: "two" }],
         [Property.Location]: [

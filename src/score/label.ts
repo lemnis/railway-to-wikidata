@@ -39,12 +39,12 @@ export const simplify = (
     .flat();
 };
 
-export const match = (source: Label[], destination: Label[]) => {
-  const matches = source.map((name) => {
+export const score = (base: Label[], expansion: Label[]) => {
+  const matches = base.map(({ value, lang, variants }) => {
     const destinationLabels =
-      (name.lang
-        ? destination.filter(({ lang }) => !lang || lang === name.lang)
-        : destination
+      (lang
+        ? expansion.filter(({ lang }) => !lang || lang === lang)
+        : expansion
       )
         ?.map((label) => [
           label,
@@ -55,10 +55,10 @@ export const match = (source: Label[], destination: Label[]) => {
         ])
         .flat() || [];
     let match = destinationLabels.find(({ value }) =>
-      normalizeName(value).includes(normalizeName(name.value))
+      normalizeName(value).includes(normalizeName(value))
     );
-    if (!match && name.variants) {
-      for (const variant of name.variants) {
+    if (!match && variants) {
+      for (const variant of variants) {
         match = destinationLabels.find(({ value }) =>
           normalizeName(value).includes(normalizeName(variant))
         );
@@ -68,8 +68,8 @@ export const match = (source: Label[], destination: Label[]) => {
     return {
       missing: destinationLabels.length === 0,
       match: !!match,
-      value: name.value,
-      lang: name.lang || match?.lang,
+      value,
+      lang,
     };
   });
 

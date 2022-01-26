@@ -1,8 +1,7 @@
-import { removeUri, simplifyByDatatype } from "../../query/simplify";
-import { LocationV3, LocationV4 } from "../../types/location";
+import { removeUri, simplifyByDatatype } from "../../transform/simplify";
+import { LocationV4 } from "../../types/location";
 import { CodeIssuer, Property, ClaimObject } from "../../types/wikidata";
 import { coordinateLocation } from "./coordinateLocation";
-import { inAdministrativeTerritory } from "./inAdministrativeTerritory";
 import { locatedInTimeZone } from "./locatedInTimeZone";
 import { stationCode } from "./stationCode";
 
@@ -19,7 +18,6 @@ const customMatchers: Partial<
   [Property.LocatedInTimeZone]: locatedInTimeZone,
   [Property.CoordinateLocation]: coordinateLocation,
   [Property.StationCode]: stationCode,
-  [Property.InAdministrativeTerritory]: inAdministrativeTerritory,
 };
 
 export const querySingleProperty = (
@@ -119,7 +117,7 @@ export interface Match {
   [key: string]: any;
 }
 
-export const match = (
+export const score = (
   proposed: LocationV4["claims"],
   current: LocationV4["claims"],
   proposedObject?: LocationV4,
@@ -138,9 +136,6 @@ export const match = (
       key in customMatchers &&
       customMatchers[key as keyof typeof customMatchers];
     if (customMatcher && claim && value) {
-      if (key === Property.InAdministrativeTerritory && value?.length) {
-        console.log(claim, value, currentObject, proposedObject);
-      }
       customMatcher(value, claim, missing).forEach((i) => matches.push(i));
     } else {
       value.forEach(({ value }) => {

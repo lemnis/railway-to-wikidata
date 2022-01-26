@@ -1,11 +1,11 @@
-import { match as matchLabel } from "./label";
-import { match as matchClaims } from "./property";
+import { score as scoreLabel } from "./label";
+import { score as scoreClaims } from "./property";
 import { LocationV4 } from "../types/location";
 
 export const score = (location: LocationV4, wikidata: LocationV4) => {
   return {
-    labels: matchLabel(location.labels, wikidata.labels),
-    claims: matchClaims(
+    labels: scoreLabel(location.labels, wikidata.labels),
+    claims: scoreClaims(
       location.claims,
       wikidata.claims,
       location,
