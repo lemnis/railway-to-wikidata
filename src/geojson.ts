@@ -32,11 +32,6 @@ Promise.all([
     .then((locations) =>
       exportGeoJSON(locations, __dirname + "/../geojson/db.geojson")
     ),
-  import("./providers/digitraffic")
-    .then((i) => i.getLocations())
-    .then((locations) =>
-      exportGeoJSON(locations, __dirname + "/../geojson/digitraffic.geojson")
-    ),
   import("./providers/sbb")
     .then((i) => i.getLocations())
     .then((locations) =>
@@ -46,5 +41,27 @@ Promise.all([
     .then((i) => i.getGaresVoyageurs())
     .then((locations) =>
       exportGeoJSON(locations, __dirname + "/../geojson/sncf.geojson")
+    ),
+  import("./providers/trainline")
+    .then((i) => i.grouped())
+    .then((stations) =>
+      import("./providers/trainline")
+        .then((i) => i.map)
+        .then((map) => [
+          stations.trainStations.map(map),
+          stations.cities.map(map),
+        ])
+    )
+    .then(([stations, cities]) =>
+      Promise.all([
+        exportGeoJSON(
+          stations,
+          __dirname + "/../geojson/trainline-stations.geojson"
+        ),
+        exportGeoJSON(
+          cities,
+          __dirname + "/../geojson/trainline-cities.geojson"
+        )
+      ])
     ),
 ]);
