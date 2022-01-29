@@ -32,11 +32,6 @@ Promise.all([
     .then((locations) =>
       exportGeoJSON(locations, __dirname + "/../geojson/db.geojson")
     ),
-  import("./providers/sbb")
-    .then((i) => i.getLocations())
-    .then((locations) =>
-      exportGeoJSON(locations, __dirname + "/../geojson/sbb.geojson")
-    ),
   import("./providers/sncf")
     .then((i) => i.getGaresVoyageurs())
     .then((locations) =>
