@@ -1,10 +1,11 @@
 import { parse } from "csv-parse/sync";
 import { distanceTo } from "geolocation-utils";
 import { LocationV4 } from "../../types/location";
-import { CodeIssuer, ISOAlpha2Code, Property } from "../../types/wikidata";
+import { CodeIssuer, Property } from "../../types/wikidata";
 import ProgressBar from "progress";
 import { TrainlineStation } from "./trainline.types";
 import fetch from "node-fetch";
+import { findCountryByAlpha2 } from "../../transform/country";
 
 export const getStations = async (): Promise<TrainlineStation[]> => {
   const rawCsv = await fetch(
@@ -302,7 +303,7 @@ export const map = (station: {
     id: url,
     labels,
     claims: {
-      [Property.StationCode]: stationCode.flat().map((value) => ({ value })),
+      // [Property.StationCode]: stationCode.flat().map((value) => ({ value })),
       [CodeIssuer.UIC]: station.uic?.map((value) => ({
         value,
         references: {
@@ -313,7 +314,7 @@ export const map = (station: {
         value,
       })),
       [Property.Country]: station.country
-        .map((c) => (ISOAlpha2Code as any)[c])
+        .map((c) => findCountryByAlpha2(c)?.wikidata)
         ?.map((value) => ({ value })),
       [CodeIssuer.Benerail]: station.benerail_id?.map((value) => ({
         value,

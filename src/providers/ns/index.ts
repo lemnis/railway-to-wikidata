@@ -1,24 +1,9 @@
 import fetch from "node-fetch";
 import { NS_API_KEY } from "../../../environment";
+import { findCountryByIVR } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
-import {
-  CodeIssuer,
-  ISOAlpha2Code,
-  Items,
-  Property,
-} from "../../types/wikidata";
+import { CodeIssuer, Items, Property } from "../../types/wikidata";
 import { Place, Station, Location } from "./ns.types";
-
-/** international vehicle registration code to ISO 3166-1 alpha-2 */
-enum IVRtoISO {
-  NL = "NL",
-  D = "DE",
-  B = "BE",
-  GB = "GB",
-  A = "AT",
-  CH = "CH",
-  F = "FR",
-}
 
 const getPlaces = async () => {
   const response = await fetch(
@@ -36,7 +21,7 @@ const getPlaces = async () => {
   return payload;
 };
 
-export const getStations = async (): Promise<LocationV4[]> => {
+export const getLocations = async (): Promise<LocationV4[]> => {
   const payload = await getPlaces();
   const stations = payload.find(({ type }) => type === "stationV2")
     ?.locations as (Station & Location)[] | undefined;
@@ -53,7 +38,7 @@ export const getStations = async (): Promise<LocationV4[]> => {
         sporen,
         namen,
         name,
-        UICCode
+        UICCode,
       }) => ({
         id: sites?.map((i) => i.url)?.[0] || code,
         labels: Array.from(new Set([name!, ...synoniemen, namen?.lang!]))
@@ -72,9 +57,7 @@ export const getStations = async (): Promise<LocationV4[]> => {
               },
             },
           ],
-          [Property.Country]: [
-            { value: (ISOAlpha2Code as any)[(IVRtoISO as any)[land!]] },
-          ],
+          [Property.Country]: [{ value: findCountryByIVR(land!)?.wikidata }],
           ...(lat && lng
             ? {
                 [Property.CoordinateLocation]: [{ value: [lat, lng] }],

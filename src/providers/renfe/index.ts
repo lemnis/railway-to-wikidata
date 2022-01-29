@@ -1,13 +1,14 @@
 import { parse } from "csv-parse/sync";
-import { CodeIssuer, Country, Property } from "../../types/wikidata";
+import { CodeIssuer, Property } from "../../types/wikidata";
 import fetch from "node-fetch";
 import { RenfeStation } from "./renfe.types";
 import { LocationV4 } from "../../types/location";
+import { Country } from "../../transform/country";
 
 const StringToCountry = {
-  Francia: Country.France,
-  España: Country.Spain,
-  Portugal: Country.Portugal,
+  Francia: Country.France.wikidata,
+  España: Country.Spain.wikidata,
+  Portugal: Country.Portugal.wikidata,
 }
 
 enum StringToIso {

@@ -1,12 +1,7 @@
 import fetch from "node-fetch";
-import { CodeIssuer, Country, Property } from "../../types/wikidata";
-import { toUIC } from "uic-codes";
+import { CodeIssuer, Property } from "../../types/wikidata";
 import { LocationV4 } from "../../types/location";
-
-enum converter {
-  FI = "FIN",
-  RU = "RUS",
-}
+import { findCountryByAlpha3 } from "../../transform/country";
 
 /**
  *
@@ -44,7 +39,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
                 [CodeIssuer.UIC]: [
                   {
                     value:
-                      toUIC[converter[countryCode as keyof typeof converter]] +
+                      findCountryByAlpha3(countryCode)!.UIC![0].toString() +
                       stationUICCode,
                   },
                 ],
@@ -53,7 +48,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
                 ],
                 [Property.StationCode]: [{ value: stationShortCode }],
                 [Property.Country]: [
-                  { value: Country[countryCode as keyof typeof Country] },
+                  { value: findCountryByAlpha3(countryCode)!.wikidata },
                 ],
               },
             })

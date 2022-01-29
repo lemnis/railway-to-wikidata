@@ -1,5 +1,6 @@
+import { Country } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
-import { CodeIssuer, Country, Property } from "../../types/wikidata";
+import { CodeIssuer, Property } from "../../types/wikidata";
 import { getGtfsStations } from "../../utils/gtfs";
 
 /**
@@ -22,7 +23,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
         claims: {
           [CodeIssuer.UIC]: [
             {
-              value: "94" + stop_id.slice(3, 8),
+              value: Country.Portugal.UIC[0] + stop_id.slice(3, 8),
               references: {
                 [Property.ReferenceURL]: stopUrl,
               },
@@ -36,7 +37,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
               },
             },
           ],
-          [Property.Country]: [{ value: Country.Portugal }],
+          [Property.Country]: [{ value: Country.Portugal.wikidata }],
           [Property.CoordinateLocation]: [
             { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
           ],

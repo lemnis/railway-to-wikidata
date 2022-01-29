@@ -1,10 +1,9 @@
 import fetch from "node-fetch";
+import { Country, findCountryByUIC } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
 import {
   CodeIssuer,
-  Country,
   Property,
-  UICCountryCode,
 } from "../../types/wikidata";
 import { mergeMultipleEntities } from "../../utils/combine-entity";
 import { getGtfsStations } from "../../utils/gtfs";
@@ -47,8 +46,8 @@ export const getGtfsLocations = () =>
             [Property.Country]: [
               {
                 value: stop_name.startsWith("Monaco")
-                  ? Country.Monaco
-                  : (UICCountryCode as any)[stationCode[0] + stationCode[1]],
+                  ? Country.Monaco.wikidata
+                  : findCountryByUIC(parseInt(stationCode[0] + stationCode[1]))?.wikidata,
               },
             ],
           },
@@ -110,8 +109,8 @@ export const getGtfsNorthEastLocations = () =>
               [Property.Country]: [
                 {
                   value: stop_name.startsWith("Monaco")
-                    ? Country.Monaco
-                    : (UICCountryCode as any)[stationCode[0] + stationCode[1]],
+                    ? Country.Monaco.wikidata
+                    : findCountryByUIC(parseInt(stationCode[0] + stationCode[1]))?.wikidata,
                 },
               ],
               [Property.LocatedInTimeZone]: [{ value: item.stop_timezone }],
@@ -166,7 +165,7 @@ export const getGaresVoyageurs = () =>
                   [CodeIssuer.UIC]: [{ value: uic }],
                   [Property.CoordinateLocation]: [{ value: wgs_84 }],
                   [Property.Country]: [
-                    { value: (UICCountryCode as any)[uic[0] + uic[1]] },
+                    { value: findCountryByUIC(parseInt(uic[0] + uic[1]))?.wikidata },
                   ],
                   [Property.PostalCode]: [{ value: adresse_cp }],
                   [Property.InAdministrativeTerritory]: [

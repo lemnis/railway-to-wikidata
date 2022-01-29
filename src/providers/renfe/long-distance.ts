@@ -1,5 +1,6 @@
+import { Country } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
-import { CodeIssuer, Country, Property } from "../../types/wikidata";
+import { CodeIssuer, Property } from "../../types/wikidata";
 import { getGtfsStations } from "../../utils/gtfs";
 
 export const options = {
@@ -24,7 +25,7 @@ export const getLocations = () =>
       claims: {
         [CodeIssuer.UIC]: [{ value: '71' + stop_id }],
         [Property.StationCode]: [{ value: stop_id }],
-        [Property.Country]: [{ value: Country.Spain }],
+        [Property.Country]: [{ value: Country.Spain.wikidata }],
         [Property.CoordinateLocation]: [
           { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
         ],
