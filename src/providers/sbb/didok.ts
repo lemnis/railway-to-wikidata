@@ -15,7 +15,7 @@ export const getLocations = () =>
     .then((response) => response.json())
     .then((locations: DidokRawLocation[]) =>
       locations
-        .filter(({ fields }) => fields.bpvh_verkehrsmittel_text_de !== "Bus")
+        .filter(({ fields }) => fields.bpvh_verkehrsmittel_text_de?.includes('Zug'))
         .map<LocationV4>(({ fields }) => {
           return {
             id: fields.lod,
