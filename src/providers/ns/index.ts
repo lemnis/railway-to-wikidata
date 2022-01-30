@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 import { NS_API_KEY } from "../../../environment";
-import { findCountryByIVR } from "../../transform/country";
+import { Country, findCountryByIVR } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
 import { CodeIssuer, Items, Property } from "../../types/wikidata";
 import { Place, Station, Location } from "./ns.types";
@@ -25,6 +25,7 @@ export const getLocations = async (): Promise<LocationV4[]> => {
   const payload = await getPlaces();
   const stations = payload.find(({ type }) => type === "stationV2")
     ?.locations as (Station & Location)[] | undefined;
+
   return (
     stations?.map(
       ({
@@ -57,7 +58,15 @@ export const getLocations = async (): Promise<LocationV4[]> => {
               },
             },
           ],
-          [Property.Country]: [{ value: findCountryByIVR(land!)?.wikidata }],
+          [Property.Country]: [
+            {
+              value:
+                // Overwrite incorrect Basel bad bhf country
+                UICCode === "8014431"
+                  ? Country.Switzerland.wikidata
+                  : findCountryByIVR(land!)?.wikidata,
+            },
+          ],
           ...(lat && lng
             ? {
                 [Property.CoordinateLocation]: [{ value: [lat, lng] }],

@@ -42,6 +42,11 @@ Promise.all([
     .then((locations) =>
       exportGeoJSON(locations, __dirname + "/../geojson/sbb-didok.geojson")
     ),
+  import("./providers/irail")
+    .then((i) => i.getLocations())
+    .then((locations) =>
+      exportGeoJSON(locations, __dirname + "/../geojson/irail.geojson")
+    ),
   import("./providers/trainline")
     .then((i) => i.grouped())
     .then((stations) =>
