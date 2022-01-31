@@ -25,8 +25,6 @@ export const getStations = async (): Promise<TrainlineStation[]> => {
           longitude = parseFloat(d[key]);
         } else if (d[key] && key === "latitude") {
           latitude = parseFloat(d[key]);
-        } else if (d[key] && ["uic"].includes(key)) {
-          d[key] = parseFloat(d[key]);
         }
         switch (d[key]) {
           case "":
@@ -226,16 +224,11 @@ export const grouped = async () => {
       }
 
       const trainIds = getTrainIds(station);
+      const busIds = getBusIds(station);
 
-      const busIds = [
-        station.distribusion_id,
-        station.busbud_id,
-        station.flixbus_id,
-      ].flat();
-
-      if (trainIds.size < 2 && busIds.length > 0) {
+      if (trainIds.size < 2 && busIds.size > 0) {
         if (!places.busStops.includes(station)) places.busStops.push(station);
-      } else if (trainIds.size === 0 && busIds.length === 0) {
+      } else if (trainIds.size === 0 && busIds.size === 0) {
         // is empty ignore
       } else if (trainIds.size >= 1) {
         if (!places.trainStations.includes(station))
@@ -353,7 +346,7 @@ export const map = (station: {
         references: {
           [Property.ReferenceURL]: url,
         },
-      }))
+      })),
     },
   };
 };
@@ -404,7 +397,9 @@ function getStationCodeByCountry(
   }
 }
 
-function getTrainIds(station: any) {
+function getTrainIds(station: {
+  [key in keyof TrainlineStation]: any[];
+}) {
   return new Set(
     [
       station.sncf_id,
@@ -425,6 +420,16 @@ function getTrainIds(station: any) {
       station.benerail_id,
       station.westbahn_id,
     ]
+      .filter(Boolean)
+      .flat()
+  );
+}
+
+function getBusIds(station: {
+  [key in keyof TrainlineStation]: any[];
+}) {
+  return new Set(
+    [station.busbud_id, station.distribusion_id, station.flixbus_id]
       .filter(Boolean)
       .flat()
   );
