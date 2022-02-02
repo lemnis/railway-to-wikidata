@@ -39,7 +39,7 @@ interface StopPlace {
       | "grailsID";
     values: string[];
   }[];
-  geometry: { type: "Point"; coordinates: [number, number] };
+  geometry: { type: "Point"; coordinates: [number, number][] };
 }
 
 export const getLocations = () =>
@@ -71,7 +71,9 @@ export const getLocations = () =>
               .map(({ values }) => values)
               .flat()
               .map((value) => ({ value })),
-            [Property.CoordinateLocation]: [geometry],
+            [Property.CoordinateLocation]: geometry.coordinates.map(
+              (value) => ({ value: [value[1], value[0]] })
+            ),
           },
         }))
     );
