@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { LocationV4 } from "../../types/location";
-import { findCountryByAlpha3 } from "../../transform/country";
+import { findCountryByAlpha2 } from "../../transform/country";
 
 /**
  *
@@ -39,7 +39,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
                 [CodeIssuer.UIC]: [
                   {
                     value:
-                      findCountryByAlpha3(countryCode)!.UIC![0].toString() +
+                      findCountryByAlpha2(countryCode)!.UIC![0].toString() +
                       stationUICCode,
                   },
                 ],
@@ -48,7 +48,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
                 ],
                 [Property.StationCode]: [{ value: stationShortCode }],
                 [Property.Country]: [
-                  { value: findCountryByAlpha3(countryCode)!.wikidata },
+                  { value: findCountryByAlpha2(countryCode)!.wikidata },
                 ],
               },
             })
