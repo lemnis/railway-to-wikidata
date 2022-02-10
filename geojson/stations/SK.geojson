@@ -1,0 +1,1607 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/26152964",
+      "properties": {
+        "name": "Dvory nad Žitavou",
+        "name:hu": "Udvard",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DvnZ",
+        "train": "yes",
+        "id": "node/26152964"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2497771,
+          47.9686148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26202728",
+      "properties": {
+        "name": "Bratislava-Rača",
+        "name:de": "Bratislava-Ratzersdorf",
+        "network": "ŽSR;IDS BK",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BaRa",
+        "train": "yes",
+        "id": "node/26202728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1608573,
+          48.2089564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/27026143",
+      "properties": {
+        "name": "Šaštín-Stráže",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SaSt",
+        "train": "yes",
+        "id": "node/27026143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1421684,
+          48.6340166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/27317525",
+      "properties": {
+        "name": "Liptovský Hrádok",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "LiHr",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/27317525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7214447,
+          49.0379488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/30073060",
+      "properties": {
+        "comment": "schema a elektrifikacia vid. http://rail.sk/arp/slovakia/zst/145763.htm",
+        "name": "Bratislava-Petržalka",
+        "name:de": "Bratislava-Engerau",
+        "operator": "ŽSR",
+        "phone": "+421 24 48 58 188",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position": "17.9",
+        "railway:position:exact": "17.898",
+        "railway:ref": "BaPz",
+        "railway:ref:ZSSK": "BP",
+        "railway:ref:ÖBB": "Pta",
+        "train": "yes",
+        "uic_name": "Bratislava-Petrzalka",
+        "uic_ref": "5600582",
+        "website": "http://www.slovakrail.sk/",
+        "wheelchair": "yes",
+        "wikidata": "Q800563",
+        "id": "node/30073060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0995473,
+          48.1213238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/190123331",
+      "properties": {
+        "name": "Snina mesto",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SniM",
+        "train": "yes",
+        "id": "node/190123331"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1566295,
+          48.9898956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/206244706",
+      "properties": {
+        "name": "Považská Bystrica",
+        "network": "ŽSR",
+        "operator": "ZSSK",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "PoBy",
+        "train": "yes",
+        "wikidata": "Q47036141",
+        "wikipedia": "sk:Železničná stanica Považská Bystrica",
+        "id": "node/206244706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4313692,
+          49.122842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/272305921",
+      "properties": {
+        "name": "Čaňa",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Cana",
+        "train": "yes",
+        "id": "node/272305921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3096194,
+          48.6096724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/282377198",
+      "properties": {
+        "name": "Sekule",
+        "name:de": "Sekeln",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Seku",
+        "train": "yes",
+        "wikidata": "Q22807285",
+        "id": "node/282377198"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0190459,
+          48.6077391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/306074298",
+      "properties": {
+        "name": "Štrbské Pleso",
+        "name:de": "Tschirmer See",
+        "name:hu": "Csorbató",
+        "name:pl": "Szczyrbskie Jezioro",
+        "network": "TEŽ",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "SPle",
+        "train": "yes",
+        "wikidata": "Q8082892",
+        "id": "node/306074298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0634161,
+          49.1182006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/430238976",
+      "properties": {
+        "name": "Kežmarok-Pradiareň",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "KePr",
+        "train": "yes",
+        "id": "node/430238976"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.4473106,
+          49.1626649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/479821836",
+      "properties": {
+        "name": "Čermeľ",
+        "operator": "Košická detská historická železnica",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/479821836"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2281075,
+          48.7498615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/479821907",
+      "properties": {
+        "internet_access": "no",
+        "name": "Alpinka",
+        "public_transport": "station",
+        "railway": "station",
+        "toilets:wheelchair": "no",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikimedia_commons": "File:Alpinka Train Station.jpg",
+        "id": "node/479821907"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1834044,
+          48.7598451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/563298344",
+      "properties": {
+        "name": "Tlmače",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tlma",
+        "train": "yes",
+        "id": "node/563298344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5410864,
+          48.2898902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/614207657",
+      "properties": {
+        "name": "Trenčianske Jastrabie",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "TrJa",
+        "train": "yes",
+        "id": "node/614207657"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1190524,
+          48.8008589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/616361629",
+      "properties": {
+        "internet_access": "no",
+        "name": "Krásna nad Hornádom",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "KrnH",
+        "train": "yes",
+        "wikidata": "Q16507970",
+        "wikipedia": "fr:Gare de Krásna nad Hornádom",
+        "id": "node/616361629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2958796,
+          48.6700375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/619336549",
+      "properties": {
+        "internet_access": "no",
+        "name": "Haniska pri Košiciach",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "HpKS",
+        "train": "yes",
+        "id": "node/619336549"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2484656,
+          48.6313626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/668119151",
+      "properties": {
+        "name": "Bratislava predmestie",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Bapr",
+        "train": "yes",
+        "wikidata": "Q9179063",
+        "wikipedia": "sk:Železničná stanica Bratislava predmestie",
+        "id": "node/668119151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1345388,
+          48.1844545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/705471310",
+      "properties": {
+        "name": "Veľká Ida",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "VeId",
+        "train": "yes",
+        "id": "node/705471310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1719554,
+          48.5912282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1078549756",
+      "properties": {
+        "loc_name": "Parkan,Parkany,Párkány,Shturovo,Sturovo",
+        "name": "Štúrovo",
+        "name:de": "Gockern",
+        "name:hu": "Párkány",
+        "name:ru": "Штурово",
+        "name:sk": "Štúrovo",
+        "old_name": "Parkan",
+        "platforms": "3",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Stur",
+        "train": "yes",
+        "id": "node/1078549756"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6790704,
+          47.7995822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1174953463",
+      "properties": {
+        "name": "Čakajovce",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Caka",
+        "train": "yes",
+        "id": "node/1174953463"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0361468,
+          48.372534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1542214651",
+      "properties": {
+        "name": "Dunajov",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Duna",
+        "train": "yes",
+        "id": "node/1542214651"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8187529,
+          49.3598858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1767486313",
+      "properties": {
+        "name": "Nižná",
+        "name:be": "Ніжна",
+        "name:ru": "Нижна",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "46.415",
+        "railway:ref": "Nizn",
+        "train": "yes",
+        "uic_ref": "5617685",
+        "id": "node/1767486313"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5286582,
+          49.3100208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1786317295",
+      "properties": {
+        "internet_access": "no",
+        "name": "Barca",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Barc",
+        "train": "yes",
+        "wikidata": "Q55810038",
+        "wikipedia": "hu:Bárca megállóhely",
+        "id": "node/1786317295"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.276268,
+          48.6792415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1911997558",
+      "properties": {
+        "name": "Trenčín",
+        "name:de": "Trentschin",
+        "name:hu": "Trencsén",
+        "name:la": "Trentsinium;Laugaricio",
+        "name:ru": "Тренчин",
+        "name:sr": "Тренчин",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tren",
+        "train": "yes",
+        "wikidata": "Q9361479",
+        "wikipedia": "sk:Železničná stanica Trenčín",
+        "id": "node/1911997558"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0517678,
+          48.896631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2001930740",
+      "properties": {
+        "name": "Bratislava-Vinohrady",
+        "network": "ŽSR;IDS BK",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BaVi",
+        "train": "yes",
+        "uic_ref": "5600585",
+        "wheelchair": "yes",
+        "id": "node/2001930740"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1332642,
+          48.1867327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2945412290",
+      "properties": {
+        "name": "Dolný Hričov",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DoHr",
+        "train": "yes",
+        "id": "node/2945412290"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6433581,
+          49.240741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3266126482",
+      "properties": {
+        "name": "Poprad-Spišská Sobota",
+        "name:de": "Deutschendorf-Georgenberg",
+        "operator": "Železnice Slovenskej republiky",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "PpSS",
+        "train": "yes",
+        "id": "node/3266126482"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.3097068,
+          49.0575365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3334032453",
+      "properties": {
+        "name": "Veľké Leváre",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "VeLe",
+        "train": "yes",
+        "id": "node/3334032453"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0186066,
+          48.5092841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3334032454",
+      "properties": {
+        "addr:city": "Závod",
+        "addr:postcode": "90872",
+        "addr:street": "Sokolská",
+        "name": "Závod",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Zavo",
+        "train": "yes",
+        "id": "node/3334032454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0076939,
+          48.5390284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3350963359",
+      "properties": {
+        "addr:city": "Bratislava",
+        "addr:street": "Námestie Franza Liszta",
+        "internet_access": "wlan",
+        "name": "Bratislava hlavná stanica",
+        "name:de": "Bratislava Hauptbahnhof",
+        "name:en": "Bratislava main station",
+        "name:hu": "Pozsony főpályaudvar",
+        "name:ru": "Братислава-Главная",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Bahl",
+        "train": "yes",
+        "uic_name": "Bratislava hl.st.",
+        "uic_ref": "5600207",
+        "wheelchair": "yes",
+        "wikidata": "Q899662",
+        "wikipedia": "sk:Bratislava hlavná stanica",
+        "id": "node/3350963359"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1066995,
+          48.158933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3350963364",
+      "properties": {
+        "name": "Bratislava-Železná studienka",
+        "name:de": "Pressburg - Eisenbrünnl",
+        "name:hu": "Vöröshíd",
+        "name:sk": "Bratislava-Železná studienka",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BaZs",
+        "train": "yes",
+        "wikidata": "Q4178862",
+        "id": "node/3350963364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0727754,
+          48.1746008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3350963367",
+      "properties": {
+        "name": "Devínska Nová Ves",
+        "name:de": "Theben Neudorf",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "DeNV",
+        "railway:ref:ÖBB": "Dnv",
+        "train": "yes",
+        "uic_name": "Devinska Nova Ves",
+        "uic_ref": "5600193",
+        "wheelchair": "limited",
+        "wikidata": "Q12781947",
+        "id": "node/3350963367"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9763686,
+          48.2190576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3350963369",
+      "properties": {
+        "name": "Gbely",
+        "name:de": "Egbell",
+        "name:hu": "Egbell",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Gbly",
+        "train": "yes",
+        "wikidata": "Q55594244",
+        "id": "node/3350963369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0911835,
+          48.7235335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3350963373",
+      "properties": {
+        "name": "Kúty",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kuty",
+        "train": "yes",
+        "wikidata": "Q4851",
+        "id": "node/3350963373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0474958,
+          48.6619577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3350963374",
+      "properties": {
+        "name": "Moravský Svätý Ján",
+        "name:de": "St. Johann an der March",
+        "name:hu": "Morvaszentjános",
+        "name:sk": "Moravský Svätý Ján",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "MoSJ",
+        "train": "yes",
+        "id": "node/3350963374"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0089201,
+          48.587406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3355889029",
+      "properties": {
+        "name": "Bratislava-Vajnory",
+        "name:de": "Bratislava-Weinern",
+        "network": "ŽSR;IDS BK",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BaVa",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q9179062",
+        "id": "node/3355889029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2066981,
+          48.1948891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3776215193",
+      "properties": {
+        "name": "Senica",
+        "name:de": "Senitz",
+        "name:hu": "Szenice",
+        "old_name:hu": "Szenic",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Seni",
+        "train": "yes",
+        "id": "node/3776215193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3347199,
+          48.6655882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4752645712",
+      "properties": {
+        "name": "Tvrdošovce",
+        "name:hu": "Tardoskedd",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tvdc",
+        "train": "yes",
+        "id": "node/4752645712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0406319,
+          48.0927048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4757867716",
+      "properties": {
+        "name": "Dunajov",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Duna",
+        "train": "yes",
+        "id": "node/4757867716"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8187319,
+          49.3599193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4759561100",
+      "properties": {
+        "alt_name:de": "Pistian",
+        "name": "Piešťany",
+        "name:de": "Pistyan",
+        "name:hu": "Pöstyén",
+        "name:pl": "Pieszczany",
+        "name:ru": "Пьештяны",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Pies",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q15631059",
+        "wikipedia": "sk:Železničná stanica Piešťany",
+        "id": "node/4759561100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8147647,
+          48.5962973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4759562628",
+      "properties": {
+        "internet_access": "no",
+        "name": "Veľké Kostoľany",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "VeKl",
+        "train": "yes",
+        "id": "node/4759562628"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7741081,
+          48.50726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5279185356",
+      "properties": {
+        "name": "Rusovce",
+        "name:de": "Karlburg",
+        "name:hr": "Rosvar",
+        "name:hu": "Oroszvár",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ruso",
+        "train": "yes",
+        "wikidata": "Q9324128",
+        "id": "node/5279185356"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1508592,
+          48.0465716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5366254620",
+      "properties": {
+        "name": "Topoľčany",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Topl",
+        "train": "yes",
+        "id": "node/5366254620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1695519,
+          48.5625616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5461793293",
+      "properties": {
+        "addr:city": "Ružomberok - Baničné",
+        "addr:housenumber": "224/3",
+        "addr:postcode": "03401",
+        "addr:street": "Sládkovičova",
+        "internet_access": "no",
+        "name": "Ružomberok - Malé Nádražie",
+        "note": "V cudzích jazykoch:\nNemčina - Rosenberg-Kleiner Bahnhof\nMaďarčina - Rózsahegy-Kis Álommás\nAngličtina - Ruzomberok-Small Railway Station\nPoľština - Rozmberk-Maly Dvorzec Kolejowy\nRuština - Ruzhomberok-Nebol´shoy vokzal (Pyxkom6epok-He6onbwoň Bok3an)",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/5461793293"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3058056,
+          49.0663263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5687924526",
+      "properties": {
+        "addr:city": "Ružomberok",
+        "addr:postcode": "03401",
+        "addr:street": "Unnamed Road",
+        "facebook": "https://www.facebook.com/korytnicka.zeleznica/",
+        "internet_access": "no",
+        "name": "Ružomberok-Zápalkáreň",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "website": "https://www.korytnickazeleznica.eu/",
+        "id": "node/5687924526"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3056963,
+          49.0583812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5707475372",
+      "properties": {
+        "addr:city": "Liptovský Mikuláš-Okoličné",
+        "addr:postcode": "03404",
+        "addr:street": "Staničná",
+        "addr:unit": "76",
+        "name": "Okoličné",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Okol",
+        "train": "yes",
+        "id": "node/5707475372"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6516641,
+          49.0765394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5707483917",
+      "properties": {
+        "addr:city": "Podtureň",
+        "addr:postcode": "03301",
+        "addr:street": "SNP",
+        "name": "Podtureň",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "Podt",
+        "train": "yes",
+        "id": "node/5707483917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6952672,
+          49.0590771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5715256323",
+      "properties": {
+        "name": "Vrútky nákladná stanica",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vrns",
+        "train": "yes",
+        "id": "node/5715256323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.946774,
+          49.1090948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5743856155",
+      "properties": {
+        "name": "Rybany",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ryba",
+        "train": "yes",
+        "id": "node/5743856155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2612826,
+          48.6697759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5865123119",
+      "properties": {
+        "name": "Dolný Kubín zastávka",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "DoKz",
+        "train": "yes",
+        "id": "node/5865123119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2791408,
+          49.2119123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6253850462",
+      "properties": {
+        "internet_access": "no",
+        "name": "Partizánske zastávka",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "Parz",
+        "train": "yes",
+        "id": "node/6253850462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3937761,
+          48.6270484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6446509215",
+      "properties": {
+        "internet_access": "no",
+        "name": "Žilina",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Zili",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "uic_ref": "5600020",
+        "wheelchair": "limited",
+        "wikidata": "Q801697",
+        "wikipedia": "sk:Železničná stanica Žilina",
+        "id": "node/6446509215"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7468252,
+          49.2270928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6646508753",
+      "properties": {
+        "name": "Zohor",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Zoho",
+        "train": "yes",
+        "id": "node/6646508753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9912527,
+          48.3257702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6649247706",
+      "properties": {
+        "name": "Lozorno",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Lozo",
+        "train": "yes",
+        "id": "node/6649247706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0422747,
+          48.3372137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6771996817",
+      "properties": {
+        "name": "Dolný Štál",
+        "name:hu": "Alistál vasútállomás",
+        "operator": "RegioJet",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Stal",
+        "train": "yes",
+        "id": "node/6771996817"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7434365,
+          47.9513481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6797536730",
+      "properties": {
+        "name": "Tatranský Lieskovec",
+        "name:hu": "Mogyorós",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:position:exact": "1,327",
+        "railway:ref": "TaLi",
+        "train": "yes",
+        "id": "node/6797536730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0673491,
+          49.092822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7316507989",
+      "properties": {
+        "air_conditioning": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Košice",
+        "name:cs": "Košice",
+        "name:de": "Kaschau",
+        "name:he": "קושיצה",
+        "name:hu": "Kassa",
+        "name:ja": "コシツェ",
+        "name:la": "Cassovia",
+        "name:lt": "Košicė",
+        "name:pl": "Koszyce",
+        "name:ro": "Caşovia",
+        "name:ru": "Кошице",
+        "name:sr": "Кошице",
+        "name:tr": "Cana",
+        "name:uk": "Кошиці",
+        "old_name": "Kassa",
+        "old_name:fr": "Cassovie",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Keos",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "website": "https://stanicakosice.sk/",
+        "wheelchair": "limited",
+        "wikidata": "Q801037",
+        "wikipedia": "sk:Železničná stanica Košice",
+        "id": "node/7316507989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2686703,
+          48.7228349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7415196493",
+      "properties": {
+        "name": "Dolný Kubín zastávka",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:position:exact": "15.672",
+        "railway:ref": "DoKz",
+        "train": "yes",
+        "uic_ref": "5617435",
+        "id": "node/7415196493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2792358,
+          49.2117716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7446724508",
+      "properties": {
+        "name": "Štrba zastávka",
+        "operator": "Železnice Slovenskej republiky",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref": "Strx",
+        "source": "local knowledge",
+        "train": "yes",
+        "id": "node/7446724508"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0824741,
+          49.0626158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7555183810",
+      "properties": {
+        "name": "Bytča",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Bytc",
+        "train": "yes",
+        "wikidata": "Q87702039",
+        "id": "node/7555183810"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5533472,
+          49.2074325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8150247696",
+      "properties": {
+        "name": "Podunajské Biskupice",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "PoBi",
+        "train": "yes",
+        "wikidata": "Q13365739",
+        "wikipedia": "sk:Železničná stanica Podunajské Biskupice",
+        "id": "node/8150247696"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2206858,
+          48.1312649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8223326625",
+      "properties": {
+        "name": "Bratislava-Lamač",
+        "name:de": "Pressburg - Blumenau",
+        "network": "ŽSR",
+        "operator": "ŽSR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "BaLa",
+        "train": "yes",
+        "uic_name": "Bratislava-Lamac",
+        "uic_ref": "5600581",
+        "wikidata": "Q4180549",
+        "wikipedia": "sk:Železničná stanica Bratislava-Lamač",
+        "id": "node/8223326625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0504339,
+          48.1849975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8398119353",
+      "properties": {
+        "name": "Vrútky",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vrut",
+        "train": "yes",
+        "wikidata": "Q15631062",
+        "wikipedia": "sk:Železničná stanica Vrútky",
+        "id": "node/8398119353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9242834,
+          49.1148759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8962443357",
+      "properties": {
+        "name": "Pribeta",
+        "name:hu": "Perbete",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Prit",
+        "train": "yes",
+        "id": "node/8962443357"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3164885,
+          47.9383222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8962455997",
+      "properties": {
+        "name": "Gbelce",
+        "name:hu": "Köbölkút",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Gbce",
+        "train": "yes",
+        "id": "node/8962455997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5070075,
+          47.8496292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9040800059",
+      "properties": {
+        "name": "Štrba",
+        "name:hu": "Csorba",
+        "operator": "Železnice Slovenskej republiky",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Strb",
+        "train": "yes",
+        "id": "node/9040800059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0655966,
+          49.0839375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9156014259",
+      "properties": {
+        "name": "Poprad-Tatry",
+        "operator": "Železnice Slovenskej republiky",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "PoTa",
+        "train": "yes",
+        "wikidata": "Q801323",
+        "wikipedia": "sk:Železničná stanica Poprad-Tatry",
+        "id": "node/9156014259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2949412,
+          49.0600912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9456331905",
+      "properties": {
+        "official_name": "Štrba OŽ",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "0,000",
+        "source": "https://www.zsr.sk/files/sps/Doprava/Tabulky-tratovych-pomerov/Aktualne-TTP/TTP-112-F-Strbske-Pleso-Strba-OZ-28z.pdf;https://aplikacie.zsr.sk/InfoMapaInternet5/index.aspx",
+        "train": "yes",
+        "id": "node/9456331905"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.065764,
+          49.0841153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9456331909",
+      "properties": {
+        "official_name": "Štrbské Pleso OŽ",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "4,609",
+        "source": "https://www.zsr.sk/files/sps/Doprava/Tabulky-tratovych-pomerov/Aktualne-TTP/TTP-112-F-Strbske-Pleso-Strba-OZ-28z.pdf;https://aplikacie.zsr.sk/InfoMapaInternet5/index.aspx",
+        "train": "yes",
+        "id": "node/9456331909"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0637082,
+          49.1181373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9456331910",
+      "properties": {
+        "name": "Tatranská Lomnica",
+        "name:de": "Tatralomnitz",
+        "name:hu": "Tátralomnic",
+        "name:pl": "Tatrzańska Łomnica",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "8,968",
+        "railway:ref": "TaLo",
+        "source": "https://aplikacie.zsr.sk/InfoMapaInternet5/index.aspx;https://www.zsr.sk/files/sps/Doprava/Tabulky-tratovych-pomerov/Aktualne-TTP/TTP-112-C-Studeny-Potok-Tatranska-Lomnica-25z.pdf",
+        "train": "yes",
+        "wikidata": "Q7688242",
+        "id": "node/9456331910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2793782,
+          49.1646635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9456331911",
+      "properties": {
+        "official_name": "Tatranská Lomnica TEŽ",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "5,938",
+        "source": "https://aplikacie.zsr.sk/InfoMapaInternet5/index.aspx;https://www.zsr.sk/files/sps/Doprava/Tabulky-tratovych-pomerov/Aktualne-TTP/TTP-112-E-Tatranska-Lomnica-TEZ-Stary-Smokovec-TEZ-25z.pdf",
+        "train": "yes",
+        "id": "node/9456331911"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2791581,
+          49.1647034
+        ]
+      }
+    }
+  ]
+}
