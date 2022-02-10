@@ -1,22 +1,27 @@
 import { Country, findCountryByUIC } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { getGtfsStations } from "../../utils/gtfs";
+import { getGtfsStations, getGtfsStationsByRailRoute } from "../../utils/gtfs";
 
 const defaultFilter = ({ parent_station }: any) => !parent_station;
 
 const getNavitiaGtfsLocations =
-  (url: string, name: string, filter?: (arg: { stop_id: string }) => boolean) =>
+  (
+    url: string,
+    name: string,
+    filter?: (arg: { stop_id: string }) => boolean,
+    map?: (arg: { stop_id: string }) => string
+  ) =>
   () =>
     getGtfsStations(url, name).then((data) =>
       data
         .filter(filter || defaultFilter)
         .map<LocationV4>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
-          // const uic = stop_id.slice(-7);
+          const code = map ? map({ stop_id }) : stop_id;
           return {
             labels: [{ value: stop_name }],
             claims: {
-              [CodeIssuer.UIC]: [{ value: stop_id }],
+              [CodeIssuer.UIC]: [{ value: code }],
               // [Property.Country]: [
               //   { value: findCountryByUIC(parseInt(uic[0] + uic[1]))?.wikidata },
               // ],
@@ -72,7 +77,7 @@ export const countries = {
   ireland: getNavitiaGtfsLocations(
     "https://navitia.opendatasoft.com/explore/dataset/ie/files/bd35581db3c32c79b1047a57dfa45a6d/download/",
     "navitia-ireland",
-    ({ stop_id }) => stop_id.startsWith('OIR:Navitia:')
+    ({ stop_id }) => stop_id.startsWith("OIR:Navitia:")
   ),
   estonia: getNavitiaGtfsLocations(
     "https://navitia.opendatasoft.com/explore/dataset/ee/files/9da44e190878b91c4baf1ec507663ac9/download/",
@@ -88,7 +93,8 @@ export const countries = {
         ...Country.Sweden.UIC,
       ]
         .map((uic) => `ODK:Navitia:00000${uic}`)
-        .some((i) => stop_id.startsWith(i))
+        .some((i) => stop_id.startsWith(i)),
+    ({ stop_id }) => stop_id.slice(-7)
   ),
   belgium: getNavitiaGtfsLocations(
     "https://navitia.opendatasoft.com/explore/dataset/be/files/42a0f2d4007f38ff35c5188d499d8a77/download/",

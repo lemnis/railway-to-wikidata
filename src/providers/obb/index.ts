@@ -18,7 +18,7 @@ export const getLocations = (): Promise<LocationV4[]> =>
         id: stop_id,
         labels: [{ value: stop_name }],
         claims: {
-          [CodeIssuer.UIC]: [{ value: stop_id }],
+          [CodeIssuer.IBNR]: [{ value: stop_id }],
           [Property.Country]: [
             {
               value: findCountryByUIC(parseInt(stop_id[0] + stop_id[1]))

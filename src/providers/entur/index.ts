@@ -1,5 +1,6 @@
 import { graphql, graphqlSync } from "graphql";
 import fetch from "node-fetch";
+import { findCountryByUIC } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
@@ -66,6 +67,15 @@ export const getLocations = () =>
               .map(({ values }) => values)
               .flat()
               .map((value) => ({ value })),
+            [Property.Country]: keyValues
+              .filter(({ key }) => key === "uicCode")
+              .map(({ values }) => values)
+              .flat()
+              .filter(Boolean)
+              .map((value) => ({
+                value: findCountryByUIC(parseInt(value[0] + value[1]))
+                  ?.wikidata,
+              })),
             [Property.StationCode]: keyValues
               .filter(({ key }) => key === "jbvCode")
               .map(({ values }) => values)
