@@ -230,7 +230,7 @@ export const grouped = async () => {
         if (!places.busStops.includes(station)) places.busStops.push(station);
       } else if (trainIds.size === 0 && busIds.size === 0) {
         // is empty ignore
-      } else if (trainIds.size >= 1) {
+      } else if (trainIds.size >= 2) {
         if (!places.trainStations.includes(station))
           places.trainStations.push(station);
       }
