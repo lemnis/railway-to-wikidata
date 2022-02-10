@@ -1,4 +1,5 @@
 import { ClaimObject, CodeIssuer, Property } from "./wikidata";
+import { score } from '../score';
 
 export interface Label {
   value: string;
@@ -23,7 +24,7 @@ export interface LocationV4 {
   };
   info?: {
     match?: {
-      match?: any;
+      matched?: ReturnType<typeof score>;
       wikidata?: any;
       [key: string]: any;
     }[];

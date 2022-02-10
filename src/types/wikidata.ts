@@ -14,13 +14,13 @@ export enum Property {
   StationCode = "P296",
   InAdministrativeTerritory = "P131",
   PostalCode = "P281",
-  StreetNumber = 'P670',
+  StreetNumber = "P670",
   /** street, road, or square, where the item is located.
    * To add the number, use Property "street number" as qualifier */
-  LocatedOnStreet = 'P669',
+  LocatedOnStreet = "P669",
   /** Full street address where subject is located.
    * Include building number, city/locality, post code */
-  StreetAddress = 'P6375',
+  StreetAddress = "P6375",
   Location = "P276",
   CoordinateLocation = "P625",
   Country = "P17",
@@ -32,8 +32,8 @@ export enum Property {
   DBStationCategory = "P5105",
   PropertyConstraint = "P2302",
   ReferenceURL = "P854",
-  WheelchairAccessibility = 'P2846',
-  ElevationAboveSeaLevel = 'P2044'
+  WheelchairAccessibility = "P2846",
+  ElevationAboveSeaLevel = "P2044",
 }
 
 export enum Items {
@@ -68,7 +68,10 @@ export const PropertyOptions: {
     [Property.PropertyConstraint]: [Constraint.SingleValue],
   },
   [CodeIssuer.UIC]: {
-    [Property.PropertyConstraint]: [Constraint.DistinctValue],
+    [Property.PropertyConstraint]: [
+      Constraint.DistinctValue,
+      Constraint.PreferSingle,
+    ],
   },
   [CodeIssuer.DB]: {
     [Property.PropertyConstraint]: [Constraint.SingleValue],
@@ -82,7 +85,6 @@ export const PropertyOptions: {
   [CodeIssuer.IATA]: {
     [Property.PropertyConstraint]: [Constraint.SingleValue],
   },
-  
 };
 
 export const References = {
@@ -117,7 +119,7 @@ export interface ClaimObject<T = string | number> {
   references?: Record<string, string>[] | Record<string, string>;
 
   label?: string;
-  'xml:lang'?: string;
+  "xml:lang"?: string;
   [key: string]: string | boolean | undefined | number | Record<string, any>;
 }
 
