@@ -142,6 +142,7 @@ export const Country = enforceObjectType({
     wikidata: "Q41",
     UIC: [73],
     alpha2: "GR",
+    alpha3: 'GRC'
   },
   Hungary: {
     wikidata: "Q28",
@@ -199,6 +200,10 @@ export const Country = enforceObjectType({
     wikidata: "Q822",
     UIC: [98],
     alpha2: "LB",
+  },
+  Liechtenstein: {
+    wikidata: "Q347",
+    alpha2: 'LI'
   },
   Lithuania: {
     wikidata: "Q37",
@@ -386,15 +391,23 @@ export const findCountryByUIC = (code: number) =>
   Object.values(Country).find((country) =>
     (country as CountryInfo).UIC?.includes(code)
   );
+  
+export const findCountryByIBNR = (code: number) =>
+  Object.values(Country).find((country) =>
+    (country as CountryInfo).IBNR?.includes(code)
+  );
+
 export const findCountryByIVR = (code: string) =>
   Object.values(Country).find(
     (country) => (country as CountryInfo).IVR === code
   );
+
 export const findCountryByAlpha2 = (code: string): CountryInfo | undefined =>
   Object.values(Country).find(
     (country) => (country as CountryInfo).alpha2 === code
   );
+  
 export const findCountryByAlpha3 = (code: string): CountryInfo | undefined =>
   Object.values(Country).find(
     (country) => (country as CountryInfo).alpha3 === code
-  );
+  )
