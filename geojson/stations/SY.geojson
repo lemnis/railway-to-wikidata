@@ -1,4 +1,63 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/5680650278",
+      "properties": {
+        "addr:city": "طرطوس",
+        "name": "طرطوس",
+        "name:ar": "طرطوس",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/5680650278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8907535,
+          34.890657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5757069671",
+      "properties": {
+        "alt_name": "Mahattat al Qadam",
+        "name": "محطة القدم",
+        "name:de": "Damaskus Kadam",
+        "name:en": "Damascus Kadam",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/5757069671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.290909,
+          33.4764527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6064953133",
+      "properties": {
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6064953133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.0102618,
+          35.966193
+        ]
+      }
+    }
+  ]
 }

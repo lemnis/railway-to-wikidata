@@ -3785,6 +3785,28 @@
     },
     {
       "type": "Feature",
+      "id": "node/1604842623",
+      "properties": {
+        "alt_name": "五林站;五林火车站;Wulin Railway Station",
+        "name": "五林",
+        "name:en": "Wulin",
+        "name:ru": "Улинь",
+        "name:zh": "五林",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1604842623"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.7846803,
+          44.8188924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1604972727",
       "properties": {
         "alt_name": "林口站;林口火车站;Linkou Railway Station",
@@ -6929,6 +6951,26 @@
         "coordinates": [
           113.2156768,
           36.320669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2329166654",
+      "properties": {
+        "alt_name": "水洋站;水洋火车站;Shuiyang Railway Station",
+        "name": "水洋",
+        "name:en": "Shuiyang",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2329166654"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.3341186,
+          36.4652064
         ]
       }
     },
@@ -16745,8 +16787,8 @@
       "id": "node/4545879770",
       "properties": {
         "alt_name": "水晶波站;水晶波火车站;Shuijingbo Railway Station",
-        "name": "水晶波",
-        "name:en": "Shuijingbo",
+        "name": "水晶坡",
+        "name:en": "Shuijingpo",
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -30591,6 +30633,29 @@
         "coordinates": [
           121.286568,
           28.6891862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7714110157",
+      "properties": {
+        "alt_name": "临海站;临海火车站;Linhai Railway Station",
+        "name": "临海",
+        "name:en": "Linhai",
+        "name:zh": "临海",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "临海",
+        "train": "yes",
+        "wikidata": "Q10877173",
+        "id": "node/7714110157"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2424833,
+          28.8830234
         ]
       }
     },
@@ -45875,8 +45940,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          113.5581808,
-          36.5738863
+          113.5582079,
+          36.5738036
         ]
       }
     },
@@ -55727,7 +55792,7 @@
       "type": "Feature",
       "id": "node/8944268243",
       "properties": {
-        "name": "卡路屯站",
+        "name": "卡路屯",
         "public_transport": "station",
         "railway": "station",
         "train": "yes",

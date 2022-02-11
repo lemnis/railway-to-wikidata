@@ -5446,6 +5446,7 @@
       "type": "Feature",
       "id": "node/595644496",
       "properties": {
+        "light_rail": "yes",
         "name": "Volla",
         "network": "Circumvesuviana",
         "operator": "Circumvesuviana",
@@ -5460,8 +5461,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.3297268,
-          40.8876978
+          14.3298069,
+          40.8878826
         ]
       }
     },
@@ -11062,25 +11063,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/1724407745",
-      "properties": {
-        "disused": "station",
-        "name": "Vitulano-Foglianise",
-        "public_transport": "station",
-        "railway": "station",
-        "train": "yes",
-        "id": "node/1724407745"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.7243333,
-          41.1720584
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1735889000",
       "properties": {
         "light_rail": "yes",
@@ -13474,6 +13456,27 @@
     },
     {
       "type": "Feature",
+      "id": "node/3242834461",
+      "properties": {
+        "name": "Palermo Roccella",
+        "operator": "RFI",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q18785619",
+        "wikipedia": "it:Stazione di Palermo Roccella",
+        "id": "node/3242834461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4076963,
+          38.0873113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3296615161",
       "properties": {
         "name": "Borgo San Martino",
@@ -14481,12 +14484,13 @@
       "type": "Feature",
       "id": "node/4010029591",
       "properties": {
-        "name": "Lolli",
+        "name": "Palermo Lolli",
+        "operator": "RFI",
         "public_transport": "station",
-        "railway": "halt",
+        "railway": "station",
         "train": "yes",
         "wikidata": "Q22809922",
-        "wikipedia": "it:Stazione di Lolli",
+        "wikipedia": "it:Stazione di Palermo Lolli",
         "id": "node/4010029591"
       },
       "geometry": {
@@ -14501,13 +14505,14 @@
       "type": "Feature",
       "id": "node/4010138939",
       "properties": {
-        "name": "Maredolce",
+        "name": "Palermo Maredolce",
         "note": "Fermata fuera di servizio",
+        "operator": "RFI",
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
         "wikidata": "Q22810112",
-        "wikipedia": "it:Stazione di Maredolce",
+        "wikipedia": "it:Stazione di Palermo Maredolce",
         "id": "node/4010138939"
       },
       "geometry": {
@@ -15237,8 +15242,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.2878074,
-          40.8538836
+          14.2878022,
+          40.8538868
         ]
       }
     },
@@ -21388,6 +21393,26 @@
     },
     {
       "type": "Feature",
+      "id": "node/7881713767",
+      "properties": {
+        "name": "Traccia",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q98932053",
+        "wikipedia": "it:Stazione di Traccia",
+        "id": "node/7881713767"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2973792,
+          40.858334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/7964572815",
       "properties": {
         "internet_access": "no",
@@ -21423,24 +21448,6 @@
         "coordinates": [
           11.878119,
           44.3872826
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/8033523288",
-      "properties": {
-        "name": "Orvieto",
-        "public_transport": "station",
-        "railway": "stop",
-        "train": "yes",
-        "id": "node/8033523288"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.1266901,
-          42.7239959
         ]
       }
     },
@@ -22463,7 +22470,7 @@
       "type": "Feature",
       "id": "node/9063329758",
       "properties": {
-        "name": "Palazzo Reale - Orleans",
+        "name": "Palermo Palazzo Reale-Orleans",
         "operator": "RFI",
         "public_transport": "station",
         "railway": "station",
@@ -22471,14 +22478,14 @@
         "train": "yes",
         "uic_ref": "8303930",
         "wikidata": "Q3970398",
-        "wikipedia": "it:Stazione di Palazzo Reale-Orleans",
+        "wikipedia": "it:Stazione di Palermo Palazzo Reale-Orleans",
         "id": "node/9063329758"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3541024,
-          38.1089564
+          13.3540917,
+          38.1089585
         ]
       }
     },
@@ -22486,20 +22493,20 @@
       "type": "Feature",
       "id": "node/9063329769",
       "properties": {
-        "name": "Guadagna",
+        "name": "Palermo Guadagna",
         "operator": "RFI",
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
         "wikidata": "Q22809919",
-        "wikipedia": "it:Stazione di Guadagna",
+        "wikipedia": "it:Stazione di Palermo Guadagna",
         "id": "node/9063329769"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.3708394,
-          38.0982558
+          13.3708454,
+          38.09825
         ]
       }
     },

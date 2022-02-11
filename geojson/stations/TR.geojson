@@ -1,4 +1,3213 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/31678662",
+      "properties": {
+        "name": "Karaköy",
+        "name:ar": "محطة كارا كوي تونيل",
+        "name:en": "Karaköy Station, Tünel Line",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "funicular",
+        "train": "yes",
+        "tunnel": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q48805491",
+        "wikimedia_commons": "Category:Karaköy (Tünel)",
+        "id": "node/31678662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9740393,
+          41.0228645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31678663",
+      "properties": {
+        "internet_access": "no",
+        "name": "Beyoğlu",
+        "name:ar": "محطة بي أوغلو تونيل",
+        "name:en": "Beyoğlu Station, Tünel Line",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "funicular",
+        "train": "yes",
+        "tunnel": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q20313271",
+        "wikimedia_commons": "Category:Beyoğlu station",
+        "id": "node/31678663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9739877,
+          41.0283456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/142218952",
+      "properties": {
+        "electrified": "no",
+        "gauge": "1435",
+        "name": "Afyonkarahisar Ali Çetinkaya Garı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/142218952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5523988,
+          38.7641643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/142421346",
+      "properties": {
+        "name": "Akşehir",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/142421346"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4416191,
+          38.3702838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/158595627",
+      "properties": {
+        "name": "Kahramanmaraş Gar",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/158595627"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9305905,
+          37.5640034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/165993895",
+      "properties": {
+        "name": "Bozkurt Istasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "usage": "main",
+        "id": "node/165993895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6126454,
+          37.8273713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/166012795",
+      "properties": {
+        "name": "Çardak Istasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "usage": "main",
+        "id": "node/166012795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6809034,
+          37.8216054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/212886999",
+      "properties": {
+        "electrified": "no",
+        "gauge": "1435",
+        "name": "Selçuk",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "bing",
+        "train": "yes",
+        "wikidata": "Q28446397",
+        "id": "node/212886999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3728759,
+          37.9510211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/251733019",
+      "properties": {
+        "name": "Zeytinburnu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q43398835",
+        "id": "node/251733019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9054568,
+          40.9858638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/282815862",
+      "properties": {
+        "name": "Çobanlar Gar",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/282815862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7371587,
+          38.6885277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/282903538",
+      "properties": {
+        "name": "Küçükyalı",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55616344",
+        "id": "node/282903538"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1071691,
+          40.9462581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/282909259",
+      "properties": {
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Atalar",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q97320574",
+        "wikipedia": "tr:Atalar Tren İstasyonu",
+        "id": "node/282909259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1691914,
+          40.8987868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/282909973",
+      "properties": {
+        "name": "Cevizli",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q97320607",
+        "wikipedia": "tr:Cevizli Tren İstasyonu",
+        "id": "node/282909973"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1559855,
+          40.9100807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617374869",
+      "properties": {
+        "name": "İdealtepe",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55638302",
+        "id": "node/617374869"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1142485,
+          40.9378183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617374883",
+      "properties": {
+        "name": "Süreyya Plajı",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/617374883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1242403,
+          40.9267941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617374899",
+      "properties": {
+        "name": "Maltepe",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/617374899"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.133295,
+          40.920807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617375011",
+      "properties": {
+        "name": "Pendik",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q7162415",
+        "id": "node/617375011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.231618,
+          40.8801577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/665148430",
+      "properties": {
+        "name": "Alsancak",
+        "name:en": "Alsancak",
+        "name:tr": "Alsancak",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8080254",
+        "wikipedia:en": "Alsancak railway station",
+        "wikipedia:tr": "Alsancak Garı",
+        "id": "node/665148430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1488729,
+          38.4386301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/737949225",
+      "properties": {
+        "name": "Ulukent İzban İstasyonu",
+        "operator": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q7880798",
+        "wikipedia": "tr:Ulukent Tren İstasyonu",
+        "id": "node/737949225"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0354657,
+          38.5478512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/738753118",
+      "properties": {
+        "name": "İzban Atasanayi İstasyonu",
+        "operator": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q25479855",
+        "wikipedia": "tr:Ata Sanayi Tren İstasyonu",
+        "id": "node/738753118"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0531415,
+          38.4990422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/913399858",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1435",
+        "name": "Cumaovası İzban İstasyonu",
+        "network": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "voltage": "25000",
+        "wikidata": "Q5193795",
+        "wikipedia": "tr:Cumaovası Tren İstasyonu",
+        "id": "node/913399858"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1631377,
+          38.2643486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/913399945",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1435",
+        "name": "Gaziemir",
+        "network": "Aliağa-Cumaovası Hattı",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "voltage": "25000",
+        "id": "node/913399945"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1399787,
+          38.326354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1000822648",
+      "properties": {
+        "name": "Kartal",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55615709",
+        "wikipedia": "tr:Kartal Tren İstasyonu",
+        "id": "node/1000822648"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1910827,
+          40.8886904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1018997848",
+      "properties": {
+        "addr:city": "Diyarbakır",
+        "addr:district": "Bismil",
+        "name": "Bismil Tren İstasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1018997848"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.6619253,
+          37.8527977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1027924561",
+      "properties": {
+        "name": "Florya",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q58814863",
+        "id": "node/1027924561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7876122,
+          40.972897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1030923375",
+      "properties": {
+        "electrified": "no",
+        "gauge": "1435",
+        "name": "Goncalı İstasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "bing",
+        "train": "yes",
+        "usage": "main",
+        "id": "node/1030923375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1167725,
+          37.8480686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1030924769",
+      "properties": {
+        "name": "Kocabaş Istasyon",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "usage": "main",
+        "id": "node/1030924769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3277358,
+          37.8037151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1032704993",
+      "properties": {
+        "name": "Sarayköy Istasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1032704993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.92587,
+          37.9141394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1032705881",
+      "properties": {
+        "name": "Çamlık İstasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55638281",
+        "wikipedia": "tr:Çamlık Tren İstasyonu",
+        "id": "node/1032705881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3779202,
+          37.8799605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1036369880",
+      "properties": {
+        "name": "Savaştepe İstasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1036369880"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6502257,
+          39.3827909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1184766559",
+      "properties": {
+        "name": "Yenimahale",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55638084",
+        "wikipedia": "tr:Yenimahalle Tren İstasyonu",
+        "id": "node/1184766559"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8810529,
+          40.9817256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1184766586",
+      "properties": {
+        "name": "Yeşilyurt",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q92213253",
+        "wikipedia": "tr:Yeşilyurt Tren İstasyonu (İstanbul)",
+        "id": "node/1184766586"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8373253,
+          40.9654468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1339863753",
+      "properties": {
+        "name": "Etimesgut",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55611107",
+        "wikipedia": "tr:Etimesgut Tren İstasyonu",
+        "id": "node/1339863753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6629946,
+          39.9493218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1339958347",
+      "properties": {
+        "name": "Özgüneş",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55638300",
+        "wikipedia": "tr:Özgüneş Tren İstasyonu",
+        "id": "node/1339958347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6490951,
+          39.9518151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1626731519",
+      "properties": {
+        "gar_kodu": "7566",
+        "name": "Dursunbey",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "bing",
+        "train": "yes",
+        "id": "node/1626731519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6531014,
+          39.5474967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1678629843",
+      "properties": {
+        "name": "Tepeköy Tren İstasyonu",
+        "network": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q23692531",
+        "wikipedia": "tr:Tepeköy Tren İstasyonu",
+        "id": "node/1678629843"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.36184,
+          38.1467562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1697786687",
+      "properties": {
+        "name": "Biçerova İzban İstasyonu",
+        "operator": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q4919462",
+        "wikipedia": "tr:Biçerova Tren İstasyonu",
+        "id": "node/1697786687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9611421,
+          38.7491672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1744724160",
+      "properties": {
+        "name": "Yeşilköy",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q92207039",
+        "wikipedia": "tr:Yeşilköy Tren İstasyonu",
+        "id": "node/1744724160"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.824857,
+          40.9626544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1794391919",
+      "properties": {
+        "name": "Böceli Istasyon",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "usage": "main",
+        "id": "node/1794391919"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2085907,
+          37.802169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1898304351",
+      "properties": {
+        "local_ref": "2",
+        "name": "Ayrılık Çeşmesi",
+        "network": "İstanbul Metrosu",
+        "operator": "Metro İstanbul",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q18712120",
+        "wikipedia": "tr:Ayrılık Çeşmesi (İstanbul metrosu)",
+        "id": "node/1898304351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0304229,
+          41.000235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1907439622",
+      "properties": {
+        "name": "Yunus",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q58814876",
+        "id": "node/1907439622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2104051,
+          40.8845607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1908362611",
+      "properties": {
+        "name": "Erenköy",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1908362611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0763701,
+          40.9716688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1927956317",
+      "properties": {
+        "name": "Semt Garajı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1927956317"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1366075,
+          38.3570072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1967436211",
+      "properties": {
+        "name": "Salhane İzban İstasyonu",
+        "operator": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q7404417",
+        "wikipedia": "tr:Salhane Tren İstasyonu",
+        "id": "node/1967436211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1722878,
+          38.4507721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2022178952",
+      "properties": {
+        "name": "Ödemiş Gar İstasyon",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8078918",
+        "wikipedia": "tr:Ödemiş Garı",
+        "id": "node/2022178952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9656869,
+          38.2220647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2022178953",
+      "properties": {
+        "name": "Ödemiş Şehir İstasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q31188115",
+        "wikipedia": "tr:Ödemiş Şehir Garı",
+        "id": "node/2022178953"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9771181,
+          38.2272915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2171927595",
+      "properties": {
+        "name": "Seyrantepe",
+        "network": "İstanbul Metrosu",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "id": "node/2171927595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9957261,
+          41.1011898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2171927596",
+      "properties": {
+        "name": "Sanayi",
+        "network": "İstanbul Metrosu",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q20718122",
+        "wikipedia": "tr:Sanayi Mahallesi (İstanbul metrosu)",
+        "id": "node/2171927596"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0051754,
+          41.0942135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2219146431",
+      "properties": {
+        "name": "Sultandağı İstasyonu",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "bing",
+        "train": "yes",
+        "id": "node/2219146431"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2686615,
+          38.5454993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2239404700",
+      "properties": {
+        "name": "Atatürk Oto Sanayi",
+        "network": "İstanbul Metrosu",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q20312760",
+        "wikipedia": "tr:Atatürk Oto Sanayi (İstanbul metrosu)",
+        "id": "node/2239404700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0241763,
+          41.1180498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2253949587",
+      "properties": {
+        "name": "Halkalı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q5642508",
+        "wikipedia": "en:Halkalı railway station",
+        "id": "node/2253949587"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7665286,
+          41.0183702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2360893097",
+      "properties": {
+        "internet_access": "no",
+        "name": "Kaynarca",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q43398839",
+        "id": "node/2360893097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2559607,
+          40.8713685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2511296163",
+      "properties": {
+        "name": "Yenikapı",
+        "name:ar": "يني كابي",
+        "public_transport": "station",
+        "railway": "station",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q18712646",
+        "wikipedia": "tr:Yenikapı Tren İstasyonu",
+        "id": "node/2511296163"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9515608,
+          41.0051614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2562030343",
+      "properties": {
+        "name": "Hereke",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2562030343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6163364,
+          40.7843418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2596542075",
+      "properties": {
+        "building": "yes",
+        "name": "Mersin Garı",
+        "network": "TR-railway",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2596542075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6338391,
+          36.8031589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2626019497",
+      "properties": {
+        "name": "Kayaş",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q25473696",
+        "wikipedia": "tr:Kayaş Tren İstasyonu",
+        "id": "node/2626019497"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9656736,
+          39.9134386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2627502412",
+      "properties": {
+        "name": "Çankırı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2627502412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6140784,
+          40.5964228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2694271807",
+      "properties": {
+        "name": "Sapanca",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2694271807"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2734463,
+          40.6930706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2695641021",
+      "properties": {
+        "name": "32 Evler",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2695641021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3766854,
+          40.7500219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2695645245",
+      "properties": {
+        "public_transport": "station",
+        "railway": "station",
+        "source": "Bing",
+        "train": "yes",
+        "id": "node/2695645245"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3802829,
+          40.758911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2695645269",
+      "properties": {
+        "name": "Mithatpaşa",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q16909137",
+        "id": "node/2695645269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3800704,
+          40.758992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2695645278",
+      "properties": {
+        "public_transport": "station",
+        "railway": "station",
+        "source": "Bing",
+        "train": "yes",
+        "id": "node/2695645278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3802473,
+          40.7589326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2696332340",
+      "properties": {
+        "name": "Kent Park Durağı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2696332340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3910033,
+          40.7709985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2707110470",
+      "properties": {
+        "fixme": "name",
+        "name": "Kızılinler",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "Bing",
+        "train": "yes",
+        "id": "node/2707110470"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4169548,
+          39.7041088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2707315513",
+      "properties": {
+        "name": "Eskişehir",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "Bing",
+        "train": "yes",
+        "wikidata": "Q6070729",
+        "wikipedia": "tr:Eskişehir Garı",
+        "id": "node/2707315513"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5058458,
+          39.779774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733584895",
+      "properties": {
+        "name": "Sağlık Istasyon",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q28446402",
+        "wikipedia": "tr:Sağlık Tren İstasyonu",
+        "id": "node/2733584895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4007003,
+          38.0851223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3050697993",
+      "properties": {
+        "name": "Ayvacık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q28197504",
+        "id": "node/3050697993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2120359,
+          38.6358077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3305442183",
+      "properties": {
+        "name": "Kazlıçeşme",
+        "name:ru": "Казлычешме",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q19611659",
+        "id": "node/3305442183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9168903,
+          40.9926732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3544707833",
+      "properties": {
+        "name": "Filyos",
+        "network": "TR-railways",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/3544707833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0213021,
+          41.5598999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3755456221",
+      "properties": {
+        "name": "Levent",
+        "network": "İstanbul Metrosu",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q20470914",
+        "id": "node/3755456221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0144803,
+          41.0758404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4556769263",
+      "properties": {
+        "name": "Nergiz İzban",
+        "operator": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q6996144",
+        "wikipedia": "tr:Nergiz Tren İstasyonu",
+        "id": "node/4556769263"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1047773,
+          38.4595558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4556769264",
+      "properties": {
+        "name": "Egekent",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q5347743",
+        "wikipedia": "tr:Egekent Tren İstasyonu",
+        "id": "node/4556769264"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0459448,
+          38.5074507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4556804484",
+      "properties": {
+        "name": "İzban Aliağa İstasyonu",
+        "operator": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q4725614",
+        "wikipedia": "tr:Aliağa Tren İstasyonu",
+        "id": "node/4556804484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9671104,
+          38.7887234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4934449662",
+      "properties": {
+        "name": "Kırkpınar",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/4934449662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2445084,
+          40.6992898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5084106192",
+      "properties": {
+        "name": "Tersane",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q58814868",
+        "id": "node/5084106192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2732939,
+          40.8611643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5084119890",
+      "properties": {
+        "name": "Güzelyalı",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q58814865",
+        "id": "node/5084119890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2836051,
+          40.8568284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5084128493",
+      "properties": {
+        "name": "Aydıntepe",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55604581",
+        "id": "node/5084128493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2931959,
+          40.8522949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5084138614",
+      "properties": {
+        "name": "İçmeler",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55638303",
+        "id": "node/5084138614"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3000382,
+          40.8456867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5084154170",
+      "properties": {
+        "name": "Tuzla",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q43398837",
+        "id": "node/5084154170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3224266,
+          40.8299498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5085864847",
+      "properties": {
+        "name": "Çayırova",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q25345198",
+        "wikipedia": "tr:Çayırova Tren İstasyonu",
+        "id": "node/5085864847"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3473731,
+          40.8105337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5085864850",
+      "properties": {
+        "name": "GTÜ-Fatih",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q25345197",
+        "wikipedia": "tr:Fatih Tren İstasyonu",
+        "id": "node/5085864850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3640227,
+          40.8076023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5085891619",
+      "properties": {
+        "name": "Osmangazi",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q43401051",
+        "wikipedia": "tr:Osmangazi Tren İstasyonu",
+        "id": "node/5085891619"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3801162,
+          40.7992416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5085899451",
+      "properties": {
+        "name": "Darıca",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q43401049",
+        "wikipedia": "tr:Darıca Tren İstasyonu",
+        "id": "node/5085899451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3919092,
+          40.7914044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5272471218",
+      "properties": {
+        "name": "Bostancı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q4947652",
+        "wikipedia": "tr:Bostancı Tren İstasyonu",
+        "id": "node/5272471218"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.095501,
+          40.9537549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5286349758",
+      "properties": {
+        "name": "Bulgurlu",
+        "operator": "Metro İstanbul",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q46604381",
+        "wikipedia": "tr:Bulgurlu (İstanbul metrosu)",
+        "id": "node/5286349758"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0763173,
+          41.0163083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5298185983",
+      "properties": {
+        "name": "Suadiye",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q48989341",
+        "id": "node/5298185983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0844637,
+          40.9605007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5388472393",
+      "properties": {
+        "name": "Hilal",
+        "operator": "İzmir Metro",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q3135546",
+        "wikipedia": "tr:Hilal (İzmir metrosu)",
+        "id": "node/5388472393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.155109,
+          38.4269447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5388472394",
+      "properties": {
+        "bus": "yes",
+        "name": "Halkapınar",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "train",
+        "subway": "yes",
+        "train": "yes",
+        "tram": "yes",
+        "wikidata": "Q3126014",
+        "wikipedia": "tr:Halkapınar Aktarma Merkezi",
+        "id": "node/5388472394"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.168873,
+          38.4348272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5442551070",
+      "properties": {
+        "name": "Üsküdar",
+        "operator": "T.C.D.D",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "train",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q46593284",
+        "wikipedia": "tr:Üsküdar Tren İstasyonu",
+        "id": "node/5442551070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0131466,
+          41.0256394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5697328739",
+      "properties": {
+        "name": "Kemalpaşa",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q5995358",
+        "wikipedia": "tr:Kemalpaşa Tren İstasyonu",
+        "id": "node/5697328739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4002055,
+          38.4694318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5885475439",
+      "properties": {
+        "name": "Bakırköy",
+        "name:uk": "Бакиркьой",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q4849621",
+        "wikipedia": "tr:Bakırköy Tren İstasyonu",
+        "id": "node/5885475439"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8724259,
+          40.9803562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6004548607",
+      "properties": {
+        "name": "Dudullu",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q61077115",
+        "wikipedia": "tr:Dudullu (İstanbul metrosu)",
+        "id": "node/6004548607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1631878,
+          41.0153698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6080817083",
+      "properties": {
+        "name": "Gazi",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "shelter": "yes",
+        "train": "yes",
+        "wikidata": "Q43398825",
+        "wikipedia": "tr:Gazi Tren İstasyonu",
+        "id": "node/6080817083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7963138,
+          39.9403072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6128179234",
+      "properties": {
+        "name": "Diyarbakır Garı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6128179234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2158223,
+          37.91367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6251280785",
+      "properties": {
+        "light_rail": "yes",
+        "name": "Vadi İstanbul",
+        "name:en": "Vadistanbul",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "light_rail",
+        "train": "yes",
+        "id": "node/6251280785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9884311,
+          41.1075562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6321654790",
+      "properties": {
+        "name": "Söğütlüçeşme",
+        "name:ru": "Сёгутлючешме",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6321654790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0376538,
+          40.9910017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6325698566",
+      "properties": {
+        "internet_access": "no",
+        "name": "Ataköy",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q92214307",
+        "wikipedia": "tr:Ataköy Tren İstasyonu",
+        "id": "node/6325698566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8562265,
+          40.9802282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6328169449",
+      "properties": {
+        "name": "Florya Akvaryum",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q92206855",
+        "wikipedia": "tr:Florya Akvaryum Tren İstasyonu",
+        "id": "node/6328169449"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7969885,
+          40.9678261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6328169450",
+      "properties": {
+        "name": "Mustafa Kemal",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q24911532",
+        "wikipedia": "tr:Mustafa Kemal Tren İstasyonu",
+        "id": "node/6328169450"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7738899,
+          41.0061764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6328169451",
+      "properties": {
+        "name": "Küçükçekmece",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q58814862",
+        "id": "node/6328169451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7729647,
+          40.9885202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6328169452",
+      "properties": {
+        "name": "Feneryolu",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q15136719",
+        "id": "node/6328169452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0487327,
+          40.9788502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6328169453",
+      "properties": {
+        "name": "Başak",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q58814877",
+        "id": "node/6328169453"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1774971,
+          40.890264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6395978813",
+      "properties": {
+        "name": "Sirkeci Marmaray İstasyonu",
+        "name:en": "Sirkeci Marmaray Underground Station",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6395978813"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9769944,
+          41.0135842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6690847579",
+      "properties": {
+        "addr:city": "Istanbul",
+        "addr:district": "Kadıköy",
+        "addr:housenumber": "61",
+        "addr:neighbourhood": "Göztepe",
+        "addr:postcode": "34730",
+        "addr:street": "Yeşilbahar Sokağı",
+        "name": "Göztepe",
+        "network": "Marmaray",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q5626765",
+        "id": "node/6690847579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.062645,
+          40.9792219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6763426870",
+      "properties": {
+        "name": "Bakırköy-İncirli",
+        "network": "İstanbul Metrosu",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q20988314",
+        "wikipedia": "tr:Bakırköy - İncirli (İstanbul metrosu)",
+        "id": "node/6763426870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8753616,
+          40.9966207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6764109168",
+      "properties": {
+        "name": "Gebze",
+        "network": "TR-railway",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q5529591",
+        "wikipedia": "tr:Gebze Tren İstasyonu",
+        "id": "node/6764109168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4107806,
+          40.7838682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6940170594",
+      "properties": {
+        "name": "Çiğli İzban İstasyonu",
+        "operator": "izban",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8077755",
+        "wikipedia": "tr:Çiğli Tren İstasyonu",
+        "id": "node/6940170594"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0634346,
+          38.4916582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688137",
+      "properties": {
+        "name": "Yenişehir",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q43398852",
+        "wikipedia": "tr:Yenişehir Tren İstasyonu",
+        "id": "node/6942688137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.857846,
+          39.9291091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688138",
+      "properties": {
+        "name": "Kurtuluş",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q19611753",
+        "wikipedia": "tr:Kurtuluş Tren İstasyonu",
+        "id": "node/6942688138"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8679043,
+          39.9288787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688149",
+      "properties": {
+        "name": "Cebeci",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q96374602",
+        "wikipedia": "tr:Cebeci Tren İstasyonu",
+        "id": "node/6942688149"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.875965,
+          39.9332701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688150",
+      "properties": {
+        "name": "Demirlibahçe",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6942688150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8831855,
+          39.9400682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688151",
+      "properties": {
+        "name": "Saimekadın",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikipedia": "tr:Saimekadın tren",
+        "id": "node/6942688151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8945419,
+          39.9378194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688152",
+      "properties": {
+        "name": "Mamak",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q96391711",
+        "wikipedia": "tr:Mamak Tren İstasyonu",
+        "id": "node/6942688152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9116115,
+          39.9313985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688153",
+      "properties": {
+        "name": "Bağderesi",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6942688153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9229894,
+          39.9260014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688154",
+      "properties": {
+        "name": "Üreğil",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6942688154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9321733,
+          39.9225045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6942688155",
+      "properties": {
+        "name": "Köstence",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55616343",
+        "wikipedia": "tr:Köstence Tren İstasyonu",
+        "id": "node/6942688155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9510668,
+          39.9168886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6981627649",
+      "properties": {
+        "name": "Gazi Mahallesi",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55612383",
+        "wikipedia": "tr:Gazi Mahallesi Tren İstasyonu",
+        "id": "node/6981627649"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8123498,
+          39.9440401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6981627650",
+      "properties": {
+        "name": "Marşandiz",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q43398854",
+        "wikipedia": "tr:Marşandiz Tren İstasyonu",
+        "id": "node/6981627650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7783823,
+          39.9342089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6981627652",
+      "properties": {
+        "name": "Behiçbey",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55605139",
+        "wikipedia": "tr:Behiçbey Tren İstasyonu",
+        "id": "node/6981627652"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7501306,
+          39.9314992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6981627663",
+      "properties": {
+        "name": "Yıldırım",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55638174",
+        "wikipedia": "tr:Yıldırım Tren İstasyonu",
+        "id": "node/6981627663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7045893,
+          39.9323497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6981627664",
+      "properties": {
+        "name": "Havadurağı",
+        "network": "Başkentray",
+        "note": "Havadurağı'ndan Türk Hava Kurumu Üniversitesi'ne geçiş yapabilmek için oradaki nöbetçi askere öğrenci kimlik kartı vb. göstermek zorunludur.",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q55613495",
+        "wikipedia": "tr:Havadurağı Tren İstasyonu",
+        "id": "node/6981627664"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6880186,
+          39.9422706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7528826155",
+      "properties": {
+        "name": "Hipodrom",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q15224188",
+        "wikipedia": "tr:Hipodrom Tren İstasyonu",
+        "id": "node/7528826155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8258038,
+          39.9451935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7592762370",
+      "properties": {
+        "name": "Çarşı",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q46614136",
+        "wikipedia": "tr:Çarşı (İstanbul metrosu)",
+        "id": "node/7592762370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.097392,
+          41.0259405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7680399992",
+      "properties": {
+        "name": "Üsküdar",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q46593284",
+        "wikipedia": "tr:Üsküdar (İstanbul metrosu)",
+        "id": "node/7680399992"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0127634,
+          41.0253395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7700053726",
+      "properties": {
+        "name": "TCDD Adapazarı İstasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/7700053726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4003206,
+          40.7748872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8003874423",
+      "properties": {
+        "name": "Ankara YHT Garı",
+        "network": "Başkentray",
+        "operator": "TCDD Taşımacılık",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q31189493",
+        "wikipedia": "tr:Ankara Yüksek Hızlı Tren Garı",
+        "id": "node/8003874423"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8433919,
+          39.9349184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8009308045",
+      "properties": {
+        "name": "Alsancak",
+        "name:en": "Alsancak",
+        "name:tr": "Alsancak",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8080254",
+        "wikipedia:en": "Alsancak railway station",
+        "wikipedia:tr": "Alsancak Garı",
+        "id": "node/8009308045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1488401,
+          38.4386181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8009308046",
+      "properties": {
+        "name": "Alsancak",
+        "name:en": "Alsancak",
+        "name:tr": "Alsancak",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8080254",
+        "wikipedia:en": "Alsancak railway station",
+        "wikipedia:tr": "Alsancak Garı",
+        "id": "node/8009308046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1487595,
+          38.4385911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8009308047",
+      "properties": {
+        "name": "Alsancak",
+        "name:en": "Alsancak",
+        "name:tr": "Alsancak",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8080254",
+        "wikipedia:en": "Alsancak railway station",
+        "wikipedia:tr": "Alsancak Garı",
+        "id": "node/8009308047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1487231,
+          38.4385754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8009308048",
+      "properties": {
+        "name": "Alsancak",
+        "name:en": "Alsancak",
+        "name:tr": "Alsancak",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8080254",
+        "wikipedia:en": "Alsancak railway station",
+        "wikipedia:tr": "Alsancak Garı",
+        "id": "node/8009308048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1486188,
+          38.438538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8016975985",
+      "properties": {
+        "name": "Koşu",
+        "name:en": "Koşu",
+        "name:tr": "Koşu",
+        "operator:wikidata": "Q5347760",
+        "operator:wikipedia": "tr:İZBAN",
+        "operator:wikipedia:de": "S-Bahn Izmir",
+        "operator:wikipedia:en": "İZBAN",
+        "operator:wikipedia:ru": "İZBAN",
+        "operator:wikipedia:uk": "İZBAN",
+        "operator:wikipedia:zh": "伊茲班 (鐵路)",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q6435640",
+        "id": "node/8016975985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1474332,
+          38.3833544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8050924818",
+      "properties": {
+        "name": "Şirinyer",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8082542",
+        "id": "node/8050924818"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1472515,
+          38.3919529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8050994350",
+      "properties": {
+        "name": "Sarnıç",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q7424412",
+        "id": "node/8050994350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1445094,
+          38.3121142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8062356443",
+      "properties": {
+        "name": "ESBAŞ",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q5396776",
+        "wikimedia_commons": "Category:ESBAŞ railway station",
+        "wikipedia:arz": "محطة اسباس",
+        "wikipedia:en": "Esbaş railway station",
+        "wikipedia:tr": "Esbaş Tren İstasyonu",
+        "id": "node/8062356443"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1363963,
+          38.3369454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8071796885",
+      "properties": {
+        "name": "Kemer",
+        "operator": "İZBAN",
+        "operator:wikidata": "Q5347760",
+        "operator:wikipedia": "tr:İZBAN",
+        "operator:wikipedia:de": "S-Bahn Izmir",
+        "operator:wikipedia:en": "İZBAN",
+        "operator:wikipedia:ru": "İZBAN",
+        "operator:wikipedia:uk": "İZBAN",
+        "operator:wikipedia:zh": "伊茲班 (鐵路)",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q6386918",
+        "wikipedia": "tr:Kemer Tren İstasyonu",
+        "wikipedia:arz": "محطة كيمير",
+        "wikipedia:en": "Kemer railway station",
+        "id": "node/8071796885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1562701,
+          38.4218006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8072437221",
+      "properties": {
+        "name": "Basmane Garı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q2887254",
+        "wikipedia": "tr:Basmane Garı",
+        "id": "node/8072437221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1439012,
+          38.4224462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8077616543",
+      "properties": {
+        "name": "İnkılap",
+        "operator": "İZBAN",
+        "operator:wikidata": "Q5347760",
+        "operator:wikipedia": "tr:İZBAN",
+        "operator:wikipedia:de": "S-Bahn Izmir",
+        "operator:wikipedia:en": "İZBAN",
+        "operator:wikipedia:ru": "İZBAN",
+        "operator:wikipedia:uk": "İZBAN",
+        "operator:wikipedia:zh": "伊茲班 (鐵路)",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q16848584",
+        "wikipedia": "tr:İnkılap Tren İstasyonu",
+        "wikipedia:arz": "محطة اينكيلاپ",
+        "wikipedia:en": "İnkılap railway station",
+        "id": "node/8077616543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1415899,
+          38.3687933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8078673975",
+      "properties": {
+        "name": "Semt Garajı",
+        "operator": "İZBAN",
+        "operator:wikidata": "Q5347760",
+        "operator:wikipedia": "tr:İZBAN",
+        "operator:wikipedia:de": "S-Bahn Izmir",
+        "operator:wikipedia:en": "İZBAN",
+        "operator:wikipedia:ru": "İZBAN",
+        "operator:wikipedia:uk": "İZBAN",
+        "operator:wikipedia:zh": "伊茲班 (鐵路)",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q1696170",
+        "wikipedia": "tr:Semt Garajı Tren İstasyonu",
+        "wikipedia:arz": "محطة سيمت جاراچى",
+        "wikipedia:en": "Semt Garajı railway station",
+        "id": "node/8078673975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1364541,
+          38.3568779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8078790237",
+      "properties": {
+        "name": "Hilal",
+        "operator": "İZBAN",
+        "operator:wikidata": "Q5347760",
+        "operator:wikipedia": "tr:İZBAN",
+        "operator:wikipedia:de": "S-Bahn Izmir",
+        "operator:wikipedia:en": "İZBAN",
+        "operator:wikipedia:ru": "İZBAN",
+        "operator:wikipedia:uk": "İZBAN",
+        "operator:wikipedia:zh": "伊茲班 (鐵路)",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q25479711",
+        "wikipedia": "tr:Hilal Tren İstasyonu",
+        "wikipedia:arz": "محطة هيلال",
+        "wikipedia:en": "Hilal railway station",
+        "id": "node/8078790237"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1543579,
+          38.4260489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8087609727",
+      "properties": {
+        "name": "Tekeli",
+        "network": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q26252736",
+        "wikimedia_commons": "File:Tekeli railway station.jpg",
+        "wikipedia": "tr:Tekeli Tren İstasyonu",
+        "wikipedia:arz": "محطة تيكيلى",
+        "wikipedia:en": "Tekeli railway station",
+        "id": "node/8087609727"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1857376,
+          38.1810917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8094704070",
+      "properties": {
+        "name": "Develi",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q27962381",
+        "wikipedia": "tr:Develi Tren İstasyonu",
+        "wikipedia:arz": "محطة تيكيلى",
+        "wikipedia:en": "Tekeli railway station",
+        "id": "node/8094704070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1666844,
+          38.2033019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8180647241",
+      "properties": {
+        "name": "Hatundere",
+        "opening_date": "1996",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q5682237",
+        "id": "node/8180647241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.0175615,
+          38.6900072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8425813600",
+      "properties": {
+        "name": "Kuşçuburun Tren İstasyonu",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q26252737",
+        "wikipedia": "tr:Kuşçuburun Tren İstasyonu",
+        "id": "node/8425813600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3093365,
+          38.2091397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8428053111",
+      "properties": {
+        "name": "Alaybey",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q4708916",
+        "wikipedia": "tr:Alaybey Tren İstasyonu",
+        "id": "node/8428053111"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1214638,
+          38.4606272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8428053114",
+      "properties": {
+        "name": "Karşıyaka",
+        "operator": "İZBAN",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q6373916",
+        "wikipedia": "tr:Karşıyaka Tren İstasyonu",
+        "id": "node/8428053114"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1151324,
+          38.4579013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8440806257",
+      "properties": {
+        "name": "Belevi",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q6063819",
+        "wikipedia": "tr:Belevi Tren İstasyonu",
+        "id": "node/8440806257"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.433251,
+          38.0305285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8634566619",
+      "properties": {
+        "name": "Havza",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8634566619"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6671361,
+          40.9656928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8930677540",
+      "properties": {
+        "name": "Arifiye",
+        "operator": "TCDD",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q25477488",
+        "wikipedia": "tr:Arifiye Tren İstasyonu",
+        "id": "node/8930677540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3558365,
+          40.713143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9125877667",
+      "properties": {
+        "name": "Konak",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/9125877667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5665137,
+          38.6340505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9144161088",
+      "properties": {
+        "name": "Oymapınar",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/9144161088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.9683557,
+          38.8600498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9196517648",
+      "properties": {
+        "name": "Yenisığırcı",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/9196517648"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0521571,
+          40.26933
+        ]
+      }
+    }
+  ]
 }

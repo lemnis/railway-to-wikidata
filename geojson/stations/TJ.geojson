@@ -1,4 +1,147 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/252791512",
+      "properties": {
+        "name": "Душанбе-I",
+        "name:en": "Dushanbe Train Station",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "uic_ref": "6600000",
+        "id": "node/252791512"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.7997342,
+          38.5567092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2126675537",
+      "properties": {
+        "name": "Пролетарск 2",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2126675537"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.5057703,
+          40.1705003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3893904713",
+      "properties": {
+        "esr:user": "746405",
+        "name": "Хатлон",
+        "name:en": "Khation",
+        "name:ru": "Хатлон",
+        "name:tg": "Хатлон",
+        "operator": "Tajik Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "uic_ref": "6600185",
+        "id": "node/3893904713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.871958,
+          37.8522004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6176812915",
+      "properties": {
+        "addr:city": "Турсунзаде",
+        "addr:postcode": "735000",
+        "addr:street": "Ул. Карл Маркс",
+        "name": "Пекарня",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/6176812915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.2462696,
+          38.5118674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6417656824",
+      "properties": {
+        "addr:city": "Турсунзаде",
+        "name": "Хлоп Завод",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/6417656824"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.2378202,
+          38.5102893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8343551038",
+      "properties": {
+        "esr:user": "747709",
+        "name": "Пролетарск",
+        "name:en": "Proletar",
+        "name:ru": "Пролетарск",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "uic_ref": "6600769",
+        "id": "node/8343551038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.5003338,
+          40.1710486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8432496987",
+      "properties": {
+        "name": "Исфара",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8432496987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.6231037,
+          40.1346441
+        ]
+      }
+    }
+  ]
 }

@@ -1,4 +1,152 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/1588243848",
+      "properties": {
+        "addr:city": "Farap",
+        "alt_name": "Фарап",
+        "alt_name:ru": "Фараб",
+        "esr": "750203",
+        "name": "Farap",
+        "name:ru": "Фарап",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1588243848"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.6010018,
+          39.1693998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2700992323",
+      "properties": {
+        "alt_name": "Ovadan Depe",
+        "name": "Owadan Depe",
+        "name:ru": "Овадан депе",
+        "name:tk": "Owadan Depe",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/2700992323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.3627125,
+          38.1241301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3415481009",
+      "properties": {
+        "addr:city": "Etrek",
+        "name": "Etrek",
+        "name:en": "Etrek",
+        "name:ru": "Этрек",
+        "name:tk": "Etrek",
+        "operator": "Türkmen Demir Ýollary",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/3415481009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.7408533,
+          37.7051991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3884475565",
+      "properties": {
+        "name": "Akýaýla",
+        "name:ru": "Акяйла",
+        "name:tk": "Akýaýla",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/3884475565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.6296231,
+          37.4636793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5430303426",
+      "properties": {
+        "building": "no",
+        "description": "Temporary train stop built to handle special trains for the TAPI ceremony held February 23, 2018.  Stop has no name and consists of a parking lot and high curb to allow passengers to disembark from the railcars.",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/5430303426"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.4097347,
+          35.4698609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7659925527",
+      "properties": {
+        "addr:city": "Börme geňeşligi",
+        "name": "Rzd. No. 103",
+        "name:ru": "Разъезд №103",
+        "name:tk": "103-nji duralga",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/7659925527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.9868876,
+          38.6522137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8896057139",
+      "properties": {
+        "name": "Mukry",
+        "name:ru": "Мукры",
+        "name:tr": "Mukry",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8896057139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.7325818,
+          37.5989449
+        ]
+      }
+    }
+  ]
 }

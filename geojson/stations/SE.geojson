@@ -1,4 +1,2634 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/31494656",
+      "properties": {
+        "name": "Tunagård",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tug",
+        "route_ref": "28",
+        "sl_stop_id": "9661",
+        "station": "light_rail",
+        "train": "yes",
+        "wikidata": "Q10706298",
+        "wikipedia": "sv:Tunagård",
+        "id": "node/31494656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3073425,
+          59.4691085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31495675",
+      "properties": {
+        "name": "Österskär",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ösk",
+        "route_ref": "28",
+        "sl_stop_id": "9660",
+        "station": "light_rail",
+        "train": "yes",
+        "wikidata": "Q15487487",
+        "id": "node/31495675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3112143,
+          59.4611597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/33560427",
+      "properties": {
+        "name": "Falun",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Fln",
+        "train": "yes",
+        "wikidata": "Q9257892",
+        "wikimedia_commons": "Category:Falun_station",
+        "wikipedia": "sv:Falu centralstation",
+        "id": "node/33560427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6429392,
+          60.6029822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/33584711",
+      "properties": {
+        "name": "Insjön",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "In",
+        "train": "yes",
+        "id": "node/33584711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0955753,
+          60.674388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/35155314",
+      "properties": {
+        "name": "Heby",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Hy",
+        "train": "yes",
+        "id": "node/35155314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8523139,
+          59.9404812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/52315452",
+      "properties": {
+        "name": "Sundsvall C",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Suc",
+        "train": "yes",
+        "website": "https://www.jernhusen.se/Resenar/Sundsvalls-Centralstation/",
+        "wikidata": "Q10683844",
+        "wikipedia": "sv:Sundsvalls centralstation",
+        "id": "node/52315452"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.315347,
+          62.3863884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57101735",
+      "properties": {
+        "name": "Luleå C",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Le",
+        "train": "yes",
+        "wikidata": "Q3360372",
+        "id": "node/57101735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1655551,
+          65.5841289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57810872",
+      "properties": {
+        "name": "Vännäs",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Vns",
+        "train": "yes",
+        "wikidata": "Q65194986",
+        "id": "node/57810872"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7496495,
+          63.9083207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57841765",
+      "properties": {
+        "name": "Hällnäs",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Hls",
+        "train": "yes",
+        "wikidata": "Q96739394",
+        "id": "node/57841765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.6258803,
+          64.3058769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57900277",
+      "properties": {
+        "name": "Bastuträsk",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Bst",
+        "train": "yes",
+        "wikidata": "Q11853963",
+        "id": "node/57900277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0412633,
+          64.7898187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57900607",
+      "properties": {
+        "name": "Jörn",
+        "operator": "SJ AB",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Jrn",
+        "train": "yes",
+        "wikidata": "Q11979660",
+        "id": "node/57900607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.0299457,
+          65.0539185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57902380",
+      "properties": {
+        "name": "Älvsbyn",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Äy",
+        "train": "yes",
+        "wikidata": "Q16459410",
+        "id": "node/57902380"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9941864,
+          65.6784263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/60005518",
+      "properties": {
+        "name": "Härnösand",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Hsd",
+        "train": "yes",
+        "wikidata": "Q17343159",
+        "id": "node/60005518"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9288768,
+          62.6357198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/60066136",
+      "properties": {
+        "name": "Kramfors",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Krf",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q10548507",
+        "id": "node/60066136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7782553,
+          62.9289754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/60404438",
+      "properties": {
+        "name": "Svenstavik Centrum",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Svc",
+        "train": "yes",
+        "id": "node/60404438"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4360271,
+          62.7671903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/78697192",
+      "properties": {
+        "name": "Murjek",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Mk",
+        "train": "yes",
+        "wikidata": "Q11883439",
+        "id": "node/78697192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8810577,
+          66.484638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/88390741",
+      "properties": {
+        "name": "Örnsköldsvik",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:track_ref": "11",
+        "ref": "Ök",
+        "train": "yes",
+        "wikidata": "Q10727630",
+        "id": "node/88390741"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7052822,
+          63.2879517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/89559193",
+      "properties": {
+        "name": "Bor",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Bor",
+        "train": "yes",
+        "id": "node/89559193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1691069,
+          57.1157659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/90702795",
+      "properties": {
+        "name": "Mehedeby",
+        "network": "UL",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Meh",
+        "train": "yes",
+        "id": "node/90702795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4006711,
+          60.4504788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/94290951",
+      "properties": {
+        "name": "Järpen",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Jpn",
+        "train": "yes",
+        "wikidata": "Q11979621",
+        "id": "node/94290951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4720398,
+          63.342434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/118405120",
+      "properties": {
+        "loc_ref": "3",
+        "name": "Arvidsjaur",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:track_ref": "3",
+        "ref": "Ajr",
+        "train": "yes",
+        "wikidata": "Q15107120",
+        "id": "node/118405120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1686602,
+          65.5888822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/142452887",
+      "properties": {
+        "name": "Nattavaara",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Ntv",
+        "train": "yes",
+        "wikidata": "Q16459040",
+        "id": "node/142452887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9501287,
+          66.7543295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/148567640",
+      "properties": {
+        "name": "Bergåsa Station",
+        "note:ref": "This station has two refs: Båa and Båak",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Båa",
+        "train": "yes",
+        "id": "node/148567640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6012025,
+          56.1827562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/248123742",
+      "properties": {
+        "name": "Vassijaure",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Vj",
+        "train": "yes",
+        "wikidata": "Q3377544",
+        "id": "node/248123742"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2577156,
+          68.4295561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/248124326",
+      "properties": {
+        "name": "Abisko Östra",
+        "opening_hours": "24/7",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Ak",
+        "train": "yes",
+        "uic_ref": "7400151",
+        "wheelchair": "yes",
+        "wikidata": "Q11849667",
+        "id": "node/248124326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8288022,
+          68.34902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/248229164",
+      "properties": {
+        "name": "Kiruna",
+        "name:lt": "Kiruna",
+        "name:technical": "Kiruna malmbangård",
+        "note": "Kiruna New [Temporary] Railway Station (2013-09-01)",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Kmb",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3360360",
+        "wikipedia": "en:Kiruna Central Station",
+        "id": "node/248229164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1998971,
+          67.8677031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/254764417",
+      "properties": {
+        "name": "Klevshult",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Kvh",
+        "train": "yes",
+        "id": "node/254764417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.097363,
+          57.3516197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/254764562",
+      "properties": {
+        "name": "Skillingaryd",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Syd",
+        "train": "yes",
+        "id": "node/254764562"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0908309,
+          57.4282832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/281341128",
+      "properties": {
+        "name": "Nora",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "N",
+        "train": "yes",
+        "id": "node/281341128"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0419668,
+          59.5163838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/436528745",
+      "properties": {
+        "name": "Björkliden",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Bln",
+        "train": "yes",
+        "wikidata": "Q11854321",
+        "id": "node/436528745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6857989,
+          68.4065232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/437028451",
+      "properties": {
+        "name": "Impregneringen",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/437028451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.320295,
+          57.191183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/437028477",
+      "properties": {
+        "name": "Ekebohult",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/437028477"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3063486,
+          57.1906904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/519006619",
+      "properties": {
+        "name": "Bärby",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "B",
+        "train": "yes",
+        "id": "node/519006619"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8154553,
+          59.8570338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/662932750",
+      "properties": {
+        "name": "Arlanda södra",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Arns",
+        "train": "yes",
+        "wikidata": "Q4792098",
+        "id": "node/662932750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9282887,
+          59.646599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/662932765",
+      "properties": {
+        "name": "Arlanda central",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Arnc",
+        "train": "yes",
+        "wikidata": "Q17265752",
+        "wikipedia": "sv:Arlanda centralstation",
+        "id": "node/662932765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9285005,
+          59.6494271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/662932783",
+      "properties": {
+        "name": "Arlanda norra",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Arnn",
+        "train": "yes",
+        "website": "http://www.arlandaexpress.com/",
+        "wikidata": "Q4792097",
+        "id": "node/662932783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9311417,
+          59.6510701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/686356391",
+      "properties": {
+        "name": "Västeraspby",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:track_ref": "2",
+        "ref": "Väy",
+        "train": "yes",
+        "wikidata": "Q29399440",
+        "id": "node/686356391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7447331,
+          63.052876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/775954652",
+      "properties": {
+        "name": "Gimmarp",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/775954652"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2711217,
+          57.1741857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/775954730",
+      "properties": {
+        "name": "Tagel",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/775954730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1719686,
+          57.1266543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/845060985",
+      "properties": {
+        "name": "Stöde",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Std",
+        "train": "yes",
+        "wikidata": "Q100793760",
+        "id": "node/845060985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5989547,
+          62.419765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/845061009",
+      "properties": {
+        "name": "Östersund C",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Ös",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q2599270",
+        "id": "node/845061009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6368126,
+          63.1706516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/845061114",
+      "properties": {
+        "name": "Brunflo",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Bf",
+        "train": "yes",
+        "wikidata": "Q11854660",
+        "id": "node/845061114"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8323295,
+          63.0760966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/846244866",
+      "properties": {
+        "alt_name": "Timrå järnvägsstation",
+        "name": "Timrå",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Trå",
+        "train": "yes",
+        "wikidata": "Q17355811",
+        "id": "node/846244866"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3299067,
+          62.4858286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/846358613",
+      "properties": {
+        "name": "Vindeln",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Vdn",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q12009860",
+        "id": "node/846358613"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7133136,
+          64.2031529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/863929105",
+      "properties": {
+        "name": "Husum",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Hum",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q29396233",
+        "id": "node/863929105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1566975,
+          63.3443389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/863929112",
+      "properties": {
+        "name": "Örnsköldsvik Norra",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Ökn",
+        "train": "yes",
+        "wikidata": "Q29398252",
+        "id": "node/863929112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7155313,
+          63.3028059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/874512383",
+      "properties": {
+        "name": "Storvreta",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Srv",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/874512383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.706335,
+          59.9563426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/877507183",
+      "properties": {
+        "name": "Umeå Östra",
+        "name:fi": "Uumaja itäinen",
+        "name:sv": "Umeå Östra",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Uåö",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3377376",
+        "wikipedia": "en:Umeå East Station",
+        "id": "node/877507183"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2937575,
+          63.8174711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/888542634",
+      "properties": {
+        "name": "Nordmaling",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Nog",
+        "train": "yes",
+        "wikidata": "Q29401396",
+        "id": "node/888542634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4842945,
+          63.5785691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/888542732",
+      "properties": {
+        "name": "Hörnefors",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Höf",
+        "train": "yes",
+        "wikidata": "Q29406130",
+        "id": "node/888542732"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9113659,
+          63.6329522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1581663020",
+      "properties": {
+        "name": "Söderhamn",
+        "opening_hours": "Mo-Fr 05:30-23:00; Sa 05:30-21:30; Su 05:30-23:00",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikipedia": "sv:Söderhamns station",
+        "id": "node/1581663020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0352897,
+          61.2993533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1649252094",
+      "properties": {
+        "amenity": "bus_station",
+        "name": "Skee station",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ske",
+        "ref": "Skee",
+        "train": "yes",
+        "id": "node/1649252094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2629426,
+          58.9223774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1798579162",
+      "properties": {
+        "name": "Haparanda",
+        "name:fi": "Haaparanta",
+        "name:sv": "Haparanda",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Hp",
+        "ref": "Hp",
+        "train": "yes",
+        "wikidata": "Q11861113",
+        "id": "node/1798579162"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1306999,
+          65.8279942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1822796234",
+      "properties": {
+        "name": "Main Street",
+        "operator": "High Chaparral",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1822796234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8309372,
+          57.2625054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1822796399",
+      "properties": {
+        "name": "Old Mexico",
+        "operator": "High Chaparral",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1822796399"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8389615,
+          57.2631984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1824864093",
+      "properties": {
+        "name": "Stockaryd",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Sy",
+        "train": "yes",
+        "id": "node/1824864093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5916289,
+          57.3164261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1851751310",
+      "properties": {
+        "name": "Lycksele",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:track_ref": "3",
+        "train": "yes",
+        "wikidata": "Q20379713",
+        "id": "node/1851751310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6685435,
+          64.5950259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3157150233",
+      "properties": {
+        "name": "Gamlestaden",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Gas",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q10502511",
+        "wikipedia": "sv:Gamlestaden station",
+        "id": "node/3157150233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0041784,
+          57.7273513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3157152558",
+      "properties": {
+        "name": "Älvängen",
+        "public_transport": "station",
+        "railway": "stop",
+        "ref": "Än",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikipedia": "sv:Älvängens station",
+        "id": "node/3157152558"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1161287,
+          57.9581898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3157228354",
+      "properties": {
+        "name": "Falkenberg",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Fabp",
+        "train": "yes",
+        "id": "node/3157228354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5082399,
+          56.9195368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3158586541",
+      "properties": {
+        "name": "Sävenäs",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Säv",
+        "train": "yes",
+        "wikipedia": "sv:Sävenäs (pendeltågsstation)",
+        "id": "node/3158586541"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0254724,
+          57.7247854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3168442677",
+      "properties": {
+        "name": "Dösjebro",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Dös",
+        "train": "yes",
+        "id": "node/3168442677"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0323526,
+          55.8230233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3168442680",
+      "properties": {
+        "name": "Häljarp",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:track_ref": "1",
+        "ref": "Häp",
+        "train": "yes",
+        "id": "node/3168442680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9117426,
+          55.8609346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3170109015",
+      "properties": {
+        "name": "Ställdalen",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Stl",
+        "train": "yes",
+        "uic_name": "Ställdalen",
+        "uic_ref": "7400638",
+        "id": "node/3170109015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9433425,
+          59.9331716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3170533214",
+      "properties": {
+        "name": "Blomstermåla",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Bma",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/3170533214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3310443,
+          56.9809637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4067854164",
+      "properties": {
+        "name": "Gällivare",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q11868321",
+        "id": "node/4067854164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6511646,
+          67.1334557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502305",
+      "properties": {
+        "name": "Akalla",
+        "name:ru": "Акалла",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Aka",
+        "sl_stop_id": "9300",
+        "station": "subway",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q415553",
+        "wikipedia": "sv:Akalla (tunnelbanestation)",
+        "id": "node/4225502305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9132189,
+          59.4155814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502333",
+      "properties": {
+        "name": "Husby",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Hub",
+        "sl_stop_id": "9301",
+        "station": "subway",
+        "train": "yes",
+        "wikidata": "Q1638866",
+        "wikipedia": "sv:Husby (tunnelbanestation)",
+        "id": "node/4225502333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9286653,
+          59.4081848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502343",
+      "properties": {
+        "name": "Kista",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kis",
+        "sl_stop_id": "9302",
+        "station": "subway",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1743793",
+        "wikipedia": "sv:Kista (tunnelbanestation)",
+        "id": "node/4225502343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9427547,
+          59.4029202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502889",
+      "properties": {
+        "name": "Västra skogen",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Väs",
+        "sl_stop_id": "9306",
+        "station": "subway",
+        "subway": "station",
+        "train": "yes",
+        "wikidata": "Q121704",
+        "wikipedia": "sv:Västra skogen (tunnelbanestation)",
+        "id": "node/4225502889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0038714,
+          59.347353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4802537139",
+      "properties": {
+        "name": "Hällefors",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Hlf",
+        "railway:track_ref": "1",
+        "ref": "Hlf",
+        "train": "yes",
+        "uic_name": "Hällefors",
+        "uic_ref": "7400419",
+        "id": "node/4802537139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5184979,
+          59.7803502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4919137339",
+      "properties": {
+        "name": "Gunsta",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/4919137339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8343001,
+          59.8527516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5104075232",
+      "properties": {
+        "name": "Stensjön",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/5104075232"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2018127,
+          57.1434763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5205931550",
+      "properties": {
+        "light_rail": "yes",
+        "name": "Ensta",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Esa",
+        "route_ref": "27",
+        "station": "light_rail",
+        "train": "yes",
+        "wikidata": "Q15492624",
+        "id": "node/5205931550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0635554,
+          59.4513832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5248540702",
+      "properties": {
+        "name": "Lund centralstation",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Lu",
+        "short_name": "Lund C",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q766707",
+        "wikipedia": "sv:Lunds centralstation",
+        "id": "node/5248540702"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1863839,
+          55.7067251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5333401834",
+      "properties": {
+        "name": "Stockholm City",
+        "name:fi": "Tukholman keskusta",
+        "name:sv": "Stockholm City",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Sci",
+        "train": "yes",
+        "wikidata": "Q7618001",
+        "wikipedia": "sv:Stockholm City (pendeltågsstation)",
+        "id": "node/5333401834"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0589031,
+          59.3319942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5333656874",
+      "properties": {
+        "name": "Stockholms södra",
+        "name:fi": "Tukholma etelä",
+        "name:sv": "Stockholms södra",
+        "network": "SL",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Sst",
+        "route_ref": "J40;J41;J41X;J42X;J43;J43X;J44",
+        "sl_stop_id": "9530",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q54321",
+        "wikipedia": "sv:Stockholms Södra",
+        "id": "node/5333656874"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0605613,
+          59.3133461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5516384282",
+      "properties": {
+        "name": "Ronneby Resecentrum",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/5516384282"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2829889,
+          56.2069878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6968678517",
+      "properties": {
+        "name": "Ohs bruk",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/6968678517"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3307938,
+          57.1928138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6968737407",
+      "properties": {
+        "name": "Hösjömo",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/6968737407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2282938,
+          57.150907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6968737409",
+      "properties": {
+        "name": "Gimmarpsby",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/6968737409"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2610331,
+          57.1657679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6968737410",
+      "properties": {
+        "name": "Elgaryd",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/6968737410"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2820625,
+          57.1811468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7156929269",
+      "properties": {
+        "name": "Ystad",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:track_ref": "3",
+        "ref": "Y",
+        "train": "yes",
+        "id": "node/7156929269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8251994,
+          55.4273931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7541645332",
+      "properties": {
+        "name": "Triangeln",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tri",
+        "toilets:wheelchair": "no",
+        "train": "yes",
+        "uic_ref": "7401587",
+        "wheelchair": "yes",
+        "wikipedia": "sv:Triangelns station",
+        "id": "node/7541645332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0010372,
+          55.5932748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7541645334",
+      "properties": {
+        "name": "Rosengård",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Rog",
+        "train": "yes",
+        "id": "node/7541645334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0307937,
+          55.5888929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7541645335",
+      "properties": {
+        "name": "Östervärn",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Övn",
+        "train": "yes",
+        "wikidata": "Q1945050",
+        "id": "node/7541645335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0315018,
+          55.6078691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7541645336",
+      "properties": {
+        "name": "Oxie",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ox",
+        "train": "yes",
+        "wikidata": "Q10613690",
+        "id": "node/7541645336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0956763,
+          55.541757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7673287717",
+      "properties": {
+        "name": "Älvkarleby",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/7673287717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4280882,
+          60.5553479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7776408812",
+      "properties": {
+        "name": "Södertälje hamn",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Söd",
+        "sl_stop_id": "9521",
+        "train": "yes",
+        "wikidata": "Q10688803",
+        "wikipedia": "sv:Södertälje hamn (pendeltågsstation)",
+        "id": "node/7776408812"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6469248,
+          59.1784463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7787940363",
+      "properties": {
+        "name": "Eskilstuna C",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Et",
+        "train": "yes",
+        "website": "https://www.dinstation.se/eskilstuna-centralstation/",
+        "wheelchair": "yes",
+        "id": "node/7787940363"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5056944,
+          59.3692236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7787940364",
+      "properties": {
+        "name": "Kvicksund",
+        "name:technical": "Kvicksund södra",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ksus",
+        "train": "yes",
+        "id": "node/7787940364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3206162,
+          59.450729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7836459567",
+      "properties": {
+        "internet_access": "no",
+        "name": "Sjöbygget",
+        "operator": "Östra Södermanlands järnväg",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/7836459567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2496367,
+          59.2447692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7836619022",
+      "properties": {
+        "internet_access": "no",
+        "name": "Hedlandet",
+        "operator": "Östra Södermanlands järnväg",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/7836619022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2324085,
+          59.2456746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7836622391",
+      "properties": {
+        "internet_access": "no",
+        "name": "Härnön",
+        "operator": "Östra Södermanlands järnväg",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/7836622391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2892769,
+          59.2444706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882040920",
+      "properties": {
+        "name": "Farsta strand",
+        "network": "SL",
+        "old_name": "Södertörns Villastad",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Fas",
+        "route_ref": "J42X;J43;J43X",
+        "sl_stop_id": "9180",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q14514936",
+        "wikipedia": "sv:Farsta strand (pendeltågsstation)",
+        "id": "node/7882040920"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1032864,
+          59.2366383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882181878",
+      "properties": {
+        "name": "Märsta",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Mr",
+        "sl_stop_id": "9500",
+        "train": "yes",
+        "wikidata": "Q15582030",
+        "wikipedia": "sv:Märsta station",
+        "id": "node/7882181878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8610195,
+          59.6280853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882182319",
+      "properties": {
+        "name": "Rosersberg",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Rs",
+        "route_ref": "J41;J41X;J42X",
+        "sl_stop_id": "9501",
+        "train": "yes",
+        "wikidata": "Q17410197",
+        "wikipedia": "sv:Rosersberg (pendeltågsstation)",
+        "id": "node/7882182319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8800288,
+          59.583774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882193502",
+      "properties": {
+        "name": "Trångsund",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tåd",
+        "route_ref": "J43",
+        "sl_stop_id": "9732",
+        "train": "yes",
+        "wikidata": "Q10705661",
+        "wikipedia": "sv:Trångsund (pendeltågsstation)",
+        "id": "node/7882193502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1303869,
+          59.2278113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882199204",
+      "properties": {
+        "name": "Ösmo",
+        "network": "SL",
+        "platforms": "1",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Öso",
+        "route_ref": "J42X;J43;J43X",
+        "sl_stop_id": "9723",
+        "train": "yes",
+        "wikidata": "Q17449196",
+        "wikipedia": "sv:Ösmo (pendeltågsstation)",
+        "id": "node/7882199204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9026344,
+          58.9839991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882199713",
+      "properties": {
+        "name": "Tungelsta",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ts",
+        "route_ref": "J42X;J43;J43X",
+        "sl_stop_id": "9726",
+        "train": "yes",
+        "wikidata": "Q17437937",
+        "wikipedia": "sv:Tungelsta (pendeltågsstation)",
+        "id": "node/7882199713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0456621,
+          59.1026727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882210203",
+      "properties": {
+        "name": "Krigslida",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kda",
+        "route_ref": "J43",
+        "sl_stop_id": "9727",
+        "train": "yes",
+        "wikidata": "Q10548707",
+        "wikipedia": "sv:Krigslida (pendeltågsstation)",
+        "id": "node/7882210203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0651854,
+          59.1087788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882218219",
+      "properties": {
+        "name": "Västerhaninge",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vhe",
+        "route_ref": "J42X;J43;J43X",
+        "sl_stop_id": "9728",
+        "train": "yes",
+        "wikidata": "Q15600020",
+        "wikipedia": "sv:Västerhaninge (pendeltågsstation)",
+        "id": "node/7882218219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1033791,
+          59.1230679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882222326",
+      "properties": {
+        "name": "Kallhäll",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Khä",
+        "sl_stop_id": "9701",
+        "train": "yes",
+        "wikidata": "Q10542765",
+        "wikipedia": "sv:Kallhäll (pendeltågsstation)",
+        "id": "node/7882222326"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8072383,
+          59.4522794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882226433",
+      "properties": {
+        "name": "Segersäng",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ssä",
+        "route_ref": "J42X;J43;J43X",
+        "sl_stop_id": "9724",
+        "train": "yes",
+        "wikidata": "Q17412972",
+        "wikipedia": "sv:Segersäng (pendeltågsstation)",
+        "id": "node/7882226433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9267403,
+          59.0288861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882228876",
+      "properties": {
+        "name": "Handen",
+        "network": "SL",
+        "old_name": "Österhaninge;Haninge Centrum",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Hnd",
+        "route_ref": "J42X;J43;J43X",
+        "sl_stop_id": "9730",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q10517103",
+        "wikipedia": "sv:Handen (pendeltågsstation)",
+        "id": "node/7882228876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1340615,
+          59.1664396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7882232270",
+      "properties": {
+        "name": "Jordbro",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Jbo",
+        "route_ref": "J43",
+        "sl_stop_id": "9729",
+        "train": "yes",
+        "wikidata": "Q17398978",
+        "wikipedia": "sv:Jordbro (pendeltågsstation)",
+        "id": "node/7882232270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1264944,
+          59.1422579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8068214995",
+      "properties": {
+        "name": "Sunderby sjukhus",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Sus",
+        "train": "yes",
+        "wikidata": "Q16459044",
+        "id": "node/8068214995"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9349565,
+          65.6736268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8070194493",
+      "properties": {
+        "name": "Notviken",
+        "note": "SJ:s tåg stannar ej här",
+        "operator": "Norrtåg",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q18331483",
+        "id": "node/8070194493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1151745,
+          65.6118683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8071101289",
+      "properties": {
+        "name": "Karlskrona C",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Ck",
+        "train": "yes",
+        "id": "node/8071101289"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5853658,
+          56.1664941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8115368640",
+      "properties": {
+        "name": "Kristinehamn",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8115368640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1075827,
+          59.3172508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8137598299",
+      "properties": {
+        "name": "Kumla",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8137598299"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.140414,
+          59.1268448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8137601572",
+      "properties": {
+        "name": "Örebro C",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8137601572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2106713,
+          59.2780185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8137615577",
+      "properties": {
+        "name": "Örebro Södra",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8137615577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2020665,
+          59.2697009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8149931877",
+      "properties": {
+        "name": "Hällefors Tågstation",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8149931877"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5186706,
+          59.7804201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8442270465",
+      "properties": {
+        "name": "Mölndal",
+        "name:technical": "Mölndals nedre",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Mdn",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/8442270465"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0185922,
+          57.6562521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8448979993",
+      "properties": {
+        "name": "Lomma",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/8448979993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0749433,
+          55.6739319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8458145827",
+      "properties": {
+        "name": "Furulund",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8458145827"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0972959,
+          55.7752126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8476150857",
+      "properties": {
+        "name": "Halmstad C",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8476150857"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8642537,
+          56.6692971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8492204783",
+      "properties": {
+        "name": "Ånn",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ånn",
+        "train": "yes",
+        "wikidata": "Q12011536",
+        "id": "node/8492204783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5391154,
+          63.3213289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8516082976",
+      "properties": {
+        "name": "Nynäshamn",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Nyc",
+        "sl_stop_id": "9720",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q17154141",
+        "wikipedia": "sv:Nynäshamn (pendeltågsstation)",
+        "id": "node/8516082976"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9508789,
+          58.9008517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8528446170",
+      "properties": {
+        "name": "Hyllie",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/8528446170"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9759909,
+          55.562801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8559657094",
+      "properties": {
+        "addr:city": "Malmö",
+        "addr:housenumber": "2A",
+        "addr:postcode": "211 46",
+        "addr:street": "Sankt Johannesgatan",
+        "bus": "yes",
+        "name": "Triangeln",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/8559657094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0004292,
+          55.5944641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8930884280",
+      "properties": {
+        "int_name": "Boden Central railway station",
+        "name": "Boden C",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "Bdn",
+        "train": "yes",
+        "wikidata": "Q11854453",
+        "id": "node/8930884280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7082307,
+          65.8288537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9340550520",
+      "properties": {
+        "name": "Svalöv",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/9340550520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1103936,
+          55.9122782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9340550521",
+      "properties": {
+        "name": "Kågeröd",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/9340550521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0834353,
+          55.9983095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9340550522",
+      "properties": {
+        "name": "Billesholm",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/9340550522"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9769667,
+          56.0565565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9355097353",
+      "properties": {
+        "name": "Ängelholm",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/9355097353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8539592,
+          56.245615
+        ]
+      }
+    }
+  ]
 }
