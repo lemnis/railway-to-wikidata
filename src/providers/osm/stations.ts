@@ -9,13 +9,8 @@ const queryStationNodes = (area: string) =>
     'node["public_transport"="station"]',
     'node["railway"="station"]',
     'node["railway"="halt"]',
+    'node["railway"="stop"]',
   ]
-    // train OR no public transport is defined
-    .map((node) => [
-      node + "[train][train!=no]",
-      node + "[!train][!tram][!subway][!monorail][!light_rail][!ferry]",
-    ])
-    .flat()
     // Exclusions
     .map(
       (node) =>
@@ -23,32 +18,40 @@ const queryStationNodes = (area: string) =>
         // Tourism
         "[usage!=tourism][usage!=leisure][tourism!=yes][tourism!=attraction][station!=miniature]" +
         // Disused
-        "[station!=abandoned][disused!=yes][abandoned!=yes]" +
+        "[station!=disused][disused!=yes][disused!=station][train!=disused]" +
+        "[station!=abandoned][abandoned!=yes][abandoned!=station]" +
         // Freight
-        "[usage!=freight][station!=freight][passenger!=no]"
+        "[usage!=freight][usage!=industrial][station!=freight][station!=cargo][passenger!=no]"
     )
+    .flat()
+    // train OR no public transport is defined
+    .map((node) => [
+      node + "[train][train!=no]",
+      node +
+        "[!train][!bus][!tram][!subway][!monorail][!light_rail][!ferry][!aerialway][!bus][!funicular]" +
+        '[amenity!="bus_station"][station!=funicular][station!=subway][station!=monorail]',
+    ])
     .flat()
     .map((q) => `${q}(${area});\r\n`)
     .join("");
 
-const queryStation = (country: string, iso: number) => {
-  return `
+const queryStation = (country: string, iso: number) => `
 [out:json];
-area["ISO3166-${iso}"="${country}"];
+area["ISO3166-${iso}"="${country}"]->.searchArea;
 (
-  ${queryStationNodes("area")}
+  ${queryStationNodes("area.searchArea")}
 );
 out body;
 >;
 out skel qt;
 `;
-};
 
 export const getStations = () =>
   of(
     ...Object.values(Country)
       .map((country) => country.alpha2)
       .map((country) => [country, 1] as [string, number])
+    // ['ES', 1] as [string, number]
   ).pipe(
     concatMap(([region, alpha]) =>
       from(
