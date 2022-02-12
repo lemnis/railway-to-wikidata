@@ -3,6 +3,1120 @@
   "features": [
     {
       "type": "Feature",
+      "id": "node/240448348",
+      "properties": {
+        "name": "завод им. Ленина",
+        "railway": "halt",
+        "id": "node/240448348"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5823334,
+          42.8659864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/240448357",
+      "properties": {
+        "name": "Бишкек I",
+        "name:en": "Bishkek I",
+        "name:ru": "Бишкек I",
+        "operator": "Кыргыз темир жолу",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/240448357"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5516825,
+          42.8664694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/240449433",
+      "properties": {
+        "esr:user": "716700",
+        "name": "Бишкек II",
+        "name:en": "Bishkek II",
+        "name:ru": "Бишкек II",
+        "operator": "Кыргыз темир жолу",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Bischkek 2",
+        "uic_ref": "5900001",
+        "website": "http://www.kjd.kg",
+        "id": "node/240449433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6056943,
+          42.8636582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/244487318",
+      "properties": {
+        "name": "Киршелк",
+        "railway": "halt",
+        "id": "node/244487318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7906618,
+          42.8758835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/299465979",
+      "properties": {
+        "esr": "718000",
+        "esr:user": "718000",
+        "gns:dsg": "RSTN: railroad station",
+        "gns:ufi": "-2576962",
+        "name": "Карасу-Узбекский",
+        "name:en": "Karasu-Uzbekskiy",
+        "name:ru": "Карасу-Узбекский",
+        "railway": "station",
+        "source": "NGA GNS",
+        "uic_ref": "5900671",
+        "id": "node/299465979"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8791782,
+          40.7108615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/300129656",
+      "properties": {
+        "esr": "719228",
+        "name": "20 км",
+        "name:ru": "20 км",
+        "railway": "halt",
+        "id": "node/300129656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.2135838,
+          41.2628118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/304542946",
+      "properties": {
+        "name": "Ош-1",
+        "name:en": "Osh-1",
+        "railway": "station",
+        "source": "UNOSAT, e-geos",
+        "id": "node/304542946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8079144,
+          40.5443443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/710671352",
+      "properties": {
+        "name": "Дачи",
+        "railway": "halt",
+        "id": "node/710671352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.913532,
+          42.8808269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/712463113",
+      "properties": {
+        "esr:user": "717506",
+        "name": "Жел-Арык",
+        "name:ru": "Джиль-Арык",
+        "railway": "station",
+        "uic_ref": "5900904",
+        "id": "node/712463113"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.819755,
+          42.7460658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/712463780",
+      "properties": {
+        "name": "Көк - Мойнок 1",
+        "name:en": "Kyock - Mojnok 1",
+        "name:ru": "Кок-Майнак 1",
+        "railway": "halt",
+        "id": "node/712463780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8566034,
+          42.4881952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/790068683",
+      "properties": {
+        "esr:user": "717205",
+        "name": "Токмок",
+        "name:ru": "Токмак",
+        "railway": "station",
+        "uic_ref": "5900902",
+        "id": "node/790068683"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.3034089,
+          42.8183838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/850129819",
+      "properties": {
+        "esr:user": "718602",
+        "name": "Багыш",
+        "name:ru": "Багиш",
+        "railway": "station",
+        "uic_ref": "5900245",
+        "id": "node/850129819"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0905052,
+          41.0179496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/894437124",
+      "properties": {
+        "name": "Кара-Балта",
+        "name:ja": "カラバルタ",
+        "name:ru": "КАРАБАЛТА",
+        "operator": "Кыргыз темир жолу",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Karabalta",
+        "uic_ref": "5900008",
+        "id": "node/894437124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8588182,
+          42.8160494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/894437172",
+      "properties": {
+        "name": "Кайынды",
+        "name:en": "Kaindy",
+        "name:ky": "Кайынды",
+        "name:ru": "Каинды",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/894437172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6786665,
+          42.8242653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/915726137",
+      "properties": {
+        "esr:user": "717703",
+        "name": "Рыбачье",
+        "name:ky": "Рыбачье",
+        "name:ru": "Рыбачье",
+        "railway": "station",
+        "uic_ref": "5900905",
+        "id": "node/915726137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1610183,
+          42.4449664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1347283269",
+      "properties": {
+        "name": "Аламедин",
+        "name:ky": "Аламүдүн",
+        "railway": "station",
+        "id": "node/1347283269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6542835,
+          42.8679601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1347283293",
+      "properties": {
+        "name": "Быстровка",
+        "railway": "station",
+        "uic_ref": "5900903",
+        "id": "node/1347283293"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.678313,
+          42.7737734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1347283314",
+      "properties": {
+        "esr:user": "717313",
+        "name": "Чымкоргон",
+        "name:ru": "Чимкурган",
+        "railway": "halt",
+        "id": "node/1347283314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4974082,
+          42.8097342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1347283339",
+      "properties": {
+        "name": "Шопоков",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1347283339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3073173,
+          42.8413213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1381610569",
+      "properties": {
+        "name": "381 км",
+        "name:ru": "381 км",
+        "railway": "halt",
+        "uic_ref": "2700434",
+        "id": "node/1381610569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9244692,
+          40.7232001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1404219284",
+      "properties": {
+        "esr:user": "718301",
+        "name": "Джалал-Абад",
+        "name:ru": "Джалал-Абад",
+        "railway": "station",
+        "id": "node/1404219284"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0019365,
+          40.9208844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1404219288",
+      "properties": {
+        "esr:user": "719501",
+        "name": "Кашгар",
+        "name:ru": "Кашгар",
+        "railway": "station",
+        "id": "node/1404219288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8222371,
+          40.6173435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1404219289",
+      "properties": {
+        "esr:user": "718706",
+        "name": "Көк-Жаңгак",
+        "name:ru": "Кок-Янгак",
+        "railway": "station",
+        "uic_ref": "5900244",
+        "id": "node/1404219289"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1931544,
+          41.03089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1590595395",
+      "properties": {
+        "esr": "719215",
+        "name": "14 км",
+        "name:ru": "14 км",
+        "railway": "halt",
+        "id": "node/1590595395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.2076853,
+          41.2279332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1590595543",
+      "properties": {
+        "name": "25 км",
+        "name:ru": "25 км",
+        "railway": "halt",
+        "id": "node/1590595543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.1949581,
+          41.2924553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1594341642",
+      "properties": {
+        "esr": "744128",
+        "esr:user": "744128",
+        "name": "398 км",
+        "name:ru": "398 км",
+        "railway": "halt",
+        "uic_ref": "2900326",
+        "id": "node/1594341642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9976782,
+          40.8603793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1829670369",
+      "properties": {
+        "name": "Беловодская",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1829670369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.1236804,
+          42.8176842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2126648053",
+      "properties": {
+        "name": "Кольцо",
+        "railway": "station",
+        "id": "node/2126648053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.5549141,
+          39.9768897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2126674389",
+      "properties": {
+        "name": "Товарная",
+        "railway": "station",
+        "id": "node/2126674389"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.5606983,
+          39.9329892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2126687012",
+      "properties": {
+        "name": "Восточная",
+        "railway": "station",
+        "id": "node/2126687012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.6211638,
+          39.9252825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2285894612",
+      "properties": {
+        "name": "Шамалды-Сай",
+        "name:en": "Shamaldy-Say",
+        "railway": "station",
+        "uic_ref": "5900238",
+        "id": "node/2285894612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.1723978,
+          41.1696833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2446682623",
+      "properties": {
+        "name": "Ж/Д станция \"Ивановка-1\"",
+        "railway": "station",
+        "id": "node/2446682623"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.0649827,
+          42.8386113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2448142139",
+      "properties": {
+        "name": "Көк-Мойнок 2",
+        "name:en": "Kyok-Moynok 2",
+        "railway": "halt",
+        "id": "node/2448142139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8277961,
+          42.5164371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3079882160",
+      "properties": {
+        "name": "Карьер",
+        "railway": "halt",
+        "id": "node/3079882160"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4003985,
+          42.816938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3222033842",
+      "properties": {
+        "name": "Ош-2",
+        "name:en": "Osh-2",
+        "railway": "station",
+        "id": "node/3222033842"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.813632,
+          40.5768323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3896886744",
+      "properties": {
+        "esr:user": "717608",
+        "name": "Каямат-Куркол",
+        "name:ru": "Каямат-Куркол",
+        "railway": "station",
+        "id": "node/3896886744"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0389036,
+          42.4648682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3896887791",
+      "properties": {
+        "name": "рзд. №148",
+        "railway": "station",
+        "id": "node/3896887791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8585907,
+          42.6436599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3906248735",
+      "properties": {
+        "esr:user": "716402",
+        "name": "Сокулук",
+        "name:ru": "Сокулук",
+        "railway": "station",
+        "uic_ref": "5900157",
+        "id": "node/3906248735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.425432,
+          42.8534879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3906254009",
+      "properties": {
+        "name": "Көк - Мойнок 1",
+        "railway": "halt",
+        "id": "node/3906254009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8786605,
+          42.4705742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3906256231",
+      "properties": {
+        "name": "Красный Мост",
+        "railway": "halt",
+        "id": "node/3906256231"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8128448,
+          42.5966779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3906256577",
+      "properties": {
+        "name": "Кызыл Октябрь",
+        "railway": "halt",
+        "id": "node/3906256577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.7324091,
+          42.7713294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3906258615",
+      "properties": {
+        "name": "Искра",
+        "railway": "halt",
+        "id": "node/3906258615"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4618902,
+          42.8123475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908229296",
+      "properties": {
+        "name": "Люксембург",
+        "railway": "halt",
+        "id": "node/3908229296"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.8190101,
+          42.8831139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908234587",
+      "properties": {
+        "name": "Новопокровка",
+        "railway": "halt",
+        "id": "node/3908234587"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7523611,
+          42.8657046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908238164",
+      "properties": {
+        "name": "Сельсовет",
+        "railway": "halt",
+        "id": "node/3908238164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7325119,
+          42.864213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908261903",
+      "properties": {
+        "name": "Первомайская",
+        "railway": "halt",
+        "id": "node/3908261903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.51827,
+          42.8420055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908264164",
+      "properties": {
+        "name": "Маловодное",
+        "railway": "halt",
+        "id": "node/3908264164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3782049,
+          42.8487066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908265209",
+      "properties": {
+        "name": "Шалта",
+        "railway": "halt",
+        "id": "node/3908265209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3352837,
+          42.8442597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908265676",
+      "properties": {
+        "name": "рзд №142",
+        "railway": "halt",
+        "id": "node/3908265676"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.2495058,
+          42.8370892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908268741",
+      "properties": {
+        "name": "Вознесеновка",
+        "railway": "halt",
+        "id": "node/3908268741"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7843506,
+          42.8164247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3908302360",
+      "properties": {
+        "name": "пост 38 км",
+        "railway": "station",
+        "id": "node/3908302360"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.0485395,
+          40.2751183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3957779776",
+      "properties": {
+        "name": "3696 км",
+        "railway": "halt",
+        "id": "node/3957779776"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.583053,
+          42.832824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3957781892",
+      "properties": {
+        "name": "Промзона",
+        "railway": "halt",
+        "id": "node/3957781892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6777752,
+          42.8676141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3957782476",
+      "properties": {
+        "name": "3788 км",
+        "railway": "halt",
+        "id": "node/3957782476"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7056321,
+          42.8666879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3957783870",
+      "properties": {
+        "name": "Нооруз",
+        "railway": "halt",
+        "id": "node/3957783870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7658476,
+          42.8689876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3957785517",
+      "properties": {
+        "name": "Дмитриевка",
+        "railway": "halt",
+        "id": "node/3957785517"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.9003994,
+          42.8837463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3957788956",
+      "properties": {
+        "name": "ДЭУ",
+        "railway": "halt",
+        "id": "node/3957788956"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.898309,
+          42.4683856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4065102427",
+      "properties": {
+        "esr:user": "716109",
+        "name": "Беловодская",
+        "name:ru": "Беловодская",
+        "railway": "station",
+        "uic_name": "Belowodskaja",
+        "uic_ref": "5900005",
+        "id": "node/4065102427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.1240477,
+          42.8178887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4065102428",
+      "properties": {
+        "esr:user": "716607",
+        "name": "Бишкек I",
+        "name:en": "Bishkek I",
+        "name:ru": "Бишкек I",
+        "operator": "Кыргыз темир жолу",
+        "railway": "station",
+        "uic_name": "Bischkek 1",
+        "uic_ref": "5900007",
+        "id": "node/4065102428"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5517259,
+          42.8663624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4065102430",
+      "properties": {
+        "esr:user": "715708",
+        "name": "Кайынды",
+        "name:en": "Kaindy",
+        "name:ky": "Кайынды",
+        "name:ru": "Каинды",
+        "railway": "station",
+        "uic_name": "Kaindi",
+        "uic_ref": "5900004",
+        "id": "node/4065102430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6779696,
+          42.8240426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4065102432",
+      "properties": {
+        "name": "Шопоков",
+        "railway": "station",
+        "uic_name": "Schopokowo",
+        "uic_ref": "5900006",
+        "id": "node/4065102432"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3072775,
+          42.8411278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4065102433",
+      "properties": {
+        "name": "рзд. №141",
+        "railway": "station",
+        "uic_name": "Rzd. n 141",
+        "uic_ref": "5900010",
+        "id": "node/4065102433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.0126985,
+          42.8211536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4631862136",
+      "properties": {
+        "name": "Покровка",
+        "railway": "halt",
+        "id": "node/4631862136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.2900484,
+          42.8155887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/7072043672",
       "properties": {
         "name": "Маймак",
@@ -38,6 +1152,64 @@
         "coordinates": [
           71.2621516,
           42.7137505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7477036717",
+      "properties": {
+        "name": "Тепловозы (3772 км)",
+        "railway": "halt",
+        "id": "node/7477036717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.493174,
+          42.8607568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8491994152",
+      "properties": {
+        "addr:city": "Кызыл-Кыя",
+        "addr:street": "Первомайская улица",
+        "ele": "965",
+        "esr:user": "719107",
+        "name": "Кызыл-Кия",
+        "name:en": "Kyzyl-Kiya",
+        "name:ru": "Кызыл-Кия",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "5900971",
+        "id": "node/8491994152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.1197452,
+          40.2582847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8544070554",
+      "properties": {
+        "addr:city": "Кант",
+        "addr:street": "Пушкина улица",
+        "name": "РТС",
+        "public_transport": "station",
+        "id": "node/8544070554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.8368261,
+          42.8805856
         ]
       }
     }

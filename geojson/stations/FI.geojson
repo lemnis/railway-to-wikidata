@@ -3,6 +3,25 @@
   "features": [
     {
       "type": "Feature",
+      "id": "node/21577407",
+      "properties": {
+        "name": "Tervajoki",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:position:exact": "460.156",
+        "railway:ref": "Tk",
+        "id": "node/21577407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1709817,
+          63.000846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/21577622",
       "properties": {
         "name": "Seinäjoki",
@@ -62,6 +81,148 @@
     },
     {
       "type": "Feature",
+      "id": "node/25475074",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "10",
+        "train": "yes",
+        "id": "node/25475074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9324426,
+          60.1989884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25475082",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "8",
+        "train": "yes",
+        "id": "node/25475082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9327527,
+          60.1990336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25477046",
+      "properties": {
+        "name": "Ilmala",
+        "name:fi": "Ilmala",
+        "name:sv": "Ilmala",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name": "Ilmala asema",
+        "railway:position:exact": "4.434",
+        "railway:ref": "Ila",
+        "ref": "H0078",
+        "wheelchair": "yes",
+        "wikidata": "Q3494277",
+        "id": "node/25477046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9212392,
+          60.2075815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25495181",
+      "properties": {
+        "name": "Ilmala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/25495181"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9214844,
+          60.2075649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25710227",
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "4",
+        "addr:postcode": "00730",
+        "addr:street": "Sammaltori",
+        "name": "Tapanila",
+        "name:fi": "Tapanila",
+        "name:sv": "Mosabacka",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tna",
+        "ref": "H0076",
+        "wheelchair": "yes",
+        "wikidata": "Q3543767",
+        "id": "node/25710227"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0285605,
+          60.2624633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25710228",
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "name": "Pukinmäki",
+        "name:fi": "Pukinmäki",
+        "name:sv": "Bocksbacka",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Pmk",
+        "ref": "H0074",
+        "wheelchair": "yes",
+        "wikidata": "Q3501162",
+        "id": "node/25710228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9938235,
+          60.2422319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/26110406",
       "properties": {
         "addr:city": "Turku",
@@ -91,6 +252,104 @@
         "coordinates": [
           22.2965688,
           60.4507878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26413982",
+      "properties": {
+        "name": "Kauklahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/26413982"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.600179,
+          60.1893895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26414390",
+      "properties": {
+        "name": "Masala",
+        "name:fi": "Masala",
+        "name:sv": "Masaby",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Mas",
+        "wheelchair": "yes",
+        "id": "node/26414390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5388481,
+          60.1582099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26414528",
+      "properties": {
+        "name": "Jorvas",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/26414528"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5097668,
+          60.1366456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26429992",
+      "properties": {
+        "name": "Valimo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/26429992"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.877319,
+          60.222031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26430078",
+      "properties": {
+        "name": "Tuomarila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/26430078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6807327,
+          60.2061541
         ]
       }
     },
@@ -146,6 +405,63 @@
         "coordinates": [
           24.7306099,
           60.2118923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26434464",
+      "properties": {
+        "name": "Leppävaara",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/26434464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8153018,
+          60.2191325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26434634",
+      "properties": {
+        "name": "Mäkkylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/26434634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8427957,
+          60.2210201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/26434733",
+      "properties": {
+        "name": "Pitäjänmäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/26434733"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8586157,
+          60.223428
         ]
       }
     },
@@ -219,6 +535,89 @@
     },
     {
       "type": "Feature",
+      "id": "node/53834249",
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:postcode": "00410",
+        "addr:street": "Luutnantintie",
+        "alt_name": "Malminkartano",
+        "int_name": "Malminkartano",
+        "name": "Malminkartano",
+        "name:fi": "Malminkartano",
+        "name:sv": "Malmgård",
+        "network": "FI:local",
+        "operator": "Helsingin kaupunki",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Mlo",
+        "ref": "H0084",
+        "shelter": "yes",
+        "start_date": "1975",
+        "wheelchair": "yes",
+        "wikidata": "Q1046051",
+        "wikipedia": "fi:Malminkartanon rautatieasema",
+        "id": "node/53834249"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8612487,
+          60.2493841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/60289871",
+      "properties": {
+        "name": "Kera",
+        "name:en": "Kera",
+        "name:fi": "Kera",
+        "name:sv": "Kera",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kea",
+        "wheelchair": "no",
+        "wheelchair:description:fi": "Matalat laiturit",
+        "id": "node/60289871"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7539118,
+          60.2161665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/76388216",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "network": "FI:national",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name": "Pasila asema",
+        "railway:position:exact": "3.230",
+        "railway:ref": "Psl",
+        "ref": "H0071",
+        "wheelchair": "yes",
+        "wikidata": "Q801316",
+        "id": "node/76388216"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9334823,
+          60.1986627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/91925127",
       "properties": {
         "name": "Vaasa",
@@ -241,6 +640,82 @@
         "coordinates": [
           21.6219678,
           63.097777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/92560933",
+      "properties": {
+        "name": "Huopalahti",
+        "name:fi": "Huopalahti",
+        "name:sv": "Hoplax",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "6.375",
+        "railway:ref": "Hpl",
+        "ref": "H0079",
+        "wheelchair": "yes",
+        "wikidata": "Q3493831",
+        "id": "node/92560933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8933221,
+          60.2182973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/92567667",
+      "properties": {
+        "name": "Valimo",
+        "name:fi": "Valimo",
+        "name:sv": "Gjuteriet",
+        "name_old": "Strömbergin seisake",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vmo",
+        "ref": "H0080",
+        "shelter": "yes",
+        "start_date": "1949",
+        "wheelchair": "yes",
+        "wikidata": "Q3358995",
+        "id": "node/92567667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8766315,
+          60.222055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/117926288",
+      "properties": {
+        "name": "Oulunkylä",
+        "name:fi": "Oulunkylä",
+        "name:sv": "Åggelby",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Olk",
+        "ref": "H0073",
+        "wheelchair": "yes",
+        "wikidata": "Q3503200",
+        "id": "node/117926288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9664757,
+          60.2280959
         ]
       }
     },
@@ -304,6 +779,34 @@
     },
     {
       "type": "Feature",
+      "id": "node/178275725",
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "lit": "yes",
+        "name": "Puistola",
+        "name:fi": "Puistola",
+        "name:sv": "Parkstad",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Pla",
+        "ref": "H0077",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3543770",
+        "id": "node/178275725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.036777,
+          60.2760327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/178300028",
       "properties": {
         "addr:city": "Vantaa",
@@ -333,6 +836,73 @@
         "coordinates": [
           25.0787965,
           60.3514804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/178743448",
+      "properties": {
+        "name": "Oulunkylä",
+        "name:fi": "Oulunkylä",
+        "name:sv": "Åggelby",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/178743448"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9657376,
+          60.2278168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/181290123",
+      "properties": {
+        "name": "Kirkkonummi",
+        "name:fi": "Kirkkonummi",
+        "name:sv": "Kyrkslätt",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/181290123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4380175,
+          60.1196698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/194566310",
+      "properties": {
+        "name": "Lapua",
+        "name:fi": "Lapua",
+        "name:sv": "Lappo",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "441.094",
+        "railway:ref": "Lpa",
+        "wheelchair": "yes",
+        "wikidata": "Q4264843",
+        "wikipedia": "fi:Lapuan rautatieasema",
+        "id": "node/194566310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0143935,
+          62.9709807
         ]
       }
     },
@@ -384,6 +954,29 @@
     },
     {
       "type": "Feature",
+      "id": "node/201792978",
+      "properties": {
+        "name": "Haapajärvi",
+        "network": "FI:regional",
+        "note": "Ei lipunmyyntiä",
+        "operator": "VR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "649.205",
+        "railway:ref": "Hpj",
+        "wikipedia": "fi:Haapajärven rautatieasema",
+        "id": "node/201792978"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3342481,
+          63.7545393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/201795585",
       "properties": {
         "name": "Pyhäsalmi",
@@ -401,6 +994,25 @@
         "coordinates": [
           25.9828762,
           63.6828823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/201796802",
+      "properties": {
+        "name": "Kiuruvesi",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:position:exact": "583.985",
+        "railway:ref": "Krv",
+        "id": "node/201796802"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6105649,
+          63.6411335
         ]
       }
     },
@@ -469,6 +1081,34 @@
     },
     {
       "type": "Feature",
+      "id": "node/205331524",
+      "properties": {
+        "addr:city": "Mäntsälä",
+        "addr:housenumber": "1",
+        "addr:postcode": "04600",
+        "addr:street": "Asemakatu",
+        "name": "Mäntsälä",
+        "name:fi": "Mäntsälä",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "59.210",
+        "railway:ref": "Mlä",
+        "wheelchair": "yes",
+        "wikidata": "Q4411886",
+        "wikipedia": "fi:Mäntsälän rautatieasema",
+        "id": "node/205331524"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3073314,
+          60.6470955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/205364181",
       "properties": {
         "name": "Vihanti",
@@ -490,6 +1130,46 @@
         "coordinates": [
           24.9933991,
           64.484193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/208870597",
+      "properties": {
+        "alt_name": "Lappeenrannan rautatieasema",
+        "name": "Lappeenranta",
+        "network": "FI:national",
+        "operator": "VR",
+        "railway": "station",
+        "railway:ref": "Lr",
+        "train": "yes",
+        "id": "node/208870597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1953186,
+          61.0480551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/214623155",
+      "properties": {
+        "name": "Ainola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/214623155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1014815,
+          60.456982
         ]
       }
     },
@@ -517,6 +1197,29 @@
         "coordinates": [
           24.9713028,
           60.5526514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/234402017",
+      "properties": {
+        "alt_name": "Haapamäen rautatieasema",
+        "name": "Haapamäki",
+        "name:fi": "Haapamäki",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Hpk",
+        "wikidata": "Q5636532",
+        "wikipedia": "fi:Haapamäen rautatieasema",
+        "id": "node/234402017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4548639,
+          62.2464623
         ]
       }
     },
@@ -556,6 +1259,27 @@
     },
     {
       "type": "Feature",
+      "id": "node/242767409",
+      "properties": {
+        "name": "Kauhava",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "455.728",
+        "railway:ref": "Kha",
+        "wheelchair": "yes",
+        "id": "node/242767409"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0356126,
+          63.0995168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/242767521",
       "properties": {
         "addr:city": "Bennäs",
@@ -589,6 +1313,53 @@
     },
     {
       "type": "Feature",
+      "id": "node/242996458",
+      "properties": {
+        "addr:city": "Kajaani",
+        "addr:country": "FI",
+        "name": "Kajaani",
+        "name:fi": "Kajaani",
+        "network": "FI:national",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "633.491",
+        "railway:ref": "Kaj",
+        "wikidata": "Q3098265",
+        "wikipedia": "fi:Kajaanin rautatieasema",
+        "id": "node/242996458"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7384919,
+          64.2197028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/243010327",
+      "properties": {
+        "name": "Kontiomäki",
+        "name:fi": "Kontiomäki",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kon",
+        "wikidata": "Q11872399",
+        "wikipedia": "fi:Kontiomäen rautatieasema",
+        "id": "node/243010327"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1143371,
+          64.3382641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/244494454",
       "properties": {
         "alt_name": "Siilinjärven rautatieasema;Juna-asema",
@@ -609,6 +1380,64 @@
         "coordinates": [
           27.6666464,
           63.0752924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/245187896",
+      "properties": {
+        "name": "Inkeroinen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/245187896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8392165,
+          60.6967898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/249816241",
+      "properties": {
+        "name": "Oitti",
+        "name:fi": "Oitti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/249816241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0214423,
+          60.7899754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/249816262",
+      "properties": {
+        "name": "Mommila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Mla",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/249816262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0798958,
+          60.8229652
         ]
       }
     },
@@ -638,6 +1467,86 @@
         "coordinates": [
           24.5743024,
           65.7367256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/253082543",
+      "properties": {
+        "addr:city": "Lieksa",
+        "addr:housenumber": "4",
+        "addr:street": "Asematie",
+        "internet_access": "no",
+        "name": "Vuonislahti",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vsl",
+        "ref": "Vsl",
+        "route_master": "train",
+        "start_date": "1911",
+        "wikidata": "Q18662965",
+        "wikipedia": "fi:Vuonislahden rautatieasema",
+        "id": "node/253082543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9930033,
+          63.1525274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/256071142",
+      "properties": {
+        "addr:city": "Joensuu",
+        "addr:country": "FI",
+        "addr:housenumber": "12",
+        "addr:postcode": "80100",
+        "addr:street": "Itäranta",
+        "alt_name": "Joensuun rautatieasema",
+        "is_in": "Joensuu,Pohjois-Karjala,Finland,FI",
+        "name": "Joensuu",
+        "name:fi": "Joensuu",
+        "network": "FI:national",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Jns",
+        "url": "http://www.vr.fi/fin/palvelut/palvelut_asemilla/asema.php?asemanTunnus=Jns&language=FI&datagroupid=1",
+        "wikidata": "Q6214189",
+        "wikipedia": "fi:Joensuun rautatieasema",
+        "id": "node/256071142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7765816,
+          62.5998105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/257940983",
+      "properties": {
+        "alt_name": "Kiteen rautatieasema",
+        "name": "Kitee",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:position:exact": "460.016",
+        "railway:ref": "Kit",
+        "wikidata": "Q18661666",
+        "wikipedia": "fi:Kiteen rautatieasema",
+        "id": "node/257940983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0489694,
+          62.1427674
         ]
       }
     },
@@ -695,6 +1604,27 @@
         "coordinates": [
           25.7559984,
           62.2419189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/259805915",
+      "properties": {
+        "name": "Lieksa",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Lis",
+        "wikidata": "Q18660555",
+        "wikipedia": "fi:Lieksan rautatieasema",
+        "id": "node/259805915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0166448,
+          63.3180615
         ]
       }
     },
@@ -758,6 +1688,44 @@
     },
     {
       "type": "Feature",
+      "id": "node/279993149",
+      "properties": {
+        "name": "Tikkurila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/279993149"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0443529,
+          60.2929897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/279995140",
+      "properties": {
+        "name": "Tikkurila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "6",
+        "train": "yes",
+        "id": "node/279995140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0450341,
+          60.2928976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/281197096",
       "properties": {
         "addr:city": "Lempäälä",
@@ -784,6 +1752,31 @@
         "coordinates": [
           23.7550695,
           61.3144095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/282470583",
+      "properties": {
+        "addr:city": "Rovaniemi",
+        "addr:country": "FI",
+        "addr:housenumber": "3",
+        "addr:postcode": "96100",
+        "addr:street": "Ratakatu",
+        "name": "Rovaniemi",
+        "network": "FI:national",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "971.775",
+        "railway:ref": "Roi",
+        "id": "node/282470583"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7053483,
+          66.4980483
         ]
       }
     },
@@ -819,6 +1812,58 @@
     },
     {
       "type": "Feature",
+      "id": "node/289200166",
+      "properties": {
+        "addr:city": "Tervola",
+        "addr:housenumber": "25",
+        "addr:postcode": "95300",
+        "addr:street": "Asemantie",
+        "name": "Tervola",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "900.521",
+        "railway:ref": "Trv",
+        "uic_ref": "1000243",
+        "wikidata": "Q7705366",
+        "wikipedia": "fi:Tervolan rautatieasema",
+        "id": "node/289200166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7721112,
+          66.081609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/292809487",
+      "properties": {
+        "addr:city": "Kuopio",
+        "addr:country": "FI",
+        "name": "Kuopio",
+        "name:fi": "Kuopio",
+        "network": "FI:national",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "464.590",
+        "railway:ref": "Kuo",
+        "wikidata": "Q4357286",
+        "wikipedia": "fi:Kuopion rautatieasema",
+        "id": "node/292809487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6811701,
+          62.8973231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/294868841",
       "properties": {
         "addr:city": "Vantaa",
@@ -844,6 +1889,135 @@
         "coordinates": [
           25.0603776,
           60.3236073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/298770117",
+      "properties": {
+        "name": "Varkaus",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Var",
+        "id": "node/298770117"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.8736521,
+          62.3122323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/299321049",
+      "properties": {
+        "addr:city": "Savonlinna",
+        "addr:country": "FI",
+        "addr:postcode": "57130",
+        "addr:street": "Kauppatori",
+        "alt_name": "Rautatieasema",
+        "is_in": "Savonlinna, Finland",
+        "name": "Savonlinna",
+        "name:fi": "Savonlinna",
+        "name:ru": "Савонлинна",
+        "name:sv": "Nyslott",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "482.797",
+        "railway:ref": "Sl",
+        "wheelchair": "yes",
+        "wikidata": "Q5481177",
+        "wikipedia": "fi:Savonlinnan rautatieasema",
+        "id": "node/299321049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.8882353,
+          61.8689292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/299321484",
+      "properties": {
+        "is_in": "Punkaharju, Finland",
+        "name": "Retretti",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Ree",
+        "id": "node/299321484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.295307,
+          61.803108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/299321520",
+      "properties": {
+        "is_in": "Punkaharju, Finland",
+        "name": "Lusto",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Lus",
+        "id": "node/299321520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.322189,
+          61.800573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/299321631",
+      "properties": {
+        "is_in": "Punkaharju, Finland",
+        "name": "Punkaharju",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:position:exact": "515.111",
+        "railway:ref": "Pun",
+        "wikidata": "Q18661498",
+        "id": "node/299321631"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3825616,
+          61.7610358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/299322046",
+      "properties": {
+        "is_in": "Parikkala, Finland",
+        "name": "Parikkala",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:ref": "Par",
+        "id": "node/299322046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.5030307,
+          61.5587291
         ]
       }
     },
@@ -877,6 +2051,34 @@
     },
     {
       "type": "Feature",
+      "id": "node/312846419",
+      "properties": {
+        "addr:city": "Joutseno",
+        "addr:housenumber": "14",
+        "addr:postcode": "54100",
+        "addr:street": "Veteraanikatu",
+        "alt_name": "Joutsenon rautatieasema",
+        "name": "Joutseno",
+        "name:fi": "Joutseno",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Jts",
+        "railway:ref:DB": "XHJ",
+        "wikidata": "Q11867287",
+        "wikipedia": "fi:Joutsenon rautatieasema",
+        "id": "node/312846419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4921422,
+          61.1213149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/316233521",
       "properties": {
         "addr:housenumber": "8",
@@ -904,6 +2106,44 @@
     },
     {
       "type": "Feature",
+      "id": "node/325998780",
+      "properties": {
+        "name": "Kouvola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "6",
+        "train": "yes",
+        "id": "node/325998780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.704952,
+          60.865603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/325999536",
+      "properties": {
+        "name": "Kouvola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/325999536"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7049383,
+          60.8656981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/330900494",
       "properties": {
         "alt_name": "Salo",
@@ -925,6 +2165,245 @@
         "coordinates": [
           23.1215709,
           60.3847671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339312068",
+      "properties": {
+        "name": "Oulunkylä",
+        "name:fi": "Oulunkylä",
+        "name:sv": "Åggelby",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/339312068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9659195,
+          60.2277233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339320597",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/339320597"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9339974,
+          60.1991778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339605265",
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:country": "FI",
+        "addr:housenumber": "14",
+        "addr:postcode": "00700",
+        "addr:street": "Malmin kauppatie",
+        "lit": "yes",
+        "name": "Malmi",
+        "name:fi": "Malmi",
+        "name:sv": "Malm",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ml",
+        "ref": "H0075",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3501153",
+        "id": "node/339605265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0107602,
+          60.2509496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339689173",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "9",
+        "train": "yes",
+        "id": "node/339689173"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9326784,
+          60.1990238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339833223",
+      "properties": {
+        "layer": "1",
+        "level": "1",
+        "name": "Pohjois-Haaga",
+        "name:fi": "Pohjois-Haaga",
+        "name:sv": "Norra Haga",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Poh",
+        "ref": "H0082",
+        "wheelchair": "yes",
+        "wikidata": "Q3736294",
+        "id": "node/339833223"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.883545,
+          60.2303766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339835310",
+      "properties": {
+        "name": "Kannelmäki",
+        "name:en": "Kannelmaki",
+        "name:fi": "Kannelmäki",
+        "name:sv": "Gamlas",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kan",
+        "ref": "H0083",
+        "wheelchair": "yes",
+        "wikidata": "Q6304453",
+        "id": "node/339835310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8766115,
+          60.239722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339840474",
+      "properties": {
+        "addr:city": "Vantaa",
+        "addr:country": "FI",
+        "addr:housenumber": "6",
+        "addr:postcode": "01600",
+        "addr:street": "Jönsaksentie",
+        "name": "Myyrmäki",
+        "name:fi": "Myyrmäki",
+        "name:sv": "Myrbacka",
+        "network": "FI:local",
+        "operator": "Vantaan kaupunki",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Myr",
+        "wheelchair": "yes",
+        "id": "node/339840474"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8547821,
+          60.2612378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339842372",
+      "properties": {
+        "internet_access": "no",
+        "name": "Louhela",
+        "name:fi": "Louhela",
+        "name:sv": "Klippsta",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Loh",
+        "wheelchair": "yes",
+        "wikidata": "Q264093",
+        "id": "node/339842372"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.853408,
+          60.2708678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339842947",
+      "properties": {
+        "name": "Martinlaakso",
+        "name:fi": "Martinlaakso",
+        "name:sv": "Mårtensdal",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "14.010",
+        "railway:ref": "Mrl",
+        "wheelchair": "yes",
+        "id": "node/339842947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8527533,
+          60.2780783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339846795",
+      "properties": {
+        "name": "Valimo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/339846795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8772973,
+          60.2221627
         ]
       }
     },
@@ -957,6 +2436,25 @@
         "coordinates": [
           24.8605808,
           60.2232138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/339848678",
+      "properties": {
+        "name": "Pitäjänmäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/339848678"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8586726,
+          60.2235372
         ]
       }
     },
@@ -1021,6 +2519,184 @@
     },
     {
       "type": "Feature",
+      "id": "node/339861453",
+      "properties": {
+        "name": "Kilo",
+        "name:fi": "Kilo",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kil",
+        "wheelchair": "yes",
+        "wikidata": "Q6305063",
+        "wikipedia": "fi:Kilon rautatieasema",
+        "id": "node/339861453"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7824059,
+          60.2179166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/340019020",
+      "properties": {
+        "name": "Tikkurila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/340019020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0444172,
+          60.2929779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/340019021",
+      "properties": {
+        "alt_name": "Tikkurilan asema;Tikkurilan rautatieasema",
+        "name": "Tikkurila",
+        "name:fi": "Tikkurila",
+        "name:sv": "Dickursby",
+        "network": "FI:national",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name": "Tikkurila asema",
+        "railway:position:exact": "15.861",
+        "railway:ref": "Tkl",
+        "wheelchair": "yes",
+        "wikidata": "Q1132949",
+        "wikipedia": "fi:Tikkurilan rautatieasema",
+        "id": "node/340019021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0446157,
+          60.2927516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/340019022",
+      "properties": {
+        "name": "Tikkurila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/340019022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0447412,
+          60.2929412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/340019023",
+      "properties": {
+        "name": "Tikkurila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/340019023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0446622,
+          60.2929353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/340019024",
+      "properties": {
+        "name": "Tikkurila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/340019024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0449637,
+          60.2929012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/340021461",
+      "properties": {
+        "addr:city": "Vantaa",
+        "addr:postcode": "01350",
+        "lit": "yes",
+        "name": "Hiekkaharju",
+        "name:fi": "Hiekkaharju",
+        "name:sv": "Sandkulla",
+        "network": "FI:local",
+        "note": "Kuuluu virallisesti Tikkurilan liikennepaikkaan",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "17.109",
+        "railway:ref": "Hkh",
+        "shelter": "yes",
+        "website": "https://www.vr.fi/",
+        "wheelchair": "yes",
+        "wikidata": "Q4348967",
+        "wikipedia": "fi:Hiekkaharjun rautatieasema",
+        "id": "node/340021461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0495524,
+          60.3035444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/354041984",
+      "properties": {
+        "name": "Vainikkala",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vna",
+        "wikidata": "Q11900040",
+        "wikipedia": "fi:Vainikkalan rautatieasema",
+        "id": "node/354041984"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3049253,
+          60.8634759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/373163129",
       "properties": {
         "addr:city": "Sastamala",
@@ -1049,6 +2725,197 @@
     },
     {
       "type": "Feature",
+      "id": "node/384473484",
+      "properties": {
+        "name": "Riihimäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "7",
+        "train": "yes",
+        "id": "node/384473484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.781958,
+          60.7353461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/385142386",
+      "properties": {
+        "name": "Kouvola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/385142386"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7049,
+          60.8658238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/413044742",
+      "properties": {
+        "addr:city": "Pieksämäki",
+        "addr:country": "FI",
+        "description": "Pieksämäen juna-asema",
+        "name": "Pieksämäki",
+        "name:fi": "Pieksämäki",
+        "network": "FI:national",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name": "Pieksämäki asema",
+        "railway:position:exact": "376.000",
+        "railway:ref": "Pm",
+        "wikidata": "Q6305000",
+        "wikipedia": "fi:Pieksämäen rautatieasema",
+        "id": "node/413044742"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1672709,
+          62.3013446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/415238308",
+      "properties": {
+        "name": "Ilmala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/415238308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9213137,
+          60.2074649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/428283394",
+      "properties": {
+        "name": "Kauklahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/428283394"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6004485,
+          60.1894267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/428284545",
+      "properties": {
+        "name": "Kauklahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/428284545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6003681,
+          60.1892782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/428286697",
+      "properties": {
+        "name": "Masala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/428286697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.539018,
+          60.1584042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/428289601",
+      "properties": {
+        "name": "Kirkkonummi",
+        "network": "VR",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/428289601"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4380127,
+          60.1196167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/429164018",
+      "properties": {
+        "addr:city": "Espoo",
+        "addr:country": "FI",
+        "addr:postcode": "02780",
+        "lit": "yes",
+        "name": "Kauklahti",
+        "name:fi": "Kauklahti",
+        "name:sv": "Köklax",
+        "network": "FI:local",
+        "operator": "VR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "24.277",
+        "railway:ref": "Klh",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "id": "node/429164018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6008638,
+          60.1895498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/441347933",
       "properties": {
         "name": "Iisalmi",
@@ -1066,6 +2933,104 @@
         "coordinates": [
           27.2010223,
           63.5602061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/459850141",
+      "properties": {
+        "alt_name": "Viinijärvi",
+        "is_in": "Liperi, Finland",
+        "name": "Viinijärvi",
+        "name:fi": "Viinijärvi",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "656.569",
+        "railway:ref": "Vnj",
+        "wikidata": "Q17146323",
+        "wikipedia": "fi:Viinijärven rautatieasema",
+        "id": "node/459850141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2362837,
+          62.6419004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/462762739",
+      "properties": {
+        "addr:city": "Kemijärvi",
+        "addr:housenumber": "4",
+        "addr:postcode": "98120",
+        "addr:street": "Asematie",
+        "name": "Kemijärvi",
+        "name:fi": "Kemijärvi",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "1056.399",
+        "railway:ref": "Kjä",
+        "wikidata": "Q2762562",
+        "wikipedia": "fi:Kemijärven rautatieasema",
+        "id": "node/462762739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4034599,
+          66.7241893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/470459188",
+      "properties": {
+        "name": "Hyvinkää",
+        "name:fi": "Hyvinkää",
+        "name:sv": "Hyvinge",
+        "network": "VR",
+        "operator": "Väylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/470459188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8579867,
+          60.6313459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/470459222",
+      "properties": {
+        "name": "Hyvinkää",
+        "name:fi": "Hyvinkää",
+        "name:sv": "Hyvinge",
+        "network": "VR",
+        "operator": "Väylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/470459222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8577867,
+          60.6312633
         ]
       }
     },
@@ -1131,6 +3096,50 @@
     },
     {
       "type": "Feature",
+      "id": "node/495429910",
+      "properties": {
+        "local_ref": "1",
+        "name": "Haarajoki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/495429910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1337433,
+          60.4963991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/495551970",
+      "properties": {
+        "addr:housenumber": "5",
+        "addr:street": "Häklinkatu",
+        "name": "Tornio-Itäinen",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:position:exact": "883.307",
+        "railway:ref": "Tri",
+        "source:addr": "Tornion rautatieaseman ovessa oleva tiedote",
+        "start_date": "2008-10-02",
+        "wikidata": "Q1873186",
+        "wikipedia": "fi:Tornio-Itäinen",
+        "id": "node/495551970"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1829303,
+          65.8508407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/512546104",
       "properties": {
         "name": "Petäjävesi",
@@ -1182,6 +3191,30 @@
     },
     {
       "type": "Feature",
+      "id": "node/529878711",
+      "properties": {
+        "internet_access": "no",
+        "name": "Orivesi",
+        "name:fi": "Orivesi",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "228.276",
+        "railway:ref": "Ov",
+        "wikidata": "Q4412073",
+        "wikipedia": "fi:Oriveden rautatieasema",
+        "id": "node/529878711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3671364,
+          61.6495884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/537913195",
       "properties": {
         "addr:city": "Lahti",
@@ -1215,6 +3248,122 @@
     },
     {
       "type": "Feature",
+      "id": "node/538250953",
+      "properties": {
+        "name": "Lappila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Laa",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/538250953"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1741801,
+          60.8489882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/538250962",
+      "properties": {
+        "name": "Järvelä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Jr",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/538250962"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2751189,
+          60.8674563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/556979106",
+      "properties": {
+        "addr:city": "Hyvinkää",
+        "addr:housenumber": "9",
+        "addr:postcode": "05800",
+        "addr:street": "Rautatienkatu",
+        "name": "Hyvinkää",
+        "name:fi": "Hyvinkää",
+        "name:sv": "Hyvinge",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Hy",
+        "shelter": "yes",
+        "start_date": "C19",
+        "wheelchair": "limited",
+        "wikidata": "Q4348424",
+        "wikipedia": "fi:Hyvinkään rautatieasema",
+        "id": "node/556979106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8579079,
+          60.6312926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/581248865",
+      "properties": {
+        "railway": "stop",
+        "id": "node/581248865"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3305299,
+          60.8851979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/590456256",
+      "properties": {
+        "addr:city": "Mikkeli",
+        "addr:country": "FI",
+        "addr:postcode": "50100",
+        "addr:street": "Mannerheimintie",
+        "name": "Mikkeli",
+        "name:fi": "Mikkeli",
+        "name:sv": "St. Michel",
+        "network": "FI:national",
+        "opening_hours": "Mo-Fr 05:45-20:15; Sa 05:45-17:15; Su 09:30-20:15",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "305.165",
+        "railway:ref": "Mi",
+        "shelter": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q11780659",
+        "wikipedia": "fi:Mikkelin rautatieasema",
+        "id": "node/590456256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.2781712,
+          61.6878151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/603526417",
       "properties": {
         "name": "Lapinlahti",
@@ -1233,6 +3382,129 @@
         "coordinates": [
           27.3938625,
           63.3607299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/603918145",
+      "properties": {
+        "addr:city": "Kotka",
+        "addr:housenumber": "9",
+        "addr:postcode": "48100",
+        "addr:street": "Satamakatu",
+        "name": "Kotka satama",
+        "name:fi": "Kotka satama",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Kts",
+        "uic_ref": "1000164",
+        "website": "https://www.vr.fi/cs/vr/fi/kotkan_satama_fi",
+        "wikidata": "Q18661882",
+        "wikipedia": "fi:Kotkan sataman rautatieasema",
+        "id": "node/603918145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.93941,
+          60.46836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/603918319",
+      "properties": {
+        "addr:city": "Kotka",
+        "addr:housenumber": "10",
+        "addr:postcode": "48720",
+        "addr:street": "Asemantie",
+        "name": "Kymi",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "233.450",
+        "railway:ref": "Ky",
+        "uic_ref": "1000171",
+        "wikidata": "Q11873982",
+        "wikipedia": "fi:Kymin rautatieasema",
+        "id": "node/603918319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9065898,
+          60.5390025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/608655859",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/608655859"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9358416,
+          60.9354321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/610915221",
+      "properties": {
+        "name": "Hikiä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/610915221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9236178,
+          60.7538954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/610915222",
+      "properties": {
+        "addr:city": "Järvenpää",
+        "addr:country": "FI",
+        "addr:housenumber": "1",
+        "addr:postcode": "04400",
+        "addr:street": "Asema-aukio",
+        "name": "Järvenpää",
+        "name:fi": "Järvenpää",
+        "name:sv": "Träskända",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name": "Järvenpää asema",
+        "railway:position:exact": "36.786",
+        "railway:ref": "Jp",
+        "uic_ref": "1000138",
+        "website": "https://vr.fi/",
+        "wheelchair": "yes",
+        "wikidata": "Q3736290",
+        "wikipedia": "fi:Järvenpään rautatieasema",
+        "id": "node/610915222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.090678,
+          60.4737479
         ]
       }
     },
@@ -1297,6 +3569,49 @@
     },
     {
       "type": "Feature",
+      "id": "node/634438690",
+      "properties": {
+        "name": "Ainola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/634438690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.101555,
+          60.4569871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/662952169",
+      "properties": {
+        "addr:city": "Mäntyharju",
+        "addr:country": "FI",
+        "name": "Mäntyharju",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "262.680",
+        "railway:ref": "Mr",
+        "wikidata": "Q11883761",
+        "wikipedia": "fi:Mäntyharjun rautatieasema",
+        "id": "node/662952169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8812198,
+          61.4213245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/663024854",
       "properties": {
         "addr:city": "Ekenäs",
@@ -1320,6 +3635,45 @@
         "coordinates": [
           23.4438866,
           59.9795569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/702797617",
+      "properties": {
+        "name": "Ylitornio",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:position:exact": "946.139",
+        "railway:ref": "Ytr",
+        "id": "node/702797617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6825032,
+          66.3244439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/749392273",
+      "properties": {
+        "name": "Tavastila",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Tsl",
+        "wikidata": "Q18662311",
+        "wikipedia": "fi:Tavastilan seisake",
+        "id": "node/749392273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9543666,
+          60.5730016
         ]
       }
     },
@@ -1386,6 +3740,97 @@
     },
     {
       "type": "Feature",
+      "id": "node/794738101",
+      "properties": {
+        "name": "Vilppula",
+        "name:fi": "Vilppula",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vlp",
+        "uic_ref": "1000052",
+        "wikidata": "Q11901619",
+        "wikipedia": "fi:Vilppulan rautatieasema",
+        "id": "node/794738101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5067327,
+          62.0259418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/794738141",
+      "properties": {
+        "addr:street": "Tehtaantie",
+        "name": "Kolho",
+        "name:en": "Kolho",
+        "name:fi": "Kolho",
+        "network": "VR",
+        "operator": "VR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "262.265",
+        "railway:ref": "Klo",
+        "uic_ref": "1000272",
+        "wikidata": "Q11872200",
+        "wikipedia": "fi:Kolhon rautatieasema",
+        "id": "node/794738141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5076233,
+          62.1279996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/794738547",
+      "properties": {
+        "name": "Juupajoki",
+        "name:fi": "Juupajoki",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Jj",
+        "wikidata": "Q18682607",
+        "wikipedia": "fi:Juupajoen seisake",
+        "id": "node/794738547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3651347,
+          61.796901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/804303185",
+      "properties": {
+        "name": "Aviapolis",
+        "name:fi": "Aviapolis",
+        "name:sv": "Aviapolis",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/804303185"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9560243,
+          60.3042545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/813645384",
       "properties": {
         "name": "Humppila",
@@ -1408,6 +3853,24 @@
         "coordinates": [
           23.3621437,
           60.9194753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/823499553",
+      "properties": {
+        "name": "Vihtari",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:ref": "Vih",
+        "id": "node/823499553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0294941,
+          62.3807283
         ]
       }
     },
@@ -1442,6 +3905,197 @@
     },
     {
       "type": "Feature",
+      "id": "node/1029133646",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/1029133646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.933683,
+          60.1991395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1029133660",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "7",
+        "train": "yes",
+        "id": "node/1029133660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9329692,
+          60.1990607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1029133693",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/1029133693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9333295,
+          60.1990964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1029133726",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/1029133726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9337816,
+          60.1991515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1029133793",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/1029133793"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9334342,
+          60.1991092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1041864527",
+      "properties": {
+        "addr:city": "Vantaa",
+        "lit": "yes",
+        "name": "Vantaankoski",
+        "name:fi": "Vantaankoski",
+        "name:sv": "Vandaforsen",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "14.961",
+        "railway:ref": "Vks",
+        "shelter": "yes",
+        "start_date": "1991-09-02",
+        "website": "https://www.vr.fi/",
+        "wheelchair": "yes",
+        "id": "node/1041864527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8481186,
+          60.2859454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1049962080",
+      "properties": {
+        "name": "Kymi",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1049962080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9069698,
+          60.5390226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1054771552",
+      "properties": {
+        "name": "Kerava",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1054771552"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1059716,
+          60.4043902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1102387284",
+      "properties": {
+        "name": "Rekola",
+        "name:fi": "Rekola",
+        "name:sv": "Räckhals",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/1102387284"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0683644,
+          60.3325771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1102387364",
       "properties": {
         "addr:city": "Vantaa",
@@ -1469,6 +4123,124 @@
         "coordinates": [
           25.068333,
           60.332297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1111712504",
+      "properties": {
+        "name": "Järvelä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Jr",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/1111712504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2751462,
+          60.8674187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1120506806",
+      "properties": {
+        "name": "Lappila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Laa",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/1120506806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1741825,
+          60.84895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1123455072",
+      "properties": {
+        "name": "Oitti",
+        "name:fi": "Oitti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/1123455072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0214901,
+          60.7899518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1123456609",
+      "properties": {
+        "name": "Hikiä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1123456609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9236599,
+          60.7538658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1128130089",
+      "properties": {
+        "local_ref": "4",
+        "name": "Saunakallio",
+        "name:fi": "Saunakallio",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1128130089"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0654254,
+          60.4876115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1128130474",
+      "properties": {
+        "local_ref": "3",
+        "name": "Saunakallio",
+        "name:fi": "Saunakallio",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1128130474"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0656791,
+          60.4872903
         ]
       }
     },
@@ -1545,6 +4317,49 @@
     },
     {
       "type": "Feature",
+      "id": "node/1213782277",
+      "properties": {
+        "name": "Myllymäki",
+        "name:fi": "Myllymäki",
+        "network": "FI:regional",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "railway:ref": "My",
+        "train": "yes",
+        "wikidata": "Q11883663",
+        "wikipedia": "fi:Myllymäen rautatieasema",
+        "id": "node/1213782277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2807553,
+          62.5248084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1240333634",
+      "properties": {
+        "name": "Pello",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:position:exact": "1002.632",
+        "railway:ref": "Pel",
+        "ref": "Pel",
+        "id": "node/1240333634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9931676,
+          66.7844805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1333268325",
       "properties": {
         "addr:city": "Viiala",
@@ -1594,6 +4409,43 @@
         "coordinates": [
           25.0982164,
           64.6602359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1348975397",
+      "properties": {
+        "name": "Hotelli Rokuanhovi",
+        "name:en": "Hotel Rokuanhovi",
+        "network": "FI:local",
+        "railway": "halt",
+        "id": "node/1348975397"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.5016201,
+          64.5837164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1371700075",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1371700075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9421897,
+          60.173306
         ]
       }
     },
@@ -1654,6 +4506,208 @@
         "coordinates": [
           26.8426926,
           64.5580812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1452192501",
+      "properties": {
+        "name": "Hankasalmi",
+        "name:fi": "Hankasalmi",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "418.089",
+        "railway:ref": "Hks",
+        "wikidata": "Q18682512",
+        "wikipedia": "fi:Hankasalmen rautatieasema",
+        "id": "node/1452192501"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4779601,
+          62.3027791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1457089039",
+      "properties": {
+        "addr:city": "Savonlinna",
+        "addr:housenumber": "2",
+        "addr:postcode": "57200",
+        "addr:street": "Schaumanintie",
+        "int_name": "Railway Station",
+        "name": "Pääskylahti",
+        "network": "FI:regional",
+        "operator": "VR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "484.913",
+        "railway:ref": "Pky",
+        "website": "https://www.vr.fi/cs/vr/fi/paaskylahti_fi",
+        "wheelchair": "yes",
+        "wikidata": "Q5475786",
+        "wikipedia": "fi:Pääskylahden rautatieasema",
+        "id": "node/1457089039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9175447,
+          61.8633197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1484254576",
+      "properties": {
+        "name": "Sukeva",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:position:exact": "589.222",
+        "railway:ref": "Skv",
+        "id": "node/1484254576"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4225534,
+          63.8648412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1488906899",
+      "properties": {
+        "name": "Dragsvik",
+        "name:sv": "Dragsvik",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Dra",
+        "wikidata": "Q5483050",
+        "wikipedia": "fi:Dragsvikin seisake",
+        "id": "node/1488906899"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4881973,
+          59.9901152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1516867775",
+      "properties": {
+        "name": "Käpylä",
+        "name:fi": "Käpylä",
+        "name:sv": "Kottby",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Käp",
+        "ref": "H0072",
+        "wheelchair": "yes",
+        "wikidata": "Q3499761",
+        "id": "node/1516867775"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9466125,
+          60.2201825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1582913098",
+      "properties": {
+        "name": "Skogby",
+        "name:sv": "Skogby",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Sgy",
+        "wikidata": "Q11893869",
+        "wikipedia": "fi:Skogbyn seisake",
+        "id": "node/1582913098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3109246,
+          59.9261097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1582913122",
+      "properties": {
+        "name": "Santala",
+        "name:fi": "Santala",
+        "name:sv": "Sandö",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Sta",
+        "wikidata": "Q7420015",
+        "wikipedia": "fi:Santalan seisake",
+        "id": "node/1582913122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1212425,
+          59.8750379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1639367952",
+      "properties": {
+        "name": "Seinäjoki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1639367952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8439649,
+          62.7921653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1651515010",
+      "properties": {
+        "name": "Myllykoski",
+        "network": "FI:regional",
+        "operator": "Väylävirasto",
+        "railway": "halt",
+        "railway:position:exact": "203.742",
+        "railway:ref": "Mki",
+        "website": "https://www.vr.fi/cs/vr/doc/Myllykoski.pdf",
+        "wheelchair": "yes",
+        "wikidata": "Q11883652",
+        "wikipedia": "fi:Myllykosken rautatieasema",
+        "id": "node/1651515010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7866884,
+          60.7709102
         ]
       }
     },
@@ -1781,6 +4835,63 @@
     },
     {
       "type": "Feature",
+      "id": "node/1683826791",
+      "properties": {
+        "name": "Ryttylä",
+        "name:fi": "Ryttylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1683826791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7577385,
+          60.8191241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1687338491",
+      "properties": {
+        "name": "Parola",
+        "name:fi": "Parola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1687338491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3664063,
+          61.0502345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1689744651",
+      "properties": {
+        "name": "Espoo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1689744651"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6562858,
+          60.2051228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1701675403",
       "properties": {
         "addr:city": "Kauhava",
@@ -1808,6 +4919,86 @@
         "coordinates": [
           22.8765871,
           63.2344537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1703637897",
+      "properties": {
+        "name": "Kylänlahti",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Kyn",
+        "id": "node/1703637897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7526278,
+          63.361416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1703638233",
+      "properties": {
+        "name": "Kohtavaara",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Koh",
+        "id": "node/1703638233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2873481,
+          63.5147092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1710466862",
+      "properties": {
+        "name": "Heinävesi",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:ref": "Hnv",
+        "id": "node/1710466862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.6435326,
+          62.3825555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1716259527",
+      "properties": {
+        "alt_name": "Espoon asema",
+        "name": "Espoo",
+        "name:lt": "Espas",
+        "name:sv": "Esbo",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "20.600",
+        "railway:ref": "Epo",
+        "wheelchair": "yes",
+        "wikidata": "Q246802",
+        "wikipedia": "en:Espoo railway station",
+        "id": "node/1716259527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6569676,
+          60.2051454
         ]
       }
     },
@@ -1863,6 +5054,34 @@
         "coordinates": [
           27.8225055,
           64.4006996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1792211037",
+      "properties": {
+        "alt_name:en": "Muhos railway station",
+        "alt_name:fi": "Muhoksen rautatieasema",
+        "alt_name:sv": "Muhos järnvägsstation",
+        "name": "Muhos",
+        "name:fi": "Muhos",
+        "network": "FI:regional",
+        "operator": "VR",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "788.424",
+        "railway:ref": "Mh",
+        "wikidata": "Q5393038",
+        "wikipedia": "fi:Muhoksen rautatieasema",
+        "id": "node/1792211037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9919312,
+          64.8053864
         ]
       }
     },
@@ -1925,6 +5144,110 @@
     },
     {
       "type": "Feature",
+      "id": "node/1890206136",
+      "properties": {
+        "name": "Mäntsälä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1890206136"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3074677,
+          60.6470602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1890206139",
+      "properties": {
+        "name": "Mäntsälä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1890206139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3071995,
+          60.6471327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1890269338",
+      "properties": {
+        "local_ref": "1",
+        "name": "Henna, laituri 1",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1890269338"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4948258,
+          60.7997033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1890269340",
+      "properties": {
+        "local_ref": "4",
+        "name": "Henna, laituri 4",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1890269340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4959953,
+          60.8005953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1907038870",
+      "properties": {
+        "addr:city": "Imatra",
+        "addr:housenumber": "1",
+        "addr:postcode": "55120",
+        "addr:street": "Koskikatu",
+        "name": "Imatra",
+        "name:fi": "Imatra",
+        "name:sv": "Imatra",
+        "network": "FI:regional",
+        "old_name": "Imatran keskusliikenneasema",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name": "Imatra asema",
+        "railway:ref": "Imr",
+        "ref": "Imr",
+        "wikidata": "Q11864759",
+        "wikipedia": "fi:Imatran rautatieasema",
+        "id": "node/1907038870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7763855,
+          61.1959631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1907038875",
       "properties": {
         "addr:city": "Imatra",
@@ -1946,6 +5269,225 @@
         "coordinates": [
           28.776854,
           61.1959964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1941675472",
+      "properties": {
+        "internet_access": "no",
+        "name": "Orivesi keskusta",
+        "name:fi": "Orivesi keskusta",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:position:exact": "231.512",
+        "railway:ref": "Ovk",
+        "wikidata": "Q11885796",
+        "wikipedia": "fi:Oriveden keskustan seisake",
+        "id": "node/1941675472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3702827,
+          61.6742273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1989400688",
+      "properties": {
+        "addr:city": "KOTKA",
+        "bench": "yes",
+        "name": "Paimenportti",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Pti",
+        "toilets": "no",
+        "wikidata": "Q11886387",
+        "wikipedia": "fi:Paimenportin seisake",
+        "id": "node/1989400688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9191344,
+          60.4749164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2014522421",
+      "properties": {
+        "name": "Kirkkonummi",
+        "network": "VR",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/2014522421"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.437996,
+          60.1195035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2049452109",
+      "properties": {
+        "name": "Kouvola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "10",
+        "train": "yes",
+        "id": "node/2049452109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7050222,
+          60.8652619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2049452116",
+      "properties": {
+        "name": "Kouvola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "7",
+        "train": "yes",
+        "id": "node/2049452116"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7049852,
+          60.8654595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2049452119",
+      "properties": {
+        "name": "Kouvola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "9",
+        "train": "yes",
+        "id": "node/2049452119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7049973,
+          60.8653749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2049557804",
+      "properties": {
+        "addr:city": "Kouvola",
+        "addr:country": "FI",
+        "addr:housenumber": "3",
+        "addr:postcode": "45100",
+        "addr:street": "Hallituskatu",
+        "name": "Kouvola",
+        "name:lt": "Kouvola",
+        "network": "FI:national",
+        "operator": "Liikennevirasto",
+        "platforms": "7",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name": "Kouvola asema",
+        "railway:position:exact": "191.540",
+        "railway:ref": "Kv",
+        "start_date": "1875",
+        "wheelchair": "yes",
+        "wikidata": "Q4348849",
+        "wikipedia": "fi:Kouvolan rautatieasema",
+        "id": "node/2049557804"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7050577,
+          60.865705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2069994544",
+      "properties": {
+        "name": "Hanko-Pohjoinen",
+        "name:fi": "Hanko-Pohjoinen",
+        "name:sv": "Hangö norra",
+        "network": "FI:local",
+        "railway": "halt",
+        "railway:ref": "Hkp",
+        "wikidata": "Q5648553",
+        "wikipedia": "fi:Hanko-Pohjoinen",
+        "id": "node/2069994544"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9887494,
+          59.8302127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2090317555",
+      "properties": {
+        "name": "Herrala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Hr",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/2090317555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4732927,
+          60.8959734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2090317556",
+      "properties": {
+        "name": "Herrala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Hr",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/2090317556"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4732299,
+          60.8959994
         ]
       }
     },
@@ -1975,6 +5517,39 @@
         "coordinates": [
           24.6385783,
           60.918298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2177226631",
+      "properties": {
+        "addr:city": "Vantaa",
+        "addr:housenumber": "13",
+        "addr:postcode": "01730",
+        "addr:street": "Härkähaantie",
+        "alt_name": "Vehkalan rautatieasema",
+        "lit": "yes",
+        "name": "Vehkala",
+        "name:fi": "Vehkala",
+        "name:sv": "Veckal",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "15.997",
+        "railway:ref": "Veh",
+        "shelter": "yes",
+        "start_date": "2015-07-01",
+        "wheelchair": "yes",
+        "wikidata": "Q17259900",
+        "wikipedia": "fi:Vehkalan rautatieasema",
+        "id": "node/2177226631"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8437614,
+          60.2952926
         ]
       }
     },
@@ -2039,6 +5614,141 @@
     },
     {
       "type": "Feature",
+      "id": "node/2267739270",
+      "properties": {
+        "name": "Savio",
+        "name:fi": "Savio",
+        "name:sv": "Savio",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "26.265",
+        "railway:ref": "Sav",
+        "wheelchair": "yes",
+        "wikidata": "Q4411314",
+        "wikipedia": "fi:Savion rautatieasema",
+        "id": "node/2267739270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0977273,
+          60.380418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2280558242",
+      "properties": {
+        "name": "Myllykoski",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2280558242"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7867274,
+          60.7709265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2280558351",
+      "properties": {
+        "name": "Inkeroinen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2280558351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8392833,
+          60.6968202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2280558495",
+      "properties": {
+        "name": "Myllykoski",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2280558495"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.7866585,
+          60.7708996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2280575668",
+      "properties": {
+        "addr:city": "Inkeroinen",
+        "addr:housenumber": "8",
+        "addr:postcode": "46900",
+        "addr:street": "Asematie",
+        "name": "Inkeroinen",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ikr",
+        "website": "https://www.vr.fi/cs/vr/doc/Inkeroinen.pdf",
+        "wikidata": "Q11864901",
+        "wikipedia": "fi:Inkeroisten rautatieasema",
+        "id": "node/2280575668"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8395792,
+          60.69682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2284711810",
+      "properties": {
+        "lit": "yes",
+        "name": "Kivistö",
+        "name:fi": "Kivistö",
+        "name:sv": "Kivistö",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "18.279",
+        "railway:ref": "Ktö",
+        "shelter": "yes",
+        "start_date": "2015-07-01",
+        "wheelchair": "yes",
+        "wikidata": "Q11871922",
+        "wikipedia": "fi:Kivistön rautatieasema",
+        "id": "node/2284711810"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8473098,
+          60.3147145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/2284733344",
       "properties": {
         "addr:city": "Vantaa",
@@ -2065,6 +5775,218 @@
         "coordinates": [
           24.9685572,
           60.315753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2284733349",
+      "properties": {
+        "name": "Leinelä",
+        "name:fi": "Leinelä",
+        "name:sv": "Lejle",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "31.123",
+        "railway:ref": "Lnä",
+        "start_date": "2015-07-01",
+        "wheelchair": "yes",
+        "wikidata": "Q11875360",
+        "wikipedia": "fi:Leinelän rautatieasema",
+        "id": "node/2284733349"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0400183,
+          60.3225041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2300052386",
+      "properties": {
+        "name": "Kemijärvi",
+        "name:fi": "Kemijärvi",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:position:exact": "1056.399",
+        "railway:ref": "Kjä",
+        "train": "yes",
+        "id": "node/2300052386"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4036463,
+          66.7247502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2308657220",
+      "properties": {
+        "addr:city": "Misi",
+        "addr:housenumber": "2",
+        "addr:postcode": "97580",
+        "addr:street": "Raajärventie",
+        "name": "Misi",
+        "network": "FI:regional",
+        "operator": "VR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "1021.255",
+        "railway:ref": "Mis",
+        "wikidata": "Q5411744",
+        "wikipedia": "fi:Misin rautatieasema",
+        "id": "node/2308657220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6863694,
+          66.6177948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2482254288",
+      "properties": {
+        "name": "Suonenjoki",
+        "name:fi": "Suonenjoki",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "413.842",
+        "railway:ref": "Snj",
+        "wikidata": "Q5406988",
+        "wikipedia": "fi:Suonenjoen rautatieasema",
+        "id": "node/2482254288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.1250846,
+          62.6236456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2571294783",
+      "properties": {
+        "name": "Haapamäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2571294783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4550586,
+          62.2465084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2619198500",
+      "properties": {
+        "name": "Haarajoki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2619198500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1339236,
+          60.4968754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2620420343",
+      "properties": {
+        "name": "Siuntio",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/2620420343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2214406,
+          60.1405635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2620420347",
+      "properties": {
+        "name": "Siuntio",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/2620420347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2214207,
+          60.1406178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2645729206",
+      "properties": {
+        "name": "Uimaharju",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Uim",
+        "wikidata": "Q11899345",
+        "id": "node/2645729206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2415294,
+          62.9125193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2647421867",
+      "properties": {
+        "name": "Eno",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Eno",
+        "wheelchair": "yes",
+        "wikidata": "Q5379256",
+        "id": "node/2647421867"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1420135,
+          62.8064532
         ]
       }
     },
@@ -2101,6 +6023,118 @@
     },
     {
       "type": "Feature",
+      "id": "node/2722957108",
+      "properties": {
+        "name": "Runni",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:position:exact": "568.518",
+        "railway:ref": "Rnn",
+        "id": "node/2722957108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8865228,
+          63.6020561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2722965773",
+      "properties": {
+        "addr:city": "Muurola",
+        "addr:postcode": "97410",
+        "addr:street": "Sepäntie",
+        "name": "Muurola",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "948.494",
+        "railway:ref": "Mul",
+        "wikidata": "Q6944268",
+        "wikipedia": "fi:Muurolan rautatieasema",
+        "id": "node/2722965773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3750101,
+          66.3708212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2824823254",
+      "properties": {
+        "name": "Latu",
+        "network": "FI:regional",
+        "railway": "halt",
+        "id": "node/2824823254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2835948,
+          64.1367063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3041779973",
+      "properties": {
+        "name": "Tuomarila",
+        "name:fi": "Tuomarila",
+        "name:sv": "Domsby",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Trl",
+        "wheelchair": "yes",
+        "wikidata": "Q6305074",
+        "wikipedia": "fi:Tuomarilan rautatieasema",
+        "id": "node/3041779973"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6811065,
+          60.2060973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3273699497",
+      "properties": {
+        "addr:city": "Järvenpää",
+        "addr:housenumber": "1",
+        "addr:postcode": "04400",
+        "addr:street": "Ristikatu",
+        "name": "Saunakallio",
+        "name:fi": "Saunakallio",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Sau",
+        "wheelchair": "yes",
+        "wikidata": "Q3742074",
+        "wikipedia": "fi:Saunakallion rautatieasema",
+        "id": "node/3273699497"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0656242,
+          60.4874419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3275586015",
       "properties": {
         "addr:city": "Riihimäki",
@@ -2127,6 +6161,48 @@
         "coordinates": [
           24.7818896,
           60.7352077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3610609354",
+      "properties": {
+        "name": "Kyminlinna",
+        "network": "FI:regional",
+        "railway": "halt",
+        "railway:ref": "Kln",
+        "shelter": "yes",
+        "wikidata": "Q11873987",
+        "wikipedia": "fi:Kyminlinnan seisake",
+        "id": "node/3610609354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8961937,
+          60.508115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3703494188",
+      "properties": {
+        "name": "Tolsa",
+        "name:fi": "Tolsa",
+        "name:sv": "Tolls",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/3703494188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4730654,
+          60.1187117
         ]
       }
     },
@@ -2222,6 +6298,270 @@
     },
     {
       "type": "Feature",
+      "id": "node/3924182589",
+      "properties": {
+        "name": "Järvenpää",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/3924182589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0911357,
+          60.4734763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3924182591",
+      "properties": {
+        "name": "Järvenpää",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/3924182591"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0913905,
+          60.4735821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3924182611",
+      "properties": {
+        "local_ref": "5",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3924182611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0646066,
+          60.4881262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3925615436",
+      "properties": {
+        "local_ref": "2",
+        "name": "Karis",
+        "name:fi": "Karjaa",
+        "name:sv": "Karis",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3925615436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6613927,
+          60.0687223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3978589232",
+      "properties": {
+        "name": "Jämsä",
+        "name:ar": "يامسا",
+        "name:az-Arab": "یامسا",
+        "name:azb": "یامسا",
+        "name:da": "Jämsä",
+        "name:de": "Jämsä",
+        "name:fa": "یامسا",
+        "name:fi": "Jämsä",
+        "name:ks": "یامسا",
+        "name:nl": "Jämsä",
+        "name:nn": "Jämsä",
+        "name:no": "Jämsä",
+        "name:sv": "Jämsä",
+        "name:ur": "یامسا",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "284.084",
+        "railway:ref": "Jäs",
+        "wheelchair": "yes",
+        "wikidata": "Q11729821",
+        "wikipedia": "fi:Jämsän rautatieasema",
+        "id": "node/3978589232"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1735221,
+          61.8649481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4045310989",
+      "properties": {
+        "alt_name": "Kesälahden rautatieasema",
+        "name": "Kesälahti",
+        "name:fi": "Kesälahti",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kti",
+        "id": "node/4045310989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8032173,
+          61.8878626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4248989440",
+      "properties": {
+        "addr:city": "Helsinki",
+        "addr:housenumber": "19",
+        "addr:postcode": "00520",
+        "addr:street": "Veturitie",
+        "name": "Pasila autojuna-asema",
+        "name:fi": "Pasila autojuna-asema",
+        "name:sv": "Böle biltågstation",
+        "network": "FI:local",
+        "operator": "VR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Pau",
+        "website": "https://www.vr.fi/fi/index/junaliput/kaukoliikenteenliput/yojuniin/pasilanautojuna-asema.html",
+        "wheelchair": "yes",
+        "wikidata": "Q56400831",
+        "wikipedia": "fi:Pasilan autojuna-asema",
+        "id": "node/4248989440"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9304562,
+          60.2043111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4339431404",
+      "properties": {
+        "name": "Kontiolahden rautatieasema",
+        "name:en": "Kontiolahti railway station",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:ref": "Khi",
+        "wikidata": "Q11872398",
+        "wikipedia": "fi:Kontiolahden rautatieasema",
+        "id": "node/4339431404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8573205,
+          62.7323617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4367869940",
+      "properties": {
+        "name": "Viekki",
+        "network": "FI:regional",
+        "operator": "VR",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Vk",
+        "id": "node/4367869940"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6117516,
+          63.4217092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4373241984",
+      "properties": {
+        "name": "Oulainen",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/4373241984"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8211022,
+          64.269417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4438941749",
+      "properties": {
+        "name": "Loimaa",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4438941749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.060396,
+          60.8475184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4503258425",
+      "properties": {
+        "name": "Lapua",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4503258425"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0143291,
+          62.970975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/4575281541",
       "properties": {
         "addr:city": "Vantaa",
@@ -2282,6 +6622,493 @@
     },
     {
       "type": "Feature",
+      "id": "node/4883330280",
+      "properties": {
+        "name": "Höljäkkä",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:ref": "Höl",
+        "id": "node/4883330280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4440776,
+          63.45487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4883498321",
+      "properties": {
+        "addr:city": "Kesälahti",
+        "alt_name": "Kesälahden rautatieasema",
+        "name": "Kesälahti",
+        "name:fi": "Kesälahti",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kti",
+        "wikidata": "Q11871170",
+        "wikipedia": "fi:Kesälahden rautatieasema",
+        "id": "node/4883498321"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8033099,
+          61.8877297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4897084617",
+      "properties": {
+        "alt_name": "Kerimäen rautatieasema",
+        "name": "Kerimäki",
+        "name:fi": "Kerimäki",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:position": "495.531",
+        "railway:ref": "Kiä",
+        "wikidata": "Q18659988",
+        "id": "node/4897084617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1140548,
+          61.8614359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5005795117",
+      "properties": {
+        "name": "Kerava",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/5005795117"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1065233,
+          60.404342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5005796784",
+      "properties": {
+        "name": "Riihimäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/5005796784"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7817923,
+          60.7353335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5007604025",
+      "properties": {
+        "name": "Mommila",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Mla",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/5007604025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0799377,
+          60.8229311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5007604026",
+      "properties": {
+        "name": "Riihimäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "8",
+        "train": "yes",
+        "id": "node/5007604026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7822073,
+          60.7353738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5007969940",
+      "properties": {
+        "name": "Kerava",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "6",
+        "train": "yes",
+        "id": "node/5007969940"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1066055,
+          60.4043352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5007969942",
+      "properties": {
+        "name": "Rekola",
+        "name:fi": "Rekola",
+        "name:sv": "Räckhals",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/5007969942"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0686553,
+          60.3325255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5009688923",
+      "properties": {
+        "name": "Jokela",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5009688923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9706614,
+          60.5528141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5009688924",
+      "properties": {
+        "name": "Jokela",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5009688924"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9707375,
+          60.5528531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5010120780",
+      "properties": {
+        "local_ref": "3",
+        "name": "Huopalahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5010120780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.893391,
+          60.218345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5010120781",
+      "properties": {
+        "local_ref": "2",
+        "name": "Huopalahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5010120781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8934368,
+          60.2183767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5010120782",
+      "properties": {
+        "local_ref": "1",
+        "name": "Huopalahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5010120782"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8935989,
+          60.2184887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5010120783",
+      "properties": {
+        "local_ref": "4",
+        "name": "Huopalahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5010120783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8932532,
+          60.2182497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5012384683",
+      "properties": {
+        "name": "Koivuhovi",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5012384683"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7025862,
+          60.206997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5012384684",
+      "properties": {
+        "name": "Kauniainen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5012384684"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7304611,
+          60.2119052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5012384685",
+      "properties": {
+        "name": "Kilo",
+        "name:fi": "Kilo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5012384685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7822543,
+          60.2178701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5012384686",
+      "properties": {
+        "name": "Kilo",
+        "name:fi": "Kilo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5012384686"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7822322,
+          60.2179185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5012528924",
+      "properties": {
+        "name": "Tolsa",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5012528924"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.473116,
+          60.1186729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5012774802",
+      "properties": {
+        "name": "Tampere",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5012774802"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7735409,
+          61.4985693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5012774803",
+      "properties": {
+        "name": "Tampere",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5012774803"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7734561,
+          61.4985693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5122147012",
+      "properties": {
+        "name": "Kannelmäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5122147012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8770688,
+          60.2395888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5122147013",
+      "properties": {
+        "name": "Kannelmäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5122147013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8770353,
+          60.2395609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5148552966",
+      "properties": {
+        "name": "Tampere",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/5148552966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7737999,
+          61.4985701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5177726243",
       "properties": {
         "addr:city": "Akaa",
@@ -2308,6 +7135,43 @@
         "coordinates": [
           23.8608554,
           61.1706738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5184343095",
+      "properties": {
+        "alt_name": "Simpeleen rautatieasema",
+        "name": "Simpele",
+        "network": "FI:regional",
+        "railway": "station",
+        "railway:ref": "Spl",
+        "id": "node/5184343095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3713418,
+          61.4248716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5218621184",
+      "properties": {
+        "name": "Rokuan kuntokeskus",
+        "name:en": "Rokua Fitness Center",
+        "network": "FI:local",
+        "railway": "halt",
+        "id": "node/5218621184"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.492045,
+          64.6041571
         ]
       }
     },
@@ -2340,6 +7204,1168 @@
         "coordinates": [
           25.4951353,
           60.799882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5718418285",
+      "properties": {
+        "local_ref": "1",
+        "name": "Saunakallio",
+        "name:fi": "Saunakallio",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5718418285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0655422,
+          60.487253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5885352220",
+      "properties": {
+        "name": "Järvenpää",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5885352220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0910622,
+          60.4734385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5949411621",
+      "properties": {
+        "name": "Tampere",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/5949411621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7741376,
+          61.4985706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5949411622",
+      "properties": {
+        "name": "Tampere",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/5949411622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7738847,
+          61.4985696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6042061636",
+      "properties": {
+        "name": "Ryttylä",
+        "name:fi": "Ryttylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6042061636"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7580285,
+          60.8183596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6042167987",
+      "properties": {
+        "name": "Turenki",
+        "name:fi": "Turenki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6042167987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6382297,
+          60.9185803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6042167988",
+      "properties": {
+        "name": "Turenki",
+        "name:fi": "Turenki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6042167988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6383837,
+          60.9186169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6042196442",
+      "properties": {
+        "name": "Hämeenlinna",
+        "name:fi": "Hämeenlinna",
+        "name:sv": "Tavastehus",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6042196442"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4789121,
+          61.0025401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6042196443",
+      "properties": {
+        "name": "Hämeenlinna",
+        "name:fi": "Hämeenlinna",
+        "name:sv": "Tavastehus",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6042196443"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4786046,
+          61.0023825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6076521832",
+      "properties": {
+        "name": "Riihimäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/6076521832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.781559,
+          60.7353138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6076622220",
+      "properties": {
+        "name": "Kauhava",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6076622220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0354358,
+          63.0994777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6076650267",
+      "properties": {
+        "name": "Kokkola",
+        "name:fi": "Kokkola",
+        "name:sv": "Karleby",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/6076650267"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1324832,
+          63.8346804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6076666707",
+      "properties": {
+        "name": "Ylivieska",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/6076666707"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5407205,
+          64.0720975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077064034",
+      "properties": {
+        "name": "Kempele",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6077064034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5142267,
+          64.9120105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077088433",
+      "properties": {
+        "name": "Kemi",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6077088433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5742509,
+          65.7367233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077090895",
+      "properties": {
+        "name": "Oulu",
+        "name:fi": "Oulu",
+        "name:sv": "Uleåborg",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6077090895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.483197,
+          65.0106043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077090896",
+      "properties": {
+        "name": "Oulu",
+        "name:fi": "Oulu",
+        "name:sv": "Uleåborg",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/6077090896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4832935,
+          65.0105819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077090897",
+      "properties": {
+        "name": "Oulu",
+        "name:fi": "Oulu",
+        "name:sv": "Uleåborg",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/6077090897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4835286,
+          65.0105166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077102997",
+      "properties": {
+        "name": "Tervola",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6077102997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7720955,
+          66.0816346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077110013",
+      "properties": {
+        "name": "Muurola",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6077110013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3750025,
+          66.3707756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077117595",
+      "properties": {
+        "name": "Rovaniemi",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6077117595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7053349,
+          66.4980141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077143304",
+      "properties": {
+        "name": "Parkano",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/6077143304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0783251,
+          62.0519754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077358717",
+      "properties": {
+        "name": "Turku satama",
+        "name:fi": "Turku satama",
+        "name:sv": "Åbo hamn",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/6077358717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2233144,
+          60.4347812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077358718",
+      "properties": {
+        "name": "Turku satama",
+        "name:fi": "Turku satama",
+        "name:sv": "Åbo hamn",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6077358718"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.223248,
+          60.4346871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077366642",
+      "properties": {
+        "name": "Turku",
+        "name:sv": "Åbo",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/6077366642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2528636,
+          60.4540774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077382911",
+      "properties": {
+        "name": "Salo",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6077382911"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1213985,
+          60.3849181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6077389885",
+      "properties": {
+        "local_ref": "3",
+        "name": "Karis",
+        "name:fi": "Karjaa",
+        "name:sv": "Karis",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6077389885"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6613418,
+          60.0687534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6078971832",
+      "properties": {
+        "name": "Turku",
+        "name:sv": "Åbo",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "6",
+        "train": "yes",
+        "id": "node/6078971832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2528185,
+          60.4541114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6318367511",
+      "properties": {
+        "local_ref": "4",
+        "name": "Karis",
+        "name:fi": "Karjaa",
+        "name:sv": "Karis",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6318367511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6612207,
+          60.068832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6318367512",
+      "properties": {
+        "local_ref": "1",
+        "name": "Karis",
+        "name:fi": "Karjaa",
+        "name:sv": "Karis",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6318367512"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6595622,
+          60.0678643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6418121589",
+      "properties": {
+        "name": "Kera",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6418121589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7534592,
+          60.2160702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6421310381",
+      "properties": {
+        "name": "Kirkkonummi",
+        "name:fi": "Kirkkonummi",
+        "name:sv": "Kyrkslätt",
+        "network": "FI:regional",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kkn",
+        "wheelchair": "yes",
+        "id": "node/6421310381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.438867,
+          60.1196162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6421310382",
+      "properties": {
+        "name": "Masala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6421310382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5389375,
+          60.1584034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6421453593",
+      "properties": {
+        "name": "Tolsa",
+        "name:fi": "Tolsa",
+        "name:sv": "Tolls",
+        "network": "FI:local",
+        "note": "Uusi asema avattu 15.8.2015",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Tol",
+        "start_date": "2015-08-15",
+        "wheelchair": "yes",
+        "id": "node/6421453593"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.47321,
+          60.1187503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6486497548",
+      "properties": {
+        "addr:city": "Järvenpää",
+        "addr:housenumber": "16",
+        "addr:postcode": "04480",
+        "addr:street": "Haarajoen Asemakatu",
+        "gauge": "1524",
+        "name": "Haarajoki",
+        "name:fi": "Haarajoki",
+        "network": "FI:local",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:position:exact": "39.567",
+        "railway:ref": "Haa",
+        "ref": "Jä0201",
+        "wheelchair": "yes",
+        "wikidata": "Q4411676",
+        "wikipedia": "fi:Haarajoen rautatieasema",
+        "id": "node/6486497548"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1338575,
+          60.4967754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6489254392",
+      "properties": {
+        "name": "Ainola",
+        "network": "FI:local",
+        "old_name": "Kyrölä",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ain",
+        "website": "https://www.vr.fi/fin/palvelut/palvelut_asemilla/asema.php?asemanTunnus=Kro&datagroupid=1",
+        "wheelchair": "yes",
+        "wikidata": "Q10551573",
+        "wikipedia": "fi:Ainolan rautatieasema",
+        "id": "node/6489254392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1015516,
+          60.4568749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6492433270",
+      "properties": {
+        "name": "Riihimäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/6492433270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7813368,
+          60.735295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6738390974",
+      "properties": {
+        "name": "Jorvas",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/6738390974"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5111038,
+          60.1371475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004934",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/6774004934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9419941,
+          60.1732969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004935",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/6774004935"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9419027,
+          60.1732966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004936",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "9",
+        "train": "yes",
+        "id": "node/6774004936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9412072,
+          60.1717197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004937",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "8",
+        "train": "yes",
+        "id": "node/6774004937"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9412938,
+          60.1717219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004938",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "10",
+        "train": "yes",
+        "id": "node/6774004938"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9410059,
+          60.1717145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004939",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "11",
+        "train": "yes",
+        "id": "node/6774004939"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.940915,
+          60.1717121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004940",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "7",
+        "train": "yes",
+        "id": "node/6774004940"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9414913,
+          60.1717271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004941",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "6",
+        "train": "yes",
+        "id": "node/6774004941"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9415834,
+          60.1717295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004942",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/6774004942"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9417843,
+          60.1717347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004943",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/6774004943"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9418691,
+          60.1717369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004945",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "12",
+        "train": "yes",
+        "id": "node/6774004945"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9405985,
+          60.1727761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004946",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "14",
+        "train": "yes",
+        "id": "node/6774004946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9403137,
+          60.1727716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004947",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "15",
+        "train": "yes",
+        "id": "node/6774004947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.940223,
+          60.1727701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004948",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "16",
+        "train": "yes",
+        "id": "node/6774004948"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9400271,
+          60.172767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004949",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "17",
+        "train": "yes",
+        "id": "node/6774004949"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9399355,
+          60.1727656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004950",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "18",
+        "train": "yes",
+        "id": "node/6774004950"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9397319,
+          60.1727624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004951",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "19",
+        "train": "yes",
+        "id": "node/6774004951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9396476,
+          60.172761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6774004960",
+      "properties": {
+        "name": "Helsinki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "13",
+        "train": "yes",
+        "id": "node/6774004960"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9405173,
+          60.1727748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6790254411",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6790254411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1324666,
+          63.8347272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7019043280",
+      "properties": {
+        "name": "Seinäjoki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7019043280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8439195,
+          62.792144
         ]
       }
     },
@@ -2502,6 +8528,771 @@
         "coordinates": [
           24.9232848,
           60.7537835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7049435855",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7049435855"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6219419,
+          63.0977418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7054477867",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "6",
+        "train": "yes",
+        "id": "node/7054477867"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9331377,
+          60.1990768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7054477868",
+      "properties": {
+        "name": "Pasila",
+        "name:fi": "Pasila",
+        "name:sv": "Böle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "11",
+        "train": "yes",
+        "id": "node/7054477868"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9320474,
+          60.1993127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7058625863",
+      "properties": {
+        "name": "Jyväskylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7058625863"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7558533,
+          62.2419811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7086632657",
+      "properties": {
+        "name": "Tesoma",
+        "name:fi": "Tesoma",
+        "network": "FI:local",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Tso",
+        "train": "yes",
+        "wikidata": "Q65245409",
+        "wikipedia": "fi:Tesoman seisake",
+        "id": "node/7086632657"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6305267,
+          61.5033704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7104830864",
+      "properties": {
+        "name": "Eläinpuisto-Zoo",
+        "name:fi": "Eläinpuisto-Zoo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7104830864"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1908534,
+          62.5408367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7104844397",
+      "properties": {
+        "name": "Ähtäri",
+        "name:fi": "Ähtäri",
+        "name:sv": "Etseri",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7104844397"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0636739,
+          62.5534282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7113961418",
+      "properties": {
+        "name": "Haapamäki",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7113961418"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4549051,
+          62.2464763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7113996649",
+      "properties": {
+        "name": "Petäjävesi",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7113996649"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1898558,
+          62.2569766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7114003561",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7114003561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7070973,
+          62.2553384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7176171126",
+      "properties": {
+        "name": "Malminkartano",
+        "name:fi": "Malminkartano",
+        "name:sv": "Malmgård",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/7176171126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8612922,
+          60.2493985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7176171127",
+      "properties": {
+        "name": "Malminkartano",
+        "name:fi": "Malminkartano",
+        "name:sv": "Malmgård",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/7176171127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.861204,
+          60.2493806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7237379627",
+      "properties": {
+        "name": "Parola",
+        "name:fi": "Parola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7237379627"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3661454,
+          61.0501401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7285086444",
+      "properties": {
+        "name": "Parkano",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/7285086444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0782286,
+          62.0520997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7417537457",
+      "properties": {
+        "name": "Aviapolis",
+        "name:fi": "Aviapolis",
+        "name:sv": "Aviapolis",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7417537457"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9562426,
+          60.3041389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7563986002",
+      "properties": {
+        "name": "Muhos",
+        "name:fi": "Muhos",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Mh",
+        "train": "yes",
+        "id": "node/7563986002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9919962,
+          64.8054069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7610452800",
+      "properties": {
+        "name": "Hanko-Pohjoinen",
+        "name:fi": "Hanko-Pohjoinen",
+        "name:sv": "Hangö norra",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Hkp",
+        "train": "yes",
+        "wikidata": "Q5648553",
+        "wikipedia": "fi:Hanko-Pohjoinen",
+        "id": "node/7610452800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9886009,
+          59.8302205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7610489722",
+      "properties": {
+        "name": "Nurmes",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7610489722"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1374208,
+          63.5410403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7613408901",
+      "properties": {
+        "name": "Lapinlahti",
+        "name:fi": "Lapinlahti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Lna",
+        "train": "yes",
+        "wikidata": "Q5407064",
+        "wikipedia": "fi:Lapinlahden rautatieasema",
+        "id": "node/7613408901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3937862,
+          63.3606321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7613423416",
+      "properties": {
+        "addr:city": "Mäntyharju",
+        "addr:country": "FI",
+        "name": "Mäntyharju",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:position:exact": "262.680",
+        "railway:ref": "Mr",
+        "train": "yes",
+        "wikidata": "Q11883761",
+        "wikipedia": "fi:Mäntyharjun rautatieasema",
+        "id": "node/7613423416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.8817373,
+          61.4212679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7613430518",
+      "properties": {
+        "name": "Misi",
+        "operator": "VR",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:ref": "Mis",
+        "train": "yes",
+        "wikidata": "Q5411744",
+        "wikipedia": "fi:Misin rautatieasema",
+        "id": "node/7613430518"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6844083,
+          66.6176502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7656616460",
+      "properties": {
+        "local_ref": "2",
+        "name": "Villähde",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7656616460"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8265052,
+          60.9465598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7656616461",
+      "properties": {
+        "local_ref": "1",
+        "name": "Villähde",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7656616461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.824719,
+          60.9466372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7660981873",
+      "properties": {
+        "name": "Paimenportti",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7660981873"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9190638,
+          60.4748735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7938942356",
+      "properties": {
+        "name": "Tesoma",
+        "name:fi": "Tesoma",
+        "network": "FI:local",
+        "railway": "halt",
+        "railway:ref": "Tso",
+        "wikidata": "Q65245409",
+        "wikipedia": "fi:Tesoman seisake",
+        "id": "node/7938942356"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6303506,
+          61.5034504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7995358153",
+      "properties": {
+        "name": "Ylistaro",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "wikidata": "Q18663108",
+        "wikipedia": "fi:Ylistaron rautatieasema",
+        "id": "node/7995358153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5326453,
+          62.9178128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8242710663",
+      "properties": {
+        "local_ref": "1",
+        "name": "Savonlinna, laituri 1",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8242710663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.888037,
+          61.8689322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8242710667",
+      "properties": {
+        "name": "Pääskylahti, laituri 1",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8242710667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9177861,
+          61.8632575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8290010827",
+      "properties": {
+        "name": "Nastola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8290010827"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9345261,
+          60.9359291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8290010828",
+      "properties": {
+        "name": "Nastola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8290010828"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9361681,
+          60.9353214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8290010829",
+      "properties": {
+        "name": "Uusikylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8290010829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9925363,
+          60.9278624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8290010830",
+      "properties": {
+        "name": "Uusikylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8290010830"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9953957,
+          60.9276155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8708810866",
+      "properties": {
+        "name": "Lohja",
+        "name:fi": "Lohja",
+        "name:sv": "Lojo",
+        "network": "VR",
+        "operator": "Väylä",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8708810866"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1160622,
+          60.2653847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8708810867",
+      "properties": {
+        "name": "Mustio",
+        "name:fi": "Mustio",
+        "name:sv": "Svartå",
+        "network": "VR",
+        "operator": "Väylä",
+        "railway": "stop",
+        "train": "yes",
+        "was:public_transport": "stop_position",
+        "id": "node/8708810867"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8683834,
+          60.1404099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8734527611",
+      "properties": {
+        "name": "Kouvola",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/8734527611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.70463,
+          60.8659042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9250171350",
+      "properties": {
+        "name": "Koria",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9250171350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6006263,
+          60.8468694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9250171351",
+      "properties": {
+        "name": "Koria",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9250171351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.6022751,
+          60.8474561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9250171352",
+      "properties": {
+        "name": "Kausala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9250171352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3291261,
+          60.8854351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9250171353",
+      "properties": {
+        "name": "Kausala",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9250171353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3310827,
+          60.885125
         ]
       }
     }

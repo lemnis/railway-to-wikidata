@@ -3,6 +3,89 @@
   "features": [
     {
       "type": "Feature",
+      "id": "node/31436595",
+      "properties": {
+        "esr:user": "120819",
+        "name": "Vokė",
+        "name:lt": "Vokė",
+        "name:ru": "Воке",
+        "railway": "halt",
+        "uic_ref": "2400415",
+        "wikidata": "Q20503894",
+        "id": "node/31436595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1282698,
+          54.6334843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31436983",
+      "properties": {
+        "name": "Vilnius",
+        "name:be": "Вільня",
+        "name:lt": "Vilnius",
+        "railway": "stop",
+        "wheelchair": "yes",
+        "id": "node/31436983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.285775,
+          54.6696134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31451531",
+      "properties": {
+        "esr:user": "120908",
+        "name": "Lentvaris",
+        "name:lt": "Lentvaris",
+        "name:ru": "Лянтварис",
+        "railway": "station",
+        "uic_ref": "2400417",
+        "wikidata": "Q12662836",
+        "wikipedia": "lt:Lentvario geležinkelio stotis",
+        "id": "node/31451531"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0470605,
+          54.6449966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31451565",
+      "properties": {
+        "esr:user": "122301",
+        "name": "Valkininkai",
+        "name:lt": "Valkininkai",
+        "name:ru": "Валькининкай",
+        "railway": "station",
+        "uic_ref": "2401422",
+        "wikidata": "Q55979370",
+        "id": "node/31451565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7202066,
+          54.3523155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/31451577",
       "properties": {
         "esr:user": "122208",
@@ -21,6 +104,42 @@
         "coordinates": [
           24.6860969,
           54.2747567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31451593",
+      "properties": {
+        "esr:user": "121608",
+        "int_name": "Varena",
+        "name": "Varėna",
+        "name:bat-smg": "Varėna",
+        "name:be": "Варэна",
+        "name:de": "Warnen",
+        "name:en": "Varena",
+        "name:fa": "وارنا، لتونی",
+        "name:he": "וריאנה",
+        "name:ja": "ヴァレナ",
+        "name:ka": "ვარენა",
+        "name:kk": "Варена",
+        "name:lt": "Varėna",
+        "name:lv": "Varēna",
+        "name:pl": "Orany",
+        "name:ru": "Варена",
+        "name:sr": "Варена",
+        "name:uk": "Варена",
+        "name:zh": "瓦雷纳",
+        "railway": "station",
+        "uic_ref": "2400426",
+        "wikidata": "Q55163129",
+        "id": "node/31451593"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5747343,
+          54.2093718
         ]
       }
     },
@@ -72,6 +191,29 @@
     },
     {
       "type": "Feature",
+      "id": "node/55338381",
+      "properties": {
+        "alt_name": "Žaslių geležinkelio stotis",
+        "esr:user": "122725",
+        "name": "Žasliai",
+        "name:lt": "Žasliai",
+        "name:ru": "Жасляй",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "2400366",
+        "wikidata": "Q108602987",
+        "id": "node/55338381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5887434,
+          54.8363945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/55338421",
       "properties": {
         "esr:user": "122903",
@@ -90,6 +232,124 @@
         "coordinates": [
           24.2208195,
           54.9017033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57185713",
+      "properties": {
+        "esr:user": "120429",
+        "name": "Pakenė",
+        "name:lt": "Pakenė",
+        "name:ru": "Пакяне",
+        "railway": "halt",
+        "uic_ref": "2400009",
+        "wikidata": "Q108608382",
+        "id": "node/57185713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6054468,
+          54.6516186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/57185717",
+      "properties": {
+        "esr:user": "120306",
+        "name": "Kena",
+        "name:be": "Кена",
+        "name:de": "Knien",
+        "name:lt": "Kena",
+        "name:pl": "Kiena Panieńska",
+        "name:ru": "Кяна",
+        "railway": "station",
+        "uic_ref": "2400450",
+        "wikidata": "Q11870907",
+        "wikipedia": "lt:Kenos geležinkelio stotis",
+        "id": "node/57185717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6892109,
+          54.6395564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/60799929",
+      "properties": {
+        "esr:user": "124701",
+        "name": "Jonava",
+        "name:lt": "Jonava",
+        "name:ru": "Ионава",
+        "railway": "station",
+        "uic_ref": "2400414",
+        "wikidata": "Q605646",
+        "id": "node/60799929"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2759198,
+          55.093514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/66887277",
+      "properties": {
+        "esr:user": "128204",
+        "name": "Bezdonys",
+        "name:lt": "Bezdonys",
+        "name:ru": "Бяздонис",
+        "railway": "station",
+        "uic_ref": "2400434",
+        "wikidata": "Q31198919",
+        "id": "node/66887277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5210766,
+          54.8050898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/66887310",
+      "properties": {
+        "esr:user": "128401",
+        "name": "Pabradė",
+        "name:bat-smg": "Pabradė",
+        "name:be": "Пабрадзе",
+        "name:de": "Podbrodsen",
+        "name:ja": "パブラデ",
+        "name:ka": "პაბრადე",
+        "name:lt": "Pabradė",
+        "name:lv": "Pabrade",
+        "name:pl": "Podbrodzie",
+        "name:ru": "Подбродзье",
+        "name:zh": "帕布拉德",
+        "railway": "station",
+        "railway:ref:DB": "ZLPA",
+        "uic_ref": "2400423",
+        "wikidata": "Q86669841",
+        "id": "node/66887310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.7599857,
+          54.974288
         ]
       }
     },
@@ -141,6 +401,27 @@
     },
     {
       "type": "Feature",
+      "id": "node/91092243",
+      "properties": {
+        "esr:user": "116226",
+        "name": "Laba",
+        "name:lt": "Laba",
+        "name:ru": "Лаба",
+        "railway": "halt",
+        "uic_ref": "2401401",
+        "wikidata": "Q108663984",
+        "id": "node/91092243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.912197,
+          55.7443053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/99172829",
       "properties": {
         "esr:user": "108003",
@@ -158,6 +439,54 @@
         "coordinates": [
           21.1354905,
           55.7210059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/99177936",
+      "properties": {
+        "esr:user": "107320",
+        "name": "Dūseikiai",
+        "name:lt": "Dūseikiai",
+        "name:ru": "Дусейкяй",
+        "railway": "station",
+        "uic_ref": "2401389",
+        "wikidata": "Q108552402",
+        "id": "node/99177936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4604133,
+          55.978104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/159923469",
+      "properties": {
+        "bench": "yes",
+        "esr:user": "120503",
+        "lit": "yes",
+        "name": "Jašiūnai",
+        "name:be": "Яшуны",
+        "name:de": "Jeschewitz",
+        "name:lt": "Jašiūnai",
+        "name:pl": "Jaszuny",
+        "name:ru": "Яшюнай",
+        "railway": "station",
+        "shelter": "yes",
+        "surface": "paved",
+        "uic_ref": "2400448",
+        "id": "node/159923469"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2805506,
+          54.4528357
         ]
       }
     },
@@ -232,6 +561,23 @@
     },
     {
       "type": "Feature",
+      "id": "node/298335144",
+      "properties": {
+        "name": "Žeimiai",
+        "railway": "station",
+        "wikidata": "Q16478831",
+        "id": "node/298335144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.182724,
+          55.1502507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/301943955",
       "properties": {
         "alt_name": "Bevandeniškiai",
@@ -251,6 +597,62 @@
         "coordinates": [
           24.9935237,
           54.7010609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/301944395",
+      "properties": {
+        "alt_name": "Vievio geležinkelio stotis",
+        "esr:user": "122706",
+        "name": "Vievis",
+        "name:ar": "فيفيس",
+        "name:bat-smg": "Vėivis",
+        "name:be": "Віевіс",
+        "name:be-tarask": "Еўе",
+        "name:de": "Wewien",
+        "name:el": "Βιέβις",
+        "name:fa": "ویویس",
+        "name:hy": "Վևիս",
+        "name:ka": "ვევისი",
+        "name:lt": "Vievis",
+        "name:lv": "Vieve",
+        "name:pl": "Jewie",
+        "name:ru": "Вевис",
+        "name:uk": "Єв'є",
+        "name:zh": "韋維斯",
+        "platforms": "2",
+        "railway": "station",
+        "uic_ref": "2400456",
+        "wikidata": "Q16476061",
+        "id": "node/301944395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8121874,
+          54.7794142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/301945169",
+      "properties": {
+        "name": "Pavenčiai",
+        "phone": "+370 700 55 111",
+        "railway": "station",
+        "uic_ref": "2400406",
+        "website": "http://www.litrail.lt/",
+        "wikidata": "Q108552319",
+        "id": "node/301945169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9357532,
+          55.9791356
         ]
       }
     },
@@ -300,6 +702,49 @@
         "coordinates": [
           24.9797532,
           54.612835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/436354512",
+      "properties": {
+        "esr:user": "128505",
+        "name": "Švenčionėliai",
+        "name:de": "Neuschwintzen",
+        "name:lt": "Švenčionėliai",
+        "name:pl": "Nowe Święciany",
+        "name:ru": "Швенчёнеляй",
+        "railway": "station",
+        "uic_ref": "2400422",
+        "wikidata": "Q31199248",
+        "id": "node/436354512"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.993528,
+          55.163812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/450582470",
+      "properties": {
+        "name": "Šilutė",
+        "name:lt": "Šilutė",
+        "name:ru": "Шилуте",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/450582470"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4843695,
+          55.3471807
         ]
       }
     },
@@ -382,6 +827,105 @@
     },
     {
       "type": "Feature",
+      "id": "node/617011895",
+      "properties": {
+        "esr:user": "115967",
+        "name": "Troškūnai LG",
+        "name:lt": "Troškūnai LG",
+        "name:ru": "Трошкунай",
+        "railway": "station",
+        "uic_ref": "2400056",
+        "id": "node/617011895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9022356,
+          55.5896938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617014502",
+      "properties": {
+        "name": "Vašuokėnai",
+        "name:lt": "Vašuokėnai",
+        "name:ru": "Вашуокёнай",
+        "railway": "station",
+        "id": "node/617014502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8520195,
+          55.6254102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617014920",
+      "properties": {
+        "esr:user": "115948",
+        "name": "Surdegis",
+        "name:lt": "Surdegis",
+        "name:ru": "Сурдеги",
+        "railway": "station",
+        "uic_ref": "2400053",
+        "id": "node/617014920"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7944991,
+          55.6581508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617014928",
+      "properties": {
+        "esr:user": "115933",
+        "historic": "archaeological_site",
+        "name": "Raguvėlė",
+        "name:lt": "Raguvėlė",
+        "name:ru": "Рагувеле",
+        "railway": "halt",
+        "uic_ref": "2400052",
+        "id": "node/617014928"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7080323,
+          55.6824132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/617015186",
+      "properties": {
+        "esr:user": "115914",
+        "name": "Taruškos",
+        "name:lt": "Taruškos",
+        "name:ru": "Тарушкос",
+        "railway": "station",
+        "uic_ref": "2400050",
+        "id": "node/617015186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5492035,
+          55.7310201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/748187296",
       "properties": {
         "esr:user": "120931",
@@ -400,6 +944,164 @@
         "coordinates": [
           24.9829879,
           54.7166746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/748297322",
+      "properties": {
+        "alt_name": "Toliočiai",
+        "name": "Voveriškiai",
+        "name:lt": "Voveriškiai",
+        "name:ru": "Толёчяй",
+        "railway": "halt",
+        "uic_ref": "2400348",
+        "wikidata": "Q108552254",
+        "id": "node/748297322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.258349,
+          55.9516868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/773113288",
+      "properties": {
+        "esr:user": "125600",
+        "name": "Šilėnai",
+        "name:lt": "Šilėnai",
+        "name:ru": "Шиленай",
+        "railway": "halt",
+        "uic_ref": "2400399",
+        "wikidata": "Q108653536",
+        "id": "node/773113288"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4139255,
+          55.8638214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/773113292",
+      "properties": {
+        "esr:user": "105522",
+        "name": "Kutiškiai",
+        "name:lt": "Kutiškiai",
+        "name:ru": "Кутишкяй",
+        "railway": "halt",
+        "uic_ref": "2400384",
+        "wikidata": "Q108653499",
+        "id": "node/773113292"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4757863,
+          55.832453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/872472728",
+      "properties": {
+        "name": "Žažumbris",
+        "railway": "station",
+        "id": "node/872472728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1714923,
+          55.5217196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/872472924",
+      "properties": {
+        "name": "Rubikiai LG",
+        "name:lt": "Rubikiai LG",
+        "name:ru": "Рубикяй",
+        "railway": "station",
+        "id": "node/872472924"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2820326,
+          55.531233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/974930325",
+      "properties": {
+        "esr:user": "107809",
+        "name": "Kretinga",
+        "name:de": "Crottingen",
+        "name:lt": "Kretinga",
+        "name:pl": "Kretynga",
+        "name:ru": "Кретинга",
+        "railway": "station",
+        "uic_ref": "2400165",
+        "wikidata": "Q19828455",
+        "id": "node/974930325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2292917,
+          55.8868558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/983974572",
+      "properties": {
+        "name": "Plungė",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/983974572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8521784,
+          55.9193389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1051717364",
+      "properties": {
+        "name": "Turmantas",
+        "name:lt": "Turmantas",
+        "name:ru": "Турмантас",
+        "railway": "station",
+        "uic_ref": "2400418",
+        "wikidata": "Q31198921",
+        "id": "node/1051717364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4654445,
+          55.6995016
         ]
       }
     },
@@ -428,6 +1130,26 @@
     },
     {
       "type": "Feature",
+      "id": "node/1080955151",
+      "properties": {
+        "name": "Durpynas",
+        "name:lt": "Durpynas",
+        "name:ru": "Дурпинас",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1080955151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5124831,
+          55.8228901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1087025439",
       "properties": {
         "esr:user": "122424",
@@ -446,6 +1168,70 @@
         "coordinates": [
           24.9421822,
           54.5956935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1127720728",
+      "properties": {
+        "esr:user": "126406",
+        "name": "Mažeikiai",
+        "name:lt": "Mažeikiai",
+        "name:ru": "Мажейкяй",
+        "railway": "station",
+        "uic_ref": "2400401",
+        "wikidata": "Q5490845",
+        "id": "node/1127720728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3396359,
+          56.3125546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1191404625",
+      "properties": {
+        "alt_name:ru": "Паильгис",
+        "crossing": "uncontrolled",
+        "esr:user": "128562",
+        "name": "Pailgis",
+        "name:lt": "Pailgis",
+        "name:ru": "Паилгис",
+        "railway": "station",
+        "uic_ref": "2400437",
+        "id": "node/1191404625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6617121,
+          54.9331476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1242543869",
+      "properties": {
+        "esr:user": "127803",
+        "name": "Rokiškis",
+        "name:de": "Rokischken",
+        "name:lt": "Rokiškis",
+        "name:ru": "Рокишкис",
+        "railway": "station",
+        "uic_ref": "2400389",
+        "id": "node/1242543869"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5975496,
+          55.9393629
         ]
       }
     },
@@ -520,6 +1306,26 @@
     },
     {
       "type": "Feature",
+      "id": "node/1271048843",
+      "properties": {
+        "esr:user": "122316",
+        "name": "Kalviai",
+        "name:lt": "Kalviai",
+        "name:ru": "Кальвяй",
+        "railway": "halt",
+        "uic_ref": "2401421",
+        "id": "node/1271048843"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7456929,
+          54.3971046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1271048844",
       "properties": {
         "esr:user": "122320",
@@ -589,6 +1395,116 @@
     },
     {
       "type": "Feature",
+      "id": "node/1307500247",
+      "properties": {
+        "esr:user": "127521",
+        "name": "Skapiškis",
+        "name:lt": "Skapiškis",
+        "name:ru": "Скапишкис",
+        "railway": "station",
+        "uic_ref": "2400392",
+        "id": "node/1307500247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1960132,
+          55.8614554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1325567013",
+      "properties": {
+        "esr:user": "128543",
+        "name": "Žeimena",
+        "name:lt": "Žeimena",
+        "name:ru": "Жеймена",
+        "railway": "halt",
+        "uic_ref": "2400439",
+        "id": "node/1325567013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9295719,
+          55.0834896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1339661638",
+      "properties": {
+        "name": "Elektrinių traukinių depas-1",
+        "railway": "halt",
+        "wikidata": "Q60861195",
+        "id": "node/1339661638"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.446137,
+          54.6996877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1370770380",
+      "properties": {
+        "esr:user": "125009",
+        "name": "Kėdainiai",
+        "name:de": "Kedahnen",
+        "name:el": "Κενταϊνιάι",
+        "name:he": "קדאייני",
+        "name:hi": "केदैंऐ",
+        "name:ka": "კედაინიაი",
+        "name:ko": "케다이네이",
+        "name:lt": "Kėdainiai",
+        "name:lv": "Ķēdaiņi",
+        "name:pl": "Kiejdany",
+        "name:ru": "Кедайняй",
+        "name:uk": "Кедайняй",
+        "railway": "station",
+        "uic_ref": "2400413",
+        "id": "node/1370770380"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9777983,
+          55.3084255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1370770381",
+      "properties": {
+        "esr:user": "125507",
+        "name": "Radviliškis",
+        "name:de": "Radwilischken",
+        "name:lt": "Radviliškis",
+        "name:pl": "Radziwiliszki",
+        "name:ru": "Радвилишкис",
+        "railway": "station",
+        "uic_ref": "2400398",
+        "wheelchair": "yes",
+        "wikidata": "Q11889692",
+        "id": "node/1370770381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5364482,
+          55.8055768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1370770391",
       "properties": {
         "esr:user": "125704",
@@ -607,6 +1523,72 @@
         "coordinates": [
           23.3139116,
           55.9230702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1370777381",
+      "properties": {
+        "esr:user": "127502",
+        "name": "Kupiškis",
+        "name:de": "Kupischken",
+        "name:lt": "Kupiškis",
+        "name:pl": "Kupiszki",
+        "name:ru": "Купишкис",
+        "railway": "station",
+        "uic_ref": "2400393",
+        "id": "node/1370777381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9920764,
+          55.8262023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1380731889",
+      "properties": {
+        "esr:user": "125564",
+        "express3:user": "2400438",
+        "name": "Pažeimenė",
+        "railway": "station",
+        "uic_ref": "2400438",
+        "id": "node/1380731889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8649341,
+          55.0268995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1463020573",
+      "properties": {
+        "esr:user": "120414",
+        "int_name": "Kyviskes",
+        "name": "Kyviškės",
+        "name:be": "Ківішкі",
+        "name:lt": "Kyviškės",
+        "name:ru": "Кивишкес",
+        "operator": "Lietuvos Gelezinkeliai",
+        "railway": "station",
+        "source": "GPS",
+        "uic_ref": "2400461",
+        "wikidata": "Q108608361",
+        "id": "node/1463020573"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5186224,
+          54.6705556
         ]
       }
     },
@@ -659,6 +1641,27 @@
     },
     {
       "type": "Feature",
+      "id": "node/1559089811",
+      "properties": {
+        "esr:user": "127004",
+        "name": "Kužiai",
+        "name:lt": "Kužiai",
+        "name:ru": "Кужяй",
+        "railway": "station",
+        "uic_ref": "2400386",
+        "wikidata": "Q108552298",
+        "id": "node/1559089811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1219211,
+          55.979084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1562292763",
       "properties": {
         "esr:user": "125121",
@@ -681,6 +1684,91 @@
     },
     {
       "type": "Feature",
+      "id": "node/1562329796",
+      "properties": {
+        "esr:user": "120611",
+        "name": "Juodšiliai",
+        "name:lt": "Juodšiliai",
+        "name:ru": "Юодшиляй",
+        "railway": "station",
+        "toilets:wheelchair": "no",
+        "uic_ref": "2400011",
+        "wheelchair": "limited",
+        "id": "node/1562329796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2663272,
+          54.5802128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1584569152",
+      "properties": {
+        "esr:user": "127413",
+        "name": "Bygailiai",
+        "name:lt": "Bygailiai",
+        "name:ru": "Бигайляй",
+        "railway": "halt",
+        "uic_ref": "2401406",
+        "id": "node/1584569152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6502991,
+          55.7707453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1617442413",
+      "properties": {
+        "esr:user": "128906",
+        "name": "Dūkštas",
+        "name:de": "Dukschten",
+        "name:lt": "Dūkštas",
+        "name:lv": "Dūkšta",
+        "name:pl": "Dukszty",
+        "name:ru": "Дукштас",
+        "railway": "station",
+        "uic_ref": "2400419",
+        "id": "node/1617442413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.325207,
+          55.5196166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1617442416",
+      "properties": {
+        "esr:user": "129118",
+        "name": "Gerkonys",
+        "name:lt": "Gerkonys",
+        "name:ru": "Гярконис",
+        "railway": "halt",
+        "uic_ref": "2400442",
+        "id": "node/1617442416"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.3582345,
+          55.5623881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1637232348",
       "properties": {
         "name": "Akmenė",
@@ -694,6 +1782,47 @@
         "coordinates": [
           22.6957153,
           56.1957948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1659033629",
+      "properties": {
+        "name": "Durpynas",
+        "name:lt": "Durpynas",
+        "name:ru": "Дурпинас",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1659033629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5124421,
+          55.8228715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1659033630",
+      "properties": {
+        "esr:user": "125526",
+        "name": "Mankiškiai",
+        "name:lt": "Mankiškiai",
+        "name:ru": "Манкишкяй",
+        "railway": "halt",
+        "uic_ref": "2400369",
+        "wikidata": "Q108653517",
+        "id": "node/1659033630"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4369579,
+          55.8436083
         ]
       }
     },
@@ -720,6 +1849,105 @@
     },
     {
       "type": "Feature",
+      "id": "node/1716521852",
+      "properties": {
+        "name": "Pagiriai",
+        "railway": "halt",
+        "uic_ref": "2400062",
+        "wikidata": "Q108602858",
+        "id": "node/1716521852"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3599995,
+          54.8785733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1716521853",
+      "properties": {
+        "name": "Pamieris",
+        "railway": "halt",
+        "uic_ref": "2400061",
+        "wikidata": "Q108602780",
+        "id": "node/1716521853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2704916,
+          54.8921918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1728856869",
+      "properties": {
+        "name": "Tindžiuliai",
+        "railway": "halt",
+        "uic_ref": "2400410",
+        "id": "node/1728856869"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4591345,
+          55.9157184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1738196538",
+      "properties": {
+        "esr:user": "124203",
+        "name": "Vilkaviškis",
+        "name:de": "Wilkowischken",
+        "name:el": "Βιλκαβίσκις",
+        "name:he": "וילקובישק",
+        "name:ka": "ვილკავიშკისი",
+        "name:lt": "Vilkaviškis",
+        "name:lv": "Vilkavišķi",
+        "name:pl": "Wyłkowyszki",
+        "name:ru": "Вилкавишкис",
+        "name:sr": "Вилкавишкис",
+        "name:uk": "Вилкавишкіс",
+        "name:zh": "維爾卡維什基斯",
+        "railway": "station",
+        "uic_ref": "2400432",
+        "id": "node/1738196538"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0217764,
+          54.6860334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1818531917",
+      "properties": {
+        "name": "Kuršėnai",
+        "railway": "station",
+        "uic_ref": "2400395",
+        "id": "node/1818531917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9825807,
+          56.0345892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1915632941",
       "properties": {
         "name": "Pakruojis",
@@ -733,6 +1961,45 @@
         "coordinates": [
           23.8311936,
           55.9661574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1934806645",
+      "properties": {
+        "esr:user": "116014",
+        "name": "Anykščiai",
+        "name:de": "Onikschten",
+        "name:lt": "Anykščiai",
+        "name:pl": "Onikszty",
+        "name:ru": "Аникшчай",
+        "railway": "station",
+        "uic_ref": "2400058",
+        "wikidata": "Q12648952",
+        "id": "node/1934806645"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1085855,
+          55.5325841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1934888969",
+      "properties": {
+        "name": "Bajoriškiai",
+        "railway": "station",
+        "id": "node/1934888969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6478397,
+          55.7013429
         ]
       }
     },
@@ -773,6 +2040,141 @@
         "coordinates": [
           22.2853475,
           55.2376804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2319626569",
+      "properties": {
+        "name": "Šeduva",
+        "railway": "halt",
+        "uic_ref": "2400397",
+        "id": "node/2319626569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7777081,
+          55.7382735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2332118273",
+      "properties": {
+        "name": "Pilviškiai",
+        "name:de": "Pilwischken",
+        "name:he": "פילווישוק",
+        "name:ka": "პილვიშკიაი",
+        "name:lt": "Pilviškiai",
+        "name:pl": "Pilwiszki",
+        "name:ru": "Пилвишкяй",
+        "railway": "station",
+        "uic_ref": "2400431",
+        "id": "node/2332118273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1995662,
+          54.7264819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2605744042",
+      "properties": {
+        "name": "Pakretuonė",
+        "railway": "station",
+        "uic_ref": "2401440",
+        "id": "node/2605744042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.0856597,
+          55.2810737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2711508841",
+      "properties": {
+        "alt_name": "Skersabalių geležinkelio stotis",
+        "name": "Skersabaliai",
+        "name:lt": "Skersabaliai",
+        "name:pl": "Skiersobole",
+        "operator": "Lietuvos geležinkeliai",
+        "railway": "station",
+        "uic_ref": "2400435",
+        "id": "node/2711508841"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5682711,
+          54.8624198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2876015750",
+      "properties": {
+        "name": "Bajorai",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2876015750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2219665,
+          55.8715292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3006949648",
+      "properties": {
+        "name": "Rimkai",
+        "name:lt": "Rimkai",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q108550949",
+        "id": "node/3006949648"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2179011,
+          55.6636236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161702259",
+      "properties": {
+        "esr:user": "123412",
+        "name": "Bagotoji",
+        "name:lt": "Bagotoji",
+        "name:ru": "Баготойи",
+        "railway": "halt",
+        "uic_ref": "2400359",
+        "id": "node/3161702259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3398985,
+          54.7272729
         ]
       }
     },
@@ -826,6 +2228,171 @@
     },
     {
       "type": "Feature",
+      "id": "node/3161738203",
+      "properties": {
+        "esr:user": "120541",
+        "name": "Parudaminys",
+        "name:lt": "Parudaminys",
+        "name:ru": "Парудаминис",
+        "railway": "station",
+        "uic_ref": "2400012",
+        "id": "node/3161738203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2426605,
+          54.5285008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161738546",
+      "properties": {
+        "esr:user": "120537",
+        "lit": "no",
+        "name": "Terešiškės",
+        "name:lt": "Terešiškės",
+        "name:ru": "Тяряшишкес",
+        "railway": "station",
+        "shelter": "yes",
+        "surface": "paved",
+        "uic_ref": "2400013",
+        "id": "node/3161738546"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2403073,
+          54.4863596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161755148",
+      "properties": {
+        "esr:user": "127428",
+        "name": "Karsakiškis",
+        "name:lt": "Karsakiškis",
+        "name:ru": "Карсакишкис",
+        "railway": "halt",
+        "uic_ref": "2401405",
+        "id": "node/3161755148"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5352864,
+          55.7708673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161755290",
+      "properties": {
+        "name": "Labučiai",
+        "name:lt": "Labučiai",
+        "name:ru": "Лабучяй",
+        "railway": "halt",
+        "uic_ref": "2400340",
+        "id": "node/3161755290"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9854051,
+          55.7441307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161755455",
+      "properties": {
+        "esr:user": "127517",
+        "name": "Radžiūnai",
+        "name:lt": "Radžiūnai",
+        "name:ru": "Раджюнай",
+        "railway": "halt",
+        "uic_ref": "2401407",
+        "id": "node/3161755455"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8863707,
+          55.7694748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161755464",
+      "properties": {
+        "esr:user": "127201",
+        "name": "Gustonys",
+        "name:lt": "Gustonys",
+        "name:ru": "Густонис",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "2401403",
+        "id": "node/3161755464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1603246,
+          55.7444661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161759749",
+      "properties": {
+        "esr:user": "127540",
+        "name": "Panemunėlis",
+        "name:lt": "Panemunėlis",
+        "name:ru": "Панямунелис",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "2400391",
+        "id": "node/3161759749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3874967,
+          55.907569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161763778",
+      "properties": {
+        "esr:user": "125615",
+        "name": "Sodai",
+        "name:lt": "Sodai",
+        "name:ru": "Содай",
+        "railway": "halt",
+        "uic_ref": "2400358",
+        "wikidata": "Q108653562",
+        "id": "node/3161763778"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3921322,
+          55.8797555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3161768151",
       "properties": {
         "esr:user": "107424",
@@ -849,6 +2416,29 @@
     },
     {
       "type": "Feature",
+      "id": "node/3161768821",
+      "properties": {
+        "esr:user": "107413",
+        "name": "Lieplaukė",
+        "name:de": "Dablawken",
+        "name:lt": "Lieplaukė",
+        "name:ru": "Леплауке",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "2400390",
+        "wikidata": "Q108551923",
+        "id": "node/3161768821"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.099253,
+          55.9715775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3161769932",
       "properties": {
         "esr:user": "107617",
@@ -867,6 +2457,70 @@
         "coordinates": [
           21.6471046,
           55.9605822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161775435",
+      "properties": {
+        "esr:user": "107848",
+        "name": "Kalotė",
+        "name:lt": "Kalotė",
+        "name:ru": "Калоте",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "2400316",
+        "wikidata": "Q108552079",
+        "id": "node/3161775435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1252107,
+          55.7865206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161812983",
+      "properties": {
+        "esr:user": "128914",
+        "name": "Lobiniai",
+        "name:lt": "Lobiniai",
+        "name:ru": "Лобиняй",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "2400441",
+        "id": "node/3161812983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2207467,
+          55.417247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3161813471",
+      "properties": {
+        "esr:user": "128454",
+        "name": "Mickūnai",
+        "name:lt": "Mickūnai",
+        "name:ru": "Мицкунай",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "2401433",
+        "id": "node/3161813471"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4974733,
+          54.7200163
         ]
       }
     },
@@ -896,6 +2550,113 @@
     },
     {
       "type": "Feature",
+      "id": "node/3218746037",
+      "properties": {
+        "esr:user": "128929",
+        "name": "Visaginas",
+        "name:lt": "Visaginas",
+        "name:ru": "Висагинас",
+        "old_name": "Sniečkus",
+        "old_name:ru": "Снечкус",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "uic_ref": "2400443",
+        "wikidata": "Q20380208",
+        "id": "node/3218746037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.4161185,
+          55.6140073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3568624529",
+      "properties": {
+        "name": "Kukorai",
+        "name:lt": "Kukorai",
+        "name:ru": "Кукорай",
+        "railway": "halt",
+        "uic_ref": "2401454",
+        "wikidata": "Q108551144",
+        "id": "node/3568624529"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4525282,
+          55.4629374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3569662841",
+      "properties": {
+        "addr:city": "Vilkyčiai",
+        "addr:contact": "yes",
+        "addr:housenumber": "7A",
+        "addr:street": "Malūno g.",
+        "name": "Vilkyčiai",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q108551119",
+        "id": "node/3569662841"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4078046,
+          55.5190102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3570408193",
+      "properties": {
+        "esr:user": "108501",
+        "name": "Priekulė",
+        "name:lt": "Priekulė",
+        "name:ru": "Прекуле",
+        "railway": "halt",
+        "uic_ref": "2400452",
+        "id": "node/3570408193"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3061951,
+          55.5608604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3805448717",
+      "properties": {
+        "esr:user": "125032",
+        "name": "Baisogala",
+        "name:lt": "Baisogala",
+        "name:ru": "Байсогала",
+        "railway": "halt",
+        "uic_ref": "2400411",
+        "wikidata": "Q109936373",
+        "id": "node/3805448717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.754412,
+          55.630869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3805448718",
       "properties": {
         "name": "Dotnuva",
@@ -909,6 +2670,27 @@
         "coordinates": [
           23.873211,
           55.403631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3805448745",
+      "properties": {
+        "esr:user": "122513",
+        "name": "Trakai",
+        "name:lt": "Trakai",
+        "name:ru": "Тракай",
+        "railway": "station",
+        "uic_ref": "2400065",
+        "wikidata": "Q20380128",
+        "id": "node/3805448745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9377078,
+          54.6289856
         ]
       }
     },
@@ -928,6 +2710,275 @@
         "coordinates": [
           22.5874585,
           55.9914041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3805448895",
+      "properties": {
+        "esr:user": "128444",
+        "name": "Santaka",
+        "name:lt": "Santaka",
+        "name:ru": "Сантака",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "uic_ref": "2400436",
+        "id": "node/3805448895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.639905,
+          54.894835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3805448901",
+      "properties": {
+        "highway": "bus_stop",
+        "name": "Varėnos autobusų stotis",
+        "public_transport": "station",
+        "id": "node/3805448901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5763981,
+          54.2101417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3823087872",
+      "properties": {
+        "name": "Rekstino miškas",
+        "railway": "station",
+        "id": "node/3823087872"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6221669,
+          55.7097911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4004183563",
+      "properties": {
+        "alt_name": "Pagojis",
+        "name": "Pagojė",
+        "name:lt": "Pagojė",
+        "name:ru": "Пагойис",
+        "railway": "station",
+        "id": "node/4004183563"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.0330904,
+          55.5521267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4131315933",
+      "properties": {
+        "esr:user": "125140",
+        "name": "Gimbogala",
+        "name:lt": "Gimbogala",
+        "name:ru": "Гимбогала",
+        "railway": "station",
+        "uic_ref": "2400381",
+        "wikidata": "Q108663962",
+        "id": "node/4131315933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6643183,
+          55.7255692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4213571063",
+      "properties": {
+        "esr:user": "120325",
+        "name": "Oro uostas",
+        "name:be": "Аэрапорт",
+        "name:lt": "Oro uostas",
+        "name:ru": "Оро Уостас",
+        "railway": "halt",
+        "uic_ref": "2400059",
+        "wikidata": "Q801564",
+        "id": "node/4213571063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2764874,
+          54.6426278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4568215628",
+      "properties": {
+        "esr:user": "120402",
+        "name": "Naujoji Vilnia",
+        "name:be": "Новая Вілейка",
+        "name:de": "Neu-Vilnia",
+        "name:lt": "Naujoji Vilnia",
+        "name:pl": "Nowa Wilejka",
+        "name:ru": "Науйойи-Вильня",
+        "railway": "station",
+        "uic_ref": "2401432",
+        "wikidata": "Q801231",
+        "id": "node/4568215628"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4087263,
+          54.6939578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4568218843",
+      "properties": {
+        "esr:user": "127409",
+        "name": "Subačius",
+        "name:de": "Subotschen",
+        "name:lt": "Subačius",
+        "name:pl": "Subocz",
+        "name:ru": "Субачюс",
+        "railway": "station",
+        "source": "ORT10LT",
+        "uic_ref": "2400394",
+        "id": "node/4568218843"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7399263,
+          55.7664989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4568615015",
+      "properties": {
+        "esr:user": "107212",
+        "name": "Raudėnai",
+        "name:lt": "Raudėnai",
+        "name:ru": "Рауденай",
+        "railway": "station",
+        "uic_ref": "2401387",
+        "wikidata": "Q108552360",
+        "id": "node/4568615015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7263838,
+          55.9988842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5476069831",
+      "properties": {
+        "esr:user": "124218",
+        "name": "Alvitas",
+        "name:lt": "Alvitas",
+        "name:ru": "Альвитас",
+        "operator": "Lietuvos geležinkeliai",
+        "platforms": "2",
+        "railway": "halt",
+        "uic_ref": "2400356",
+        "id": "node/5476069831"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8742125,
+          54.6549626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5476070009",
+      "properties": {
+        "esr:user": "124114",
+        "name": "Alksnėnai",
+        "name:lt": "Alksnėnai",
+        "name:ru": "Альксненай",
+        "operator": "Lietuvos geležinkeliai",
+        "platforms": "2",
+        "railway": "halt",
+        "uic_ref": "2400357",
+        "id": "node/5476070009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1353209,
+          54.7100303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5753746373",
+      "properties": {
+        "esr:user": "127305",
+        "name": "Panevėžys",
+        "name:lt": "Panevėžys",
+        "name:ru": "Панявежис",
+        "railway": "station",
+        "uic_ref": "2400425",
+        "wikidata": "Q5411340",
+        "id": "node/5753746373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3546846,
+          55.745499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5753749044",
+      "properties": {
+        "esr:user": "126730",
+        "name": "Papilė",
+        "name:lt": "Papilė",
+        "name:ru": "Папиле",
+        "railway": "station",
+        "uic_ref": "2400396",
+        "id": "node/5753749044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8075211,
+          56.1494487
         ]
       }
     },
@@ -953,6 +3004,74 @@
         "coordinates": [
           23.4440652,
           54.3609278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5779632440",
+      "properties": {
+        "esr:user": "123304",
+        "name": "Mockava",
+        "name:lt": "Mockava",
+        "name:ru": "Моцкава",
+        "railway": "station",
+        "uic_ref": "2400104",
+        "wikidata": "Q746754",
+        "id": "node/5779632440"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.355681,
+          54.3282432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6171222240",
+      "properties": {
+        "esr:user": "120607",
+        "name": "Valčiūnai",
+        "name:lt": "Valčiūnai",
+        "name:ru": "Вальчюнай",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "surface": "paved",
+        "train": "yes",
+        "uic_ref": "2400424",
+        "id": "node/6171222240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2609822,
+          54.5619689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6624987344",
+      "properties": {
+        "name": "Vilnius",
+        "name:be": "Вільня",
+        "name:de": "Wilna",
+        "name:lt": "Vilnius",
+        "name:lv": "Viļņa",
+        "name:pl": "Wilno",
+        "name:ru": "Вильнюс",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q453936",
+        "id": "node/6624987344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2847418,
+          54.6698883
         ]
       }
     },
@@ -985,6 +3104,32 @@
     },
     {
       "type": "Feature",
+      "id": "node/6638637083",
+      "properties": {
+        "name": "Kretingalė",
+        "name:bat-smg": "Kretėngalė",
+        "name:be": "Крэтынгалы",
+        "name:be-tarask": "Крэтынгалы",
+        "name:de": "Deutsch-Krottingen",
+        "name:ka": "კრეტინგალე",
+        "name:lt": "Kretingalė",
+        "name:pl": "Krotynga",
+        "name:ru": "Крятингале",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q108551523",
+        "id": "node/6638637083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1800447,
+          55.834792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/6638679732",
       "properties": {
         "name": "Bajorai",
@@ -998,6 +3143,25 @@
         "coordinates": [
           21.222024,
           55.8713894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6639992679",
+      "properties": {
+        "name": "Kūlupėnai",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "ORT10LT",
+        "wikidata": "Q16457823",
+        "id": "node/6639992679"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4754981,
+          55.9625129
         ]
       }
     },
@@ -1026,6 +3190,64 @@
     },
     {
       "type": "Feature",
+      "id": "node/6704306115",
+      "properties": {
+        "esr:user": "122316",
+        "name": "Kalviai",
+        "name:lt": "Kalviai",
+        "name:ru": "Кальвяй",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2401421",
+        "id": "node/6704306115"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7458191,
+          54.39707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7412245567",
+      "properties": {
+        "name": "Elektrodepas",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7412245567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4480551,
+          54.6941713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7412245568",
+      "properties": {
+        "name": "Elektrodepas",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7412245568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4503188,
+          54.6935294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/7526817630",
       "properties": {
         "addr:city": "Tauragė",
@@ -1045,6 +3267,273 @@
         "coordinates": [
           22.2851061,
           55.2377675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7609798120",
+      "properties": {
+        "esr:user": "125032",
+        "name": "Baisogala",
+        "name:lt": "Baisogala",
+        "name:ru": "Байсогала",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2400411",
+        "id": "node/7609798120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7546839,
+          55.6309924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7609835587",
+      "properties": {
+        "name": "Dotnuva",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7609835587"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.873305,
+          55.403787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7609869728",
+      "properties": {
+        "name": "Giruliai",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7609869728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0953068,
+          55.7691478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7610151217",
+      "properties": {
+        "esr:user": "127201",
+        "name": "Gustonys",
+        "name:lt": "Gustonys",
+        "name:ru": "Густонис",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2401403",
+        "id": "node/7610151217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1596568,
+          55.7448028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7610194515",
+      "properties": {
+        "esr:user": "107848",
+        "name": "Kalotė",
+        "name:lt": "Kalotė",
+        "name:ru": "Калоте",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2400316",
+        "id": "node/7610194515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1256216,
+          55.7868149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7610194516",
+      "properties": {
+        "esr:user": "107848",
+        "name": "Kalotė",
+        "name:lt": "Kalotė",
+        "name:ru": "Калоте",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2400316",
+        "id": "node/7610194516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1247734,
+          55.7862245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7610386913",
+      "properties": {
+        "esr:user": "107413",
+        "name": "Lieplaukė",
+        "name:de": "Dablawken",
+        "name:lt": "Lieplaukė",
+        "name:ru": "Леплауке",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2400390",
+        "id": "node/7610386913"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0992474,
+          55.9715954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7610397122",
+      "properties": {
+        "esr:user": "128914",
+        "name": "Lobiniai",
+        "name:lt": "Lobiniai",
+        "name:ru": "Лобиняй",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2400441",
+        "id": "node/7610397122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2211517,
+          55.4173528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7620450996",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7620450996"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4001677,
+          54.3923595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7623822129",
+      "properties": {
+        "fixme": "Is this actually open.",
+        "name": "Durpynas",
+        "public_transport": "station",
+        "railway": "halt",
+        "wikidata": "Q108653446",
+        "id": "node/7623822129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.5123664,
+          55.8229487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7671674100",
+      "properties": {
+        "esr:user": "127540",
+        "name": "Panemunėlis",
+        "name:lt": "Panemunėlis",
+        "name:ru": "Панямунелис",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2400391",
+        "id": "node/7671674100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3873043,
+          55.9076775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7896948137",
+      "properties": {
+        "name": "Tryškiai",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7896948137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5874035,
+          55.9914325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7997166192",
+      "properties": {
+        "esr:user": "121614",
+        "name": "Zervynos",
+        "name:lt": "Zervynos",
+        "name:ru": "Зярвинос",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "uic_ref": "2401425",
+        "id": "node/7997166192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4876971,
+          54.1096894
         ]
       }
     },
@@ -1124,6 +3613,132 @@
     },
     {
       "type": "Feature",
+      "id": "node/8758680370",
+      "properties": {
+        "name": "Kirtimai",
+        "name:lt": "Kirtimai",
+        "railway": "halt",
+        "wikidata": "Q15782514",
+        "id": "node/8758680370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2740487,
+          54.6339576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8758725035",
+      "properties": {
+        "name": "Gružeikiai",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8758725035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2496143,
+          55.6276101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8759654071",
+      "properties": {
+        "name": "Dituva",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8759654071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2833557,
+          55.5822292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9091369525",
+      "properties": {
+        "name": "Bičionys",
+        "name:lt": "Bičionys",
+        "name:ru": "Бичёнис",
+        "railway": "station",
+        "id": "node/9091369525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2082133,
+          55.5219037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9093722258",
+      "properties": {
+        "name": "Dituva",
+        "railway": "halt",
+        "id": "node/9093722258"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2833486,
+          55.5821312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9093722259",
+      "properties": {
+        "name": "Gružeikiai",
+        "railway": "halt",
+        "wikidata": "Q108550974",
+        "id": "node/9093722259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2495622,
+          55.6275977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9094092039",
+      "properties": {
+        "esr:user": "107405",
+        "name": "Telšiai",
+        "name:lt": "Telšiai",
+        "name:ru": "Тяльшяй",
+        "railway": "station",
+        "uic_ref": "2400407",
+        "wikidata": "Q108551978",
+        "id": "node/9094092039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2515497,
+          55.9928428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/9094092055",
       "properties": {
         "name": "Plungė",
@@ -1159,6 +3774,28 @@
     },
     {
       "type": "Feature",
+      "id": "node/9094092056",
+      "properties": {
+        "description": "Passenger traffic restored as of 2018",
+        "esr:user": "108709",
+        "name": "Šilutė",
+        "name:lt": "Šilutė",
+        "name:ru": "Шилуте",
+        "railway": "station",
+        "uic_ref": "2400404",
+        "wikidata": "Q16478274",
+        "id": "node/9094092056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4843225,
+          55.3471723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/9094118521",
       "properties": {
         "name": "Giruliai",
@@ -1173,6 +3810,52 @@
         "coordinates": [
           21.0953542,
           55.7691484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9107382023",
+      "properties": {
+        "name": "Elektrinių traukinių depas-2",
+        "railway": "halt",
+        "wikidata": "Q60861049",
+        "id": "node/9107382023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.4492404,
+          54.6938323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9271237009",
+      "properties": {
+        "esr:user": "128609",
+        "name": "Ignalina",
+        "name:be": "Ігналіна",
+        "name:de": "Ingelin",
+        "name:he": "איגנלינה",
+        "name:ka": "იგნალინა",
+        "name:lt": "Ignalina",
+        "name:lv": "Ignalīna",
+        "name:pl": "Ignalino",
+        "name:ru": "Игналина",
+        "name:uk": "Ігналіна",
+        "name:zh": "伊格納利納",
+        "railway": "station",
+        "uic_ref": "2400421",
+        "wikidata": "Q800942",
+        "id": "node/9271237009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1634578,
+          55.3382724
         ]
       }
     }

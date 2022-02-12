@@ -3,6 +3,40 @@
   "features": [
     {
       "type": "Feature",
+      "id": "node/21427845",
+      "properties": {
+        "name": "Remetinec",
+        "railway": "halt",
+        "id": "node/21427845"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9459359,
+          45.7665008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/60442928",
+      "properties": {
+        "name": "Horvati",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/60442928"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8175373,
+          45.7137529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/148612168",
       "properties": {
         "name": "Latinovac",
@@ -16,6 +50,249 @@
         "coordinates": [
           17.9583581,
           45.3375407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/176954562",
+      "properties": {
+        "name": "Sarvaš",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/176954562"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8349219,
+          45.5206843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/278677595",
+      "properties": {
+        "name": "Kaštel Gomilica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/278677595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.400403,
+          43.5534799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/278679155",
+      "properties": {
+        "name": "Kaštel Stari",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/278679155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3447853,
+          43.5674035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/278679231",
+      "properties": {
+        "name": "Sadine",
+        "railway": "halt",
+        "id": "node/278679231"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2986906,
+          43.5634624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/278682139",
+      "properties": {
+        "name": "Split",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/278682139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4429923,
+          43.5050219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/306269722",
+      "properties": {
+        "name": "Dugo Selo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/306269722"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2347996,
+          45.8013747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/306286451",
+      "properties": {
+        "name": "Križevci",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "731075",
+        "id": "node/306286451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5434467,
+          46.006434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/307679950",
+      "properties": {
+        "name": "Đakovo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/307679950"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4217693,
+          45.3137206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/309283462",
+      "properties": {
+        "name": "Perković",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/309283462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.117854,
+          43.6755901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/313240926",
+      "properties": {
+        "name": "Novi Jankovci",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/313240926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9011218,
+          45.2463444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/313240931",
+      "properties": {
+        "name": "Novska",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/313240931"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9767376,
+          45.3269438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/313240935",
+      "properties": {
+        "name": "Kutina",
+        "railway": "station",
+        "id": "node/313240935"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7737488,
+          45.4753114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/319824993",
+      "properties": {
+        "name": "Preslo",
+        "railway": "halt",
+        "id": "node/319824993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2139947,
+          43.6295638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/319825048",
+      "properties": {
+        "name": "Bakovići",
+        "railway": "halt",
+        "id": "node/319825048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1885789,
+          43.6415946
         ]
       }
     },
@@ -41,6 +318,819 @@
     },
     {
       "type": "Feature",
+      "id": "node/320254898",
+      "properties": {
+        "name": "Suhopolje",
+        "railway": "station",
+        "id": "node/320254898"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4869477,
+          45.7939775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/320266976",
+      "properties": {
+        "name": "Špišić Bukovica",
+        "railway": "station",
+        "id": "node/320266976"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2987294,
+          45.8458251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/320267164",
+      "properties": {
+        "name": "Vukosavljevica",
+        "railway": "station",
+        "id": "node/320267164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2538366,
+          45.874779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/320626381",
+      "properties": {
+        "name": "Moravice",
+        "railway": "station",
+        "id": "node/320626381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0166214,
+          45.4229923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/324151682",
+      "properties": {
+        "name": "Lipovljani",
+        "railway": "station",
+        "wikidata": "Q38251856",
+        "id": "node/324151682"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.882275,
+          45.3869928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/330474413",
+      "properties": {
+        "name": "Komin",
+        "railway": "station",
+        "id": "node/330474413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5372177,
+          43.0409647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/330477382",
+      "properties": {
+        "disused:railway": "halt",
+        "name": "Kula Norinska",
+        "railway": "station",
+        "uic_ref": "78651",
+        "id": "node/330477382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6048306,
+          43.0296482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/331888596",
+      "properties": {
+        "name": "Gomirje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/331888596"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1287558,
+          45.342652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/331888601",
+      "properties": {
+        "name": "Vrbovsko",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/331888601"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0714857,
+          45.3727087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/343007278",
+      "properties": {
+        "name": "Ljubošina",
+        "railway": "halt",
+        "id": "node/343007278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1699291,
+          45.3288184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/343007581",
+      "properties": {
+        "name": "Ogulinski Hreljin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/343007581"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1780404,
+          45.2961991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/419129650",
+      "properties": {
+        "name": "Drivenik",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Drivenik",
+        "uic_ref": "7800276",
+        "id": "node/419129650"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6913072,
+          45.2671999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/419129705",
+      "properties": {
+        "name": "Plase",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Plase",
+        "uic_ref": "7800041",
+        "id": "node/419129705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6291073,
+          45.2834864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/419132892",
+      "properties": {
+        "name": "Zalesina",
+        "railway": "halt",
+        "id": "node/419132892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8577509,
+          45.3980048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/419132988",
+      "properties": {
+        "name": "Kupjak",
+        "railway": "halt",
+        "id": "node/419132988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8904792,
+          45.4001478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/419227169",
+      "properties": {
+        "name": "Moravice",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/419227169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0165651,
+          45.4228655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/419252847",
+      "properties": {
+        "name": "Košare",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/419252847"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3287073,
+          45.2205737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/434382217",
+      "properties": {
+        "name": "Bedekovčina",
+        "railway": "station",
+        "id": "node/434382217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.998218,
+          46.0415752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/434382767",
+      "properties": {
+        "name": "Turčin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/434382767"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3587779,
+          46.254066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/464688553",
+      "properties": {
+        "name": "Vrhovine",
+        "railway": "halt",
+        "source": "survey",
+        "source_ref": "2010-08-06",
+        "id": "node/464688553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4277501,
+          44.8489496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/464716607",
+      "properties": {
+        "name": "Gospić",
+        "railway": "station",
+        "id": "node/464716607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3948352,
+          44.5354433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/464735808",
+      "properties": {
+        "name": "Lički Podhum",
+        "railway": "halt",
+        "id": "node/464735808"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3547743,
+          45.1317305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/472483447",
+      "properties": {
+        "name": "Gračac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "source": "survey",
+        "train": "yes",
+        "id": "node/472483447"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8222803,
+          44.3003243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/478553437",
+      "properties": {
+        "name": "Samatovci",
+        "railway": "halt",
+        "id": "node/478553437"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5031115,
+          45.5907587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/489415915",
+      "properties": {
+        "name": "Osijek Dravski Most",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/489415915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7036514,
+          45.5587768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/495811108",
+      "properties": {
+        "name": "Ludbreg",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/495811108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6117742,
+          46.2562132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/496303260",
+      "properties": {
+        "name": "Standard",
+        "railway": "halt",
+        "id": "node/496303260"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7421949,
+          45.5453106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/496815099",
+      "properties": {
+        "name": "Popovača",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/496815099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6235335,
+          45.5591988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497549030",
+      "properties": {
+        "name": "Gajnice",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/497549030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8742119,
+          45.8135097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497549031",
+      "properties": {
+        "name": "Vrapče",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/497549031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8965134,
+          45.8123087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497549032",
+      "properties": {
+        "name": "Zagreb zapadni kolodvor",
+        "name:de": "Zagreb Westbahnhof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/497549032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9540465,
+          45.8091066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552658",
+      "properties": {
+        "name": "Sveti Ilija",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/497552658"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3363524,
+          46.2443389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552659",
+      "properties": {
+        "name": "Krušljevec",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/497552659"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3214507,
+          46.2249924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552662",
+      "properties": {
+        "name": "Podrute",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/497552662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2626619,
+          46.1486653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552664",
+      "properties": {
+        "name": "Budinščina",
+        "platforms": "2",
+        "railway": "station",
+        "id": "node/497552664"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2139157,
+          46.1283778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552665",
+      "properties": {
+        "name": "Hraščina - Trgovišće",
+        "platforms": "1",
+        "railway": "halt",
+        "id": "node/497552665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1996671,
+          46.1055622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552668",
+      "properties": {
+        "name": "Konjščina",
+        "platforms": "2",
+        "railway": "station",
+        "id": "node/497552668"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.17876,
+          46.050512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552669",
+      "properties": {
+        "name": "Donji Lipovec",
+        "platforms": "1",
+        "railway": "halt",
+        "id": "node/497552669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1354236,
+          46.0479222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552670",
+      "properties": {
+        "name": "Zlatar Bistrica",
+        "platforms": "2",
+        "railway": "station",
+        "id": "node/497552670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0815169,
+          46.0443107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497552672",
+      "properties": {
+        "name": "Novi Marof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/497552672"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3383365,
+          46.1769181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497571124",
+      "properties": {
+        "name": "Pojatno",
+        "railway": "halt",
+        "id": "node/497571124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8082133,
+          45.9093564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497571129",
+      "properties": {
+        "name": "Zaprešić",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/497571129"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8130155,
+          45.844459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497571132",
+      "properties": {
+        "name": "Podsused",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/497571132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8371739,
+          45.8154959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497580124",
+      "properties": {
+        "name": "Hum Lug",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/497580124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9262066,
+          46.0209857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497580125",
+      "properties": {
+        "name": "Dubrava Zabočka",
+        "railway": "halt",
+        "id": "node/497580125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9524776,
+          46.0208973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497580126",
+      "properties": {
+        "name": "Špičkovina",
+        "railway": "halt",
+        "id": "node/497580126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9702417,
+          46.0316669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/497580130",
+      "properties": {
+        "alt_name": "Žejinci",
+        "name": "Žeinci",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/497580130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8450673,
+          45.9763737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/513154013",
       "properties": {
         "name": "Božjakovina",
@@ -54,6 +1144,365 @@
         "coordinates": [
           16.3071452,
           45.8222645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/513191730",
+      "properties": {
+        "name": "Maksimir",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/513191730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.024527,
+          45.8141083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/514256639",
+      "properties": {
+        "name": "Donja Vrba",
+        "railway": "halt",
+        "id": "node/514256639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1215323,
+          45.1635738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/514256939",
+      "properties": {
+        "name": "Zadubravlje",
+        "railway": "halt",
+        "id": "node/514256939"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1516769,
+          45.1682412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/525432753",
+      "properties": {
+        "name": "Repinec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/525432753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5048034,
+          45.94902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/537519661",
+      "properties": {
+        "name": "Josipovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/537519661"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5900249,
+          45.5741725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/556415655",
+      "properties": {
+        "name": "Staro Topolje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/556415655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.247394,
+          45.1828638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/564930837",
+      "properties": {
+        "name": "Pazin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/564930837"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9460886,
+          45.2397486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565602661",
+      "properties": {
+        "name": "Vodnjan stajalište",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/565602661"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8558847,
+          44.9608153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565612735",
+      "properties": {
+        "name": "Krajcar Brijeg",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/565612735"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8625198,
+          45.1600209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565615392",
+      "properties": {
+        "name": "Galižana",
+        "name:it": "Gallesano",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/565615392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8714701,
+          44.9335101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565616912",
+      "properties": {
+        "name": "Heki stajalište",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/565616912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8871675,
+          45.2154803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/565626418",
+      "properties": {
+        "name": "Roč",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/565626418"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0388864,
+          45.4003998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/578116114",
+      "properties": {
+        "name": "Labin Dalmatinski",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/578116114"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2330659,
+          43.5839239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717736",
+      "properties": {
+        "name": "Brezovljani",
+        "railway": "station",
+        "id": "node/598717736"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5679154,
+          45.9510613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717750",
+      "properties": {
+        "name": "Sveti Ivan Žabno",
+        "railway": "station",
+        "id": "node/598717750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6206455,
+          45.9451344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717759",
+      "properties": {
+        "name": "Cirkvena",
+        "railway": "station",
+        "id": "node/598717759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6593226,
+          45.9402531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717761",
+      "properties": {
+        "name": "Hrsovo",
+        "railway": "station",
+        "id": "node/598717761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6875565,
+          45.9363381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717767",
+      "properties": {
+        "name": "Poljanka",
+        "railway": "station",
+        "id": "node/598717767"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5446861,
+          45.9745308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717793",
+      "properties": {
+        "name": "Klokočevac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/598717793"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7751513,
+          45.9101285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717797",
+      "properties": {
+        "name": "Rovišće",
+        "railway": "station",
+        "id": "node/598717797"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7184452,
+          45.9320974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/598717799",
+      "properties": {
+        "name": "Žabjak",
+        "railway": "station",
+        "id": "node/598717799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7316202,
+          45.9271394
         ]
       }
     },
@@ -77,6 +1526,120 @@
     },
     {
       "type": "Feature",
+      "id": "node/598846316",
+      "properties": {
+        "name": "Škrinjari",
+        "railway": "halt",
+        "id": "node/598846316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5933011,
+          45.9370484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/599298629",
+      "properties": {
+        "name": "Badljevina",
+        "railway": "halt",
+        "id": "node/599298629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2083623,
+          45.5028561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/599298679",
+      "properties": {
+        "name": "Bijela",
+        "railway": "halt",
+        "id": "node/599298679"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2611592,
+          45.5730097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/599298693",
+      "properties": {
+        "name": "Sirač",
+        "railway": "station",
+        "id": "node/599298693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2410884,
+          45.5299098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/599298716",
+      "properties": {
+        "name": "Brezine-Bujavica",
+        "railway": "halt",
+        "id": "node/599298716"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0340977,
+          45.4448711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/599298816",
+      "properties": {
+        "name": "Kukunjevac",
+        "railway": "halt",
+        "id": "node/599298816"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0829088,
+          45.4350302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/599298869",
+      "properties": {
+        "name": "Pakrac Grad",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/599298869"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1888075,
+          45.4371591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/599298879",
       "properties": {
         "name": "Međurić",
@@ -90,6 +1653,89 @@
         "coordinates": [
           16.9111635,
           45.4455753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/599298889",
+      "properties": {
+        "name": "Pakrac",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/599298889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1946405,
+          45.4458378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/601848764",
+      "properties": {
+        "name": "Moslavačka Gračenica",
+        "railway": "station",
+        "id": "node/601848764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6891245,
+          45.5140697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/601848766",
+      "properties": {
+        "name": "Ilova",
+        "railway": "halt",
+        "id": "node/601848766"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8334221,
+          45.4507628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/601848767",
+      "properties": {
+        "name": "Ludina",
+        "railway": "station",
+        "id": "node/601848767"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5696253,
+          45.6005423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/601848769",
+      "properties": {
+        "name": "Novoselec",
+        "operator": "HŽ",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/601848769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5300528,
+          45.6491289
         ]
       }
     },
@@ -113,6 +1759,787 @@
     },
     {
       "type": "Feature",
+      "id": "node/614392351",
+      "properties": {
+        "name": "Prečec - stajalište",
+        "note": "ovo je zbilja stanica \"Prečec stajalište\", stanica \"Prečec\" je druga blizu na NW. Provjereno uživo, vlak stajao na obje.",
+        "railway": "halt",
+        "source": "survey",
+        "id": "node/614392351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3509584,
+          45.7594155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/636141909",
+      "properties": {
+        "name": "Meja",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Meja",
+        "uic_ref": "7800385",
+        "id": "node/636141909"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5957546,
+          45.3065561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677407955",
+      "properties": {
+        "name": "Grginac Novi",
+        "railway": "halt",
+        "id": "node/677407955"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9083435,
+          45.9138607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677407975",
+      "properties": {
+        "name": "Veliko Trojstvo",
+        "railway": "station",
+        "id": "node/677407975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9251527,
+          45.9322347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677407988",
+      "properties": {
+        "name": "Mišulinovac",
+        "railway": "station",
+        "id": "node/677407988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9454271,
+          45.9345402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677408007",
+      "properties": {
+        "name": "Paulovac",
+        "railway": "station",
+        "id": "node/677408007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9745159,
+          45.9383877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514070",
+      "properties": {
+        "name": "Zdenci - Orahovica",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/677514070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9292261,
+          45.5685722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514071",
+      "properties": {
+        "name": "Čačinci",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/677514071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8687825,
+          45.598689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514072",
+      "properties": {
+        "name": "Mikleuš",
+        "railway": "station",
+        "id": "node/677514072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8122702,
+          45.6167492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514074",
+      "properties": {
+        "name": "Nova Bukovica",
+        "railway": "station",
+        "id": "node/677514074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7775014,
+          45.6624298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514075",
+      "properties": {
+        "name": "Jelisavac",
+        "railway": "halt",
+        "id": "node/677514075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1549006,
+          45.5234476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514081",
+      "properties": {
+        "name": "Našička Breznica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/677514081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1909869,
+          45.5315295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514083",
+      "properties": {
+        "name": "Niza",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/677514083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2345465,
+          45.5428053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514137",
+      "properties": {
+        "name": "Sirova Katalena",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/677514137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0681993,
+          45.959265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514165",
+      "properties": {
+        "name": "Sladojevci",
+        "railway": "station",
+        "id": "node/677514165"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.638813,
+          45.7268748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514166",
+      "properties": {
+        "name": "Cabuna",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/677514166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5814102,
+          45.7581506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514168",
+      "properties": {
+        "name": "Koška",
+        "railway": "station",
+        "id": "node/677514168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2953766,
+          45.5415242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514171",
+      "properties": {
+        "name": "Normanci",
+        "railway": "station",
+        "id": "node/677514171"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3665557,
+          45.5573415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514173",
+      "properties": {
+        "name": "Višnjevac IPK",
+        "railway": "halt",
+        "id": "node/677514173"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6065526,
+          45.5663954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514174",
+      "properties": {
+        "name": "Frigis - Osijek",
+        "railway": "halt",
+        "id": "node/677514174"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.635794,
+          45.5584676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677514175",
+      "properties": {
+        "name": "Petrove Gore",
+        "railway": "halt",
+        "id": "node/677514175"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6505457,
+          45.5557016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/690584655",
+      "properties": {
+        "name": "Turopolje",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/690584655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1314895,
+          45.6478602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/690826754",
+      "properties": {
+        "name": "Ostrna",
+        "railway": "halt",
+        "id": "node/690826754"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2710167,
+          45.7940802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/694856206",
+      "properties": {
+        "name": "Cerovljani",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/694856206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7730621,
+          45.2225696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/749570995",
+      "properties": {
+        "name": "Gornje Dubrave",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/749570995"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3075717,
+          45.2790756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/849480857",
+      "properties": {
+        "name": "Drniš",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/849480857"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1818864,
+          43.8638078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/853554706",
+      "properties": {
+        "name": "Karlovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/853554706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.544881,
+          45.5001096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/865124527",
+      "properties": {
+        "building": "train_station",
+        "name": "Drenovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/865124527"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8589376,
+          44.9198373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869866448",
+      "properties": {
+        "name": "Mrzlo Polje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/869866448"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5359107,
+          45.4665051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869867756",
+      "properties": {
+        "name": "Jastrebarsko",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/869867756"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6477117,
+          45.657182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869878799",
+      "properties": {
+        "name": "Hrvatski Leskovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/869878799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.89214,
+          45.7444392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869880202",
+      "properties": {
+        "name": "Mavračići",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/869880202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.798434,
+          45.6973228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869880204",
+      "properties": {
+        "name": "Zdenčina",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/869880204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7499204,
+          45.6836693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869880208",
+      "properties": {
+        "name": "Desinec",
+        "railway": "halt",
+        "id": "node/869880208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7081028,
+          45.6728234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869880322",
+      "properties": {
+        "name": "Domagović",
+        "railway": "halt",
+        "id": "node/869880322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6326248,
+          45.6332909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869881047",
+      "properties": {
+        "name": "Lazina",
+        "railway": "halt",
+        "id": "node/869881047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6252846,
+          45.6065062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869887427",
+      "properties": {
+        "name": "Belavići",
+        "railway": "station",
+        "id": "node/869887427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4790351,
+          45.4222367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869897800",
+      "properties": {
+        "name": "Lovinac",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/869897800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6637306,
+          44.376116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/875579341",
+      "properties": {
+        "name": "Osijek",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/875579341"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6835353,
+          45.5528227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/910796842",
+      "properties": {
+        "name": "Živaja",
+        "railway": "station",
+        "id": "node/910796842"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7274176,
+          45.2468151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/919489200",
+      "properties": {
+        "name": "Krvavac",
+        "railway": "station",
+        "id": "node/919489200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5898156,
+          43.0256698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/935883723",
+      "properties": {
+        "name": "Unešić",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/935883723"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1815715,
+          43.7418825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/972954523",
+      "properties": {
+        "name": "Vodovod",
+        "railway": "halt",
+        "id": "node/972954523"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6681463,
+          45.5523911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1028382842",
+      "properties": {
+        "name": "Blacko-Jakšić",
+        "operator": "HŽ-Hrvatske Željeznice",
+        "railway": "station",
+        "id": "node/1028382842"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7572648,
+          45.3357643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1111996233",
+      "properties": {
+        "name": "Knin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1111996233"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1984241,
+          44.0365757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1111996242",
+      "properties": {
+        "name": "Knin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1111996242"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1985427,
+          44.0365799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1112948178",
       "properties": {
         "name": "Žitnić",
@@ -126,6 +2553,986 @@
         "coordinates": [
           16.1458739,
           43.8318664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1115889192",
+      "properties": {
+        "name": "Solin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1115889192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4710229,
+          43.5371489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1115889270",
+      "properties": {
+        "name": "Kaštel Sućurac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1115889270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4303047,
+          43.5489346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1119305240",
+      "properties": {
+        "name": "Melnice",
+        "railway": "halt",
+        "uic_name": "Melnice",
+        "uic_ref": "7800386",
+        "id": "node/1119305240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6176422,
+          45.2769363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1119343289",
+      "properties": {
+        "name": "Škrljevo",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "train": "yes",
+        "uic_name": "Skrljevo (HR)",
+        "uic_ref": "7800116",
+        "id": "node/1119343289"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5390099,
+          45.3244961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1120101241",
+      "properties": {
+        "name": "Vidovec",
+        "railway": "halt",
+        "id": "node/1120101241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2517037,
+          46.2647464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1124826516",
+      "properties": {
+        "name": "Pivnica",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1124826516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4832048,
+          45.7081218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1175083256",
+      "properties": {
+        "name": "Županja",
+        "railway": "station",
+        "id": "node/1175083256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6964018,
+          45.0817343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1216557118",
+      "properties": {
+        "name": "Donji Mihaljevec",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1216557118"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7238731,
+          46.3610916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1216569390",
+      "properties": {
+        "name": "Donji Kraljevec",
+        "name:de": "Nieder Kraliewitz",
+        "name:hu": "Murakirály",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1216569390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6451079,
+          46.367781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1309538456",
+      "properties": {
+        "name": "Dugo Selo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1309538456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2347942,
+          45.8014151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1309599032",
+      "properties": {
+        "name": "Maksimir",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1309599032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0245074,
+          45.814202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1318770101",
+      "properties": {
+        "name": "Ernestinovo",
+        "railway": "halt",
+        "id": "node/1318770101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6676467,
+          45.4451111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1326585709",
+      "properties": {
+        "name": "Zaprešić",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1326585709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8130695,
+          45.8444842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1328899984",
+      "properties": {
+        "name": "Zagreb zapadni kolodvor",
+        "name:de": "Zagreb Westbahnhof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1328899984"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.954051,
+          45.809152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1339602015",
+      "properties": {
+        "name": "Vrapče",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1339602015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8971263,
+          45.8122361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1342304897",
+      "properties": {
+        "name": "Feričanci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1342304897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9809307,
+          45.5381902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1344664533",
+      "properties": {
+        "name": "Gajnice",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1344664533"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8719926,
+          45.8135878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1344688180",
+      "properties": {
+        "name": "Podsused",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1344688180"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8359455,
+          45.8156118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1344724238",
+      "properties": {
+        "name": "Zaprešić Savska",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1344724238"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7949944,
+          45.8549032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1344724241",
+      "properties": {
+        "name": "Zaprešić Savska",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1344724241"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7950066,
+          45.8549328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1344778012",
+      "properties": {
+        "name": "Brdovec",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1344778012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7673545,
+          45.8635047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1347962378",
+      "properties": {
+        "name": "Koprivnica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1347962378"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8167737,
+          46.1651681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1349113067",
+      "properties": {
+        "name": "Lepoglava",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1349113067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0434629,
+          46.2131402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1349119423",
+      "properties": {
+        "name": "Zabok kolosijek 1",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1349119423"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9020413,
+          46.0239986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1349286353",
+      "properties": {
+        "name": "Kamanje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1349286353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4084781,
+          45.6453696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1350583685",
+      "properties": {
+        "name": "Gornja Stubica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1350583685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0041356,
+          45.9832712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1350773205",
+      "properties": {
+        "name": "Sutla",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "uic_ref": "74201",
+        "id": "node/1350773205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.694944,
+          45.8861394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1350773421",
+      "properties": {
+        "name": "Sveti Križ Začretje",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1350773421"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9034281,
+          46.0769458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1366256999",
+      "properties": {
+        "name": "Brdovec",
+        "railway": "halt",
+        "uic_ref": "74101",
+        "id": "node/1366256999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7671278,
+          45.8635957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1399741462",
+      "properties": {
+        "name": "Brod Moravice",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1399741462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9610693,
+          45.46494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1399863165",
+      "properties": {
+        "name": "Žrnovac",
+        "railway": "halt",
+        "id": "node/1399863165"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9370344,
+          45.4498003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1399875169",
+      "properties": {
+        "name": "Skrad",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1399875169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9031042,
+          45.4254435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1399954341",
+      "properties": {
+        "name": "Delnice",
+        "railway": "station",
+        "railway:ref:DB": "XRDN",
+        "id": "node/1399954341"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7974656,
+          45.3916205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1400235298",
+      "properties": {
+        "name": "Vojnovac",
+        "railway": "halt",
+        "id": "node/1400235298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3341694,
+          45.1500381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1400349545",
+      "properties": {
+        "name": "Lokve",
+        "railway": "station",
+        "id": "node/1400349545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7719916,
+          45.3571896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1400401005",
+      "properties": {
+        "name": "Fužine",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "uic_name": "Fuzine",
+        "uic_ref": "7800045",
+        "id": "node/1400401005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7168185,
+          45.2998262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1400436219",
+      "properties": {
+        "name": "Vrata",
+        "railway": "halt",
+        "id": "node/1400436219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7321801,
+          45.3177383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1400446234",
+      "properties": {
+        "name": "Zlobin",
+        "railway": "halt",
+        "uic_name": "Zlobin",
+        "uic_ref": "7800572",
+        "id": "node/1400446234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6506904,
+          45.2883111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1400977846",
+      "properties": {
+        "name": "Gomirje",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1400977846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.127894,
+          45.3427229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1401111915",
+      "properties": {
+        "name": "Ogulinski Hreljin",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1401111915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1782179,
+          45.2962449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1401139717",
+      "properties": {
+        "name": "Šušnjevo selo",
+        "railway": "halt",
+        "id": "node/1401139717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2829942,
+          45.210491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1401148278",
+      "properties": {
+        "name": "Latin",
+        "railway": "halt",
+        "id": "node/1401148278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3623277,
+          45.1121042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1401160723",
+      "properties": {
+        "name": "Plaški",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1401160723"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3679311,
+          45.0783998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1404490638",
+      "properties": {
+        "name": "Vrhovine",
+        "railway": "station",
+        "id": "node/1404490638"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4277125,
+          44.8490637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1404809717",
+      "properties": {
+        "name": "Ličko Lešće",
+        "railway": "station",
+        "id": "node/1404809717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3585643,
+          44.7732629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1404864926",
+      "properties": {
+        "name": "Perušić",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "76106",
+        "id": "node/1404864926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3886176,
+          44.6479157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1404899850",
+      "properties": {
+        "name": "Raduč",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1404899850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.602955,
+          44.4160769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1407584334",
+      "properties": {
+        "name": "Split Predgrađe",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1407584334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4556555,
+          43.522043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1421307951",
+      "properties": {
+        "name": "Gornje Dubrave",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1421307951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3075025,
+          45.27917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1440222604",
+      "properties": {
+        "name": "Siverić",
+        "railway": "halt",
+        "id": "node/1440222604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1967315,
+          43.8742297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1564111207",
+      "properties": {
+        "name": "Zagreb Klara",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1564111207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9814518,
+          45.7556581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1575712958",
+      "properties": {
+        "name": "Odra",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/1575712958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0094964,
+          45.7354477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1583402024",
+      "properties": {
+        "name": "Harmica",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "uic_ref": "74212",
+        "id": "node/1583402024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6854434,
+          45.8918285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1623965836",
+      "properties": {
+        "name": "Zagreb Klara",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1623965836"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9814137,
+          45.7556321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1735311577",
+      "properties": {
+        "name": "Tounj",
+        "railway": "halt",
+        "id": "node/1735311577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3202528,
+          45.2504672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1743038144",
+      "properties": {
+        "name": "Hrvatska Dubica",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1743038144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8062378,
+          45.2215296
         ]
       }
     },
@@ -222,6 +3629,315 @@
     },
     {
       "type": "Feature",
+      "id": "node/1760396896",
+      "properties": {
+        "name": "Antunovac",
+        "railway": "halt",
+        "id": "node/1760396896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6701373,
+          45.4837267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1760396897",
+      "properties": {
+        "name": "Brijest",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1760396897"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6720874,
+          45.517048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1760402216",
+      "properties": {
+        "name": "Bijelo Brdo",
+        "railway": "halt",
+        "id": "node/1760402216"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8589283,
+          45.513175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763280325",
+      "properties": {
+        "name": "Gaboš",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1763280325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7431839,
+          45.3540333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763280333",
+      "properties": {
+        "name": "Ostrovo",
+        "railway": "halt",
+        "id": "node/1763280333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7773918,
+          45.3357174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763286257",
+      "properties": {
+        "name": "Oriovac",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q38251844",
+        "id": "node/1763286257"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7560951,
+          45.1608878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763288872",
+      "properties": {
+        "name": "Doliće",
+        "railway": "halt",
+        "id": "node/1763288872"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8630603,
+          46.1714285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763288873",
+      "properties": {
+        "name": "Žutnica",
+        "public_transport": "stop",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1763288873"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8535371,
+          46.1823076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763295534",
+      "properties": {
+        "name": "Štrucljevo",
+        "public_transport": "stop",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1763295534"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9117216,
+          46.0563763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763295535",
+      "properties": {
+        "name": "Velika Ves",
+        "public_transport": "stop",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1763295535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8877801,
+          46.1148796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763295536",
+      "properties": {
+        "name": "Dukovec",
+        "public_transport": "stop",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1763295536"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8961195,
+          46.0963707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763298836",
+      "properties": {
+        "name": "Lepavina",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1763298836"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6850802,
+          46.0981739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763300753",
+      "properties": {
+        "name": "Virje",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1763300753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0043575,
+          46.0684891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763300754",
+      "properties": {
+        "name": "Bregi",
+        "railway": "station",
+        "id": "node/1763300754"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8915922,
+          46.1268644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763300755",
+      "properties": {
+        "name": "Novigrad Podravski",
+        "railway": "station",
+        "id": "node/1763300755"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9550532,
+          46.0846131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763307829",
+      "properties": {
+        "name": "Drnje",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1763307829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8955859,
+          46.2139377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763309990",
+      "properties": {
+        "name": "Čukovec",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1763309990"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6664062,
+          46.2358244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763309993",
+      "properties": {
+        "name": "Rasinja",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "id": "node/1763309993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.720777,
+          46.2058439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1763309994",
       "properties": {
         "name": "Jalžabet",
@@ -240,6 +3956,387 @@
     },
     {
       "type": "Feature",
+      "id": "node/1763309996",
+      "properties": {
+        "name": "Martijanec",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1763309996"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5325299,
+          46.2614216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1763309997",
+      "properties": {
+        "name": "Novakovec",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1763309997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4965693,
+          46.2642385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1767492986",
+      "properties": {
+        "name": "Greda",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1767492986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.293264,
+          45.5306649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1767496294",
+      "properties": {
+        "name": "Blinjski Kut",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1767496294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4576562,
+          45.4156766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1767498324",
+      "properties": {
+        "name": "Brđani Krajiški",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1767498324"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4946549,
+          45.3829303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1767501191",
+      "properties": {
+        "name": "Hrastovac",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1767501191"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5467021,
+          45.3114788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1767502487",
+      "properties": {
+        "name": "Graboštani",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1767502487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5416285,
+          45.2802535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1767503411",
+      "properties": {
+        "name": "Majur",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1767503411"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5281484,
+          45.2572594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1794934538",
+      "properties": {
+        "name": "Podravska Bistrica",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1794934538"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6088516,
+          45.7427838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802538309",
+      "properties": {
+        "name": "Jurdani",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1802538309"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3087579,
+          45.3923397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802608926",
+      "properties": {
+        "name": "Savičenta",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802608926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.858767,
+          45.0658234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802608927",
+      "properties": {
+        "name": "Smoljanci",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802608927"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8444475,
+          45.0918675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802608930",
+      "properties": {
+        "name": "Juršići",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802608930"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.865172,
+          45.0248699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802608936",
+      "properties": {
+        "name": "Čabrunići Selo",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802608936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8648688,
+          45.0307718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802619318",
+      "properties": {
+        "name": "Čabrunići",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802619318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8659951,
+          45.0415524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802651807",
+      "properties": {
+        "name": "Šijana",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802651807"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8654391,
+          44.8885651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802659106",
+      "properties": {
+        "name": "Ročko Polje",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802659106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0799401,
+          45.3738371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802660308",
+      "properties": {
+        "name": "Nugla",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/1802660308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0243617,
+          45.4122991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1802663439",
+      "properties": {
+        "name": "Kožljak",
+        "railway": "halt",
+        "id": "node/1802663439"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1778039,
+          45.1747927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1812332216",
+      "properties": {
+        "name": "Žminj",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1812332216"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8554923,
+          45.1462998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1812332635",
+      "properties": {
+        "name": "Sveti Petar u Šumi",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1812332635"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8672049,
+          45.1850976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1812332823",
+      "properties": {
+        "name": "Heki Tovarište",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1812332823"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8943245,
+          45.2251003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1815013071",
       "properties": {
         "name": "Đeletovci stajalište",
@@ -253,6 +4350,236 @@
         "coordinates": [
           19.0191125,
           45.1939917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1827528655",
+      "properties": {
+        "name": "Rijeka",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1827528655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.430288,
+          45.3299573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1827529595",
+      "properties": {
+        "name": "Krnjevo",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/1827529595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3993034,
+          45.3382106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1867354545",
+      "properties": {
+        "name": "Bubnjarci",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q88666736",
+        "id": "node/1867354545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.351259,
+          45.6442245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1867354909",
+      "properties": {
+        "name": "Brlog Grad",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/1867354909"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3751042,
+          45.6405519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1867355634",
+      "properties": {
+        "name": "Zaluka",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1867355634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.452474,
+          45.6317384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1867356464",
+      "properties": {
+        "name": "Zorkovac",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1867356464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5300428,
+          45.5911889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1867356644",
+      "properties": {
+        "name": "Mahićno",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1867356644"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5314227,
+          45.5531041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871037530",
+      "properties": {
+        "name": "Kuljevčica",
+        "railway": "halt",
+        "id": "node/1871037530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0937088,
+          46.2281011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871038669",
+      "properties": {
+        "name": "Cerje Tužno",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1871038669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2187556,
+          46.2597202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871039345",
+      "properties": {
+        "name": "Kunovec-Subotica",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1871039345"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7568118,
+          46.1937132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871041147",
+      "properties": {
+        "name": "Dunjkovec",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q72371820",
+        "id": "node/1871041147"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3707996,
+          46.3860988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871042007",
+      "properties": {
+        "name": "Macinec",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q70466640",
+        "id": "node/1871042007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3256018,
+          46.3875538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871043030",
+      "properties": {
+        "name": "Novo Selo Rok",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "wikidata": "Q88685026",
+        "id": "node/1871043030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4564709,
+          46.4297348
         ]
       }
     },
@@ -289,6 +4616,23 @@
         "coordinates": [
           16.7113504,
           46.1008728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871053856",
+      "properties": {
+        "name": "Grginac",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/1871053856"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8931299,
+          45.9092964
         ]
       }
     },
@@ -402,6 +4746,124 @@
     },
     {
       "type": "Feature",
+      "id": "node/1871067096",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1871067096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9278173,
+          45.1768822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871071573",
+      "properties": {
+        "name": "Vođinci",
+        "railway": "station",
+        "id": "node/1871071573"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6133559,
+          45.2695407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871072621",
+      "properties": {
+        "name": "Mirkovci",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/1871072621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8560091,
+          45.2788754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871073186",
+      "properties": {
+        "alt_name": "Srijemske Laze",
+        "name": "Sremske Laze",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/1871073186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9275645,
+          45.2273633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871073971",
+      "properties": {
+        "name": "Slakovci",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/1871073971"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9460305,
+          45.2152505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871074280",
+      "properties": {
+        "name": "Orolik",
+        "railway": "halt",
+        "id": "node/1871074280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9760131,
+          45.2065334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871074918",
+      "properties": {
+        "name": "Vinkovački Banovci",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/1871074918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0470495,
+          45.1858108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1871075035",
       "properties": {
         "alt_name": "Banovci",
@@ -416,6 +4878,22 @@
         "coordinates": [
           19.0670609,
           45.179977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871078498",
+      "properties": {
+        "name": "Ratkovica",
+        "railway": "halt",
+        "id": "node/1871078498"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7314682,
+          45.2305371
         ]
       }
     },
@@ -511,6 +4989,403 @@
     },
     {
       "type": "Feature",
+      "id": "node/1871089957",
+      "properties": {
+        "name": "Markušica-Antin",
+        "railway": "halt",
+        "id": "node/1871089957"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.733737,
+          45.3805857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871090785",
+      "properties": {
+        "name": "Bršadin",
+        "railway": "halt",
+        "id": "node/1871090785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8698125,
+          45.3500374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871091923",
+      "properties": {
+        "name": "Bršadin-Lipovača",
+        "railway": "halt",
+        "id": "node/1871091923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9161397,
+          45.3676709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871094489",
+      "properties": {
+        "name": "Privlaka",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1871094489"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8484753,
+          45.1983317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871094975",
+      "properties": {
+        "name": "Spačva",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1871094975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.904133,
+          45.0412306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871095154",
+      "properties": {
+        "name": "Vrbanja",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1871095154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8851611,
+          44.9825097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871097297",
+      "properties": {
+        "name": "Rokovci",
+        "railway": "halt",
+        "id": "node/1871097297"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7316066,
+          45.2413445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871097300",
+      "properties": {
+        "name": "Andrijaševci",
+        "railway": "halt",
+        "id": "node/1871097300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.730547,
+          45.2298493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871098388",
+      "properties": {
+        "name": "Cerna",
+        "railway": "station",
+        "id": "node/1871098388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6991008,
+          45.1942566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871099807",
+      "properties": {
+        "name": "Gradište",
+        "railway": "halt",
+        "id": "node/1871099807"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6999936,
+          45.1442065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871102945",
+      "properties": {
+        "name": "Staza",
+        "railway": "station",
+        "id": "node/1871102945"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6007952,
+          45.3304491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871104051",
+      "properties": {
+        "name": "Papići",
+        "railway": "station",
+        "id": "node/1871104051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.634475,
+          45.307979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871105262",
+      "properties": {
+        "name": "Šaš",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1871105262"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6682449,
+          45.2848819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871106451",
+      "properties": {
+        "name": "Višnjica",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1871106451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8803027,
+          45.2564504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871109154",
+      "properties": {
+        "name": "Gornji Zvečaj",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1871109154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4122167,
+          45.3759296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871110056",
+      "properties": {
+        "name": "Donje Dubrave",
+        "railway": "station",
+        "id": "node/1871110056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3631531,
+          45.3123872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871110516",
+      "properties": {
+        "name": "Košare",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1871110516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3288905,
+          45.2205018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871110517",
+      "properties": {
+        "name": "Kukača",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1871110517"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.33359,
+          45.2340564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871115491",
+      "properties": {
+        "name": "Oštarije Ravnice",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/1871115491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2774521,
+          45.2188477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871134671",
+      "properties": {
+        "name": "Donji Dolac",
+        "railway": "halt",
+        "id": "node/1871134671"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1398029,
+          43.6488506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871136464",
+      "properties": {
+        "name": "Cera",
+        "railway": "station",
+        "id": "node/1871136464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1769498,
+          43.7048271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871137208",
+      "properties": {
+        "name": "Planjane",
+        "railway": "halt",
+        "id": "node/1871137208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1834147,
+          43.7666553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871137572",
+      "properties": {
+        "name": "Sedramić",
+        "railway": "halt",
+        "id": "node/1871137572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1588898,
+          43.7951635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871137946",
+      "properties": {
+        "name": "Tepljuh",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/1871137946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2106006,
+          43.8938572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1871140815",
       "properties": {
         "name": "Kaldrma",
@@ -524,6 +5399,1242 @@
         "coordinates": [
           16.2059491,
           43.9726002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871165339",
+      "properties": {
+        "name": "Mandalina",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1871165339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9069501,
+          43.7200678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871168177",
+      "properties": {
+        "name": "Dabar",
+        "railway": "halt",
+        "id": "node/1871168177"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0106296,
+          43.6727446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871168481",
+      "properties": {
+        "name": "Ripište",
+        "railway": "halt",
+        "id": "node/1871168481"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0518478,
+          43.6695945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871175077",
+      "properties": {
+        "name": "Jušići",
+        "name:it": "Giussici",
+        "railway": "halt",
+        "id": "node/1871175077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3169219,
+          45.3801743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1871175483",
+      "properties": {
+        "name": "Permani",
+        "railway": "halt",
+        "id": "node/1871175483"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3031847,
+          45.4118812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1905561276",
+      "properties": {
+        "name": "Zaprešić-Savska",
+        "railway": "halt",
+        "uic_ref": "74007",
+        "wikimedia_commons": "File:%C5%BDeljezni%C4%8Dko_stajali%C5%A1te_Zapre%C5%A1i%C4%87_Savska.jpg",
+        "id": "node/1905561276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7948927,
+          45.8549431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1946792762",
+      "properties": {
+        "name": "Kosovo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1946792762"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2096918,
+          43.9496876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1951096340",
+      "properties": {
+        "name": "Mala Subotica",
+        "railway": "station",
+        "id": "node/1951096340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5348005,
+          46.377397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1951097095",
+      "properties": {
+        "name": "Čehovec",
+        "railway": "station",
+        "id": "node/1951097095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6163747,
+          46.3702243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1951100048",
+      "properties": {
+        "name": "Kotoriba",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1951100048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8084088,
+          46.3537565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2071569172",
+      "properties": {
+        "name": "Zagreb Klara",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/2071569172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.981399,
+          45.7557474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2106194545",
+      "properties": {
+        "name": "Kotoriba",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2106194545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8084141,
+          46.3537966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2110020956",
+      "properties": {
+        "name": "Perković",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2110020956"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1177284,
+          43.6755982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2116965624",
+      "properties": {
+        "name": "Andrijevci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2116965624"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2928127,
+          45.1907182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2116965703",
+      "properties": {
+        "name": "Andrijevci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2116965703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2928386,
+          45.1906781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2269769400",
+      "properties": {
+        "name": "Karlovac Centar",
+        "railway": "halt",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes",
+        "id": "node/2269769400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.549252,
+          45.4880915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2363631048",
+      "properties": {
+        "name": "Đurmanec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2363631048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8432139,
+          46.1937543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2376637863",
+      "properties": {
+        "name": "Varaždin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2376637863"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3467575,
+          46.3056566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2386480363",
+      "properties": {
+        "name": "Gradec Stajalište",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/2386480363"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4843527,
+          45.9129056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2388523169",
+      "properties": {
+        "name": "Gajnice",
+        "railway": "halt",
+        "uic_ref": "74006",
+        "id": "node/2388523169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8730831,
+          45.8135465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2434547226",
+      "properties": {
+        "name": "Hrvatska Kostajnica",
+        "railway": "halt",
+        "id": "node/2434547226"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5274389,
+          45.2353462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2435052832",
+      "properties": {
+        "name": "Volinja",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/2435052832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4861422,
+          45.2023219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2439311602",
+      "properties": {
+        "name": "Krapina",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2439311602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8719932,
+          46.1595912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2446445941",
+      "properties": {
+        "name": "Ivanić Grad",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2446445941"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3979656,
+          45.7073064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2518878167",
+      "properties": {
+        "name": "Primorsko Vrpolje",
+        "railway": "halt",
+        "id": "node/2518878167"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.98198,
+          43.6784647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2518878168",
+      "properties": {
+        "name": "Primorski Sveti Juraj",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/2518878168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.946766,
+          43.6963817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522167718",
+      "properties": {
+        "name": "Greda",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522167718"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.293255,
+          45.5303949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522167719",
+      "properties": {
+        "name": "Hrvatska Dubica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522167719"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8062172,
+          45.2216637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522167720",
+      "properties": {
+        "name": "Sunja",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522167720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5505993,
+          45.3554672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522167721",
+      "properties": {
+        "name": "Turopolje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522167721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1313105,
+          45.6477126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522200230",
+      "properties": {
+        "name": "Oriovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522200230"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7552162,
+          45.1609034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522200234",
+      "properties": {
+        "name": "Oriovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522200234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7552346,
+          45.1609484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522209956",
+      "properties": {
+        "name": "Koprivnica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522209956"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8166288,
+          46.1652128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522224823",
+      "properties": {
+        "name": "Generalski Stol",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522224823"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3765317,
+          45.3433606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522224826",
+      "properties": {
+        "name": "Kukača",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522224826"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.333333,
+          45.2340183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522224829",
+      "properties": {
+        "name": "Skrad",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522224829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9028362,
+          45.4254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522224831",
+      "properties": {
+        "name": "Zvečaj",
+        "railway": "station",
+        "id": "node/2522224831"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4311406,
+          45.3957532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522235651",
+      "properties": {
+        "name": "Sušak-Pećine",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522235651"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4638833,
+          45.3207809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522953269",
+      "properties": {
+        "name": "Josipdol",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522953269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2890625,
+          45.1974896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522953270",
+      "properties": {
+        "name": "Plaški",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2522953270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3680545,
+          45.0783003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2523192383",
+      "properties": {
+        "name": "Primorski Dolac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2523192383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1588246,
+          43.6366767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2523456850",
+      "properties": {
+        "name": "Hrastovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2523456850"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.546532,
+          45.3114071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2523457667",
+      "properties": {
+        "name": "Majur",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2523457667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5279264,
+          45.2572463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2523465806",
+      "properties": {
+        "name": "Zabok kolosijek 2",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2523465806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9020735,
+          46.0239562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2523533153",
+      "properties": {
+        "name": "Lipik",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2523533153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1599803,
+          45.4095406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2523539863",
+      "properties": {
+        "name": "Požega",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2523539863"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6831955,
+          45.3375051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2607852922",
+      "properties": {
+        "name": "Kustošija",
+        "railway": "halt",
+        "uic_ref": "74005",
+        "id": "node/2607852922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9272514,
+          45.8106039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2607875292",
+      "properties": {
+        "name": "Maksimir",
+        "railway": "halt",
+        "uic_ref": "72405",
+        "id": "node/2607875292"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0244102,
+          45.8141676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2607887519",
+      "properties": {
+        "name": "Trnava",
+        "railway": "halt",
+        "uic_ref": "72404",
+        "id": "node/2607887519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0493737,
+          45.818421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2607889081",
+      "properties": {
+        "name": "Čulinec",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "uic_ref": "72403",
+        "id": "node/2607889081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0633132,
+          45.8207631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2612939231",
+      "properties": {
+        "name": "Stažnjevec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2612939231"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1736141,
+          46.2414346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2613455257",
+      "properties": {
+        "name": "Poznanovec",
+        "platforms": "1",
+        "railway": "halt",
+        "id": "node/2613455257"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0295169,
+          46.0497057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2614093549",
+      "properties": {
+        "name": "Virje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2614093549"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0040222,
+          46.0688186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2768254099",
+      "properties": {
+        "name": "Dugo Selo",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2768254099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.234802,
+          45.8013205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2814220870",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2814220870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8026308,
+          45.3002013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2814302662",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2814302662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8025917,
+          45.3003412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2814302727",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2814302727"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8025673,
+          45.3003895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2844817296",
+      "properties": {
+        "name": "Šapjane",
+        "name:it": "Sappiane",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/2844817296"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2444023,
+          45.476671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3228704372",
+      "properties": {
+        "name": "Hromec",
+        "railway": "halt",
+        "id": "node/3228704372"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8080112,
+          46.2068804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3326230008",
+      "properties": {
+        "name": "Repušnica",
+        "railway": "halt",
+        "id": "node/3326230008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7294365,
+          45.4890986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3671459717",
+      "properties": {
+        "name": "Kaštel Kambelovac",
+        "railway": "halt",
+        "id": "node/3671459717"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3849149,
+          43.5555389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3673522294",
+      "properties": {
+        "name": "Vinkovačko Novo Selo",
+        "railway": "halt",
+        "id": "node/3673522294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7814776,
+          45.2900438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717635961",
+      "properties": {
+        "name": "Haganj",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "id": "node/3717635961"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5865108,
+          45.9267053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717635962",
+      "properties": {
+        "name": "Lubena",
+        "railway": "halt",
+        "id": "node/3717635962"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5140954,
+          45.9236053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3717635963",
+      "properties": {
+        "name": "Remetinec Križevački",
+        "railway": "halt",
+        "id": "node/3717635963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5382099,
+          45.9240367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3887743505",
+      "properties": {
+        "name": "Zarilac",
+        "railway": "halt",
+        "id": "node/3887743505"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8764751,
+          45.3343252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3887743886",
+      "properties": {
+        "name": "Ciglenik",
+        "railway": "halt",
+        "id": "node/3887743886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9170266,
+          45.3341766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3887743917",
+      "properties": {
+        "name": "Knežci",
+        "railway": "halt",
+        "id": "node/3887743917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8978303,
+          45.3368624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3898533466",
+      "properties": {
+        "name": "Vratišinec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "wikidata": "Q88685448",
+        "id": "node/3898533466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4535866,
+          46.4730641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3898868418",
+      "properties": {
+        "name": "Čakovec-Buzovec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3898868418"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4457963,
+          46.3837977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3898868419",
+      "properties": {
+        "name": "Čakovec-Buzovec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3898868419"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4457963,
+          46.3837677
         ]
       }
     },
@@ -548,6 +6659,96 @@
     },
     {
       "type": "Feature",
+      "id": "node/3903605142",
+      "properties": {
+        "name": "Varaždin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3903605142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3461529,
+          46.305178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3903605146",
+      "properties": {
+        "name": "Varaždin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3903605146"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3467016,
+          46.3056668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3903605147",
+      "properties": {
+        "name": "Varaždin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3903605147"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3468128,
+          46.305632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3903605148",
+      "properties": {
+        "name": "Varaždin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3903605148"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3462381,
+          46.3051475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3903618528",
+      "properties": {
+        "name": "Turčin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3903618528"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3588325,
+          46.2540427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3903618529",
       "properties": {
         "name": "Turčin",
@@ -561,6 +6762,454 @@
         "coordinates": [
           16.3587967,
           46.2540615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3907195617",
+      "properties": {
+        "name": "Zbelava",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/3907195617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3990299,
+          46.2814031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3913364258",
+      "properties": {
+        "name": "Novi Marof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3913364258"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3386446,
+          46.1772995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3913368315",
+      "properties": {
+        "name": "Mađarevo",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/3913368315"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3105644,
+          46.1695832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3921879095",
+      "properties": {
+        "name": "Golubovec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3921879095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9835728,
+          46.1736116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3978724057",
+      "properties": {
+        "name": "Buzin",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/3978724057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9986992,
+          45.7432188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4196590088",
+      "properties": {
+        "name": "Brdašce",
+        "railway": "halt",
+        "id": "node/4196590088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.201769,
+          43.62928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4196829016",
+      "properties": {
+        "name": "Pristava Krapinska",
+        "railway": "halt",
+        "id": "node/4196829016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8739785,
+          46.1477089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4196846137",
+      "properties": {
+        "name": "Cret Bizovački",
+        "railway": "halt",
+        "id": "node/4196846137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4096849,
+          45.5735625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4196847403",
+      "properties": {
+        "name": "Osijek Luka",
+        "railway": "halt",
+        "id": "node/4196847403"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7676113,
+          45.5366855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4196871138",
+      "properties": {
+        "name": "Vinkovci Bolnica",
+        "railway": "halt",
+        "id": "node/4196871138"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.822649,
+          45.2922059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4244472637",
+      "properties": {
+        "name": "Učka",
+        "operator": "HŽ Infrastruktura",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4244472637"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.153008,
+          45.3210009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4497688780",
+      "properties": {
+        "name": "Gunja",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4497688780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8443291,
+          44.8828085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4498401459",
+      "properties": {
+        "name": "Beli Manastir",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4498401459"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5962055,
+          45.765729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4563241399",
+      "properties": {
+        "name": "Ilača",
+        "railway": "halt",
+        "id": "node/4563241399"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0894996,
+          45.1734247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4568916303",
+      "properties": {
+        "name": "Rukavac",
+        "railway": "halt",
+        "id": "node/4568916303"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3041878,
+          45.369726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4689372083",
+      "properties": {
+        "name": "Laduč",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/4689372083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7190049,
+          45.8786497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4841749358",
+      "properties": {
+        "name": "Prgomet",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/4841749358"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2261777,
+          43.6102922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4857757758",
+      "properties": {
+        "name": "Savski Marof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4857757758"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7399469,
+          45.8720521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4857757759",
+      "properties": {
+        "name": "Zagreb Glavni kolodvor",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4857757759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9788191,
+          45.8044299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4857757761",
+      "properties": {
+        "name": "Zagreb Glavni kolodvor",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4857757761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9788261,
+          45.8044758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4857757762",
+      "properties": {
+        "name": "Savski Marof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4857757762"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7399718,
+          45.8720934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5054150238",
+      "properties": {
+        "public_transport": "station",
+        "id": "node/5054150238"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.732133,
+          43.3484291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5132947550",
+      "properties": {
+        "name": "Split Predgrađe",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5132947550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4556406,
+          43.522125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5317295124",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5317295124"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6636929,
+          44.376082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5317295135",
+      "properties": {
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5317295135"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6637734,
+          44.3761472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5337694638",
+      "properties": {
+        "name": "Vrbovec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5337694638"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4104666,
+          45.8735336
         ]
       }
     },
@@ -597,6 +7246,42 @@
         "coordinates": [
           16.5899956,
           46.0266391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5554430195",
+      "properties": {
+        "name": "Sesvetski Kraljevec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5554430195"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1689581,
+          45.8106606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5554430673",
+      "properties": {
+        "name": "Sesvetski Kraljevec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5554430673"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.168983,
+          45.8106982
         ]
       }
     },
@@ -711,6 +7396,54 @@
     },
     {
       "type": "Feature",
+      "id": "node/5555027228",
+      "properties": {
+        "name": "Dragovci",
+        "railway": "halt",
+        "id": "node/5555027228"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7063561,
+          45.2145119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5555032825",
+      "properties": {
+        "name": "Bučje-Koprivnica",
+        "railway": "halt",
+        "id": "node/5555032825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7576649,
+          45.2472527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5555037636",
+      "properties": {
+        "name": "Sulkovci",
+        "railway": "halt",
+        "id": "node/5555037636"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7759779,
+          45.2590055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5555057415",
       "properties": {
         "name": "Lužani-Malino",
@@ -802,6 +7535,60 @@
     },
     {
       "type": "Feature",
+      "id": "node/5555068020",
+      "properties": {
+        "name": "Stari Slatinik",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5555068020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8413577,
+          45.1701063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5555068021",
+      "properties": {
+        "name": "Stari Slatinik",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5555068021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8413876,
+          45.170065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5555071892",
+      "properties": {
+        "name": "Slobodnica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5555071892"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.927815,
+          45.176836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5555074341",
       "properties": {
         "name": "Donja Vrba",
@@ -838,6 +7625,24 @@
     },
     {
       "type": "Feature",
+      "id": "node/5555091790",
+      "properties": {
+        "name": "Staro Topolje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5555091790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2465984,
+          45.1827792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5555175939",
       "properties": {
         "name": "Veliko Trgovišće",
@@ -851,6 +7656,334 @@
         "coordinates": [
           15.8466897,
           45.9947059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5555179053",
+      "properties": {
+        "name": "Donja Stubica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5555179053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9660562,
+          45.982946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5555190667",
+      "properties": {
+        "name": "Oroslavje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5555190667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9290768,
+          46.0018779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5555191655",
+      "properties": {
+        "name": "Stubičke Toplice",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5555191655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9414638,
+          45.9748869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5593325964",
+      "properties": {
+        "name": "Poljana",
+        "railway": "halt",
+        "id": "node/5593325964"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9789114,
+          45.4631284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5627130421",
+      "properties": {
+        "name": "Zagreb Zapadni kolodvor",
+        "name:de": "Zagreb Westbahnhof",
+        "operator": "HŽ Infrastruktura",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "74060",
+        "wikidata": "Q12645488",
+        "id": "node/5627130421"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9541936,
+          45.8090839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5627130422",
+      "properties": {
+        "name": "Zagreb Glavni kolodvor",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5627130422"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9788365,
+          45.8042167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5627130423",
+      "properties": {
+        "name": "Zagreb Glavni kolodvor",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5627130423"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9788258,
+          45.8043039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5627130424",
+      "properties": {
+        "name": "Zagreb Glavni kolodvor",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5627130424"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9788258,
+          45.8043464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5627130425",
+      "properties": {
+        "name": "Zagreb Glavni kolodvor",
+        "name:de": "Zagreb Hauptbahnhof",
+        "name:en": "Zagreb Central Railway Station",
+        "operator": "HŽ Infrastruktura",
+        "platforms": "5",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "ZG",
+        "uic_ref": "72480",
+        "wikidata": "Q140377",
+        "id": "node/5627130425"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9787845,
+          45.8044484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5627328392",
+      "properties": {
+        "name": "Osijek OLT",
+        "railway": "halt",
+        "id": "node/5627328392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7054399,
+          45.5541345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5660705256",
+      "properties": {
+        "name": "Dugo Selo",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/5660705256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2346334,
+          45.8016563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5661201720",
+      "properties": {
+        "name": "Sesvete",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "72402",
+        "id": "node/5661201720"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1099384,
+          45.8248831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5661204727",
+      "properties": {
+        "name": "Velika Gorica",
+        "operator": "HŽ Infrastruktura",
+        "railway": "station",
+        "id": "node/5661204727"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0469041,
+          45.7085885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5666635940",
+      "properties": {
+        "name": "Stari Mikanovci",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q30626953",
+        "id": "node/5666635940"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5396313,
+          45.2665721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5668463169",
+      "properties": {
+        "name": "Banova Jaruga",
+        "operator": "HŽ Infrastruktura",
+        "railway": "station",
+        "wikidata": "Q38251859",
+        "id": "node/5668463169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8761487,
+          45.4457532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5668784532",
+      "properties": {
+        "name": "Hum u Istri",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/5668784532"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0728037,
+          45.3436484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5703028925",
+      "properties": {
+        "name": "Laslovo-Korođ",
+        "railway": "halt",
+        "id": "node/5703028925"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7072326,
+          45.4145826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5732671022",
+      "properties": {
+        "name": "Osijek Donji Grad",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5732671022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7212065,
+          45.5522672
         ]
       }
     },
@@ -874,6 +8007,686 @@
     },
     {
       "type": "Feature",
+      "id": "node/5799640558",
+      "properties": {
+        "name": "Osijek",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5799640558"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6835488,
+          45.5527364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5807966067",
+      "properties": {
+        "name": "Osijek",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5807966067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6835566,
+          45.5526486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5807966068",
+      "properties": {
+        "name": "Osijek",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5807966068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6835423,
+          45.5527782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5858683522",
+      "properties": {
+        "name": "Knin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5858683522"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1983592,
+          44.0365696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6015077431",
+      "properties": {
+        "name": "Zadar",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6015077431"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2426102,
+          44.1058848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6015077432",
+      "properties": {
+        "name": "Zadar",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6015077432"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2427578,
+          44.1059454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6017443506",
+      "properties": {
+        "name": "Kanfanar",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6017443506"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8367337,
+          45.1171648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6017526790",
+      "properties": {
+        "name": "Novaki",
+        "operator": "HŽ Infrastruktura",
+        "railway": "halt",
+        "id": "node/6017526790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9894774,
+          45.258923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6017526792",
+      "properties": {
+        "name": "Cerovlje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6017526792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0138613,
+          45.276651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6017526797",
+      "properties": {
+        "name": "Borut",
+        "operator": "HŽ Infrastruktura",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6017526797"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0523539,
+          45.3043412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6017558052",
+      "properties": {
+        "name": "Lupoglav",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6017558052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1054499,
+          45.3555153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6019184469",
+      "properties": {
+        "name": "Velika",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6019184469"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6654586,
+          45.4389549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6019205474",
+      "properties": {
+        "name": "Višnjevac",
+        "railway": "halt",
+        "id": "node/6019205474"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6198428,
+          45.5614539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6067201006",
+      "properties": {
+        "name": "Ploče",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6067201006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4345233,
+          43.0481744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6067201007",
+      "properties": {
+        "name": "Ploče",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6067201007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4345151,
+          43.0481351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6096088489",
+      "properties": {
+        "name": "Savski Marof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6096088489"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7399952,
+          45.8721311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6100443253",
+      "properties": {
+        "name": "Našice Grad",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6100443253"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0882871,
+          45.4874507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6135964584",
+      "properties": {
+        "name": "Darda",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6135964584"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6992102,
+          45.6339695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6135964685",
+      "properties": {
+        "name": "Čeminac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6135964685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6557222,
+          45.6853992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6171705887",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6171705887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8026195,
+          45.3002496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6171705888",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6171705888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8039442,
+          45.3003066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6171705889",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6171705889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8039575,
+          45.3002653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6171705890",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6171705890"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8013846,
+          45.2998585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6175287172",
+      "properties": {
+        "name": "Split",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6175287172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4428371,
+          43.5049752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6273084709",
+      "properties": {
+        "name": "Bjelovar",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6273084709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8447685,
+          45.8940708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6386177172",
+      "properties": {
+        "name": "Mursko Središće",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/6386177172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4463998,
+          46.508268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6396975612",
+      "properties": {
+        "name": "Slobodnica",
+        "railway": "halt",
+        "id": "node/6396975612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9278558,
+          45.1768517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6420545345",
+      "properties": {
+        "name": "Novska",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6420545345"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9767201,
+          45.3269038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6766023828",
+      "properties": {
+        "name": "Opatija - Matulji",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6766023828"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3218243,
+          45.364729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6793890665",
+      "properties": {
+        "name": "Osijek",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6793890665"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6845492,
+          45.5529818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6971668883",
+      "properties": {
+        "name": "Zagreb zapadni kolodvor",
+        "name:de": "Zagreb Westbahnhof",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6971668883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9540521,
+          45.8091857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6972681604",
+      "properties": {
+        "name": "Zaprešić",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6972681604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8131698,
+          45.8445263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6972681605",
+      "properties": {
+        "name": "Zaprešić",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6972681605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8131202,
+          45.844503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6974308076",
+      "properties": {
+        "name": "Zdenčina",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6974308076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7511866,
+          45.6839974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6996187455",
+      "properties": {
+        "name": "Sveti Ivan Žabno",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6996187455"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6202819,
+          45.9449824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6996187456",
+      "properties": {
+        "name": "Sveti Ivan Žabno",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6996187456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.620291,
+          45.9449413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6996187457",
+      "properties": {
+        "name": "Sveti Ivan Žabno",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6996187457"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6203079,
+          45.9448799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6996853936",
+      "properties": {
+        "name": "Repinec",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/6996853936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5052026,
+          45.9495675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/6996853947",
       "properties": {
         "name": "Repinec",
@@ -887,6 +8700,168 @@
         "coordinates": [
           16.5050817,
           45.9493913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7236736870",
+      "properties": {
+        "name": "Bulić",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7236736870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7406641,
+          43.980035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7236736874",
+      "properties": {
+        "name": "Lepuri",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7236736874"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7172275,
+          43.9908649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7252539066",
+      "properties": {
+        "name": "Đulovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7252539066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4312588,
+          45.6643946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7264716030",
+      "properties": {
+        "name": "Zabok kolosijek 3",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7264716030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9021376,
+          46.0238776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7297078704",
+      "properties": {
+        "name": "Šibenik",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7297078704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8981116,
+          43.7300068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7306790859",
+      "properties": {
+        "name": "Lič",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7306790859"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7148505,
+          45.2818444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7313649278",
+      "properties": {
+        "name": "Borovo-Trpinja",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7313649278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9657413,
+          45.4085843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7340366367",
+      "properties": {
+        "name": "Čaglin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7340366367"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9898272,
+          45.3482239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7352125554",
+      "properties": {
+        "name": "Pitomača",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7352125554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2296339,
+          45.9425588
         ]
       }
     },
@@ -910,6 +8885,43 @@
     },
     {
       "type": "Feature",
+      "id": "node/7415711752",
+      "properties": {
+        "name": "Tovarnik",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7415711752"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1479467,
+          45.1556933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7419105270",
+      "properties": {
+        "name": "Donji Kraljevec",
+        "name:de": "Nieder Kraliewitz",
+        "name:hu": "Murakirály",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/7419105270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6451095,
+          46.3678624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/7419390634",
       "properties": {
         "name": "Donja Vrijeska",
@@ -923,6 +8935,274 @@
         "coordinates": [
           17.2724272,
           45.6464315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7423782670",
+      "properties": {
+        "name": "Nuštar Stajalište",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7423782670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8405964,
+          45.3360081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7442890836",
+      "properties": {
+        "name": "Mraclin",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7442890836"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1022909,
+          45.6686506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7448732773",
+      "properties": {
+        "name": "Luka",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7448732773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8213622,
+          45.9538989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7471086278",
+      "properties": {
+        "name": "Gornji Zvečaj",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7471086278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.412429,
+          45.3759875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7471929784",
+      "properties": {
+        "name": "Gomirje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7471929784"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1279974,
+          45.3428045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7473795214",
+      "properties": {
+        "name": "Grginac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7473795214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.892955,
+          45.9093677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7474405677",
+      "properties": {
+        "name": "Graboštani",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7474405677"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5415212,
+          45.2803197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7529486142",
+      "properties": {
+        "name": "Kalinovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7529486142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0956865,
+          46.0130114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7542362666",
+      "properties": {
+        "name": "Koprno",
+        "railway": "halt",
+        "id": "node/7542362666"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1485177,
+          43.6898263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7552490957",
+      "properties": {
+        "name": "Ladimirevci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7552490957"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4601574,
+          45.6241735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7556969881",
+      "properties": {
+        "name": "Lipovac-Koritna",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7556969881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5237052,
+          45.4215764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7615810774",
+      "properties": {
+        "name": "Vinkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7615810774"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8025671,
+          45.300504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7636454415",
+      "properties": {
+        "name": "Novi Dvori",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7636454415"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.813109,
+          45.8797063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7651633783",
+      "properties": {
+        "name": "Vukovar-Borovo naselje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7651633783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.955102,
+          45.3734324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7658869490",
+      "properties": {
+        "name": "Otok",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7658869490"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8719173,
+          45.1456289
         ]
       }
     },
@@ -946,6 +9226,78 @@
     },
     {
       "type": "Feature",
+      "id": "node/7689172920",
+      "properties": {
+        "name": "Pešćenica",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7689172920"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1765984,
+          45.6149804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7690879077",
+      "properties": {
+        "name": "Perkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7690879077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3493831,
+          45.2084594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7690879078",
+      "properties": {
+        "name": "Perkovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7690879078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3493648,
+          45.208489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7703758192",
+      "properties": {
+        "name": "Planjane",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7703758192"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1834223,
+          43.766862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/7745155536",
       "properties": {
         "name": "Ražine",
@@ -964,6 +9316,167 @@
     },
     {
       "type": "Feature",
+      "id": "node/7768096923",
+      "properties": {
+        "name": "Rasinja",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7768096923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7208891,
+          46.205772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7768096924",
+      "properties": {
+        "name": "Rasinja",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7768096924"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7201737,
+          46.2060617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7777756634",
+      "properties": {
+        "name": "Rukavac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7777756634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3039146,
+          45.3696086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7782153848",
+      "properties": {
+        "name": "Šaš",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7782153848"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6685616,
+          45.2849114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7787550134",
+      "properties": {
+        "name": "Zagreb Glavni kolodvor",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7787550134"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.9770611,
+          45.804416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7813850778",
+      "properties": {
+        "name": "Sedramić",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7813850778"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1587797,
+          43.7952097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7824300381",
+      "properties": {
+        "name": "Sirova Katalena",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7824300381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0677271,
+          45.9585587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7837129175",
+      "properties": {
+        "name": "Škodinovac",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/7837129175"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3172591,
+          45.6348599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7857545795",
+      "properties": {
+        "name": "Stupno",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7857545795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3321217,
+          45.5021427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/7924270088",
       "properties": {
         "name": "Velimirovac",
@@ -977,6 +9490,78 @@
         "coordinates": [
           18.0950361,
           45.5125546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7924288408",
+      "properties": {
+        "name": "Veliko Trgovišće",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7924288408"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8468809,
+          45.9946586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7925848970",
+      "properties": {
+        "name": "Virje",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7925848970"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0040651,
+          46.0688362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7926085413",
+      "properties": {
+        "name": "Vinkovački Banovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7926085413"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0470604,
+          45.1858304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7926085414",
+      "properties": {
+        "name": "Vinkovački Banovci",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7926085414"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0470346,
+          45.1857972
         ]
       }
     },
@@ -1013,6 +9598,95 @@
         "coordinates": [
           16.6208087,
           46.0490658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7939875456",
+      "properties": {
+        "name": "Vojakovački Kloštar",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7939875456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6208095,
+          46.0490082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7978791154",
+      "properties": {
+        "name": "Tovarnik",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7978791154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1488982,
+          45.1553093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8000065633",
+      "properties": {
+        "name": "Mučna Reka",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8000065633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7603376,
+          46.1230162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8001227088",
+      "properties": {
+        "name": "Živaja",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/8001227088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7277338,
+          45.2470138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8007703731",
+      "properties": {
+        "name": "Zorkovac",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/8007703731"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5301639,
+          45.5912985
         ]
       }
     },
@@ -1076,6 +9750,42 @@
         "coordinates": [
           17.8413695,
           45.1700798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8805288069",
+      "properties": {
+        "name": "Botovo",
+        "railway": "stop",
+        "id": "node/8805288069"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9312644,
+          46.2360884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9026904301",
+      "properties": {
+        "name": "Vinkovci",
+        "operator": "HŽ Infrastruktura",
+        "railway": "station",
+        "railway:ref": "VC",
+        "uic_ref": "7800024",
+        "wikidata": "Q17485357",
+        "id": "node/9026904301"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8027767,
+          45.3003969
         ]
       }
     },
@@ -1148,6 +9858,24 @@
         "coordinates": [
           17.3986493,
           45.8250803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9485972556",
+      "properties": {
+        "name": "Jalžabet",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9485972556"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4718325,
+          46.2684567
         ]
       }
     }

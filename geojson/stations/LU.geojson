@@ -3,6 +3,89 @@
   "features": [
     {
       "type": "Feature",
+      "id": "node/25609667",
+      "properties": {
+        "name": "Cents-Hamm",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLCS",
+        "uic_ref": "8270280",
+        "wikidata": "Q2042597",
+        "id": "node/25609667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1659779,
+          49.6150126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25611441",
+      "properties": {
+        "name": "Berchem",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/25611441"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1336836,
+          49.5427228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25611779",
+      "properties": {
+        "alt_name:lb": "Beetebuerg",
+        "name": "Bettembourg",
+        "name:de": "Bettemburg",
+        "name:fr": "Bettembourg",
+        "name:lb": "Bétebuerg",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/25611779"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1013625,
+          49.5160743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/25725304",
+      "properties": {
+        "name": "Munsbach",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/25725304"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2685599,
+          49.6303911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/25923526",
       "properties": {
         "elevator": "yes",
@@ -27,6 +110,192 @@
     },
     {
       "type": "Feature",
+      "id": "node/31768297",
+      "properties": {
+        "local_ref": "4",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/31768297"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.134439,
+          49.5998322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/64696119",
+      "properties": {
+        "name": "Dudelange-Burange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/64696119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.086192,
+          49.4922139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/64696141",
+      "properties": {
+        "name": "Dudelange-Usines",
+        "network": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/64696141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0794947,
+          49.4726619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/75368914",
+      "properties": {
+        "name": "Mersch",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/75368914"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1104283,
+          49.7517605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/75368929",
+      "properties": {
+        "name": "Lintgen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/75368929"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1227038,
+          49.7215062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/75371137",
+      "properties": {
+        "name": "Ettelbruck",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/75371137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1065923,
+          49.8473095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/75372363",
+      "properties": {
+        "name": "Michelau",
+        "network": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/75372363"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0922668,
+          49.8966727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/75374339",
+      "properties": {
+        "name": "Goebelsmühle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/75374339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0534545,
+          49.9210285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/246131086",
+      "properties": {
+        "name": "Paradiso",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "railway:ref:DB": "XLPR",
+        "train": "yes",
+        "uic_ref": "8271143",
+        "id": "node/246131086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9531842,
+          49.9653607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/269302075",
+      "properties": {
+        "name": "Tétange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/269302075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0349964,
+          49.4777186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/269302083",
       "properties": {
         "name": "Kayl",
@@ -44,6 +313,291 @@
         "coordinates": [
           6.0352682,
           49.4857693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/269403470",
+      "properties": {
+        "name": "Kleinbettingen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/269403470"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9162566,
+          49.6438187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/291882814",
+      "properties": {
+        "name": "Bois de Rodange",
+        "operator": "AMTF",
+        "railway": "halt",
+        "id": "node/291882814"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8415368,
+          49.5387592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/309119391",
+      "properties": {
+        "name": "Walferdange",
+        "name:de": "Walferdingen",
+        "name:fr": "Walferdange",
+        "name:lb": "Walfer",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/309119391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1363499,
+          49.6619317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/322101351",
+      "properties": {
+        "name": "Bertrange-Strassen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "uic_ref": "8200510",
+        "wikidata": "Q2299753",
+        "id": "node/322101351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.060416,
+          49.6128586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/358887607",
+      "properties": {
+        "name": "Capellen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "uic_ref": "8200518",
+        "id": "node/358887607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9823856,
+          49.6383985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/364174351",
+      "properties": {
+        "name": "Train 1900",
+        "operator": "AMTF",
+        "public_transport": "station",
+        "railway": "station",
+        "id": "node/364174351"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8770383,
+          49.553493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/420756851",
+      "properties": {
+        "name": "Drauffelt",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLDF",
+        "uic_ref": "8270360",
+        "wikidata": "Q3067835",
+        "id": "node/420756851"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0072032,
+          50.0168584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/427106616",
+      "properties": {
+        "name": "Troisvierges",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/427106616"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9902295,
+          50.1195456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443135663",
+      "properties": {
+        "name": "Heisdorf",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/443135663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1393661,
+          49.6753985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443220175",
+      "properties": {
+        "name": "Dommeldange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/443220175"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1363909,
+          49.6344854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/453510693",
+      "properties": {
+        "name": "Bertrange-Strassen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "uic_ref": "8200510",
+        "id": "node/453510693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0604415,
+          49.6128859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/471809787",
+      "properties": {
+        "name": "Colmar-Berg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/471809787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1013182,
+          49.8149463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/471809789",
+      "properties": {
+        "name": "Kautenbach",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/471809789"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0224138,
+          49.9484502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/540592226",
+      "properties": {
+        "name": "Belval-Lycée",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/540592226"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9345916,
+          49.5015154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/676794145",
+      "properties": {
+        "name": "Goebelsmühle",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/676794145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0534198,
+          49.9209937
         ]
       }
     },
@@ -73,6 +627,712 @@
     },
     {
       "type": "Feature",
+      "id": "node/704409333",
+      "properties": {
+        "name": "Lamadelaine",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/704409333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.860642,
+          49.5534153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/704409340",
+      "properties": {
+        "local_ref": "9",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/704409340"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1349146,
+          49.5997315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/718622775",
+      "properties": {
+        "name": "Dudelange-Centre",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/718622775"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0822032,
+          49.4786921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/733810135",
+      "properties": {
+        "local_ref": "5",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/733810135"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1346165,
+          49.5997951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1015082748",
+      "properties": {
+        "name": "Pétange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1015082748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8787428,
+          49.5541843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1082825332",
+      "properties": {
+        "name": "Manternach",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/1082825332"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4229812,
+          49.7064288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1082831788",
+      "properties": {
+        "name": "Manternach",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1082831788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4234591,
+          49.706454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1082860547",
+      "properties": {
+        "name": "Mertert",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/1082860547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4796101,
+          49.7031968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1089173626",
+      "properties": {
+        "name": "Mertert",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1089173626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4795893,
+          49.7031465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1104551126",
+      "properties": {
+        "local_ref": "7",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1104551126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1346704,
+          49.5997834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1104551294",
+      "properties": {
+        "local_ref": "8",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1104551294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1348465,
+          49.5997467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1202059783",
+      "properties": {
+        "name": "Munsbach",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1202059783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.268617,
+          49.6303968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1341514800",
+      "properties": {
+        "name": "Troisvierges",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1341514800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9890928,
+          50.1198719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1411691251",
+      "properties": {
+        "name": "Sandweiler-Contern",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLSC",
+        "uic_ref": "8270930",
+        "wikidata": "Q2689477",
+        "id": "node/1411691251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2117485,
+          49.5990906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1565236368",
+      "properties": {
+        "name": "Fuusbesch",
+        "operator": "AMTF",
+        "railway": "halt",
+        "website": "http://www.train1900.lu/",
+        "wheelchair": "limited",
+        "wheelchair:description": "es gibt bisher leider noch keine Rohlstuhl einfahrbar gerechte Wagons",
+        "id": "node/1565236368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.868944,
+          49.5417467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1573735853",
+      "properties": {
+        "name": "Diekirch",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLDK",
+        "uic_ref": "8200126",
+        "wikidata": "Q2017284",
+        "id": "node/1573735853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1540133,
+          49.8648017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1627359021",
+      "properties": {
+        "name": "Esch-sur-Alzette",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/1627359021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9857635,
+          49.4939567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1676979795",
+      "properties": {
+        "name": "Belval Lycée",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLBUL",
+        "uic_ref": "8270135",
+        "id": "node/1676979795"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.934747,
+          49.5015555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1691638860",
+      "properties": {
+        "name": "Wilwerwiltz",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1691638860"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0005599,
+          49.9882981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1691638861",
+      "properties": {
+        "name": "Wilwerwiltz",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1691638861"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0006097,
+          49.9883228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1726480134",
+      "properties": {
+        "name": "Kautenbach",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/1726480134"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0226509,
+          49.9479565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1726480141",
+      "properties": {
+        "name": "Kautenbach",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/1726480141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0224611,
+          49.9484742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1769476761",
+      "properties": {
+        "local_ref": "1",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1769476761"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.133646,
+          49.5989482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1769476762",
+      "properties": {
+        "local_ref": "3",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/1769476762"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1343765,
+          49.5998452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361763085",
+      "properties": {
+        "name": "Bascharage-Sanem",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLBA",
+        "uic_ref": "8270060",
+        "wikidata": "Q3095913",
+        "id": "node/2361763085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9246001,
+          49.5584333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361763091",
+      "properties": {
+        "alt_name": "Münsbach",
+        "name": "Munsbach",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLMB",
+        "uic_ref": "8270780",
+        "wikidata": "Q430254",
+        "id": "node/2361763091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2685246,
+          49.6305492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2361763094",
+      "properties": {
+        "email": "info@cfl.lu",
+        "name": "Niederkorn",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLNK",
+        "uic_ref": "8270790",
+        "website": "http://www.cfl.lu/",
+        "wikidata": "Q7031139",
+        "wikipedia": "lb:Gare Nidderkuer",
+        "id": "node/2361763094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8940808,
+          49.5369053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2837565103",
+      "properties": {
+        "name": "Lasauvage-Carreau",
+        "operator": "AMTF",
+        "railway": "halt",
+        "id": "node/2837565103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8377416,
+          49.5274246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2858769365",
+      "properties": {
+        "name": "Fond-de-Gras Giedel",
+        "operator": "Minièresbunn-Doihl a.s.b.l",
+        "railway": "halt",
+        "id": "node/2858769365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8625648,
+          49.5343852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2858769366",
+      "properties": {
+        "name": "Doihl",
+        "operator": "Minièresbunn-Doihl a.s.b.l",
+        "public_transport": "halt",
+        "railway": "halt",
+        "id": "node/2858769366"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8494508,
+          49.5357708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3718161297",
+      "properties": {
+        "name": "Pétange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/3718161297"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.878773,
+          49.5540656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3718161298",
+      "properties": {
+        "name": "Pétange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/3718161298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.878751,
+          49.5541464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3718472742",
+      "properties": {
+        "name": "Rodange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/3718472742"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8434735,
+          49.5510535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3718472743",
+      "properties": {
+        "name": "Rodange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/3718472743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8434629,
+          49.5510868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3719706037",
+      "properties": {
+        "name": "Lamadelaine",
+        "name:de": "Rollingen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLLM",
+        "uic_ref": "8200143",
+        "wheelchair": "yes",
+        "wikidata": "Q3096843",
+        "id": "node/3719706037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8608746,
+          49.5534157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3719863646",
+      "properties": {
+        "addr:city": "Schifflange",
+        "addr:housenumber": "2",
+        "addr:postcode": "3852",
+        "addr:street": "Rue Aloyse Kayser",
+        "name": "Schifflange",
+        "name:de": "Schifflingen",
+        "name:fr": "Schifflange",
+        "name:lb": "Schëffleng",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLSL",
+        "uic_ref": "8200630",
+        "wheelchair": "limited",
+        "wikidata": "Q2900883",
+        "wikipedia": "lb:Gare Schëffleng",
+        "id": "node/3719863646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0097258,
+          49.5063925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3720303904",
       "properties": {
         "name": "Wecker",
@@ -90,6 +1350,825 @@
         "coordinates": [
           6.3875875,
           49.700068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3721698137",
+      "properties": {
+        "name": "Dippach-Reckange",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLDR",
+        "uic_ref": "8270340",
+        "wikidata": "Q3096376",
+        "id": "node/3721698137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.995144,
+          49.5725401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3721698138",
+      "properties": {
+        "name": "Leudelange",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLLD",
+        "uic_ref": "8270650",
+        "wikidata": "Q3096880",
+        "id": "node/3721698138"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0590174,
+          49.5870299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3721698933",
+      "properties": {
+        "name": "Pétange",
+        "name:lb": "Péiteng",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "8200930",
+        "wikidata": "Q801342",
+        "wikipedia": "lb:Gare Péiteng",
+        "id": "node/3721698933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.879223,
+          49.5543776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3721698934",
+      "properties": {
+        "name": "Schouweiler",
+        "name:de": "Schuweiler",
+        "name:fr": "Schouweiler",
+        "name:lb": "Schuller",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLSW",
+        "uic_ref": "8270960",
+        "wikidata": "Q3097712",
+        "id": "node/3721698934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9602532,
+          49.5735838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3724529698",
+      "properties": {
+        "name": "Tétange",
+        "name:de": "Tetingen",
+        "name:fr": "Tétange",
+        "name:lb": "Téiteng",
+        "name:lt": "Tetanžas",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "wikidata": "Q2581507",
+        "id": "node/3724529698"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0349832,
+          49.4773951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3725242150",
+      "properties": {
+        "name": "Betzdorf",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:name:DB": "Betzdorf (LUX)",
+        "railway:ref:DB": "XLBZ",
+        "uic_name": "Betzdorf(LUX)",
+        "uic_ref": "8270210",
+        "wikidata": "Q2147597",
+        "id": "node/3725242150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3486797,
+          49.6888823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3725242151",
+      "properties": {
+        "name": "Manternach",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLMN",
+        "uic_ref": "8270690",
+        "wikidata": "Q2263027",
+        "id": "node/3725242151"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4232973,
+          49.7064542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3725242152",
+      "properties": {
+        "name": "Mertert",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "uic_ref": "8270720",
+        "wikidata": "Q2322636",
+        "id": "node/3725242152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4793057,
+          49.7032225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3725244397",
+      "properties": {
+        "name": "Roodt",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLRT",
+        "uic_name": "Roodt/Syre",
+        "uic_ref": "8270890",
+        "wikidata": "Q3079960",
+        "id": "node/3725244397"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3031061,
+          49.6665057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3725816023",
+      "properties": {
+        "name": "Oetrange",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLOE",
+        "uic_ref": "8270830",
+        "wheelchair": "no",
+        "wikidata": "Q2649913",
+        "id": "node/3725816023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2580197,
+          49.6027297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3727231072",
+      "properties": {
+        "name": "Wiltz",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLWZ",
+        "uic_ref": "8200142",
+        "wikidata": "Q2317700",
+        "id": "node/3727231072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9270829,
+          49.9663637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3727342905",
+      "properties": {
+        "email": "info@cfl.lu",
+        "name": "Differdange",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLDI",
+        "uic_ref": "8200920",
+        "website": "http://www.cfl.lu",
+        "wheelchair": "yes",
+        "wikidata": "Q5275268",
+        "wikipedia": "lb:Gare Déifferdeng",
+        "id": "node/3727342905"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8915895,
+          49.52253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3727608556",
+      "properties": {
+        "name": "Belval-Rédange",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLBR",
+        "uic_ref": "8270130",
+        "wikidata": "Q4884846",
+        "id": "node/3727608556"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9236701,
+          49.5030979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3727995454",
+      "properties": {
+        "name": "Troisvierges",
+        "name:de": "Ulflingen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLTV",
+        "uic_ref": "8200136",
+        "wikidata": "Q3097920",
+        "id": "node/3727995454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9910136,
+          50.1193506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3727997606",
+      "properties": {
+        "disused:railway": "halt",
+        "end_date": "2014-12-14",
+        "name": "Maulusmühle",
+        "name:lb": "Maulesmillen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway:ref:DB": "XLML",
+        "wikidata": "Q2046656",
+        "id": "node/3727997606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0259328,
+          50.0944381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3727997833",
+      "properties": {
+        "name": "Wilwerwiltz",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLWW",
+        "uic_ref": "8271120",
+        "wikidata": "Q2298354",
+        "id": "node/3727997833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0007319,
+          49.9883021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3728214590",
+      "properties": {
+        "name": "Michelau",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLMC",
+        "uic_name": "Michelau (LUX)",
+        "uic_ref": "8270730",
+        "wikidata": "Q2912368",
+        "id": "node/3728214590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0922184,
+          49.8966506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3728214639",
+      "properties": {
+        "name": "Goebelsmühle",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLGB",
+        "uic_ref": "8270480",
+        "wikidata": "Q2009897",
+        "id": "node/3728214639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0534791,
+          49.9210564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3728214640",
+      "properties": {
+        "name": "Kautenbach",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLKT",
+        "uic_ref": "8270630",
+        "wikidata": "Q3067847",
+        "wikipedia": "lb:Gare Kautebaach",
+        "id": "node/3728214640"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0223546,
+          49.948413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3728754132",
+      "properties": {
+        "name": "Wasserbillig",
+        "name:lt": "Vaserbiligas",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLW",
+        "uic_ref": "8200340",
+        "wheelchair": "yes",
+        "wikidata": "Q801581",
+        "wikipedia": "de:Bahnhof Wasserbillig",
+        "id": "node/3728754132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4994052,
+          49.7129031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730323383",
+      "properties": {
+        "name": "Berchem",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name:DB": "Berchem (LU)",
+        "railway:ref:DB": "XLBC",
+        "uic_name": "Berchem(LUX)",
+        "uic_ref": "8270160",
+        "wheelchair": "no",
+        "wikidata": "Q3095966",
+        "id": "node/3730323383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1338106,
+          49.5427666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730324273",
+      "properties": {
+        "name": "Berchem",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/3730324273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1336253,
+          49.5427474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730496689",
+      "properties": {
+        "name": "Cruchten",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLCT",
+        "uic_ref": "8270320",
+        "wheelchair": "no",
+        "wikidata": "Q2131747",
+        "id": "node/3730496689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1199998,
+          49.7961925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730496690",
+      "properties": {
+        "name": "Heisdorf",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLHD",
+        "uic_ref": "8200112",
+        "wikidata": "Q2609517",
+        "id": "node/3730496690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1394643,
+          49.675144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730496691",
+      "properties": {
+        "name": "Lorentzweiler",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLLR",
+        "uic_ref": "8270670",
+        "wheelchair": "yes",
+        "wikidata": "Q2236555",
+        "id": "node/3730496691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1402969,
+          49.6983494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730496870",
+      "properties": {
+        "name": "Schieren",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLSR",
+        "uic_ref": "8270950",
+        "wikidata": "Q2609318",
+        "id": "node/3730496870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.095329,
+          49.829753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730496871",
+      "properties": {
+        "name": "Walferdange",
+        "name:de": "Walferdingen",
+        "name:fr": "Walferdange",
+        "name:lb": "Walfer",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLWF",
+        "uic_ref": "8271060",
+        "wheelchair": "no",
+        "wikidata": "Q2351570",
+        "id": "node/3730496871"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1362958,
+          49.6619472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730497335",
+      "properties": {
+        "name": "Colmar-Berg",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLCB",
+        "uic_ref": "8270300",
+        "wikidata": "Q2550691",
+        "id": "node/3730497335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.100953,
+          49.8151001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730497336",
+      "properties": {
+        "name": "Dommeldange",
+        "name:de": "Dommeldingen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLDM",
+        "uic_ref": "8270350",
+        "wikidata": "Q2241478",
+        "id": "node/3730497336"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1368137,
+          49.6337994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730497337",
+      "properties": {
+        "name": "Lintgen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLLI",
+        "uic_ref": "8270660",
+        "wheelchair": "yes",
+        "wikidata": "Q2335272",
+        "id": "node/3730497337"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1228044,
+          49.7215823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730912911",
+      "properties": {
+        "alt_name:lb": "Cliärref",
+        "name": "Clervaux",
+        "name:de": "Clerf",
+        "name:fr": "Clervaux",
+        "name:lb": "Klierf",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLCV",
+        "uic_ref": "8200134",
+        "wikidata": "Q2542828",
+        "id": "node/3730912911"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0246738,
+          50.0615608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3730912912",
+      "properties": {
+        "name": "Merkholtz",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLMK",
+        "uic_ref": "8270710",
+        "wikidata": "Q1969484",
+        "wikipedia": "lb:Gare Mäerkels",
+        "id": "node/3730912912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9815629,
+          49.9568324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3732003472",
+      "properties": {
+        "name": "Mersch",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLM",
+        "uic_name": "Mersch(LUX)",
+        "uic_ref": "8200110",
+        "wheelchair": "yes",
+        "id": "node/3732003472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1103941,
+          49.7518276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3733227187",
+      "properties": {
+        "name": "Belval-Université",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "uic_ref": "8270140",
+        "wheelchair": "yes",
+        "wikidata": "Q4884848",
+        "wikipedia": "lb:Gare Belval-Université",
+        "id": "node/3733227187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9462903,
+          49.499531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3733227188",
+      "properties": {
+        "name": "Belvaux-Soleuvre",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLBS",
+        "uic_ref": "8270150",
+        "wikidata": "Q4884852",
+        "id": "node/3733227188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9259002,
+          49.5151574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3733314741",
+      "properties": {
+        "name": "Burange",
+        "name:de": "Buringen",
+        "name:lb": "Bireng",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:name:DB": "Dudelange-Burange",
+        "railway:ref:DB": "XLDB",
+        "uic_ref": "8200002",
+        "wheelchair": "yes",
+        "wikidata": "Q582615",
+        "id": "node/3733314741"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0861927,
+          49.4923869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3733360829",
+      "properties": {
+        "name": "Dudelange-Ville",
+        "name:de": "Düdelingen-Stadt",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "railway:ref:DB": "XLDV",
+        "train": "yes",
+        "uic_ref": "8200613",
+        "wheelchair": "limited",
+        "wikidata": "Q3073750",
+        "id": "node/3733360829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0830309,
+          49.4834215
         ]
       }
     },
@@ -141,6 +2220,410 @@
     },
     {
       "type": "Feature",
+      "id": "node/3734399406",
+      "properties": {
+        "name": "Kleinbettingen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLKB",
+        "uic_ref": "8200520",
+        "wikidata": "Q2753608",
+        "id": "node/3734399406"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.917139,
+          49.6438044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3734422881",
+      "properties": {
+        "name": "Mamer Lycée",
+        "name:de": "Mamer Schule",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "uic_ref": "8276932",
+        "wheelchair": "no",
+        "wikidata": "Q3067850",
+        "id": "node/3734422881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0296967,
+          49.6183823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3734422882",
+      "properties": {
+        "name": "Mamer",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLMR",
+        "uic_ref": "8270680",
+        "usage": "main",
+        "wheelchair": "limited",
+        "id": "node/3734422882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0201719,
+          49.6257131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3734423238",
+      "properties": {
+        "name": "Capellen",
+        "name:de": "Kapellen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLCP",
+        "shelter": "no",
+        "uic_ref": "8200518",
+        "usage": "main",
+        "wikidata": "Q2093199",
+        "id": "node/3734423238"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9823816,
+          49.6385071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3734674986",
+      "properties": {
+        "name": "Bertrange-Strassen",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLBG",
+        "uic_ref": "8200510",
+        "usage": "main",
+        "wheelchair": "yes",
+        "wikidata": "Q2299753",
+        "wikipedia": "fr:Gare de Bertrange - Strassen",
+        "id": "node/3734674986"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0604258,
+          49.6129205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3737370912",
+      "properties": {
+        "email": "info@cfl.lu",
+        "name": "Oberkorn",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "railway:ref:DB": "XLOK",
+        "uic_ref": "8270820",
+        "website": "http://www.cfl.lu",
+        "wikidata": "Q7074748",
+        "wikipedia": "lb:Gare Uewerkuer",
+        "id": "node/3737370912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8909346,
+          49.5107334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3869262557",
+      "properties": {
+        "alt_name:lb": "Beetebuerg",
+        "name": "Bettembourg",
+        "name:de": "Bettemburg",
+        "name:fr": "Bettembourg",
+        "name:lb": "Bétebuerg",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/3869262557"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1014222,
+          49.516067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3869262558",
+      "properties": {
+        "alt_name:lb": "Beetebuerg",
+        "name": "Bettembourg",
+        "name:de": "Bettemburg",
+        "name:fr": "Bettembourg",
+        "name:lb": "Bétebuerg",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/3869262558"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1012349,
+          49.5160899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3869262559",
+      "properties": {
+        "alt_name:lb": "Beetebuerg",
+        "name": "Bettembourg",
+        "name:de": "Bettemburg",
+        "name:fr": "Bettembourg",
+        "name:lb": "Bétebuerg",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "wheelchair": "limited",
+        "id": "node/3869262559"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1011145,
+          49.5161045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3869262560",
+      "properties": {
+        "alt_name:lb": "Beetebuerg",
+        "name": "Bettembourg",
+        "name:de": "Bettemburg",
+        "name:fr": "Bettembourg",
+        "name:lb": "Bétebuerg",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "6",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/3869262560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.100973,
+          49.5161203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3869262561",
+      "properties": {
+        "alt_name:lb": "Beetebuerg",
+        "name": "Bettembourg",
+        "name:de": "Bettemburg",
+        "name:fr": "Bettembourg",
+        "name:lb": "Bétebuerg",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "7",
+        "train": "yes",
+        "wheelchair": "no",
+        "id": "node/3869262561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1009178,
+          49.5161285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3892393137",
+      "properties": {
+        "name": "Sandweiler-Contern",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/3892393137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2126829,
+          49.5989623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3892393138",
+      "properties": {
+        "name": "Sandweiler-Contern",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/3892393138"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2127043,
+          49.5990055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3892393141",
+      "properties": {
+        "name": "Wasserbillig",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/3892393141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4986657,
+          49.7125405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3892393142",
+      "properties": {
+        "name": "Wasserbillig",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/3892393142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4986159,
+          49.712588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3892393143",
+      "properties": {
+        "name": "Wecker",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/3892393143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3874176,
+          49.7000751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3892393144",
+      "properties": {
+        "name": "Wecker",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/3892393144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3873983,
+          49.7001345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3964570119",
+      "properties": {
+        "name": "Luxembourg Gare Centrale",
+        "name:en": "Luxembourg Central Station",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:name:DB": "Luxembourg Ville",
+        "railway:ref": "LuxGC",
+        "railway:ref:DB": "XLL",
+        "ref:verkeiersverbond": "200405035",
+        "toilets:wheelchair": "no",
+        "uic_ref": "8200100",
+        "wheelchair": "yes",
+        "wikidata": "Q801140",
+        "wikipedia": "en:Luxembourg railway station",
+        "id": "node/3964570119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1342493,
+          49.5999681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/4490714231",
       "properties": {
         "building": "train_station",
@@ -158,6 +2641,1160 @@
         "coordinates": [
           5.8576847,
           49.534911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4573706201",
+      "properties": {
+        "name": "Merkholtz",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4573706201"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9815621,
+          49.9568037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4573706202",
+      "properties": {
+        "name": "Lorentzweiler",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4573706202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1401867,
+          49.6983494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4573706203",
+      "properties": {
+        "name": "Heisdorf",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4573706203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.139375,
+          49.6751521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4757302217",
+      "properties": {
+        "name": "Cents-Hamm",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/4757302217"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1653155,
+          49.6148352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4933657130",
+      "properties": {
+        "name": "Mersch",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4933657130"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1104845,
+          49.7517596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4933657131",
+      "properties": {
+        "name": "Ettelbruck",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4933657131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1066449,
+          49.8472806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4933657132",
+      "properties": {
+        "name": "Clervaux",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4933657132"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0247793,
+          50.0615599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4933657133",
+      "properties": {
+        "name": "Clervaux",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/4933657133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.024725,
+          50.061559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5072163539",
+      "properties": {
+        "name": "Ettelbruck",
+        "name:lt": "Etelbriukas",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLET",
+        "uic_ref": "8200120",
+        "wikidata": "Q2680903",
+        "id": "node/5072163539"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1065209,
+          49.8473403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5072163540",
+      "properties": {
+        "name": "Wasserbillig",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/5072163540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4987307,
+          49.7124711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5107379363",
+      "properties": {
+        "name": "Rumelange",
+        "name:de": "Rümelingen",
+        "name:lb": "Rëmeleng",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XLRU",
+        "uic_ref": "8270910",
+        "wikidata": "Q2063434",
+        "id": "node/5107379363"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.032671,
+          49.4603105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5174146985",
+      "properties": {
+        "local_ref": "3",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5174146985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1345172,
+          49.6000993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5174150062",
+      "properties": {
+        "local_ref": "4",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5174150062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1345789,
+          49.6000854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5174150064",
+      "properties": {
+        "local_ref": "7",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5174150064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1348059,
+          49.600029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5174150065",
+      "properties": {
+        "local_ref": "8",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5174150065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1349818,
+          49.5999932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5174150066",
+      "properties": {
+        "local_ref": "9",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5174150066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1350474,
+          49.5999802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5174152479",
+      "properties": {
+        "local_ref": "10",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5174152479"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1352193,
+          49.5999446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5221201562",
+      "properties": {
+        "level": "1",
+        "name": "Pfaffenthal-Kirchberg",
+        "network": "CFL",
+        "note:opening_hours": "From the first train or tram to the last one.",
+        "opening_hours": "Mo-Su 04:45-00:30",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2017-12-10",
+        "wheelchair": "yes",
+        "id": "node/5221201562"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1329276,
+          49.6189511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5248208251",
+      "properties": {
+        "name": "Howald",
+        "network": "CFL",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "tactile_paving": "yes",
+        "train": "yes",
+        "id": "node/5248208251"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1326012,
+          49.5814312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5248211590",
+      "properties": {
+        "name": "Howald",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "wheelchair": "yes",
+        "wikidata": "Q29455394",
+        "id": "node/5248211590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1321121,
+          49.5806013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5258091607",
+      "properties": {
+        "name": "Wasserbillig",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "9",
+        "train": "yes",
+        "id": "node/5258091607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4982709,
+          49.7125343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5260055266",
+      "properties": {
+        "name": "Roodt",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5260055266"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3032087,
+          49.6668805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5260055267",
+      "properties": {
+        "name": "Roodt",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5260055267"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3031536,
+          49.6668866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5264103520",
+      "properties": {
+        "name": "Betzdorf",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5264103520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3485763,
+          49.6888779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5264104021",
+      "properties": {
+        "name": "Betzdorf",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5264104021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.348636,
+          49.6888484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5264117895",
+      "properties": {
+        "name": "Oetrange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "4",
+        "train": "yes",
+        "id": "node/5264117895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2581068,
+          49.6029091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5264117896",
+      "properties": {
+        "name": "Oetrange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "5",
+        "train": "yes",
+        "id": "node/5264117896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2579696,
+          49.6029158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5268364382",
+      "properties": {
+        "name": "Schieren",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5268364382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0952138,
+          49.829481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5268364383",
+      "properties": {
+        "name": "Schieren",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5268364383"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0952726,
+          49.8297094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5268504818",
+      "properties": {
+        "name": "Troisvierges",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5268504818"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9903202,
+          50.1194553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5273547922",
+      "properties": {
+        "name": "Oetrange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5273547922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2582609,
+          49.6025109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5273547923",
+      "properties": {
+        "name": "Cents-Hamm",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5273547923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1659496,
+          49.6149855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5276083280",
+      "properties": {
+        "name": "Rout Bréck-Pafendall",
+        "network": "CFL",
+        "note:opening_hours": "From the first train or tram to the last one.",
+        "opening_hours": "Mo-Su 04:45-00:30",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2017-12-10",
+        "wheelchair": "yes",
+        "id": "node/5276083280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1360568,
+          49.6188621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5285021775",
+      "properties": {
+        "name": "Howald",
+        "network": "CFL",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "tactile_paving": "yes",
+        "train": "yes",
+        "id": "node/5285021775"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1327029,
+          49.581281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5285021776",
+      "properties": {
+        "name": "Howald",
+        "network": "CFL",
+        "operator": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "tactile_paving": "yes",
+        "train": "yes",
+        "id": "node/5285021776"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1317267,
+          49.5801573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5286207017",
+      "properties": {
+        "name": "Colmar-Berg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5286207017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.10133,
+          49.8149878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5292231721",
+      "properties": {
+        "name": "Diekirch",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "wikidata": "Q2017284",
+        "wikipedia": "fr:Gare de Diekirch",
+        "id": "node/5292231721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.154061,
+          49.8648231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5299718421",
+      "properties": {
+        "level": "1",
+        "name": "Pfaffenthal-Kirchberg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "start_date": "2017-12-10",
+        "train": "yes",
+        "id": "node/5299718421"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1329502,
+          49.6189326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5299718422",
+      "properties": {
+        "level": "1",
+        "name": "Pfaffenthal-Kirchberg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "start_date": "2017-12-10",
+        "train": "yes",
+        "id": "node/5299718422"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1328939,
+          49.6189475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5301033877",
+      "properties": {
+        "name": "Lorentzweiler",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5301033877"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1402548,
+          49.698188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5343630269",
+      "properties": {
+        "name": "Dommeldange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5343630269"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1365237,
+          49.6344934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5343630270",
+      "properties": {
+        "name": "Dommeldange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5343630270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.136725,
+          49.6339739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5385269919",
+      "properties": {
+        "local_ref": "2",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5385269919"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1334775,
+          49.5983415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5695983384",
+      "properties": {
+        "name": "Kleinbettingen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5695983384"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9164673,
+          49.643867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5695983385",
+      "properties": {
+        "name": "Capellen",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "uic_ref": "8200518",
+        "id": "node/5695983385"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9823742,
+          49.6384338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5695983387",
+      "properties": {
+        "name": "Mamer",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/5695983387"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0201862,
+          49.6256196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5696171863",
+      "properties": {
+        "name": "Dudelange-Usines",
+        "network": "CFL",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5696171863"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0794261,
+          49.4726706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5697157511",
+      "properties": {
+        "name": "Lamadelaine",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5697157511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.860632,
+          49.5533814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5697157516",
+      "properties": {
+        "name": "Niederkorn",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5697157516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8943877,
+          49.5371105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5697157517",
+      "properties": {
+        "name": "Niederkorn",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5697157517"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.894338,
+          49.5371323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5697157519",
+      "properties": {
+        "name": "Esch-sur-Alzette",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/5697157519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9856418,
+          49.4940243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5697157520",
+      "properties": {
+        "name": "Schifflange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5697157520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0096978,
+          49.5064579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5697157721",
+      "properties": {
+        "name": "Schifflange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/5697157721"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0097173,
+          49.5064248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5833068677",
+      "properties": {
+        "name": "Paradiso",
+        "operator": "CFL",
+        "public_transport": "station",
+        "railway": "halt",
+        "id": "node/5833068677"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.953124,
+          49.9654034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7057825588",
+      "properties": {
+        "local_ref": "11",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/7057825588"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1352894,
+          49.5999265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7080376093",
+      "properties": {
+        "name": "Lasauvage-Église",
+        "operator": "Minièresbunn-Doihl a.s.b.l",
+        "public_transport": "halt",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/7080376093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8373915,
+          49.5216957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7120280724",
+      "properties": {
+        "name": "Dippach-Reckange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/7120280724"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9955927,
+          49.5725009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7120280725",
+      "properties": {
+        "name": "Dippach-Reckange",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/7120280725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9950133,
+          49.5725215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7120280730",
+      "properties": {
+        "name": "Hollerich",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "uic_ref": "8200710",
+        "id": "node/7120280730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1193783,
+          49.5957961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7120280731",
+      "properties": {
+        "name": "Hollerich",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "uic_ref": "8200710",
+        "id": "node/7120280731"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1199521,
+          49.5956793
         ]
       }
     },
@@ -185,6 +3822,63 @@
         "coordinates": [
           5.9850823,
           49.493909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9459434641",
+      "properties": {
+        "local_ref": "14",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9459434641"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1357201,
+          49.5998327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9459434642",
+      "properties": {
+        "local_ref": "13",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9459434642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1355413,
+          49.5998694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9459434643",
+      "properties": {
+        "local_ref": "12",
+        "name": "Luxembourg",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9459434643"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1354622,
+          49.5998862
         ]
       }
     }

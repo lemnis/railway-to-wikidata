@@ -3,6 +3,60 @@
   "features": [
     {
       "type": "Feature",
+      "id": "node/413757070",
+      "properties": {
+        "ele": "447",
+        "name": "Nendeln",
+        "network": "VVV",
+        "operator": "ÖBB-Infrastruktur AG",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:platform_height": "25",
+        "railway:platform_length": "119",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/413757070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5418733,
+          47.200483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/413828077",
+      "properties": {
+        "ele": "447",
+        "name": "Schaan-Vaduz",
+        "note": "H-Lst",
+        "operator": "ÖBB-Infrastruktur AG",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "railway:platform_height": "55",
+        "railway:platform_length": "100",
+        "railway:position": "15.9",
+        "railway:position:exact": "15.875",
+        "railway:ref": "Nd K1",
+        "ref": "1",
+        "train": "yes",
+        "uic_name": "Schaan-Vaduz",
+        "uic_ref": "8100482",
+        "wikidata": "Q801403",
+        "id": "node/413828077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5081562,
+          47.1685925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1353606655",
       "properties": {
         "ele": "447",
@@ -26,6 +80,56 @@
         "coordinates": [
           9.5417183,
           47.200335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1353606656",
+      "properties": {
+        "ele": "447",
+        "name": "Nendeln",
+        "network": "VVV",
+        "operator": "ÖBB-Infrastruktur AG",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "railway:platform_height": "25",
+        "railway:platform_length": "70",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/1353606656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5419293,
+          47.2004601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1887823668",
+      "properties": {
+        "name": "Forst Hilti",
+        "operator": "ÖBB-Infrastruktur AG",
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "railway:platform_height": "38",
+        "railway:platform_length": "75",
+        "railway:position": "14.1",
+        "railway:position:exact": "14.125",
+        "railway:ref": "Nd H1",
+        "ref": "1",
+        "train": "yes",
+        "wikidata": "Q1865867",
+        "id": "node/1887823668"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5210473,
+          47.1812938
         ]
       }
     }
