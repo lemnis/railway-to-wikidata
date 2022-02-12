@@ -1837,6 +1837,38 @@
     },
     {
       "type": "Feature",
+      "id": "node/46199966",
+      "properties": {
+        "name": "Diemen Zuid",
+        "network": "NS;Amsterdamse metro",
+        "network:subway": "Amsterdamse metro",
+        "network:train": "NS",
+        "operator": "NS;GVB",
+        "operator:subway": "GVB",
+        "operator:train": "NS",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Dmnz",
+        "source": "AND",
+        "start_date": "1977-10-14",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikipedia": "nl:Station Diemen Zuid",
+        "zone": "5715",
+        "id": "node/46199966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9560598,
+          52.3302613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/46226599",
       "properties": {
         "name": "Olst",
@@ -2927,6 +2959,40 @@
     },
     {
       "type": "Feature",
+      "id": "node/250233810",
+      "properties": {
+        "loc_name": "Holendrecht",
+        "name": "Amsterdam Holendrecht",
+        "network": "NS;Amsterdamse metro",
+        "network:subway": "Amsterdamse metro",
+        "network:train": "NS",
+        "operator": "NS;GVB",
+        "operator:subway": "GVB",
+        "operator:train": "NS",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ashd",
+        "start_date": "1977-10-14",
+        "start_date:train": "2008-12-14",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q800381",
+        "wikipedia": "nl:Station Amsterdam Holendrecht",
+        "zone": "5725",
+        "id": "node/250233810"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9601712,
+          52.2979886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/257175282",
       "properties": {
         "name": "Amsterdam Sloterdijk",
@@ -3415,24 +3481,6 @@
         "coordinates": [
           5.5500419,
           51.4204028
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/697290420",
-      "properties": {
-        "name": "Monorail",
-        "railway": "halt",
-        "station": "monorail",
-        "website": "https://www.eftepedia.nl/lemma/Monorail",
-        "id": "node/697290420"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.0490113,
-          51.6528103
         ]
       }
     },
@@ -6794,23 +6842,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/3146591906",
-      "properties": {
-        "railway": "halt",
-        "station": "monorail",
-        "wheelchair": "yes",
-        "id": "node/3146591906"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.5983693,
-          52.3257562
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/3188608537",
       "properties": {
         "level": "1",
@@ -7067,6 +7098,38 @@
         "coordinates": [
           4.3085449,
           52.054519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3504104382",
+      "properties": {
+        "alt_name": "Den Haag Laan van Nieuw Oost-Indië",
+        "name": "Den Haag Laan van NOI",
+        "note:name": "Schrijfwijze ProRail",
+        "note:short_name": "Schrijfwijze NS",
+        "old_name": "Nieuw Oosteinde",
+        "old_name:-1978": "Laan van Nieuw Oost-Indië",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Laa",
+        "short_name": "Den Haag Laan v NOI",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "tram": "yes",
+        "website": "https://www.ns.nl/stationsinformatie/laa/den-haag-laan-v-noi",
+        "wheelchair": "yes",
+        "wikipedia": "nl:Station Den Haag Laan van NOI",
+        "zone": "5400",
+        "id": "node/3504104382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.343651,
+          52.0792112
         ]
       }
     },
@@ -9015,6 +9078,40 @@
     },
     {
       "type": "Feature",
+      "id": "node/4005961975",
+      "properties": {
+        "name": "Amsterdam Bijlmer ArenA",
+        "network": "NS;Amsterdamse metro",
+        "network:subway": "Amsterdamse metro",
+        "network:train": "NS",
+        "old_name": "Amsterdam Bijlmer",
+        "operator": "NS;GVB",
+        "operator:subway": "GVB",
+        "operator:train": "NS",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Asb",
+        "source": "AND",
+        "start_date": "1971-05-24",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q50723",
+        "wikipedia": "nl:Station Amsterdam Bijlmer ArenA",
+        "zone": "5725",
+        "id": "node/4005961975"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9470883,
+          52.3122449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/4018000913",
       "properties": {
         "name": "Eygelshoven Markt",
@@ -9053,6 +9150,38 @@
         "coordinates": [
           5.9527967,
           50.8961424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4040491812",
+      "properties": {
+        "addr:city": "Amsterdam",
+        "addr:postcode": "1097DN",
+        "name": "Amsterdam Amstel",
+        "network": "NS;Amsterdamse metro",
+        "network:subway": "Amsterdamse metro",
+        "network:train": "NS",
+        "operator": "NS;GVB",
+        "operator:subway": "GVB",
+        "operator:train": "NS",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Asa",
+        "start_date": "1939-10-15",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikipedia": "nl:Station Amsterdam Amstel",
+        "id": "node/4040491812"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9175567,
+          52.3464656
         ]
       }
     },
@@ -9225,6 +9354,36 @@
     },
     {
       "type": "Feature",
+      "id": "node/4041666291",
+      "properties": {
+        "name": "Duivendrecht",
+        "network": "NS;Amsterdamse metro",
+        "network:subway": "Amsterdamse metro",
+        "network:train": "NS",
+        "operator": "NS;GVB",
+        "operator:subway": "GVB",
+        "operator:train": "NS",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Dvd",
+        "start_date": "1993-05-23",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikipedia": "nl:Station Duivendrecht",
+        "zone": "5715",
+        "id": "node/4041666291"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9364854,
+          52.3235282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/4046323545",
       "properties": {
         "name": "Amsterdam RAI",
@@ -9273,6 +9432,34 @@
     },
     {
       "type": "Feature",
+      "id": "node/4048801966",
+      "properties": {
+        "amenity": "station",
+        "internet_access": "no",
+        "location": "underground",
+        "name": "Rotterdam Blaak",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Rtb",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q7370661",
+        "wikipedia": "nl:Station Rotterdam Blaak",
+        "zone": "5300",
+        "id": "node/4048801966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4892276,
+          51.919941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/4048801967",
       "properties": {
         "alt_name": "Rotterdam Centraal Station",
@@ -9296,6 +9483,30 @@
         "coordinates": [
           4.4686942,
           51.9249584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4048801969",
+      "properties": {
+        "name": "Schiedam Centrum",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Sdm",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q801405",
+        "wikipedia": "nl:Station Schiedam Centrum",
+        "zone": "5319",
+        "id": "node/4048801969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4094956,
+          51.9217
         ]
       }
     },
@@ -9398,6 +9609,43 @@
         "coordinates": [
           4.9476571,
           52.3118406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4076017504",
+      "properties": {
+        "addr:city": "Amsterdam",
+        "addr:housenumber": "37",
+        "addr:postcode": "1062HD",
+        "addr:street": "Cornelis Lelylaan",
+        "name": "Amsterdam Lelylaan",
+        "network": "NS;Amsterdamse metro",
+        "network:subway": "Amsterdamse metro",
+        "network:train": "NS",
+        "operator": "NS;GVB",
+        "operator:subway": "GVB",
+        "operator:train": "NS",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Asdl",
+        "start_date": "1986-06-01",
+        "start_date:subway": "1997-05-28",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q50722",
+        "wikipedia": "nl:Station Amsterdam Lelylaan",
+        "zone": "5713",
+        "id": "node/4076017504"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8340268,
+          52.3578369
         ]
       }
     },

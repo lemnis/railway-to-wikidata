@@ -19033,8 +19033,8 @@
       "properties": {
         "name": "Nagyigmánd-Bábolna",
         "operator": "MÁV",
-        "public_transport": "station",
-        "railway": "station",
+        "public_transport": "stop_position",
+        "railway": "stop",
         "ref:mav": "3637",
         "train": "yes",
         "id": "node/1065130735"
@@ -33407,6 +33407,35 @@
         "coordinates": [
           18.8658147,
           47.8660673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5217774784",
+      "properties": {
+        "addr:city": "Budapest",
+        "architect": "Gelesz András;Herczeg Tamás;Balázs László;Rohr Anita;Szendrői Júlia;Steiner Balázs Miklós;Gyulai Attila;Holló Eszter;Molnár S. Gergely;Safranka Péter;Janesch László;Dr. Reith András;Gelesz Adrienn;Tarjáni Andrea",
+        "layer": "-3",
+        "name": "Móricz Zsigmond körtér",
+        "operator": "BKV",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "M",
+        "ref:bkk": "056222",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "url": "http://mek.hu/?link=Epitesz_Kozlony___Muhely__2014_szeptember",
+        "wheelchair": "yes",
+        "wikidata": "Q930433",
+        "id": "node/5217774784"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0474068,
+          47.4769307
         ]
       }
     },

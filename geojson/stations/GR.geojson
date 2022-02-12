@@ -861,6 +861,30 @@
     },
     {
       "type": "Feature",
+      "id": "node/361456404",
+      "properties": {
+        "name": "Αεροδρόμιο",
+        "name:en": "Airport",
+        "name:fr": "Aéroport",
+        "network": "Προαστιακός Αθήνας;Μετρό Αθήνας",
+        "operator": "Διεθνής Αερολιμένας Αθηνών",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "id": "node/361456404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.9448074,
+          37.9369769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/361470406",
       "properties": {
         "name": "Μαγούλα",
@@ -1479,6 +1503,36 @@
         "coordinates": [
           23.8697588,
           38.00551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/957178322",
+      "properties": {
+        "name": "Περισσός",
+        "name:de": "Perissos",
+        "name:el": "Περισσός",
+        "name:en": "Perissos",
+        "name:fr": "Perissos",
+        "name:ru": "Пэриссос",
+        "network": "Μετρό Αθήνας",
+        "operator": "Σταθερές Συγκοινωνίες",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1993594",
+        "wikipedia": "el:Σταθμός Περισσού (Μετρό Αθήνας)",
+        "id": "node/957178322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7447123,
+          38.0328448
         ]
       }
     },
@@ -3744,6 +3798,33 @@
         "coordinates": [
           22.9824403,
           38.4082175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2541827616",
+      "properties": {
+        "name": "Κορωπί",
+        "name:el": "Κορωπί",
+        "name:en": "Koropi",
+        "name:fr": "Koropi",
+        "name:int": "Koropi",
+        "network": "Προαστιακός Αθήνας;Μετρό Αθήνας",
+        "operator": "ΟΣΕ",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/2541827616"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8958108,
+          37.9130116
         ]
       }
     },
@@ -9754,6 +9835,31 @@
         "coordinates": [
           23.7168389,
           38.0698218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6241176547",
+      "properties": {
+        "int_name": "Pallini",
+        "name": "Παλλήνη",
+        "name:en": "Pallini",
+        "network": "Προαστιακός Αθήνας;Μετρό Αθήνας",
+        "operator": "ΟΣΕ;Σταθερές Συγκοινωνίες",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q12884460",
+        "id": "node/6241176547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.8696043,
+          38.0057615
         ]
       }
     },

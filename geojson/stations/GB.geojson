@@ -2819,6 +2819,34 @@
     },
     {
       "type": "Feature",
+      "id": "node/15026054",
+      "properties": {
+        "fare_zone": "1",
+        "line": "District;Circle",
+        "name": "Sloane Square",
+        "name:ru": "Слоун-сквер",
+        "network": "London Underground",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q1530578",
+        "wikipedia": "en:Sloane Square tube station",
+        "id": "node/15026054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1561275,
+          51.4922957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/15315842",
       "properties": {
         "name": "Leatherhead",
@@ -3397,6 +3425,36 @@
         "coordinates": [
           0.1526024,
           51.1284231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/18089211",
+      "properties": {
+        "fare_zone": "3",
+        "line": "District",
+        "name": "Wimbledon",
+        "name:ru": "Уимблдон",
+        "naptan:AtcoCode": "9100WIMBLDN",
+        "network": "National Rail;London Underground;London Trams",
+        "operator": "South Western Railway",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "WIM",
+        "source_ref": "https//en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "tram": "yes",
+        "wikipedia": "en:Wimbledon station",
+        "id": "node/18089211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2052902,
+          51.4220721
         ]
       }
     },
@@ -3985,6 +4043,39 @@
         "coordinates": [
           -4.8821672,
           51.8517201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/20455533",
+      "properties": {
+        "fare_zone": "5",
+        "line": "Bakerloo",
+        "name": "Harrow & Wealdstone",
+        "naptan:AtcoCode": "9100HROW",
+        "network": "London Underground;London Overground",
+        "network:subway": "London Underground",
+        "network:train": "London Overground;National Rail",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "HRW",
+        "source:network": "Sign",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations;http://en.wikipedia.org/wiki/List_of_London_Underground_stations;http://en.wikipedia.org/wiki/London_Overground#Stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q800896",
+        "wikipedia": "en:Harrow & Wealdstone station",
+        "id": "node/20455533"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3348748,
+          51.5922178
         ]
       }
     },
@@ -24036,6 +24127,43 @@
     },
     {
       "type": "Feature",
+      "id": "node/70804547",
+      "properties": {
+        "addr:city": "London",
+        "addr:street": "Old Street",
+        "fare_zone": "1",
+        "line": "Northern City;Northern",
+        "name": "Old Street",
+        "name:da": "Old Street Station",
+        "name:ru": "Олд-стрит",
+        "naptan:AtcoCode": "9100OLDST",
+        "network": "National Rail;London Underground",
+        "network:subway": "London Underground",
+        "network:train": "National Rail",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "OLD",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wheelchair:description": "Steps between lower Northern & higher National Rail station levels. No Lifts.",
+        "wikidata": "Q801299",
+        "wikipedia": "en:Old Street station",
+        "id": "node/70804547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0876094,
+          51.5256284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/71948729",
       "properties": {
         "name": "Downham Market",
@@ -31882,6 +32010,36 @@
     },
     {
       "type": "Feature",
+      "id": "node/443640800",
+      "properties": {
+        "fare_zone": "6",
+        "line": "District",
+        "name": "Upminster",
+        "name:nl": "Station Upminster",
+        "naptan:AtcoCode": "9100UPMNSP6",
+        "network": "National Rail;London Underground;London Overground",
+        "operator": "c2c",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "UPM",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q801547",
+        "wikipedia": "en:Upminster station",
+        "id": "node/443640800"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2516815,
+          51.5589708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/443775670",
       "properties": {
         "name": "Streethouse",
@@ -33163,6 +33321,40 @@
         "coordinates": [
           -1.382282,
           53.7965742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/561297695",
+      "properties": {
+        "fare_zone": "2",
+        "line": "Piccadilly;Victoria",
+        "name": "Finsbury Park",
+        "naptan:AtcoCode": "9100FNPK",
+        "network": "National Rail;London Underground",
+        "network:subway": "London Underground",
+        "network:train": "National Rail",
+        "operator": "Great Northern;London Underground",
+        "operator:subway": "London Underground",
+        "operator:train": "Great Northern",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "FPK",
+        "ref:tiploc": "FNPK",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations;http://en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q536796",
+        "wikipedia": "en:Finsbury Park station",
+        "id": "node/561297695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1064144,
+          51.5648345
         ]
       }
     },
@@ -45799,6 +45991,41 @@
     },
     {
       "type": "Feature",
+      "id": "node/1736548313",
+      "properties": {
+        "description": "Greenford, Network Rail",
+        "fare_zone": "4",
+        "layer": "1",
+        "level": "1",
+        "line": "Central",
+        "name": "Greenford",
+        "naptan:AtcoCode": "9100GFORD",
+        "network": "National Rail;London Underground",
+        "note": "Surrounding lines made sense of with help from http://www.roscalen.com/signals/Greenford/index.htm",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "GFD",
+        "source": "NPE",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations;http://en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q800841",
+        "wikipedia": "en:Greenford station",
+        "id": "node/1736548313"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3447996,
+          51.5421177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1736549517",
       "properties": {
         "public_transport": "stop_position",
@@ -54162,6 +54389,39 @@
         "coordinates": [
           -2.7213868,
           54.3057094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2426825788",
+      "properties": {
+        "fare_zone": "2",
+        "line": "District;Hammersmith & City",
+        "name": "Whitechapel",
+        "name:ru": "Уайтчепел",
+        "naptan:AtcoCode": "9100WCHAPEL",
+        "network": "London Underground;London Overground",
+        "network:subway": "London Underground",
+        "network:train": "London Overground",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "public_transport:version": "2",
+        "railway": "station",
+        "ref:crs": "ZLW",
+        "source_ref": "http://en.wikipedia.org/wiki/London_Overground#Stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q605723",
+        "wikipedia": "en:Whitechapel station",
+        "id": "node/2426825788"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0606907,
+          51.5195786
         ]
       }
     },
@@ -63927,6 +64187,40 @@
     },
     {
       "type": "Feature",
+      "id": "node/3284103165",
+      "properties": {
+        "addr:city": "London",
+        "addr:postcode": "EC1M 6BY",
+        "addr:street": "Cowcross Street",
+        "fare_zone": "1",
+        "line": "Metropolitan;Circle;Hammersmith & City",
+        "name": "Farringdon",
+        "naptan:AtcoCode": "9100FNTLSR",
+        "network": "National Rail;London Underground",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "ZFD",
+        "source:ref": "http://wiki.kyiv.cogniance.com/display/CM/Absent+stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q800754",
+        "wikimedia_commons": "Category:Farringdon_station",
+        "wikipedia": "en:Farringdon station",
+        "id": "node/3284103165"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1047928,
+          51.5201241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3303235853",
       "properties": {
         "name": "Barking",
@@ -64835,6 +65129,35 @@
     },
     {
       "type": "Feature",
+      "id": "node/3501388948",
+      "properties": {
+        "fare_zone": "9",
+        "line": "Metropolitan",
+        "name": "Amersham",
+        "naptan:AtcoCode": "9100AMERSHM",
+        "network": "National Rail;London Underground",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "AMR",
+        "source": "aerial imagery, GPS and interpolation from bridge.",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q800384",
+        "wikipedia": "en:Amersham station",
+        "id": "node/3501388948"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6073643,
+          51.6740875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3507591677",
       "properties": {
         "name": "East Midlands Parkway",
@@ -64935,6 +65258,39 @@
         "coordinates": [
           -3.800542,
           53.092687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3517235821",
+      "properties": {
+        "addr:postcode": "HP7 9PR",
+        "fare_zone": "8",
+        "line": "Metropolitan",
+        "name": "Chalfont & Latimer",
+        "naptan:AtcoCode": "9100CHLFNAL",
+        "network": "National Rail;London Underground",
+        "note": "Chiltern Line and Metropolitan Line Station",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "CFO",
+        "source": "GPS",
+        "source_ref": "https//en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q800618",
+        "wikipedia": "en:Chalfont & Latimer station",
+        "id": "node/3517235821"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5611671,
+          51.6681019
         ]
       }
     },
@@ -65677,6 +66033,37 @@
         "coordinates": [
           -0.1035311,
           51.5153401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637436408",
+      "properties": {
+        "fare_zone": "1",
+        "line": "Metropolitan;Central;Circle;Hammersmith & City",
+        "name": "London Liverpool Street",
+        "name:ru": "Улица Ливерпуль",
+        "naptan:AtcoCode": "9100LIVST",
+        "network": "National Rail;London Underground;London Overground;TfL Rail",
+        "operator": "Network Rail",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref:DB": "XKLL",
+        "ref:crs": "LST",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q801124",
+        "wikipedia": "en:Liverpool Street station",
+        "id": "node/3637436408"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0817735,
+          51.518043
         ]
       }
     },
@@ -72120,6 +72507,37 @@
     },
     {
       "type": "Feature",
+      "id": "node/3803245041",
+      "properties": {
+        "fare_zone": "3",
+        "line": "Victoria",
+        "name": "Seven Sisters",
+        "naptan:AtcoCode": "9100SEVNSIS",
+        "network": "National Rail;London Underground;London Overground",
+        "operator": "London Overground;London Underground",
+        "platforms": "3;2",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "SVS",
+        "source:network": "Sign",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q801433",
+        "wikipedia": "en:Seven Sisters station",
+        "id": "node/3803245041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0749325,
+          51.5824738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3803278714",
       "properties": {
         "name": "Bishop's Stortford",
@@ -72140,80 +72558,6 @@
         "coordinates": [
           0.1654105,
           51.866427
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3806727275",
-      "properties": {
-        "airside": "yes",
-        "alt_name": "T5A",
-        "layer": "-1",
-        "level": "-2",
-        "name": "Gates A1-A23",
-        "network": "Heathrow Airport",
-        "operator": "Heathrow Airport",
-        "public_transport": "station",
-        "railway": "station",
-        "start_date": "2007",
-        "station": "monorail",
-        "id": "node/3806727275"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.4859786,
-          51.4709832
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3806727277",
-      "properties": {
-        "airside": "yes",
-        "alt_name": "T5B",
-        "layer": "-1",
-        "level": "-2",
-        "name": "Gates B32-B48",
-        "network": "Heathrow Airport",
-        "operator": "Heathrow Airport",
-        "public_transport": "station",
-        "railway": "station",
-        "start_date": "2007",
-        "station": "monorail",
-        "id": "node/3806727277"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.4812712,
-          51.4709999
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3806727279",
-      "properties": {
-        "airside": "yes",
-        "alt_name": "T5C",
-        "level": "-2",
-        "name": "Gates C52-C66",
-        "network": "Heathrow Airport",
-        "operator": "Heathrow Airport",
-        "public_transport": "station",
-        "railway": "station",
-        "start_date": "2010",
-        "station": "monorail",
-        "id": "node/3806727279"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.476074,
-          51.470982
         ]
       }
     },
@@ -77103,6 +77447,40 @@
     },
     {
       "type": "Feature",
+      "id": "node/4290857012",
+      "properties": {
+        "addr:postcode": "SE1 9SP",
+        "fare_zone": "1",
+        "layer": "1",
+        "line": "Jubilee;Northern",
+        "name": "London Bridge",
+        "name:da": "London Bridge Station",
+        "naptan:AtcoCode": "9100LNDNBDE",
+        "network": "National Rail;London Underground",
+        "operator": "Network Rail",
+        "public_transport": "station",
+        "public_transport:version": "2",
+        "railway": "station",
+        "railway:ref:DB": "XKLLB",
+        "ref:crs": "LBG",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair:description": "Q801125",
+        "wikidata": "Q801125",
+        "wikipedia": "en:London Bridge station",
+        "id": "node/4290857012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0858923,
+          51.5050313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/4292016570",
       "properties": {
         "name": "Long Eaton",
@@ -81058,7 +81436,7 @@
         "operator": "Nexus",
         "public_transport": "station",
         "railway": "station",
-        "ref:crs": "shz",
+        "ref:crs": "SHZ",
         "station": "light_rail",
         "wikidata": "Q7567520",
         "wikipedia": "en:South Hylton Metro station",
@@ -81067,8 +81445,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4477521,
-          54.9042608
+          -1.4476867,
+          54.9042829
         ]
       }
     },
@@ -82056,6 +82434,40 @@
         "coordinates": [
           0.2943374,
           51.1040897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4866262553",
+      "properties": {
+        "fare_zone": "6",
+        "internet_access": "wlan",
+        "line": "Central",
+        "name": "West Ruislip",
+        "naptan:AtcoCode": "9100WRUISLP",
+        "network": "National Rail;London Underground",
+        "network:subway": "London Underground",
+        "network:train": "National Rail",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "WRU",
+        "source": "NPE, and wikipedia description for which goes on which side",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations;http://en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q801602",
+        "wikipedia": "en:West Ruislip station",
+        "id": "node/4866262553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4370447,
+          51.5695047
         ]
       }
     },
@@ -83599,6 +84011,37 @@
     },
     {
       "type": "Feature",
+      "id": "node/5182456570",
+      "properties": {
+        "fare_zone": "7",
+        "line": "Metropolitan",
+        "name": "Chorleywood",
+        "naptan:AtcoCode": "9100CHRW",
+        "network": "National Rail;London Underground",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "CLW",
+        "source": "GPS",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations;http://en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q800623",
+        "wikipedia": "en:Chorleywood station",
+        "id": "node/5182456570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5183558,
+          51.6541757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5183162050",
       "properties": {
         "naptan:AtcoCode": "9100GALTILL",
@@ -83620,6 +84063,38 @@
     },
     {
       "type": "Feature",
+      "id": "node/5183350491",
+      "properties": {
+        "fare_zone": "7",
+        "line": "Metropolitan",
+        "name": "Rickmansworth",
+        "naptan:AtcoCode": "9100RCKMNSW",
+        "network": "National Rail;London Underground",
+        "note": "Chiltern Line and Metropolitan Line Station",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "RIC",
+        "source": "NPE",
+        "source_ref": "https//en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q801365",
+        "wikipedia": "en:Rickmansworth station",
+        "id": "node/5183350491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4734045,
+          51.6401841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5183760374",
       "properties": {
         "name": "Amersham",
@@ -83633,6 +84108,37 @@
         "coordinates": [
           -0.6061259,
           51.6739149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5183810356",
+      "properties": {
+        "fare_zone": "5",
+        "line": "Metropolitan",
+        "name": "Harrow-on-the-Hill",
+        "naptan:AtcoCode": "9100HAROOTH",
+        "network": "National Rail;London Underground",
+        "network:subway": "London Underground",
+        "network:train": "National Rail",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "HOH",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q654577",
+        "wikipedia": "en:Harrow-on-the-Hill station",
+        "id": "node/5183810356"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3366561,
+          51.5792702
         ]
       }
     },
@@ -84322,6 +84828,35 @@
         "coordinates": [
           -1.4886398,
           53.6786558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5359714471",
+      "properties": {
+        "fare_zone": "2",
+        "line": "Northern",
+        "name": "Kentish Town",
+        "naptan:AtcoCode": "9100KNTSHTN",
+        "network": "National Rail;London Underground",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "KTN",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_Underground_stations#cite_note-usage-6",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q636614",
+        "wikipedia": "en:Kentish Town station",
+        "id": "node/5359714471"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1388654,
+          51.5501727
         ]
       }
     },
@@ -85619,6 +86154,38 @@
     },
     {
       "type": "Feature",
+      "id": "node/5585821560",
+      "properties": {
+        "addr:postcode": "W5 2NU",
+        "addr:street": "The Broadway",
+        "fare_zone": "3",
+        "line": "Central;District",
+        "name": "Ealing Broadway",
+        "naptan:AtcoCode": "9100EALINGB",
+        "network": "National Rail;London Underground;TfL Rail",
+        "operator": "TfL Rail",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "EAL",
+        "source": "Yahoo",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q800705",
+        "wikipedia": "en:Ealing Broadway station",
+        "id": "node/5585821560"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3004067,
+          51.5149803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5585858822",
       "properties": {
         "name": "Stonebridge Park",
@@ -85889,6 +86456,38 @@
     },
     {
       "type": "Feature",
+      "id": "node/5700149213",
+      "properties": {
+        "fare_zone": "2",
+        "line": "Jubilee",
+        "name": "Canada Water",
+        "naptan:AtcoCode": "9100CNDAW",
+        "network": "London Underground;London Overground",
+        "platforms": "station",
+        "public_transport": "station",
+        "public_transport:version": "2",
+        "railway": "station",
+        "ref:crs": "ZCW",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "Overground platforms Step-free to train. (Jubilee platforms need checking)",
+        "wikidata": "Q800610",
+        "wikipedia": "en:Canada Water station",
+        "id": "node/5700149213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0498405,
+          51.4979299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5701443389",
       "properties": {
         "name": "Maghull North",
@@ -85907,6 +86506,40 @@
         "coordinates": [
           -2.9212569,
           53.5166544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5702714876",
+      "properties": {
+        "fare_zone": "1",
+        "line": "Metropolitan;Northern;Circle;Hammersmith & City",
+        "name": "Moorgate",
+        "name:da": "Moorgate Station",
+        "name:ru": "Мургейт",
+        "naptan:AtcoCode": "9100MRGT",
+        "network": "National Rail;London Underground",
+        "network:subway": "London Underground",
+        "network:train": "National Rail",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "public_transport:version": "2",
+        "railway": "station",
+        "ref:crs": "MOG",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q801210",
+        "wikipedia": "en:Moorgate station",
+        "id": "node/5702714876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0890625,
+          51.5182516
         ]
       }
     },
@@ -92469,6 +93102,41 @@
     },
     {
       "type": "Feature",
+      "id": "node/6095751323",
+      "properties": {
+        "addr:city": "Ruislip",
+        "addr:postcode": "HA4 6TP",
+        "addr:street": "Station Road",
+        "fare_zone": "5",
+        "internet_access": "wlan",
+        "line": "Central",
+        "name": "South Ruislip",
+        "naptan:AtcoCode": "9100SRUISLP",
+        "network": "National Rail;London Underground",
+        "operator": "London Underground;Chiltern Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "SRU",
+        "source": "NPE",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations;http://en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q801459",
+        "wikipedia": "en:South Ruislip station",
+        "id": "node/6095751323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3990635,
+          51.5569909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/6099806145",
       "properties": {
         "name": "Glasgow Central",
@@ -97793,6 +98461,66 @@
     },
     {
       "type": "Feature",
+      "id": "node/6438780655",
+      "properties": {
+        "fare_zone": "4",
+        "line": "District",
+        "name": "Richmond",
+        "network": "National Rail;London Underground;London Overground",
+        "operator": "South Western Railway",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "RMD",
+        "source_ref": "https://en.wikipedia.org/wiki/Richmond_station_(London)",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q801366",
+        "wikipedia": "en:Richmond station (London)",
+        "id": "node/6438780655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3004127,
+          51.4632072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6438904139",
+      "properties": {
+        "fare_zone": "3",
+        "line": "District",
+        "name": "Gunnersbury",
+        "naptan:AtcoCode": "9100GNRSBRY",
+        "network": "London Underground;London Overground",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "GUN",
+        "source": "NPE",
+        "source:network": "Sign",
+        "source_ref": "https//en.wikipedia.org/wiki/List_of_London_Underground_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q800858",
+        "wikipedia": "en:Gunnersbury station",
+        "id": "node/6438904139"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2755244,
+          51.4913757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/6439021702",
       "properties": {
         "name": "Levenshulme",
@@ -99020,6 +99748,78 @@
         "coordinates": [
           -0.1264611,
           51.5328442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6468357440",
+      "properties": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housename": "Queen's Park Station",
+        "addr:postcode": "NW6 6NL",
+        "addr:street": "Salusbury Road",
+        "fare_zone": "2",
+        "line": "Bakerloo",
+        "name": "Queen's Park",
+        "naptan:AtcoCode": "9100QPRK",
+        "network": "London Underground;London Overground",
+        "network:subway": "London Underground",
+        "network:train": "London Overground",
+        "note:wheelchair": "No entry/exit",
+        "operator": "London Underground",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "QPW",
+        "source:network": "Sign",
+        "source_ref": "http://en.wikipedia.org/wiki/List_of_London_railway_stations;http://en.wikipedia.org/wiki/London_Overground#Stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q801347",
+        "wikipedia": "en:Queen's Park station (England)",
+        "id": "node/6468357440"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2054958,
+          51.533873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6468432388",
+      "properties": {
+        "fare_zone": "3",
+        "line": "Victoria",
+        "name": "Tottenham Hale",
+        "naptan:AtcoCode": "9100TTNHMHL",
+        "network": "National Rail;London Underground",
+        "old_name": "Tottenham",
+        "operator": "Abellio Greater Anglia",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "ref:crs": "TOM",
+        "source": "local knowledge",
+        "source_ref": "https//en.wikipedia.org/wiki/List_of_London_railway_stations",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q801529",
+        "wikipedia": "en:Tottenham Hale station",
+        "id": "node/6468432388"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0599366,
+          51.5881223
         ]
       }
     },
@@ -128572,23 +129372,6 @@
         "coordinates": [
           -1.9679877,
           52.3468339
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/9313311410",
-      "properties": {
-        "name": "Threlkeld Quarry",
-        "railway": "station",
-        "usage": "toutism",
-        "id": "node/9313311410"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.0439443,
-          54.6085896
         ]
       }
     },

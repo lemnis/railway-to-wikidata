@@ -15424,6 +15424,27 @@
     },
     {
       "type": "Feature",
+      "id": "node/1649252094",
+      "properties": {
+        "amenity": "bus_station",
+        "name": "Skee station",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Ske",
+        "ref": "Skee",
+        "train": "yes",
+        "id": "node/1649252094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2629426,
+          58.9223774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1659153177",
       "properties": {
         "name": "Haxäng",
@@ -22405,6 +22426,106 @@
         "coordinates": [
           14.1523326,
           55.7076688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502305",
+      "properties": {
+        "name": "Akalla",
+        "name:ru": "Акалла",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Aka",
+        "sl_stop_id": "9300",
+        "station": "subway",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q415553",
+        "wikipedia": "sv:Akalla (tunnelbanestation)",
+        "id": "node/4225502305"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9132189,
+          59.4155814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502333",
+      "properties": {
+        "name": "Husby",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Hub",
+        "sl_stop_id": "9301",
+        "station": "subway",
+        "train": "yes",
+        "wikidata": "Q1638866",
+        "wikipedia": "sv:Husby (tunnelbanestation)",
+        "id": "node/4225502333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9286653,
+          59.4081848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502343",
+      "properties": {
+        "name": "Kista",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Kis",
+        "sl_stop_id": "9302",
+        "station": "subway",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1743793",
+        "wikipedia": "sv:Kista (tunnelbanestation)",
+        "id": "node/4225502343"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9427547,
+          59.4029202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4225502889",
+      "properties": {
+        "name": "Västra skogen",
+        "network": "SL",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "Väs",
+        "sl_stop_id": "9306",
+        "station": "subway",
+        "subway": "station",
+        "train": "yes",
+        "wikidata": "Q121704",
+        "wikipedia": "sv:Västra skogen (tunnelbanestation)",
+        "id": "node/4225502889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0038714,
+          59.347353
         ]
       }
     },
