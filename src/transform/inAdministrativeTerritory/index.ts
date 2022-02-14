@@ -1,10 +1,13 @@
 import { distanceTo } from "geolocation-utils";
 import { concatMap, delay, from, mergeMap, of, tap } from "rxjs";
-import { Country, Property } from "../../types/wikidata";
+import { Property } from "../../types/wikidata";
 import { db, dbIsLoaded } from "../../utils/database";
 import { progressBar } from "../../utils/logger";
-import { run } from "../run";
-import { removeUri, simplifyByDatatype } from "../simplify";
+import { run } from "../../providers/wikidata/run";
+import {
+  removeUri,
+  simplifyByDatatype,
+} from "../../providers/wikidata/simplify";
 import { search } from "../utils/mwapi";
 
 const MAX_DISTANCE = 40000;
@@ -13,7 +16,7 @@ interface Data {
   id: string;
   coordinate: [number, number];
   name: string;
-  country: Country;
+  country: string;
   coordinates: [number, number][];
 }
 
@@ -27,9 +30,12 @@ const getCollection = async () => {
 };
 
 export const getAdministrativeTerritory$ = (
-  values: { name: string; country: Country; coordinate: [number, number] }[]
+  values: { name: string; country: string; coordinate: [number, number] }[]
 ) => {
-  const progress = progressBar("Getting Administrative Territories", values?.length);
+  const progress = progressBar(
+    "Getting Administrative Territories",
+    values?.length
+  );
 
   return of(...values).pipe(
     concatMap(({ name, country, coordinate }) =>
@@ -37,9 +43,9 @@ export const getAdministrativeTerritory$ = (
         mergeMap((cached) =>
           cached
             ? of(cached)
-            : from(fetchAdministrativeTerritory(name, country, coordinate)).pipe(
-                delay(3000)
-              )
+            : from(
+                fetchAdministrativeTerritory(name, country, coordinate)
+              ).pipe(delay(3000))
         ),
         tap(() => progress.tick())
       )
@@ -49,7 +55,7 @@ export const getAdministrativeTerritory$ = (
 
 export const getAdministrativeTerritory = async (
   name: string,
-  country: Country,
+  country: string,
   coordinate: [number, number]
 ) => {
   const cached = getCachedAdministrativeTerritory(name, country, coordinate);
@@ -62,7 +68,7 @@ export const getAdministrativeTerritory = async (
 
 export const getCachedAdministrativeTerritory = async (
   name: string,
-  country: Country,
+  country: string,
   coordinate: [number, number]
 ) => {
   const cache = await getCollection();
@@ -84,7 +90,7 @@ export const getCachedAdministrativeTerritory = async (
 
 const fetchAdministrativeTerritory = async (
   name: string,
-  country: Country,
+  country: string,
   coordinate: [number, number]
 ) => {
   const cache = await getCollection();

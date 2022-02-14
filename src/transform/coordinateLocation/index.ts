@@ -1,9 +1,9 @@
 import { distanceTo } from "geolocation-utils";
 import { ClaimObject } from "../../types/wikidata";
 
-export const coordinateLocation = (
+export const scoreCoordinateLocation = (
   source: ClaimObject<[number, number]>[],
-  destination: ClaimObject<[number, number]>[],
+  destination: ClaimObject<[number, number]>[]
 ) =>
   source
     .map(({ value }) => value)
@@ -22,7 +22,7 @@ export const coordinateLocation = (
 
       const distance = destination
         ?.map(({ value }) => value)
-        .filter((value) => value![0] && value![1] && value?.length === 2)
+        .filter((value) => value?.[0] && value?.[1] && value?.length === 2)
         .map((destinationCoordinates) =>
           distanceTo(value, destinationCoordinates!)
         )

@@ -3,14 +3,14 @@ import { ClaimObject } from "../../types/wikidata";
 /**
  * Compares case insenstive
  */
-export const stationCode = (
+export const scoreStationCode = (
   source: ClaimObject<string>[],
-  destination: ClaimObject<string>[],
-  missing: boolean
+  destination: ClaimObject<string>[]
 ) =>
   source
     .map(({ value }) => value)
     .map((sourceValue) => {
+
       const match = destination?.find(
         ({ value }) =>
           value && value.toLowerCase() === sourceValue?.toLowerCase()
@@ -19,6 +19,6 @@ export const stationCode = (
         match: !!match,
         value: sourceValue,
         destination: match?.value || destination?.map(({ value }) => value),
-        missing,
+        missing: destination.length === 0
       };
     });
