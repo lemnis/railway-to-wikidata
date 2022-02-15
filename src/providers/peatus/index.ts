@@ -1,10 +1,11 @@
-import { CodeIssuer, Property } from "../../types/wikidata";
+import { Property } from "../../types/wikidata";
 import { LocationV4 } from "../../types/location";
 import { Country } from "../../transform/country";
-import { getGtfsStations, getGtfsStationsByRailRoute } from "../../utils/gtfs";
+import { getGtfsStationsByRailRoute } from "../../utils/gtfs";
 
 /**
- * @see https://gtfs.menetbrand.com/letoltes/
+ * @license Unknown
+ * @see https://www.mnt.ee/eng/public-transportation/public-transport-information-system
  */
 export const getLocations = (): Promise<LocationV4[]> =>
   getGtfsStationsByRailRoute(
@@ -16,10 +17,6 @@ export const getLocations = (): Promise<LocationV4[]> =>
         id: stop_id,
         labels: [{ value: stop_name }],
         claims: {
-          [CodeIssuer.UIC]: [{ value: (
-            //   Country.Estonia.UIC?.[0] * 10000 +
-              parseInt(stop_id)
-          ).toString() }],
           [Property.Country]: [{ value: Country.Estonia.wikidata }],
           [Property.CoordinateLocation]: [
             { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
