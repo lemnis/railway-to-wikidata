@@ -1567,6 +1567,7 @@
         "public_transport": "station",
         "railway": "station",
         "wikidata": "Q18590823",
+        "wikipedia": "cs:Praha-Horní Počernice (nádraží)",
         "id": "node/24595941"
       },
       "geometry": {
@@ -1938,10 +1939,11 @@
       "properties": {
         "name": "Neratovice",
         "name:de": "Neratowitz",
-        "operator": "cz:SŽDC",
+        "operator": "Správa železnic",
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "546861",
+        "train": "yes",
         "uic_ref": "5454686",
         "wikidata": "Q18180433",
         "wikipedia": "cs:Neratovice (nádraží)",
@@ -2133,7 +2135,7 @@
         "name": "Lázně Toušeň",
         "network": "Pražská integrovaná doprava",
         "public_transport": "stop_position",
-        "railway": "station",
+        "railway": "stop",
         "train": "yes",
         "id": "node/24681341"
       },
@@ -2877,6 +2879,7 @@
         "name": "Čelákovice zastávka",
         "network": "Pražská integrovaná doprava",
         "network:wikidata": "Q2108171",
+        "operator": "Správa železnic",
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -7012,23 +7015,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/60409849",
-      "properties": {
-        "name": "Čelákovice-Jiřina",
-        "railway": "halt",
-        "wheelchair": "yes",
-        "id": "node/60409849"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.7653975,
-          50.1675327
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/60678632",
       "properties": {
         "name": "Řepice",
@@ -7224,14 +7210,17 @@
         "public_transport": "station",
         "railway": "station",
         "railway:ref": "531145",
+        "train": "yes",
         "wheelchair": "yes",
+        "wikidata": "Q18180399",
+        "wikipedia": "cs:Lysá nad Labem (nádraží)",
         "id": "node/60942350"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.842877,
-          50.1954776
+          14.8418728,
+          50.1956038
         ]
       }
     },
@@ -12101,7 +12090,8 @@
       "properties": {
         "name": "Polerady nad Labem",
         "public_transport": "stop_position",
-        "railway": "halt",
+        "railway": "stop",
+        "ref": "1",
         "train": "yes",
         "id": "node/247087404"
       },
@@ -13642,8 +13632,10 @@
       "id": "node/250096645",
       "properties": {
         "name": "Jiřice",
+        "operator": "Správa železnic",
         "public_transport": "stop_position",
-        "railway": "halt",
+        "railway": "stop",
+        "ref": "1",
         "train": "yes",
         "id": "node/250096645"
       },
@@ -13661,7 +13653,7 @@
       "properties": {
         "name": "Lobkovice",
         "public_transport": "stop_position",
-        "railway": "halt",
+        "railway": "stop",
         "train": "yes",
         "id": "node/250096660"
       },
@@ -30375,10 +30367,13 @@
         "name": "Brandýs nad Labem-Zápská",
         "network": "PID",
         "network:wikidata": "Q2108171",
+        "operator": "Správa železnic",
         "public_transport": "stop_position",
         "railway": "station",
         "train": "yes",
         "wheelchair": "limited",
+        "wikidata": "Q19061225",
+        "wikipedia": "pl:Brandýs nad Labem-Zápská",
         "id": "node/410827981"
       },
       "geometry": {
@@ -33687,14 +33682,17 @@
       "id": "node/779811410",
       "properties": {
         "name": "Lysá nad Labem-Dvorce",
+        "public_transport": "station",
         "railway": "halt",
+        "wikidata": "Q19400923",
+        "wikipedia": "pl:Lysá nad Labem-Dvorce",
         "id": "node/779811410"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.8020052,
-          50.2001925
+          14.8018324,
+          50.200188
         ]
       }
     },
@@ -38290,7 +38288,8 @@
         "name": "Neratovice město",
         "name:de": "Neratowitz Stadt",
         "public_transport": "stop_position",
-        "railway": "halt",
+        "railway": "stop",
+        "ref": "1",
         "train": "yes",
         "id": "node/987424409"
       },
@@ -41172,9 +41171,12 @@
       "id": "node/1872509847",
       "properties": {
         "name": "Brandýs nad Labem zastávka",
+        "operator": "Správa železnic",
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
+        "wikidata": "Q19061228",
+        "wikipedia": "pl:Brandýs nad Labem zastávka",
         "id": "node/1872509847"
       },
       "geometry": {
@@ -50998,14 +51000,15 @@
       "id": "node/3123196720",
       "properties": {
         "name": "Otradovice",
+        "public_transport": "station",
         "railway": "halt",
         "id": "node/3123196720"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.7461582,
-          50.2060784
+          14.746132,
+          50.2060597
         ]
       }
     },
@@ -60678,8 +60681,10 @@
       "id": "node/4866916440",
       "properties": {
         "name": "Kostelec nad Labem",
+        "operator": "Správa železnic",
         "public_transport": "stop_position",
-        "railway": "halt",
+        "railway": "stop",
+        "ref": "1",
         "train": "yes",
         "id": "node/4866916440"
       },
@@ -61194,18 +61199,20 @@
       "id": "node/5136077840",
       "properties": {
         "name": "Brandýs nad Labem",
-        "operator": "cz:SŽDC",
-        "public_transport": "stop_position",
+        "operator": "Správa železnic",
+        "public_transport": "station",
         "railway": "station",
         "railway:ref": "546465",
         "train": "yes",
+        "wikidata": "Q18180146",
+        "wikipedia": "cs:Brandýs nad Labem (nádraží)",
         "id": "node/5136077840"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6552195,
-          50.183489
+          14.6551995,
+          50.1834712
         ]
       }
     },
@@ -73198,6 +73205,360 @@
         "coordinates": [
           13.7594208,
           50.5409727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661673",
+      "properties": {
+        "name": "Lysá nad Labem-Dvorce",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9500661673"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8011185,
+          50.2002508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661674",
+      "properties": {
+        "name": "Lysá nad Labem-Dvorce",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9500661674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8023769,
+          50.2001502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661679",
+      "properties": {
+        "name": "Otradovice",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9500661679"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7461582,
+          50.2060784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661680",
+      "properties": {
+        "name": "Otradovice",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9500661680"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7461594,
+          50.2060459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661682",
+      "properties": {
+        "internet_access": "no",
+        "name": "Čelákovice",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q18432112",
+        "wikipedia": "pl:Čelákovice zastávka",
+        "id": "node/9500661682"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7353944,
+          50.1598846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661683",
+      "properties": {
+        "name": "Lázně Toušeň",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q19400874",
+        "wikipedia": "pl:Lázně Toušeň (przystanek kolejowy)",
+        "id": "node/9500661683"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7114191,
+          50.1686082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661687",
+      "properties": {
+        "name": "Brandýs nad Labem",
+        "operator": "Spravá železnic",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "1",
+        "train": "yes",
+        "id": "node/9500661687"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6552195,
+          50.183489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661688",
+      "properties": {
+        "name": "Brandýs nad Labem",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "2",
+        "train": "yes",
+        "id": "node/9500661688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.655192,
+          50.1834454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661689",
+      "properties": {
+        "name": "Brandýs nad Labem",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "3",
+        "train": "yes",
+        "id": "node/9500661689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6551782,
+          50.1834171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661690",
+      "properties": {
+        "internet_access": "no",
+        "name": "Polerady nad Labem",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q19061178",
+        "wikipedia": "pl:Polerady nad Labem",
+        "id": "node/9500661690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6099851,
+          50.2047767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661691",
+      "properties": {
+        "name": "Kostelec nad Labem",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q18180338",
+        "wikipedia": "cs:Kostelec nad Labem (železniční zastávka)",
+        "id": "node/9500661691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5806485,
+          50.2211088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661692",
+      "properties": {
+        "internet_access": "no",
+        "name": "Jiřice",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q19061076",
+        "wikipedia": "pl:Jiřice (przystanek kolejowy)",
+        "id": "node/9500661692"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5467575,
+          50.2388605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661694",
+      "properties": {
+        "name": "Lobkovice",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q19400903",
+        "wikipedia": "pl:Lobkovice (przystanek kolejowy)",
+        "id": "node/9500661694"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.530761,
+          50.2508712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661695",
+      "properties": {
+        "name": "Neratovice město",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wikidata": "Q19401020",
+        "wikipedia": "pl:Neratovice město",
+        "id": "node/9500661695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.520014,
+          50.2569327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500661696",
+      "properties": {
+        "name": "Neratovice",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9500661696"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5181031,
+          50.2624681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500677391",
+      "properties": {
+        "name": "Čelákovice-Jiřina",
+        "operator": "Správa železnic",
+        "public_transport": "station",
+        "railway": "halt",
+        "train": "yes",
+        "wheelchair": "yes",
+        "id": "node/9500677391"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7654556,
+          50.1675492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500677392",
+      "properties": {
+        "name": "Čelákovice-Jiřina",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9500677392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7654241,
+          50.1675579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9500677393",
+      "properties": {
+        "name": "Čelákovice-Jiřina",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9500677393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7654871,
+          50.1675432
         ]
       }
     }

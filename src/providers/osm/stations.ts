@@ -20,6 +20,7 @@ const queryStationNodes = (area: string) =>
         // Disused
         "[station!=disused][disused!=yes][disused!=station][train!=disused]" +
         "[station!=abandoned][abandoned!=yes][abandoned!=station]" +
+        "[historic!=yes][usage!=preserved_railway]" +
         // Freight
         "[usage!=freight][usage!=industrial][station!=freight][station!=cargo][passenger!=no]"
     )

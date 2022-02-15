@@ -60754,7 +60754,7 @@
       "properties": {
         "addr:street": "Ullswater Road",
         "alt_name": "Penrith",
-        "historic": "Penrith for Ullswater",
+        "historic:name": "Penrith for Ullswater",
         "name": "Penrith North Lakes",
         "naptan:AtcoCode": "9100PNTH",
         "platforms": "3",
@@ -85989,49 +85989,6 @@
         "coordinates": [
           -0.8633396,
           51.4753162
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/5558907217",
-      "properties": {
-        "name": "Cholsey",
-        "network": "Cholsey & Wallingford Railway",
-        "public_transport": "stop_position",
-        "railway": "stop",
-        "usage": "preserved_railway",
-        "id": "node/5558907217"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.1582348,
-          51.5702933
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/5558907218",
-      "properties": {
-        "name": "Cholsey",
-        "naptan:AtcoCode": "9100CHOLSEY",
-        "network": "National Rail;Cholsey & Wallingford Railway",
-        "operator": "National Rail",
-        "public_transport": "station",
-        "railway": "station",
-        "ref:crs": "CHO",
-        "usage": "preserved_railway",
-        "wikidata": "Q4693813",
-        "wikipedia": "en:Cholsey railway station",
-        "id": "node/5558907218"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.1586983,
-          51.5704082
         ]
       }
     },

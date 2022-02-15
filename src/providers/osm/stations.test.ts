@@ -1,10 +1,9 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, FeatureCollection } from "geojson";
+import { Feature } from "geojson";
 import loki from "@lokidb/loki";
 
 const path = __dirname + "/../../../geojson/stations/";
-
 const dir = fs.readdirSync(path);
 
 const data: Feature[] = dir
