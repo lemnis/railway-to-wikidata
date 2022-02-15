@@ -27,6 +27,7 @@ const getCoordinates = (coordinates: (EVANumber | RiL100Identifier)[]) => {
  * @todo Add address & facility info
  * @todo Add support for matching station code with db station code
  * @todo Add variants to label (e.g. bf -> bahnhof)
+ * @todo Fix & test error handling
  * @license CC-BY-4.0
  * @see https://developer.deutschebahn.com/store/apis/info?name=StaDa-Station_Data&version=v2&provider=DBOpenData
  */
