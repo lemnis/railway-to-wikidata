@@ -18,7 +18,7 @@ enum StringToIso {
 }
 
 /**
- * @license CC BY 4.0
+ * @license CC-BY-4.0
  * @see https://data.renfe.com/dataset/estaciones-listado-completo
  */
 export const getLocations = async () => {

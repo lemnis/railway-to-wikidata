@@ -10,7 +10,7 @@ export const options = {
 };
 
 /**
- * @license CC BY 4.0
+ * @license CC-BY-4.0
  * @see https://data.renfe.com/dataset/horarios-de-alta-velocidad-larga-distancia-y-media-distancia
  * @see https://transitfeeds.com/p/renfe/1018
  * @see https://www.transit.land/feeds/f-ez-renfeoperadora

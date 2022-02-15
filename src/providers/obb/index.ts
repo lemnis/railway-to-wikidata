@@ -5,7 +5,7 @@ import { getGtfsStations } from "../../utils/gtfs";
 
 /**
  * @version 2018.06.26
- * @license CC BY 4.0
+ * @license CC-BY-4.0
  * @see https://data.oebb.at/oebb
  */
 export const getLocations = (): Promise<LocationV4[]> =>
