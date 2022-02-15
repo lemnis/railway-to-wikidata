@@ -7,7 +7,7 @@ import { Place, Station, Location } from "./ns.types";
 
 const getPlaces = async () => {
   const response = await fetch(
-    "https://gateway.apiportal.ns.nl/places-api/v2/places?limit=1000&type=stationV2",
+    "https://gateway.apiportal.ns.nl/reisinformatie-api/api/v2/stations",
     {
       method: "GET",
       headers: {
@@ -16,16 +16,13 @@ const getPlaces = async () => {
     }
   );
 
-  const { payload }: { links: {}; payload: Place[]; meta: {} } =
+  const { payload }: { payload: Station[]; } =
     await response.json();
   return payload;
 };
 
 export const getLocations = async (): Promise<LocationV4[]> => {
-  const payload = await getPlaces();
-  const stations = payload.find(({ type }) => type === "stationV2")
-    ?.locations as (Station & Location)[] | undefined;
-
+  const stations = await getPlaces();
   return (
     stations?.map(
       ({
@@ -33,16 +30,14 @@ export const getLocations = async (): Promise<LocationV4[]> => {
         lng,
         code,
         EVACode,
-        sites,
         synoniemen,
         land,
         sporen,
         namen,
-        name,
         UICCode,
       }) => ({
-        id: sites?.map((i) => i.url)?.[0] || code,
-        labels: Array.from(new Set([name!, ...synoniemen, namen?.lang!]))
+        id: `https://www.ns.nl/en/stationsinformatie/${code}`,
+        labels: Array.from(new Set([...synoniemen, namen?.lang!]))
           .filter(Boolean)
           .map((value) => ({ value })),
         claims: {
@@ -80,12 +75,12 @@ export const getLocations = async (): Promise<LocationV4[]> => {
               .filter(Boolean)
               .map((value) => ({ value: value.toString() })),
           }),
-          ...(land === "NL" && {
-            [Property.OfficialWebsite]: sites
-              ?.map(({ url }) => url)
-              .filter(Boolean)
-              .map((value) => ({ value })),
-          }),
+          // ...(land === "NL" && {
+          //   [Property.OfficialWebsite]: sites
+          //     ?.map(({ url }) => url)
+          //     .filter(Boolean)
+          //     .map((value) => ({ value })),
+          // }),
         },
       })
     ) || []
