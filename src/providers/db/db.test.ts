@@ -73,7 +73,7 @@ test("German locations should match expected score", (t) => {
   t.assert(stationCategory?.total > LARGE_DATA_SIZE);
 });
 
-test("Foreign locations should match expected score", async (t) => {
+test("Should not have any foreign locations", async (t) => {
   const foreignLocations = dbLocations.filter((feature) =>
     feature.properties?.[Property.Country]?.every(
       ({ value }: any) => value !== Country.Germany.wikidata
