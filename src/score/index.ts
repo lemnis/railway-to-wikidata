@@ -20,6 +20,7 @@ export const score = (location: LocationV4, wikidata: LocationV4) => {
   );
 
   return {
+    id: location.id || ':(',
     labels,
     claims,
     percentage: labels.percentage + claims.percentage + distance.reduce((a, b) => a + b, 0),

@@ -48,8 +48,13 @@ function getScore(
   );
 
   Object.entries(scored.claims.matches).forEach(([key, values]) => {
-    if (values.missing) return;
-    result[key] ||= { total: 0, matches: 0, notFound: [] };
+    result[key] ||= { total: 0, matches: 0, notFound: [], missing: [] };
+
+    if (values.missing) {
+      result[key].missing.push(scored);
+      return;
+    };
+
     if (scored.percentage > WITHOUT_LOCATION_SCORE_THRESHOLD) {
       result[key].total += values.matches.length;
       result[key].matches += values.matches.filter(({ match }) => match).length;
@@ -61,7 +66,7 @@ function getScore(
 }
 
 export function getFullMatchScore(locations: any[], otherSource: any[]) {
-  const result: any = { notFound: [] };
+  const result: any = { notFound: [], missing: [] };
   locations.forEach((location) => {
     getScore(otherSource, location, result);
   });

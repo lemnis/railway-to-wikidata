@@ -368,6 +368,7 @@ export const Country = enforceObjectType({
     wikidata: "Q212",
     UIC: [22],
     alpha2: "UA",
+    IBNR: [22]
   },
   UnitedKingdom: {
     wikidata: "Q145",

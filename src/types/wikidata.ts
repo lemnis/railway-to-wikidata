@@ -34,6 +34,9 @@ export enum Property {
   ReferenceURL = "P854",
   WheelchairAccessibility = "P2846",
   ElevationAboveSeaLevel = "P2044",
+  UTCTimezoneOffset = "P2907",
+  SaidToBeTheSameAs = "P460",
+  ValidInPeriod = "P1264",
 }
 
 export enum Items {

@@ -7,7 +7,7 @@ import { run } from "../../providers/wikidata/run";
 import {
   removeUri,
   simplifyByDatatype,
-} from "../../providers/wikidata/simplify";
+} from "../../providers/wikidata/clean-up";
 import { search } from "../utils/mwapi";
 
 const MAX_DISTANCE = 40000;

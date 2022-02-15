@@ -1,12 +1,13 @@
-import { LocationV3 } from "../types/location";
+import { LocationV4 } from "../types/location";
 
-export const mergeMultipleEntities = (entities: LocationV3[]) => {
-  return entities.reduce<LocationV3>(
+export const mergeMultipleEntities = (entities: LocationV4[]) => {
+  return entities.reduce<LocationV4>(
     (result, entity) => {
-      let claimsKey: keyof LocationV3["claims"];
+      let claimsKey: keyof LocationV4["claims"];
       for (claimsKey in entity.claims) {
         if (Object.prototype.hasOwnProperty.call(entity.claims, claimsKey)) {
-          const values = (entity.claims as any)[claimsKey];
+          const values = (entity.claims)[claimsKey];
+          if(!values?.length) continue;
           values.forEach((value: any) => {
             if (value === undefined) return;
             result.claims[claimsKey] ||= [];
