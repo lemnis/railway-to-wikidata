@@ -1,33 +1,74 @@
-import { ClaimObject } from "../../types/wikidata";
+import { run } from "../../providers/wikidata/run";
+import { simplify } from "../../providers/wikidata/simplify";
+import { LocationV4 } from "../../types/location";
+import { ClaimObject, Property } from "../../types/wikidata";
+import { db, dbIsLoaded } from "../../utils/database";
 import { logger } from "../../utils/logger";
 import { getTimeZoneOffset } from "./utils/getTimeZoneOffset";
 
-const TimeZones = {
-  0: 'Q6574',
-  1: 'Q6655',
-  2: 'Q6723'
-}
+const getCollection = async () => {
+  await dbIsLoaded;
+  return (
+    db.getCollection<LocationV4>(Property.LocatedInTimeZone) ||
+    db.addCollection<LocationV4, {}>(Property.LocatedInTimeZone, {
+      unique: ["id"],
+    })
+  );
+};
 
+export const getTimeZonesByName = async (name: string) => {
+  const collection = await getCollection();
+  const result = collection.where((data) =>
+    data.labels.some(({ value }) => value === name)
+  );
+  db.close();
+  return result;
+};
 
-// SELECT DISTINCT ?item ?itemLabel ?offset ?valid ?validLabel WHERE {
-//   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
-//   {
-//     SELECT DISTINCT ?item WHERE {
-//       ?item p:P31 ?statement0.
-//       ?statement0 (ps:P31/(wdt:P279*)) wd:Q12143.
-//     }
-//     LIMIT 10000
-//   }
-//   OPTIONAL {
-//     ?item p:P2907 ?o.
-//     ?o ps:P2907 ?offset;
-//       pq:P1264 ?valid.
-//   }
-// }
+// TODO: Add support for diffent timezones
+export const getTimeZonesByOffset = async (offset: string, isWinterTime = true) => {
+  const collection = await getCollection();
+  const result = collection.where((data) =>
+    !!data?.claims[Property.UTCTimezoneOffset]?.some(({ value, qualifiers }) => value === offset)
+  );
+  db.close();
+  return result;
+};
 
-// https://www.wikidata.org/wiki/Q8691#Q8691$36F70516-0C1E-4FBE-8C83-5B8684DE1F1Fy
-// https://www.wikidata.org/wiki/Q8841887#Q8841887$0E3324B7-A791-4EB2-B082-301044F6D862
-// https://www.wikidata.org/wiki/Q668382#Q668382$193ccc18-626e-4831-99b4-d6af7479cf9d
+export const cacheWikidataTimeZones = async () => {
+  const data = simplify(
+    await run(`SELECT DISTINCT
+    ?item ?itemLabel
+    ?${Property.SaidToBeTheSameAs}
+    ?${Property.UTCTimezoneOffset} 
+    ?${Property.UTCTimezoneOffset}Qualifier${Property.ValidInPeriod}
+    ?${Property.UTCTimezoneOffset}Qualifier${Property.ValidInPeriod}Label
+    ?${Property.LocatedInTimeZone}
+  WHERE {
+  ?item (wdt:P31/(wdt:P279*)) wd:Q12143.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  OPTIONAL {
+    ?item p:${Property.UTCTimezoneOffset} ?o.
+    ?o ps:${Property.UTCTimezoneOffset} ?${Property.UTCTimezoneOffset}.
+    OPTIONAL { ?o pq:${Property.ValidInPeriod} ?${Property.UTCTimezoneOffset}Qualifier${Property.ValidInPeriod}. }
+  }
+  OPTIONAL { ?item wdt:${Property.SaidToBeTheSameAs} ?${Property.SaidToBeTheSameAs}. }
+  OPTIONAL { ?item wdt:${Property.LocatedInTimeZone} ?${Property.LocatedInTimeZone}. }
+}`),
+    [
+      { property: Property.SaidToBeTheSameAs },
+      {
+        property: Property.UTCTimezoneOffset,
+        qualifiers: [Property.ValidInPeriod],
+      },
+      { property: Property.LocatedInTimeZone },
+    ]
+  );
+
+  const collection = await getCollection();
+  collection.insert(data);
+  db.close();
+};
 
 export const scoreLocatedInTimeZone = (
   source: ClaimObject<string>[],

@@ -1,24 +1,20 @@
 import { ClaimObject } from "../../types/wikidata";
 
-/**
- * Compares case insenstive
- */
+/** Compares station codes case insenstive */
 export const scoreStationCode = (
   source: ClaimObject<string>[],
   destination: ClaimObject<string>[]
 ) =>
   source
     .map(({ value }) => value)
-    .map((sourceValue) => {
-
+    .map((value) => {
       const match = destination?.find(
         ({ value }) =>
-          value && value.toLowerCase() === sourceValue?.toLowerCase()
+          value && value.toLowerCase() === value?.toLowerCase()
       );
       return {
         match: !!match,
-        value: sourceValue,
-        destination: match?.value || destination?.map(({ value }) => value),
-        missing: destination.length === 0
+        value,
+        missing: destination.length === 0,
       };
     });

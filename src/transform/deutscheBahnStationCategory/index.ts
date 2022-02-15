@@ -15,6 +15,6 @@ export const getDBStationCategory = (category: string | number) => {
     return StationCategory[category as keyof typeof StationCategory];
   }
 
-  logger.error({ category }, "Unknown station category value was given");
+  logger.warn({ category }, "Unknown station category value was given");
   return;
 };
