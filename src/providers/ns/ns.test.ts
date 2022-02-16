@@ -33,7 +33,7 @@ test(`Should have ${EXPECTED_AMOUNT_OF_LOCATIONS} locations`, ({
   deepEqual(ns.length, EXPECTED_AMOUNT_OF_LOCATIONS);
 });
 
-test("NL locations should match expected score", (t) => {
+test("NL locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
     [Property.CoordinateLocation]: location,
@@ -42,7 +42,7 @@ test("NL locations should match expected score", (t) => {
     [CodeIssuer.UIC]: uic,
     [CodeIssuer.IBNR]: ibnr,
     notFound
-  } = getFullMatchScore(
+  } = await getFullMatchScore(
     ns.filter((feature) =>
       feature.properties?.[Property.Country]?.every(
         ({ value }: any) => value === Country.Netherlands.wikidata
@@ -109,7 +109,7 @@ test(`NL locations, should ${CodeIssuer.IBNR} & ${CodeIssuer.UIC} often match`, 
   }
 });
 
-test("Foreign locations should match expected score", (t) => {
+test("Foreign locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
     [Property.CoordinateLocation]: location,
@@ -118,7 +118,7 @@ test("Foreign locations should match expected score", (t) => {
     [CodeIssuer.UIC]: uic,
     [CodeIssuer.IBNR]: ibnr,
     notFound
-  } = getFullMatchScore(
+  } = await getFullMatchScore(
     ns.filter((feature) =>
       feature.properties?.[Property.Country]?.every(
         ({ value }: any) => value !== Country.Netherlands.wikidata

@@ -11,7 +11,7 @@ const customMatchers: Partial<
       source: ClaimObject<any>[],
       destination: ClaimObject<any>[],
       missing: boolean
-    ) => any[]
+    ) => any[] | Promise<any[]>
   >
 > = {
   [Property.LocatedInTimeZone]: scoreLocatedInTimeZone,
@@ -25,7 +25,7 @@ export interface Match {
   [key: string]: any;
 }
 
-export const score = (
+export const score = async (
   proposed: LocationV4["claims"],
   current: LocationV4["claims"],
   proposedObject?: LocationV4,
@@ -35,7 +35,7 @@ export const score = (
 
   (
     Object.entries(proposed) as any as [Property | CodeIssuer, ClaimObject[]][]
-  ).forEach(([key, value]) => {
+  ).forEach(async ([key, value]) => {
     if (!value) return;
 
     const claim: ClaimObject<any>[] | undefined = current[key];
@@ -46,11 +46,16 @@ export const score = (
       key in customMatchers &&
       customMatchers[key as keyof typeof customMatchers];
     if (customMatcher && claim && value) {
-      customMatcher(value, claim, missing).forEach((i) => matches.push(i));
+      const k = await customMatcher(value, claim, missing);
+      k.forEach((i) => matches.push(i));
     } else {
       value.forEach(({ value }) => {
         const match = claim?.map(({ value }) => value).includes(value) || false;
-        if (!match && key === Property.ElevationAboveSeaLevel) console.log(value, claim?.map(({ value }) => value));
+        if (!match && key === Property.ElevationAboveSeaLevel)
+          console.log(
+            value,
+            claim?.map(({ value }) => value)
+          );
         matches.push({ match, value });
       });
     }

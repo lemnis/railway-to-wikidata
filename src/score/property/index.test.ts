@@ -2,17 +2,17 @@ import test from "ava";
 import { score } from ".";
 import { Property } from "../../types/wikidata";
 
-test("Should fully match to empty object", ({ deepEqual }) => {
-  deepEqual(score({}, {}), {
+test("Should fully match to empty object", async ({ deepEqual }) => {
+  deepEqual(await score({}, {}), {
     matches: {},
     amountMissing: 0,
     percentage: 0,
   });
 });
 
-test("Should fully match to equal objects", ({ deepEqual }) => {
+test("Should fully match to equal objects", async ({ deepEqual }) => {
   deepEqual(
-    score(
+    await score(
       { [Property.Country]: [{ value: "h" }] },
       { [Property.Country]: [{ value: "h" }] }
     ),
@@ -34,9 +34,9 @@ test("Should fully match to equal objects", ({ deepEqual }) => {
   );
 });
 
-test("Should mark missing with missing counter claims", ({ deepEqual }) => {
+test("Should mark missing with missing counter claims", async ({ deepEqual }) => {
   deepEqual(
-    score({ [Property.Country]: [{ value: "h" }] }, { [Property.Country]: [] }),
+    await score({ [Property.Country]: [{ value: "h" }] }, { [Property.Country]: [] }),
     {
       matches: {
         [Property.Country]: {
@@ -55,9 +55,9 @@ test("Should mark missing with missing counter claims", ({ deepEqual }) => {
   );
 });
 
-test("Should match to one of destination objects", ({ deepEqual }) => {
+test("Should match to one of destination objects", async ({ deepEqual }) => {
   deepEqual(
-    score(
+    await score(
       { [Property.Country]: [{ value: "two" }] },
       {
         [Property.Country]: [
@@ -85,9 +85,9 @@ test("Should match to one of destination objects", ({ deepEqual }) => {
   );
 });
 
-test("Should only match second object", ({ deepEqual }) => {
+test("Should only match second object", async ({ deepEqual }) => {
   deepEqual(
-    score(
+    await score(
       {
         [Property.Country]: [
           { value: "one" },
@@ -123,11 +123,11 @@ test("Should only match second object", ({ deepEqual }) => {
   );
 });
 
-test("Percentage should match percentage of single existing property", ({
+test("Percentage should match percentage of single existing property", async ({
   deepEqual,
 }) => {
   deepEqual(
-    score(
+    await score(
       {
         [Property.Country]: [{ value: "two" }],
         [Property.Location]: [{ value: "location" }],
@@ -161,11 +161,11 @@ test("Percentage should match percentage of single existing property", ({
   );
 });
 
-test("Percentage should be calculated against all existing properties", ({
+test("Percentage should be calculated against all existing properties", async ({
   deepEqual,
 }) => {
   deepEqual(
-    score(
+    await score(
       {
         [Property.Country]: [{ value: "one" }, { value: "two" }],
         [Property.Location]: [

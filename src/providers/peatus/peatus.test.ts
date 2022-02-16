@@ -15,7 +15,7 @@ const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;
 
-test("Estonian locations should match expected score", (t) => {
+test("Estonian locations should match expected score", async (t) => {
   const EstonianLocations = peatus.filter((feature) =>
     feature.properties?.[Property.Country]?.every(
       ({ value }: any) => value === Country.Estonia.wikidata
@@ -26,7 +26,7 @@ test("Estonian locations should match expected score", (t) => {
     [Property.Country]: country,
     [CodeIssuer.UIC]: uic,
     notFound,
-  } = getFullMatchScore(EstonianLocations, wikipedia);
+  } = await getFullMatchScore(EstonianLocations, wikipedia);
 
   t.is(notFound.length, 14);
   t.is(country.matches / country.total, 1);

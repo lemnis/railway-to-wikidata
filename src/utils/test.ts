@@ -4,7 +4,7 @@ import { distanceTo } from "geolocation-utils";
 import { score, WITHOUT_LOCATION_SCORE_THRESHOLD } from "../score";
 import { Property } from "../types/wikidata";
 
-function getScore(
+async function getScore(
   wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[],
   location: Feature<Point, { labels: any[]; [key: string]: any }>,
   result: any
@@ -26,7 +26,7 @@ function getScore(
     return;
   }
 
-  const scored = score(
+  const scored = await score(
     {
       labels: [labels as any],
       claims: {
@@ -53,7 +53,7 @@ function getScore(
     if (values.missing) {
       result[key].missing.push(scored);
       return;
-    };
+    }
 
     if (scored.percentage > WITHOUT_LOCATION_SCORE_THRESHOLD) {
       result[key].total += values.matches.length;
@@ -65,11 +65,13 @@ function getScore(
   });
 }
 
-export function getFullMatchScore(locations: any[], otherSource: any[]) {
+export async function getFullMatchScore(locations: any[], otherSource: any[]) {
   const result: any = { notFound: [], missing: [] };
-  locations.forEach((location) => {
-    getScore(otherSource, location, result);
-  });
+  await Promise.all(
+    locations.map((location) => {
+      getScore(otherSource, location, result);
+    })
+  );
   return result;
 }
 

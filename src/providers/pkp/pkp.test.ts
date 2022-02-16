@@ -16,7 +16,7 @@ const trainline: Feature<Point, LocationV4["claims"]>[] = JSON.parse(
   fs.readFileSync(path + "trainline-stations.geojson", "utf-8")
 ).features;
 
-test("Polish locations should match expected score with trainline", (t) => {
+test("Polish locations should match expected score with trainline", async (t) => {
   const PolandLocations = pkp.filter((feature) =>
     feature.properties?.[Property.Country]?.every(
       ({ value }: any) => value === Country.Poland.wikidata
@@ -27,7 +27,7 @@ test("Polish locations should match expected score with trainline", (t) => {
     [Property.Country]: country,
     [CodeIssuer.UIC]: uic,
     notFound,
-  } = getFullMatchScore(PolandLocations, trainline);
+  } = await getFullMatchScore(PolandLocations, trainline);
 
   t.is(PolandLocations.length, 477);
   t.is(notFound.length, 334);

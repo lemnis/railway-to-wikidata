@@ -6,9 +6,9 @@ import { Property } from "../types/wikidata";
 export const SCORE_THRESHOLD = 2.3;
 export const WITHOUT_LOCATION_SCORE_THRESHOLD = 1.3;
 
-export const score = (location: LocationV4, wikidata: LocationV4) => {
+export const score = async (location: LocationV4, wikidata: LocationV4) => {
   const labels = scoreLabel(location.labels, wikidata.labels);
-  const claims = scoreClaims(
+  const claims = await scoreClaims(
     location.claims,
     wikidata.claims,
     location,

@@ -22,7 +22,7 @@ const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;
 
-test("German locations should match expected score", (t) => {
+test("German locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
     [Property.CoordinateLocation]: location,
@@ -31,7 +31,7 @@ test("German locations should match expected score", (t) => {
     [Property.DBStationCategory]: stationCategory,
     [CodeIssuer.IBNR]: ibnr,
     [CodeIssuer.DB]: db,
-  } = getFullMatchScore(
+  } = await getFullMatchScore(
     dbLocations
       .filter((feature) =>
         feature.properties?.[Property.Country]?.every(

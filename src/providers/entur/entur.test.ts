@@ -15,8 +15,8 @@ const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;
 
-test("Norway locations should match expected score", (t) => {
-  const norwayScore = getFullMatchScore(
+test("Norway locations should match expected score", async (t) => {
+  const norwayScore = await getFullMatchScore(
     entur.filter((feature) =>
       feature.properties?.[Property.Country]?.every(
         ({ value }: any) => value === Country.Norway.wikidata
@@ -37,7 +37,7 @@ test("Norway locations should match expected score", (t) => {
 });
 
 test("Foreign locations should match expected score", async (t) => {
-  const foreignScore = getFullMatchScore(
+  const foreignScore = await getFullMatchScore(
     entur.filter((feature) =>
       feature.properties?.[Property.Country]?.every(
         ({ value }: any) => value !== Country.Norway.wikidata

@@ -16,12 +16,12 @@ const wikipedia: Feature<Point, LocationV4["claims"]>[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 
-test("locations in the UK should match expected score", (t) => {
+test("locations in the UK should match expected score", async (t) => {
   const {
     [Property.Country]: country,
     [Property.CoordinateLocation]: location,
     [CodeIssuer.ATOC]: atoc,
-  } = getFullMatchScore(
+  } = await getFullMatchScore(
     atocLocations.filter((feature) =>
       feature.properties?.[Property.Country]?.every(
         ({ value }) => value === Country.UnitedKingdom.wikidata

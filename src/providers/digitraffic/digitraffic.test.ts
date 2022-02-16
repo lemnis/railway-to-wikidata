@@ -19,13 +19,13 @@ const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;
 
-test("Finnish locations should match expected score", (t) => {
+test("Finnish locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
     [Property.CoordinateLocation]: location,
     [Property.StationCode]: stationCode,
     [CodeIssuer.UIC]: uic,
-  } = getFullMatchScore(
+  } = await getFullMatchScore(
     digitrafficLocations.filter((feature) =>
       feature.properties?.[Property.Country]?.every(
         ({ value }: any) => value === Country.Finland.wikidata
@@ -59,7 +59,7 @@ test("Foreign locations should match expected score", async (t) => {
     [Property.Country]: country,
     [Property.CoordinateLocation]: location,
     [CodeIssuer.UIC]: uic,
-  } = getFullMatchScore(foreignLocations, wikipedia);
+  } = await getFullMatchScore(foreignLocations, wikipedia);
 
   t.is(country.matches / country.total, 1);
   t.is(location.matches / location.total, 1);
