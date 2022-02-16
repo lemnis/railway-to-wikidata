@@ -1,6 +1,7 @@
 import { simplify as simplifyLabel } from "./label";
 import { simplify as simplifyProperties } from "./property";
 import { LocationV4 } from "../../types/location";
+import { removeUri } from "./clean-up";
 
 
 export const simplify = (
@@ -18,7 +19,7 @@ export const simplify = (
 
   return Object.values(groupedWikidataItems).map((items) => ({
     labels: simplifyLabel(items),
-    id: items[0].item.value,
+    id: removeUri(items[0].item.value),
     claims: simplifyProperties(
       items,
       keys,
