@@ -99,8 +99,8 @@ const fetchAdministrativeTerritory = async (
     await run(`SELECT DISTINCT ?item ?itemLabel ?location ?order WHERE {
       ${search(name, "en", "Q15284")}                
       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-      ?item wdt:P625 ?location.
-      ?item wdt:P17 wd:${country}
+      ?item wdt:${Property.CoordinateLocation} ?location.
+      ?item wdt:${Property.Country} wd:${country}
   } ORDER BY ?order`);
 
   let id: string;
