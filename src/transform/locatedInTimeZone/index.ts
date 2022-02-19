@@ -1,101 +1,107 @@
-import { run } from "../../providers/wikidata/run";
-import { simplify } from "../../providers/wikidata/simplify";
 import { LocationV4 } from "../../types/location";
 import { ClaimObject, Property } from "../../types/wikidata";
-import { db, dbIsLoaded } from "../../utils/database";
-import { logger } from "../../utils/logger";
+import { db } from "../../utils/database";
+import { getTimeZoneByWikiIds, getTimeZoneByWikiId } from "./utils/collection";
 import { getTimeZoneOffset } from "./utils/getTimeZoneOffset";
 
-const getCollection = async () => {
-  await dbIsLoaded;
-  return (
-    db.getCollection<LocationV4>(Property.LocatedInTimeZone) ||
-    db.addCollection<LocationV4, {}>(Property.LocatedInTimeZone, {
-      unique: ["id"],
-    })
-  );
-};
+/**
+ * Returns offset by looking up data of cached wikidata entity or Intl timezone
+ */
+const getOffset = (claims: LocationV4[]) => {
+  const result: number[] = [];
 
-export const getTimeZonesByName = async (name: string) => {
-  const collection = await getCollection();
-  const result = collection.where((data) =>
-    data.labels.some(({ value }) => value === name)
-  );
-  db.close();
-  return result;
-};
+  claims.forEach((claim) => {
+    const claimValues = claim.claims[Property.UTCTimezoneOffset]
+      ?.map(({ value }) => value)
+      .filter((x): x is string => x !== undefined);
+    const labels = claim.labels?.map(({ value }) => value).filter(Boolean);
 
-// TODO: Add support for diffent timezones
-export const getTimeZonesByOffset = async (offset: string, isWinterTime = true) => {
-  const collection = await getCollection();
-  const result = collection.where((data) =>
-    !!data?.claims[Property.UTCTimezoneOffset]?.some(({ value, qualifiers }) => value === offset)
-  );
-  db.close();
-  return result;
-};
-
-export const cacheWikidataTimeZones = async () => {
-  const data = simplify(
-    await run(`SELECT DISTINCT
-    ?item ?itemLabel
-    ?${Property.SaidToBeTheSameAs}
-    ?${Property.UTCTimezoneOffset} 
-    ?${Property.UTCTimezoneOffset}Qualifier${Property.ValidInPeriod}
-    ?${Property.UTCTimezoneOffset}Qualifier${Property.ValidInPeriod}Label
-    ?${Property.LocatedInTimeZone}
-  WHERE {
-  ?item (wdt:P31/(wdt:P279*)) wd:Q12143.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-  OPTIONAL {
-    ?item p:${Property.UTCTimezoneOffset} ?o.
-    ?o ps:${Property.UTCTimezoneOffset} ?${Property.UTCTimezoneOffset}.
-    OPTIONAL { ?o pq:${Property.ValidInPeriod} ?${Property.UTCTimezoneOffset}Qualifier${Property.ValidInPeriod}. }
-  }
-  OPTIONAL { ?item wdt:${Property.SaidToBeTheSameAs} ?${Property.SaidToBeTheSameAs}. }
-  OPTIONAL { ?item wdt:${Property.LocatedInTimeZone} ?${Property.LocatedInTimeZone}. }
-}`),
-    [
-      { property: Property.SaidToBeTheSameAs },
-      {
-        property: Property.UTCTimezoneOffset,
-        qualifiers: [Property.ValidInPeriod],
-      },
-      { property: Property.LocatedInTimeZone },
-    ]
-  );
-
-  const collection = await getCollection();
-  collection.insert(data);
-  db.close();
-};
-
-export const scoreLocatedInTimeZone = (
-  source: ClaimObject<string>[],
-  destination: ClaimObject<string>[],
-  missing: boolean
-) =>
-  source
-    .map(({ value }) => value)
-    .filter((item): item is string => !!item)
-    .map((timeZone) => {
-      const offset = getTimeZoneOffset(timeZone);
-      const match =
-        offset === 1
-          ? destination?.find(
-              ({ value: claimValue }) => claimValue === "Q25989"
-            )
-          : undefined;
-
-      if (!match && !missing) {
-        logger.error("Mismatch time zone happened");
-        logger.error(destination);
-        logger.error(offset);
+    if (claimValues) {
+      for (const value of claimValues) {
+        result.push(parseFloat(value));
       }
-      return {
-        match: !!match,
-        value: source,
-        destination: match?.value || destination?.map(({ value }) => value),
-        missing,
-      };
-    });
+    }
+    for (const label of labels) {
+      try {
+        result.push(getTimeZoneOffset(label));
+      } catch {}
+    }
+  });
+
+  return result;
+};
+
+export const scoreLocatedInTimeZone = async (
+  source: ClaimObject<string>[],
+  destination: ClaimObject<string>[]
+) => {
+  const destinationValues = destination
+    .map(({ value }) => value)
+    .filter((item): item is string => !!item);
+  const destinationObjects = await getTimeZoneByWikiIds(destinationValues);
+  const destinationOffsets = getOffset(destinationObjects);
+  const destinationSameAs = destinationObjects
+    .map((object) => object.claims[Property.SaidToBeTheSameAs])
+    .flat()
+    .map((obj) => obj?.value)
+    .filter((item): item is string => !!item);
+  const destinationLocatedInTimeZone = destinationObjects
+    .map((object) => object.claims[Property.LocatedInTimeZone])
+    .flat()
+    .map((obj) => obj?.value)
+    .filter((item): item is string => !!item);
+
+  const values = source
+    .map(({ value }) => value)
+    .filter((item): item is string => !!item);
+  const missing = !destinationValues.length;
+
+  const result = values.map(async (value) => {
+    // Exact match
+    const match = [
+      ...destinationValues,
+      ...destinationSameAs,
+      ...destinationLocatedInTimeZone,
+    ]?.includes(value);
+
+    // Fuzzy match aka Europe/Amsterdam === UTC +1
+    if (!match && !!destinationValues.length) {
+      const valueObject = await getTimeZoneByWikiId(value);
+      const valueOffset = getOffset(valueObject)?.[0];
+      const sameAs = valueObject
+        .map((object) => object.claims[Property.SaidToBeTheSameAs])
+        .flat()
+        .map((obj) => obj?.value)
+        .filter((item): item is string => !!item);
+      const locatedInTimeZone = valueObject
+        .map((object) => object.claims[Property.LocatedInTimeZone])
+        .flat()
+        .map((obj) => obj?.value)
+        .filter((item): item is string => !!item);
+
+      if (
+        [...sameAs, ...locatedInTimeZone].some((s) =>
+          [...destinationValues, ...destinationSameAs]?.includes(s)
+        ) ||
+        destinationOffsets.includes(valueOffset)
+      ) {
+        return {
+          match: true,
+          value,
+          missing,
+        };
+      }
+    }
+
+    return {
+      match,
+      value,
+      missing,
+    };
+  });
+
+  return Promise.all(result).then((result) => {
+    db.close();
+    return result;
+  });
+};
