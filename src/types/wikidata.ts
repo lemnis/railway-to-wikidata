@@ -37,6 +37,7 @@ export enum Property {
   UTCTimezoneOffset = "P2907",
   SaidToBeTheSameAs = "P460",
   ValidInPeriod = "P1264",
+  EndTime = 'P582'
 }
 
 export enum Items {
