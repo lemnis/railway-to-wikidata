@@ -1,59 +1,14 @@
 import fetch from "node-fetch";
-import { Country, findCountryByUIC } from "../../transform/country";
+import { findCountryByUIC } from "../../transform/country";
 import { LocationV4 } from "../../types/location";
 import {
   CodeIssuer,
   Property,
 } from "../../types/wikidata";
 import { mergeMultipleEntities } from "../../utils/combine-entity";
-import { getGtfsStations } from "../../utils/gtfs";
 import { logger } from "../../utils/logger";
 import { SncfRawLocation } from "./sncf.types";
 
-/**
- * Looks like complete list of (mostly) france stations,
- * amount of data is limite
- *
- * COMMERCIAL USE ALLOWED & CREATING DERIVED PRODUCTS ALLOWED
- *
- * @license ODbL
- * @see https://www.transit.land/feeds/f-u0-sncf~ter
- * @see https://transitfeeds.com/p/sncf/1069
- */
-export const getGtfsLocations = () =>
-  getGtfsStations(
-    "https://eu.ftp.opendatasoft.com/sncf/gtfs/export-ter-gtfs-last.zip",
-    "sncf"
-  ).then((data) =>
-    data
-      .filter(
-        ({ location_type }) =>
-          (!!location_type && location_type.startsWith("StopArea:OCE")) ||
-          location_type === "1"
-      )
-      .map<LocationV4>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
-        const stationCode = stop_id.slice(12, 19);
-        const labels = stop_name ? [{ value: stop_name }] : [];
-
-        return {
-          labels,
-          claims: {
-            [CodeIssuer.UIC]: [{ value: stationCode }],
-            // [Property.StationCode]: [{ value: stationCode}],
-            [Property.CoordinateLocation]: [
-              { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
-            ],
-            [Property.Country]: [
-              {
-                value: stop_name.startsWith("Monaco")
-                  ? Country.Monaco.wikidata
-                  : findCountryByUIC(parseInt(stationCode[0] + stationCode[1]))?.wikidata,
-              },
-            ],
-          },
-        };
-      })
-  );
 
 /**
  * Looks like complete list of (mostly) france stations,
@@ -62,7 +17,7 @@ export const getGtfsLocations = () =>
  * @license ODbL
  * @see https://data.sncf.com/explore/dataset/referentiel-gares-voyageurs/information/?disjunctive.gare_ug_libelle&sort=gare_alias_libelle_noncontraint
  */
-export const getGaresVoyageurs = () =>
+export const getLocations = () =>
   fetch(
     "https://ressources.data.sncf.com/explore/dataset/referentiel-gares-voyageurs/download/?format=json&timezone=Europe/Berlin&lang=fr"
   )
@@ -102,9 +57,9 @@ export const getGaresVoyageurs = () =>
                     { value: findCountryByUIC(parseInt(uic[0] + uic[1]))?.wikidata },
                   ],
                   [Property.PostalCode]: [{ value: adresse_cp }],
-                  [Property.InAdministrativeTerritory]: [
-                    { value: commune_libellemin },
-                  ],
+                  // [Property.InAdministrativeTerritory]: [
+                  //   { value: commune_libellemin },
+                  // ],
                 },
                 // ...(tvs
                 //   ? {

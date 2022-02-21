@@ -9,9 +9,9 @@ import {
   GERMANY_IN_ADMINISTRATIVE_TERRITORY_SCORE,
   GERMANY_POSTAL_CODE_SCORE,
   GERMANY_STATION_CATEGORY_SCORE,
-  LARGE_DATA_SIZE,
 } from "./db.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
+import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 

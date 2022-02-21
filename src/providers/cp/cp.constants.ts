@@ -1,16 +1,16 @@
 import { Reliability } from "../../score/reliability";
 import { CodeIssuer } from "../../types/wikidata";
 
-export const ScoreAtoc = {
-  [CodeIssuer.ATOC]: 1
+export const ScoreCp = {
+  [CodeIssuer.UIC]: 1,
 };
 
-export const ReliabilityAtoc = {
-  UnitedKingdom: {
-    [CodeIssuer.ATOC]:
+export const ReliabilityCp = {
+  Portugal: {
+    [CodeIssuer.UIC]:
       Reliability.START +
       (Reliability.FIRST_PARTY +
         Reliability.BIG_DATA_SET +
-        Reliability.RAW * ScoreAtoc[CodeIssuer.ATOC]),
+        Reliability.RAW * ScoreCp[CodeIssuer.UIC])
   },
 };

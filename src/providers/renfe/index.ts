@@ -9,7 +9,7 @@ const StringToCountry = {
   Francia: Country.France.wikidata,
   España: Country.Spain.wikidata,
   Portugal: Country.Portugal.wikidata,
-}
+};
 
 enum StringToIso {
   Francia = "87",

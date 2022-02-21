@@ -3,8 +3,8 @@ import fs from "fs";
 import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { LARGE_DATA_SIZE } from "./peatus.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
+import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 

@@ -8,12 +8,12 @@ import {
   NETHERLANDS_IBNR_SCORE,
   FOREIGN_UIC_SCORE,
   FOREIGN_IBNR_SCORE,
-  LARGE_DATA_SIZE,
   FOREIGN_COUNTRY_SCORE,
   NETHERLANDS_TRACKS_SCORE,
   NETHERLANDS_FACES_SCORE,
 } from "./ns.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
+import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 

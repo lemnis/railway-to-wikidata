@@ -3,8 +3,9 @@ import fs from "fs";
 import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { NORWAY_UIC_SCORE, FOREIGN_UIC_SCORE, LARGE_DATA_SIZE } from "./entur.constants";
+import { NORWAY_UIC_SCORE, FOREIGN_UIC_SCORE } from "./entur.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
+import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 

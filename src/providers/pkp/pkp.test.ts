@@ -3,9 +3,10 @@ import fs from "fs";
 import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { LARGE_DATA_SIZE, POLAND_UIC_SCORE } from "./pkp.constants";
+import { POLAND_UIC_SCORE } from "./pkp.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LocationV4 } from "../../types/location";
+import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 
