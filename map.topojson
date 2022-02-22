@@ -373,10 +373,13 @@
         {
           "type": "MultiPolygon",
           "properties": {
-            "fill": "grey",
+            "fill": "orange",
             "name": "Croatia",
             "url": "https://rail.cc/train-company/croatia/hr",
-            "description": "No research done"
+            "UIC": "❌",
+            "IBNR": "❌",
+            "coverage": "100%",
+            "description": "GTFS data available behind a HTTP Auth"
           },
           "id": "HR",
           "arcs": [
@@ -850,10 +853,14 @@
         {
           "type": "Polygon",
           "properties": {
-            "fill": "grey",
+            "fill": "orange",
             "name": "Slovenia",
             "url": "https://rail.cc/train-company/slovenia/si",
-            "description": "No research done"
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "100%",
+            "coordinates": "❌",
+            "description": "GTFS data available behind a HTTP Auth"
           },
           "id": "SI",
           "arcs": [
