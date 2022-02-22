@@ -540,25 +540,45 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Slovakia" },
+          "properties": {
+            "fill": "orange",
+            "name": "Slovakia",
+            "url": "https://rail.cc/train-company/slovakia/sk",
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "100%"
+          },
           "id": "SK",
           "arcs": [[-77, -107, 437, 438, -349]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Liechtenstein" },
+          "properties": {
+            "fill": "grey",
+            "name": "Liechtenstein",
+            "url": "https://rail.cc/train-company/liechtenstein/li",
+            "description": "No research done"
+          },
           "id": "LI",
           "arcs": [[-86, 439]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "North Macedonia" },
+          "properties": {
+            "fill": "orange",
+            "name": "North Macedonia",
+            "description": "No research done"
+          },
           "id": "MK",
           "arcs": [[440, -35, -302, -15]]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Malta" },
+          "properties": {
+            "fill": "gray",
+            "name": "Malta",
+            "description": "No railway network"
+          },
           "id": "MT",
           "arcs": [[[441]], [[442]]]
         },
@@ -577,7 +597,11 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Faroe Islands" },
+          "properties": {
+            "fill": "gray",
+            "name": "Faroe Islands",
+            "description": "No railway network"
+          },
           "id": "FO",
           "arcs": [
             [[452]],
@@ -593,25 +617,46 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Andorra" },
+          "properties": {
+            "fill": "gray",
+            "name": "Andorra",
+            "description": "No railway network"
+          },
           "id": "AD",
           "arcs": [[461, -162]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Luxembourg" },
+          "properties": {
+            "fill": "green",
+            "name": "Luxembourg",
+            "url": "https://rail.cc/train-company/luxembourg/lu",
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "100%"
+          },
           "id": "LU",
           "arcs": [[-227, 462, -225, -148, 463, -146, -449]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Monaco" },
+          "properties": {
+            "fill": "gray",
+            "name": "Monaco",
+            "url": "https://rail.cc/train-company/monaco/mc",
+            "description": "No research done"
+          },
           "id": "MC",
           "arcs": [[464, 465, -158]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Montenegro" },
+          "properties": {
+            "fill": "gray",
+            "name": "Montenegro",
+            "url": "https://rail.cc/train-company/montenegro/me",
+            "description": "No research done"
+          },
           "id": "ME",
           "arcs": [[-28, 466, -13, 467, -308, 468]]
         },
@@ -747,7 +792,15 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Poland" },
+          "properties": {
+            "fill": "orange",
+            "name": "Poland",
+            "url": "https://rail.cc/train-company/poland/pl",
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "Incomplete",
+            "description": "Need to implement more train companies"
+          },
           "id": "PL",
           "arcs": [
             [
@@ -784,13 +837,23 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Republic of Moldova" },
+          "properties": {
+            "fill": "grey",
+            "name": "Republic of Moldova",
+            "url": "https://rail.cc/train-company/moldova/md",
+            "description": "No research done"
+          },
           "id": "MD",
           "arcs": [[592, 593, 594, 595, 596, 597, 598, 599, 600, -589]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Slovenia" },
+          "properties": {
+            "fill": "gray",
+            "name": "Slovenia",
+            "url": "https://rail.cc/train-company/slovenia/si",
+            "description": "No research done"
+          },
           "id": "SI",
           "arcs": [
             [
@@ -825,8 +888,8 @@
         {
           "type": "MultiPolygon",
           "properties": {
-            "fill": "green",
-            "name": "Ireland",
+            "fill": "orange",
+            "name": "Sweden",
             "url": "https://rail.cc/train-company/sweden/se",
             "UIC": "✅",
             "IBNR": "❌",
@@ -877,7 +940,12 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Turkey" },
+          "properties": {
+            "fill": "gray",
+            "name": "Turkey",
+            "url": "https://rail.cc/train-company/turkey/tr",
+            "description": "No research done"
+          },
           "id": "TR",
           "arcs": [
             [[641]],
@@ -973,13 +1041,22 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "San Marino" },
+          "properties": {
+            "fill": "gray",
+            "name": "San Marino",
+            "description": "No railway network"
+          },
           "id": "SM",
           "arcs": [[708, -367]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Serbia" },
+          "properties": {
+            "fill": "gray",
+            "name": "Serbia",
+            "url": "https://rail.cc/train-company/serbia/rs",
+            "description": "No research done"
+          },
           "id": "RS",
           "arcs": [
             [-467, -27, -335, 709, -333, 710, -331, -352, -592, -36, -441, -14]
@@ -987,13 +1064,23 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Holy See (Vatican City)" },
+          "properties": {
+            "fill": "gray",
+            "name": "Holy See (Vatican City)",
+
+            "description": "No railway network"
+          },
           "id": "VA",
           "arcs": [[-368]]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Russia" },
+          "properties": {
+            "fill": "gray",
+            "name": "Russia",
+            "url": "https://rail.cc/train-company/russia/ru",
+            "description": "No research done"
+          },
           "id": "RU",
           "arcs": [
             [[711, -434, -582, 712, -428, 713, -436]],
