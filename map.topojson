@@ -1,24 +1,39 @@
 {
   "type": "Topology",
+  "original": "https://github.com/leakyMirror/map-of-europe/blob/master/TopoJSON/europe.topojson",
   "objects": {
     "europe": {
       "type": "GeometryCollection",
       "geometries": [
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Azerbaijan" },
+          "properties": {
+            "fill": "grey",
+            "namm": "Azerbaijan",
+            "url": "https://rail.cc/train-company/azerbaijan/az",
+            "description": "No research done"
+          },
           "id": "AZ",
           "arcs": [[[0, 1, 2]], [[3]], [[4]], [[5, 6, 7, 8, 9, 10], [11]]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Albania" },
+          "properties": {
+            "fill": "grey",
+            "name": "Albania",
+            "url": "https://rail.cc/train-company/albania/al",
+            "description": "No dataset found"
+          },
           "id": "AL",
           "arcs": [[12, 13, 14, 15, 16, 17, 18]]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Armenia" },
+          "properties": {
+            "fill": "grey",
+            "name": "Armenia",
+            "url": "https://rail.cc/train-company/armenia/am"
+          },
           "id": "AM",
           "arcs": [[[-12]], [[19, -3, 20, 21, -7], [-5], [-4]]]
         },
@@ -86,7 +101,13 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Austria" },
+          "properties": {
+            "name": "Austria",
+            "url": "https://rail.cc/train-company/austria/at",
+            "uic": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "AT",
           "arcs": [
             [
@@ -627,11 +648,11 @@
         {
           "type": "MultiPolygon",
           "properties": {
+            "fill": "green",
             "name": "Spain",
             "url": "https://rail.cc/train-company/spain/es",
-            "fill": "green",
             "UIC": true,
-            "Coverage": "100%"
+            "coverage": "100%"
           },
           "id": "ES",
           "arcs": [
