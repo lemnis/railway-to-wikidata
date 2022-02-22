@@ -1,6 +1,44 @@
 {
   "type": "Topology",
-  "original": "https://github.com/leakyMirror/map-of-europe/blob/master/TopoJSON/europe.topojson",
+  "$original": "https://github.com/leakyMirror/map-of-europe/blob/master/TopoJSON/europe.topojson",
+  "links": [        [
+    "https://rail.cc/train-company/denmark/dk",
+    "https://rail.cc/train-company/estonia/ee",
+    "https://rail.cc/train-company/finland/fi",
+    "https://rail.cc/train-company/france/fr",
+    "https://rail.cc/train-company/georgia/ge",
+    "https://rail.cc/train-company/germany/de",
+    "https://rail.cc/train-company/greece/gr",
+    "https://rail.cc/train-company/hungary/hu",
+    "https://rail.cc/train-company/iran/ir",
+    "https://rail.cc/train-company/italy/it",
+    "https://rail.cc/train-company/kazakhstan/kz",
+    "https://rail.cc/train-company/kosovo/ks",
+    "https://rail.cc/train-company/latvia/lv",
+    "https://rail.cc/train-company/liechtenstein/li",
+    "https://rail.cc/train-company/lithuania/lt",
+    "https://rail.cc/train-company/luxembourg/lu",
+    "https://rail.cc/train-company/macedonia/mk",
+    "https://rail.cc/train-company/moldova/md",
+    "https://rail.cc/train-company/monaco/mc",
+    "https://rail.cc/train-company/montenegro/me",
+    "https://rail.cc/train-company/netherlands/nl",
+    "https://rail.cc/train-company/norway/no",
+    "https://rail.cc/train-company/poland/pl",
+    "https://rail.cc/train-company/portugal/pt",
+    "https://rail.cc/train-company/romania/ro",
+    "https://rail.cc/train-company/russia/ru",
+    "https://rail.cc/train-company/serbia/rs",
+    "https://rail.cc/train-company/slovakia/sk",
+    "https://rail.cc/train-company/slovenia/si",
+    "https://rail.cc/train-company/spain/es",
+    "https://rail.cc/train-company/sweden/se",
+    "https://rail.cc/train-company/switzerland/ch",
+    "https://rail.cc/train-company/turkey/tr",
+    "https://rail.cc/train-company/ukraine/ua",
+    "https://rail.cc/train-company/united-kingdom/uk",
+    "https://rail.cc/train-company/uzbekistan/uz"
+  ],
   "objects": {
     "europe": {
       "type": "GeometryCollection",
@@ -39,19 +77,33 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Bosnia and Herzegovina" },
+          "properties": {
+            "fill": "grey",
+            "name": "Bosnia and Herzegovina",
+            "url": "https://rail.cc/train-company/bosnia-herzegovina/ba",
+            "description": "No research done"
+          },
           "id": "BA",
           "arcs": [[22, 23, 24, 25, 26, 27, 28, 29, 30, 31]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Bulgaria" },
+          "properties": {
+            "fill": "grey",
+            "name": "Bulgaria",
+            "url": "https://rail.cc/train-company/bulgaria/bg",
+            "description": "No research done"
+          },
           "id": "BG",
           "arcs": [[32, 33, 34, 35, 36, 37]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Cyprus" },
+          "properties": {
+            "fill": "grey",
+            "name": "Cyprus",
+            "description": "No railway network"
+          },
           "id": "CY",
           "arcs": [[38]]
         },
@@ -104,7 +156,7 @@
           "properties": {
             "name": "Austria",
             "url": "https://rail.cc/train-company/austria/at",
-            "uic": true,
+            "UIC": true,
             "IBNR": false,
             "coverage": "100%"
           },
@@ -118,7 +170,12 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Czech Republic" },
+          "properties": {
+            "fill": "grey",
+            "name": "Czech Republic",
+            "url": "https://rail.cc/train-company/czech-republic/cz",
+            "description": "No full dataset found"
+          },
           "id": "CZ",
           "arcs": [[98, 99, 100, 101, 102, 103, 104, 105, 106, -76]]
         },
@@ -299,7 +356,12 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Croatia" },
+          "properties": {
+            "fill": "grey",
+            "name": "Croatia",
+            "url": "https://rail.cc/train-company/croatia/hr",
+            "description": "No research done"
+          },
           "id": "HR",
           "arcs": [
             [[302]],
@@ -395,7 +457,12 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Belarus" },
+          "properties": {
+            "fill": "grey",
+            "name": "Belarus",
+            "url": "https://rail.cc/train-company/belarus/bl",
+            "description": "No dataset found"
+          },
           "id": "BY",
           "arcs": [
             [
@@ -445,7 +512,14 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Belgium" },
+          "properties": {
+            "fill": "green",
+            "name": "Belgium",
+            "url": "https://rail.cc/train-company/belgium/be",
+            "IBNR": false,
+            "UIC": true,
+            "coverage": "100%"
+          },
           "id": "BE",
           "arcs": [[443, 444, 445, 446, 447, -228, 448, -145, 449, 450, 451]]
         },
