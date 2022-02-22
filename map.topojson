@@ -70,7 +70,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Denmark" },
+          "properties": {
+            "fill": "green",
+            "name": "Denmark",
+            "url": "https://rail.cc/train-company/denmark/dk",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "DK",
           "arcs": [
             [[39]],
@@ -95,13 +102,27 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Ireland" },
+          "properties": {
+            "fill": "green",
+            "name": "Ireland",
+            "url": "https://rail.cc/train-company/ireland/ir",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "IE",
           "arcs": [[[58]], [[59]], [[60]], [[61, 62]]]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Estonia" },
+          "properties": {
+            "fill": "orange",
+            "name": "Estonia",
+            "url": "https://rail.cc/train-company/estonia/ee",
+            "UIC": false,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "EE",
           "arcs": [
             [[63]],
@@ -142,7 +163,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Finland" },
+          "properties": {
+            "fill": "green",
+            "name": "Finland",
+            "url": "https://rail.cc/train-company/finland/fi",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "FI",
           "arcs": [
             [[107]],
@@ -175,7 +203,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "France" },
+          "properties": {
+            "fill": "green",
+            "name": "France",
+            "url": "https://rail.cc/train-company/france/fr",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "FR",
           "arcs": [
             [[136]],
@@ -196,7 +231,12 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Georgia" },
+          "properties": {
+            "fill": "grey",
+            "name": "Georgia",
+            "url": "https://rail.cc/train-company/georgia/ge",
+            "description": "No research done"
+          },
           "id": "GE",
           "arcs": [
             [
@@ -207,7 +247,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Germany" },
+          "properties": {
+            "fill": "orange",
+            "name": "Germany",
+            "url": "https://rail.cc/train-company/germany/de",
+            "UIC": false,
+            "IBNR": true,
+            "coverage": "Unknown"
+          },
           "id": "DE",
           "arcs": [
             [[180]],
@@ -242,7 +289,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Greece" },
+          "properties": {
+            "fill": "orange",
+            "name": "Greece",
+            "url": "https://rail.cc/train-company/greece/gr",
+            "UIC": false,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "GR",
           "arcs": [
             [[231]],
@@ -353,7 +407,14 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Hungary" },
+          "properties": {
+            "fill": "green",
+            "name": "Hungary",
+            "url": "https://rail.cc/train-company/hungary/hu",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "HU",
           "arcs": [
             [
@@ -364,19 +425,35 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Iceland" },
+          "properties": {
+            "fill": "grey",
+            "name": "Iceland",
+            "description": "No railway network"
+          },
           "id": "IS",
           "arcs": [[352]]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Israel" },
+          "properties": {
+            "fill": "green",
+            "name": "Israel",
+            "url": "https://rail.cc/train-company/israe/il",
+            "description": "No research done"
+          },
           "id": "IL",
           "arcs": [[[353]], [[354]]]
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Italy" },
+          "properties": {
+            "fill": "orange",
+            "name": "Italy",
+            "url": "https://rail.cc/train-company/italy/it",
+            "UIC": false,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "IT",
           "arcs": [
             [
@@ -461,7 +538,7 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "The former Yugoslav Republic of Macedonia" },
+          "properties": { "NAME": "North Macedonia" },
           "id": "MK",
           "arcs": [[440, -35, -302, -15]]
         },
@@ -526,7 +603,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Netherlands" },
+          "properties": {
+            "fill": "green",
+            "name": "Netherlands",
+            "url": "https://rail.cc/train-company/netherlands/nl",
+            "UIC": true,
+            "IBNR": true,
+            "coverage": "100%"
+          },
           "id": "NL",
           "arcs": [
             [[-451, 469]],
@@ -542,7 +626,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Norway" },
+          "properties": {
+            "fill": "green",
+            "name": "Norway",
+            "url": "https://rail.cc/train-company/norway/no",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "NO",
           "arcs": [
             [[480]],
@@ -653,13 +744,27 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Portugal" },
+          "properties": {
+            "fill": "green",
+            "name": "Portugal",
+            "url": "https://rail.cc/train-company/portugal/pt",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "PT",
           "arcs": [[585, 586]]
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Romania" },
+          "properties": {
+            "fill": "green",
+            "name": "Romania",
+            "url": "https://rail.cc/train-company/romania/ro",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "RO",
           "arcs": [[587, 588, 589, 590, -37, 591, -351]]
         },
@@ -687,6 +792,7 @@
             "name": "Spain",
             "url": "https://rail.cc/train-company/spain/es",
             "UIC": true,
+            "IBNR": false,
             "coverage": "100%"
           },
           "id": "ES",
@@ -730,7 +836,14 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Switzerland" },
+          "properties": {
+            "fill": "green",
+            "name": "Switzerland",
+            "url": "https://rail.cc/train-company/switzerland/ch",
+            "UIC": true,
+            "IBNR": false,
+            "coverage": "100%"
+          },
           "id": "CH",
           "arcs": [
             [
