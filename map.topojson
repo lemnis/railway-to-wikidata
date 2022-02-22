@@ -489,7 +489,14 @@
         },
         {
           "type": "Polygon",
-          "properties": { "NAME": "Latvia" },
+          "properties": {
+            "fill": "orange",
+            "name": "Latvia",
+            "url": "https://rail.cc/train-company/latvia/lv",
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "Missing stations"
+          },
           "id": "LV",
           "arcs": [[-74, 389, -72, 390, -70, 391, 392, 393, 394, 395, 396]]
         },
@@ -512,7 +519,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Lithuania" },
+          "properties": {
+            "fill": "green",
+            "name": "Lithuania",
+            "url": "https://rail.cc/train-company/latvia/lv",
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "100%"
+          },
           "id": "LT",
           "arcs": [
             [[427, 428]],
@@ -810,7 +824,15 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Sweden" },
+          "properties": {
+            "fill": "green",
+            "name": "Ireland",
+            "url": "https://rail.cc/train-company/sweden/se",
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "Incomplete",
+            "description": "Need to implement more train companies"
+          },
           "id": "SE",
           "arcs": [
             [[616]],
@@ -867,7 +889,14 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "United Kingdom" },
+          "properties": {
+            "fill": "orange",
+            "name": "United Kingdom",
+            "url": "https://rail.cc/train-company/united-kingdom/uk",
+            "UIC": "❌",
+            "IBNR": "❌",
+            "coverage": "100%"
+          },
           "id": "GB",
           "arcs": [
             [[646]],
@@ -922,7 +951,12 @@
         },
         {
           "type": "MultiPolygon",
-          "properties": { "NAME": "Ukraine" },
+          "properties": {
+            "fill": "gray",
+            "name": "Ukraine",
+            "url": "https://rail.cc/train-company/ukraine/ua",
+            "description": "No research done"
+          },
           "id": "UA",
           "arcs": [
             [[694]],
