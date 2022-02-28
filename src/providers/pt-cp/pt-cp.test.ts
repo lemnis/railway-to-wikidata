@@ -3,7 +3,7 @@ import fs from "fs";
 import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { ScoreCp } from "./cp.constants";
+import { ScoreCp } from "./pt-cp.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LocationV4 } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
@@ -40,7 +40,7 @@ test("locations in the Portugal should match expected score", async (t) => {
   t.assert(uic?.total > LARGE_DATA_SIZE);
 });
 
-test("Should not have 2 foreign locations", async (t) => {
+test("Should have 2 foreign locations", async (t) => {
   const foreignLocations = atocLocations.filter((feature) =>
     feature.properties?.[Property.Country]?.every(
       ({ value }) => value !== Country.Portugal.wikidata

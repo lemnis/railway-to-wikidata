@@ -9,8 +9,9 @@ export const getLocations = () =>
   comboios.stations().then((locations) =>
     Promise.all(
       locations.map<Promise<LocationV4>>(
-        async ({ uicId, name, location, timezone, country }) => {
+        async ({ uicId, name, location, timezone, country, id }) => {
           return {
+            id,
             labels: [{ value: name }],
             claims: {
               [CodeIssuer.UIC]: [{ value: uicId }],
