@@ -2,7 +2,17 @@
 // offical dataset can be found here:
 // https://www.promet-info.hr/en/datasets_details?id=95df8225-6741-acc6-f7f2-2f9b7d0902f6
 
-export const Stations = new Promise((resolve) => {
+export const Stations = new Promise<
+  {
+    latitude: number;
+    longitude: number;
+    name: string;
+    street: string;
+    map: any;
+    nameAndStreet: string;
+    description: string;
+  }[]
+>((resolve) => {
   const result: {
     latitude: number;
     longitude: number;
