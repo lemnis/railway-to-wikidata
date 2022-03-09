@@ -50,10 +50,13 @@
         {
           "type": "Polygon",
           "properties": {
-            "fill": "grey",
+            "fill": "green",
             "name": "Bulgaria",
             "url": "https://rail.cc/train-company/bulgaria/bg",
-            "description": "No research done"
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "100%",
+            "description": "European Union Agency for Railway has stations with coordinates, site has UIC codes"
           },
           "id": "BG",
           "arcs": [[32, 33, 34, 35, 36, 37]]
@@ -154,10 +157,12 @@
         {
           "type": "Polygon",
           "properties": {
-            "fill": "grey",
+            "fill": "green",
             "name": "Czech Republic",
             "url": "https://rail.cc/train-company/czech-republic/cz",
-            "description": "No full dataset found"
+            "UIC": "✅",
+            "IBNR": "❌",
+            "coverage": "100%"
           },
           "id": "CZ",
           "arcs": [[98, 99, 100, 101, 102, 103, 104, 105, 106, -76]]
@@ -249,12 +254,12 @@
         {
           "type": "MultiPolygon",
           "properties": {
-            "fill": "orange",
+            "fill": "green",
             "name": "Germany",
             "url": "https://rail.cc/train-company/germany/de",
             "UIC": "❌",
             "IBNR": "✅",
-            "coverage": "Unknown"
+            "coverage": "100%"
           },
           "id": "DE",
           "arcs": [
@@ -373,10 +378,10 @@
         {
           "type": "MultiPolygon",
           "properties": {
-            "fill": "orange",
+            "fill": "green",
             "name": "Croatia",
             "url": "https://rail.cc/train-company/croatia/hr",
-            "UIC": "❌",
+            "UIC": "✅",
             "IBNR": "❌",
             "coverage": "100%",
             "description": "GTFS data available behind a HTTP Auth"
@@ -451,10 +456,10 @@
         {
           "type": "MultiPolygon",
           "properties": {
-            "fill": "orange",
+            "fill": "green",
             "name": "Italy",
             "url": "https://rail.cc/train-company/italy/it",
-            "UIC": "❌",
+            "UIC": "✅",
             "IBNR": "❌",
             "coverage": "100%"
           },
@@ -797,13 +802,12 @@
         {
           "type": "Polygon",
           "properties": {
-            "fill": "orange",
+            "fill": "green",
             "name": "Poland",
             "url": "https://rail.cc/train-company/poland/pl",
             "UIC": "✅",
             "IBNR": "❌",
-            "coverage": "Incomplete",
-            "description": "Need to implement more train companies"
+            "coverage": "100%"
           },
           "id": "PL",
           "arcs": [
@@ -853,13 +857,12 @@
         {
           "type": "Polygon",
           "properties": {
-            "fill": "orange",
+            "fill": "green",
             "name": "Slovenia",
             "url": "https://rail.cc/train-company/slovenia/si",
             "UIC": "✅",
             "IBNR": "❌",
             "coverage": "100%",
-            "coordinates": "❌",
             "description": "GTFS data available behind a HTTP Auth"
           },
           "id": "SI",
