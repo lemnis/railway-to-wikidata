@@ -51,7 +51,7 @@ test("Spanish locations should match expected score", async (t) => {
   );
 });
 
-test("Should not have Foreign locations", async (t) => {
+test("Foreign locations should match score", async (t) => {
   const foreignLocations = renfeLocations.filter((feature) =>
     feature.properties?.[Property.Country]?.every(
       ({ value }: any) => value !== Country.Spain.wikidata

@@ -14,16 +14,14 @@ export const getLocations = (): Promise<LocationV4[]> =>
       const uicCountryCode = stop_id.toString().slice(0, 2);
       const uicStationCode = stop_id.toString().slice(-5);
       return {
-        id: stop_id,
+        id: stop_id.toString(),
         labels: [{ value: stop_name }],
         claims: {
           [CodeIssuer.UIC]: [{ value: uicCountryCode + uicStationCode }],
           [Property.Country]: [
             { value: findCountryByUIC(parseInt(uicCountryCode))?.wikidata },
           ],
-          [Property.CoordinateLocation]: [
-            { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
-          ],
+          [Property.CoordinateLocation]: [{ value: [stop_lat, stop_lon] }],
         },
       };
     })
