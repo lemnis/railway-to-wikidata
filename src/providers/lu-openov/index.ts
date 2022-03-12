@@ -9,16 +9,15 @@ export const getLocations = (): Promise<LocationV4[]> =>
     "open-ov"
   ).then((data) =>
     data
-      .map(({ stop_lat, stop_lon, stop_name, stop_id }) => {
+      .map<LocationV4>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
         return {
+          id: stop_id.toString(),
           labels: [{ value: stop_name }],
           claims: {
-            [CodeIssuer.UIC]: [{ value: stop_id }],
             [Property.Country]: [{ value: Country.Luxembourg.wikidata }],
-            [Property.CoordinateLocation]: [
-              { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
-            ],
+            [Property.CoordinateLocation]: [{ value: [stop_lat, stop_lon] }],
           },
         };
       })
+      .sort((a, b) => a.id?.localeCompare(b.id!) ?? 0)
   );
