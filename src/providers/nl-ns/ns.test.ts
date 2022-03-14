@@ -1,6 +1,6 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
+import { LocationV5 } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import {
@@ -17,10 +17,10 @@ import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 
-const ns: Feature<Point, { labels: any[]; [key: string]: any }>[] = JSON.parse(
-  fs.readFileSync(path + "ns.geojson", "utf-8")
+const ns: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "nl-ns.geojson", "utf-8")
 ).features;
-const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const wikipedia: LocationV5[] =
   JSON.parse(
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;
@@ -127,7 +127,7 @@ test("Foreign locations should match expected score", async (t) => {
     wikipedia
   );
 
-  t.is(notFound.length, 13);
+  t.is(notFound.length, 17);
   t.is(location?.matches / location?.total, 1);
   t.is(tracks?.total, 0);
   t.is(faces?.total, 0);

@@ -1,17 +1,17 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { ReliabilitySncf, ScoreSncf } from "./sncf.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { LocationV5 } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const sncfLocations: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const sncfLocations: LocationV5[] =
   JSON.parse(fs.readFileSync(path + "sncf.geojson", "utf-8")).features;
-const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const wikipedia: LocationV5[] =
   JSON.parse(
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;
@@ -59,5 +59,5 @@ test("Should not have Foreign locations", async (t) => {
 
 test("Calculated reliability score should match", (t) => {
   t.is(ReliabilitySncf.France[Property.PostalCode].toFixed(1), "0.8");
-  t.is(ReliabilitySncf.France[CodeIssuer.UIC].toFixed(1), "0.8");
+  t.is(ReliabilitySncf.France[CodeIssuer.UIC].toFixed(3), "0.770");
 });

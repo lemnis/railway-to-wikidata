@@ -1,16 +1,16 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { LocationV5 } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const peatus: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const peatus: LocationV5[] =
   JSON.parse(fs.readFileSync(path + "peatus.geojson", "utf-8")).features;
-const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const wikipedia: LocationV5[] =
   JSON.parse(
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;

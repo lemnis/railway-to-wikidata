@@ -1,16 +1,15 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
+import { LocationV5 } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { getFullMatchScore } from "../../utils/test";
-import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 
-const OpenOvLocations: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const OpenOvLocations: LocationV5[] =
   JSON.parse(fs.readFileSync(path + "lu-openov.geojson", "utf-8")).features;
-const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const wikipedia: LocationV5[] =
   JSON.parse(
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;

@@ -1,12 +1,11 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { LocationV4 } from "../../types/location";
+import { LocationV5 } from "../../types/location";
 import { singleProperty, noCodeIssuers, noLocations } from "./euafr.macro";
 
-const wiki: Feature<Point, LocationV4["claims"]>[] = JSON.parse(
+const wiki: LocationV5[] = JSON.parse(
   fs.readFileSync(
     __dirname + "/../../../geojson/wikidata-railway-stations.geojson",
     "utf-8"

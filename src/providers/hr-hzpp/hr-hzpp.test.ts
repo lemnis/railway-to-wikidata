@@ -1,14 +1,11 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
 import { Property } from "../../types/wikidata";
 import { Country } from "../../transform/country";
+import { LocationV5 } from "../../types/location";
 const path = __dirname + "/../../../geojson/";
 
-const hzppLocations: Feature<
-  Point,
-  { labels: any[]; [key: string]: any }
->[] = JSON.parse(
+const hzppLocations: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "hr-hzpp.geojson", "utf-8")
 ).features;
 

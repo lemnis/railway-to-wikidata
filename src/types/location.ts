@@ -1,5 +1,6 @@
 import { ClaimObject, CodeIssuer, Property } from "./wikidata";
-import { score } from '../score';
+import { score } from "../score";
+import { Feature, Point, MultiPoint } from "geojson";
 
 export interface Label {
   value: string;
@@ -7,21 +8,9 @@ export interface Label {
   variants?: string[];
 }
 
-export interface LocationV3 {
+interface Basic {
+  id: string;
   labels: Label[];
-  claims: Partial<Record<CodeIssuer | Property, any[]>>;
-  info?: Record<string, any>;
-  id?: string;
-}
-
-export interface LocationV4 {
-  id?: string;
-  labels: Label[];
-  claims: {
-    [key in Property | CodeIssuer]?: key extends Property.CoordinateLocation
-      ? ClaimObject<[number, number]>[]
-      : ClaimObject<string>[];
-  };
   info?: {
     match?: {
       matched?: ReturnType<typeof score>;
@@ -29,6 +18,22 @@ export interface LocationV4 {
       [key: string]: any;
     }[];
     matched?: number;
-    [key: string]: any;
   };
 }
+
+export interface LocationV4 extends Basic {
+  claims: {
+    [key in Property | CodeIssuer]?: key extends Property.CoordinateLocation
+      ? ClaimObject<[number, number]>[]
+      : ClaimObject<string>[];
+  };
+}
+
+export type LocationV5 = Feature<
+  Point | MultiPoint,
+  Basic &  {
+    [key in Property | CodeIssuer]?: key extends keyof Basic
+      ? Basic[key]
+      : ClaimObject<string>[];
+  }
+>;

@@ -1,19 +1,18 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { ScoreZsk } from "./sk-zsr.contstants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LocationV4 } from "../../types/location";
+import { LocationV5 } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 
-const zsrLocations: Feature<Point, LocationV4["claims"]>[] = JSON.parse(
+const zsrLocations: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "sk-zsr.geojson", "utf-8")
 ).features;
-const wikidata: Feature<Point, LocationV4["claims"]>[] = JSON.parse(
+const wikidata: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 
@@ -31,7 +30,7 @@ test("Locations in the Slovakia should match expected score", async (t) => {
     [CodeIssuer.UIC]: uic
   } = await getFullMatchScore(locations, wikidata);
 
-  t.is(country.matches / country.total, 1);
+  closeTo(t, country.matches / country.total, 1);
   t.is(location.matches / location.total, 1);
 
   t.assert(uic?.total < LARGE_DATA_SIZE);

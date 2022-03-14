@@ -1,6 +1,6 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
+import { LocationV5 } from "../../types/location";
 import { Property } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { getFullMatchScore } from "../../utils/test";
@@ -9,13 +9,10 @@ import { IrelandScore } from "./ie-irish-rail.constants";
 
 const path = __dirname + "/../../../geojson/";
 
-const irishRailLocations: Feature<
-  Point,
-  { labels: any[]; [key: string]: any }
->[] = JSON.parse(
+const irishRailLocations: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "ie-irish-rail.geojson", "utf-8")
 ).features;
-const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
+const wikipedia: LocationV5[] =
   JSON.parse(
     fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
   ).features;
