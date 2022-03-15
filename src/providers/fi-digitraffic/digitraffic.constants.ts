@@ -7,7 +7,7 @@ export const FinlandScore = {
 }
 
 export const ForeignScore = {
-  [CodeIssuer.UIC]: .1
+  [CodeIssuer.UIC]: 0
 }
 
 export const ReliabilityDigitraffic = {

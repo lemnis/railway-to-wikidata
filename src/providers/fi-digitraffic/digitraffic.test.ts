@@ -12,15 +12,13 @@ const path = __dirname + "/../../../geojson/";
 const digitrafficLocations: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "fi-digitraffic.geojson", "utf-8")
 ).features;
-const wikipedia: LocationV5[] =
-  JSON.parse(
-    fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
-  ).features;
+const wikipedia: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+).features;
 
 test("Finnish locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
-    [Property.CoordinateLocation]: location,
     [Property.StationCode]: stationCode,
     [CodeIssuer.UIC]: uic,
   } = await getFullMatchScore(
@@ -29,11 +27,12 @@ test("Finnish locations should match expected score", async (t) => {
         ({ value }: any) => value === Country.Finland.wikidata
       )
     ),
-    wikipedia
+    wikipedia,
+    [CodeIssuer.UIC, Property.StationCode, Property.Country],
+    1.8
   );
 
   t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
 
   closeTo(t, uic?.matches / uic?.total, FinlandScore[CodeIssuer.UIC]);
   t.assert(uic?.total > LARGE_DATA_SIZE);
@@ -53,15 +52,21 @@ test("Foreign locations should match expected score", async (t) => {
     )
   );
   t.is(foreignLocations.length, 5);
+
   const {
     [Property.Country]: country,
-    [Property.CoordinateLocation]: location,
+    [Property.StationCode]: stationCode,
     [CodeIssuer.UIC]: uic,
-  } = await getFullMatchScore(foreignLocations, wikipedia);
+    notFound,
+  } = await getFullMatchScore(
+    foreignLocations,
+    wikipedia,
+    [Property.Country, Property.StationCode, CodeIssuer.UIC],
+    1
+  );
 
-  t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
-
-  closeTo(t, uic?.matches / uic?.total, ForeignScore[CodeIssuer.UIC]);
+  t.is(country.total, 0);
+  t.is(stationCode.total, 0);
+  t.is(uic.total, 0);
   t.assert(uic?.total < LARGE_DATA_SIZE);
 });
