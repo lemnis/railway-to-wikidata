@@ -1,44 +1,54 @@
 import test from "ava";
-import fs from "fs";
+import { promises as fs } from "fs";
 import { LocationV5 } from "../../types/location";
-import { CodeIssuer, Property } from "../../types/wikidata";
+import { Property } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { getFullMatchScore } from "../../utils/test";
 
 const path = __dirname + "/../../../geojson/";
 
-const OpenOvLocations: LocationV5[] =
-  JSON.parse(fs.readFileSync(path + "lu-openov.geojson", "utf-8")).features;
-const wikipedia: LocationV5[] =
-  JSON.parse(
-    fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
-  ).features;
+const openOvLocations = fs
+  .readFile(path + "lu-openov.geojson", "utf-8")
+  .then((data) => JSON.parse(data).features as LocationV5[]);
+const trainline = fs
+  .readFile(path + "trainline-stations.geojson", "utf-8")
+  .then((data) => JSON.parse(data).features as LocationV5[]);
+const wikidata = fs
+  .readFile(path + "wikidata-railway-stations.geojson", "utf-8")
+  .then((data) => JSON.parse(data).features as LocationV5[]);
 
 test("Luxembourg locations should match expected score", async (t) => {
-  const {
-    [Property.Country]: country,
-    [Property.CoordinateLocation]: location,
-    [CodeIssuer.UIC]: uic,
-  } = await getFullMatchScore(
-    OpenOvLocations.filter((feature) =>
-      feature.properties?.[Property.Country]?.every(
-        ({ value }: any) => value === Country.Luxembourg.wikidata
-      )
-    ),
-    wikipedia
-  );
+  const { [Property.Country]: country } =
+    await getFullMatchScore(
+      (
+        await openOvLocations
+      ).filter((feature) =>
+        feature.properties?.[Property.Country]?.every(
+          ({ value }: any) => value === Country.Luxembourg.wikidata
+        )
+      ),
+      await trainline,
+      [Property.Country],
+      1.6
+    );
 
-  t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
-  t.is(uic?.total, 0);
+    t.is(country.matches / country.total, 1);
 });
 
 test("Should not have Foreign locations", async (t) => {
-  const ForeignLocation = OpenOvLocations.filter((feature) =>
-    feature.properties?.[Property.Country]?.every(
-      ({ value }: any) => value !== Country.Luxembourg.wikidata
-    )
-  );
+  const { [Property.Country]: country } =
+    await getFullMatchScore(
+      (
+        await openOvLocations
+      ).filter((feature) =>
+        feature.properties?.[Property.Country]?.every(
+          ({ value }: any) => value !== Country.Luxembourg.wikidata
+        )
+      ),
+      await trainline,
+      [Property.Country],
+      1.6
+    );
 
-  t.is(ForeignLocation.length, 0);
+    t.is(country.matches / country.total, 1);
 });
