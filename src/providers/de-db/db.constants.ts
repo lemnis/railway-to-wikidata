@@ -4,7 +4,7 @@ import { CodeIssuer, Property } from "../../types/wikidata";
 export const GERMANY_IBNR_SCORE = 1;
 export const GERMANY_DB_SCORE = 1;
 export const GERMANY_POSTAL_CODE_SCORE = 1;
-export const GERMANY_STATION_CATEGORY_SCORE = 1;
+export const GERMANY_STATION_CATEGORY_SCORE = 0;
 export const GERMANY_IN_ADMINISTRATIVE_TERRITORY_SCORE = 1;
 
 export const Score = {

@@ -1,7 +1,7 @@
 import { Reliability } from "../../score/reliability";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
-export const POLAND_UIC_SCORE = 0.8;
+export const POLAND_UIC_SCORE = 0.9;
 
 export const ReliabilityPKP = {
   Poland: {

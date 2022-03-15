@@ -15,17 +15,16 @@ import { LocationV5 } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const dbLocations: LocationV5[] =
-  JSON.parse(fs.readFileSync(path + "db.geojson", "utf-8")).features;
-const wikipedia: LocationV5[] =
-  JSON.parse(
-    fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
-  ).features;
+const dbLocations: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "db.geojson", "utf-8")
+).features;
+const wikipedia: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+).features;
 
 test("German locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
-    [Property.CoordinateLocation]: location,
     [Property.PostalCode]: postalCode,
     [Property.InAdministrativeTerritory]: inAdministrativeTerritory,
     [Property.DBStationCategory]: stationCategory,
@@ -39,11 +38,19 @@ test("German locations should match expected score", async (t) => {
         )
       )
       .slice(0, 500),
-    wikipedia
+    wikipedia,
+    [
+      Property.Country,
+      Property.PostalCode,
+      Property.InAdministrativeTerritory,
+      Property.DBStationCategory,
+      CodeIssuer.IBNR,
+      CodeIssuer.DB,
+    ],
+    1.5
   );
 
   t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
 
   closeTo(t, ibnr?.matches / ibnr?.total, GERMANY_IBNR_SCORE);
   t.assert(ibnr?.total > LARGE_DATA_SIZE);
@@ -56,7 +63,7 @@ test("German locations should match expected score", async (t) => {
     postalCode?.matches / postalCode?.total,
     GERMANY_POSTAL_CODE_SCORE
   );
-  t.assert(postalCode?.total > LARGE_DATA_SIZE);
+  t.assert(postalCode?.total < LARGE_DATA_SIZE);
 
   closeTo(
     t,
@@ -82,5 +89,5 @@ test("Should not have any foreign locations", async (t) => {
   t.is(foreignLocations.length, 0);
 });
 
-test.todo('Should be able to cache administrative territory');
-test.todo('Should be able to get cached administrative territory');
+test.todo("Should be able to cache administrative territory");
+test.todo("Should be able to get cached administrative territory");

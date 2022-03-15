@@ -1,8 +1,6 @@
-import { ResultSet } from "@lokidb/loki/types/loki/src/result_set";
 import { Position } from "geojson";
-import { distanceTo, insideCircle, LatLon } from "geolocation-utils";
-import { destination } from "pino";
-import { normalizeName, score } from "../score/label";
+import { insideCircle, LatLon } from "geolocation-utils";
+import { score } from "../score/label";
 import { LocationV4, LocationV5 } from "../types/location";
 import { Property, CodeIssuer, ClaimObject } from "../types/wikidata";
 
@@ -62,7 +60,6 @@ const matchCoordinates = (source: LocationV5, destination: LocationV5, maxDistan
 const matchLabels = (source: LocationV5, destination: LocationV5) => {
   const sourceLabels = source.properties.labels;
   const destinationLabels = destination.properties.labels;
-  console.log(sourceLabels, destinationLabels);
   return score(destinationLabels, sourceLabels).percentage > 0;
 };
 
@@ -70,10 +67,10 @@ export const matchByNameAndDistance = (
   source: LocationV5,
   destination: LocationV5
 ) => {
-  return matchCoordinates(source, destination) && matchLabels(source, destination);
+  const coor = matchCoordinates(source, destination);
+  if(!coor) return false;
+  const l = matchLabels(source, destination);
+  const m = matchLabels(destination, source);
+  return coor && (l || m);
 }
 
-// export const map = (sourceList: LocationV4[], destinationList: LocationV4[]) =>
-//   sourceList.map((entity) =>
-//     destinationList.map((destination) => matchIds(entity, destination))
-//   );

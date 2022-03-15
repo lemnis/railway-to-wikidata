@@ -2,7 +2,14 @@ import { Reliability } from "../../score/reliability";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
 export const ScoreZsk = {
-  [CodeIssuer.UIC]: .4,
+  [CodeIssuer.UIC]: .7,
+
+  // Wien Meidling (foreign location) is a bit off
+  [Property.CoordinateLocation]: .8,
+};
+
+export const ForeignScore = {
+  [CodeIssuer.UIC]: .45,
 
   // Wien Meidling (foreign location) is a bit off
   [Property.CoordinateLocation]: .8,

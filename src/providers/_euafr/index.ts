@@ -169,6 +169,7 @@ export const getLocations = async () => {
       }
 
       return {
+        id: UOPID,
         labels: [{ value: type?.getName?.(Name) || Name }],
         claims: {
           ...(type?.property
@@ -189,11 +190,3 @@ export const getLocations = async () => {
     }
   );
 };
-
-// (async () => {
-//   fetch(`${API_BASE_URL}/XmlDatasets/NO`, {
-//     headers: {
-//       Authorization: `Bearer ${await token}`,
-//     },
-//   }).then((response) => response.text()).then(text => fs.writeFile('no.xml', text))
-// })();

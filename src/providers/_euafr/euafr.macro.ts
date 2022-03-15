@@ -1,18 +1,17 @@
 import test from "ava";
-import { Feature, Point } from "geojson";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { CountryInfo, getCountryNameByWikidata } from "../../transform/country";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LocationV4 } from "../../types/location";
+import { LocationV5 } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import fs from "fs";
 
 const path = __dirname + "/../../../geojson/";
 
-const euafrLocations: Feature<Point, LocationV4["claims"]>[] = JSON.parse(
+const euafrLocations: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "_euafr.geojson", "utf-8")
 ).features;
-const trainline: Feature<Point, LocationV4["claims"]>[] = JSON.parse(
+const trainline: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "trainline-stations.geojson", "utf-8")
 ).features;
 
@@ -27,7 +26,7 @@ export const singleProperty = test.macro({
       large = true,
     }: {
       code?: Property | CodeIssuer;
-      data?: Feature<Point, LocationV4["claims"]>[];
+      data?: LocationV5[];
       large?: boolean;
       size?: number;
     } = {}
@@ -42,12 +41,10 @@ export const singleProperty = test.macro({
 
     const {
       [Property.Country]: country,
-      [Property.CoordinateLocation]: location,
       [code]: codeMatch,
-    } = await getFullMatchScore(locations, data);
+    } = await getFullMatchScore(locations, data, [code]);
 
     closeTo(t, country.matches / country.total, 1);
-    t.is(location.matches / location.total, 1);
     t.assert(codeMatch?.total > 0);
     t.assert(
       large
