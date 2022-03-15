@@ -1,51 +1,41 @@
 import { ExecutionContext } from "ava";
 import { Feature, Point } from "geojson";
 import { distanceTo } from "geolocation-utils";
+import { cloneDeep, isMatch } from "lodash";
 import { score, WITHOUT_LOCATION_SCORE_THRESHOLD } from "../score";
-import { Property } from "../types/wikidata";
+import { LocationV5 } from "../types/location";
+import { CodeIssuer, Property } from "../types/wikidata";
+import { inspect } from "util";
+import { matchByNameAndDistance } from "../match";
 
 async function getScore(
-  wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[],
-  location: Feature<Point, { labels: any[]; [key: string]: any }>,
-  result: any
+  wikipedia: LocationV5[],
+  location: LocationV5,
+  result: any,
+  exclude:  (CodeIssuer | Property)[]
 ) {
   const { geometry, properties } = location;
   const { labels, ...claims } = properties;
 
-  const close = wikipedia.filter((feature) => {
-    return (
-      distanceTo(
-        feature!.geometry.coordinates! as [number, number],
-        geometry.coordinates! as [number, number]
-      ) < 3000
-    );
-  });
+  const close = wikipedia
+    .filter((feature) => matchByNameAndDistance(feature, location))
+    .sort((a, b) => {
+      const d = distanceTo(
+        a.geometry.coordinates! as [number, number],
+        b.geometry.coordinates! as [number, number]
+      );
+      return d === 3000 ? 0 : d < 3000 ? -1 : 1;
+    });
+
+  // console.log(inspect(close, false, null))
 
   if (!close.length) {
     result.notFound.push(location);
     return;
   }
 
-  const scored = await score(
-    {
-      labels: [labels as any],
-      claims: {
-        ...claims,
-        [Property.CoordinateLocation]: [
-          { value: geometry.coordinates as [number, number] },
-        ],
-      },
-    },
-    {
-      labels: close[0].properties.labels,
-      claims: {
-        ...(close[0].properties as any),
-        [Property.CoordinateLocation]: [
-          { value: close[0]?.geometry.coordinates },
-        ],
-      },
-    }
-  );
+  const scored = await score(location, close[0]);
+  // await score(location, close[0])
 
   Object.entries(scored.claims.matches).forEach(([key, values]) => {
     result[key] ||= { total: 0, matches: 0, notFound: [], missing: [] };
@@ -61,15 +51,27 @@ async function getScore(
       if (values.matches.filter(({ match }) => !match).length) {
         result[key].notFound.push(scored);
       }
+    } else {
+      result.lowScore ||= [];
+      result.lowScore.push(scored);
     }
   });
 }
 
-export async function getFullMatchScore(locations: any[], otherSource: any[]) {
-  const result: any = { notFound: [], missing: [] };
+export async function getFullMatchScore(locations: LocationV5[], otherSource: LocationV5[], exclude: (CodeIssuer | Property)[] = []) {
+  const result: {
+    notFound: any;
+    missing: any;
+    [key: string]: {
+      notFound: any[];
+      missing: any[];
+      total: number;
+      matches: number;
+    };
+  } = { notFound: [] as any, missing: [] as any };
   await Promise.all(
     locations.map((location) => {
-      getScore(otherSource, location, result);
+      getScore(otherSource, location, result, exclude);
     })
   );
   return result;

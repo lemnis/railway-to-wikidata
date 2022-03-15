@@ -1,6 +1,9 @@
 import { ResultSet } from "@lokidb/loki/types/loki/src/result_set";
+import { Position } from "geojson";
+import { distanceTo, insideCircle, LatLon } from "geolocation-utils";
 import { destination } from "pino";
-import { LocationV4 } from "../types/location";
+import { normalizeName, score } from "../score/label";
+import { LocationV4, LocationV5 } from "../types/location";
 import { Property, CodeIssuer, ClaimObject } from "../types/wikidata";
 
 const ids: (CodeIssuer | Property.StationCode)[] = [
@@ -33,6 +36,42 @@ export const matchIds = (source: LocationV4, destination: LocationV4) =>
         )
       : destination.claims[id]?.some((claim) => matchValue(id, claim, source))
   );
+
+const convertGeoJSONToLatLon = (poisition: Position | Position[]): LatLon[] => {
+  const firstValue = poisition[0];
+  const secondValue = poisition[1];
+  if(typeof firstValue === 'number' && typeof secondValue === 'number') {
+    return [
+      {
+        lat: secondValue,
+        lon: firstValue,
+      }
+    ];
+  } else {
+    return (poisition as Position[]).map(([lon, lat]) => ({ lat, lon}))
+  }
+};
+
+const matchCoordinates = (source: LocationV5, destination: LocationV5, maxDistance = 3000) => {
+  const sourceCoordinates = convertGeoJSONToLatLon(source.geometry.coordinates);
+  const destinationCoordinates = convertGeoJSONToLatLon(destination.geometry.coordinates);
+
+  return sourceCoordinates.some(a => destinationCoordinates.some(b => insideCircle(b, a, maxDistance)));
+};
+
+const matchLabels = (source: LocationV5, destination: LocationV5) => {
+  const sourceLabels = source.properties.labels;
+  const destinationLabels = destination.properties.labels;
+  console.log(sourceLabels, destinationLabels);
+  return score(destinationLabels, sourceLabels).percentage > 0;
+};
+
+export const matchByNameAndDistance = (
+  source: LocationV5,
+  destination: LocationV5
+) => {
+  return matchCoordinates(source, destination) && matchLabels(source, destination);
+}
 
 // export const map = (sourceList: LocationV4[], destinationList: LocationV4[]) =>
 //   sourceList.map((entity) =>

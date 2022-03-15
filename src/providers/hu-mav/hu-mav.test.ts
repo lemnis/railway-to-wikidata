@@ -1,49 +1,36 @@
 import test from "ava";
 import fs from "fs";
-import { Feature, Point } from "geojson";
-import { Property, CodeIssuer } from "../../types/wikidata";
+import { Property } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { HungaryScore } from "./hu-mav.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { LocationV5 } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const digitrafficLocations: Feature<
-  Point,
-  { labels: any[]; [key: string]: any }
->[] = JSON.parse(
+const mavLocations: LocationV5[] = JSON.parse(
   fs.readFileSync(path + "hu-mav.geojson", "utf-8")
 ).features;
-const wikipedia: Feature<Point, { labels: any[]; [key: string]: any }>[] =
-  JSON.parse(
-    fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
-  ).features;
+const wikipedia: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+).features;
 
 test("Hungarian locations should match expected score", async (t) => {
-  const {
-    [Property.Country]: country,
-    [Property.CoordinateLocation]: location,
-    [Property.StationCode]: stationCode,
-    [CodeIssuer.UIC]: uic,
-  } = await getFullMatchScore(
-    digitrafficLocations.filter((feature) =>
+  const { [Property.Country]: country } = await getFullMatchScore(
+    mavLocations.filter((feature) =>
       feature.properties?.[Property.Country]?.every(
         ({ value }: any) => value === Country.Hungary.wikidata
       )
     ),
-    wikipedia
+    wikipedia,
+    [Property.Country, Property.StationCode],
+    1.4
   );
 
-  t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
-
-  closeTo(t, uic?.matches / uic?.total, HungaryScore[CodeIssuer.UIC]);
-  t.assert(uic?.total > LARGE_DATA_SIZE);
+  closeTo(t, country.matches / country.total, 1);
 });
 
 test("Should not have Foreign locations", async (t) => {
-  const foreignLocations = digitrafficLocations.filter((feature) =>
+  const foreignLocations = mavLocations.filter((feature) =>
     feature.properties?.[Property.Country]?.every(
       ({ value }: any) => value !== Country.Hungary.wikidata
     )

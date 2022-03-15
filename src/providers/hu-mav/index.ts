@@ -16,9 +16,6 @@ export const getLocations = () =>
         id: stop_id.toString(),
         labels: [{ value: stop_name }],
         claims: {
-          [CodeIssuer.UIC]: [
-            { value: (Country.Hungary.UIC?.[0] * 100000 + stop_id).toString() },
-          ],
           [Property.Country]: [{ value: Country.Hungary.wikidata }],
           [Property.CoordinateLocation]: [{ value: [stop_lat, stop_lon] }],
         },

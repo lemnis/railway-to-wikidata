@@ -417,12 +417,13 @@
         {
           "type": "Polygon",
           "properties": {
-            "fill": "green",
+            "fill": "orange",
             "name": "Hungary",
             "url": "https://rail.cc/train-company/hungary/hu",
-            "UIC": "✅",
+            "UIC": "❌",
             "IBNR": "❌",
-            "coverage": "100%"
+            "coverage": "100%",
+            "description": "Resource found at http://www.vpe.hu/takt/szh_lista.php not yet implemented"
           },
           "id": "HU",
           "arcs": [
