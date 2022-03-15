@@ -2,11 +2,11 @@ import { Reliability } from "../../score/reliability";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
 export const ScoreLeoExpress = {
-  [CodeIssuer.UIC]: .8,
+  [CodeIssuer.UIC]: .9,
 };
 
 export const ScoreForeign = {
-  [CodeIssuer.UIC]: .5
+  [CodeIssuer.UIC]: .6
 };
 
 export const ReliabilityLeoExpress = {
