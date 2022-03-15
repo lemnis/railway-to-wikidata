@@ -9,17 +9,16 @@ import { LocationV5 } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const sncfLocations: LocationV5[] =
-  JSON.parse(fs.readFileSync(path + "sncf.geojson", "utf-8")).features;
-const wikipedia: LocationV5[] =
-  JSON.parse(
-    fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
-  ).features;
+const sncfLocations: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "sncf.geojson", "utf-8")
+).features;
+const wikipedia: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+).features;
 
 test("French locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
-    [Property.CoordinateLocation]: location,
     [Property.PostalCode]: postalCode,
     [Property.InAdministrativeTerritory]: inAdministrativeTerritory,
     [CodeIssuer.UIC]: uic,
@@ -31,11 +30,17 @@ test("French locations should match expected score", async (t) => {
         )
       )
       .slice(0, 1000),
-    wikipedia
+    wikipedia,
+    [
+      Property.Country,
+      Property.PostalCode,
+      Property.InAdministrativeTerritory,
+      CodeIssuer.UIC,
+    ],
+    1.8
   );
 
   t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
 
   closeTo(t, uic?.matches / uic?.total, ScoreSncf[CodeIssuer.UIC]);
   t.assert(uic?.total > LARGE_DATA_SIZE);
@@ -59,5 +64,5 @@ test("Should not have Foreign locations", async (t) => {
 
 test("Calculated reliability score should match", (t) => {
   t.is(ReliabilitySncf.France[Property.PostalCode].toFixed(1), "0.8");
-  t.is(ReliabilitySncf.France[CodeIssuer.UIC].toFixed(3), "0.770");
+  t.is(ReliabilitySncf.France[CodeIssuer.UIC].toFixed(1), "0.8");
 });

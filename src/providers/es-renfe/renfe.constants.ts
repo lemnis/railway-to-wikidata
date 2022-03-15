@@ -25,11 +25,6 @@ export const ReliabilityRenfe = {
       Reliability.START +
       (Reliability.THIRD_PARTY +
         Reliability.SMALL_DATA_SET +
-        Reliability.COMPUTED * ScoreRenfe[CodeIssuer.UIC]),
-    [Property.StationCode]:
-      Reliability.START +
-      (Reliability.THIRD_PARTY +
-        Reliability.SMALL_DATA_SET +
-        Reliability.RAW * ScoreRenfe[Property.StationCode]),
+        Reliability.COMPUTED * ScoreRenfe[CodeIssuer.UIC])
   },
 };

@@ -32,7 +32,7 @@ test("Irish locations should match expected score", async (t) => {
   );
 
   t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
+  
   t.is(stationCode?.matches / stationCode?.total, IrelandScore[Property.StationCode]);
   t.assert(stationCode?.total > LARGE_DATA_SIZE);
 });
@@ -48,10 +48,11 @@ test("Foreign locations should match score", async (t) => {
         ({ value }: any) => value !== Country.Ireland.wikidata
       )
     ),
-    wikipedia
+    wikipedia,
+    [Property.StationCode, Property.Country],
+    1.8
   );
 
   t.is(country.matches / country.total, 1);
-  t.is(location.matches / location.total, 1);
   t.is(stationCode?.total, 0);
 });

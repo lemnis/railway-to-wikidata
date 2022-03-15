@@ -8,12 +8,12 @@ import { LocationV5 } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const peatus: LocationV5[] =
-  JSON.parse(fs.readFileSync(path + "peatus.geojson", "utf-8")).features;
-const wikipedia: LocationV5[] =
-  JSON.parse(
-    fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
-  ).features;
+const peatus: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "peatus.geojson", "utf-8")
+).features;
+const wikipedia: LocationV5[] = JSON.parse(
+  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+).features;
 
 test("Estonian locations should match expected score", async (t) => {
   const EstonianLocations = peatus.filter((feature) =>
@@ -22,17 +22,14 @@ test("Estonian locations should match expected score", async (t) => {
     )
   );
   t.is(EstonianLocations.length, 238);
-  const {
-    [Property.Country]: country,
-    [CodeIssuer.UIC]: uic,
-    notFound,
-  } = await getFullMatchScore(EstonianLocations, wikipedia);
+  const { [Property.Country]: country } = await getFullMatchScore(
+    EstonianLocations,
+    wikipedia,
+    [Property.Country, CodeIssuer.UIC],
+    1.5
+  );
 
-  t.is(notFound.length, 14);
   t.is(country.matches / country.total, 1);
-
-  closeTo(t, uic?.matches / uic?.total, 0);
-  t.assert(uic?.total > LARGE_DATA_SIZE);
 });
 
 test("Should not have any foreign locations", (t) => {
@@ -46,4 +43,4 @@ test("Should not have any foreign locations", (t) => {
   );
 });
 
-test.todo('Should include UIC code');
+test.todo("Should include UIC code");
