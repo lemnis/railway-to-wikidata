@@ -26,7 +26,7 @@ const source = `{
 
 interface StopPlace {
   id: string;
-  name: { lang: string; value: string }[];
+  name: { lang: string; value: string }[] | { lang: string; value: string };
   keyValues: {
     key:
       | "imported-id" // Other StopPlaces
@@ -59,7 +59,7 @@ export const getLocations = () =>
         )
         .map<LocationV4>(({ id, keyValues, geometry, name }) => ({
           id,
-          labels: name,
+          labels: Array.isArray(name) ? name : [name],
           claims: {
             [CodeIssuer.UIC]: keyValues
               .filter(({ key }) => key === "uicCode")

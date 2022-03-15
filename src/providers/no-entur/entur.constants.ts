@@ -1,7 +1,7 @@
 import { Reliability } from "../../score/reliability";
 import { CodeIssuer } from "../../types/wikidata";
 
-export const NORWAY_UIC_SCORE = 0.9;
+export const NORWAY_UIC_SCORE = 1;
 export const FOREIGN_UIC_SCORE = 0;
 
 export const ReliabilityEntur = {
