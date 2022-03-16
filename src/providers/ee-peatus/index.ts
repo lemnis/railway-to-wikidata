@@ -14,12 +14,12 @@ export const getLocations = (): Promise<LocationV4[]> =>
   ).then((data) =>
     data.map(({ stop_lat, stop_lon, stop_name, stop_id }) => {
       return {
-        id: stop_id,
+        id: stop_id.toString(),
         labels: [{ value: stop_name }],
         claims: {
           [Property.Country]: [{ value: Country.Estonia.wikidata }],
           [Property.CoordinateLocation]: [
-            { value: [parseFloat(stop_lat), parseFloat(stop_lon)] },
+            { value: [stop_lat, stop_lon] },
           ],
         },
       };

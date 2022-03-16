@@ -10,7 +10,7 @@ import { LARGE_DATA_SIZE } from "../../score/reliability";
 const path = __dirname + "/../../../geojson/";
 
 const combiosLocations = fs
-  .readFile(path + "cp.geojson", "utf-8")
+  .readFile(path + "pt-cp.geojson", "utf-8")
   .then((data) => JSON.parse(data).features as LocationV5[]);
 const wikidata = fs
   .readFile(path + "wikidata-railway-stations.geojson", "utf-8")
