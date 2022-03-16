@@ -4,17 +4,17 @@ import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { ScoreCp } from "./pt-cp.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 
 const combiosLocations = fs
   .readFile(path + "pt-cp.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as LocationV5[]);
+  .then((data) => JSON.parse(data).features as Location[]);
 const wikidata = fs
   .readFile(path + "wikidata-railway-stations.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as LocationV5[]);
+  .then((data) => JSON.parse(data).features as Location[]);
 
 test("locations should match expected score", async (t) => {
   const {

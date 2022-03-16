@@ -11,14 +11,14 @@ import {
 } from "./db.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const dbLocations: LocationV5[] = JSON.parse(
+const dbLocations: Location[] = JSON.parse(
   fs.readFileSync(path + "db.geojson", "utf-8")
 ).features;
-const wikipedia: LocationV5[] = JSON.parse(
+const wikipedia: Location[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 

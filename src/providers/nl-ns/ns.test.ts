@@ -1,6 +1,6 @@
 import test from "ava";
 import { promises as fs } from "fs";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import {
@@ -19,10 +19,10 @@ const path = __dirname + "/../../../geojson/";
 
 const ns = fs
   .readFile(path + "nl-ns.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as LocationV5[]);
+  .then((data) => JSON.parse(data).features as Location[]);
 const wikidata = fs
   .readFile(path + "wikidata-railway-stations.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as LocationV5[]);
+  .then((data) => JSON.parse(data).features as Location[]);
 
 const EXPECTED_AMOUNT_OF_LOCATIONS = 579;
 

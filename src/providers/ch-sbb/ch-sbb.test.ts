@@ -3,7 +3,7 @@ import {promises as fs} from "fs";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
@@ -12,13 +12,13 @@ const sbbLocations = fs
   .readFile(path + "ch-sbb.geojson", "utf-8")
   .then(
     (data) =>
-      JSON.parse(data).features as LocationV5[]
+      JSON.parse(data).features as Location[]
   );
 const trainline = fs
   .readFile(path + "trainline-stations.geojson", "utf-8")
   .then(
     (data) =>
-      JSON.parse(data).features as LocationV5[]
+      JSON.parse(data).features as Location[]
   );
 
 test("Locations in the Switzerland should match expected score", async (t) => {

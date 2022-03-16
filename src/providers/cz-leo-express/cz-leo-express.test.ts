@@ -4,20 +4,20 @@ import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { ScoreForeign, ScoreLeoExpress } from "./cz-leo-express.contstants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 
 const leoExpressLocations = fs
   .readFile(path + "cz-leo-express.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as LocationV5[]);
+  .then((data) => JSON.parse(data).features as Location[]);
 const trainline = fs
   .readFile(path + "trainline-stations.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as LocationV5[]);
+  .then((data) => JSON.parse(data).features as Location[]);
 const wikidata = fs
   .readFile(path + "wikidata-railway-stations.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as LocationV5[]);
+  .then((data) => JSON.parse(data).features as Location[]);
 
 test("Locations in the Czech should match expected score", async (t) => {
   const locations = (await leoExpressLocations).filter((feature) =>

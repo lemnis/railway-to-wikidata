@@ -5,14 +5,14 @@ import { Country } from "../../transform/country";
 import { ReliabilitySncf, ScoreSncf } from "./sncf.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const sncfLocations: LocationV5[] = JSON.parse(
+const sncfLocations: Location[] = JSON.parse(
   fs.readFileSync(path + "sncf.geojson", "utf-8")
 ).features;
-const wikipedia: LocationV5[] = JSON.parse(
+const wikipedia: Location[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 

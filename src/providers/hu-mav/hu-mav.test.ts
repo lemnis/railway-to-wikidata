@@ -3,14 +3,14 @@ import fs from "fs";
 import { Property } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const mavLocations: LocationV5[] = JSON.parse(
+const mavLocations: Location[] = JSON.parse(
   fs.readFileSync(path + "hu-mav.geojson", "utf-8")
 ).features;
-const wikipedia: LocationV5[] = JSON.parse(
+const wikipedia: Location[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 

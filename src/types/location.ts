@@ -29,7 +29,7 @@ export interface LocationV4 extends Basic {
   };
 }
 
-export type LocationV5 = Feature<
+export type Location = Feature<
   Point | MultiPoint,
   Basic &  {
     [key in Property | CodeIssuer]?: key extends keyof Basic

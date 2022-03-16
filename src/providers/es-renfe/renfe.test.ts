@@ -1,6 +1,6 @@
 import test from "ava";
 import fs from "fs";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { ReliabilityRenfe, ScoreRenfe } from "./renfe.constants";
@@ -9,10 +9,10 @@ import { LARGE_DATA_SIZE } from "../../score/reliability";
 
 const path = __dirname + "/../../../geojson/";
 
-const renfeLocations: LocationV5[] = JSON.parse(
+const renfeLocations: Location[] = JSON.parse(
   fs.readFileSync(path + "es-renfe.geojson", "utf-8")
 ).features;
-const wikipedia: LocationV5[] = JSON.parse(
+const wikipedia: Location[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 

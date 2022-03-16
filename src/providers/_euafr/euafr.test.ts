@@ -2,10 +2,10 @@ import test from "ava";
 import fs from "fs";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 import { singleProperty, noCodeIssuers, noLocations } from "./euafr.macro";
 
-const wiki: LocationV5[] = JSON.parse(
+const wiki: Location[] = JSON.parse(
   fs.readFileSync(
     __dirname + "/../../../geojson/wikidata-railway-stations.geojson",
     "utf-8"

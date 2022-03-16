@@ -5,14 +5,14 @@ import { Country } from "../../transform/country";
 import { NORWAY_UIC_SCORE, FOREIGN_UIC_SCORE } from "./entur.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 
 const path = __dirname + "/../../../geojson/";
 
-const entur: LocationV5[] = JSON.parse(
+const entur: Location[] = JSON.parse(
   fs.readFileSync(path + "no-entur.geojson", "utf-8")
 ).features;
-const wikipedia: LocationV5[] = JSON.parse(
+const wikipedia: Location[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 
