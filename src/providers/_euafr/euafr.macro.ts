@@ -2,16 +2,16 @@ import test from "ava";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { CountryInfo, getCountryNameByWikidata } from "../../transform/country";
 import { closeTo, getFullMatchScore } from "../../utils/test";
-import { LocationV5 } from "../../types/location";
+import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import fs from "fs";
 
 const path = __dirname + "/../../../geojson/";
 
-const euafrLocations: LocationV5[] = JSON.parse(
+const euafrLocations: Location[] = JSON.parse(
   fs.readFileSync(path + "_euafr.geojson", "utf-8")
 ).features;
-const trainline: LocationV5[] = JSON.parse(
+const trainline: Location[] = JSON.parse(
   fs.readFileSync(path + "trainline-stations.geojson", "utf-8")
 ).features;
 
@@ -26,7 +26,7 @@ export const singleProperty = test.macro({
       large = true,
     }: {
       code?: Property | CodeIssuer;
-      data?: LocationV5[];
+      data?: Location[];
       large?: boolean;
       size?: number;
     } = {}
