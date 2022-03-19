@@ -1,6 +1,6 @@
 import { exportGeoJSON } from ".";
-import { countries } from "../providers/navitia";
-import { logger } from "../utils/logger";
+import { countries } from "../../providers/navitia";
+import { logger } from "../../utils/logger";
 
 export const generateNavitiaGeoJSON = () =>
   Promise.all(

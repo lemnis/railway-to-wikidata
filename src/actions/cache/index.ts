@@ -1,15 +1,15 @@
-import { LocationV4, LocationV5 } from "../types/location";
+import { LocationV4, Location } from "../../types/location";
 import { promises as fs } from "fs";
-import { createFeatureCollection, createGeoFeature } from "../actions/geojson";
+import { createFeatureCollection, createGeoFeature } from "../geojson";
 import { refreshDatabase } from "./properties";
 import { generateNavitiaGeoJSON } from "./navitia";
 import inquirer from "inquirer";
 import {
   getAllRailwayStations,
   getUICRailwayStations,
-} from "../providers/wikidata";
-import { db } from "../utils/database";
-import { getUicLocations } from "../providers/osm/uic";
+} from "../../providers/wikidata";
+import { db } from "../../utils/database";
+import { getUicLocations } from "../../providers/osm/uic";
 import { filter, mergeMap, of, tap } from "rxjs";
 
 const geoJSONPath = `${__dirname}/../../geojson`;
@@ -17,7 +17,7 @@ const geoJSONPath = `${__dirname}/../../geojson`;
 export const exportGeoJSON = (locations: LocationV4[], path: string) => {
   const features = locations
     .map((location) => createGeoFeature(location))
-    .filter((x): x is LocationV5 => !!x);
+    .filter((x): x is Location => !!x);
   const collection = createFeatureCollection(features);
   return fs.writeFile(path, JSON.stringify(collection, null, 2));
 };
@@ -61,6 +61,8 @@ const questions = [
       "For which providers do you want to generate a geoJSON? (Slow ones are disabled by default)",
     choices: [
       { value: "_euafr", checked: true },
+      { value: "_iris", checked: true },
+      { value: "at-oebb", checked: true },
       { value: "be-irail", checked: true },
       { value: "ch-sbb", checked: true },
       { value: "cz-golemio", checked: true },
@@ -75,19 +77,17 @@ const questions = [
       { value: "ie-irish-rail", checked: true },
       { value: "lt-litrail", checked: true },
       { value: "lv-ldz", checked: true },
+      { value: "lv-rigassatiksme", checked: true },
       { value: "lu-openov", checked: true },
       { value: "nl-ns", checked: true },
       { value: "no-entur", checked: true },
       { value: "pl-pkp", checked: true },
       { value: "pt-cp", checked: true },
+      { value: "ro-gov", checked: true },
       { value: "sk-zsr", checked: true },
       { value: "uk-atoc", checked: true },
       // "it-trenitalia",
-      //   "romania",
-      //   "travel-status-de-iris",
       // "lt-visimarsrutai",
-      //   "rigassatiksme",
-      //   "obb",
       //   "train-ose",
       {
         value: "trainline",
@@ -158,7 +158,7 @@ const prompt = inquirer.createPromptModule();
   }
 
   if (osm) {
-    import("../providers/osm")
+    import("../../providers/osm")
       .then((i) => i.getTracks())
       .then((tracks) => {
         tracks
@@ -175,7 +175,7 @@ const prompt = inquirer.createPromptModule();
           )
           .subscribe(() => {});
       });
-    import("../providers/osm")
+    import("../../providers/osm")
       .then((i) => i.getStations())
       .then((stations) => {
         stations
@@ -200,7 +200,7 @@ const prompt = inquirer.createPromptModule();
   await Promise.all(
     geojson.map(async (name) => {
       if (name === "trainline") {
-        import("../providers/trainline").then(
+        import("../../providers/trainline").then(
           async ({
             getGroupedTrainlineLocations,
             trainlineArrayToLocation,
@@ -223,7 +223,32 @@ const prompt = inquirer.createPromptModule();
         );
       } else {
         import(`../providers/${name}`).then(async ({ getLocations }) => {
-          exportGeoJSON(await getLocations(), `${geoJSONPath}/${name}.geojson`);
+          if (
+            [
+              "pt-cp",
+              "sk-zsr",
+              "at-oebb",
+              "lt-litrail",
+              "ro-gov",
+              "ee-peatus",
+              "lv-rigassatiksme",
+              "_iris",
+            ].includes(name)
+          ) {
+            fs.writeFile(
+              `${geoJSONPath}/${name}.geojson`,
+              JSON.stringify(
+                createFeatureCollection(await getLocations()),
+                null,
+                2
+              )
+            );
+          } else {
+            exportGeoJSON(
+              await getLocations(),
+              `${geoJSONPath}/${name}.geojson`
+            );
+          }
         });
       }
       console.log("Updated " + name);

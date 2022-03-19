@@ -1,6 +1,6 @@
-import { cacheWikidataTimeZones } from "../transform/locatedInTimeZone/utils/collection";
-import { Property } from "../types/wikidata";
-import { db, dbIsLoaded } from "../utils/database";
+import { cacheWikidataTimeZones } from "../../transform/locatedInTimeZone/utils/collection";
+import { Property } from "../../types/wikidata";
+import { db, dbIsLoaded } from "../../utils/database";
 
 export const refreshDatabase = async () => {
   await dbIsLoaded;
