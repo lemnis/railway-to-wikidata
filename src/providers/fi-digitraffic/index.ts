@@ -1,7 +1,8 @@
 import fetch from "node-fetch";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { findCountryByAlpha2 } from "../../transform/country";
+import { Language } from "../../transform/language";
 
 /**
  *
@@ -23,7 +24,7 @@ export const getLocations = async () => {
 
   return data
     .filter((item) => item.passengerTraffic)
-    .map<LocationV4>(
+    .map<Location>(
       ({
         longitude,
         latitude,
@@ -32,8 +33,11 @@ export const getLocations = async () => {
         stationName,
         stationUICCode,
       }) => ({
-        labels: [{ value: stationName }],
-        claims: {
+        type: "Feature",
+        id: stationShortCode,
+        geometry: { type: "Point", coordinates: [longitude, latitude] },
+        properties: {
+          labels: [{ value: stationName, lang: Language.Finnish[1] }],
           [CodeIssuer.UIC]: [
             {
               value: (
@@ -42,7 +46,6 @@ export const getLocations = async () => {
               ).toString(),
             },
           ],
-          [Property.CoordinateLocation]: [{ value: [latitude, longitude] }],
           [Property.StationCode]: [{ value: stationShortCode }],
           [Property.Country]: [
             { value: findCountryByAlpha2(countryCode)!.wikidata },

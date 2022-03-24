@@ -3,9 +3,10 @@ import fs from "fs";
 import { Location } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { FinlandScore, ForeignScore } from "./digitraffic.constants";
+import { FinlandScore } from "./digitraffic.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
@@ -65,8 +66,10 @@ test("Foreign locations should match expected score", async (t) => {
     1
   );
 
-  t.is(country.total, 0);
+  t.is(country.total, 1);
   t.is(stationCode.total, 0);
-  t.is(uic.total, 0);
+  t.is(uic.total, 1);
   t.assert(uic?.total < LARGE_DATA_SIZE);
 });
+
+test(labelLanguage, digitrafficLocations, wikipedia);
