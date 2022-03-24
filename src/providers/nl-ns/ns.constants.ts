@@ -6,7 +6,7 @@ export const FOREIGN_COUNTRY_SCORE = 1;
 export const FOREIGN_IBNR_SCORE = 1;
 export const FOREIGN_UIC_SCORE = 0.9;
 
-export const NETHERLANDS_FACES_SCORE = 0.3;
+export const NETHERLANDS_FACES_SCORE = 0.6;
 export const NETHERLANDS_IBNR_SCORE = 1;
 export const NETHERLANDS_TRACKS_SCORE = 0.9;
 export const NETHERLANDS_UIC_SCORE = 1;

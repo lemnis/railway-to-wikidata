@@ -14,6 +14,7 @@ import {
 } from "./ns.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
@@ -32,21 +33,22 @@ test(`Should have ${EXPECTED_AMOUNT_OF_LOCATIONS} locations`, async ({
   deepEqual((await ns).length, EXPECTED_AMOUNT_OF_LOCATIONS);
 });
 
-test.only("Netherlands locations should match expected score", async (t) => {
+test("Netherlands locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
     [Property.NumberOfPlatformTracks]: tracks,
     [Property.NumberOfPlatformFaces]: faces,
     [CodeIssuer.UIC]: uic,
     [CodeIssuer.IBNR]: ibnr,
-    notFound
+    notFound,
   } = await getFullMatchScore(
-    (await ns)
-      .filter((feature) =>
-        feature.properties?.[Property.Country]?.every(
-          ({ value }: any) => value === Country.Netherlands.wikidata
-        )
-      ),
+    (
+      await ns
+    ).filter((feature) =>
+      feature.properties?.[Property.Country]?.every(
+        ({ value }: any) => value === Country.Netherlands.wikidata
+      )
+    ),
     await wikidata,
     [
       Property.Country,
@@ -58,7 +60,7 @@ test.only("Netherlands locations should match expected score", async (t) => {
     1
   );
 
-  t.is(notFound.length, 53);
+  t.is(notFound.length, 2);
   t.is(country.matches / country.total, 1);
 
   closeTo(t, uic?.matches / uic?.total, NETHERLANDS_UIC_SCORE);
@@ -118,7 +120,6 @@ test(`NL locations, should ${CodeIssuer.IBNR} & ${CodeIssuer.UIC} often match`, 
 test("Foreign locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
-    [Property.CoordinateLocation]: location,
     [Property.NumberOfPlatformTracks]: tracks,
     [Property.NumberOfPlatformFaces]: faces,
     [CodeIssuer.UIC]: uic,
@@ -135,8 +136,6 @@ test("Foreign locations should match expected score", async (t) => {
     await wikidata
   );
 
-  t.is(notFound.length, 17);
-  t.is(location?.matches / location?.total, 1);
   t.is(tracks?.total, 0);
   t.is(faces?.total, 0);
 
@@ -149,3 +148,5 @@ test("Foreign locations should match expected score", async (t) => {
   closeTo(t, ibnr?.matches / ibnr?.total, FOREIGN_IBNR_SCORE);
   t.assert(ibnr?.total > LARGE_DATA_SIZE);
 });
+
+test("Netherlands", labelLanguage, ns, wikidata)

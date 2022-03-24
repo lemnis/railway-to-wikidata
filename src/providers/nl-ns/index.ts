@@ -1,9 +1,9 @@
 import fetch from "node-fetch";
 import { NS_API_KEY } from "../../../environment";
 import { Country, findCountryByIVR } from "../../transform/country";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { CodeIssuer, Items, Property } from "../../types/wikidata";
-import { Place, Station, Location } from "./ns.types";
+import { Station } from "./ns.types";
 
 const getPlaces = async () => {
   const response = await fetch(
@@ -16,73 +16,75 @@ const getPlaces = async () => {
     }
   );
 
-  const { payload }: { payload: Station[]; } =
-    await response.json();
+  const { payload }: { payload: Station[] } = await response.json();
   return payload;
 };
 
-export const getLocations = async (): Promise<LocationV4[]> => {
+/** @todo Implement english labelss */
+export const getLocations = async () => {
   const stations = await getPlaces();
   return (
-    stations?.map(
-      ({
-        lat,
-        lng,
-        code,
-        EVACode,
-        synoniemen,
-        land,
-        sporen,
-        namen,
-        UICCode,
-      }) => ({
-        id: `https://www.ns.nl/en/stationsinformatie/${code}`,
-        labels: Array.from(new Set([...synoniemen, namen?.lang!]))
-          .filter(Boolean)
-          .map((value) => ({ value })),
-        claims: {
-          [CodeIssuer.UIC]: [{ value: UICCode }],
-          [CodeIssuer.IBNR]: [{ value: EVACode }],
-          [Property.StationCode]: [
-            {
-              value: code,
-              qualifiers: {
-                [Property.AppliesToPart]: {
-                  value: Items.NederlandseSpoorwegen,
+    stations
+      ?.filter(({ lat, lng }) => lat != undefined && lng != undefined)
+      .map<Location>(
+        ({
+          lat,
+          lng,
+          code,
+          EVACode,
+          synoniemen,
+          land,
+          sporen,
+          namen,
+          UICCode,
+        }) => ({
+          type: "Feature",
+          id: `https://www.ns.nl/en/stationsinformatie/${code}`,
+          geometry: {
+            type: "Point",
+            coordinates: [lng!, lat!],
+          },
+          properties: {
+            labels: Array.from(new Set([...synoniemen, namen?.lang!]))
+              .filter(Boolean)
+              .map((value) => ({ value, lang: "nl" })),
+            [CodeIssuer.UIC]: [{ value: UICCode }],
+            [CodeIssuer.IBNR]: [{ value: EVACode }],
+            [Property.StationCode]: [
+              {
+                value: code,
+                qualifiers: {
+                  [Property.AppliesToPart]: {
+                    value: Items.NederlandseSpoorwegen,
+                  },
                 },
               },
-            },
-          ],
-          [Property.Country]: [
-            {
-              value:
-                // Overwrite incorrect Basel bad bhf country
-                UICCode === "8014431"
-                  ? Country.Switzerland.wikidata
-                  : findCountryByIVR(land!)?.wikidata,
-            },
-          ],
-          ...(lat && lng
-            ? {
-                [Property.CoordinateLocation]: [{ value: [lat, lng] }],
-              }
-            : {}),
-          ...(sporen && {
-            [Property.NumberOfPlatformFaces]: [sporen?.length]
-              .filter(Boolean)
-              .map((value) => ({ value: value.toString() })),
-            [Property.NumberOfPlatformTracks]: [sporen?.length]
-              .filter(Boolean)
-              .map((value) => ({ value: value.toString() })),
-          }),
-          // ...(land === "NL" && {
-          //   [Property.OfficialWebsite]: sites
-          //     ?.map(({ url }) => url)
-          //     .filter(Boolean)
-          //     .map((value) => ({ value })),
-          // }),
-        },
-      })
-    ) || []
+            ],
+            [Property.Country]: [
+              {
+                value:
+                  // Overwrite incorrect Basel bad bhf country
+                  UICCode === "8014431"
+                    ? Country.Switzerland.wikidata
+                    : findCountryByIVR(land!)?.wikidata,
+              },
+            ],
+            ...(sporen && {
+              [Property.NumberOfPlatformFaces]: [sporen?.length]
+                .filter(Boolean)
+                .map((value) => ({ value: value.toString() })),
+              [Property.NumberOfPlatformTracks]: [sporen?.length]
+                .filter(Boolean)
+                .map((value) => ({ value: value.toString() })),
+            }),
+            // ...(land === "NL" && {
+            //   [Property.OfficialWebsite]: sites
+            //     ?.map(({ url }) => url)
+            //     .filter(Boolean)
+            //     .map((value) => ({ value })),
+            // }),
+          },
+        })
+      ) || []
   );
 };

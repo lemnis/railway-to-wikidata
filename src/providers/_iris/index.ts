@@ -22,12 +22,12 @@ export const getLocations = async () => {
 
   return data.map<Location>(({ name: value, ds100, eva, latlong }) => ({
     type: "Feature",
+    id: ds100 || eva,
     geometry: {
       type: "Point",
       coordinates: [latlong[1], latlong[0]],
     },
     properties: {
-      id: ds100 || eva.toString(),
       labels: [{ value }],
       [CodeIssuer.IBNR]: [{ value: eva.toString(), references }],
       [CodeIssuer.DB]: [{ value: ds100, references }],

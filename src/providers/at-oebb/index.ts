@@ -2,6 +2,7 @@ import { CodeIssuer, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
 import { findCountryByUIC } from "../../transform/country";
 import { getGtfsStations } from "../../utils/gtfs";
+import { Language } from "../../transform/language";
 
 /**
  * @version 2018.06.26
@@ -16,9 +17,13 @@ export const getLocations = (): Promise<Location[]> =>
     data.map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
       return {
         type: "Feature",
+        id: stop_id,
+        geometry: {
+          type: "Point",
+          coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
+        },
         properties: {
-          id: stop_id,
-          labels: [{ value: stop_name }],
+          labels: [{ value: stop_name, lang: Language.German[1] }],
           [CodeIssuer.IBNR]: [{ value: stop_id }],
           [Property.Country]: [
             {
@@ -26,10 +31,6 @@ export const getLocations = (): Promise<Location[]> =>
                 ?.wikidata,
             },
           ],
-        },
-        geometry: {
-          type: "Point",
-          coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
         },
       };
     })

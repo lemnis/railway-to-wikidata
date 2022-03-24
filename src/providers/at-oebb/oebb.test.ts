@@ -6,6 +6,7 @@ import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import { Location } from "../../types/location";
 import { IBNR_SCORE } from "./oebb.constants";
+import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
@@ -55,3 +56,5 @@ test("Foreign locations should match expected score", async (t) => {
   closeTo(t, ibnr?.matches / ibnr?.total, IBNR_SCORE);
   t.assert(ibnr?.total > LARGE_DATA_SIZE);
 });
+
+test(labelLanguage, oebbLocations, wikipedia);

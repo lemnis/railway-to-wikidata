@@ -19,16 +19,16 @@ export const getLocations = (): Promise<Location[]> =>
     data
       .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => ({
         type: "Feature",
+        id: stop_id,
         geometry: {
           type: "Point",
           coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
         },
         properties: {
-          id: stop_id,
           labels: [{ value: stop_name, lang: Language.English[1] }],
           [CodeIssuer.ATOC]: [{ value: stop_id }],
           [Property.Country]: [{ value: Country.UnitedKingdom.wikidata }],
         },
       }))
-      .sort((a, b) => a.properties.id.localeCompare(b.properties.id))
+      .sort((a, b) => a.id!.toString().localeCompare(b.id!.toString()))
   );
