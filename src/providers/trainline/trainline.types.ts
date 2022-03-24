@@ -3,7 +3,7 @@ export interface TrainlineStation {
   id: string;
   name: string;
   slug: string;
-  uic?: number;
+  uic?: string;
   uic8_sncf?: string;
   coordinates: [number, number];
   // latitude: number;
