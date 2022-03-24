@@ -6,6 +6,7 @@ import { ForeignScore, ScoreZsk } from "./sk-zsr.contstants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
@@ -64,3 +65,5 @@ test("Foreign locations should match expected score", async (t) => {
   t.assert(ibnr?.total > LARGE_DATA_SIZE);
   t.is(country.matches / country.total, 1);
 });
+
+test(labelLanguage, zsrLocations, trainline);

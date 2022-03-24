@@ -2,6 +2,7 @@ import { CodeIssuer, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
 import { Country, findCountryByUIC } from "../../transform/country";
 import { getGtfsStations } from "../../utils/gtfs";
+import { Language } from "../../transform/language";
 
 const stopIds = {
   "100172": Country.Hungary,
@@ -62,6 +63,7 @@ const stopIds = {
   "80630": Country.Poland,
   "82404": Country.Poland,
   "83600": Country.Poland,
+  "94045": Country.Switzerland,
   "94110": Country.Switzerland,
 };
 
@@ -89,13 +91,13 @@ export const getLocations = async () => {
 
     return {
       type: "Feature",
+      id: stop_id,
       geometry: {
         type: "Point",
         coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
       },
       properties: {
-        id: stop_id,
-        labels: [{ value: stop_name }],
+        labels: [{ value: stop_name, lang: Language.Slovak[1] }],
         ...(stop_id.length === 7
           ? { [CodeIssuer.IBNR]: [{ value: code }] }
           : { [CodeIssuer.UIC]: [{ value: code }] }),
