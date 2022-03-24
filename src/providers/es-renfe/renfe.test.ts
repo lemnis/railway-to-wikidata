@@ -6,6 +6,7 @@ import { Country } from "../../transform/country";
 import { ReliabilityRenfe, ScoreRenfe } from "./renfe.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
@@ -36,7 +37,7 @@ test("Spanish locations should match expected score", async (t) => {
   );
 
   t.is(country.matches / country.total, 1);
-  t.is(postalCode.matches / postalCode.total, 0.5);
+  closeTo(t, postalCode.matches / postalCode.total, 0.8);
   t.is(location.matches / location.total, 0);
 
   t.assert(uic?.total > LARGE_DATA_SIZE);
@@ -63,16 +64,21 @@ test("Foreign locations should match score", async (t) => {
     [Property.PostalCode]: postalCode,
     [Property.StationCode]: stationCode,
     [CodeIssuer.UIC]: uic,
-  } = await getFullMatchScore(foreignLocations, wikipedia, [
-    CodeIssuer.UIC,
-    Property.Country,
-    Property.StationCode,
-    Property.PostalCode,
-  ], 1.4);
+  } = await getFullMatchScore(
+    foreignLocations,
+    wikipedia,
+    [
+      CodeIssuer.UIC,
+      Property.Country,
+      Property.StationCode,
+      Property.PostalCode,
+    ],
+    1.4
+  );
 
   t.is(country.matches / country.total, 1);
   t.is(postalCode.matches / postalCode.total, 0);
-  t.is(stationCode?.total, 0);
+  t.is(stationCode?.total, 3);
   t.assert(uic?.total < LARGE_DATA_SIZE);
   closeTo(t, uic?.matches / uic?.total, ScoreRenfe[CodeIssuer.UIC]);
 });
@@ -82,3 +88,5 @@ test("Calculated reliability score should match", (t) => {
   t.is(ReliabilityRenfe.Spain[CodeIssuer.UIC].toFixed(1), "0.6");
   t.is(ReliabilityRenfe.Foreign[CodeIssuer.UIC].toFixed(1), "0.3");
 });
+
+test(labelLanguage, renfeLocations, wikipedia);

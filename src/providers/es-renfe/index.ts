@@ -2,8 +2,9 @@ import { parse } from "csv-parse/sync";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import fetch from "node-fetch";
 import { RenfeStation } from "./renfe.types";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { Country } from "../../transform/country";
+import { Language } from "../../transform/language";
 
 const StringToCountry = {
   Francia: Country.France.wikidata,
@@ -43,10 +44,15 @@ export const getLocations = async () => {
     from: 2,
   });
 
-  return csv.map<LocationV4>((station: RenfeStation) => ({
+  return csv.map<Location>((station: RenfeStation) => ({
+    type: "Feature",
     id: station.code,
-    labels: [{ value: station.description }],
-    claims: {
+    geometry: {type: "Point", coordinates: [
+      parseFloat(station.longitud.replace(",", ".")),
+      parseFloat(station.latitud.replace(",", ".")),
+    ]},
+    properties: {
+      labels: [{ value: station.description, lang: Language.Spanish[1] }],
       ...(station.code
         ? {
             [CodeIssuer.UIC]: [
@@ -56,14 +62,6 @@ export const getLocations = async () => {
           }
         : {}),
       [Property.Country]: [{ value: StringToCountry[station.country] }],
-      [Property.CoordinateLocation]: [
-        {
-          value: [
-            parseFloat(station.latitud.replace(",", ".")),
-            parseFloat(station.longitud.replace(",", ".")),
-          ],
-        },
-      ],
       [Property.PostalCode]: [{ value: station.postalCode }],
       [Property.Location]: [{ value: station.direccion }],
       //   [Property.InAdministrativeTerritory]
