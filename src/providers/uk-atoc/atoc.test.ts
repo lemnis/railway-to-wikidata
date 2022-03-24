@@ -6,6 +6,7 @@ import { SCORE_ATOC } from "./atoc.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
+import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
@@ -51,3 +52,5 @@ test("Should not have any foreign locations", async (t) => {
     0
   );
 });
+
+test(labelLanguage, atocLocations, trainline);

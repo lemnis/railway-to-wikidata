@@ -1,11 +1,11 @@
-type CountryInfo = {
+export interface CountryInfo {
   wikidata: string;
   UIC?: number[];
   IVR?: string;
   IBNR?: number[];
   alpha2: string;
   alpha3?: string;
-};
+}
 
 type EnforceObjectType<T> = <V extends T>(v: V) => V;
 const enforceObjectType: EnforceObjectType<Record<string, CountryInfo>> = (v) =>
@@ -37,7 +37,7 @@ export const Country = enforceObjectType({
     alpha2: "AM",
   },
   Austria: {
-    wikidata: "Q40",
+    wikidata: "Q40" as "Q40",
     UIC: [81],
     IVR: "A",
     IBNR: [81],
@@ -92,7 +92,7 @@ export const Country = enforceObjectType({
   //   alpha2: "CY",
   // },
   Czech: {
-    wikidata: "Q213",
+    wikidata: "Q213" as "Q213",
     UIC: [54],
     IBNR: [54],
     alpha2: "CZ",
@@ -132,7 +132,7 @@ export const Country = enforceObjectType({
     alpha2: "GE",
   },
   Germany: {
-    wikidata: "Q183",
+    wikidata: "Q183" as "Q183",
     UIC: [80],
     IVR: "D",
     IBNR: [36, 37, 50, 71, 72, 80, 96],
@@ -142,10 +142,10 @@ export const Country = enforceObjectType({
     wikidata: "Q41",
     UIC: [73],
     alpha2: "GR",
-    alpha3: 'GRC'
+    alpha3: "GRC",
   },
   Hungary: {
-    wikidata: "Q28",
+    wikidata: "Q28" as "Q28",
     UIC: [55],
     IBNR: [55],
     alpha2: "HU",
@@ -203,7 +203,7 @@ export const Country = enforceObjectType({
   // },
   Liechtenstein: {
     wikidata: "Q347",
-    alpha2: 'LI'
+    alpha2: "LI",
   },
   Lithuania: {
     wikidata: "Q37",
@@ -277,7 +277,7 @@ export const Country = enforceObjectType({
     alpha2: "NO",
   },
   Poland: {
-    wikidata: "Q36",
+    wikidata: "Q36" as "Q36",
     UIC: [51],
     IBNR: [51],
     alpha2: "PL",
@@ -305,13 +305,13 @@ export const Country = enforceObjectType({
     alpha2: "RS",
   },
   Slovakia: {
-    wikidata: "Q214",
+    wikidata: "Q214" as "Q214",
     UIC: [56],
     IBNR: [56],
     alpha2: "SK",
   },
   Slovenia: {
-    wikidata: "Q215",
+    wikidata: "Q215" as "Q215",
     UIC: [79],
     IBNR: [79],
     alpha2: "SI",
@@ -368,7 +368,7 @@ export const Country = enforceObjectType({
     wikidata: "Q212",
     UIC: [22],
     alpha2: "UA",
-    IBNR: [22]
+    IBNR: [22],
   },
   UnitedKingdom: {
     wikidata: "Q145",
@@ -388,11 +388,11 @@ export const Country = enforceObjectType({
   // },
 });
 
-export const findCountryByUIC = (code: number) =>
+export const findCountryByUIC = (code: number): CountryInfo | undefined =>
   Object.values(Country).find((country) =>
     (country as CountryInfo).UIC?.includes(code)
   );
-  
+
 export const findCountryByIBNR = (code: number) =>
   Object.values(Country).find((country) =>
     (country as CountryInfo).IBNR?.includes(code)
@@ -407,8 +407,13 @@ export const findCountryByAlpha2 = (code: string): CountryInfo | undefined =>
   Object.values(Country).find(
     (country) => (country as CountryInfo).alpha2 === code
   );
-  
+
 export const findCountryByAlpha3 = (code: string): CountryInfo | undefined =>
   Object.values(Country).find(
     (country) => (country as CountryInfo).alpha3 === code
-  )
+  );
+
+export const getCountryNameByWikidata = (code: string) =>
+  Object.entries(Country).find(
+    ([, country]) => (country as CountryInfo).wikidata === code
+  )?.[0];
