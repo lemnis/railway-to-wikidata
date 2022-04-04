@@ -1,8 +1,8 @@
 import { Position } from "geojson";
 import { insideCircle, LatLon } from "geolocation-utils";
-import { score } from "../score/label";
-import { LocationV4, LocationV5 } from "../types/location";
-import { Property, CodeIssuer, ClaimObject } from "../types/wikidata";
+import { score } from "../../score/label";
+import { LocationV4, Location } from "../../types/location";
+import { Property, CodeIssuer, ClaimObject } from "../../types/wikidata";
 
 const ids: (CodeIssuer | Property.StationCode)[] = [
   Property.StationCode,
@@ -20,19 +20,19 @@ const ids: (CodeIssuer | Property.StationCode)[] = [
 const matchValue = (
   id: Property | CodeIssuer,
   claim: ClaimObject,
-  source: LocationV4
-) => source.claims[id]?.some(({ value }) => value === claim.value) || false;
+  source: Location
+) => source.properties[id]?.some(({ value }) => value === claim.value) || false;
 
-export const matchIds = (source: LocationV4, destination: LocationV4) =>
+export const matchIds = (source: Location, destination: Location) =>
   ids.some((id) =>
     id === Property.StationCode
-      ? destination.claims[id]?.some((claim) =>
+      ? destination.properties[id]?.some((claim) =>
           matchValue(id, claim, source)
         ) &&
-        destination.claims[Property.Country]?.some((claim) =>
+        destination.properties[Property.Country]?.some((claim) =>
           matchValue(Property.Country, claim, source)
         )
-      : destination.claims[id]?.some((claim) => matchValue(id, claim, source))
+      : destination.properties[id]?.some((claim) => matchValue(id, claim, source))
   );
 
 const convertGeoJSONToLatLon = (poisition: Position | Position[]): LatLon[] => {
@@ -50,22 +50,22 @@ const convertGeoJSONToLatLon = (poisition: Position | Position[]): LatLon[] => {
   }
 };
 
-const matchCoordinates = (source: LocationV5, destination: LocationV5, maxDistance = 3000) => {
+const matchCoordinates = (source: Location, destination: Location, maxDistance = 3000) => {
   const sourceCoordinates = convertGeoJSONToLatLon(source.geometry.coordinates);
   const destinationCoordinates = convertGeoJSONToLatLon(destination.geometry.coordinates);
 
   return sourceCoordinates.some(a => destinationCoordinates.some(b => insideCircle(b, a, maxDistance)));
 };
 
-const matchLabels = (source: LocationV5, destination: LocationV5) => {
+const matchLabels = (source: Location, destination: Location) => {
   const sourceLabels = source.properties.labels;
   const destinationLabels = destination.properties.labels;
   return score(destinationLabels, sourceLabels).percentage > 0;
 };
 
 export const matchByNameAndDistance = (
-  source: LocationV5,
-  destination: LocationV5
+  source: Location,
+  destination: Location
 ) => {
   const coor = matchCoordinates(source, destination);
   if(!coor) return false;

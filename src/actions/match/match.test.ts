@@ -1,6 +1,6 @@
 import test from "ava";
 import { matchIds } from ".";
-import { CodeIssuer, Property } from "../types/wikidata";
+import { CodeIssuer, Property } from "../../types/wikidata";
 
 test("Should math with duplicate code issue claims", ({ deepEqual }) => {
   deepEqual(
