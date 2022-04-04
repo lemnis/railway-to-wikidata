@@ -1,16 +1,20 @@
 import { Label } from "../../types/location";
 import { ClaimObject } from "../../types/wikidata";
 
-export const query = (): [string[], string] => [
-  ["label", "alias"],
-  `
+export const labelKeys = ["label", "alias"];
+
+export const labelQuery = `
   OPTIONAL { ?item rdfs:label ?label. }
   OPTIONAL { ?item skos:altLabel ?alias; }
-`,
-];
+`;
 
 export const simplify = (
-  itemList: { label?: ClaimObject<string>; alias?: ClaimObject<string>; itemLabel?: ClaimObject<string>; altLabel?: ClaimObject<string>; }[]
+  itemList: {
+    label?: ClaimObject<string>;
+    alias?: ClaimObject<string>;
+    itemLabel?: ClaimObject<string>;
+    altLabel?: ClaimObject<string>;
+  }[]
 ) => {
   return itemList
     .reduce<Label[]>((acc, { label, alias, itemLabel, altLabel }) => {

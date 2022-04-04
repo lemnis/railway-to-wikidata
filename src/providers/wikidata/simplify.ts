@@ -1,13 +1,15 @@
 import { simplify as simplifyLabel } from "./label";
 import { simplify as simplifyProperties } from "./property";
-import { LocationV4 } from "../../types/location";
+import { simplify as simplifyCoordinates } from "./coordinates";
+import { Location } from "../../types/location";
 import { removeUri } from "./clean-up";
+import { Property } from "../../types/wikidata";
 
 export const simplify = (
   response: any,
   keys: { property: string; qualifiers?: string[] }[],
   extra?: string[]
-): LocationV4[] => {
+): Location[] => {
   const groupedWikidataItems = (response.results.bindings as any[]).reduce<
     any[]
   >((acc, k) => {
@@ -17,9 +19,16 @@ export const simplify = (
   }, []);
 
   return Object.values(groupedWikidataItems).map((items) => ({
-    labels: simplifyLabel(items),
+    type: "Feature",
     id: removeUri(items[0].item.value),
-    claims: simplifyProperties(items, keys, extra),
+    geometry: {
+      type: "MultiPoint",
+      coordinates: simplifyCoordinates(items[Property.CoordinateLocation]),
+    },
+    properties: {
+      labels: simplifyLabel(items),
+      ...simplifyProperties(items, keys, extra),
+    },
   }));
 };
 
@@ -27,7 +36,7 @@ export const simplifyByKeyValue = (
   response: any,
   keys: { property: string; qualifiers?: string[] }[],
   extra?: string[]
-): LocationV4[] => {
+): Location[] => {
   const groupedWikidataItems = (response.results.bindings as any[]).reduce<
     any[]
   >((acc, k) => {
@@ -40,8 +49,15 @@ export const simplifyByKeyValue = (
   }, []);
 
   return Object.values(groupedWikidataItems).map((items) => ({
-    labels: simplifyLabel(items),
+    type: "Feature",
     id: removeUri(items[0].item?.value),
-    claims: simplifyProperties(items, keys, extra),
+    geometry: {
+      type: "MultiPoint",
+      coordinates: simplifyCoordinates(items[Property.CoordinateLocation]),
+    },
+    properties: {
+      labels: simplifyLabel(items),
+      ...simplifyProperties(items, keys, extra),
+    },
   }));
 };

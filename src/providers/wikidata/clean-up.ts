@@ -35,7 +35,6 @@ export const simplifyUri = (uri: string) => {
       }
     }
   }
-
   return uri;
 };
 
@@ -48,7 +47,6 @@ export const removeUri = (uri: string) => {
       }
     }
   }
-
   return uri;
 };
 
@@ -67,3 +65,10 @@ export const simplifyByDatatype = (datatype: string, value: string) => {
     return value;
   }
 };
+
+export const simplifyValue = (value: string, type: string, datatype: string) =>
+  type === "uri"
+    ? removeUri(value)!
+    : datatype!
+    ? simplifyByDatatype(datatype, value)
+    : value!;

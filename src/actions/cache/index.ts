@@ -1,6 +1,6 @@
 import { LocationV4, Location } from "../../types/location";
 import { promises as fs } from "fs";
-import { createFeatureCollection, createGeoFeature } from "./geojson";
+import { createFeatureCollection } from "./geojson";
 import { refreshDatabase } from "./properties";
 import inquirer from "inquirer";
 import {
@@ -13,14 +13,6 @@ import { filter, mergeMap, of, tap } from "rxjs";
 
 const srcPath = `${__dirname}/../..`;
 const geoJSONPath = `${srcPath}/../geojson`;
-
-export const exportGeoJSON = (locations: LocationV4[], path: string) => {
-  const features = locations
-    .map((location) => createGeoFeature(location))
-    .filter((x): x is Location => !!x);
-  const collection = createFeatureCollection(features);
-  return fs.writeFile(path, JSON.stringify(collection, null, 2));
-};
 
 const questions = [
   {
@@ -122,7 +114,10 @@ const prompt = inquirer.createPromptModule();
     (await getAllRailwayStations()).subscribe((i) => {
       d = [...d, ...i];
       console.log(d.length);
-      exportGeoJSON(d, `${geoJSONPath}/wikidata-railway-stations.geojson`);
+      fs.writeFile(
+        `${geoJSONPath}/uic/wikidata-railway-stations.geojson`,
+        JSON.stringify(createFeatureCollection(d), null, 2)
+      );
       console.log("Updated wikidata");
     });
     // const { data: uic } = await getUICRailwayStations();
@@ -131,8 +126,11 @@ const prompt = inquirer.createPromptModule();
 
   if (osmUic) {
     const { data: uic, query } = await getUICRailwayStations();
-    console.log(query);
-    await exportGeoJSON(uic, `${geoJSONPath}/uic/wikidata.geojson`);
+    fs.writeFile(
+      `${geoJSONPath}/uic/wikidata.geojson`,
+      JSON.stringify(createFeatureCollection(uic), null, 2)
+    );
+
     getUicLocations().subscribe(([countries, data]) => {
       return fs.writeFile(
         `${geoJSONPath}/uic/osm-${countries.join("-")}.geojson`,
