@@ -10,12 +10,13 @@ export const GenericScore = {
   [CodeIssuer.IBNR]: 1,
   [CodeIssuer.SNCF]: 1,
   [CodeIssuer.Trainline]: 1,
-}
+};
 
 export const ReliabilityTrainline = {
-  Poland: {
-    [Property.Country]:
-      Reliability.START +
-      (Reliability.FIRST_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW),
-  },
+  [CodeIssuer.UIC]:
+    Reliability.START +
+    (Reliability.THIRD_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW),
+  [CodeIssuer.IBNR]:
+    Reliability.START +
+    (Reliability.THIRD_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW),
 };

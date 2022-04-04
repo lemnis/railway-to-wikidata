@@ -6,17 +6,18 @@ import { closeTo, getFullMatchScore } from "../../utils/test";
 import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import { GenericScore } from "./trainline.constants";
+import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
-const SIZE_LIMIT = 3000;
+const SIZE_LIMIT = 3;
 type Context = Awaited<ReturnType<typeof getFullMatchScore>>;
 
 const trainlineLocations: Location[] = JSON.parse(
   fs.readFileSync(path + "trainline-stations.geojson", "utf-8")
 ).features;
 const wikipedia: Location[] = JSON.parse(
-  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+  fs.readFileSync(path + "_iris.geojson", "utf-8")
 ).features;
 
 const byCountry: Record<string, Location[]> = {};
@@ -178,3 +179,5 @@ test("Trainline", (t) => {
 
 test.skip(macro, "trainline", Object.values(byCountry).flat());
 test.todo("Should compare reliliability of the coordinate locations");
+
+test(labelLanguage, trainlineLocations, wikipedia);

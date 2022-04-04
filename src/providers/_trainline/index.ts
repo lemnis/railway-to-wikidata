@@ -1,10 +1,8 @@
-import { LocationV4 } from "../../types/location";
 import ProgressBar from "progress";
 import { TrainlineStation } from "./trainline.types";
 import { getBusIds, getTrainIds } from "./trainline.utils";
 import { getStations } from "./getStations";
 import { trainlineArrayToLocation } from "./trainlineArrayToLocation";
-import { logger } from "../../utils/logger";
 import { mergeAlias } from "./group";
 
 /**
@@ -39,13 +37,13 @@ export const getGroupedTrainlineLocations = async () => {
   // Group by cities, bus stops & train stations
   // (Cities are only classified if they have multiple children)
   return mapped.reduce<{
-    cities: TrainlineStation[][],
-    busStops: TrainlineStation[][],
-    trainStations: TrainlineStation[][],
+    cities: TrainlineStation[][];
+    busStops: TrainlineStation[][];
+    trainStations: TrainlineStation[][];
   }>(
     (places, station, index, stationList) => {
       groupProgressBar.tick();
-      
+
       if (station.map((i) => i.is_city)?.every(Boolean)) {
         const children = stationList.filter((child) =>
           child
@@ -83,3 +81,5 @@ export const getGroupedTrainlineLocations = async () => {
     }
   );
 };
+
+export { trainlineArrayToLocation };
