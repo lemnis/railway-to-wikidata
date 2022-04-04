@@ -1,9 +1,15 @@
 import test from "ava";
 import { scoreCoordinateLocation } from ".";
 
-test("Should match when locations match", ({ deepEqual }) => {
+test("Should match when both locations are 1,1", ({ deepEqual }) => {
   deepEqual(scoreCoordinateLocation([{ value: [1, 1] }], [{ value: [1, 1] }]), [
     { match: true, missing: false, value: [1, 1], distance: 0 },
+  ]);
+});
+
+test("Should match when both locations is 0,0", ({ deepEqual }) => {
+  deepEqual(scoreCoordinateLocation([{ value: [0, 0] }], [{ value: [0, 0] }]), [
+    { match: true, missing: false, value: [0, 0], distance: 0 },
   ]);
 });
 

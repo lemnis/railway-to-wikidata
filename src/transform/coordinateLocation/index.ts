@@ -3,7 +3,8 @@ import { ClaimObject } from "../../types/wikidata";
 
 export const scoreCoordinateLocation = (
   source: ClaimObject<[number, number]>[],
-  destination: ClaimObject<[number, number]>[]
+  destination: ClaimObject<[number, number]>[],
+  { maxDistance = 3000 }: { maxDistance?: number } = {}
 ) =>
   source
     .map(({ value }) => value)
@@ -22,17 +23,17 @@ export const scoreCoordinateLocation = (
 
       const distance = destination
         ?.map(({ value }) => value)
-        .filter((value) => value?.[0] && value?.[1] && value?.length === 2)
+        .filter((value) => value?.[0] !== undefined && value?.[1] !== undefined && value?.length === 2)
         .map((destinationCoordinates) =>
           distanceTo(value, destinationCoordinates!)
         )
         // Sort by distance and get closest one
         .sort((a, b) => a - b)?.[0];
-
+        
       return {
         distance,
         value,
-        match: distance < 3000,
+        match: distance < maxDistance,
         missing: false,
       };
     });
