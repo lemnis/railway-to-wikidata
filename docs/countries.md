@@ -3,7 +3,7 @@ layout: page
 title: "Countries"
 ---
 
-<script src="https://embed.github.com/view/geojson/lemnis/railway-to-wikidata/master/map.topojson"></script>
+<script src="https://embed.github.com/view/geojson/lemnis/railway-to-wikidata/master/docs/_data/map.json"></script>
 
 <table>
   <thead>
@@ -18,7 +18,7 @@ title: "Countries"
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.mapping.objects.europe.geometries %}
+    {% for row in site.data.map.objects.europe.geometries %}
       <tr style="
         background-color: {{ row.properties.fill }};
         background-image: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7))

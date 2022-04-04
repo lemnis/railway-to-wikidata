@@ -5,17 +5,6 @@
       "type": "GeometryCollection",
       "geometries": [
         {
-          "type": "MultiPolygon",
-          "properties": {
-            "fill": "grey",
-            "namm": "Azerbaijan",
-            "url": "https://rail.cc/train-company/azerbaijan/az",
-            "description": "No research done"
-          },
-          "id": "AZ",
-          "arcs": [[[0, 1, 2]], [[3]], [[4]], [[5, 6, 7, 8, 9, 10], [11]]]
-        },
-        {
           "type": "Polygon",
           "properties": {
             "fill": "grey",
@@ -25,16 +14,6 @@
           },
           "id": "AL",
           "arcs": [[12, 13, 14, 15, 16, 17, 18]]
-        },
-        {
-          "type": "MultiPolygon",
-          "properties": {
-            "fill": "grey",
-            "name": "Armenia",
-            "url": "https://rail.cc/train-company/armenia/am"
-          },
-          "id": "AM",
-          "arcs": [[[-12]], [[19, -3, 20, 21, -7], [-5], [-4]]]
         },
         {
           "type": "Polygon",
@@ -232,22 +211,6 @@
                 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156,
                 157, 158, 159, 160, 161, 162, 163
               ]
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "fill": "grey",
-            "name": "Georgia",
-            "url": "https://rail.cc/train-company/georgia/ge",
-            "description": "No research done"
-          },
-          "id": "GE",
-          "arcs": [
-            [
-              164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176,
-              -10, 177, -8, -22, 178, 179
             ]
           ]
         },
@@ -848,17 +811,6 @@
         {
           "type": "Polygon",
           "properties": {
-            "fill": "grey",
-            "name": "Republic of Moldova",
-            "url": "https://rail.cc/train-company/moldova/md",
-            "description": "No research done"
-          },
-          "id": "MD",
-          "arcs": [[592, 593, 594, 595, 596, 597, 598, 599, 600, -589]]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
             "fill": "green",
             "name": "Slovenia",
             "url": "https://rail.cc/train-company/slovenia/si",
@@ -948,23 +900,6 @@
               639, -152, 640, -150, -224
             ],
             [-181]
-          ]
-        },
-        {
-          "type": "MultiPolygon",
-          "properties": {
-            "fill": "grey",
-            "name": "Turkey",
-            "url": "https://rail.cc/train-company/turkey/tr",
-            "description": "No research done"
-          },
-          "id": "TR",
-          "arcs": [
-            [[641]],
-            [[642]],
-            [[643]],
-            [[-179, -21, -2, 644]],
-            [[645, -299, -33]]
           ]
         },
         {
@@ -1086,27 +1021,6 @@
           "id": "VA",
           "arcs": [[-368]]
         },
-        {
-          "type": "MultiPolygon",
-          "properties": {
-            "fill": "grey",
-            "name": "Russia",
-            "url": "https://rail.cc/train-company/russia/ru",
-            "description": "No research done"
-          },
-          "id": "RU",
-          "arcs": [
-            [[711, -434, -582, 712, -428, 713, -436]],
-            [
-              [
-                -11, -177, 714, -175, 715, -173, 716, -171, 717, -169, 718,
-                -167, 719, -165, 720, -708, -412, 721, -410, 722, -408, 723,
-                -406, 724, -404, 725, -402, 726, -400, 727, -398, -392, -69,
-                728, -133, -572, 729
-              ]
-            ]
-          ]
-        }
       ]
     }
   },
