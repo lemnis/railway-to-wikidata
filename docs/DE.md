@@ -1,10 +1,13 @@
 ---
-layout: post
 title: "Germany"
 ---
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<script type='text/javascript' src='https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js'></script>
+
 
 <div id='map' style="width: 100%; height: 700px"></div>
 
@@ -49,10 +52,14 @@ const icon = L.divIcon({
 	}
 
   const points = {{ site.data.DE | jsonify }}
-	const coorsLayer = L.geoJSON(points, {
-		pointToLayer: (feature, latlng) => L.marker(latlng),
-		onEachFeature: onEachFeature
-	}).addTo(map);
+  var markers = L.markerClusterGroup();
+  var geoJsonLayer = L.geoJson(points, {
+    onEachFeature
+  });
+  markers.addLayer(geoJsonLayer);
+
+  map.addLayer(markers);
+  map.fitBounds(markers.getBounds());
 </script>
 
 <table>
