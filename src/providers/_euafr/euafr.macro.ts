@@ -1,6 +1,6 @@
 import test from "ava";
 import { Property, CodeIssuer } from "../../types/wikidata";
-import { CountryInfo, getCountryNameByWikidata } from "../../transform/country";
+import { CountryInfo, findCountryNameByWikidata } from "../../transform/country";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
@@ -37,7 +37,7 @@ export const singleProperty = test.macro({
           ({ value }) => value === countryId.wikidata
         )
       )
-      .slice(0, 2000);
+      .slice(0, 10);
 
     const {
       [Property.Country]: country,
@@ -55,7 +55,7 @@ export const singleProperty = test.macro({
   },
   title(country = "", countryId: CountryInfo) {
     return `${
-      country || getCountryNameByWikidata(countryId.wikidata)
+      country || findCountryNameByWikidata(countryId.wikidata)
     } should match expected score`;
   },
 });
@@ -72,7 +72,7 @@ export const noLocations = test.macro({
   },
   title(country = "", countryId: CountryInfo) {
     return `${
-      country || getCountryNameByWikidata(countryId.wikidata)
+      country || findCountryNameByWikidata(countryId.wikidata)
     } should not have any locations`;
   },
 });
@@ -98,7 +98,7 @@ export const noCodeIssuers = test.macro({
   },
   title(country = "", countryId: CountryInfo) {
     return `${
-      country || getCountryNameByWikidata(countryId.wikidata)
+      country || findCountryNameByWikidata(countryId.wikidata)
     } should not have any code ids`;
   },
 });

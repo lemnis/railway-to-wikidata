@@ -8,7 +8,6 @@ import {
   NETHERLANDS_IBNR_SCORE,
   FOREIGN_UIC_SCORE,
   FOREIGN_IBNR_SCORE,
-  FOREIGN_COUNTRY_SCORE,
   NETHERLANDS_TRACKS_SCORE,
   NETHERLANDS_FACES_SCORE,
 } from "./ns.constants";
@@ -139,7 +138,7 @@ test("Foreign locations should match expected score", async (t) => {
   t.is(tracks?.total, 0);
   t.is(faces?.total, 0);
 
-  closeTo(t, country?.matches / country?.total, FOREIGN_COUNTRY_SCORE);
+  closeTo(t, country?.matches / country?.total, 1);
   t.assert(country?.total > LARGE_DATA_SIZE);
 
   closeTo(t, uic?.matches / uic?.total, FOREIGN_UIC_SCORE);

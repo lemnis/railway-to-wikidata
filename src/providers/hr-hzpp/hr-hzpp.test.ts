@@ -3,6 +3,7 @@ import fs from "fs";
 import { Property } from "../../types/wikidata";
 import { Country } from "../../transform/country";
 import { Location } from "../../types/location";
+import { noForeignLocations } from "../../utils/test/noForeignLocation";
 const path = __dirname + "/../../../geojson/";
 
 const hzppLocations: Location[] = JSON.parse(
@@ -11,11 +12,4 @@ const hzppLocations: Location[] = JSON.parse(
 
 test.todo('Croatia locations should be enabled');
 
-test("Should not have Foreign locations", async (t) => {
-  const foreignLocations = hzppLocations.filter((feature) =>
-    feature.properties?.[Property.Country]?.every(
-      ({ value }: any) => value !== Country.Croatia.wikidata
-    )
-  );
-  t.is(foreignLocations.length, 0);
-});
+test(noForeignLocations, hzppLocations, Country.Croatia);

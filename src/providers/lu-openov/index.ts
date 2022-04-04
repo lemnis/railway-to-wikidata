@@ -1,5 +1,5 @@
 import { Country } from "../../transform/country";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { Property } from "../../types/wikidata";
 import { getGtfsStationsByRailRoute } from "../../utils/gtfs";
 
@@ -9,18 +9,20 @@ const country = {
   50: Country.Germany.wikidata,
 };
 
-export const getLocations = async (): Promise<LocationV4[]> => {
+export const getLocations = async () => {
   const data = await getGtfsStationsByRailRoute(
     `http://openov.lu/data/gtfs/gtfs-openov-lu.zip`,
     "open-ov"
   );
 
   return data
-    .map<LocationV4>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
+    .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
       return {
+        type: "Feature",
         id: stop_id.toString(),
-        labels: [{ value: stop_name }],
-        claims: {
+        geometry: { type: "Point", coordinates: [stop_lon, stop_lat] },
+        properties: {
+          labels: [{ value: stop_name }],
           [Property.Country]: [
             {
               value:
@@ -28,9 +30,8 @@ export const getLocations = async (): Promise<LocationV4[]> => {
                 Country.Luxembourg.wikidata,
             },
           ],
-          [Property.CoordinateLocation]: [{ value: [stop_lat, stop_lon] }],
         },
       };
     })
-    .sort((a, b) => a.id?.localeCompare(b.id!) ?? 0);
+    .sort((a, b) => a.id?.toString().localeCompare(b.id!.toString()) ?? 0);
 };

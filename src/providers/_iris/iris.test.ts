@@ -4,18 +4,20 @@ import { Property, CodeIssuer } from "../../types/wikidata";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import { Location } from "../../types/location";
+import { labelLanguage } from "../../utils/test/labelLanguage";
+import { coordinateDistance } from "../../utils/test/coordinateDistance";
 
 const path = __dirname + "/../../../geojson/";
 const test = anyTest as TestFn<Awaited<ReturnType<typeof getFullMatchScore>>>;
 
-test.before(async (t) => {
-  const locations: Location[] = JSON.parse(
-    fs.readFileSync(path + "_iris.geojson", "utf-8")
-  ).features;
-  const wikipedia: Location[] = JSON.parse(
-    fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
-  ).features;
+const locations: Location[] = JSON.parse(
+  fs.readFileSync(path + "_iris.geojson", "utf-8")
+).features;
+const wikipedia: Location[] = JSON.parse(
+  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+).features;
 
+test.before(async (t) => {
   const ByCountry = locations.reduce<Record<string, Location[]>>((acc, curr) => {
     const c = curr.properties[Property.Country]?.[0].value;
     if(c) {
@@ -51,5 +53,7 @@ test("Locations' IBNR code should match", (t) => {
 test("Locations' DB code should match", (t) => {
   const db = t.context[CodeIssuer.DB];
   closeTo(t, db?.matches / db?.total, 1);
-  t.assert(db?.total < LARGE_DATA_SIZE);
+  t.assert(db?.total >= LARGE_DATA_SIZE);
 });
+
+test(coordinateDistance, locations, wikipedia);

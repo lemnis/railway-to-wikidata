@@ -2,7 +2,6 @@ import { Reliability } from "../../score/reliability";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
 /** It seems that 1 location fails */
-export const FOREIGN_COUNTRY_SCORE = 1;
 export const FOREIGN_IBNR_SCORE = 1;
 export const FOREIGN_UIC_SCORE = 0.9;
 
@@ -23,9 +22,6 @@ export const ReliabilityNs = {
       (Reliability.FIRST_PARTY +
         Reliability.BIG_DATA_SET +
         Reliability.RAW * NETHERLANDS_IBNR_SCORE),
-    [Property.Country]:
-      Reliability.START +
-      (Reliability.FIRST_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW),
     [Property.NumberOfPlatformTracks]:
       Reliability.START +
       (Reliability.FIRST_PARTY +
@@ -48,10 +44,5 @@ export const ReliabilityNs = {
       (Reliability.THIRD_PARTY +
         Reliability.BIG_DATA_SET +
         Reliability.RAW * FOREIGN_IBNR_SCORE),
-    [Property.Country]:
-      Reliability.START +
-      (Reliability.FIRST_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.COMPUTED * FOREIGN_COUNTRY_SCORE),
   },
 };

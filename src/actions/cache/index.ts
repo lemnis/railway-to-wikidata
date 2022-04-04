@@ -1,6 +1,6 @@
 import { LocationV4, Location } from "../../types/location";
 import { promises as fs } from "fs";
-import { createFeatureCollection, createGeoFeature } from "../geojson";
+import { createFeatureCollection, createGeoFeature } from "./geojson";
 import { refreshDatabase } from "./properties";
 import { generateNavitiaGeoJSON } from "./navitia";
 import inquirer from "inquirer";
@@ -12,7 +12,8 @@ import { db } from "../../utils/database";
 import { getUicLocations } from "../../providers/osm/uic";
 import { filter, mergeMap, of, tap } from "rxjs";
 
-const geoJSONPath = `${__dirname}/../../geojson`;
+const srcPath = `${__dirname}/../..`;
+const geoJSONPath = `${srcPath}/../geojson`;
 
 export const exportGeoJSON = (locations: LocationV4[], path: string) => {
   const features = locations
@@ -72,25 +73,24 @@ const questions = [
       { value: "es-renfe", checked: true },
       { value: "fi-digitraffic", checked: true },
       { value: "fr-sncf", checked: true },
+      { value: "gr-train-ose", checked: true },
       { value: "hr-hzpp", checked: true },
       { value: "hu-mav", checked: true },
       { value: "ie-irish-rail", checked: true },
+      { value: "it-trenitalia", checked: true },
       { value: "lt-litrail", checked: true },
       { value: "lv-ldz", checked: true },
-      { value: "lv-rigassatiksme", checked: true },
       { value: "lu-openov", checked: true },
       { value: "nl-ns", checked: true },
+      { value: "nl-ns-international", checked: true },
       { value: "no-entur", checked: true },
       { value: "pl-pkp", checked: true },
       { value: "pt-cp", checked: true },
       { value: "ro-gov", checked: true },
       { value: "sk-zsr", checked: true },
       { value: "uk-atoc", checked: true },
-      // "it-trenitalia",
-      // "lt-visimarsrutai",
-      //   "train-ose",
       {
-        value: "trainline",
+        value: "_trainline",
         short: "trainline",
         name: "_trainline (slow)",
         checke: false,
@@ -99,12 +99,6 @@ const questions = [
         value: "se-trafiklab",
         short: "se-trafiklab",
         name: "se-trafilab (slow)",
-        checked: false,
-      },
-      {
-        value: "gr-train-ose",
-        short: "gr-train-ose",
-        name: "gr-train-ose (API out of use)",
         checked: false,
       },
     ],
@@ -134,15 +128,15 @@ const prompt = inquirer.createPromptModule();
   if (database) await refreshDatabase();
   if (navitia) await generateNavitiaGeoJSON();
   if (wikidata) {
-    const { data, query } = await getAllRailwayStations();
-    const { data: uic } = await getUICRailwayStations();
-    console.log(query);
-    await exportGeoJSON(
-      data,
-      `${geoJSONPath}/wikidata-railway-stations.geojson`
-    );
-    await exportGeoJSON(uic, `${geoJSONPath}/wikidata-uic-stations.geojson`);
-    console.log("Updated wikidata");
+    let d: any[] = [];
+    (await getAllRailwayStations()).subscribe((i) => {
+      d = [...d, ...i];
+      console.log(d.length);
+      exportGeoJSON(d, `${geoJSONPath}/wikidata-railway-stations.geojson`);
+      console.log("Updated wikidata");
+    });
+    // const { data: uic } = await getUICRailwayStations();
+    // await exportGeoJSON(uic, `${geoJSONPath}/wikidata-uic-stations.geojson`);
   }
 
   if (osmUic) {
@@ -199,42 +193,40 @@ const prompt = inquirer.createPromptModule();
 
   await Promise.all(
     geojson.map(async (name) => {
-      if (name === "trainline") {
-        import("../../providers/trainline").then(
+      if (name === "_trainline") {
+        await import("../../providers/_trainline").then(
           async ({
             getGroupedTrainlineLocations,
             trainlineArrayToLocation,
           }) => {
             const { trainStations, cities } =
               await getGroupedTrainlineLocations();
-            const stations = await Promise.all(
-              trainStations.map(trainlineArrayToLocation)
-            );
-            const city = await Promise.all(
-              cities.map(trainlineArrayToLocation)
-            );
 
-            exportGeoJSON(
-              stations,
-              `${geoJSONPath}/trainline-stations.geojson`
+            fs.writeFile(
+              `${geoJSONPath}/trainline-stations.geojson`,
+              JSON.stringify(
+                createFeatureCollection(
+                  await Promise.all(trainStations.map(trainlineArrayToLocation))
+                ),
+                null,
+                2
+              )
             );
-            exportGeoJSON(city, `${geoJSONPath}/trainline-cities.geojson`);
+            fs.writeFile(
+              `${geoJSONPath}/trainline-cities.geojson`,
+              JSON.stringify(
+                createFeatureCollection(
+                  await Promise.all(cities.map(trainlineArrayToLocation))
+                ),
+                null,
+                2
+              )
+            );
           }
         );
       } else {
-        import(`../providers/${name}`).then(async ({ getLocations }) => {
-          if (
-            [
-              "pt-cp",
-              "sk-zsr",
-              "at-oebb",
-              "lt-litrail",
-              "ro-gov",
-              "ee-peatus",
-              "lv-rigassatiksme",
-              "_iris",
-            ].includes(name)
-          ) {
+        await import(`../../providers/${name}`).then(
+          async ({ getLocations }) => {
             fs.writeFile(
               `${geoJSONPath}/${name}.geojson`,
               JSON.stringify(
@@ -243,13 +235,8 @@ const prompt = inquirer.createPromptModule();
                 2
               )
             );
-          } else {
-            exportGeoJSON(
-              await getLocations(),
-              `${geoJSONPath}/${name}.geojson`
-            );
           }
-        });
+        );
       }
       console.log("Updated " + name);
     })

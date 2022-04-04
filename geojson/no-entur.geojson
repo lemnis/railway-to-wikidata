@@ -3,14 +3,23 @@
   "features": [
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:101",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          11.015682,
-          59.956264
+          [
+            11.015682,
+            59.956264
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Sagdalen stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7610206"
@@ -25,26 +34,28 @@
           {
             "value": "SDA"
           }
-        ],
-        "id": "NSR:StopPlace:101",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Sagdalen stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:114",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          6.236224,
-          60.632441
+          [
+            6.236224,
+            60.632441
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Seimsgrend stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7602332"
@@ -59,26 +70,28 @@
           {
             "value": "SGR"
           }
-        ],
-        "id": "NSR:StopPlace:114",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Seimsgrend stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:117",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          11.546232,
-          60.882856
+          [
+            11.546232,
+            60.882856
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Elverum stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7600909"
@@ -93,26 +106,28 @@
           {
             "value": "ELV"
           }
-        ],
-        "id": "NSR:StopPlace:117",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Elverum stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:128",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          12.82988,
-          59.626708
+          [
+            12.82988,
+            59.626708
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Edane station"
+          }
+        ],
         "P722": [
           {
             "value": "7400410"
@@ -127,26 +142,28 @@
           {
             "value": "EN"
           }
-        ],
-        "id": "NSR:StopPlace:128",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Edane station"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:144",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.377746,
-          63.431113
+          [
+            10.377746,
+            63.431113
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Skansen stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7601125"
@@ -161,60 +178,28 @@
           {
             "value": "SKS"
           }
-        ],
-        "id": "NSR:StopPlace:144",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Skansen stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:151",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          5.897164,
-          58.485818
+          [
+            6.109525,
+            60.647102
+          ]
         ]
       },
       "properties": {
-        "P722": [
-          {
-            "value": "7602214"
-          }
-        ],
-        "P17": [
-          {
-            "value": "Q20"
-          }
-        ],
-        "P296": [
-          {
-            "value": "HEV"
-          }
-        ],
-        "id": "NSR:StopPlace:149",
         "labels": [
           {
             "lang": "no",
-            "value": "Hellvik stasjon"
+            "value": "Evanger stasjon"
           }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.109525,
-          60.647102
-        ]
-      },
-      "properties": {
+        ],
         "P722": [
           {
             "value": "7602333"
@@ -229,26 +214,28 @@
           {
             "value": "EVG"
           }
-        ],
-        "id": "NSR:StopPlace:151",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Evanger stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:155",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.373344,
-          63.389399
+          [
+            10.373344,
+            63.389399
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Selsbakk stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7601123"
@@ -263,26 +250,28 @@
           {
             "value": "SLB"
           }
-        ],
-        "id": "NSR:StopPlace:155",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Selsbakk stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:17",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.139346,
-          61.529255
+          [
+            10.139346,
+            61.529255
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ringebu stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7600734"
@@ -297,26 +286,28 @@
           {
             "value": "RBU"
           }
-        ],
-        "id": "NSR:StopPlace:17",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Ringebu stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:184",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          15.11089,
-          59.067051
+          [
+            15.11089,
+            59.067051
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Hallsberg station"
+          }
+        ],
         "P722": [
           {
             "value": "7401374"
@@ -331,26 +322,28 @@
           {
             "value": "HLB"
           }
-        ],
-        "id": "NSR:StopPlace:184",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Hallsberg station"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:200",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          7.503823,
-          60.601772
+          [
+            7.503823,
+            60.601772
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Finse stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7602322"
@@ -365,26 +358,28 @@
           {
             "value": "FIN"
           }
-        ],
-        "id": "NSR:StopPlace:200",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Finse stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:206",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          5.753836,
-          58.933488
+          [
+            5.753836,
+            58.933488
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Mariero stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7602232"
@@ -399,26 +394,28 @@
           {
             "value": "MRO"
           }
-        ],
-        "id": "NSR:StopPlace:206",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Mariero stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:222",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          7.122762,
-          60.735141
+          [
+            7.122762,
+            60.735141
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Myrdal stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7602324"
@@ -433,26 +430,28 @@
           {
             "value": "MYR"
           }
-        ],
-        "id": "NSR:StopPlace:222",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Myrdal stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:23",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          11.369849,
-          61.134587
+          [
+            11.369849,
+            61.134587
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Rena stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7600914"
@@ -467,26 +466,28 @@
           {
             "value": "REN"
           }
-        ],
-        "id": "NSR:StopPlace:23",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Rena stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:234",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          14.556891,
-          67.283868
+          [
+            14.556891,
+            67.283868
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Mørkved stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7601387"
@@ -501,26 +502,28 @@
           {
             "value": "MØR"
           }
-        ],
-        "id": "NSR:StopPlace:234",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Mørkved stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:247",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          8.654536,
-          58.529391
+          [
+            8.654536,
+            58.529391
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Froland stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7602140"
@@ -535,26 +538,28 @@
           {
             "value": "FRL"
           }
-        ],
-        "id": "NSR:StopPlace:247",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Froland stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:261",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          5.717169,
-          58.823277
+          [
+            5.717169,
+            58.823277
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ganddal stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7602225"
@@ -569,26 +574,28 @@
           {
             "value": "GAN"
           }
-        ],
-        "id": "NSR:StopPlace:261",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Ganddal stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:271",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.416702,
-          63.437226
+          [
+            10.416702,
+            63.437226
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Lademoen stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7621200"
@@ -603,26 +610,28 @@
           {
             "value": "NNN"
           }
-        ],
-        "id": "NSR:StopPlace:271",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Lademoen stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:274",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.438605,
-          61.223647
+          [
+            10.438605,
+            61.223647
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Hunderfossen stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7600729"
@@ -637,26 +646,28 @@
           {
             "value": "HSS"
           }
-        ],
-        "id": "NSR:StopPlace:274",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Hunderfossen stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:291",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          9.484872,
-          59.300468
+          [
+            9.484872,
+            59.300468
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Nisterud stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7601813"
@@ -671,26 +682,28 @@
           {
             "value": "NTR"
           }
-        ],
-        "id": "NSR:StopPlace:291",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Nisterud stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:302",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.694316,
-          60.79718
+          [
+            10.694316,
+            60.79718
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Gjøvik stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7600626"
@@ -705,26 +718,28 @@
           {
             "value": "GJØ"
           }
-        ],
-        "id": "NSR:StopPlace:302",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Gjøvik stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:311",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          6.463629,
-          60.639413
+          [
+            6.463629,
+            60.639413
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Gjerdåker stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7612329"
@@ -739,26 +754,28 @@
           {
             "value": "GJÅ"
           }
-        ],
-        "id": "NSR:StopPlace:311",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Gjerdåker stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:313",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.927655,
-          59.948092
+          [
+            10.927655,
+            59.948092
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Høybråten stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7600203"
@@ -773,26 +790,28 @@
           {
             "value": "HØB"
           }
-        ],
-        "id": "NSR:StopPlace:313",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Høybråten stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:316",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          9.694018,
-          62.593111
+          [
+            9.694018,
+            62.593111
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Oppdal stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7601107"
@@ -807,26 +826,28 @@
           {
             "value": "OPD"
           }
-        ],
-        "id": "NSR:StopPlace:316",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Oppdal stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:329",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          11.222247,
-          60.776943
+          [
+            11.222247,
+            60.776943
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ilseng stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7600904"
@@ -841,26 +862,28 @@
           {
             "value": "ILS"
           }
-        ],
-        "id": "NSR:StopPlace:329",
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Ilseng stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:33",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          10.534298,
-          63.427978
+          [
+            10.534298,
+            63.427978
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Ranheim stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7601203"
@@ -875,26 +898,28 @@
           {
             "value": "RHM"
           }
-        ],
-        "id": "NSR:StopPlace:33",
-        "labels": [
-          {
-            "lang": "nor",
-            "value": "Ranheim stasjon"
-          }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:331",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          11.416541,
-          62.674525
+          [
+            11.416541,
+            62.674525
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Glåmos stasjon"
+          }
+        ],
         "P722": [
           {
             "value": "7601008"
@@ -909,28 +934,3160 @@
           {
             "value": "GOS"
           }
-        ],
-        "id": "NSR:StopPlace:331",
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:349",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            7.011496,
+            60.72538
+          ]
+        ]
+      },
+      "properties": {
         "labels": [
           {
             "lang": "nor",
-            "value": "Glåmos stasjon"
+            "value": "Upsete stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602325"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "UPS"
           }
         ]
       }
     },
     {
       "type": "Feature",
+      "id": "NSR:StopPlace:358",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          7.011496,
-          60.72538
+          [
+            8.045222,
+            60.496576
+          ]
         ]
       },
       "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Ustaoset stasjon"
+          }
+        ],
         "P722": [
           {
-            "value": "7602325"
+            "value": "7602320"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "UST"
           }
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:362",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.729129,
+            58.913871
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Jåttåvågen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602230"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "JÅT"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:364",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.735231,
+            60.478601
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Vaksdal stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602337"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VAD"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:369",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.279976,
+            63.23336
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Kvål stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601118"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KVÅ"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:372",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            15.19201,
+            67.299445
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Valnesfjord stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601386"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VAL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:379",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.847299,
+            60.105966
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Varingskollen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7610607"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VAR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:38",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.113325,
+            63.666292
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ronglan stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601304"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "RLA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:382",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.128002,
+            60.039449
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Lindeberg stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600210"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LBG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:385",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.835269,
+            59.932421
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Alna stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7610200"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ALA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:388",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.43238,
+            63.439884
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Lilleby stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601200"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LDM"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:393",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.461623,
+            63.437548
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Leangen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601201"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LEA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:398",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.466125,
+            60.420118
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Arna stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602342"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ARN"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:4",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.536819,
+            61.772281
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Otta stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600743"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "OTA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:400",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.2985,
+            63.198941
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Ler stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601117"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LER"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:406",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            8.853838,
+            62.118531
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Lesja stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600801"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LES"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:41",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.965481,
+            59.938993
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Hanaborg stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7610204"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "HAB"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:416",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.623685,
+            63.438752
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Vikhammer stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601204"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VHR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:42",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.730762,
+            60.678237
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Reimegrend stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602327"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "RMG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:420",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.461479,
+            61.114912
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Lillehammer stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600725"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LHM"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:421",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.687402,
+            58.570454
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Vigrestad stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602219"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VIG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:425",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.74704,
+            61.595462
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Vinstra stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600739"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VIN"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:429",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.998328,
+            59.969187
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Vikersund stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601612"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VKS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:433",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.784618,
+            59.852688
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ljan stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600502"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LJA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:439",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.90141,
+            60.708674
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ljosanbotn stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7632325"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LJB"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:441",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.351679,
+            60.039008
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Auli stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7610308"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "AUL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:445",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.979523,
+            60.709247
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Vieren stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7612325"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VRN"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:446",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.979059,
+            62.960701
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Langlete stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601015"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LLE"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:447",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.658546,
+            62.220604
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Auma stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600927"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "AUM"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:448",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            7.129843,
+            60.743804
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Vatnahalsen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602358"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "VTH"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:45",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            7.139198,
+            60.743883
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Reinunga stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7612358"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "RNU"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:451",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.044676,
+            59.953221
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Lillestrøm stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600207"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LLS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:453",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.471118,
+            63.771146
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Bergsgrav stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7611307"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BEG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:461",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.280175,
+            63.15192
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Lundamo stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601116"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LMO"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:462",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.507339,
+            60.645358
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ygre stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602329"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "YGH"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:467",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            8.201511,
+            62.258539
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Bjorli stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600805"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BJO"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:468",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.940806,
+            60.70377
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ørneberget stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7622325"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ØBG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:469",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.409237,
+            63.413874
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Lerkendal stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601127"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LRK"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:474",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.627489,
+            60.680181
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Øyeflaten stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7622327"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ØFL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:488",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            8.538182,
+            62.192475
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Lesjaverk stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600803"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LSV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:500",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.78518,
+            62.030096
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Bellingmo stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600925"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BMO"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:514",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.315089,
+            62.846365
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Ålen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601012"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ÅLN"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:518",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.957664,
+            60.637937
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Bolstadøyri stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602334"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BOL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:53",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.379087,
+            62.574745
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Røros stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601006"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ROS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:535",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            7.135649,
+            60.746953
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Kjosfossen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7622358"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KJF"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:54",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.319091,
+            63.752986
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Røstad stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7621306"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "EBE"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:549",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.534993,
+            60.66324
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Kløve stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7612328"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KLV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:555",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            7.720393,
+            58.199507
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Breland stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602176"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BRL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:559",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            12.366856,
+            59.768861
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Åmotfors station"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7404712"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q34"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ÅT"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:560",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.032393,
+            59.626363
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Knapstad stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600531"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KNA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:561",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.748897,
+            58.54036
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Brusand stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602218"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BRS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:565",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            13.6569,
+            63.3086
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Mörsil station"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7402834"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q34"
+          }
+        ],
+        "P296": [
+          {
+            "value": "MI"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:567",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            15.140401,
+            59.1264
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Kumla station"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7402155"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q34"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KLA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:574",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.713518,
+            60.233512
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Bjørgeseter stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600611"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BSR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:577",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.483057,
+            59.874782
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Billingstad stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601410"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BST"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:581",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            15.202519,
+            59.269809
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Örebro södra station"
+          }
+        ],
+        "P722": [],
+        "P17": [],
+        "P296": [
+          {
+            "value": "ØS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:584",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.284928,
+            60.630582
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Bulken stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602331"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BUL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:58415",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            14.870773,
+            67.29918
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Oteråga stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600186"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "OTR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:586",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.561233,
+            62.976432
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Kotsøy stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601019"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KOT"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:58955",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            18.062084,
+            59.313648
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Stockholms södra station"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7403755"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q34"
+          }
+        ],
+        "P296": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:58957",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            19.750065,
+            63.908528
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Vännäs station"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7404594"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q34"
+          }
+        ],
+        "P296": []
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:59129",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.165948,
+            61.472582
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Kvitfjell stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600735"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KVI"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:592",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.848486,
+            63.392062
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Kopperå stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601215"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KPR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:597",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            8.705627,
+            58.576607
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Bøylestad stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602139"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BØY"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:6",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.806068,
+            59.773293
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Greverud stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7610505"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "GUD"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:602",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.014242,
+            62.823004
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Berkåk stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601110"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BÅK"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:608",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            8.689566,
+            58.462777
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Bråstad stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602144"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BÅS"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:610",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.525746,
+            59.892903
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Sandvika stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601408"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:61101",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.257084,
+            59.557004
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Notodden stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601806"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "NTD"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:628",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.800159,
+            59.701589
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Darbu stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601628"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "DAR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:629",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            9.7014,
+            61.66488
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Kvam stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600740"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KVA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:63",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.303643,
+            59.513464
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Eidsberg stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600537"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "EBG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:636",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.288965,
+            63.262483
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Søberg stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601119"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SØB"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:646",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.269596,
+            60.615952
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Tangen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600706"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "TAN"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:648",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.502743,
+            59.885628
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Slependen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601409"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SLE"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:666",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.810005,
+            60.02401
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Snippen stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7610604"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SNI"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:669",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.324332,
+            61.251217
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Steinvik stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600915"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SNV"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:676",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            8.709398,
+            58.465993
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Stoa stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602145"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SOA"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:687",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.428811,
+            63.918933
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Sparbu stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601311"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SPB"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:698",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            6.679814,
+            60.681135
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Skiple stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7612327"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SPL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:699",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            10.776389,
+            62.274715
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Tynset stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600928"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "TYN"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:708",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.19458,
+            60.71801
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Stange stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7600708"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "STG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:71",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            7.252248,
+            60.667918
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Hallingskeid stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602323"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "HAL"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:710",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.733674,
+            60.549386
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "nor",
+            "value": "Stanghelle stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602336"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "STH"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:74",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            11.401494,
+            63.856826
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Røra stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601310"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "RØ"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:77",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            15.3133,
+            66.981695
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Røkland stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7601380"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "RØK"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:8",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.742198,
+            58.956101
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Paradis stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7602233"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "PAR"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NSR:StopPlace:87",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            5.733579,
+            58.847034
+          ]
+        ]
+      },
+      "properties": {
+        "labels": [
+          {
+            "lang": "no",
+            "value": "Skeiane stasjon"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7612226"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SAS"
+          }
+        ]
+      }
+    }
+  ]
+}

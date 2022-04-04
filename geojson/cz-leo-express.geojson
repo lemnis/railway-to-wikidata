@@ -2,15 +2,12 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.381576,
-          51.345472
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Leipzig Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5417741"
@@ -21,23 +18,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Leipzig Hbf"
+            "value": [
+              51.345472,
+              12.381576
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.375519037,
-          48.18612504
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Wien Hauptbahnhof Bstg 1-2"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8160329"
@@ -48,23 +45,23 @@
             "value": "Q40"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Wien Hauptbahnhof Bstg 1-2"
+            "value": [
+              48.18612504,
+              16.375519037
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.625005,
-          48.207983
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "St. Pölten Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8160330"
@@ -75,23 +72,23 @@
             "value": "Q40"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "St. Pölten Hbf"
+            "value": [
+              48.207983,
+              15.625005
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.877625,
-          48.121866
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Amstetten NÖ"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8160341"
@@ -102,23 +99,23 @@
             "value": "Q40"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Amstetten NÖ"
+            "value": [
+              48.121866,
+              14.877625
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.291553,
-          48.290603
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Linz Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8160352"
@@ -129,23 +126,23 @@
             "value": "Q40"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Linz Hbf"
+            "value": [
+              48.290603,
+              14.291553
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.026881,
-          48.166018
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Wels Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8160363"
@@ -156,23 +153,23 @@
             "value": "Q40"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Wels Hbf"
+            "value": [
+              48.166018,
+              14.026881
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.721435,
-          48.012384
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Attnang-Puchheim"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8160374"
@@ -183,23 +180,23 @@
             "value": "Q40"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Attnang-Puchheim"
+            "value": [
+              48.012384,
+              13.721435
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.045414,
-          47.813038
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Salzburg Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8160385"
@@ -210,23 +207,23 @@
             "value": "Q40"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Salzburg Hbf"
+            "value": [
+              47.813038,
+              13.045414
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.49722,
-          50.11222
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Praha-Vysočany"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "573162"
@@ -237,23 +234,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Praha-Vysočany"
+            "value": [
+              50.11222,
+              14.49722
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.897538,
-          50.536268
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kamieniec Ząbkowicki"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100018"
@@ -264,23 +261,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kamieniec Ząbkowicki"
+            "value": [
+              50.536268,
+              16.897538
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.01709794998169,
-          50.25760479776817
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Katowice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100020"
@@ -291,23 +288,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Katowice"
+            "value": [
+              50.25760479776817,
+              19.01709794998169
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.2974195,
-          50.2463215
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Jaworzno Szczakowa"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100025"
@@ -318,23 +315,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Jaworzno Szczakowa"
+            "value": [
+              50.2463215,
+              19.2974195
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.4531919,
-          50.1543056
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Trzebinia"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100026"
@@ -345,23 +342,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Trzebinia"
+            "value": [
+              50.1543056,
+              19.4531919
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.6322983,
-          50.1312085
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Krzeszowice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100027"
@@ -372,23 +369,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Krzeszowice"
+            "value": [
+              50.1312085,
+              19.6322983
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.959797859191895,
-          50.04140363175904
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kraków Podgórze"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100028"
@@ -399,23 +396,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kraków Podgórze"
+            "value": [
+              50.04140363175904,
+              19.959797859191895
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.036534,
-          51.098751
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Wrocław Główny"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100069"
@@ -426,23 +423,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Wrocław Główny"
+            "value": [
+              51.098751,
+              17.036534
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.060063,
-          50.784414
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Strzelin"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100076"
@@ -453,23 +450,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Strzelin"
+            "value": [
+              50.784414,
+              17.060063
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.82203960418701,
-          49.976934950583455
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Skawina"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100130"
@@ -480,23 +477,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Skawina"
+            "value": [
+              49.976934950583455,
+              19.82203960418701
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.03424,
-          50.608473
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Ziębice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100162"
@@ -507,23 +504,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Ziębice"
+            "value": [
+              50.608473,
+              17.03424
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.141488075256348,
-          50.237646794881385
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Mysłowice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100175"
@@ -534,23 +531,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Mysłowice"
+            "value": [
+              50.237646794881385,
+              19.141488075256348
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.655066,
-          50.143666
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Międzylesie"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100225"
@@ -561,23 +558,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Międzylesie"
+            "value": [
+              50.143666,
+              16.655066
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.964848518371582,
-          50.136397301586165
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Tychy"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100260"
@@ -588,23 +585,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Tychy"
+            "value": [
+              50.136397301586165,
+              18.964848518371582
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.5476322,
-          50.0888442
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Rybnik"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100262"
@@ -615,23 +612,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Rybnik"
+            "value": [
+              50.0888442,
+              18.5476322
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.623692989349365,
-          49.87021692548342
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Zebrzydowice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100264"
@@ -642,23 +639,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Zebrzydowice"
+            "value": [
+              49.87021692548342,
+              18.623692989349365
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.758456,
-          50.509608
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Bardo Przyłęk"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100367"
@@ -669,23 +666,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Bardo Przyłęk"
+            "value": [
+              50.509608,
+              16.758456
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.029765,
-          50.728265
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Biały Kościół"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100456"
@@ -696,23 +693,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Biały Kościół"
+            "value": [
+              50.728265,
+              17.029765
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.024809,
-          50.878756
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Boreczek"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100548"
@@ -723,23 +720,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Boreczek"
+            "value": [
+              50.878756,
+              17.024809
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.734071,
-          50.504952
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Bardo Śląskie"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100576"
@@ -750,23 +747,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Bardo Śląskie"
+            "value": [
+              50.504952,
+              16.734071
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.654869,
-          50.296842
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Bystrzyca Kłodzka"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100656"
@@ -777,23 +774,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Bystrzyca Kłodzka"
+            "value": [
+              50.296842,
+              16.654869
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.647359,
-          50.285699
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Bystrzyca Kłodzka Przedmieście"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100675"
@@ -804,23 +801,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Bystrzyca Kłodzka Przedmieście"
+            "value": [
+              50.285699,
+              16.647359
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.3114719,
-          49.9255981
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Chalupki"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100708"
@@ -831,23 +828,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Chalupki"
+            "value": [
+              49.9255981,
+              18.3114719
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.636863,
-          50.23912
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Długopole-Zdrój"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100947"
@@ -858,23 +855,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Długopole-Zdrój"
+            "value": [
+              50.23912,
+              16.636863
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.655029,
-          50.212527
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Domaszków"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5100975"
@@ -885,23 +882,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Domaszków"
+            "value": [
+              50.212527,
+              16.655029
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.28517658720932,
-          50.04559088342172
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Oświęcim Dwory"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101014"
@@ -912,23 +909,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Oświęcim Dwory"
+            "value": [
+              50.04559088342172,
+              19.28517658720932
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.640575,
-          50.3549
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Gorzanów"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101327"
@@ -939,23 +936,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Gorzanów"
+            "value": [
+              50.3549,
+              16.640575
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.029681,
-          50.663419
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Henryków"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101341"
@@ -966,23 +963,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Henryków"
+            "value": [
+              50.663419,
+              17.029681
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.977787494659424,
-          50.22623356621374
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Katowice Ligota"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101522"
@@ -993,23 +990,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Katowice Ligota"
+            "value": [
+              50.22623356621374,
+              18.977787494659424
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.63638,
-          50.39228
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Krosnowice Kłodzkie"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101547"
@@ -1020,23 +1017,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Krosnowice Kłodzkie"
+            "value": [
+              50.39228,
+              16.63638
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.656808,
-          50.451301
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kłodzko Główne"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101564"
@@ -1047,23 +1044,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kłodzko Główne"
+            "value": [
+              50.451301,
+              16.656808
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.658399,
-          50.434795
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kłodzko Miasto"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101567"
@@ -1074,23 +1071,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kłodzko Miasto"
+            "value": [
+              50.434795,
+              16.658399
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.670511,
-          50.477132
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Ławica"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5101934"
@@ -1101,23 +1098,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Ławica"
+            "value": [
+              50.477132,
+              16.670511
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.953068256378174,
-          49.975189302185576
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Pszczyna"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5102920"
@@ -1128,23 +1125,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Pszczyna"
+            "value": [
+              49.975189302185576,
+              18.953068256378174
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.665603,
-          50.187418
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Roztoki Bystrzyckie"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5103170"
@@ -1155,23 +1152,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Roztoki Bystrzyckie"
+            "value": [
+              50.187418,
+              16.665603
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.065941,
-          51.029939
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Smardzów Wrocławski"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5103493"
@@ -1182,23 +1179,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Smardzów Wrocławski"
+            "value": [
+              51.029939,
+              17.065941
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.82394,
-          50.5307
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Suszka"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5103597"
@@ -1209,23 +1206,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Suszka"
+            "value": [
+              50.5307,
+              16.82394
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.947295,
-          50.564125
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Starczów"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5103643"
@@ -1236,23 +1233,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Starczów"
+            "value": [
+              50.564125,
+              16.947295
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.033174,
-          50.926068
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Węgry"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5103981"
@@ -1263,23 +1260,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Węgry"
+            "value": [
+              50.926068,
+              17.033174
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.046619,
-          50.828073
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Warkocz"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5104052"
@@ -1290,23 +1287,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Warkocz"
+            "value": [
+              50.828073,
+              17.046619
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.4763475,
-          50.0082336
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Wodzisław Śląski"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5104095"
@@ -1317,23 +1314,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Wodzisław Śląski"
+            "value": [
+              50.0082336,
+              18.4763475
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.428720474243164,
-          50.002284560283776
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Zator, Energylandia"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5104253"
@@ -1344,23 +1341,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Zator, Energylandia"
+            "value": [
+              50.002284560283776,
+              19.428720474243164
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.049319,
-          50.983212
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Żórawina"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5104372"
@@ -1371,23 +1368,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Żórawina"
+            "value": [
+              50.983212,
+              17.049319
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.947499930858612,
-          50.06850031673756
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kraków Główny"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5107999"
@@ -1398,23 +1395,23 @@
             "value": "Q36"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kraków Główny"
+            "value": [
+              50.06850031673756,
+              19.947499930858612
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.717148,
-          49.636364
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Bystrica"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5433104"
@@ -1425,23 +1422,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Bystrica"
+            "value": [
+              49.636364,
+              18.717148
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.622511,
-          49.743678
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Český Těšín"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5433234"
@@ -1452,23 +1449,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Český Těšín"
+            "value": [
+              49.743678,
+              18.622511
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.526713,
-          49.855659
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Karviná, hl. n."
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5433674"
@@ -1479,23 +1476,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Karviná, hl. n."
+            "value": [
+              49.855659,
+              18.526713
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.741566,
-          49.565439
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Hranice na Moravě"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5433722"
@@ -1506,23 +1503,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Hranice na Moravě"
+            "value": [
+              49.565439,
+              17.741566
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.476311,
-          49.316412
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Hulín"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5433985"
@@ -1533,23 +1530,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Hulín"
+            "value": [
+              49.316412,
+              17.476311
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.359425,
-          49.900606
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Bohumín"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434124"
@@ -1560,23 +1557,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Bohumín"
+            "value": [
+              49.900606,
+              18.359425
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.277886,
-          49.592464
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Olomouc, hl. n."
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434362"
@@ -1587,23 +1584,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Olomouc, hl. n."
+            "value": [
+              49.592464,
+              17.277886
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.267442,
-          49.852151
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Ostrava, hl.n."
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434364"
@@ -1614,23 +1611,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Ostrava, hl.n."
+            "value": [
+              49.852151,
+              18.267442
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.209621,
-          49.821151
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Ostrava-Svinov"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434434"
@@ -1641,23 +1638,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Ostrava-Svinov"
+            "value": [
+              49.821151,
+              18.209621
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.445018,
-          49.447087
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Přerov"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434662"
@@ -1668,23 +1665,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Přerov"
+            "value": [
+              49.447087,
+              17.445018
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.0661,
-          49.7075
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Studénka"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434694"
@@ -1695,23 +1692,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Studénka"
+            "value": [
+              49.7075,
+              18.0661
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.939144,
-          49.642652
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Suchdol nad Odrou"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434804"
@@ -1722,23 +1719,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Suchdol nad Odrou"
+            "value": [
+              49.642652,
+              17.939144
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.679987,
-          49.671685
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Třinec centrum"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5434944"
@@ -1749,23 +1746,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Třinec centrum"
+            "value": [
+              49.671685,
+              18.679987
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.887519,
-          49.872229
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Zábřeh na Moravě"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5435502"
@@ -1776,23 +1773,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Zábřeh na Moravě"
+            "value": [
+              49.872229,
+              16.887519
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.53117,
-          49.202651
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Otrokovice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5435575"
@@ -1803,23 +1800,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Otrokovice"
+            "value": [
+              49.202651,
+              17.53117
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.422893,
-          49.076209
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Staré Město u Uherského Hradiště"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5436145"
@@ -1830,23 +1827,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Staré Město u Uherského Hradiště"
+            "value": [
+              49.076209,
+              17.422893
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.5075,
-          50.03138
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Letohrad"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453330"
@@ -1857,23 +1854,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Letohrad"
+            "value": [
+              50.03138,
+              16.5075
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.5575,
-          50.01138
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Verměřovice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453350"
@@ -1884,23 +1881,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Verměřovice"
+            "value": [
+              50.01138,
+              16.5575
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.47416,
-          50.0125
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Dolní Dobrouč"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453360"
@@ -1911,23 +1908,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Dolní Dobrouč"
+            "value": [
+              50.0125,
+              16.47416
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.46138,
-          50.00138
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Hnátnice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453370"
@@ -1938,23 +1935,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Hnátnice"
+            "value": [
+              50.00138,
+              16.46138
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.44722,
-          49.9925
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Lanšperk"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453380"
@@ -1965,23 +1962,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Lanšperk"
+            "value": [
+              49.9925,
+              16.44722
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.39694,
-          49.98916
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Dolní Libchavy"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453390"
@@ -1992,23 +1989,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Dolní Libchavy"
+            "value": [
+              49.98916,
+              16.39694
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.59444,
-          50.02638
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Jablonné n.Orlicí"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453400"
@@ -2019,23 +2016,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Jablonné n.Orlicí"
+            "value": [
+              50.02638,
+              16.59444
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.6025,
-          50.03972
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Jamné n.Orlicí"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453410"
@@ -2046,23 +2043,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Jamné n.Orlicí"
+            "value": [
+              50.03972,
+              16.6025
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.213014,
-          50.025511
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kolín"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453414"
@@ -2073,23 +2070,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kolín"
+            "value": [
+              50.025511,
+              15.213014
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.60805,
-          50.06861
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Těchonín"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453420"
@@ -2100,23 +2097,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Těchonín"
+            "value": [
+              50.06861,
+              16.60805
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.65805,
-          50.09694
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Lichkov"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453430"
@@ -2127,23 +2124,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Lichkov"
+            "value": [
+              50.09694,
+              16.65805
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.42694,
-          49.98694
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Černovír"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453440"
@@ -2154,23 +2151,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Černovír"
+            "value": [
+              49.98694,
+              16.42694
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.62972,
-          50.09194
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Mladkov"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453450"
@@ -2181,23 +2178,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Mladkov"
+            "value": [
+              50.09194,
+              16.62972
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.72111,
-          50.08916
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Dolní Lipka"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453460"
@@ -2208,23 +2205,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Dolní Lipka"
+            "value": [
+              50.08916,
+              16.72111
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.74861,
-          50.08666
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Králíky zast."
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453490"
@@ -2235,23 +2232,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Králíky zast."
+            "value": [
+              50.08666,
+              16.74861
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.75611,
-          50.08055
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Králíky"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453500"
@@ -2262,23 +2259,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Králíky"
+            "value": [
+              50.08055,
+              16.75611
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.74722,
-          50.06555
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Dolní Orlice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453510"
@@ -2289,23 +2286,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Dolní Orlice"
+            "value": [
+              50.06555,
+              16.74722
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.57388,
-          50.03972
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Přelouč"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453513"
@@ -2316,23 +2313,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Přelouč"
+            "value": [
+              50.03972,
+              15.57388
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.74638,
-          50.04694
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Červená Voda"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453520"
@@ -2343,23 +2340,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Červená Voda"
+            "value": [
+              50.04694,
+              16.74638
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.74583,
-          50.03666
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Červená Voda-Pod rozhlednou"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453525"
@@ -2370,23 +2367,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Červená Voda-Pod rozhlednou"
+            "value": [
+              50.03666,
+              16.74583
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.75305,
-          50.02555
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Moravský Karlov"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453530"
@@ -2397,23 +2394,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Moravský Karlov"
+            "value": [
+              50.02555,
+              16.75305
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.7475,
-          50.01722
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Bílá Voda"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453540"
@@ -2424,23 +2421,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Bílá Voda"
+            "value": [
+              50.01722,
+              16.7475
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.74777,
-          50.00388
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Mlýnický Dvůr"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453550"
@@ -2451,23 +2448,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Mlýnický Dvůr"
+            "value": [
+              50.00388,
+              16.74777
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.75637,
-          50.031625
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Pardubice, hl.n."
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453613"
@@ -2478,23 +2475,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Pardubice, hl.n."
+            "value": [
+              50.031625,
+              15.75637
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.78888,
-          50.03111
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Pardubice-Pardubičky"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453643"
@@ -2505,23 +2502,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Pardubice-Pardubičky"
+            "value": [
+              50.03111,
+              15.78888
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.94638,
-          50.00194
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Moravany"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453673"
@@ -2532,23 +2529,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Moravany"
+            "value": [
+              50.00194,
+              15.94638
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.22361,
-          49.99388
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Choceň"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453813"
@@ -2559,23 +2556,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Choceň"
+            "value": [
+              49.99388,
+              16.22361
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.28388,
-          50
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Brandýs n.Orlicí"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453843"
@@ -2586,23 +2583,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Brandýs n.Orlicí"
+            "value": [
+              50,
+              16.28388
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.377918,
-          49.971392
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Ústí nad Orlicí"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453863"
@@ -2613,23 +2610,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Ústí nad Orlicí"
+            "value": [
+              49.971392,
+              16.377918
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.44611,
-          49.89694
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Česká Třebová"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5453913"
@@ -2640,23 +2637,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Česká Třebová"
+            "value": [
+              49.89694,
+              16.44611
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.436423,
-          50.084446
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Praha, hl. n."
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5457076"
@@ -2667,23 +2664,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Praha, hl. n."
+            "value": [
+              50.084446,
+              14.436423
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.501819,
-          50.101444
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Praha-Libeň"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5457176"
@@ -2694,23 +2691,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Praha-Libeň"
+            "value": [
+              50.101444,
+              14.501819
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.440317,
-          50.110608
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Praha-HoleŠovice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5457256"
@@ -2721,23 +2718,23 @@
             "value": "Q213"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Praha-HoleŠovice"
+            "value": [
+              50.110608,
+              14.440317
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.309173,
-          49.083472
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Ružomberok"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5613041"
@@ -2748,23 +2745,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Ružomberok"
+            "value": [
+              49.083472,
+              19.309173
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.605,
-          49.091667
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Liptovský Mikuláš"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5613101"
@@ -2775,23 +2772,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Liptovský Mikuláš"
+            "value": [
+              49.091667,
+              19.605
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.066704,
-          49.083235
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Štrba"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5613200"
@@ -2802,23 +2799,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Štrba"
+            "value": [
+              49.083235,
+              20.066704
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.295418,
-          49.059533
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Poprad-Tatry"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5613250"
@@ -2829,23 +2826,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Poprad-Tatry"
+            "value": [
+              49.059533,
+              20.295418
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.560755,
-          48.950093
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Spišská Nová Ves"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5613360"
@@ -2856,23 +2853,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Spišská Nová Ves"
+            "value": [
+              48.950093,
+              20.560755
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.223889,
-          48.852778
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kysak"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5613560"
@@ -2883,23 +2880,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kysak"
+            "value": [
+              48.852778,
+              21.223889
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2675,
-          48.721667
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Košice"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5613600"
@@ -2910,23 +2907,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Košice"
+            "value": [
+              48.721667,
+              21.2675
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.249646,
-          48.982802
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Prešov"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5615750"
@@ -2937,23 +2934,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Prešov"
+            "value": [
+              48.982802,
+              21.249646
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.924112,
-          49.115409
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Vrútky"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5617895"
@@ -2964,23 +2961,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Vrútky"
+            "value": [
+              49.115409,
+              18.924112
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.745556,
-          49.226667
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Žilina"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5617915"
@@ -2991,23 +2988,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Žilina"
+            "value": [
+              49.226667,
+              18.745556
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.786389,
-          49.444167
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Čadca"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "5618115"
@@ -3018,23 +3015,23 @@
             "value": "Q214"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Čadca"
+            "value": [
+              49.444167,
+              18.786389
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4349112,
-          52.5103817
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Berlin Ostbahnhof"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8003004"
@@ -3045,23 +3042,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Berlin Ostbahnhof"
+            "value": [
+              52.5103817,
+              13.4349112
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3325608,
-          52.5074342
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Berlin Zoologischer Garten"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8003036"
@@ -3072,23 +3069,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Berlin Zoologischer Garten"
+            "value": [
+              52.5074342,
+              13.3325608
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4969658,
-          52.5104207
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Berlin-Lichtenberg"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8003231"
@@ -3099,23 +3096,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Berlin-Lichtenberg"
+            "value": [
+              52.5104207,
+              13.4969658
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.4477049,
-          51.3113881
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Kassel-Wilhelmshöhe"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8005365"
@@ -3126,23 +3123,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Kassel-Wilhelmshöhe"
+            "value": [
+              51.3113881,
+              9.4477049
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.6843823,
-          50.5547541
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Fulda"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8005637"
@@ -3153,23 +3150,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Fulda"
+            "value": [
+              50.5547541,
+              9.6843823
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.9292147,
-          50.1210733
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Hanau Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8011051"
@@ -3180,23 +3177,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Hanau Hbf"
+            "value": [
+              50.1210733,
+              8.9292147
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6862694,
-          50.0993379
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Frankfurt (Main) Süd"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8011065"
@@ -3207,23 +3204,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Frankfurt (Main) Süd"
+            "value": [
+              50.0993379,
+              8.6862694
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6294113,
-          49.8728528
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Darmstadt Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8011336"
@@ -3234,23 +3231,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Darmstadt Hbf"
+            "value": [
+              49.8728528,
+              8.6294113
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.7871395,
-          52.4294853
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Wolfsburg"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8013017"
@@ -3261,23 +3258,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Wolfsburg"
+            "value": [
+              52.4294853,
+              10.7871395
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9262544,
-          51.5367907
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Gottingen"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8013050"
@@ -3288,23 +3285,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Gottingen"
+            "value": [
+              51.5367907,
+              9.9262544
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.741069,
-          52.3764864
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Hannover Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8013552"
@@ -3315,23 +3312,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Hannover Hbf"
+            "value": [
+              52.3764864,
+              9.741069
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6754223,
-          49.4034737
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Heidelberg Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8014021"
@@ -3342,23 +3339,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Heidelberg Hbf"
+            "value": [
+              49.4034737,
+              8.6754223
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.9582801,
-          48.9476877
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Vaihingen (Enz)"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8029009"
@@ -3369,23 +3366,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Vaihingen (Enz)"
+            "value": [
+              48.9476877,
+              8.9582801
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.1809336,
-          48.7838984
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Stuttgart Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8029034"
@@ -3396,23 +3393,23 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Stuttgart Hbf"
+            "value": [
+              48.7838984,
+              9.1809336
+            ]
           }
         ]
       }
     },
     {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3696614,
-          52.5249451
-        ]
-      },
-      "properties": {
+      "labels": [
+        {
+          "value": "Berlin Hbf"
+        }
+      ],
+      "claims": {
         "P722": [
           {
             "value": "8065969"
@@ -3423,9 +3420,12 @@
             "value": "Q183"
           }
         ],
-        "labels": [
+        "P625": [
           {
-            "value": "Berlin Hbf"
+            "value": [
+              52.5249451,
+              13.3696614
+            ]
           }
         ]
       }

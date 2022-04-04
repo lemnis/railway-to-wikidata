@@ -6,15 +6,19 @@ import { ReliabilitySncf, ScoreSncf } from "./sncf.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import { Location } from "../../types/location";
+import { labelLanguage } from "../../utils/test/labelLanguage";
+import { noForeignLocations } from "../../utils/test/noForeignLocation";
 
 const path = __dirname + "/../../../geojson/";
 
 const sncfLocations: Location[] = JSON.parse(
-  fs.readFileSync(path + "sncf.geojson", "utf-8")
+  fs.readFileSync(path + "fr-sncf.geojson", "utf-8")
 ).features;
 const wikipedia: Location[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
+
+test(noForeignLocations, sncfLocations, Country.France);
 
 test("French locations should match expected score", async (t) => {
   const {
@@ -23,13 +27,7 @@ test("French locations should match expected score", async (t) => {
     [Property.InAdministrativeTerritory]: inAdministrativeTerritory,
     [CodeIssuer.UIC]: uic,
   } = await getFullMatchScore(
-    sncfLocations
-      .filter((feature) =>
-        feature.properties?.[Property.Country]?.every(
-          ({ value }: any) => value === Country.France.wikidata
-        )
-      )
-      .slice(0, 1000),
+    sncfLocations.slice(0, 1000),
     wikipedia,
     [
       Property.Country,
@@ -53,16 +51,9 @@ test("French locations should match expected score", async (t) => {
   t.assert(postalCode?.total > LARGE_DATA_SIZE);
 });
 
-test("Should not have Foreign locations", async (t) => {
-  const foreignLocations = sncfLocations.filter((feature) =>
-    feature.properties?.[Property.Country]?.every(
-      ({ value }: any) => value !== Country.France.wikidata
-    )
-  );
-  t.is(foreignLocations.length, 0);
-});
-
 test("Calculated reliability score should match", (t) => {
   t.is(ReliabilitySncf.France[Property.PostalCode].toFixed(1), "0.8");
   t.is(ReliabilitySncf.France[CodeIssuer.UIC].toFixed(1), "0.8");
 });
+
+test(labelLanguage, sncfLocations, wikipedia);

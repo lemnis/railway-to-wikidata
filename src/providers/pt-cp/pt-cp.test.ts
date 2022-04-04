@@ -30,7 +30,7 @@ test("locations should match expected score", async (t) => {
   t.is(country.matches / country.total, 1);
   t.is(locatedInTimeZone.total, 0);
   closeTo(t, uic?.matches / uic?.total, ScoreCp[CodeIssuer.UIC]);
-  t.assert(uic?.total < LARGE_DATA_SIZE);
+  t.assert(uic?.total > LARGE_DATA_SIZE);
 });
 
 test("Should have 2 foreign locations", async (t) => {

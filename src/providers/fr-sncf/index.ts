@@ -1,8 +1,9 @@
 import fetch from "node-fetch";
 import { findCountryByUIC } from "../../transform/country";
+import { Language } from "../../transform/language";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { mergeMultipleEntities } from "../../utils/combine-entity";
+import { merge as mergeMultipleEntities } from "../../actions/merge";
 import { logger } from "../../utils/logger";
 import { SncfRawLocation } from "./sncf.types";
 
@@ -53,7 +54,7 @@ export const getLocations = async () => {
               ]),
             ]
               .filter(Boolean)
-              .map((value) => ({ value })),
+              .map((value) => ({ value, lang: Language.French[1] })),
             ...{
               [CodeIssuer.UIC]: [{ value: uic }],
               [Property.Country]: [
@@ -80,7 +81,7 @@ export const getLocations = async () => {
       }
     );
 
-  return Object.values(
+  const grouped = Object.values(
     singleLocations.reduce<Record<string, Location[]>>(
       (acc, location: Location) => {
         if (location.properties.info?.code_gare) {
@@ -99,6 +100,6 @@ export const getLocations = async () => {
       {}
     )
   )
-    .map(mergeMultipleEntities)
-    .sort((a, b) => a.id!.toString().localeCompare(b.id!.toString()));
+  const merged = await Promise.all(grouped.map(i => mergeMultipleEntities(i)));
+  return merged.sort((a, b) => a.id!.toString().localeCompare(b.id!.toString()));
 };

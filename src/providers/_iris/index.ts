@@ -28,7 +28,13 @@ export const getLocations = async () => {
       coordinates: [latlong[1], latlong[0]],
     },
     properties: {
-      labels: [{ value }],
+      labels: [
+        {
+          value,
+          lang: findCountryByIBNR(parseInt(eva.toString().slice(0, 2)))
+            ?.language?.[1],
+        },
+      ],
       [CodeIssuer.IBNR]: [{ value: eva.toString(), references }],
       [CodeIssuer.DB]: [{ value: ds100, references }],
       [Property.Country]: [

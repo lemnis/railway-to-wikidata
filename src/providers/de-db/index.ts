@@ -8,19 +8,93 @@ import {
   getAdministrativeTerritory$,
   getCachedAdministrativeTerritory,
 } from "../../transform/inAdministrativeTerritory";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { logger, progressBar } from "../../utils/logger";
 import { getDBStationCategory } from "../../transform/deutscheBahnStationCategory";
+import { parse } from "csv-parse/sync";
+import { Language } from "../../transform/language";
 
 const getCoordinates = (coordinates: (EVANumber | RiL100Identifier)[]) => {
   return uniqWith(
     coordinates
       ?.map(({ geographicCoordinates }) => geographicCoordinates?.coordinates)
       .filter(Boolean)
-      .map<[number, number]>((value) => [value![1], value![0]]),
+      .map<[number, number]>((value) => [value![0], value![1]]),
     isEqual
   );
+};
+
+export const getBetriebstellen2021 = async () => {
+  const raw = await fetch(
+    "https://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2021-10.csv"
+  ).then((response) => response.text());
+  const csv: {
+    PL: string,
+    /** DB Code */
+    'RL100-Code': string,
+    /** Long Name */
+    'RL100-Langname': string,
+    /** Short Name */
+    'RL100-Kurzname': string,
+    /** Short Type */
+    'Typ Kurz': string,
+    /** Long Type */
+    'Typ Lang': string,
+    Betriebszustand: string,
+    /** Date from */
+    'Datum ab': number,
+    /** Date untill */
+    'Datum bis': string,
+    Niederlassung: number,
+    /** Responsible regional area */
+    Regionalbereich: string,
+    'Letzte Änderung': number
+  }[] = parse(raw, {
+    trim: true,
+    cast: true,
+    delimiter: ";",
+    columns: true
+  });
+  console.log(csv);
+};
+
+export const getBetriebstellen2018 = async () => {
+  const raw = await fetch(
+    "https://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2018-04.csv"
+  ).then((response) => response.text());
+  const csv: {
+    /** DB Code */
+    Abk: string,
+    Name: string,
+    /** Short Name */
+    Kurzname: string,
+    /** Type */
+    Typ: string,
+    /** Operating status */
+    'Betr-Zust': string,
+    /** Unique number */
+    'Primary location code': string,
+    /** UIC Country Code */
+    UIC: string,
+    /** Responsible regional area */
+    RB: string,
+    /** Valid from */
+    'gültig von': string,
+    /** Valid until */
+    'gültig bis': string,
+    /** Network key */
+    'Netz-Key': string,
+    /** Location can be ordered on timetable */
+    'Fpl-rel': string,
+    /** Timetable processing limit */
+    'Fpl-Gr': string
+  }[] = parse(raw, {
+    trim: true,
+    delimiter: ";",
+    columns: true
+  });
+  console.log(csv);
 };
 
 /**
@@ -94,7 +168,7 @@ export const getLocations = async (cache = true) => {
   );
 
   return Promise.all(
-    stationsInUse.map<Promise<LocationV4>>(
+    stationsInUse.map<Promise<Location>>(
       async ({
         mailingAddress,
         evaNumbers,
@@ -119,8 +193,11 @@ export const getLocations = async (cache = true) => {
         progress.tick();
 
         return {
-          id: number?.toString(),
-          claims: {
+          type: 'Feature',
+          id: number,
+          geometry: { type: "MultiPoint", coordinates },
+          properties: {
+            labels: name ? [{ value: name, language: Language.German[1] }] : [],
             [CodeIssuer.IBNR]:
               evaNumbers
                 ?.map(({ number }) => number)
@@ -136,9 +213,6 @@ export const getLocations = async (cache = true) => {
             [Property.PostalCode]: [mailingAddress?.zipcode]
               .filter(Boolean)
               .map((value) => ({ value: value?.toString() })),
-            [Property.CoordinateLocation]: coordinates.map((value) => ({
-              value,
-            })),
             [Property.Country]: [{ value: Country.Germany.wikidata }],
             ...(category
               ? {
@@ -155,7 +229,6 @@ export const getLocations = async (cache = true) => {
                 }
               : {}),
           },
-          labels: name ? [{ value: name }] : [],
         };
       }
     )

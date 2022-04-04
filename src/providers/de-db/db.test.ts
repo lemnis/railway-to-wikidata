@@ -12,11 +12,12 @@ import {
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import { Location } from "../../types/location";
+import { noForeignLocations } from "../../utils/test/noForeignLocation";
 
 const path = __dirname + "/../../../geojson/";
 
 const dbLocations: Location[] = JSON.parse(
-  fs.readFileSync(path + "db.geojson", "utf-8")
+  fs.readFileSync(path + "de-db.geojson", "utf-8")
 ).features;
 const wikipedia: Location[] = JSON.parse(
   fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
@@ -80,14 +81,8 @@ test("German locations should match expected score", async (t) => {
   t.assert(stationCategory?.total > LARGE_DATA_SIZE);
 });
 
-test("Should not have any foreign locations", async (t) => {
-  const foreignLocations = dbLocations.filter((feature) =>
-    feature.properties?.[Property.Country]?.every(
-      ({ value }: any) => value !== Country.Germany.wikidata
-    )
-  );
-  t.is(foreignLocations.length, 0);
-});
+test(noForeignLocations, dbLocations, Country.Germany);
+
 
 test.todo("Should be able to cache administrative territory");
 test.todo("Should be able to get cached administrative territory");

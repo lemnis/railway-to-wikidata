@@ -1,4 +1,4 @@
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { Property } from "../../types/wikidata";
 import fetch from "node-fetch";
 import { XMLParser, XMLValidator } from "fast-xml-parser";
@@ -34,7 +34,7 @@ export const getLocations = async () => {
       ({ StationLatitude, StationLongitude }) =>
         StationLatitude && StationLongitude
     )
-    .map<LocationV4>(
+    .map<Location>(
       ({
         StationAlias,
         StationCode,
@@ -43,17 +43,20 @@ export const getLocations = async () => {
         StationLatitude,
         StationLongitude,
       }) => ({
-        labels: [
-          { value: StationDesc },
-          ...(StationAlias ? [{ value: StationAlias }] : []),
-        ],
-        claims: {
+        type: "Feature",
+        id: StationId,
+        geometry: {
+          type: "Point",
+          coordinates: [StationLongitude, StationLatitude],
+        },
+        properties: {
+          labels: [
+            { value: StationDesc },
+            ...(StationAlias ? [{ value: StationAlias }] : []),
+          ],
           [Property.StationCode]: [
             { value: StationCode },
             { value: StationId.toString() },
-          ],
-          [Property.CoordinateLocation]: [
-            { value: [StationLatitude, StationLongitude] },
           ],
           [Property.Country]: [
             {

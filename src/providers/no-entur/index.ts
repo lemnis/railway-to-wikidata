@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 import { findCountryByUIC } from "../../transform/country";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
 const source = `{
@@ -57,10 +57,15 @@ export const getLocations = () =>
         .filter(({ keyValues }) =>
           keyValues.some(({ key }) => ["uicCode", "jbvCode"].includes(key))
         )
-        .map<LocationV4>(({ id, keyValues, geometry, name }) => ({
+        .map<Location>(({ id, keyValues, geometry, name }) => ({
+          type: "Feature",
           id,
-          labels: Array.isArray(name) ? name : [name],
-          claims: {
+          geometry: {
+            type: "MultiPoint",
+            coordinates: geometry.coordinates || [],
+          },
+          properties: {
+            labels: Array.isArray(name) ? name : [name],
             [CodeIssuer.UIC]: keyValues
               .filter(({ key }) => key === "uicCode")
               .map(({ values }) => values)
@@ -81,9 +86,6 @@ export const getLocations = () =>
               .map(({ values }) => values)
               .flat()
               .map((value) => ({ value })),
-            [Property.CoordinateLocation]: geometry.coordinates.map(
-              (value) => ({ value: [value[1], value[0]] })
-            ),
           },
         }))
     );
