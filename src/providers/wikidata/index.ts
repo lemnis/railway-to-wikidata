@@ -7,11 +7,13 @@ import {
   catchError,
   Observable,
   EMPTY,
+  map,
+  tap,
 } from "rxjs";
 import { query as queryLabel } from "./label";
 import { query as queryProperties, querySingleProperty } from "./property";
 import { exactMatch, run } from "./run";
-import { simplify } from "./simplify";
+import { simplify, simplifyByKeyValue } from "./simplify";
 import { LocationV4 } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { logger } from "../../utils/logger";
@@ -35,33 +37,123 @@ export const search = (name: string, language?: string) =>
         : ""
     }`;
 
-export const getAllRailwayStations = () => {
-  return run(`SELECT DISTINCT * WHERE {
+export const getAllRailwayStations = async () => {
+  // TODO: Exclude closed station, but  include stations who got reopened (e.g. veendam)
+  const ids = simplify(
+    await run(`SELECT DISTINCT ?item WHERE {
+    ?item (p:P31/(p:P279*)) ?instance.
+    ?instance ps:P31 wd:Q55488.
+    ?item p:P625 ?P625Id.
+    ?P625Id ps:P625 ?P625.
+        
+    # FILTER NOT EXISTS { ?item wdt:P3999 ?endTime }
+    # FILTER NOT EXISTS { ?item wdt:P576 ?disolvedDate }
+    # FILTER NOT EXISTS { ?instance pq:P582 ?closure }
+  }
+  ORDER BY ?item`),
+    []
+  ).map(({ id }) => id);
+
+  console.log("Found ", ids.length, "wikidata articles");
+
+  const properties = [...Object.values(CodeIssuer), ...Object.values(Property)];
+
+  const getLocations = (ids: string[]) => {
+    if(ids.length< 19) {
+      console.log(`SELECT DISTINCT * WHERE {
+        VALUES ?item {
+          ${ids.map((i) => `wd:${i}`).join(" ")}
+        }
+        VALUES ?key {
+          ${properties.map((property) => `wdt:${property}`).join(" ")}
+          rdfs:label
+          skos:altLabel
+          wdt:P31
+        }
+       
+        OPTIONAL {
+          ?item ?key ?value
+        }
+      }`);
+    }
+    return from(
+      run(
+        `SELECT DISTINCT * WHERE {
+          VALUES ?item {
+            ${ids.map((i) => `wd:${i}`).join(" ")}
+          }
+          VALUES ?key {
+            ${properties.map((property) => `wdt:${property}`).join(" ")}
+            rdfs:label
+            skos:altLabel
+            wdt:P31
+          }
+         
+          OPTIONAL {
+            ?item ?key ?value
+          }
+        }`
+      )
+    ).pipe(
+      map((response) =>
+        simplifyByKeyValue(
+          response,
+          properties.map((property) => ({ property }))
+        )
+      )
+    );
+  };
+
+  const splitter = (ids: string[]): Observable<LocationV4[]> => {
+    if (ids.length < 1) EMPTY;
+
+    const split = Math.floor(ids.length / 2);
+    return getLocations(ids).pipe(
+      catchError((e) => {
+
+        console.log(e, `Decreasing size of ids to ${split} per call`);
+        return of(ids.slice(0, split), ids.slice(split)).pipe(
+          filter(lo => lo.length > 0),
+          concatMap((lo) => splitter(lo))
+        );
+      })
+    );
+  };
+
+  return splitter(ids as string[]);
+};
+
+export const getUICRailwayStations = async () => {
+  const properties = [...Object.values(CodeIssuer), ...Object.values(Property)];
+  const query = `SELECT DISTINCT * WHERE {
     ?item (p:P31/(p:P279*)) ?instance.
     ?instance ps:P31 wd:Q55488.
     
     FILTER NOT EXISTS { ?item wdt:P3999 ?endTime }
+    FILTER NOT EXISTS { ?item wdt:P576 ?disolvedDate }
     FILTER NOT EXISTS { ?instance pq:P582 ?closure }
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    
+    OPTIONAL { ?item rdfs:label ?label. }
+    OPTIONAL { ?item skos:altLabel ?alias; }
+    
     ${querySingleProperty(Property.CoordinateLocation)}
-    ${[...Object.values(CodeIssuer), ...Object.values(Property)]
-      .filter((i) => i !== Property.CoordinateLocation)
+    ${querySingleProperty(CodeIssuer.UIC)}
+    ${properties
+      .filter((i) => i !== Property.CoordinateLocation && i !== CodeIssuer.UIC)
       .map((i) => `OPTIONAL { ${querySingleProperty(i)} }`)
       .join(" ")}
     }
-  `)
-    .then((response) =>
-      simplify(
-        response,
-        [...Object.values(CodeIssuer), ...Object.values(Property)].map(
-          (property) => ({ property })
-        )
-      )
-    )
-    .then((response) => {
-      console.log(response.length);
-      return response;
-    });
+    LIMIT 1000000
+  `;
+  console.log(query);
+  const response = await run(query);
+
+  const data = simplify(
+    response,
+    properties.map((property) => ({ property }))
+  );
+
+  return { data, query };
 };
 
 // Fuzzy filters
@@ -69,8 +161,8 @@ export const findStationsWithin1KM = (
   coordinates: [number, number],
   distance: number
 ) => `SERVICE wikibase:around {
-   ?item wdt:P625 ?location.
-bd:serviceParam wikibase:center "Point(${coordinates[1]} ${coordinates[0]})"^^geo:wktLiteral;
+  ?item wdt:P625 ?location.
+  bd:serviceParam wikibase:center "Point(${coordinates[1]} ${coordinates[0]})"^^geo:wktLiteral;
     wikibase:radius "${distance}";
     wikibase:distance ?distance.
   }
@@ -243,7 +335,10 @@ export const getFuzzyLocationMatch = (
             //     "Failed to find any location by fuzzy search"
             //   );
             // }
-            return simplify(rawWikidataEntities, propKeys.map((property) => ({ property })));
+            return simplify(
+              rawWikidataEntities,
+              propKeys.map((property) => ({ property }))
+            );
           })
           .then(
             (wikidataEntities) =>

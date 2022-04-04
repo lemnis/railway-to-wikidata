@@ -11,6 +11,7 @@ export const PREFIXES = {
   pq: "http://www.wikidata.org/prop/qualifier/",
   rdfs: "http://www.w3.org/2000/01/rdf-schema#",
   bd: "http://www.bigdata.com/rdf#",
+  skos: "http://www.w3.org/2004/02/skos/core#",
 };
 
 export const removeIds = (entity: LocationV4) => {
@@ -58,6 +59,9 @@ export const simplifyByDatatype = (datatype: string, value: string) => {
       .replace(")", "")
       .split(" ")
       .map((direction: string) => parseFloat(direction));
+    if(!Number.isFinite(lon) || !value.startsWith('Point')) {
+      console.log(value, lat,lon);
+    }
     return [lat, lon];
   } else {
     return value;

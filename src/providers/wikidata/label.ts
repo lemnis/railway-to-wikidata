@@ -10,11 +10,11 @@ export const query = (): [string[], string] => [
 ];
 
 export const simplify = (
-  itemList: { label?: ClaimObject<string>; alias?: ClaimObject<string>; itemLabel?: ClaimObject<string>; }[]
+  itemList: { label?: ClaimObject<string>; alias?: ClaimObject<string>; itemLabel?: ClaimObject<string>; altLabel?: ClaimObject<string>; }[]
 ) => {
   return itemList
-    .reduce<Label[]>((acc, { label, alias, itemLabel }) => {
-      [label, alias, itemLabel]
+    .reduce<Label[]>((acc, { label, alias, itemLabel, altLabel }) => {
+      [label, alias, itemLabel, altLabel]
         .filter((x): x is ClaimObject<string> => !!x)
         .forEach(({ value, "xml:lang": lang }) => {
           if (value && !acc.some((a) => a.lang === lang && a.value === value)) {

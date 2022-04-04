@@ -1,13 +1,13 @@
 import { removeUri, simplifyByDatatype } from "./clean-up";
-import { ClaimObject } from "../../types/wikidata";
+import { ClaimObject, Property } from "../../types/wikidata";
 
 export const querySingleProperty = (
   property: string,
   qualifiers?: string[]
-) => `?item p:${property} ?${property}Id. ?${property}Id ps:${property} ?${property}
+) => `?item p:${property} ?${property}Id. ?${property}Id ps:${property} ?${property}.
 ${
   qualifiers
-    ? qualifiers.map((q) => `?${property}Id pq:${q} ${property}Qualifiers${q}`)
+    ? qualifiers.map((q) => `?${property}Id pq:${q} ${property}Qualifiers${q}.`)
     : ""
 }`;
 
@@ -41,7 +41,14 @@ export const simplify = (
         if (Object.prototype.hasOwnProperty.call(item, key)) {
           claimObject[key] = claimObject[key] || new Map();
 
+          if(!item[key]) return;
+
           const { value, type, datatype } = item[key];
+
+          if (key === Property.CoordinateLocation && datatype !== "http://www.opengis.net/ont/geosparql#wktLiteral") {
+            console.log(key, value);
+            return;
+          }
 
           const claim: ClaimObject = {
             value: simplifyValue(value, type, datatype) as string,
