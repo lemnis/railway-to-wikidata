@@ -2,7 +2,6 @@ import { LocationV4, Location } from "../../types/location";
 import { promises as fs } from "fs";
 import { createFeatureCollection, createGeoFeature } from "./geojson";
 import { refreshDatabase } from "./properties";
-import { generateNavitiaGeoJSON } from "./navitia";
 import inquirer from "inquirer";
 import {
   getAllRailwayStations,
@@ -24,13 +23,6 @@ export const exportGeoJSON = (locations: LocationV4[], path: string) => {
 };
 
 const questions = [
-  {
-    type: "confirm",
-    name: "navitia",
-    message:
-      "Do you want to generate navitia files? (this can take more than 1+ hour)",
-    default: false,
-  },
   {
     type: "confirm",
     name: "database",
@@ -79,6 +71,7 @@ const questions = [
       { value: "ie-irish-rail", checked: true },
       { value: "it-trenitalia", checked: true },
       { value: "lt-litrail", checked: true },
+      { value: "lt-visimarsrutai", checked: true },
       { value: "lv-ldz", checked: true },
       { value: "lu-openov", checked: true },
       { value: "nl-ns", checked: true },
@@ -108,14 +101,12 @@ const questions = [
 const prompt = inquirer.createPromptModule();
 (async () => {
   const {
-    navitia,
     database,
     wikidata,
     osmUic,
     osm,
     geojson = [],
   }: {
-    navitia: boolean;
     database: boolean;
     osmUic: boolean;
     osm: boolean;
@@ -126,7 +117,6 @@ const prompt = inquirer.createPromptModule();
     : await prompt(questions);
 
   if (database) await refreshDatabase();
-  if (navitia) await generateNavitiaGeoJSON();
   if (wikidata) {
     let d: any[] = [];
     (await getAllRailwayStations()).subscribe((i) => {
@@ -247,7 +237,6 @@ const prompt = inquirer.createPromptModule();
   console.log(
     "Config used:",
     JSON.stringify({
-      navitia,
       database,
       wikidata,
       geojson,
