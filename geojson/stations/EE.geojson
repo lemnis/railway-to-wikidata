@@ -5,12 +5,26 @@
       "type": "Feature",
       "id": "node/21371918",
       "properties": {
-        "name": "Kabala",
-        "name:et": "Kabala",
-        "name:ru": "Кабала",
+        "labels": [
+          {
+            "value": "Kabala",
+            "lang": "et"
+          },
+          {
+            "value": "Кабала",
+            "lang": "ru"
+          },
+          {
+            "value": "Kabala"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600236",
-        "id": "node/21371918"
+        "id": "node/21371918",
+        "P722": [
+          {
+            "value": "2600236"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -24,14 +38,28 @@
       "type": "Feature",
       "id": "node/27145891",
       "properties": {
+        "labels": [
+          {
+            "value": "Valingu",
+            "lang": "et"
+          },
+          {
+            "value": "Валингу",
+            "lang": "ru"
+          },
+          {
+            "value": "Valingu"
+          }
+        ],
         "description": "stop: 14",
-        "name": "Valingu",
-        "name:et": "Valingu",
-        "name:ru": "Валингу",
         "railway": "halt",
         "station": "light_rail",
-        "uic_ref": "2600011",
-        "id": "node/27145891"
+        "id": "node/27145891",
+        "P722": [
+          {
+            "value": "2600011"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -45,15 +73,33 @@
       "type": "Feature",
       "id": "node/27471086",
       "properties": {
-        "name": "Hiiu",
-        "name:et": "Hiiu",
-        "name:ru": "Хийу",
+        "labels": [
+          {
+            "value": "Hiiu",
+            "lang": "et"
+          },
+          {
+            "value": "Хийу",
+            "lang": "ru"
+          },
+          {
+            "value": "Hiiu"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
         "tln_ID": "10734;10735",
-        "uic_ref": "2600095",
-        "wikidata": "Q2071385",
-        "id": "node/27471086"
+        "id": "node/27471086",
+        "P722": [
+          {
+            "value": "2600095"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2071385"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -67,13 +113,27 @@
       "type": "Feature",
       "id": "node/27499361",
       "properties": {
-        "name": "Lilleküla",
-        "name:et": "Lilleküla",
-        "name:ru": "Лиллекюла",
+        "labels": [
+          {
+            "value": "Lilleküla",
+            "lang": "et"
+          },
+          {
+            "value": "Лиллекюла",
+            "lang": "ru"
+          },
+          {
+            "value": "Lilleküla"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
-        "wikidata": "Q1845213",
-        "id": "node/27499361"
+        "id": "node/27499361",
+        "PWIKI": [
+          {
+            "value": "Q1845213"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -87,19 +147,37 @@
       "type": "Feature",
       "id": "node/27508651",
       "properties": {
+        "labels": [
+          {
+            "value": "Ülemiste",
+            "lang": "et"
+          },
+          {
+            "value": "Юлемисте",
+            "lang": "ru"
+          },
+          {
+            "value": "Ülemiste"
+          }
+        ],
         "light_rail": "yes",
-        "name": "Ülemiste",
-        "name:et": "Ülemiste",
-        "name:ru": "Юлемисте",
         "public_transport": "station",
         "railway": "station",
         "station": "light_rail",
         "tln_ID": "10877;10878",
         "train": "yes",
-        "uic_ref": "2600003",
         "wheelchair": "yes",
-        "wikidata": "Q2116583",
-        "id": "node/27508651"
+        "id": "node/27508651",
+        "P722": [
+          {
+            "value": "2600003"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2116583"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -113,13 +191,27 @@
       "type": "Feature",
       "id": "node/27509230",
       "properties": {
-        "name": "Lagedi",
-        "name:et": "Lagedi",
-        "name:ru": "Лагеди",
+        "labels": [
+          {
+            "value": "Lagedi",
+            "lang": "et"
+          },
+          {
+            "value": "Лагеди",
+            "lang": "ru"
+          },
+          {
+            "value": "Lagedi"
+          }
+        ],
         "railway": "station",
         "station": "light_rail",
-        "uic_ref": "2600214",
-        "id": "node/27509230"
+        "id": "node/27509230",
+        "P722": [
+          {
+            "value": "2600214"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -133,14 +225,32 @@
       "type": "Feature",
       "id": "node/27511484",
       "properties": {
-        "name": "Liiva",
-        "name:et": "Liiva",
-        "name:ru": "Лийва",
+        "labels": [
+          {
+            "value": "Liiva",
+            "lang": "et"
+          },
+          {
+            "value": "Лийва",
+            "lang": "ru"
+          },
+          {
+            "value": "Liiva"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600027",
-        "wikidata": "Q12368762",
-        "id": "node/27511484"
+        "id": "node/27511484",
+        "P722": [
+          {
+            "value": "2600027"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12368762"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -154,12 +264,27 @@
       "type": "Feature",
       "id": "node/27511529",
       "properties": {
-        "name": "Roobuka",
-        "name:et": "Roobuka",
+        "labels": [
+          {
+            "value": "Roobuka",
+            "lang": "et"
+          },
+          {
+            "value": "Roobuka"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600912",
-        "wikidata": "Q11048360",
-        "id": "node/27511529"
+        "id": "node/27511529",
+        "P722": [
+          {
+            "value": "2600912"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q11048360"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -173,12 +298,27 @@
       "type": "Feature",
       "id": "node/27511533",
       "properties": {
-        "name": "Vilivere",
-        "name:et": "Vilivere",
+        "labels": [
+          {
+            "value": "Vilivere",
+            "lang": "et"
+          },
+          {
+            "value": "Vilivere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600786",
-        "wikidata": "Q12378648",
-        "id": "node/27511533"
+        "id": "node/27511533",
+        "P722": [
+          {
+            "value": "2600786"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12378648"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -192,13 +332,30 @@
       "type": "Feature",
       "id": "node/28919698",
       "properties": {
-        "name": "Rakvere",
-        "name:de": "Wesenberg",
-        "name:et": "Rakvere",
-        "name:ru": "Раквере",
+        "labels": [
+          {
+            "value": "Wesenberg",
+            "lang": "de"
+          },
+          {
+            "value": "Rakvere",
+            "lang": "et"
+          },
+          {
+            "value": "Раквере",
+            "lang": "ru"
+          },
+          {
+            "value": "Rakvere"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600334",
-        "id": "node/28919698"
+        "id": "node/28919698",
+        "P722": [
+          {
+            "value": "2600334"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -212,15 +369,29 @@
       "type": "Feature",
       "id": "node/29331126",
       "properties": {
+        "labels": [
+          {
+            "value": "Lahinguvälja",
+            "lang": "et"
+          },
+          {
+            "value": "Лахингувялья",
+            "lang": "ru"
+          },
+          {
+            "value": "Lahinguvälja"
+          }
+        ],
         "alt_name:ru": "Википалу",
-        "name": "Lahinguvälja",
-        "name:et": "Lahinguvälja",
-        "name:ru": "Лахингувялья",
         "railway": "halt",
         "station": "light_rail",
         "tln_ID": "10840;10841",
-        "uic_ref": "2600219",
-        "id": "node/29331126"
+        "id": "node/29331126",
+        "P722": [
+          {
+            "value": "2600219"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -234,14 +405,32 @@
       "type": "Feature",
       "id": "node/30153673",
       "properties": {
-        "name": "Kulna",
-        "name:et": "Kulna",
-        "name:ru": "Кулна",
+        "labels": [
+          {
+            "value": "Kulna",
+            "lang": "et"
+          },
+          {
+            "value": "Кулна",
+            "lang": "ru"
+          },
+          {
+            "value": "Kulna"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
-        "uic_ref": "2600062",
-        "wikidata": "Q10987141",
-        "id": "node/30153673"
+        "id": "node/30153673",
+        "P722": [
+          {
+            "value": "2600062"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q10987141"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -255,17 +444,35 @@
       "type": "Feature",
       "id": "node/30153696",
       "properties": {
-        "name": "Riisipere",
-        "name:et": "Riisipere",
-        "name:ru": "Рийзипере",
+        "labels": [
+          {
+            "value": "Riisipere",
+            "lang": "et"
+          },
+          {
+            "value": "Рийзипере",
+            "lang": "ru"
+          },
+          {
+            "value": "Riisipere"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "station": "light_rail",
         "tln_ID": "12305",
         "train": "yes",
-        "uic_ref": "2600891",
-        "wikidata": "Q12374048",
-        "id": "node/30153696"
+        "id": "node/30153696",
+        "P722": [
+          {
+            "value": "2600891"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12374048"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -279,16 +486,33 @@
       "type": "Feature",
       "id": "node/30402685",
       "properties": {
-        "name": "Paldiski",
-        "name:et": "Paldiski",
-        "name:lt": "Paldiskis",
-        "name:ru": "Палдиски",
+        "labels": [
+          {
+            "value": "Paldiski",
+            "lang": "et"
+          },
+          {
+            "value": "Paldiskis",
+            "lang": "lt"
+          },
+          {
+            "value": "Палдиски",
+            "lang": "ru"
+          },
+          {
+            "value": "Paldiski"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "station": "light_rail",
         "train": "yes",
-        "uic_ref": "2600765",
-        "id": "node/30402685"
+        "id": "node/30402685",
+        "P722": [
+          {
+            "value": "2600765"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -302,16 +526,38 @@
       "type": "Feature",
       "id": "node/81225583",
       "properties": {
-        "esr:user": "088401",
-        "name": "Kohila",
-        "name:et": "Kohila",
-        "name:ru": "Кохила",
+        "labels": [
+          {
+            "value": "Kohila",
+            "lang": "et"
+          },
+          {
+            "value": "Кохила",
+            "lang": "ru"
+          },
+          {
+            "value": "Kohila"
+          }
+        ],
         "operator": "Edelaraudtee",
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600795",
-        "wikidata": "Q11049028",
-        "id": "node/81225583"
+        "id": "node/81225583",
+        "P2815": [
+          {
+            "value": "088401"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600795"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q11049028"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -325,16 +571,38 @@
       "type": "Feature",
       "id": "node/82476044",
       "properties": {
-        "esr:user": "088312",
-        "name": "Tallinn-Väike",
-        "name:et": "Tallinn-Väike",
-        "name:ru": "Таллинн-Вяйке",
+        "labels": [
+          {
+            "value": "Tallinn-Väike",
+            "lang": "et"
+          },
+          {
+            "value": "Таллинн-Вяйке",
+            "lang": "ru"
+          },
+          {
+            "value": "Tallinn-Väike"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600002",
         "wheelchair": "yes",
-        "wikidata": "Q12376116",
-        "id": "node/82476044"
+        "id": "node/82476044",
+        "P2815": [
+          {
+            "value": "088312"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600002"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12376116"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -348,13 +616,31 @@
       "type": "Feature",
       "id": "node/89000672",
       "properties": {
-        "esr:user": "084311",
-        "name": "Vägeva",
-        "name:et": "Vägeva",
-        "name:ru": "Вягева",
+        "labels": [
+          {
+            "value": "Vägeva",
+            "lang": "et"
+          },
+          {
+            "value": "Вягева",
+            "lang": "ru"
+          },
+          {
+            "value": "Vägeva"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600202",
-        "id": "node/89000672"
+        "id": "node/89000672",
+        "P2815": [
+          {
+            "value": "084311"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600202"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -368,7 +654,11 @@
       "type": "Feature",
       "id": "node/89000708",
       "properties": {
-        "name": "Jõgeva",
+        "labels": [
+          {
+            "value": "Jõgeva"
+          }
+        ],
         "railway": "station",
         "id": "node/89000708"
       },
@@ -384,15 +674,40 @@
       "type": "Feature",
       "id": "node/91576815",
       "properties": {
-        "esr:user": "088806",
-        "name": "Võhma",
-        "name:de": "Wöchma",
-        "name:et": "Võhma",
-        "name:ru": "Выхма",
+        "labels": [
+          {
+            "value": "Wöchma",
+            "lang": "de"
+          },
+          {
+            "value": "Võhma",
+            "lang": "et"
+          },
+          {
+            "value": "Выхма",
+            "lang": "ru"
+          },
+          {
+            "value": "Võhma"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600067",
-        "wikidata": "Q12379075",
-        "id": "node/91576815"
+        "id": "node/91576815",
+        "P2815": [
+          {
+            "value": "088806"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600067"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12379075"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -406,14 +721,36 @@
       "type": "Feature",
       "id": "node/91580734",
       "properties": {
-        "esr:user": "088810",
-        "name": "Olustvere",
-        "name:et": "Olustvere",
-        "name:ru": "Олуствере",
+        "labels": [
+          {
+            "value": "Olustvere",
+            "lang": "et"
+          },
+          {
+            "value": "Олуствере",
+            "lang": "ru"
+          },
+          {
+            "value": "Olustvere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600834",
-        "wikidata": "Q10990043",
-        "id": "node/91580734"
+        "id": "node/91580734",
+        "P2815": [
+          {
+            "value": "088810"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600834"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q10990043"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -427,14 +764,36 @@
       "type": "Feature",
       "id": "node/91580750",
       "properties": {
-        "esr:user": "088825",
-        "name": "Sürgavere",
-        "name:et": "Sürgavere",
-        "name:ru": "Сюргавере",
+        "labels": [
+          {
+            "value": "Sürgavere",
+            "lang": "et"
+          },
+          {
+            "value": "Сюргавере",
+            "lang": "ru"
+          },
+          {
+            "value": "Sürgavere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600471",
-        "wikidata": "Q12375980",
-        "id": "node/91580750"
+        "id": "node/91580750",
+        "P2815": [
+          {
+            "value": "088825"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600471"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12375980"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -448,14 +807,32 @@
       "type": "Feature",
       "id": "node/91580768",
       "properties": {
-        "esr:user": "088905",
-        "name": "Viljandi",
-        "name:et": "Viljandi",
-        "name:ru": "Вильянди",
+        "labels": [
+          {
+            "value": "Viljandi",
+            "lang": "et"
+          },
+          {
+            "value": "Вильянди",
+            "lang": "ru"
+          },
+          {
+            "value": "Viljandi"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600016",
-        "id": "node/91580768"
+        "id": "node/91580768",
+        "P2815": [
+          {
+            "value": "088905"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600016"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -469,16 +846,40 @@
       "type": "Feature",
       "id": "node/287918262",
       "properties": {
-        "name": "Türi",
-        "name:de": "Turgel",
-        "name:et": "Türi",
-        "name:lt": "Tiūris",
-        "name:ru": "Тюри",
+        "labels": [
+          {
+            "value": "Turgel",
+            "lang": "de"
+          },
+          {
+            "value": "Türi",
+            "lang": "et"
+          },
+          {
+            "value": "Tiūris",
+            "lang": "lt"
+          },
+          {
+            "value": "Тюри",
+            "lang": "ru"
+          },
+          {
+            "value": "Türi"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600888",
-        "wikidata": "Q12377636",
-        "id": "node/287918262"
+        "id": "node/287918262",
+        "P722": [
+          {
+            "value": "2600888"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12377636"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -492,13 +893,31 @@
       "type": "Feature",
       "id": "node/306977119",
       "properties": {
-        "name": "Lohu",
-        "name:et": "Lohu",
-        "name:ru": "Лоху",
+        "labels": [
+          {
+            "value": "Lohu",
+            "lang": "et"
+          },
+          {
+            "value": "Лоху",
+            "lang": "ru"
+          },
+          {
+            "value": "Lohu"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600077",
-        "wikidata": "Q12368930",
-        "id": "node/306977119"
+        "id": "node/306977119",
+        "P722": [
+          {
+            "value": "2600077"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12368930"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -512,14 +931,36 @@
       "type": "Feature",
       "id": "node/319187305",
       "properties": {
-        "esr:user": "084970",
-        "name": "Taevaskoja",
-        "name:et": "Taevaskoja",
-        "name:ru": "Таэваскоя",
+        "labels": [
+          {
+            "value": "Taevaskoja",
+            "lang": "et"
+          },
+          {
+            "value": "Таэваскоя",
+            "lang": "ru"
+          },
+          {
+            "value": "Taevaskoja"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600677",
-        "wikidata": "Q12376062",
-        "id": "node/319187305"
+        "id": "node/319187305",
+        "P2815": [
+          {
+            "value": "084970"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600677"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12376062"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -533,13 +974,31 @@
       "type": "Feature",
       "id": "node/319187374",
       "properties": {
-        "esr:user": "085013",
-        "name": "Holvandi",
-        "name:et": "Holvandi",
-        "name:ru": "Холванди",
+        "labels": [
+          {
+            "value": "Holvandi",
+            "lang": "et"
+          },
+          {
+            "value": "Холванди",
+            "lang": "ru"
+          },
+          {
+            "value": "Holvandi"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600724",
-        "id": "node/319187374"
+        "id": "node/319187374",
+        "P2815": [
+          {
+            "value": "085013"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600724"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -553,13 +1012,31 @@
       "type": "Feature",
       "id": "node/319187409",
       "properties": {
-        "esr:user": "085028",
-        "name": "Ruusa",
-        "name:et": "Ruusa",
-        "name:ru": "Рууза",
+        "labels": [
+          {
+            "value": "Ruusa",
+            "lang": "et"
+          },
+          {
+            "value": "Рууза",
+            "lang": "ru"
+          },
+          {
+            "value": "Ruusa"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600744",
-        "id": "node/319187409"
+        "id": "node/319187409",
+        "P2815": [
+          {
+            "value": "085028"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600744"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -573,13 +1050,31 @@
       "type": "Feature",
       "id": "node/319192202",
       "properties": {
-        "esr:user": "085117",
-        "name": "Ilumetsa",
-        "name:et": "Ilumetsa",
-        "name:ru": "Илуметса",
+        "labels": [
+          {
+            "value": "Ilumetsa",
+            "lang": "et"
+          },
+          {
+            "value": "Илуметса",
+            "lang": "ru"
+          },
+          {
+            "value": "Ilumetsa"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600783",
-        "id": "node/319192202"
+        "id": "node/319192202",
+        "P2815": [
+          {
+            "value": "085117"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600783"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -593,17 +1088,41 @@
       "type": "Feature",
       "id": "node/323110380",
       "properties": {
-        "esr:user": "082602",
-        "name": "Aegviidu",
-        "name:de": "Charlottenhof",
-        "name:et": "Aegviidu",
-        "name:ru": "Аэгвийду",
-        "name:uk": "Аегвійду",
+        "labels": [
+          {
+            "value": "Charlottenhof",
+            "lang": "de"
+          },
+          {
+            "value": "Aegviidu",
+            "lang": "et"
+          },
+          {
+            "value": "Аэгвийду",
+            "lang": "ru"
+          },
+          {
+            "value": "Аегвійду",
+            "lang": "uk"
+          },
+          {
+            "value": "Aegviidu"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "station": "light_rail",
-        "uic_ref": "2600209",
-        "id": "node/323110380"
+        "id": "node/323110380",
+        "P2815": [
+          {
+            "value": "082602"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600209"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -617,13 +1136,27 @@
       "type": "Feature",
       "id": "node/324566863",
       "properties": {
-        "esr:user": "080895",
-        "name": "Padula",
-        "name:et": "Padula",
-        "name:ru": "Падула",
+        "labels": [
+          {
+            "value": "Padula",
+            "lang": "et"
+          },
+          {
+            "value": "Падула",
+            "lang": "ru"
+          },
+          {
+            "value": "Padula"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
-        "id": "node/324566863"
+        "id": "node/324566863",
+        "P2815": [
+          {
+            "value": "080895"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -637,13 +1170,31 @@
       "type": "Feature",
       "id": "node/333590085",
       "properties": {
-        "esr:user": "085102",
-        "name": "Veriora",
-        "name:et": "Veriora",
-        "name:ru": "Вериора",
+        "labels": [
+          {
+            "value": "Veriora",
+            "lang": "et"
+          },
+          {
+            "value": "Вериора",
+            "lang": "ru"
+          },
+          {
+            "value": "Veriora"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600379",
-        "id": "node/333590085"
+        "id": "node/333590085",
+        "P2815": [
+          {
+            "value": "085102"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600379"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -657,15 +1208,33 @@
       "type": "Feature",
       "id": "node/344390045",
       "properties": {
-        "esr:user": "082417",
-        "name": "Parila",
-        "name:et": "Parila",
-        "name:ru": "Парила",
+        "labels": [
+          {
+            "value": "Parila",
+            "lang": "et"
+          },
+          {
+            "value": "Парила",
+            "lang": "ru"
+          },
+          {
+            "value": "Parila"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
         "tln_ID": "10849;10850",
-        "uic_ref": "2600218",
-        "id": "node/344390045"
+        "id": "node/344390045",
+        "P2815": [
+          {
+            "value": "082417"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600218"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -679,16 +1248,40 @@
       "type": "Feature",
       "id": "node/344390051",
       "properties": {
-        "esr:user": "082424",
-        "name": "Raasiku",
-        "name:de": "Rasik",
-        "name:et": "Raasiku",
-        "name:ru": "Раазику",
-        "name:uk": "Раазику",
+        "labels": [
+          {
+            "value": "Rasik",
+            "lang": "de"
+          },
+          {
+            "value": "Raasiku",
+            "lang": "et"
+          },
+          {
+            "value": "Раазику",
+            "lang": "ru"
+          },
+          {
+            "value": "Раазику",
+            "lang": "uk"
+          },
+          {
+            "value": "Raasiku"
+          }
+        ],
         "railway": "station",
         "station": "light_rail",
-        "uic_ref": "2600212",
-        "id": "node/344390051"
+        "id": "node/344390051",
+        "P2815": [
+          {
+            "value": "082424"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600212"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -702,15 +1295,33 @@
       "type": "Feature",
       "id": "node/344390052",
       "properties": {
-        "esr:user": "082320",
-        "name": "Aruküla",
-        "name:et": "Aruküla",
-        "name:ru": "Арукюла",
+        "labels": [
+          {
+            "value": "Aruküla",
+            "lang": "et"
+          },
+          {
+            "value": "Арукюла",
+            "lang": "ru"
+          },
+          {
+            "value": "Aruküla"
+          }
+        ],
         "railway": "station",
         "station": "light_rail",
         "tln_ID": "10857;10858",
-        "uic_ref": "2600213",
-        "id": "node/344390052"
+        "id": "node/344390052",
+        "P2815": [
+          {
+            "value": "082320"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600213"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -724,14 +1335,32 @@
       "type": "Feature",
       "id": "node/344390054",
       "properties": {
-        "esr:user": "082316",
-        "name": "Kulli",
-        "name:et": "Kulli",
-        "name:ru": "Кулли",
+        "labels": [
+          {
+            "value": "Kulli",
+            "lang": "et"
+          },
+          {
+            "value": "Кулли",
+            "lang": "ru"
+          },
+          {
+            "value": "Kulli"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
-        "uic_ref": "2600217",
-        "id": "node/344390054"
+        "id": "node/344390054",
+        "P2815": [
+          {
+            "value": "082316"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600217"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -745,15 +1374,33 @@
       "type": "Feature",
       "id": "node/344390056",
       "properties": {
-        "esr:user": "082528",
-        "name": "Mustjõe",
-        "name:et": "Mustjõe",
-        "name:ru": "Мустйыэ",
+        "labels": [
+          {
+            "value": "Mustjõe",
+            "lang": "et"
+          },
+          {
+            "value": "Мустйыэ",
+            "lang": "ru"
+          },
+          {
+            "value": "Mustjõe"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
         "tln_ID": "10834;10835",
-        "uic_ref": "2600210",
-        "id": "node/344390056"
+        "id": "node/344390056",
+        "P2815": [
+          {
+            "value": "082528"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600210"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -767,19 +1414,43 @@
       "type": "Feature",
       "id": "node/344390060",
       "properties": {
-        "esr:user": "082509",
-        "name": "Kehra",
-        "name:de": "Kedder",
-        "name:et": "Kehra",
-        "name:lt": "Kehra",
-        "name:ru": "Кехра",
+        "labels": [
+          {
+            "value": "Kedder",
+            "lang": "de"
+          },
+          {
+            "value": "Kehra",
+            "lang": "et"
+          },
+          {
+            "value": "Kehra",
+            "lang": "lt"
+          },
+          {
+            "value": "Кехра",
+            "lang": "ru"
+          },
+          {
+            "value": "Kehra"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "station": "light_rail",
         "tln_ID": "10844;10845",
         "train": "yes",
-        "uic_ref": "2600211",
-        "id": "node/344390060"
+        "id": "node/344390060",
+        "P2815": [
+          {
+            "value": "082509"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600211"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -793,13 +1464,31 @@
       "type": "Feature",
       "id": "node/411299371",
       "properties": {
-        "esr:user": "088510",
-        "name": "Keava",
-        "name:et": "Keava",
-        "name:ru": "Кеава",
+        "labels": [
+          {
+            "value": "Keava",
+            "lang": "et"
+          },
+          {
+            "value": "Кеава",
+            "lang": "ru"
+          },
+          {
+            "value": "Keava"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600039",
-        "id": "node/411299371"
+        "id": "node/411299371",
+        "P2815": [
+          {
+            "value": "088510"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600039"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -813,13 +1502,31 @@
       "type": "Feature",
       "id": "node/418019706",
       "properties": {
-        "esr:user": "085738",
-        "name": "Tõravere",
-        "name:et": "Tõravere",
-        "name:ru": "Тыравере",
+        "labels": [
+          {
+            "value": "Tõravere",
+            "lang": "et"
+          },
+          {
+            "value": "Тыравере",
+            "lang": "ru"
+          },
+          {
+            "value": "Tõravere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600191",
-        "id": "node/418019706"
+        "id": "node/418019706",
+        "P2815": [
+          {
+            "value": "085738"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600191"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -833,13 +1540,31 @@
       "type": "Feature",
       "id": "node/418439402",
       "properties": {
-        "esr:user": "085704",
-        "name": "Elva",
-        "name:et": "Elva",
-        "name:ru": "Элва",
+        "labels": [
+          {
+            "value": "Elva",
+            "lang": "et"
+          },
+          {
+            "value": "Элва",
+            "lang": "ru"
+          },
+          {
+            "value": "Elva"
+          }
+        ],
         "railway": "stop",
-        "uic_ref": "2600338",
-        "id": "node/418439402"
+        "id": "node/418439402",
+        "P2815": [
+          {
+            "value": "085704"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600338"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -853,11 +1578,22 @@
       "type": "Feature",
       "id": "node/418977239",
       "properties": {
-        "name": "Pärnu kaubajaam",
-        "name:ru": "Пярну каубайаам",
+        "labels": [
+          {
+            "value": "Пярну каубайаам",
+            "lang": "ru"
+          },
+          {
+            "value": "Pärnu kaubajaam"
+          }
+        ],
         "railway": "halt",
-        "wikidata": "Q6528780",
-        "id": "node/418977239"
+        "id": "node/418977239",
+        "PWIKI": [
+          {
+            "value": "Q6528780"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -871,12 +1607,26 @@
       "type": "Feature",
       "id": "node/418977251",
       "properties": {
-        "esr:user": "089033",
-        "name": "Pulli",
-        "name:ee": "Pulli",
-        "name:ru": "Пулли",
+        "labels": [
+          {
+            "value": "Pulli",
+            "lang": "ee"
+          },
+          {
+            "value": "Пулли",
+            "lang": "ru"
+          },
+          {
+            "value": "Pulli"
+          }
+        ],
         "railway": "halt",
-        "id": "node/418977251"
+        "id": "node/418977251",
+        "P2815": [
+          {
+            "value": "089033"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -890,13 +1640,31 @@
       "type": "Feature",
       "id": "node/429765379",
       "properties": {
-        "esr:user": "085846",
-        "name": "Palupera",
-        "name:et": "Palupera",
-        "name:ru": "Палупера",
+        "labels": [
+          {
+            "value": "Palupera",
+            "lang": "et"
+          },
+          {
+            "value": "Палупера",
+            "lang": "ru"
+          },
+          {
+            "value": "Palupera"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600187",
-        "id": "node/429765379"
+        "id": "node/429765379",
+        "P2815": [
+          {
+            "value": "085846"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600187"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -910,13 +1678,31 @@
       "type": "Feature",
       "id": "node/448280724",
       "properties": {
-        "esr:user": "084839",
-        "name": "Kirsi",
-        "name:et": "Kirsi",
-        "name:ru": "Кирси",
+        "labels": [
+          {
+            "value": "Kirsi",
+            "lang": "et"
+          },
+          {
+            "value": "Кирси",
+            "lang": "ru"
+          },
+          {
+            "value": "Kirsi"
+          }
+        ],
         "railway": "halt",
-        "wikidata": "Q15218413",
-        "id": "node/448280724"
+        "id": "node/448280724",
+        "P2815": [
+          {
+            "value": "084839"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q15218413"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -930,14 +1716,36 @@
       "type": "Feature",
       "id": "node/448285938",
       "properties": {
-        "esr:user": "084824",
-        "name": "Uhti",
-        "name:et": "Uhti",
-        "name:ru": "Ухти",
+        "labels": [
+          {
+            "value": "Uhti",
+            "lang": "et"
+          },
+          {
+            "value": "Ухти",
+            "lang": "ru"
+          },
+          {
+            "value": "Uhti"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600767",
-        "wikidata": "Q12377711",
-        "id": "node/448285938"
+        "id": "node/448285938",
+        "P2815": [
+          {
+            "value": "084824"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600767"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12377711"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -951,13 +1759,31 @@
       "type": "Feature",
       "id": "node/523619250",
       "properties": {
-        "esr:user": "085719",
-        "name": "Peedu",
-        "name:et": "Peedu",
-        "name:ru": "Пеэду",
+        "labels": [
+          {
+            "value": "Peedu",
+            "lang": "et"
+          },
+          {
+            "value": "Пеэду",
+            "lang": "ru"
+          },
+          {
+            "value": "Peedu"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600189",
-        "id": "node/523619250"
+        "id": "node/523619250",
+        "P2815": [
+          {
+            "value": "085719"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600189"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -971,17 +1797,39 @@
       "type": "Feature",
       "id": "node/529932898",
       "properties": {
-        "esr:user": "084006",
-        "name": "Narva",
-        "name:et": "Narva",
-        "name:ru": "Нарва",
+        "labels": [
+          {
+            "value": "Narva",
+            "lang": "et"
+          },
+          {
+            "value": "Нарва",
+            "lang": "ru"
+          },
+          {
+            "value": "Narva"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "uic_ref": "2600330",
-        "wikidata": "Q403227",
         "wikipedia": "ru:Нарва (станция)",
-        "id": "node/529932898"
+        "id": "node/529932898",
+        "P2815": [
+          {
+            "value": "084006"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600330"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q403227"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -995,7 +1843,11 @@
       "type": "Feature",
       "id": "node/566195106",
       "properties": {
-        "name": "Kaarepere",
+        "labels": [
+          {
+            "value": "Kaarepere"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -1013,13 +1865,31 @@
       "type": "Feature",
       "id": "node/566195153",
       "properties": {
-        "esr:user": "084504",
-        "name": "Tabivere",
-        "name:et": "Tabivere",
-        "name:ru": "Табивере",
+        "labels": [
+          {
+            "value": "Tabivere",
+            "lang": "et"
+          },
+          {
+            "value": "Табивере",
+            "lang": "ru"
+          },
+          {
+            "value": "Tabivere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600199",
-        "id": "node/566195153"
+        "id": "node/566195153",
+        "P2815": [
+          {
+            "value": "084504"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600199"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1033,16 +1903,40 @@
       "type": "Feature",
       "id": "node/567439685",
       "properties": {
-        "esr:user": "084103",
-        "name": "Tamsalu",
-        "name:de": "Tamsal",
-        "name:et": "Tamsalu",
-        "name:lt": "Tamsalu",
-        "name:ru": "Тамсалу",
+        "labels": [
+          {
+            "value": "Tamsal",
+            "lang": "de"
+          },
+          {
+            "value": "Tamsalu",
+            "lang": "et"
+          },
+          {
+            "value": "Tamsalu",
+            "lang": "lt"
+          },
+          {
+            "value": "Тамсалу",
+            "lang": "ru"
+          },
+          {
+            "value": "Tamsalu"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600380",
-        "id": "node/567439685"
+        "id": "node/567439685",
+        "P2815": [
+          {
+            "value": "084103"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600380"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1056,17 +1950,41 @@
       "type": "Feature",
       "id": "node/579964359",
       "properties": {
-        "esr:user": "083107",
-        "name": "Kiviõli",
-        "name:de": "Steinöl",
-        "name:et": "Kiviõli",
-        "name:lt": "Kivielis",
-        "name:ru": "Кивиыли",
+        "labels": [
+          {
+            "value": "Steinöl",
+            "lang": "de"
+          },
+          {
+            "value": "Kiviõli",
+            "lang": "et"
+          },
+          {
+            "value": "Kivielis",
+            "lang": "lt"
+          },
+          {
+            "value": "Кивиыли",
+            "lang": "ru"
+          },
+          {
+            "value": "Kiviõli"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "uic_ref": "2600336",
-        "id": "node/579964359"
+        "id": "node/579964359",
+        "P2815": [
+          {
+            "value": "083107"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600336"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1080,14 +1998,32 @@
       "type": "Feature",
       "id": "node/629284302",
       "properties": {
-        "esr:user": "081421",
-        "name": "Kitseküla",
-        "name:et": "Kitseküla",
-        "name:ru": "Китсекюла",
+        "labels": [
+          {
+            "value": "Kitseküla",
+            "lang": "et"
+          },
+          {
+            "value": "Китсекюла",
+            "lang": "ru"
+          },
+          {
+            "value": "Kitseküla"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
-        "wikidata": "Q2283578",
-        "id": "node/629284302"
+        "id": "node/629284302",
+        "P2815": [
+          {
+            "value": "081421"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2283578"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1101,14 +2037,32 @@
       "type": "Feature",
       "id": "node/649015886",
       "properties": {
-        "esr:user": "083605",
-        "name": "Vaivara",
-        "name:et": "Vaivara",
-        "name:ru": "Вайвара",
+        "labels": [
+          {
+            "value": "Vaivara",
+            "lang": "et"
+          },
+          {
+            "value": "Вайвара",
+            "lang": "ru"
+          },
+          {
+            "value": "Vaivara"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600355",
-        "id": "node/649015886"
+        "id": "node/649015886",
+        "P2815": [
+          {
+            "value": "083605"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600355"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1122,14 +2076,32 @@
       "type": "Feature",
       "id": "node/652842585",
       "properties": {
-        "esr:user": "082941",
-        "name": "Sonda",
-        "name:et": "Sonda",
-        "name:ru": "Сонда",
+        "labels": [
+          {
+            "value": "Sonda",
+            "lang": "et"
+          },
+          {
+            "value": "Сонда",
+            "lang": "ru"
+          },
+          {
+            "value": "Sonda"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600345",
-        "id": "node/652842585"
+        "id": "node/652842585",
+        "P2815": [
+          {
+            "value": "082941"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600345"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1143,15 +2115,36 @@
       "type": "Feature",
       "id": "node/659837157",
       "properties": {
-        "esr:user": "083200",
-        "name": "Püssi",
-        "name:et": "Püssi",
-        "name:lt": "Piusis",
-        "name:ru": "Пюсси",
+        "labels": [
+          {
+            "value": "Püssi",
+            "lang": "et"
+          },
+          {
+            "value": "Piusis",
+            "lang": "lt"
+          },
+          {
+            "value": "Пюсси",
+            "lang": "ru"
+          },
+          {
+            "value": "Püssi"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600332",
-        "id": "node/659837157"
+        "id": "node/659837157",
+        "P2815": [
+          {
+            "value": "083200"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600332"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1165,13 +2158,31 @@
       "type": "Feature",
       "id": "node/734514994",
       "properties": {
-        "esr:user": "082617",
-        "name": "Nelijärve",
-        "name:et": "Nelijärve",
-        "name:ru": "Нелиярве",
+        "labels": [
+          {
+            "value": "Nelijärve",
+            "lang": "et"
+          },
+          {
+            "value": "Нелиярве",
+            "lang": "ru"
+          },
+          {
+            "value": "Nelijärve"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600208",
-        "id": "node/734514994"
+        "id": "node/734514994",
+        "P2815": [
+          {
+            "value": "082617"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600208"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1185,13 +2196,31 @@
       "type": "Feature",
       "id": "node/734515273",
       "properties": {
-        "esr:user": "082621",
-        "name": "Jäneda",
-        "name:et": "Jäneda",
-        "name:ru": "Янеда",
+        "labels": [
+          {
+            "value": "Jäneda",
+            "lang": "et"
+          },
+          {
+            "value": "Янеда",
+            "lang": "ru"
+          },
+          {
+            "value": "Jäneda"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600143",
-        "id": "node/734515273"
+        "id": "node/734515273",
+        "P2815": [
+          {
+            "value": "082621"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600143"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1205,14 +2234,36 @@
       "type": "Feature",
       "id": "node/793553395",
       "properties": {
-        "esr:user": "081012",
-        "name": "Klooga-aedlinn",
-        "name:et": "Klooga-Aedlinn",
-        "name:ru": "Клоога-Аэдлинн",
+        "labels": [
+          {
+            "value": "Klooga-Aedlinn",
+            "lang": "et"
+          },
+          {
+            "value": "Клоога-Аэдлинн",
+            "lang": "ru"
+          },
+          {
+            "value": "Klooga-aedlinn"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600955",
-        "wikidata": "Q2031564",
-        "id": "node/793553395"
+        "id": "node/793553395",
+        "P2815": [
+          {
+            "value": "081012"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600955"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2031564"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1226,13 +2277,31 @@
       "type": "Feature",
       "id": "node/847149522",
       "properties": {
-        "esr:user": "085742",
-        "name": "Nõo",
-        "name:et": "Nõo",
-        "name:ru": "Ныо",
+        "labels": [
+          {
+            "value": "Nõo",
+            "lang": "et"
+          },
+          {
+            "value": "Ныо",
+            "lang": "ru"
+          },
+          {
+            "value": "Nõo"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600192",
-        "id": "node/847149522"
+        "id": "node/847149522",
+        "P2815": [
+          {
+            "value": "085742"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600192"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1246,14 +2315,36 @@
       "type": "Feature",
       "id": "node/864818204",
       "properties": {
-        "esr:user": "088327",
-        "name": "Männiku",
-        "name:et": "Männiku",
-        "name:ru": "Мяннику",
+        "labels": [
+          {
+            "value": "Männiku",
+            "lang": "et"
+          },
+          {
+            "value": "Мяннику",
+            "lang": "ru"
+          },
+          {
+            "value": "Männiku"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600737",
-        "wikidata": "Q11041241",
-        "id": "node/864818204"
+        "id": "node/864818204",
+        "P2815": [
+          {
+            "value": "088327"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600737"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q11041241"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1267,15 +2358,37 @@
       "type": "Feature",
       "id": "node/874381457",
       "properties": {
-        "esr:user": "088524",
-        "name": "Lelle",
-        "name:et": "Lelle",
-        "name:ru": "Лелле",
+        "labels": [
+          {
+            "value": "Lelle",
+            "lang": "et"
+          },
+          {
+            "value": "Лелле",
+            "lang": "ru"
+          },
+          {
+            "value": "Lelle"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600053",
         "wheelchair": "yes",
-        "wikidata": "Q12368493",
-        "id": "node/874381457"
+        "id": "node/874381457",
+        "P2815": [
+          {
+            "value": "088524"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600053"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12368493"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1289,13 +2402,31 @@
       "type": "Feature",
       "id": "node/996883062",
       "properties": {
-        "esr:user": "085121",
-        "name": "Orava",
-        "name:et": "Orava",
-        "name:ru": "Орава",
+        "labels": [
+          {
+            "value": "Orava",
+            "lang": "et"
+          },
+          {
+            "value": "Орава",
+            "lang": "ru"
+          },
+          {
+            "value": "Orava"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600242",
-        "id": "node/996883062"
+        "id": "node/996883062",
+        "P2815": [
+          {
+            "value": "085121"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600242"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1309,11 +2440,22 @@
       "type": "Feature",
       "id": "node/1001262654",
       "properties": {
-        "name": "Piusa",
-        "name:ru": "Пиуза",
+        "labels": [
+          {
+            "value": "Пиуза",
+            "lang": "ru"
+          },
+          {
+            "value": "Piusa"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600231",
-        "id": "node/1001262654"
+        "id": "node/1001262654",
+        "P722": [
+          {
+            "value": "2600231"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1327,15 +2469,36 @@
       "type": "Feature",
       "id": "node/1133646721",
       "properties": {
-        "name": "Vasalemma",
-        "name:de": "Wassalem",
-        "name:et": "Vasalemma",
-        "name:ru": "Вазалемма",
+        "labels": [
+          {
+            "value": "Wassalem",
+            "lang": "de"
+          },
+          {
+            "value": "Vasalemma",
+            "lang": "et"
+          },
+          {
+            "value": "Вазалемма",
+            "lang": "ru"
+          },
+          {
+            "value": "Vasalemma"
+          }
+        ],
         "railway": "station",
         "station": "light_rail",
-        "uic_ref": "2600810",
-        "wikidata": "Q3741078",
-        "id": "node/1133646721"
+        "id": "node/1133646721",
+        "P722": [
+          {
+            "value": "2600810"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3741078"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1349,13 +2512,31 @@
       "type": "Feature",
       "id": "node/1158952078",
       "properties": {
-        "name": "Kärevere",
-        "name:et": "Kärevere",
-        "name:ru": "Кяревере",
+        "labels": [
+          {
+            "value": "Kärevere",
+            "lang": "et"
+          },
+          {
+            "value": "Кяревере",
+            "lang": "ru"
+          },
+          {
+            "value": "Kärevere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600797",
-        "wikidata": "Q11049439",
-        "id": "node/1158952078"
+        "id": "node/1158952078",
+        "P722": [
+          {
+            "value": "2600797"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q11049439"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1369,8 +2550,12 @@
       "type": "Feature",
       "id": "node/1198690727",
       "properties": {
+        "labels": [
+          {
+            "value": "Taebla"
+          }
+        ],
         "highway": "bus_stop",
-        "name": "Taebla",
         "public_transport": "station",
         "shelter": "yes",
         "id": "node/1198690727"
@@ -1387,15 +2572,35 @@
       "type": "Feature",
       "id": "node/1363022436",
       "properties": {
-        "name": "Jõhvi",
-        "name:de": "Jewe",
-        "name:et": "Jõhvi",
-        "name:lt": "Jehvis",
-        "name:ru": "Йыхви",
+        "labels": [
+          {
+            "value": "Jewe",
+            "lang": "de"
+          },
+          {
+            "value": "Jõhvi",
+            "lang": "et"
+          },
+          {
+            "value": "Jehvis",
+            "lang": "lt"
+          },
+          {
+            "value": "Йыхви",
+            "lang": "ru"
+          },
+          {
+            "value": "Jõhvi"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600350",
-        "id": "node/1363022436"
+        "id": "node/1363022436",
+        "P722": [
+          {
+            "value": "2600350"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1409,15 +2614,39 @@
       "type": "Feature",
       "id": "node/1369736164",
       "properties": {
-        "name": "Põlva",
-        "name:de": "Pölwe",
-        "name:et": "Põlva",
-        "name:lt": "Pelva",
-        "name:ru": "Пылва",
+        "labels": [
+          {
+            "value": "Pölwe",
+            "lang": "de"
+          },
+          {
+            "value": "Põlva",
+            "lang": "et"
+          },
+          {
+            "value": "Pelva",
+            "lang": "lt"
+          },
+          {
+            "value": "Пылва",
+            "lang": "ru"
+          },
+          {
+            "value": "Põlva"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600341",
-        "wikidata": "Q12373188",
-        "id": "node/1369736164"
+        "id": "node/1369736164",
+        "P722": [
+          {
+            "value": "2600341"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12373188"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1431,13 +2660,31 @@
       "type": "Feature",
       "id": "node/1369741565",
       "properties": {
-        "name": "Kiidjärve",
-        "name:et": "Kiidjärve",
-        "name:ru": "Кийдьярве",
+        "labels": [
+          {
+            "value": "Kiidjärve",
+            "lang": "et"
+          },
+          {
+            "value": "Кийдьярве",
+            "lang": "ru"
+          },
+          {
+            "value": "Kiidjärve"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600669",
-        "wikidata": "Q16410262",
-        "id": "node/1369741565"
+        "id": "node/1369741565",
+        "P722": [
+          {
+            "value": "2600669"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q16410262"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1451,14 +2698,32 @@
       "type": "Feature",
       "id": "node/1372245122",
       "properties": {
-        "name": "Reola",
-        "name:et": "Reola",
-        "name:ru": "Реола",
+        "labels": [
+          {
+            "value": "Reola",
+            "lang": "et"
+          },
+          {
+            "value": "Реола",
+            "lang": "ru"
+          },
+          {
+            "value": "Reola"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600241",
-        "wikidata": "Q12373857",
-        "id": "node/1372245122"
+        "id": "node/1372245122",
+        "P722": [
+          {
+            "value": "2600241"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12373857"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1472,15 +2737,33 @@
       "type": "Feature",
       "id": "node/1372263675",
       "properties": {
-        "name": "Vastse-Kuuste",
-        "name:et": "Vastse-Kuuste",
-        "name:ru": "Вастсе-Куусте",
+        "labels": [
+          {
+            "value": "Vastse-Kuuste",
+            "lang": "et"
+          },
+          {
+            "value": "Вастсе-Куусте",
+            "lang": "ru"
+          },
+          {
+            "value": "Vastse-Kuuste"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "uic_ref": "2600082",
-        "wikidata": "Q12378340",
-        "id": "node/1372263675"
+        "id": "node/1372263675",
+        "P722": [
+          {
+            "value": "2600082"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12378340"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1494,13 +2777,31 @@
       "type": "Feature",
       "id": "node/1372263680",
       "properties": {
-        "name": "Valgemetsa",
-        "name:et": "Valgemetsa",
-        "name:ru": "Валгеметса",
+        "labels": [
+          {
+            "value": "Valgemetsa",
+            "lang": "et"
+          },
+          {
+            "value": "Валгеметса",
+            "lang": "ru"
+          },
+          {
+            "value": "Valgemetsa"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600088",
-        "wikidata": "Q12378119",
-        "id": "node/1372263680"
+        "id": "node/1372263680",
+        "P722": [
+          {
+            "value": "2600088"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12378119"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1514,13 +2815,31 @@
       "type": "Feature",
       "id": "node/1372263684",
       "properties": {
-        "name": "Vana-Kuuste",
-        "name:et": "Vana-Kuuste",
-        "name:ru": "Вана-Куусте",
+        "labels": [
+          {
+            "value": "Vana-Kuuste",
+            "lang": "et"
+          },
+          {
+            "value": "Вана-Куусте",
+            "lang": "ru"
+          },
+          {
+            "value": "Vana-Kuuste"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600678",
-        "wikidata": "Q12378210",
-        "id": "node/1372263684"
+        "id": "node/1372263684",
+        "P722": [
+          {
+            "value": "2600678"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12378210"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1534,13 +2853,31 @@
       "type": "Feature",
       "id": "node/1372263686",
       "properties": {
-        "name": "Rebase",
-        "name:et": "Rebase",
-        "name:ru": "Ребазе",
+        "labels": [
+          {
+            "value": "Rebase",
+            "lang": "et"
+          },
+          {
+            "value": "Ребазе",
+            "lang": "ru"
+          },
+          {
+            "value": "Rebase"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600107",
-        "wikidata": "Q16412260",
-        "id": "node/1372263686"
+        "id": "node/1372263686",
+        "P722": [
+          {
+            "value": "2600107"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q16412260"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1554,10 +2891,23 @@
       "type": "Feature",
       "id": "node/1372632142",
       "properties": {
-        "name": "Saku",
-        "name:de": "Sack",
-        "name:et": "Saku",
-        "name:ru": "Саку",
+        "labels": [
+          {
+            "value": "Sack",
+            "lang": "de"
+          },
+          {
+            "value": "Saku",
+            "lang": "et"
+          },
+          {
+            "value": "Саку",
+            "lang": "ru"
+          },
+          {
+            "value": "Saku"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1575,13 +2925,31 @@
       "type": "Feature",
       "id": "node/1374884606",
       "properties": {
-        "name": "Hagudi",
-        "name:et": "Hagudi",
-        "name:ru": "Хагуди",
+        "labels": [
+          {
+            "value": "Hagudi",
+            "lang": "et"
+          },
+          {
+            "value": "Хагуди",
+            "lang": "ru"
+          },
+          {
+            "value": "Hagudi"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600042",
-        "wikidata": "Q11039999",
-        "id": "node/1374884606"
+        "id": "node/1374884606",
+        "P722": [
+          {
+            "value": "2600042"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q11039999"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1595,13 +2963,31 @@
       "type": "Feature",
       "id": "node/1404521402",
       "properties": {
-        "name": "Ollepa",
-        "name:et": "Ollepa",
-        "name:ru": "Оллепа",
+        "labels": [
+          {
+            "value": "Ollepa",
+            "lang": "et"
+          },
+          {
+            "value": "Оллепа",
+            "lang": "ru"
+          },
+          {
+            "value": "Ollepa"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600766",
-        "wikidata": "Q12371442",
-        "id": "node/1404521402"
+        "id": "node/1404521402",
+        "P722": [
+          {
+            "value": "2600766"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12371442"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1615,12 +3001,26 @@
       "type": "Feature",
       "id": "node/1404521403",
       "properties": {
-        "name": "Taikse",
-        "name:et": "Taikse",
-        "name:ru": "Тайксе",
+        "labels": [
+          {
+            "value": "Taikse",
+            "lang": "et"
+          },
+          {
+            "value": "Тайксе",
+            "lang": "ru"
+          },
+          {
+            "value": "Taikse"
+          }
+        ],
         "railway": "halt",
-        "wikidata": "Q12376092",
-        "id": "node/1404521403"
+        "id": "node/1404521403",
+        "PWIKI": [
+          {
+            "value": "Q12376092"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1634,6 +3034,7 @@
       "type": "Feature",
       "id": "node/1485742508",
       "properties": {
+        "labels": [],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1651,7 +3052,11 @@
       "type": "Feature",
       "id": "node/1485742524",
       "properties": {
-        "name": "Rapla",
+        "labels": [
+          {
+            "value": "Rapla"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1669,12 +3074,26 @@
       "type": "Feature",
       "id": "node/1503149365",
       "properties": {
-        "name": "Kärkna",
-        "name:et": "Kärkna",
-        "name:ru": "Кяркна",
+        "labels": [
+          {
+            "value": "Kärkna",
+            "lang": "et"
+          },
+          {
+            "value": "Кяркна",
+            "lang": "ru"
+          },
+          {
+            "value": "Kärkna"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600198",
-        "id": "node/1503149365"
+        "id": "node/1503149365",
+        "P722": [
+          {
+            "value": "2600198"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1688,13 +3107,27 @@
       "type": "Feature",
       "id": "node/1546177281",
       "properties": {
-        "name": "Oru",
-        "name:et": "Oru",
-        "name:ru": "Ору",
+        "labels": [
+          {
+            "value": "Oru",
+            "lang": "et"
+          },
+          {
+            "value": "Ору",
+            "lang": "ru"
+          },
+          {
+            "value": "Oru"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600347",
-        "id": "node/1546177281"
+        "id": "node/1546177281",
+        "P722": [
+          {
+            "value": "2600347"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1708,12 +3141,26 @@
       "type": "Feature",
       "id": "node/1607752056",
       "properties": {
-        "name": "Keeni",
-        "name:et": "Keeni",
-        "name:ru": "Кеэни",
+        "labels": [
+          {
+            "value": "Keeni",
+            "lang": "et"
+          },
+          {
+            "value": "Кеэни",
+            "lang": "ru"
+          },
+          {
+            "value": "Keeni"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600182",
-        "id": "node/1607752056"
+        "id": "node/1607752056",
+        "P722": [
+          {
+            "value": "2600182"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1727,12 +3174,26 @@
       "type": "Feature",
       "id": "node/1607752064",
       "properties": {
-        "name": "Mägiste",
-        "name:et": "Mägiste",
-        "name:ru": "Мягисте",
+        "labels": [
+          {
+            "value": "Mägiste",
+            "lang": "et"
+          },
+          {
+            "value": "Мягисте",
+            "lang": "ru"
+          },
+          {
+            "value": "Mägiste"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600184",
-        "id": "node/1607752064"
+        "id": "node/1607752064",
+        "P722": [
+          {
+            "value": "2600184"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1746,12 +3207,26 @@
       "type": "Feature",
       "id": "node/1607752070",
       "properties": {
-        "name": "Sangaste",
-        "name:et": "Sangaste",
-        "name:ru": "Сангасте",
+        "labels": [
+          {
+            "value": "Sangaste",
+            "lang": "et"
+          },
+          {
+            "value": "Сангасте",
+            "lang": "ru"
+          },
+          {
+            "value": "Sangaste"
+          }
+        ],
         "railway": "station",
-        "uic_ref": "2600180",
-        "id": "node/1607752070"
+        "id": "node/1607752070",
+        "P722": [
+          {
+            "value": "2600180"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1765,12 +3240,27 @@
       "type": "Feature",
       "id": "node/2158784640",
       "properties": {
-        "name": "Kasemetsa",
-        "name:et": "Kasemetsa",
+        "labels": [
+          {
+            "value": "Kasemetsa",
+            "lang": "et"
+          },
+          {
+            "value": "Kasemetsa"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600849",
-        "wikidata": "Q11043684",
-        "id": "node/2158784640"
+        "id": "node/2158784640",
+        "P722": [
+          {
+            "value": "2600849"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q11043684"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1784,14 +3274,33 @@
       "type": "Feature",
       "id": "node/2158784646",
       "properties": {
-        "esr:user": "088350",
-        "name": "Kiisa",
-        "name:et": "Kiisa",
+        "labels": [
+          {
+            "value": "Kiisa",
+            "lang": "et"
+          },
+          {
+            "value": "Kiisa"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600740",
-        "wikidata": "Q12366959",
-        "id": "node/2158784646"
+        "id": "node/2158784646",
+        "P2815": [
+          {
+            "value": "088350"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600740"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12366959"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1805,11 +3314,22 @@
       "type": "Feature",
       "id": "node/2159481727",
       "properties": {
-        "name": "Käru",
-        "name:et": "Käru",
+        "labels": [
+          {
+            "value": "Käru",
+            "lang": "et"
+          },
+          {
+            "value": "Käru"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600704",
-        "id": "node/2159481727"
+        "id": "node/2159481727",
+        "P722": [
+          {
+            "value": "2600704"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1823,12 +3343,26 @@
       "type": "Feature",
       "id": "node/2165848030",
       "properties": {
-        "name": "Rakke",
-        "name:et": "Rakke",
-        "name:ru": "Ракке",
+        "labels": [
+          {
+            "value": "Rakke",
+            "lang": "et"
+          },
+          {
+            "value": "Ракке",
+            "lang": "ru"
+          },
+          {
+            "value": "Rakke"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600203",
-        "id": "node/2165848030"
+        "id": "node/2165848030",
+        "P722": [
+          {
+            "value": "2600203"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1842,12 +3376,23 @@
       "type": "Feature",
       "id": "node/2339796078",
       "properties": {
-        "name": "Kadrina",
-        "name:et": "Kadrina",
+        "labels": [
+          {
+            "value": "Kadrina",
+            "lang": "et"
+          },
+          {
+            "value": "Kadrina"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600233",
-        "id": "node/2339796078"
+        "id": "node/2339796078",
+        "P722": [
+          {
+            "value": "2600233"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1861,7 +3406,11 @@
       "type": "Feature",
       "id": "node/2457547174",
       "properties": {
-        "name": "Ikla",
+        "labels": [
+          {
+            "value": "Ikla"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1879,11 +3428,19 @@
       "type": "Feature",
       "id": "node/2615154629",
       "properties": {
-        "name": "Pärnu",
+        "labels": [
+          {
+            "value": "Pärnu"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
-        "wikidata": "Q25516808",
-        "id": "node/2615154629"
+        "id": "node/2615154629",
+        "PWIKI": [
+          {
+            "value": "Q25516808"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1897,11 +3454,22 @@
       "type": "Feature",
       "id": "node/2929164408",
       "properties": {
-        "name": "Ropka",
-        "name:et": "Ropka",
+        "labels": [
+          {
+            "value": "Ropka",
+            "lang": "et"
+          },
+          {
+            "value": "Ropka"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600194",
-        "id": "node/2929164408"
+        "id": "node/2929164408",
+        "P722": [
+          {
+            "value": "2600194"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1915,14 +3483,36 @@
       "type": "Feature",
       "id": "node/3162564395",
       "properties": {
-        "esr:user": "088581",
-        "name": "Viluvere",
-        "name:ee": "Viluvere",
-        "name:ru": "Вилувере",
+        "labels": [
+          {
+            "value": "Viluvere",
+            "lang": "ee"
+          },
+          {
+            "value": "Вилувере",
+            "lang": "ru"
+          },
+          {
+            "value": "Viluvere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600882",
-        "wikidata": "Q5367687",
-        "id": "node/3162564395"
+        "id": "node/3162564395",
+        "P2815": [
+          {
+            "value": "088581"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600882"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5367687"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1936,14 +3526,36 @@
       "type": "Feature",
       "id": "node/3204628588",
       "properties": {
-        "esr:user": "088562",
-        "name": "Eidapere",
-        "name:ee": "Eidapere",
-        "name:ru": "Эйдапере",
+        "labels": [
+          {
+            "value": "Eidapere",
+            "lang": "ee"
+          },
+          {
+            "value": "Эйдапере",
+            "lang": "ru"
+          },
+          {
+            "value": "Eidapere"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600117",
-        "wikidata": "Q10987307",
-        "id": "node/3204628588"
+        "id": "node/3204628588",
+        "P2815": [
+          {
+            "value": "088562"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600117"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q10987307"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1957,9 +3569,19 @@
       "type": "Feature",
       "id": "node/3238143547",
       "properties": {
-        "name": "Kohtla-Nõmme",
-        "name:et": "Kohtla-Nõmme",
-        "name:ru": "Кохтла-Нымме",
+        "labels": [
+          {
+            "value": "Kohtla-Nõmme",
+            "lang": "et"
+          },
+          {
+            "value": "Кохтла-Нымме",
+            "lang": "ru"
+          },
+          {
+            "value": "Kohtla-Nõmme"
+          }
+        ],
         "railway": "halt",
         "start_date": "2014-12",
         "id": "node/3238143547"
@@ -1976,14 +3598,36 @@
       "type": "Feature",
       "id": "node/3272643550",
       "properties": {
-        "esr:user": "084818",
-        "name": "Ülenurme",
-        "name:et": "Ülenurme",
-        "name:ru": "Юленурме",
+        "labels": [
+          {
+            "value": "Ülenurme",
+            "lang": "et"
+          },
+          {
+            "value": "Юленурме",
+            "lang": "ru"
+          },
+          {
+            "value": "Ülenurme"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600709",
-        "wikidata": "Q18627156",
-        "id": "node/3272643550"
+        "id": "node/3272643550",
+        "P2815": [
+          {
+            "value": "084818"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600709"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q18627156"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1997,6 +3641,7 @@
       "type": "Feature",
       "id": "node/3296486445",
       "properties": {
+        "labels": [],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2014,15 +3659,37 @@
       "type": "Feature",
       "id": "node/3312188759",
       "properties": {
-        "esr:user": "089000",
-        "name": "Tootsi",
-        "name:ee": "Tootsi",
-        "name:ru": "Тоотси",
+        "labels": [
+          {
+            "value": "Tootsi",
+            "lang": "ee"
+          },
+          {
+            "value": "Тоотси",
+            "lang": "ru"
+          },
+          {
+            "value": "Tootsi"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600684",
-        "wikidata": "Q5478557",
-        "id": "node/3312188759"
+        "id": "node/3312188759",
+        "P2815": [
+          {
+            "value": "089000"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600684"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5478557"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2036,16 +3703,38 @@
       "type": "Feature",
       "id": "node/4175738941",
       "properties": {
-        "esr:user": "088331",
-        "name": "Saku",
-        "name:ee": "Saku",
-        "name:ru": "Саку",
+        "labels": [
+          {
+            "value": "Saku",
+            "lang": "ee"
+          },
+          {
+            "value": "Саку",
+            "lang": "ru"
+          },
+          {
+            "value": "Saku"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "uic_ref": "2600935",
-        "wikidata": "Q12374605",
-        "id": "node/4175738941"
+        "id": "node/4175738941",
+        "P2815": [
+          {
+            "value": "088331"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600935"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12374605"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2059,12 +3748,26 @@
       "type": "Feature",
       "id": "node/4211271725",
       "properties": {
-        "esr:user": "089014",
-        "name": "Tori",
-        "name:ee": "Tori",
-        "name:ru": "Тори",
+        "labels": [
+          {
+            "value": "Tori",
+            "lang": "ee"
+          },
+          {
+            "value": "Тори",
+            "lang": "ru"
+          },
+          {
+            "value": "Tori"
+          }
+        ],
         "railway": "halt",
-        "id": "node/4211271725"
+        "id": "node/4211271725",
+        "P2815": [
+          {
+            "value": "089014"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2078,14 +3781,36 @@
       "type": "Feature",
       "id": "node/4582610333",
       "properties": {
-        "esr:user": "088558",
-        "name": "Koogiste",
-        "name:ee": "Koogiste",
-        "name:ru": "Коогисте",
+        "labels": [
+          {
+            "value": "Koogiste",
+            "lang": "ee"
+          },
+          {
+            "value": "Коогисте",
+            "lang": "ru"
+          },
+          {
+            "value": "Koogiste"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "2600814",
-        "wikidata": "Q12367397",
-        "id": "node/4582610333"
+        "id": "node/4582610333",
+        "P2815": [
+          {
+            "value": "088558"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600814"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12367397"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2099,12 +3824,26 @@
       "type": "Feature",
       "id": "node/5297865224",
       "properties": {
-        "name": "Valdeku",
-        "name:ee": "Valdeku",
-        "name:ru": "Валдеку",
+        "labels": [
+          {
+            "value": "Valdeku",
+            "lang": "ee"
+          },
+          {
+            "value": "Валдеку",
+            "lang": "ru"
+          },
+          {
+            "value": "Valdeku"
+          }
+        ],
         "railway": "halt",
-        "wikidata": "Q52083634",
-        "id": "node/5297865224"
+        "id": "node/5297865224",
+        "PWIKI": [
+          {
+            "value": "Q52083634"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2118,7 +3857,11 @@
       "type": "Feature",
       "id": "node/6572486448",
       "properties": {
-        "name": "Riisipere",
+        "labels": [
+          {
+            "value": "Riisipere"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2136,7 +3879,11 @@
       "type": "Feature",
       "id": "node/6572486449",
       "properties": {
-        "name": "Riisipere",
+        "labels": [
+          {
+            "value": "Riisipere"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2154,15 +3901,37 @@
       "type": "Feature",
       "id": "node/6572486459",
       "properties": {
-        "esr:user": "081211",
-        "name": "Rahumäe",
-        "name:et": "Rahumäe",
-        "name:ru": "Рахумяэ",
+        "labels": [
+          {
+            "value": "Rahumäe",
+            "lang": "et"
+          },
+          {
+            "value": "Рахумяэ",
+            "lang": "ru"
+          },
+          {
+            "value": "Rahumäe"
+          }
+        ],
         "railway": "halt",
         "station": "light_rail",
-        "uic_ref": "2600890",
-        "wikidata": "Q3376195",
-        "id": "node/6572486459"
+        "id": "node/6572486459",
+        "P2815": [
+          {
+            "value": "081211"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600890"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3376195"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2176,7 +3945,11 @@
       "type": "Feature",
       "id": "node/6572486465",
       "properties": {
-        "name": "Ülemiste",
+        "labels": [
+          {
+            "value": "Ülemiste"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2194,9 +3967,19 @@
       "type": "Feature",
       "id": "node/6572486466",
       "properties": {
-        "name": "Ülemiste jaam",
-        "name:en": "Ülemiste station",
-        "name:ru": "Станция Юлемисте",
+        "labels": [
+          {
+            "value": "Ülemiste station",
+            "lang": "en"
+          },
+          {
+            "value": "Станция Юлемисте",
+            "lang": "ru"
+          },
+          {
+            "value": "Ülemiste jaam"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2214,13 +3997,21 @@
       "type": "Feature",
       "id": "node/6572486484",
       "properties": {
+        "labels": [
+          {
+            "value": "Tallinn"
+          }
+        ],
         "light_rail": "yes",
-        "local_ref": "1",
-        "name": "Tallinn",
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "id": "node/6572486484"
+        "id": "node/6572486484",
+        "P296": [
+          {
+            "value": "1"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2234,13 +4025,21 @@
       "type": "Feature",
       "id": "node/6572500785",
       "properties": {
+        "labels": [
+          {
+            "value": "Tallinn"
+          }
+        ],
         "light_rail": "yes",
-        "local_ref": "9",
-        "name": "Tallinn",
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "id": "node/6572500785"
+        "id": "node/6572500785",
+        "P296": [
+          {
+            "value": "9"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2254,13 +4053,21 @@
       "type": "Feature",
       "id": "node/6572500786",
       "properties": {
+        "labels": [
+          {
+            "value": "Tallinn"
+          }
+        ],
         "light_rail": "yes",
-        "local_ref": "8",
-        "name": "Tallinn",
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "id": "node/6572500786"
+        "id": "node/6572500786",
+        "P296": [
+          {
+            "value": "8"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2274,13 +4081,21 @@
       "type": "Feature",
       "id": "node/6572500787",
       "properties": {
+        "labels": [
+          {
+            "value": "Tallinn"
+          }
+        ],
         "light_rail": "yes",
-        "local_ref": "7",
-        "name": "Tallinn",
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "id": "node/6572500787"
+        "id": "node/6572500787",
+        "P296": [
+          {
+            "value": "7"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2294,13 +4109,21 @@
       "type": "Feature",
       "id": "node/6572500788",
       "properties": {
+        "labels": [
+          {
+            "value": "Tallinn"
+          }
+        ],
         "light_rail": "yes",
-        "local_ref": "6",
-        "name": "Tallinn",
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "id": "node/6572500788"
+        "id": "node/6572500788",
+        "P296": [
+          {
+            "value": "6"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2314,12 +4137,20 @@
       "type": "Feature",
       "id": "node/6572500789",
       "properties": {
-        "local_ref": "4",
-        "name": "Tallinn",
+        "labels": [
+          {
+            "value": "Tallinn"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "id": "node/6572500789"
+        "id": "node/6572500789",
+        "P296": [
+          {
+            "value": "4"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2333,12 +4164,20 @@
       "type": "Feature",
       "id": "node/6572500790",
       "properties": {
-        "local_ref": "5",
-        "name": "Tallinn",
+        "labels": [
+          {
+            "value": "Tallinn"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "id": "node/6572500790"
+        "id": "node/6572500790",
+        "P296": [
+          {
+            "value": "5"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2352,16 +4191,38 @@
       "type": "Feature",
       "id": "node/6576568327",
       "properties": {
-        "esr:user": "088505",
-        "name": "Rapla",
-        "name:et": "Rapla",
-        "name:ru": "Рапла",
+        "labels": [
+          {
+            "value": "Rapla",
+            "lang": "et"
+          },
+          {
+            "value": "Рапла",
+            "lang": "ru"
+          },
+          {
+            "value": "Rapla"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600800",
         "wheelchair": "yes",
-        "wikidata": "Q3738394",
-        "id": "node/6576568327"
+        "id": "node/6576568327",
+        "P2815": [
+          {
+            "value": "088505"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600800"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3738394"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2375,14 +4236,30 @@
       "type": "Feature",
       "id": "node/6913337838",
       "properties": {
-        "esr:user": "080593",
-        "name": "Turba",
+        "labels": [
+          {
+            "value": "Turba"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "uic_ref": "2600663",
-        "wikidata": "Q12377405",
-        "id": "node/6913337838"
+        "id": "node/6913337838",
+        "P2815": [
+          {
+            "value": "080593"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600663"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12377405"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2396,7 +4273,11 @@
       "type": "Feature",
       "id": "node/7804437998",
       "properties": {
-        "name": "Valga",
+        "labels": [
+          {
+            "value": "Valga"
+          }
+        ],
         "operator": "Pasažieru vilciens",
         "public_transport": "stop_position",
         "railway": "stop",
@@ -2415,18 +4296,42 @@
       "type": "Feature",
       "id": "node/7804437999",
       "properties": {
-        "esr:user": "086209",
-        "name": "Valga",
-        "name:de": "Walk",
-        "name:et": "Valga",
-        "name:lt": "Valga",
-        "name:ru": "Валга",
+        "labels": [
+          {
+            "value": "Walk",
+            "lang": "de"
+          },
+          {
+            "value": "Valga",
+            "lang": "et"
+          },
+          {
+            "value": "Valga",
+            "lang": "lt"
+          },
+          {
+            "value": "Валга",
+            "lang": "ru"
+          },
+          {
+            "value": "Valga"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "source": "Yahoo",
         "train": "yes",
-        "uic_ref": "2600340",
-        "id": "node/7804437999"
+        "id": "node/7804437999",
+        "P2815": [
+          {
+            "value": "086209"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600340"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2440,9 +4345,19 @@
       "type": "Feature",
       "id": "node/8539600090",
       "properties": {
-        "name": "Narva",
-        "name:et": "Narva",
-        "name:ru": "Нарва",
+        "labels": [
+          {
+            "value": "Narva",
+            "lang": "et"
+          },
+          {
+            "value": "Нарва",
+            "lang": "ru"
+          },
+          {
+            "value": "Narva"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2460,9 +4375,19 @@
       "type": "Feature",
       "id": "node/8539600091",
       "properties": {
-        "name": "Narva",
-        "name:et": "Narva",
-        "name:ru": "Нарва",
+        "labels": [
+          {
+            "value": "Narva",
+            "lang": "et"
+          },
+          {
+            "value": "Нарва",
+            "lang": "ru"
+          },
+          {
+            "value": "Narva"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2480,14 +4405,32 @@
       "type": "Feature",
       "id": "node/8761131035",
       "properties": {
-        "esr:user": "085704",
-        "name": "Elva",
-        "name:et": "Elva",
-        "name:ru": "Элва",
+        "labels": [
+          {
+            "value": "Elva",
+            "lang": "et"
+          },
+          {
+            "value": "Элва",
+            "lang": "ru"
+          },
+          {
+            "value": "Elva"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600338",
-        "id": "node/8761131035"
+        "id": "node/8761131035",
+        "P2815": [
+          {
+            "value": "085704"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600338"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2501,22 +4444,61 @@
       "type": "Feature",
       "id": "node/8761131036",
       "properties": {
-        "esr:user": "084805",
-        "name": "Tartu",
-        "name:de": "Dorpat",
-        "name:en": "Tartu",
-        "name:et": "Tartu",
-        "name:fi": "Tartto",
-        "name:he": "טרטו",
-        "name:lt": "Tartu",
-        "name:ru": "Тарту",
-        "name:sv": "Dorpat",
-        "name:vro": "Tarto",
+        "labels": [
+          {
+            "value": "Dorpat",
+            "lang": "de"
+          },
+          {
+            "value": "Tartu",
+            "lang": "en"
+          },
+          {
+            "value": "Tartu",
+            "lang": "et"
+          },
+          {
+            "value": "Tartto",
+            "lang": "fi"
+          },
+          {
+            "value": "טרטו",
+            "lang": "he"
+          },
+          {
+            "value": "Tartu",
+            "lang": "lt"
+          },
+          {
+            "value": "Тарту",
+            "lang": "ru"
+          },
+          {
+            "value": "Dorpat",
+            "lang": "sv"
+          },
+          {
+            "value": "Tarto",
+            "lang": "vro"
+          },
+          {
+            "value": "Tartu"
+          }
+        ],
         "old_name:de": "Dörpt",
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600360",
-        "id": "node/8761131036"
+        "id": "node/8761131036",
+        "P2815": [
+          {
+            "value": "084805"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600360"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2530,9 +4512,19 @@
       "type": "Feature",
       "id": "node/8761131037",
       "properties": {
-        "name": "Koidula",
-        "name:et": "Koidula",
-        "name:ru": "Койдула",
+        "labels": [
+          {
+            "value": "Koidula",
+            "lang": "et"
+          },
+          {
+            "value": "Койдула",
+            "lang": "ru"
+          },
+          {
+            "value": "Koidula"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/8761131037"
@@ -2549,14 +4541,32 @@
       "type": "Feature",
       "id": "node/8761131038",
       "properties": {
-        "esr:user": "082640",
-        "name": "Lehtse",
-        "name:et": "Lehtse",
-        "name:ru": "Лехтсе",
+        "labels": [
+          {
+            "value": "Lehtse",
+            "lang": "et"
+          },
+          {
+            "value": "Лехтсе",
+            "lang": "ru"
+          },
+          {
+            "value": "Lehtse"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
-        "uic_ref": "2600206",
-        "id": "node/8761131038"
+        "id": "node/8761131038",
+        "P2815": [
+          {
+            "value": "082640"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600206"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2570,14 +4580,31 @@
       "type": "Feature",
       "id": "node/8761131039",
       "properties": {
-        "name": "Tapa",
-        "name:de": "Taps",
-        "name:et": "Tapa",
-        "name:ru": "Тапа",
+        "labels": [
+          {
+            "value": "Taps",
+            "lang": "de"
+          },
+          {
+            "value": "Tapa",
+            "lang": "et"
+          },
+          {
+            "value": "Тапа",
+            "lang": "ru"
+          },
+          {
+            "value": "Tapa"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600370",
-        "id": "node/8761131039"
+        "id": "node/8761131039",
+        "P722": [
+          {
+            "value": "2600370"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2591,14 +4618,32 @@
       "type": "Feature",
       "id": "node/8761131040",
       "properties": {
-        "esr:user": "084326",
-        "name": "Pedja",
-        "name:et": "Pedja",
-        "name:ru": "Педья",
+        "labels": [
+          {
+            "value": "Pedja",
+            "lang": "et"
+          },
+          {
+            "value": "Педья",
+            "lang": "ru"
+          },
+          {
+            "value": "Pedja"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
-        "uic_ref": "2600201",
-        "id": "node/8761131040"
+        "id": "node/8761131040",
+        "P2815": [
+          {
+            "value": "084326"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600201"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2612,16 +4657,40 @@
       "type": "Feature",
       "id": "node/8761131041",
       "properties": {
-        "esr:user": "084400",
-        "name": "Jõgeva",
-        "name:de": "Laisholm",
-        "name:et": "Jõgeva",
-        "name:lt": "Jegeva",
-        "name:ru": "Йыгева",
+        "labels": [
+          {
+            "value": "Laisholm",
+            "lang": "de"
+          },
+          {
+            "value": "Jõgeva",
+            "lang": "et"
+          },
+          {
+            "value": "Jegeva",
+            "lang": "lt"
+          },
+          {
+            "value": "Йыгева",
+            "lang": "ru"
+          },
+          {
+            "value": "Jõgeva"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "2600459",
-        "id": "node/8761131041"
+        "id": "node/8761131041",
+        "P2815": [
+          {
+            "value": "084400"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600459"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2635,14 +4704,32 @@
       "type": "Feature",
       "id": "node/8761131042",
       "properties": {
-        "esr:user": "084422",
-        "name": "Kaarepere",
-        "name:et": "Kaarepere",
-        "name:ru": "Каарепере",
+        "labels": [
+          {
+            "value": "Kaarepere",
+            "lang": "et"
+          },
+          {
+            "value": "Каарепере",
+            "lang": "ru"
+          },
+          {
+            "value": "Kaarepere"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
-        "uic_ref": "2600200",
-        "id": "node/8761131042"
+        "id": "node/8761131042",
+        "P2815": [
+          {
+            "value": "084422"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600200"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2656,13 +4743,27 @@
       "type": "Feature",
       "id": "node/8761131043",
       "properties": {
-        "name": "Kiltsi",
-        "name:et": "Kiltsi",
-        "name:ru": "Кильтси",
+        "labels": [
+          {
+            "value": "Kiltsi",
+            "lang": "et"
+          },
+          {
+            "value": "Кильтси",
+            "lang": "ru"
+          },
+          {
+            "value": "Kiltsi"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
-        "uic_ref": "2600204",
-        "id": "node/8761131043"
+        "id": "node/8761131043",
+        "P722": [
+          {
+            "value": "2600204"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2676,14 +4777,36 @@
       "type": "Feature",
       "id": "node/8761131044",
       "properties": {
-        "esr:user": "085780",
-        "name": "Aardla",
-        "name:et": "Aardla",
-        "name:ru": "Аардла",
+        "labels": [
+          {
+            "value": "Aardla",
+            "lang": "et"
+          },
+          {
+            "value": "Аардла",
+            "lang": "ru"
+          },
+          {
+            "value": "Aardla"
+          }
+        ],
         "public_transport": "station",
-        "uic_ref": "2600196",
-        "wikidata": "Q12358082",
-        "id": "node/8761131044"
+        "id": "node/8761131044",
+        "P2815": [
+          {
+            "value": "085780"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600196"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12358082"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2697,13 +4820,31 @@
       "type": "Feature",
       "id": "node/8761131045",
       "properties": {
-        "esr:user": "085831",
-        "name": "Puka",
-        "name:et": "Puka",
-        "name:ru": "Пука",
+        "labels": [
+          {
+            "value": "Puka",
+            "lang": "et"
+          },
+          {
+            "value": "Пука",
+            "lang": "ru"
+          },
+          {
+            "value": "Puka"
+          }
+        ],
         "public_transport": "station",
-        "uic_ref": "2600185",
-        "id": "node/8761131045"
+        "id": "node/8761131045",
+        "P2815": [
+          {
+            "value": "085831"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2600185"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",

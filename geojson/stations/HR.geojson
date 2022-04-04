@@ -5,7 +5,11 @@
       "type": "Feature",
       "id": "node/21427845",
       "properties": {
-        "name": "Remetinec",
+        "labels": [
+          {
+            "value": "Remetinec"
+          }
+        ],
         "railway": "halt",
         "id": "node/21427845"
       },
@@ -21,7 +25,11 @@
       "type": "Feature",
       "id": "node/60442928",
       "properties": {
-        "name": "Horvati",
+        "labels": [
+          {
+            "value": "Horvati"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -39,7 +47,11 @@
       "type": "Feature",
       "id": "node/148612168",
       "properties": {
-        "name": "Latinovac",
+        "labels": [
+          {
+            "value": "Latinovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -57,7 +69,11 @@
       "type": "Feature",
       "id": "node/176954562",
       "properties": {
-        "name": "Sarvaš",
+        "labels": [
+          {
+            "value": "Sarvaš"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/176954562"
@@ -74,7 +90,11 @@
       "type": "Feature",
       "id": "node/278677595",
       "properties": {
-        "name": "Kaštel Gomilica",
+        "labels": [
+          {
+            "value": "Kaštel Gomilica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -92,7 +112,11 @@
       "type": "Feature",
       "id": "node/278679155",
       "properties": {
-        "name": "Kaštel Stari",
+        "labels": [
+          {
+            "value": "Kaštel Stari"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -110,7 +134,11 @@
       "type": "Feature",
       "id": "node/278679231",
       "properties": {
-        "name": "Sadine",
+        "labels": [
+          {
+            "value": "Sadine"
+          }
+        ],
         "railway": "halt",
         "id": "node/278679231"
       },
@@ -126,7 +154,11 @@
       "type": "Feature",
       "id": "node/278682139",
       "properties": {
-        "name": "Split",
+        "labels": [
+          {
+            "value": "Split"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -144,7 +176,11 @@
       "type": "Feature",
       "id": "node/306269722",
       "properties": {
-        "name": "Dugo Selo",
+        "labels": [
+          {
+            "value": "Dugo Selo"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -162,12 +198,20 @@
       "type": "Feature",
       "id": "node/306286451",
       "properties": {
-        "name": "Križevci",
+        "labels": [
+          {
+            "value": "Križevci"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "731075",
-        "id": "node/306286451"
+        "id": "node/306286451",
+        "P722": [
+          {
+            "value": "731075"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -181,7 +225,11 @@
       "type": "Feature",
       "id": "node/307679950",
       "properties": {
-        "name": "Đakovo",
+        "labels": [
+          {
+            "value": "Đakovo"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -199,7 +247,11 @@
       "type": "Feature",
       "id": "node/309283462",
       "properties": {
-        "name": "Perković",
+        "labels": [
+          {
+            "value": "Perković"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -217,7 +269,11 @@
       "type": "Feature",
       "id": "node/313240926",
       "properties": {
-        "name": "Novi Jankovci",
+        "labels": [
+          {
+            "value": "Novi Jankovci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/313240926"
@@ -234,7 +290,11 @@
       "type": "Feature",
       "id": "node/313240931",
       "properties": {
-        "name": "Novska",
+        "labels": [
+          {
+            "value": "Novska"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -252,7 +312,11 @@
       "type": "Feature",
       "id": "node/313240935",
       "properties": {
-        "name": "Kutina",
+        "labels": [
+          {
+            "value": "Kutina"
+          }
+        ],
         "railway": "station",
         "id": "node/313240935"
       },
@@ -268,7 +332,11 @@
       "type": "Feature",
       "id": "node/319824993",
       "properties": {
-        "name": "Preslo",
+        "labels": [
+          {
+            "value": "Preslo"
+          }
+        ],
         "railway": "halt",
         "id": "node/319824993"
       },
@@ -284,7 +352,11 @@
       "type": "Feature",
       "id": "node/319825048",
       "properties": {
-        "name": "Bakovići",
+        "labels": [
+          {
+            "value": "Bakovići"
+          }
+        ],
         "railway": "halt",
         "id": "node/319825048"
       },
@@ -300,13 +372,21 @@
       "type": "Feature",
       "id": "node/320253317",
       "properties": {
-        "name": "Slatina",
+        "labels": [
+          {
+            "value": "Slatina"
+          }
+        ],
         "operator": "Hrvatske željeznice",
-        "platforms": "2",
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "id": "node/320253317"
+        "id": "node/320253317",
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -320,7 +400,11 @@
       "type": "Feature",
       "id": "node/320254898",
       "properties": {
-        "name": "Suhopolje",
+        "labels": [
+          {
+            "value": "Suhopolje"
+          }
+        ],
         "railway": "station",
         "id": "node/320254898"
       },
@@ -336,7 +420,11 @@
       "type": "Feature",
       "id": "node/320266976",
       "properties": {
-        "name": "Špišić Bukovica",
+        "labels": [
+          {
+            "value": "Špišić Bukovica"
+          }
+        ],
         "railway": "station",
         "id": "node/320266976"
       },
@@ -352,15 +440,65 @@
       "type": "Feature",
       "id": "node/320267164",
       "properties": {
-        "name": "Vukosavljevica",
-        "railway": "station",
+        "labels": [
+          {
+            "value": "Vukosavljevica"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
         "id": "node/320267164"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2538366,
-          45.874779
+          17.2538176,
+          45.8749226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/320274726",
+      "properties": {
+        "labels": [
+          {
+            "value": "Novigrad Podravski"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "halt",
+        "train": "yes",
+        "id": "node/320274726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9549937,
+          46.08455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/320275133",
+      "properties": {
+        "labels": [
+          {
+            "value": "Bregi"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/320275133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8918635,
+          46.1267317
         ]
       }
     },
@@ -368,7 +506,11 @@
       "type": "Feature",
       "id": "node/320626381",
       "properties": {
-        "name": "Moravice",
+        "labels": [
+          {
+            "value": "Moravice"
+          }
+        ],
         "railway": "station",
         "id": "node/320626381"
       },
@@ -384,10 +526,18 @@
       "type": "Feature",
       "id": "node/324151682",
       "properties": {
-        "name": "Lipovljani",
+        "labels": [
+          {
+            "value": "Lipovljani"
+          }
+        ],
         "railway": "station",
-        "wikidata": "Q38251856",
-        "id": "node/324151682"
+        "id": "node/324151682",
+        "PWIKI": [
+          {
+            "value": "Q38251856"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -401,7 +551,11 @@
       "type": "Feature",
       "id": "node/330474413",
       "properties": {
-        "name": "Komin",
+        "labels": [
+          {
+            "value": "Komin"
+          }
+        ],
         "railway": "station",
         "id": "node/330474413"
       },
@@ -417,11 +571,19 @@
       "type": "Feature",
       "id": "node/330477382",
       "properties": {
+        "labels": [
+          {
+            "value": "Kula Norinska"
+          }
+        ],
         "disused:railway": "halt",
-        "name": "Kula Norinska",
         "railway": "station",
-        "uic_ref": "78651",
-        "id": "node/330477382"
+        "id": "node/330477382",
+        "P722": [
+          {
+            "value": "78651"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -435,7 +597,11 @@
       "type": "Feature",
       "id": "node/331888596",
       "properties": {
-        "name": "Gomirje",
+        "labels": [
+          {
+            "value": "Gomirje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -453,7 +619,11 @@
       "type": "Feature",
       "id": "node/331888601",
       "properties": {
-        "name": "Vrbovsko",
+        "labels": [
+          {
+            "value": "Vrbovsko"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -471,7 +641,11 @@
       "type": "Feature",
       "id": "node/343007278",
       "properties": {
-        "name": "Ljubošina",
+        "labels": [
+          {
+            "value": "Ljubošina"
+          }
+        ],
         "railway": "halt",
         "id": "node/343007278"
       },
@@ -487,7 +661,11 @@
       "type": "Feature",
       "id": "node/343007581",
       "properties": {
-        "name": "Ogulinski Hreljin",
+        "labels": [
+          {
+            "value": "Ogulinski Hreljin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -505,13 +683,23 @@
       "type": "Feature",
       "id": "node/419129650",
       "properties": {
-        "name": "Drivenik",
+        "labels": [
+          {
+            "value": "Drivenik"
+          },
+          {
+            "value": "Drivenik"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "station",
         "train": "yes",
-        "uic_name": "Drivenik",
-        "uic_ref": "7800276",
-        "id": "node/419129650"
+        "id": "node/419129650",
+        "P722": [
+          {
+            "value": "7800276"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -525,13 +713,23 @@
       "type": "Feature",
       "id": "node/419129705",
       "properties": {
-        "name": "Plase",
+        "labels": [
+          {
+            "value": "Plase"
+          },
+          {
+            "value": "Plase"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "station",
         "train": "yes",
-        "uic_name": "Plase",
-        "uic_ref": "7800041",
-        "id": "node/419129705"
+        "id": "node/419129705",
+        "P722": [
+          {
+            "value": "7800041"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -545,7 +743,11 @@
       "type": "Feature",
       "id": "node/419132892",
       "properties": {
-        "name": "Zalesina",
+        "labels": [
+          {
+            "value": "Zalesina"
+          }
+        ],
         "railway": "halt",
         "id": "node/419132892"
       },
@@ -561,7 +763,11 @@
       "type": "Feature",
       "id": "node/419132988",
       "properties": {
-        "name": "Kupjak",
+        "labels": [
+          {
+            "value": "Kupjak"
+          }
+        ],
         "railway": "halt",
         "id": "node/419132988"
       },
@@ -577,7 +783,11 @@
       "type": "Feature",
       "id": "node/419227169",
       "properties": {
-        "name": "Moravice",
+        "labels": [
+          {
+            "value": "Moravice"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -595,7 +805,11 @@
       "type": "Feature",
       "id": "node/419252847",
       "properties": {
-        "name": "Košare",
+        "labels": [
+          {
+            "value": "Košare"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -613,7 +827,11 @@
       "type": "Feature",
       "id": "node/434382217",
       "properties": {
-        "name": "Bedekovčina",
+        "labels": [
+          {
+            "value": "Bedekovčina"
+          }
+        ],
         "railway": "station",
         "id": "node/434382217"
       },
@@ -629,7 +847,11 @@
       "type": "Feature",
       "id": "node/434382767",
       "properties": {
-        "name": "Turčin",
+        "labels": [
+          {
+            "value": "Turčin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -647,7 +869,11 @@
       "type": "Feature",
       "id": "node/464688553",
       "properties": {
-        "name": "Vrhovine",
+        "labels": [
+          {
+            "value": "Vrhovine"
+          }
+        ],
         "railway": "halt",
         "source": "survey",
         "source_ref": "2010-08-06",
@@ -665,7 +891,11 @@
       "type": "Feature",
       "id": "node/464716607",
       "properties": {
-        "name": "Gospić",
+        "labels": [
+          {
+            "value": "Gospić"
+          }
+        ],
         "railway": "station",
         "id": "node/464716607"
       },
@@ -681,7 +911,11 @@
       "type": "Feature",
       "id": "node/464735808",
       "properties": {
-        "name": "Lički Podhum",
+        "labels": [
+          {
+            "value": "Lički Podhum"
+          }
+        ],
         "railway": "halt",
         "id": "node/464735808"
       },
@@ -697,7 +931,11 @@
       "type": "Feature",
       "id": "node/472483447",
       "properties": {
-        "name": "Gračac",
+        "labels": [
+          {
+            "value": "Gračac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "source": "survey",
@@ -716,7 +954,11 @@
       "type": "Feature",
       "id": "node/478553437",
       "properties": {
-        "name": "Samatovci",
+        "labels": [
+          {
+            "value": "Samatovci"
+          }
+        ],
         "railway": "halt",
         "id": "node/478553437"
       },
@@ -732,7 +974,11 @@
       "type": "Feature",
       "id": "node/489415915",
       "properties": {
-        "name": "Osijek Dravski Most",
+        "labels": [
+          {
+            "value": "Osijek Dravski Most"
+          }
+        ],
         "railway": "halt",
         "train": "yes",
         "id": "node/489415915"
@@ -749,7 +995,11 @@
       "type": "Feature",
       "id": "node/495811108",
       "properties": {
-        "name": "Ludbreg",
+        "labels": [
+          {
+            "value": "Ludbreg"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/495811108"
@@ -766,15 +1016,19 @@
       "type": "Feature",
       "id": "node/496303260",
       "properties": {
-        "name": "Standard",
+        "labels": [
+          {
+            "value": "Standard"
+          }
+        ],
         "railway": "halt",
         "id": "node/496303260"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7421949,
-          45.5453106
+          18.7422084,
+          45.5453011
         ]
       }
     },
@@ -782,7 +1036,11 @@
       "type": "Feature",
       "id": "node/496815099",
       "properties": {
-        "name": "Popovača",
+        "labels": [
+          {
+            "value": "Popovača"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -800,7 +1058,11 @@
       "type": "Feature",
       "id": "node/497549030",
       "properties": {
-        "name": "Gajnice",
+        "labels": [
+          {
+            "value": "Gajnice"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -818,7 +1080,11 @@
       "type": "Feature",
       "id": "node/497549031",
       "properties": {
-        "name": "Vrapče",
+        "labels": [
+          {
+            "value": "Vrapče"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -836,8 +1102,15 @@
       "type": "Feature",
       "id": "node/497549032",
       "properties": {
-        "name": "Zagreb zapadni kolodvor",
-        "name:de": "Zagreb Westbahnhof",
+        "labels": [
+          {
+            "value": "Zagreb Westbahnhof",
+            "lang": "de"
+          },
+          {
+            "value": "Zagreb zapadni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -855,7 +1128,11 @@
       "type": "Feature",
       "id": "node/497552658",
       "properties": {
-        "name": "Sveti Ilija",
+        "labels": [
+          {
+            "value": "Sveti Ilija"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -873,7 +1150,11 @@
       "type": "Feature",
       "id": "node/497552659",
       "properties": {
-        "name": "Krušljevec",
+        "labels": [
+          {
+            "value": "Krušljevec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -891,7 +1172,11 @@
       "type": "Feature",
       "id": "node/497552662",
       "properties": {
-        "name": "Podrute",
+        "labels": [
+          {
+            "value": "Podrute"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -909,10 +1194,18 @@
       "type": "Feature",
       "id": "node/497552664",
       "properties": {
-        "name": "Budinščina",
-        "platforms": "2",
+        "labels": [
+          {
+            "value": "Budinščina"
+          }
+        ],
         "railway": "station",
-        "id": "node/497552664"
+        "id": "node/497552664",
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -926,10 +1219,18 @@
       "type": "Feature",
       "id": "node/497552665",
       "properties": {
-        "name": "Hraščina - Trgovišće",
-        "platforms": "1",
+        "labels": [
+          {
+            "value": "Hraščina - Trgovišće"
+          }
+        ],
         "railway": "halt",
-        "id": "node/497552665"
+        "id": "node/497552665",
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -943,10 +1244,18 @@
       "type": "Feature",
       "id": "node/497552668",
       "properties": {
-        "name": "Konjščina",
-        "platforms": "2",
+        "labels": [
+          {
+            "value": "Konjščina"
+          }
+        ],
         "railway": "station",
-        "id": "node/497552668"
+        "id": "node/497552668",
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -960,10 +1269,18 @@
       "type": "Feature",
       "id": "node/497552669",
       "properties": {
-        "name": "Donji Lipovec",
-        "platforms": "1",
+        "labels": [
+          {
+            "value": "Donji Lipovec"
+          }
+        ],
         "railway": "halt",
-        "id": "node/497552669"
+        "id": "node/497552669",
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -977,10 +1294,18 @@
       "type": "Feature",
       "id": "node/497552670",
       "properties": {
-        "name": "Zlatar Bistrica",
-        "platforms": "2",
+        "labels": [
+          {
+            "value": "Zlatar Bistrica"
+          }
+        ],
         "railway": "station",
-        "id": "node/497552670"
+        "id": "node/497552670",
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -994,7 +1319,11 @@
       "type": "Feature",
       "id": "node/497552672",
       "properties": {
-        "name": "Novi Marof",
+        "labels": [
+          {
+            "value": "Novi Marof"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1012,7 +1341,11 @@
       "type": "Feature",
       "id": "node/497571124",
       "properties": {
-        "name": "Pojatno",
+        "labels": [
+          {
+            "value": "Pojatno"
+          }
+        ],
         "railway": "halt",
         "id": "node/497571124"
       },
@@ -1028,7 +1361,11 @@
       "type": "Feature",
       "id": "node/497571129",
       "properties": {
-        "name": "Zaprešić",
+        "labels": [
+          {
+            "value": "Zaprešić"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1046,7 +1383,11 @@
       "type": "Feature",
       "id": "node/497571132",
       "properties": {
-        "name": "Podsused",
+        "labels": [
+          {
+            "value": "Podsused"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1064,7 +1405,11 @@
       "type": "Feature",
       "id": "node/497580124",
       "properties": {
-        "name": "Hum Lug",
+        "labels": [
+          {
+            "value": "Hum Lug"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1082,7 +1427,11 @@
       "type": "Feature",
       "id": "node/497580125",
       "properties": {
-        "name": "Dubrava Zabočka",
+        "labels": [
+          {
+            "value": "Dubrava Zabočka"
+          }
+        ],
         "railway": "halt",
         "id": "node/497580125"
       },
@@ -1098,7 +1447,11 @@
       "type": "Feature",
       "id": "node/497580126",
       "properties": {
-        "name": "Špičkovina",
+        "labels": [
+          {
+            "value": "Špičkovina"
+          }
+        ],
         "railway": "halt",
         "id": "node/497580126"
       },
@@ -1114,8 +1467,12 @@
       "type": "Feature",
       "id": "node/497580130",
       "properties": {
+        "labels": [
+          {
+            "value": "Žeinci"
+          }
+        ],
         "alt_name": "Žejinci",
-        "name": "Žeinci",
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -1133,7 +1490,11 @@
       "type": "Feature",
       "id": "node/513154013",
       "properties": {
-        "name": "Božjakovina",
+        "labels": [
+          {
+            "value": "Božjakovina"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -1151,7 +1512,11 @@
       "type": "Feature",
       "id": "node/513191730",
       "properties": {
-        "name": "Maksimir",
+        "labels": [
+          {
+            "value": "Maksimir"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1169,7 +1534,11 @@
       "type": "Feature",
       "id": "node/514256639",
       "properties": {
-        "name": "Donja Vrba",
+        "labels": [
+          {
+            "value": "Donja Vrba"
+          }
+        ],
         "railway": "halt",
         "id": "node/514256639"
       },
@@ -1185,7 +1554,11 @@
       "type": "Feature",
       "id": "node/514256939",
       "properties": {
-        "name": "Zadubravlje",
+        "labels": [
+          {
+            "value": "Zadubravlje"
+          }
+        ],
         "railway": "halt",
         "id": "node/514256939"
       },
@@ -1201,7 +1574,11 @@
       "type": "Feature",
       "id": "node/525432753",
       "properties": {
-        "name": "Repinec",
+        "labels": [
+          {
+            "value": "Repinec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1219,7 +1596,11 @@
       "type": "Feature",
       "id": "node/537519661",
       "properties": {
-        "name": "Josipovac",
+        "labels": [
+          {
+            "value": "Josipovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1237,7 +1618,11 @@
       "type": "Feature",
       "id": "node/556415655",
       "properties": {
-        "name": "Staro Topolje",
+        "labels": [
+          {
+            "value": "Staro Topolje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1255,7 +1640,11 @@
       "type": "Feature",
       "id": "node/564930837",
       "properties": {
-        "name": "Pazin",
+        "labels": [
+          {
+            "value": "Pazin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1273,7 +1662,11 @@
       "type": "Feature",
       "id": "node/565602661",
       "properties": {
-        "name": "Vodnjan stajalište",
+        "labels": [
+          {
+            "value": "Vodnjan stajalište"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/565602661"
@@ -1290,7 +1683,11 @@
       "type": "Feature",
       "id": "node/565612735",
       "properties": {
-        "name": "Krajcar Brijeg",
+        "labels": [
+          {
+            "value": "Krajcar Brijeg"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/565612735"
@@ -1307,8 +1704,15 @@
       "type": "Feature",
       "id": "node/565615392",
       "properties": {
-        "name": "Galižana",
-        "name:it": "Gallesano",
+        "labels": [
+          {
+            "value": "Gallesano",
+            "lang": "it"
+          },
+          {
+            "value": "Galižana"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/565615392"
@@ -1325,7 +1729,11 @@
       "type": "Feature",
       "id": "node/565616912",
       "properties": {
-        "name": "Heki stajalište",
+        "labels": [
+          {
+            "value": "Heki stajalište"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "stop_position",
         "railway": "stop",
@@ -1344,7 +1752,11 @@
       "type": "Feature",
       "id": "node/565626418",
       "properties": {
-        "name": "Roč",
+        "labels": [
+          {
+            "value": "Roč"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "stop_position",
         "railway": "stop",
@@ -1363,7 +1775,11 @@
       "type": "Feature",
       "id": "node/578116114",
       "properties": {
-        "name": "Labin Dalmatinski",
+        "labels": [
+          {
+            "value": "Labin Dalmatinski"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/578116114"
@@ -1380,7 +1796,11 @@
       "type": "Feature",
       "id": "node/598717736",
       "properties": {
-        "name": "Brezovljani",
+        "labels": [
+          {
+            "value": "Brezovljani"
+          }
+        ],
         "railway": "station",
         "id": "node/598717736"
       },
@@ -1396,7 +1816,11 @@
       "type": "Feature",
       "id": "node/598717750",
       "properties": {
-        "name": "Sveti Ivan Žabno",
+        "labels": [
+          {
+            "value": "Sveti Ivan Žabno"
+          }
+        ],
         "railway": "station",
         "id": "node/598717750"
       },
@@ -1412,7 +1836,11 @@
       "type": "Feature",
       "id": "node/598717759",
       "properties": {
-        "name": "Cirkvena",
+        "labels": [
+          {
+            "value": "Cirkvena"
+          }
+        ],
         "railway": "station",
         "id": "node/598717759"
       },
@@ -1428,7 +1856,11 @@
       "type": "Feature",
       "id": "node/598717761",
       "properties": {
-        "name": "Hrsovo",
+        "labels": [
+          {
+            "value": "Hrsovo"
+          }
+        ],
         "railway": "station",
         "id": "node/598717761"
       },
@@ -1444,7 +1876,11 @@
       "type": "Feature",
       "id": "node/598717767",
       "properties": {
-        "name": "Poljanka",
+        "labels": [
+          {
+            "value": "Poljanka"
+          }
+        ],
         "railway": "station",
         "id": "node/598717767"
       },
@@ -1460,7 +1896,11 @@
       "type": "Feature",
       "id": "node/598717793",
       "properties": {
-        "name": "Klokočevac",
+        "labels": [
+          {
+            "value": "Klokočevac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1478,7 +1918,11 @@
       "type": "Feature",
       "id": "node/598717797",
       "properties": {
-        "name": "Rovišće",
+        "labels": [
+          {
+            "value": "Rovišće"
+          }
+        ],
         "railway": "station",
         "id": "node/598717797"
       },
@@ -1494,7 +1938,11 @@
       "type": "Feature",
       "id": "node/598717799",
       "properties": {
-        "name": "Žabjak",
+        "labels": [
+          {
+            "value": "Žabjak"
+          }
+        ],
         "railway": "station",
         "id": "node/598717799"
       },
@@ -1510,7 +1958,11 @@
       "type": "Feature",
       "id": "node/598717808",
       "properties": {
-        "name": "Stare Plavnice",
+        "labels": [
+          {
+            "value": "Stare Plavnice"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -1528,7 +1980,11 @@
       "type": "Feature",
       "id": "node/598846316",
       "properties": {
-        "name": "Škrinjari",
+        "labels": [
+          {
+            "value": "Škrinjari"
+          }
+        ],
         "railway": "halt",
         "id": "node/598846316"
       },
@@ -1544,7 +2000,11 @@
       "type": "Feature",
       "id": "node/599298629",
       "properties": {
-        "name": "Badljevina",
+        "labels": [
+          {
+            "value": "Badljevina"
+          }
+        ],
         "railway": "halt",
         "id": "node/599298629"
       },
@@ -1560,7 +2020,11 @@
       "type": "Feature",
       "id": "node/599298679",
       "properties": {
-        "name": "Bijela",
+        "labels": [
+          {
+            "value": "Bijela"
+          }
+        ],
         "railway": "halt",
         "id": "node/599298679"
       },
@@ -1576,7 +2040,11 @@
       "type": "Feature",
       "id": "node/599298693",
       "properties": {
-        "name": "Sirač",
+        "labels": [
+          {
+            "value": "Sirač"
+          }
+        ],
         "railway": "station",
         "id": "node/599298693"
       },
@@ -1592,7 +2060,11 @@
       "type": "Feature",
       "id": "node/599298716",
       "properties": {
-        "name": "Brezine-Bujavica",
+        "labels": [
+          {
+            "value": "Brezine-Bujavica"
+          }
+        ],
         "railway": "halt",
         "id": "node/599298716"
       },
@@ -1608,7 +2080,11 @@
       "type": "Feature",
       "id": "node/599298816",
       "properties": {
-        "name": "Kukunjevac",
+        "labels": [
+          {
+            "value": "Kukunjevac"
+          }
+        ],
         "railway": "halt",
         "id": "node/599298816"
       },
@@ -1624,7 +2100,11 @@
       "type": "Feature",
       "id": "node/599298869",
       "properties": {
-        "name": "Pakrac Grad",
+        "labels": [
+          {
+            "value": "Pakrac Grad"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1642,7 +2122,11 @@
       "type": "Feature",
       "id": "node/599298879",
       "properties": {
-        "name": "Međurić",
+        "labels": [
+          {
+            "value": "Međurić"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -1660,7 +2144,11 @@
       "type": "Feature",
       "id": "node/599298889",
       "properties": {
-        "name": "Pakrac",
+        "labels": [
+          {
+            "value": "Pakrac"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/599298889"
@@ -1677,7 +2165,11 @@
       "type": "Feature",
       "id": "node/601848764",
       "properties": {
-        "name": "Moslavačka Gračenica",
+        "labels": [
+          {
+            "value": "Moslavačka Gračenica"
+          }
+        ],
         "railway": "station",
         "id": "node/601848764"
       },
@@ -1693,7 +2185,11 @@
       "type": "Feature",
       "id": "node/601848766",
       "properties": {
-        "name": "Ilova",
+        "labels": [
+          {
+            "value": "Ilova"
+          }
+        ],
         "railway": "halt",
         "id": "node/601848766"
       },
@@ -1709,7 +2205,11 @@
       "type": "Feature",
       "id": "node/601848767",
       "properties": {
-        "name": "Ludina",
+        "labels": [
+          {
+            "value": "Ludina"
+          }
+        ],
         "railway": "station",
         "id": "node/601848767"
       },
@@ -1725,7 +2225,11 @@
       "type": "Feature",
       "id": "node/601848769",
       "properties": {
-        "name": "Novoselec",
+        "labels": [
+          {
+            "value": "Novoselec"
+          }
+        ],
         "operator": "HŽ",
         "public_transport": "station",
         "railway": "station",
@@ -1743,7 +2247,11 @@
       "type": "Feature",
       "id": "node/603123949",
       "properties": {
-        "name": "Deanovec",
+        "labels": [
+          {
+            "value": "Deanovec"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -1761,7 +2269,11 @@
       "type": "Feature",
       "id": "node/614392351",
       "properties": {
-        "name": "Prečec - stajalište",
+        "labels": [
+          {
+            "value": "Prečec - stajalište"
+          }
+        ],
         "note": "ovo je zbilja stanica \"Prečec stajalište\", stanica \"Prečec\" je druga blizu na NW. Provjereno uživo, vlak stajao na obje.",
         "railway": "halt",
         "source": "survey",
@@ -1779,13 +2291,23 @@
       "type": "Feature",
       "id": "node/636141909",
       "properties": {
-        "name": "Meja",
+        "labels": [
+          {
+            "value": "Meja"
+          },
+          {
+            "value": "Meja"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "station",
         "train": "yes",
-        "uic_name": "Meja",
-        "uic_ref": "7800385",
-        "id": "node/636141909"
+        "id": "node/636141909",
+        "P722": [
+          {
+            "value": "7800385"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1799,7 +2321,11 @@
       "type": "Feature",
       "id": "node/677407955",
       "properties": {
-        "name": "Grginac Novi",
+        "labels": [
+          {
+            "value": "Grginac Novi"
+          }
+        ],
         "railway": "halt",
         "id": "node/677407955"
       },
@@ -1815,7 +2341,11 @@
       "type": "Feature",
       "id": "node/677407975",
       "properties": {
-        "name": "Veliko Trojstvo",
+        "labels": [
+          {
+            "value": "Veliko Trojstvo"
+          }
+        ],
         "railway": "station",
         "id": "node/677407975"
       },
@@ -1831,7 +2361,11 @@
       "type": "Feature",
       "id": "node/677407988",
       "properties": {
-        "name": "Mišulinovac",
+        "labels": [
+          {
+            "value": "Mišulinovac"
+          }
+        ],
         "railway": "station",
         "id": "node/677407988"
       },
@@ -1847,7 +2381,11 @@
       "type": "Feature",
       "id": "node/677408007",
       "properties": {
-        "name": "Paulovac",
+        "labels": [
+          {
+            "value": "Paulovac"
+          }
+        ],
         "railway": "station",
         "id": "node/677408007"
       },
@@ -1863,7 +2401,11 @@
       "type": "Feature",
       "id": "node/677514070",
       "properties": {
-        "name": "Zdenci - Orahovica",
+        "labels": [
+          {
+            "value": "Zdenci - Orahovica"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/677514070"
@@ -1880,7 +2422,11 @@
       "type": "Feature",
       "id": "node/677514071",
       "properties": {
-        "name": "Čačinci",
+        "labels": [
+          {
+            "value": "Čačinci"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/677514071"
@@ -1897,7 +2443,11 @@
       "type": "Feature",
       "id": "node/677514072",
       "properties": {
-        "name": "Mikleuš",
+        "labels": [
+          {
+            "value": "Mikleuš"
+          }
+        ],
         "railway": "station",
         "id": "node/677514072"
       },
@@ -1913,7 +2463,11 @@
       "type": "Feature",
       "id": "node/677514074",
       "properties": {
-        "name": "Nova Bukovica",
+        "labels": [
+          {
+            "value": "Nova Bukovica"
+          }
+        ],
         "railway": "station",
         "id": "node/677514074"
       },
@@ -1929,7 +2483,11 @@
       "type": "Feature",
       "id": "node/677514075",
       "properties": {
-        "name": "Jelisavac",
+        "labels": [
+          {
+            "value": "Jelisavac"
+          }
+        ],
         "railway": "halt",
         "id": "node/677514075"
       },
@@ -1945,7 +2503,11 @@
       "type": "Feature",
       "id": "node/677514081",
       "properties": {
-        "name": "Našička Breznica",
+        "labels": [
+          {
+            "value": "Našička Breznica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1963,7 +2525,11 @@
       "type": "Feature",
       "id": "node/677514083",
       "properties": {
-        "name": "Niza",
+        "labels": [
+          {
+            "value": "Niza"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -1981,7 +2547,11 @@
       "type": "Feature",
       "id": "node/677514137",
       "properties": {
-        "name": "Sirova Katalena",
+        "labels": [
+          {
+            "value": "Sirova Katalena"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/677514137"
@@ -1998,7 +2568,11 @@
       "type": "Feature",
       "id": "node/677514165",
       "properties": {
-        "name": "Sladojevci",
+        "labels": [
+          {
+            "value": "Sladojevci"
+          }
+        ],
         "railway": "station",
         "id": "node/677514165"
       },
@@ -2014,7 +2588,11 @@
       "type": "Feature",
       "id": "node/677514166",
       "properties": {
-        "name": "Cabuna",
+        "labels": [
+          {
+            "value": "Cabuna"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/677514166"
@@ -2031,7 +2609,11 @@
       "type": "Feature",
       "id": "node/677514168",
       "properties": {
-        "name": "Koška",
+        "labels": [
+          {
+            "value": "Koška"
+          }
+        ],
         "railway": "station",
         "id": "node/677514168"
       },
@@ -2047,7 +2629,11 @@
       "type": "Feature",
       "id": "node/677514171",
       "properties": {
-        "name": "Normanci",
+        "labels": [
+          {
+            "value": "Normanci"
+          }
+        ],
         "railway": "station",
         "id": "node/677514171"
       },
@@ -2063,7 +2649,11 @@
       "type": "Feature",
       "id": "node/677514173",
       "properties": {
-        "name": "Višnjevac IPK",
+        "labels": [
+          {
+            "value": "Višnjevac IPK"
+          }
+        ],
         "railway": "halt",
         "id": "node/677514173"
       },
@@ -2079,7 +2669,11 @@
       "type": "Feature",
       "id": "node/677514174",
       "properties": {
-        "name": "Frigis - Osijek",
+        "labels": [
+          {
+            "value": "Frigis - Osijek"
+          }
+        ],
         "railway": "halt",
         "id": "node/677514174"
       },
@@ -2095,7 +2689,11 @@
       "type": "Feature",
       "id": "node/677514175",
       "properties": {
-        "name": "Petrove Gore",
+        "labels": [
+          {
+            "value": "Petrove Gore"
+          }
+        ],
         "railway": "halt",
         "id": "node/677514175"
       },
@@ -2111,7 +2709,11 @@
       "type": "Feature",
       "id": "node/690584655",
       "properties": {
-        "name": "Turopolje",
+        "labels": [
+          {
+            "value": "Turopolje"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/690584655"
@@ -2128,7 +2730,11 @@
       "type": "Feature",
       "id": "node/690826754",
       "properties": {
-        "name": "Ostrna",
+        "labels": [
+          {
+            "value": "Ostrna"
+          }
+        ],
         "railway": "halt",
         "id": "node/690826754"
       },
@@ -2144,7 +2750,11 @@
       "type": "Feature",
       "id": "node/694856206",
       "properties": {
-        "name": "Cerovljani",
+        "labels": [
+          {
+            "value": "Cerovljani"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/694856206"
@@ -2161,7 +2771,11 @@
       "type": "Feature",
       "id": "node/749570995",
       "properties": {
-        "name": "Gornje Dubrave",
+        "labels": [
+          {
+            "value": "Gornje Dubrave"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2179,7 +2793,11 @@
       "type": "Feature",
       "id": "node/849480857",
       "properties": {
-        "name": "Drniš",
+        "labels": [
+          {
+            "value": "Drniš"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2197,7 +2815,11 @@
       "type": "Feature",
       "id": "node/853554706",
       "properties": {
-        "name": "Karlovac",
+        "labels": [
+          {
+            "value": "Karlovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2215,8 +2837,12 @@
       "type": "Feature",
       "id": "node/865124527",
       "properties": {
+        "labels": [
+          {
+            "value": "Drenovci"
+          }
+        ],
         "building": "train_station",
-        "name": "Drenovci",
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2234,7 +2860,11 @@
       "type": "Feature",
       "id": "node/869866448",
       "properties": {
-        "name": "Mrzlo Polje",
+        "labels": [
+          {
+            "value": "Mrzlo Polje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2252,7 +2882,11 @@
       "type": "Feature",
       "id": "node/869867756",
       "properties": {
-        "name": "Jastrebarsko",
+        "labels": [
+          {
+            "value": "Jastrebarsko"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2270,7 +2904,11 @@
       "type": "Feature",
       "id": "node/869878799",
       "properties": {
-        "name": "Hrvatski Leskovac",
+        "labels": [
+          {
+            "value": "Hrvatski Leskovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2288,7 +2926,11 @@
       "type": "Feature",
       "id": "node/869880202",
       "properties": {
-        "name": "Mavračići",
+        "labels": [
+          {
+            "value": "Mavračići"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -2306,7 +2948,11 @@
       "type": "Feature",
       "id": "node/869880204",
       "properties": {
-        "name": "Zdenčina",
+        "labels": [
+          {
+            "value": "Zdenčina"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2324,7 +2970,11 @@
       "type": "Feature",
       "id": "node/869880208",
       "properties": {
-        "name": "Desinec",
+        "labels": [
+          {
+            "value": "Desinec"
+          }
+        ],
         "railway": "halt",
         "id": "node/869880208"
       },
@@ -2340,7 +2990,11 @@
       "type": "Feature",
       "id": "node/869880322",
       "properties": {
-        "name": "Domagović",
+        "labels": [
+          {
+            "value": "Domagović"
+          }
+        ],
         "railway": "halt",
         "id": "node/869880322"
       },
@@ -2356,7 +3010,11 @@
       "type": "Feature",
       "id": "node/869881047",
       "properties": {
-        "name": "Lazina",
+        "labels": [
+          {
+            "value": "Lazina"
+          }
+        ],
         "railway": "halt",
         "id": "node/869881047"
       },
@@ -2372,7 +3030,11 @@
       "type": "Feature",
       "id": "node/869887427",
       "properties": {
-        "name": "Belavići",
+        "labels": [
+          {
+            "value": "Belavići"
+          }
+        ],
         "railway": "station",
         "id": "node/869887427"
       },
@@ -2388,7 +3050,11 @@
       "type": "Feature",
       "id": "node/869897800",
       "properties": {
-        "name": "Lovinac",
+        "labels": [
+          {
+            "value": "Lovinac"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/869897800"
@@ -2403,9 +3069,35 @@
     },
     {
       "type": "Feature",
+      "id": "node/869936062",
+      "properties": {
+        "labels": [
+          {
+            "value": "Ogulin"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/869936062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2322745,
+          45.2657475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/875579341",
       "properties": {
-        "name": "Osijek",
+        "labels": [
+          {
+            "value": "Osijek"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2423,7 +3115,11 @@
       "type": "Feature",
       "id": "node/910796842",
       "properties": {
-        "name": "Živaja",
+        "labels": [
+          {
+            "value": "Živaja"
+          }
+        ],
         "railway": "station",
         "id": "node/910796842"
       },
@@ -2439,7 +3135,11 @@
       "type": "Feature",
       "id": "node/919489200",
       "properties": {
-        "name": "Krvavac",
+        "labels": [
+          {
+            "value": "Krvavac"
+          }
+        ],
         "railway": "station",
         "id": "node/919489200"
       },
@@ -2455,7 +3155,11 @@
       "type": "Feature",
       "id": "node/935883723",
       "properties": {
-        "name": "Unešić",
+        "labels": [
+          {
+            "value": "Unešić"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "station",
         "train": "yes",
@@ -2473,7 +3177,11 @@
       "type": "Feature",
       "id": "node/972954523",
       "properties": {
-        "name": "Vodovod",
+        "labels": [
+          {
+            "value": "Vodovod"
+          }
+        ],
         "railway": "halt",
         "id": "node/972954523"
       },
@@ -2489,7 +3197,11 @@
       "type": "Feature",
       "id": "node/1028382842",
       "properties": {
-        "name": "Blacko-Jakšić",
+        "labels": [
+          {
+            "value": "Blacko-Jakšić"
+          }
+        ],
         "operator": "HŽ-Hrvatske Željeznice",
         "railway": "station",
         "id": "node/1028382842"
@@ -2506,7 +3218,11 @@
       "type": "Feature",
       "id": "node/1111996233",
       "properties": {
-        "name": "Knin",
+        "labels": [
+          {
+            "value": "Knin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2524,7 +3240,11 @@
       "type": "Feature",
       "id": "node/1111996242",
       "properties": {
-        "name": "Knin",
+        "labels": [
+          {
+            "value": "Knin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2542,7 +3262,11 @@
       "type": "Feature",
       "id": "node/1112948178",
       "properties": {
-        "name": "Žitnić",
+        "labels": [
+          {
+            "value": "Žitnić"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -2560,7 +3284,11 @@
       "type": "Feature",
       "id": "node/1115889192",
       "properties": {
-        "name": "Solin",
+        "labels": [
+          {
+            "value": "Solin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2578,7 +3306,11 @@
       "type": "Feature",
       "id": "node/1115889270",
       "properties": {
-        "name": "Kaštel Sućurac",
+        "labels": [
+          {
+            "value": "Kaštel Sućurac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2596,11 +3328,21 @@
       "type": "Feature",
       "id": "node/1119305240",
       "properties": {
-        "name": "Melnice",
+        "labels": [
+          {
+            "value": "Melnice"
+          },
+          {
+            "value": "Melnice"
+          }
+        ],
         "railway": "halt",
-        "uic_name": "Melnice",
-        "uic_ref": "7800386",
-        "id": "node/1119305240"
+        "id": "node/1119305240",
+        "P722": [
+          {
+            "value": "7800386"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2614,13 +3356,23 @@
       "type": "Feature",
       "id": "node/1119343289",
       "properties": {
-        "name": "Škrljevo",
+        "labels": [
+          {
+            "value": "Škrljevo"
+          },
+          {
+            "value": "Skrljevo (HR)"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "station",
         "train": "yes",
-        "uic_name": "Skrljevo (HR)",
-        "uic_ref": "7800116",
-        "id": "node/1119343289"
+        "id": "node/1119343289",
+        "P722": [
+          {
+            "value": "7800116"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2634,7 +3386,11 @@
       "type": "Feature",
       "id": "node/1120101241",
       "properties": {
-        "name": "Vidovec",
+        "labels": [
+          {
+            "value": "Vidovec"
+          }
+        ],
         "railway": "halt",
         "id": "node/1120101241"
       },
@@ -2650,7 +3406,11 @@
       "type": "Feature",
       "id": "node/1124826516",
       "properties": {
-        "name": "Pivnica",
+        "labels": [
+          {
+            "value": "Pivnica"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1124826516"
@@ -2667,7 +3427,11 @@
       "type": "Feature",
       "id": "node/1175083256",
       "properties": {
-        "name": "Županja",
+        "labels": [
+          {
+            "value": "Županja"
+          }
+        ],
         "railway": "station",
         "id": "node/1175083256"
       },
@@ -2683,7 +3447,11 @@
       "type": "Feature",
       "id": "node/1216557118",
       "properties": {
-        "name": "Donji Mihaljevec",
+        "labels": [
+          {
+            "value": "Donji Mihaljevec"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "stop_position",
         "railway": "halt",
@@ -2702,9 +3470,19 @@
       "type": "Feature",
       "id": "node/1216569390",
       "properties": {
-        "name": "Donji Kraljevec",
-        "name:de": "Nieder Kraliewitz",
-        "name:hu": "Murakirály",
+        "labels": [
+          {
+            "value": "Nieder Kraliewitz",
+            "lang": "de"
+          },
+          {
+            "value": "Murakirály",
+            "lang": "hu"
+          },
+          {
+            "value": "Donji Kraljevec"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1216569390"
@@ -2721,7 +3499,11 @@
       "type": "Feature",
       "id": "node/1309538456",
       "properties": {
-        "name": "Dugo Selo",
+        "labels": [
+          {
+            "value": "Dugo Selo"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2739,7 +3521,11 @@
       "type": "Feature",
       "id": "node/1309599032",
       "properties": {
-        "name": "Maksimir",
+        "labels": [
+          {
+            "value": "Maksimir"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2757,7 +3543,11 @@
       "type": "Feature",
       "id": "node/1318770101",
       "properties": {
-        "name": "Ernestinovo",
+        "labels": [
+          {
+            "value": "Ernestinovo"
+          }
+        ],
         "railway": "halt",
         "id": "node/1318770101"
       },
@@ -2773,7 +3563,11 @@
       "type": "Feature",
       "id": "node/1326585709",
       "properties": {
-        "name": "Zaprešić",
+        "labels": [
+          {
+            "value": "Zaprešić"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2791,8 +3585,15 @@
       "type": "Feature",
       "id": "node/1328899984",
       "properties": {
-        "name": "Zagreb zapadni kolodvor",
-        "name:de": "Zagreb Westbahnhof",
+        "labels": [
+          {
+            "value": "Zagreb Westbahnhof",
+            "lang": "de"
+          },
+          {
+            "value": "Zagreb zapadni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2810,7 +3611,11 @@
       "type": "Feature",
       "id": "node/1339602015",
       "properties": {
-        "name": "Vrapče",
+        "labels": [
+          {
+            "value": "Vrapče"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2828,7 +3633,11 @@
       "type": "Feature",
       "id": "node/1342304897",
       "properties": {
-        "name": "Feričanci",
+        "labels": [
+          {
+            "value": "Feričanci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2846,7 +3655,11 @@
       "type": "Feature",
       "id": "node/1344664533",
       "properties": {
-        "name": "Gajnice",
+        "labels": [
+          {
+            "value": "Gajnice"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2864,7 +3677,11 @@
       "type": "Feature",
       "id": "node/1344688180",
       "properties": {
-        "name": "Podsused",
+        "labels": [
+          {
+            "value": "Podsused"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2882,7 +3699,11 @@
       "type": "Feature",
       "id": "node/1344724238",
       "properties": {
-        "name": "Zaprešić Savska",
+        "labels": [
+          {
+            "value": "Zaprešić Savska"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2900,7 +3721,11 @@
       "type": "Feature",
       "id": "node/1344724241",
       "properties": {
-        "name": "Zaprešić Savska",
+        "labels": [
+          {
+            "value": "Zaprešić Savska"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2918,7 +3743,11 @@
       "type": "Feature",
       "id": "node/1344778012",
       "properties": {
-        "name": "Brdovec",
+        "labels": [
+          {
+            "value": "Brdovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -2936,7 +3765,11 @@
       "type": "Feature",
       "id": "node/1347962378",
       "properties": {
-        "name": "Koprivnica",
+        "labels": [
+          {
+            "value": "Koprivnica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2954,7 +3787,11 @@
       "type": "Feature",
       "id": "node/1349113067",
       "properties": {
-        "name": "Lepoglava",
+        "labels": [
+          {
+            "value": "Lepoglava"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2972,7 +3809,11 @@
       "type": "Feature",
       "id": "node/1349119423",
       "properties": {
-        "name": "Zabok kolosijek 1",
+        "labels": [
+          {
+            "value": "Zabok kolosijek 1"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -2990,7 +3831,11 @@
       "type": "Feature",
       "id": "node/1349286353",
       "properties": {
-        "name": "Kamanje",
+        "labels": [
+          {
+            "value": "Kamanje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3008,7 +3853,11 @@
       "type": "Feature",
       "id": "node/1350583685",
       "properties": {
-        "name": "Gornja Stubica",
+        "labels": [
+          {
+            "value": "Gornja Stubica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3026,12 +3875,20 @@
       "type": "Feature",
       "id": "node/1350773205",
       "properties": {
-        "name": "Sutla",
+        "labels": [
+          {
+            "value": "Sutla"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
-        "uic_ref": "74201",
-        "id": "node/1350773205"
+        "id": "node/1350773205",
+        "P722": [
+          {
+            "value": "74201"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3045,7 +3902,11 @@
       "type": "Feature",
       "id": "node/1350773421",
       "properties": {
-        "name": "Sveti Križ Začretje",
+        "labels": [
+          {
+            "value": "Sveti Križ Začretje"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1350773421"
@@ -3062,10 +3923,18 @@
       "type": "Feature",
       "id": "node/1366256999",
       "properties": {
-        "name": "Brdovec",
+        "labels": [
+          {
+            "value": "Brdovec"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "74101",
-        "id": "node/1366256999"
+        "id": "node/1366256999",
+        "P722": [
+          {
+            "value": "74101"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3079,7 +3948,11 @@
       "type": "Feature",
       "id": "node/1399741462",
       "properties": {
-        "name": "Brod Moravice",
+        "labels": [
+          {
+            "value": "Brod Moravice"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1399741462"
@@ -3096,7 +3969,11 @@
       "type": "Feature",
       "id": "node/1399863165",
       "properties": {
-        "name": "Žrnovac",
+        "labels": [
+          {
+            "value": "Žrnovac"
+          }
+        ],
         "railway": "halt",
         "id": "node/1399863165"
       },
@@ -3112,7 +3989,11 @@
       "type": "Feature",
       "id": "node/1399875169",
       "properties": {
-        "name": "Skrad",
+        "labels": [
+          {
+            "value": "Skrad"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1399875169"
@@ -3129,10 +4010,18 @@
       "type": "Feature",
       "id": "node/1399954341",
       "properties": {
-        "name": "Delnice",
+        "labels": [
+          {
+            "value": "Delnice"
+          }
+        ],
         "railway": "station",
-        "railway:ref:DB": "XRDN",
-        "id": "node/1399954341"
+        "id": "node/1399954341",
+        "P8671": [
+          {
+            "value": "XRDN"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3146,7 +4035,11 @@
       "type": "Feature",
       "id": "node/1400235298",
       "properties": {
-        "name": "Vojnovac",
+        "labels": [
+          {
+            "value": "Vojnovac"
+          }
+        ],
         "railway": "halt",
         "id": "node/1400235298"
       },
@@ -3162,7 +4055,11 @@
       "type": "Feature",
       "id": "node/1400349545",
       "properties": {
-        "name": "Lokve",
+        "labels": [
+          {
+            "value": "Lokve"
+          }
+        ],
         "railway": "station",
         "id": "node/1400349545"
       },
@@ -3178,12 +4075,22 @@
       "type": "Feature",
       "id": "node/1400401005",
       "properties": {
-        "name": "Fužine",
+        "labels": [
+          {
+            "value": "Fužine"
+          },
+          {
+            "value": "Fuzine"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "station",
-        "uic_name": "Fuzine",
-        "uic_ref": "7800045",
-        "id": "node/1400401005"
+        "id": "node/1400401005",
+        "P722": [
+          {
+            "value": "7800045"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3197,7 +4104,11 @@
       "type": "Feature",
       "id": "node/1400436219",
       "properties": {
-        "name": "Vrata",
+        "labels": [
+          {
+            "value": "Vrata"
+          }
+        ],
         "railway": "halt",
         "id": "node/1400436219"
       },
@@ -3213,11 +4124,21 @@
       "type": "Feature",
       "id": "node/1400446234",
       "properties": {
-        "name": "Zlobin",
+        "labels": [
+          {
+            "value": "Zlobin"
+          },
+          {
+            "value": "Zlobin"
+          }
+        ],
         "railway": "halt",
-        "uic_name": "Zlobin",
-        "uic_ref": "7800572",
-        "id": "node/1400446234"
+        "id": "node/1400446234",
+        "P722": [
+          {
+            "value": "7800572"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3231,7 +4152,11 @@
       "type": "Feature",
       "id": "node/1400977846",
       "properties": {
-        "name": "Gomirje",
+        "labels": [
+          {
+            "value": "Gomirje"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1400977846"
@@ -3248,7 +4173,11 @@
       "type": "Feature",
       "id": "node/1401111915",
       "properties": {
-        "name": "Ogulinski Hreljin",
+        "labels": [
+          {
+            "value": "Ogulinski Hreljin"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1401111915"
@@ -3265,7 +4194,11 @@
       "type": "Feature",
       "id": "node/1401139717",
       "properties": {
-        "name": "Šušnjevo selo",
+        "labels": [
+          {
+            "value": "Šušnjevo selo"
+          }
+        ],
         "railway": "halt",
         "id": "node/1401139717"
       },
@@ -3281,7 +4214,11 @@
       "type": "Feature",
       "id": "node/1401148278",
       "properties": {
-        "name": "Latin",
+        "labels": [
+          {
+            "value": "Latin"
+          }
+        ],
         "railway": "halt",
         "id": "node/1401148278"
       },
@@ -3297,7 +4234,11 @@
       "type": "Feature",
       "id": "node/1401160723",
       "properties": {
-        "name": "Plaški",
+        "labels": [
+          {
+            "value": "Plaški"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1401160723"
@@ -3314,7 +4255,11 @@
       "type": "Feature",
       "id": "node/1404490638",
       "properties": {
-        "name": "Vrhovine",
+        "labels": [
+          {
+            "value": "Vrhovine"
+          }
+        ],
         "railway": "station",
         "id": "node/1404490638"
       },
@@ -3330,7 +4275,11 @@
       "type": "Feature",
       "id": "node/1404809717",
       "properties": {
-        "name": "Ličko Lešće",
+        "labels": [
+          {
+            "value": "Ličko Lešće"
+          }
+        ],
         "railway": "station",
         "id": "node/1404809717"
       },
@@ -3346,11 +4295,19 @@
       "type": "Feature",
       "id": "node/1404864926",
       "properties": {
-        "name": "Perušić",
+        "labels": [
+          {
+            "value": "Perušić"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "76106",
-        "id": "node/1404864926"
+        "id": "node/1404864926",
+        "P722": [
+          {
+            "value": "76106"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3364,7 +4321,11 @@
       "type": "Feature",
       "id": "node/1404899850",
       "properties": {
-        "name": "Raduč",
+        "labels": [
+          {
+            "value": "Raduč"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3382,7 +4343,11 @@
       "type": "Feature",
       "id": "node/1407584334",
       "properties": {
-        "name": "Split Predgrađe",
+        "labels": [
+          {
+            "value": "Split Predgrađe"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3400,7 +4365,11 @@
       "type": "Feature",
       "id": "node/1421307951",
       "properties": {
-        "name": "Gornje Dubrave",
+        "labels": [
+          {
+            "value": "Gornje Dubrave"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1421307951"
@@ -3417,7 +4386,11 @@
       "type": "Feature",
       "id": "node/1440222604",
       "properties": {
-        "name": "Siverić",
+        "labels": [
+          {
+            "value": "Siverić"
+          }
+        ],
         "railway": "halt",
         "id": "node/1440222604"
       },
@@ -3433,7 +4406,11 @@
       "type": "Feature",
       "id": "node/1564111207",
       "properties": {
-        "name": "Zagreb Klara",
+        "labels": [
+          {
+            "value": "Zagreb Klara"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3451,7 +4428,11 @@
       "type": "Feature",
       "id": "node/1575712958",
       "properties": {
-        "name": "Odra",
+        "labels": [
+          {
+            "value": "Odra"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -3470,12 +4451,20 @@
       "type": "Feature",
       "id": "node/1583402024",
       "properties": {
-        "name": "Harmica",
+        "labels": [
+          {
+            "value": "Harmica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
-        "uic_ref": "74212",
-        "id": "node/1583402024"
+        "id": "node/1583402024",
+        "P722": [
+          {
+            "value": "74212"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3489,7 +4478,11 @@
       "type": "Feature",
       "id": "node/1623965836",
       "properties": {
-        "name": "Zagreb Klara",
+        "labels": [
+          {
+            "value": "Zagreb Klara"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3507,7 +4500,11 @@
       "type": "Feature",
       "id": "node/1735311577",
       "properties": {
-        "name": "Tounj",
+        "labels": [
+          {
+            "value": "Tounj"
+          }
+        ],
         "railway": "halt",
         "id": "node/1735311577"
       },
@@ -3523,7 +4520,11 @@
       "type": "Feature",
       "id": "node/1743038144",
       "properties": {
-        "name": "Hrvatska Dubica",
+        "labels": [
+          {
+            "value": "Hrvatska Dubica"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1743038144"
@@ -3540,8 +4541,15 @@
       "type": "Feature",
       "id": "node/1743041423",
       "properties": {
-        "name": "Jasenovac",
-        "name:sr": "Јасеновац",
+        "labels": [
+          {
+            "value": "Јасеновац",
+            "lang": "sr"
+          },
+          {
+            "value": "Jasenovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -3559,7 +4567,11 @@
       "type": "Feature",
       "id": "node/1744583668",
       "properties": {
-        "name": "Budrovci",
+        "labels": [
+          {
+            "value": "Budrovci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -3577,7 +4589,11 @@
       "type": "Feature",
       "id": "node/1744592417",
       "properties": {
-        "name": "Čepin",
+        "labels": [
+          {
+            "value": "Čepin"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -3595,7 +4611,11 @@
       "type": "Feature",
       "id": "node/1744642099",
       "properties": {
-        "name": "Lipovac-Koritna",
+        "labels": [
+          {
+            "value": "Lipovac-Koritna"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -3613,7 +4633,11 @@
       "type": "Feature",
       "id": "node/1744643144",
       "properties": {
-        "name": "Hrastovac Vučki",
+        "labels": [
+          {
+            "value": "Hrastovac Vučki"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -3631,7 +4655,11 @@
       "type": "Feature",
       "id": "node/1760396896",
       "properties": {
-        "name": "Antunovac",
+        "labels": [
+          {
+            "value": "Antunovac"
+          }
+        ],
         "railway": "halt",
         "id": "node/1760396896"
       },
@@ -3647,7 +4675,11 @@
       "type": "Feature",
       "id": "node/1760396897",
       "properties": {
-        "name": "Brijest",
+        "labels": [
+          {
+            "value": "Brijest"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3665,7 +4697,11 @@
       "type": "Feature",
       "id": "node/1760402216",
       "properties": {
-        "name": "Bijelo Brdo",
+        "labels": [
+          {
+            "value": "Bijelo Brdo"
+          }
+        ],
         "railway": "halt",
         "id": "node/1760402216"
       },
@@ -3681,7 +4717,11 @@
       "type": "Feature",
       "id": "node/1763280325",
       "properties": {
-        "name": "Gaboš",
+        "labels": [
+          {
+            "value": "Gaboš"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -3699,7 +4739,11 @@
       "type": "Feature",
       "id": "node/1763280333",
       "properties": {
-        "name": "Ostrovo",
+        "labels": [
+          {
+            "value": "Ostrovo"
+          }
+        ],
         "railway": "halt",
         "id": "node/1763280333"
       },
@@ -3715,11 +4759,19 @@
       "type": "Feature",
       "id": "node/1763286257",
       "properties": {
-        "name": "Oriovac",
+        "labels": [
+          {
+            "value": "Oriovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "wikidata": "Q38251844",
-        "id": "node/1763286257"
+        "id": "node/1763286257",
+        "PWIKI": [
+          {
+            "value": "Q38251844"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3733,7 +4785,11 @@
       "type": "Feature",
       "id": "node/1763288872",
       "properties": {
-        "name": "Doliće",
+        "labels": [
+          {
+            "value": "Doliće"
+          }
+        ],
         "railway": "halt",
         "id": "node/1763288872"
       },
@@ -3749,7 +4805,11 @@
       "type": "Feature",
       "id": "node/1763288873",
       "properties": {
-        "name": "Žutnica",
+        "labels": [
+          {
+            "value": "Žutnica"
+          }
+        ],
         "public_transport": "stop",
         "railway": "halt",
         "train": "yes",
@@ -3767,7 +4827,11 @@
       "type": "Feature",
       "id": "node/1763295534",
       "properties": {
-        "name": "Štrucljevo",
+        "labels": [
+          {
+            "value": "Štrucljevo"
+          }
+        ],
         "public_transport": "stop",
         "railway": "halt",
         "train": "yes",
@@ -3785,7 +4849,11 @@
       "type": "Feature",
       "id": "node/1763295535",
       "properties": {
-        "name": "Velika Ves",
+        "labels": [
+          {
+            "value": "Velika Ves"
+          }
+        ],
         "public_transport": "stop",
         "railway": "halt",
         "train": "yes",
@@ -3803,7 +4871,11 @@
       "type": "Feature",
       "id": "node/1763295536",
       "properties": {
-        "name": "Dukovec",
+        "labels": [
+          {
+            "value": "Dukovec"
+          }
+        ],
         "public_transport": "stop",
         "railway": "halt",
         "train": "yes",
@@ -3821,7 +4893,11 @@
       "type": "Feature",
       "id": "node/1763298836",
       "properties": {
-        "name": "Lepavina",
+        "labels": [
+          {
+            "value": "Lepavina"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1763298836"
@@ -3838,7 +4914,11 @@
       "type": "Feature",
       "id": "node/1763300753",
       "properties": {
-        "name": "Virje",
+        "labels": [
+          {
+            "value": "Virje"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1763300753"
@@ -3855,31 +4935,20 @@
       "type": "Feature",
       "id": "node/1763300754",
       "properties": {
-        "name": "Bregi",
+        "labels": [
+          {
+            "value": "Bregi"
+          }
+        ],
+        "public_transport": "station",
         "railway": "station",
         "id": "node/1763300754"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.8915922,
-          46.1268644
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1763300755",
-      "properties": {
-        "name": "Novigrad Podravski",
-        "railway": "station",
-        "id": "node/1763300755"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.9550532,
-          46.0846131
+          16.8919228,
+          46.1267253
         ]
       }
     },
@@ -3887,7 +4956,11 @@
       "type": "Feature",
       "id": "node/1763307829",
       "properties": {
-        "name": "Drnje",
+        "labels": [
+          {
+            "value": "Drnje"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1763307829"
@@ -3904,7 +4977,11 @@
       "type": "Feature",
       "id": "node/1763309990",
       "properties": {
-        "name": "Čukovec",
+        "labels": [
+          {
+            "value": "Čukovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -3922,7 +4999,11 @@
       "type": "Feature",
       "id": "node/1763309993",
       "properties": {
-        "name": "Rasinja",
+        "labels": [
+          {
+            "value": "Rasinja"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -3940,7 +5021,11 @@
       "type": "Feature",
       "id": "node/1763309994",
       "properties": {
-        "name": "Jalžabet",
+        "labels": [
+          {
+            "value": "Jalžabet"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -3958,7 +5043,11 @@
       "type": "Feature",
       "id": "node/1763309996",
       "properties": {
-        "name": "Martijanec",
+        "labels": [
+          {
+            "value": "Martijanec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -3976,7 +5065,11 @@
       "type": "Feature",
       "id": "node/1763309997",
       "properties": {
-        "name": "Novakovec",
+        "labels": [
+          {
+            "value": "Novakovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -3994,7 +5087,11 @@
       "type": "Feature",
       "id": "node/1767492986",
       "properties": {
-        "name": "Greda",
+        "labels": [
+          {
+            "value": "Greda"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1767492986"
@@ -4011,7 +5108,11 @@
       "type": "Feature",
       "id": "node/1767496294",
       "properties": {
-        "name": "Blinjski Kut",
+        "labels": [
+          {
+            "value": "Blinjski Kut"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1767496294"
@@ -4028,7 +5129,11 @@
       "type": "Feature",
       "id": "node/1767498324",
       "properties": {
-        "name": "Brđani Krajiški",
+        "labels": [
+          {
+            "value": "Brđani Krajiški"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1767498324"
@@ -4045,7 +5150,11 @@
       "type": "Feature",
       "id": "node/1767501191",
       "properties": {
-        "name": "Hrastovac",
+        "labels": [
+          {
+            "value": "Hrastovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1767501191"
@@ -4062,7 +5171,11 @@
       "type": "Feature",
       "id": "node/1767502487",
       "properties": {
-        "name": "Graboštani",
+        "labels": [
+          {
+            "value": "Graboštani"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1767502487"
@@ -4079,7 +5192,11 @@
       "type": "Feature",
       "id": "node/1767503411",
       "properties": {
-        "name": "Majur",
+        "labels": [
+          {
+            "value": "Majur"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1767503411"
@@ -4096,7 +5213,11 @@
       "type": "Feature",
       "id": "node/1794934538",
       "properties": {
-        "name": "Podravska Bistrica",
+        "labels": [
+          {
+            "value": "Podravska Bistrica"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1794934538"
@@ -4113,7 +5234,11 @@
       "type": "Feature",
       "id": "node/1802538309",
       "properties": {
-        "name": "Jurdani",
+        "labels": [
+          {
+            "value": "Jurdani"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1802538309"
@@ -4130,7 +5255,11 @@
       "type": "Feature",
       "id": "node/1802608926",
       "properties": {
-        "name": "Savičenta",
+        "labels": [
+          {
+            "value": "Savičenta"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802608926"
@@ -4147,7 +5276,11 @@
       "type": "Feature",
       "id": "node/1802608927",
       "properties": {
-        "name": "Smoljanci",
+        "labels": [
+          {
+            "value": "Smoljanci"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802608927"
@@ -4164,7 +5297,11 @@
       "type": "Feature",
       "id": "node/1802608930",
       "properties": {
-        "name": "Juršići",
+        "labels": [
+          {
+            "value": "Juršići"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802608930"
@@ -4181,7 +5318,11 @@
       "type": "Feature",
       "id": "node/1802608936",
       "properties": {
-        "name": "Čabrunići Selo",
+        "labels": [
+          {
+            "value": "Čabrunići Selo"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802608936"
@@ -4198,7 +5339,11 @@
       "type": "Feature",
       "id": "node/1802619318",
       "properties": {
-        "name": "Čabrunići",
+        "labels": [
+          {
+            "value": "Čabrunići"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802619318"
@@ -4215,7 +5360,11 @@
       "type": "Feature",
       "id": "node/1802651807",
       "properties": {
-        "name": "Šijana",
+        "labels": [
+          {
+            "value": "Šijana"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802651807"
@@ -4232,7 +5381,11 @@
       "type": "Feature",
       "id": "node/1802659106",
       "properties": {
-        "name": "Ročko Polje",
+        "labels": [
+          {
+            "value": "Ročko Polje"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802659106"
@@ -4249,7 +5402,11 @@
       "type": "Feature",
       "id": "node/1802660308",
       "properties": {
-        "name": "Nugla",
+        "labels": [
+          {
+            "value": "Nugla"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/1802660308"
@@ -4266,7 +5423,11 @@
       "type": "Feature",
       "id": "node/1802663439",
       "properties": {
-        "name": "Kožljak",
+        "labels": [
+          {
+            "value": "Kožljak"
+          }
+        ],
         "railway": "halt",
         "id": "node/1802663439"
       },
@@ -4282,7 +5443,11 @@
       "type": "Feature",
       "id": "node/1812332216",
       "properties": {
-        "name": "Žminj",
+        "labels": [
+          {
+            "value": "Žminj"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "stop_position",
         "railway": "stop",
@@ -4301,7 +5466,11 @@
       "type": "Feature",
       "id": "node/1812332635",
       "properties": {
-        "name": "Sveti Petar u Šumi",
+        "labels": [
+          {
+            "value": "Sveti Petar u Šumi"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "stop_position",
         "railway": "stop",
@@ -4320,10 +5489,14 @@
       "type": "Feature",
       "id": "node/1812332823",
       "properties": {
-        "name": "Heki Tovarište",
+        "labels": [
+          {
+            "value": "Heki Tovarište"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "stop_position",
-        "railway": "stop",
+        "railway": "halt",
         "train": "yes",
         "id": "node/1812332823"
       },
@@ -4339,7 +5512,11 @@
       "type": "Feature",
       "id": "node/1815013071",
       "properties": {
-        "name": "Đeletovci stajalište",
+        "labels": [
+          {
+            "value": "Đeletovci stajalište"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4357,7 +5534,11 @@
       "type": "Feature",
       "id": "node/1827528655",
       "properties": {
-        "name": "Rijeka",
+        "labels": [
+          {
+            "value": "Rijeka"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -4375,7 +5556,11 @@
       "type": "Feature",
       "id": "node/1827529595",
       "properties": {
-        "name": "Krnjevo",
+        "labels": [
+          {
+            "value": "Krnjevo"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -4393,11 +5578,19 @@
       "type": "Feature",
       "id": "node/1867354545",
       "properties": {
-        "name": "Bubnjarci",
+        "labels": [
+          {
+            "value": "Bubnjarci"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
-        "wikidata": "Q88666736",
-        "id": "node/1867354545"
+        "id": "node/1867354545",
+        "PWIKI": [
+          {
+            "value": "Q88666736"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4411,7 +5604,11 @@
       "type": "Feature",
       "id": "node/1867354909",
       "properties": {
-        "name": "Brlog Grad",
+        "labels": [
+          {
+            "value": "Brlog Grad"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/1867354909"
@@ -4428,7 +5625,11 @@
       "type": "Feature",
       "id": "node/1867355634",
       "properties": {
-        "name": "Zaluka",
+        "labels": [
+          {
+            "value": "Zaluka"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1867355634"
@@ -4445,7 +5646,11 @@
       "type": "Feature",
       "id": "node/1867356464",
       "properties": {
-        "name": "Zorkovac",
+        "labels": [
+          {
+            "value": "Zorkovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1867356464"
@@ -4462,7 +5667,11 @@
       "type": "Feature",
       "id": "node/1867356644",
       "properties": {
-        "name": "Mahićno",
+        "labels": [
+          {
+            "value": "Mahićno"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1867356644"
@@ -4479,7 +5688,11 @@
       "type": "Feature",
       "id": "node/1871037530",
       "properties": {
-        "name": "Kuljevčica",
+        "labels": [
+          {
+            "value": "Kuljevčica"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871037530"
       },
@@ -4495,7 +5708,11 @@
       "type": "Feature",
       "id": "node/1871038669",
       "properties": {
-        "name": "Cerje Tužno",
+        "labels": [
+          {
+            "value": "Cerje Tužno"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -4513,7 +5730,11 @@
       "type": "Feature",
       "id": "node/1871039345",
       "properties": {
-        "name": "Kunovec-Subotica",
+        "labels": [
+          {
+            "value": "Kunovec-Subotica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -4531,12 +5752,20 @@
       "type": "Feature",
       "id": "node/1871041147",
       "properties": {
-        "name": "Dunjkovec",
+        "labels": [
+          {
+            "value": "Dunjkovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
-        "wikidata": "Q72371820",
-        "id": "node/1871041147"
+        "id": "node/1871041147",
+        "PWIKI": [
+          {
+            "value": "Q72371820"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4550,12 +5779,20 @@
       "type": "Feature",
       "id": "node/1871042007",
       "properties": {
-        "name": "Macinec",
+        "labels": [
+          {
+            "value": "Macinec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
-        "wikidata": "Q70466640",
-        "id": "node/1871042007"
+        "id": "node/1871042007",
+        "PWIKI": [
+          {
+            "value": "Q70466640"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4569,12 +5806,20 @@
       "type": "Feature",
       "id": "node/1871043030",
       "properties": {
-        "name": "Novo Selo Rok",
+        "labels": [
+          {
+            "value": "Novo Selo Rok"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "wikidata": "Q88685026",
-        "id": "node/1871043030"
+        "id": "node/1871043030",
+        "PWIKI": [
+          {
+            "value": "Q88685026"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -4588,7 +5833,11 @@
       "type": "Feature",
       "id": "node/1871047058",
       "properties": {
-        "name": "Carevdar",
+        "labels": [
+          {
+            "value": "Carevdar"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4606,7 +5855,11 @@
       "type": "Feature",
       "id": "node/1871047934",
       "properties": {
-        "name": "Sokolovac",
+        "labels": [
+          {
+            "value": "Sokolovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4624,7 +5877,11 @@
       "type": "Feature",
       "id": "node/1871053856",
       "properties": {
-        "name": "Grginac",
+        "labels": [
+          {
+            "value": "Grginac"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/1871053856"
@@ -4641,7 +5898,11 @@
       "type": "Feature",
       "id": "node/1871060312",
       "properties": {
-        "name": "Rajić",
+        "labels": [
+          {
+            "value": "Rajić"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4659,7 +5920,11 @@
       "type": "Feature",
       "id": "node/1871061075",
       "properties": {
-        "name": "Dragalić",
+        "labels": [
+          {
+            "value": "Dragalić"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4677,7 +5942,11 @@
       "type": "Feature",
       "id": "node/1871061224",
       "properties": {
-        "name": "Zapolje",
+        "labels": [
+          {
+            "value": "Zapolje"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4695,7 +5964,11 @@
       "type": "Feature",
       "id": "node/1871062828",
       "properties": {
-        "name": "Vrbova",
+        "labels": [
+          {
+            "value": "Vrbova"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4713,7 +5986,11 @@
       "type": "Feature",
       "id": "node/1871063323",
       "properties": {
-        "name": "Lužani-Malino",
+        "labels": [
+          {
+            "value": "Lužani-Malino"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4731,7 +6008,11 @@
       "type": "Feature",
       "id": "node/1871065276",
       "properties": {
-        "name": "Brodski Stupnik",
+        "labels": [
+          {
+            "value": "Brodski Stupnik"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4749,6 +6030,7 @@
       "type": "Feature",
       "id": "node/1871067096",
       "properties": {
+        "labels": [],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -4766,15 +6048,20 @@
       "type": "Feature",
       "id": "node/1871071573",
       "properties": {
-        "name": "Vođinci",
-        "railway": "station",
+        "labels": [
+          {
+            "value": "Vođinci"
+          }
+        ],
+        "public_transport": "station",
+        "railway": "halt",
         "id": "node/1871071573"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6133559,
-          45.2695407
+          18.6137807,
+          45.2696859
         ]
       }
     },
@@ -4782,7 +6069,11 @@
       "type": "Feature",
       "id": "node/1871072621",
       "properties": {
-        "name": "Mirkovci",
+        "labels": [
+          {
+            "value": "Mirkovci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/1871072621"
@@ -4799,8 +6090,12 @@
       "type": "Feature",
       "id": "node/1871073186",
       "properties": {
+        "labels": [
+          {
+            "value": "Sremske Laze"
+          }
+        ],
         "alt_name": "Srijemske Laze",
-        "name": "Sremske Laze",
         "public_transport": "station",
         "railway": "halt",
         "id": "node/1871073186"
@@ -4817,7 +6112,11 @@
       "type": "Feature",
       "id": "node/1871073971",
       "properties": {
-        "name": "Slakovci",
+        "labels": [
+          {
+            "value": "Slakovci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/1871073971"
@@ -4834,7 +6133,11 @@
       "type": "Feature",
       "id": "node/1871074280",
       "properties": {
-        "name": "Orolik",
+        "labels": [
+          {
+            "value": "Orolik"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871074280"
       },
@@ -4850,7 +6153,11 @@
       "type": "Feature",
       "id": "node/1871074918",
       "properties": {
-        "name": "Vinkovački Banovci",
+        "labels": [
+          {
+            "value": "Vinkovački Banovci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/1871074918"
@@ -4867,8 +6174,12 @@
       "type": "Feature",
       "id": "node/1871075035",
       "properties": {
+        "labels": [
+          {
+            "value": "Šidski Banovci"
+          }
+        ],
         "alt_name": "Banovci",
-        "name": "Šidski Banovci",
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4886,7 +6197,11 @@
       "type": "Feature",
       "id": "node/1871078498",
       "properties": {
-        "name": "Ratkovica",
+        "labels": [
+          {
+            "value": "Ratkovica"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871078498"
       },
@@ -4902,7 +6217,11 @@
       "type": "Feature",
       "id": "node/1871084271",
       "properties": {
-        "name": "Novoselci",
+        "labels": [
+          {
+            "value": "Novoselci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4920,7 +6239,11 @@
       "type": "Feature",
       "id": "node/1871085046",
       "properties": {
-        "name": "Mihaljevci",
+        "labels": [
+          {
+            "value": "Mihaljevci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4938,7 +6261,11 @@
       "type": "Feature",
       "id": "node/1871085110",
       "properties": {
-        "name": "Trenkovo",
+        "labels": [
+          {
+            "value": "Trenkovo"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4956,7 +6283,11 @@
       "type": "Feature",
       "id": "node/1871086241",
       "properties": {
-        "name": "Dopsin",
+        "labels": [
+          {
+            "value": "Dopsin"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4974,7 +6305,11 @@
       "type": "Feature",
       "id": "node/1871089127",
       "properties": {
-        "name": "Viškovci",
+        "labels": [
+          {
+            "value": "Viškovci"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -4992,7 +6327,11 @@
       "type": "Feature",
       "id": "node/1871089957",
       "properties": {
-        "name": "Markušica-Antin",
+        "labels": [
+          {
+            "value": "Markušica-Antin"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871089957"
       },
@@ -5008,7 +6347,11 @@
       "type": "Feature",
       "id": "node/1871090785",
       "properties": {
-        "name": "Bršadin",
+        "labels": [
+          {
+            "value": "Bršadin"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871090785"
       },
@@ -5024,7 +6367,11 @@
       "type": "Feature",
       "id": "node/1871091923",
       "properties": {
-        "name": "Bršadin-Lipovača",
+        "labels": [
+          {
+            "value": "Bršadin-Lipovača"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871091923"
       },
@@ -5040,7 +6387,11 @@
       "type": "Feature",
       "id": "node/1871094489",
       "properties": {
-        "name": "Privlaka",
+        "labels": [
+          {
+            "value": "Privlaka"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5058,7 +6409,11 @@
       "type": "Feature",
       "id": "node/1871094975",
       "properties": {
-        "name": "Spačva",
+        "labels": [
+          {
+            "value": "Spačva"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5076,7 +6431,11 @@
       "type": "Feature",
       "id": "node/1871095154",
       "properties": {
-        "name": "Vrbanja",
+        "labels": [
+          {
+            "value": "Vrbanja"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5094,7 +6453,11 @@
       "type": "Feature",
       "id": "node/1871097297",
       "properties": {
-        "name": "Rokovci",
+        "labels": [
+          {
+            "value": "Rokovci"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871097297"
       },
@@ -5110,7 +6473,11 @@
       "type": "Feature",
       "id": "node/1871097300",
       "properties": {
-        "name": "Andrijaševci",
+        "labels": [
+          {
+            "value": "Andrijaševci"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871097300"
       },
@@ -5126,7 +6493,11 @@
       "type": "Feature",
       "id": "node/1871098388",
       "properties": {
-        "name": "Cerna",
+        "labels": [
+          {
+            "value": "Cerna"
+          }
+        ],
         "railway": "station",
         "id": "node/1871098388"
       },
@@ -5142,7 +6513,11 @@
       "type": "Feature",
       "id": "node/1871099807",
       "properties": {
-        "name": "Gradište",
+        "labels": [
+          {
+            "value": "Gradište"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871099807"
       },
@@ -5158,7 +6533,11 @@
       "type": "Feature",
       "id": "node/1871102945",
       "properties": {
-        "name": "Staza",
+        "labels": [
+          {
+            "value": "Staza"
+          }
+        ],
         "railway": "station",
         "id": "node/1871102945"
       },
@@ -5174,7 +6553,11 @@
       "type": "Feature",
       "id": "node/1871104051",
       "properties": {
-        "name": "Papići",
+        "labels": [
+          {
+            "value": "Papići"
+          }
+        ],
         "railway": "station",
         "id": "node/1871104051"
       },
@@ -5190,7 +6573,11 @@
       "type": "Feature",
       "id": "node/1871105262",
       "properties": {
-        "name": "Šaš",
+        "labels": [
+          {
+            "value": "Šaš"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1871105262"
@@ -5207,7 +6594,11 @@
       "type": "Feature",
       "id": "node/1871106451",
       "properties": {
-        "name": "Višnjica",
+        "labels": [
+          {
+            "value": "Višnjica"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1871106451"
@@ -5224,7 +6615,11 @@
       "type": "Feature",
       "id": "node/1871109154",
       "properties": {
-        "name": "Gornji Zvečaj",
+        "labels": [
+          {
+            "value": "Gornji Zvečaj"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1871109154"
@@ -5241,7 +6636,11 @@
       "type": "Feature",
       "id": "node/1871110056",
       "properties": {
-        "name": "Donje Dubrave",
+        "labels": [
+          {
+            "value": "Donje Dubrave"
+          }
+        ],
         "railway": "station",
         "id": "node/1871110056"
       },
@@ -5257,7 +6656,11 @@
       "type": "Feature",
       "id": "node/1871110516",
       "properties": {
-        "name": "Košare",
+        "labels": [
+          {
+            "value": "Košare"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1871110516"
@@ -5274,7 +6677,11 @@
       "type": "Feature",
       "id": "node/1871110517",
       "properties": {
-        "name": "Kukača",
+        "labels": [
+          {
+            "value": "Kukača"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1871110517"
@@ -5291,7 +6698,11 @@
       "type": "Feature",
       "id": "node/1871115491",
       "properties": {
-        "name": "Oštarije Ravnice",
+        "labels": [
+          {
+            "value": "Oštarije Ravnice"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/1871115491"
@@ -5308,7 +6719,11 @@
       "type": "Feature",
       "id": "node/1871134671",
       "properties": {
-        "name": "Donji Dolac",
+        "labels": [
+          {
+            "value": "Donji Dolac"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871134671"
       },
@@ -5324,7 +6739,11 @@
       "type": "Feature",
       "id": "node/1871136464",
       "properties": {
-        "name": "Cera",
+        "labels": [
+          {
+            "value": "Cera"
+          }
+        ],
         "railway": "station",
         "id": "node/1871136464"
       },
@@ -5340,7 +6759,11 @@
       "type": "Feature",
       "id": "node/1871137208",
       "properties": {
-        "name": "Planjane",
+        "labels": [
+          {
+            "value": "Planjane"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871137208"
       },
@@ -5356,7 +6779,11 @@
       "type": "Feature",
       "id": "node/1871137572",
       "properties": {
-        "name": "Sedramić",
+        "labels": [
+          {
+            "value": "Sedramić"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871137572"
       },
@@ -5372,7 +6799,11 @@
       "type": "Feature",
       "id": "node/1871137946",
       "properties": {
-        "name": "Tepljuh",
+        "labels": [
+          {
+            "value": "Tepljuh"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/1871137946"
@@ -5389,7 +6820,11 @@
       "type": "Feature",
       "id": "node/1871140815",
       "properties": {
-        "name": "Kaldrma",
+        "labels": [
+          {
+            "value": "Kaldrma"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -5407,7 +6842,11 @@
       "type": "Feature",
       "id": "node/1871165339",
       "properties": {
-        "name": "Mandalina",
+        "labels": [
+          {
+            "value": "Mandalina"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5425,7 +6864,11 @@
       "type": "Feature",
       "id": "node/1871168177",
       "properties": {
-        "name": "Dabar",
+        "labels": [
+          {
+            "value": "Dabar"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871168177"
       },
@@ -5441,7 +6884,11 @@
       "type": "Feature",
       "id": "node/1871168481",
       "properties": {
-        "name": "Ripište",
+        "labels": [
+          {
+            "value": "Ripište"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871168481"
       },
@@ -5457,8 +6904,15 @@
       "type": "Feature",
       "id": "node/1871175077",
       "properties": {
-        "name": "Jušići",
-        "name:it": "Giussici",
+        "labels": [
+          {
+            "value": "Giussici",
+            "lang": "it"
+          },
+          {
+            "value": "Jušići"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871175077"
       },
@@ -5474,7 +6928,11 @@
       "type": "Feature",
       "id": "node/1871175483",
       "properties": {
-        "name": "Permani",
+        "labels": [
+          {
+            "value": "Permani"
+          }
+        ],
         "railway": "halt",
         "id": "node/1871175483"
       },
@@ -5490,11 +6948,19 @@
       "type": "Feature",
       "id": "node/1905561276",
       "properties": {
-        "name": "Zaprešić-Savska",
+        "labels": [
+          {
+            "value": "Zaprešić-Savska"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "74007",
         "wikimedia_commons": "File:%C5%BDeljezni%C4%8Dko_stajali%C5%A1te_Zapre%C5%A1i%C4%87_Savska.jpg",
-        "id": "node/1905561276"
+        "id": "node/1905561276",
+        "P722": [
+          {
+            "value": "74007"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5508,7 +6974,11 @@
       "type": "Feature",
       "id": "node/1946792762",
       "properties": {
-        "name": "Kosovo",
+        "labels": [
+          {
+            "value": "Kosovo"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5526,7 +6996,11 @@
       "type": "Feature",
       "id": "node/1951096340",
       "properties": {
-        "name": "Mala Subotica",
+        "labels": [
+          {
+            "value": "Mala Subotica"
+          }
+        ],
         "railway": "station",
         "id": "node/1951096340"
       },
@@ -5542,7 +7016,11 @@
       "type": "Feature",
       "id": "node/1951097095",
       "properties": {
-        "name": "Čehovec",
+        "labels": [
+          {
+            "value": "Čehovec"
+          }
+        ],
         "railway": "station",
         "id": "node/1951097095"
       },
@@ -5558,7 +7036,11 @@
       "type": "Feature",
       "id": "node/1951100048",
       "properties": {
-        "name": "Kotoriba",
+        "labels": [
+          {
+            "value": "Kotoriba"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5576,7 +7058,11 @@
       "type": "Feature",
       "id": "node/2071569172",
       "properties": {
-        "name": "Zagreb Klara",
+        "labels": [
+          {
+            "value": "Zagreb Klara"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "station",
         "railway": "station",
@@ -5594,7 +7080,11 @@
       "type": "Feature",
       "id": "node/2106194545",
       "properties": {
-        "name": "Kotoriba",
+        "labels": [
+          {
+            "value": "Kotoriba"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5612,7 +7102,11 @@
       "type": "Feature",
       "id": "node/2110020956",
       "properties": {
-        "name": "Perković",
+        "labels": [
+          {
+            "value": "Perković"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5630,7 +7124,11 @@
       "type": "Feature",
       "id": "node/2116965624",
       "properties": {
-        "name": "Andrijevci",
+        "labels": [
+          {
+            "value": "Andrijevci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5648,7 +7146,11 @@
       "type": "Feature",
       "id": "node/2116965703",
       "properties": {
-        "name": "Andrijevci",
+        "labels": [
+          {
+            "value": "Andrijevci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5666,7 +7168,11 @@
       "type": "Feature",
       "id": "node/2269769400",
       "properties": {
-        "name": "Karlovac Centar",
+        "labels": [
+          {
+            "value": "Karlovac Centar"
+          }
+        ],
         "railway": "halt",
         "toilets:wheelchair": "no",
         "wheelchair": "yes",
@@ -5684,7 +7190,11 @@
       "type": "Feature",
       "id": "node/2363631048",
       "properties": {
-        "name": "Đurmanec",
+        "labels": [
+          {
+            "value": "Đurmanec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5702,7 +7212,11 @@
       "type": "Feature",
       "id": "node/2376637863",
       "properties": {
-        "name": "Varaždin",
+        "labels": [
+          {
+            "value": "Varaždin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5720,7 +7234,11 @@
       "type": "Feature",
       "id": "node/2386480363",
       "properties": {
-        "name": "Gradec Stajalište",
+        "labels": [
+          {
+            "value": "Gradec Stajalište"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/2386480363"
@@ -5737,10 +7255,18 @@
       "type": "Feature",
       "id": "node/2388523169",
       "properties": {
-        "name": "Gajnice",
+        "labels": [
+          {
+            "value": "Gajnice"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "74006",
-        "id": "node/2388523169"
+        "id": "node/2388523169",
+        "P722": [
+          {
+            "value": "74006"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -5754,7 +7280,11 @@
       "type": "Feature",
       "id": "node/2434547226",
       "properties": {
-        "name": "Hrvatska Kostajnica",
+        "labels": [
+          {
+            "value": "Hrvatska Kostajnica"
+          }
+        ],
         "railway": "halt",
         "id": "node/2434547226"
       },
@@ -5770,7 +7300,11 @@
       "type": "Feature",
       "id": "node/2435052832",
       "properties": {
-        "name": "Volinja",
+        "labels": [
+          {
+            "value": "Volinja"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/2435052832"
@@ -5787,7 +7321,11 @@
       "type": "Feature",
       "id": "node/2439311602",
       "properties": {
-        "name": "Krapina",
+        "labels": [
+          {
+            "value": "Krapina"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5805,7 +7343,11 @@
       "type": "Feature",
       "id": "node/2446445941",
       "properties": {
-        "name": "Ivanić Grad",
+        "labels": [
+          {
+            "value": "Ivanić Grad"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5823,7 +7365,11 @@
       "type": "Feature",
       "id": "node/2518878167",
       "properties": {
-        "name": "Primorsko Vrpolje",
+        "labels": [
+          {
+            "value": "Primorsko Vrpolje"
+          }
+        ],
         "railway": "halt",
         "id": "node/2518878167"
       },
@@ -5839,7 +7385,11 @@
       "type": "Feature",
       "id": "node/2518878168",
       "properties": {
-        "name": "Primorski Sveti Juraj",
+        "labels": [
+          {
+            "value": "Primorski Sveti Juraj"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/2518878168"
@@ -5856,7 +7406,11 @@
       "type": "Feature",
       "id": "node/2522167718",
       "properties": {
-        "name": "Greda",
+        "labels": [
+          {
+            "value": "Greda"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5874,7 +7428,11 @@
       "type": "Feature",
       "id": "node/2522167719",
       "properties": {
-        "name": "Hrvatska Dubica",
+        "labels": [
+          {
+            "value": "Hrvatska Dubica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5892,7 +7450,11 @@
       "type": "Feature",
       "id": "node/2522167720",
       "properties": {
-        "name": "Sunja",
+        "labels": [
+          {
+            "value": "Sunja"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5910,7 +7472,11 @@
       "type": "Feature",
       "id": "node/2522167721",
       "properties": {
-        "name": "Turopolje",
+        "labels": [
+          {
+            "value": "Turopolje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5928,7 +7494,11 @@
       "type": "Feature",
       "id": "node/2522200230",
       "properties": {
-        "name": "Oriovac",
+        "labels": [
+          {
+            "value": "Oriovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5946,7 +7516,11 @@
       "type": "Feature",
       "id": "node/2522200234",
       "properties": {
-        "name": "Oriovac",
+        "labels": [
+          {
+            "value": "Oriovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5964,7 +7538,11 @@
       "type": "Feature",
       "id": "node/2522209956",
       "properties": {
-        "name": "Koprivnica",
+        "labels": [
+          {
+            "value": "Koprivnica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -5982,7 +7560,11 @@
       "type": "Feature",
       "id": "node/2522224823",
       "properties": {
-        "name": "Generalski Stol",
+        "labels": [
+          {
+            "value": "Generalski Stol"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6000,7 +7582,11 @@
       "type": "Feature",
       "id": "node/2522224826",
       "properties": {
-        "name": "Kukača",
+        "labels": [
+          {
+            "value": "Kukača"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6018,7 +7604,11 @@
       "type": "Feature",
       "id": "node/2522224829",
       "properties": {
-        "name": "Skrad",
+        "labels": [
+          {
+            "value": "Skrad"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6036,7 +7626,11 @@
       "type": "Feature",
       "id": "node/2522224831",
       "properties": {
-        "name": "Zvečaj",
+        "labels": [
+          {
+            "value": "Zvečaj"
+          }
+        ],
         "railway": "station",
         "id": "node/2522224831"
       },
@@ -6052,7 +7646,11 @@
       "type": "Feature",
       "id": "node/2522235651",
       "properties": {
-        "name": "Sušak-Pećine",
+        "labels": [
+          {
+            "value": "Sušak-Pećine"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6070,7 +7668,11 @@
       "type": "Feature",
       "id": "node/2522953269",
       "properties": {
-        "name": "Josipdol",
+        "labels": [
+          {
+            "value": "Josipdol"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6088,7 +7690,11 @@
       "type": "Feature",
       "id": "node/2522953270",
       "properties": {
-        "name": "Plaški",
+        "labels": [
+          {
+            "value": "Plaški"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6106,7 +7712,11 @@
       "type": "Feature",
       "id": "node/2523192383",
       "properties": {
-        "name": "Primorski Dolac",
+        "labels": [
+          {
+            "value": "Primorski Dolac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6124,7 +7734,11 @@
       "type": "Feature",
       "id": "node/2523456850",
       "properties": {
-        "name": "Hrastovac",
+        "labels": [
+          {
+            "value": "Hrastovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6142,7 +7756,11 @@
       "type": "Feature",
       "id": "node/2523457667",
       "properties": {
-        "name": "Majur",
+        "labels": [
+          {
+            "value": "Majur"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6160,7 +7778,11 @@
       "type": "Feature",
       "id": "node/2523465806",
       "properties": {
-        "name": "Zabok kolosijek 2",
+        "labels": [
+          {
+            "value": "Zabok kolosijek 2"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6178,7 +7800,11 @@
       "type": "Feature",
       "id": "node/2523533153",
       "properties": {
-        "name": "Lipik",
+        "labels": [
+          {
+            "value": "Lipik"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6196,7 +7822,11 @@
       "type": "Feature",
       "id": "node/2523539863",
       "properties": {
-        "name": "Požega",
+        "labels": [
+          {
+            "value": "Požega"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6214,10 +7844,18 @@
       "type": "Feature",
       "id": "node/2607852922",
       "properties": {
-        "name": "Kustošija",
+        "labels": [
+          {
+            "value": "Kustošija"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "74005",
-        "id": "node/2607852922"
+        "id": "node/2607852922",
+        "P722": [
+          {
+            "value": "74005"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6231,10 +7869,18 @@
       "type": "Feature",
       "id": "node/2607875292",
       "properties": {
-        "name": "Maksimir",
+        "labels": [
+          {
+            "value": "Maksimir"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "72405",
-        "id": "node/2607875292"
+        "id": "node/2607875292",
+        "P722": [
+          {
+            "value": "72405"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6248,10 +7894,18 @@
       "type": "Feature",
       "id": "node/2607887519",
       "properties": {
-        "name": "Trnava",
+        "labels": [
+          {
+            "value": "Trnava"
+          }
+        ],
         "railway": "halt",
-        "uic_ref": "72404",
-        "id": "node/2607887519"
+        "id": "node/2607887519",
+        "P722": [
+          {
+            "value": "72404"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6265,11 +7919,19 @@
       "type": "Feature",
       "id": "node/2607889081",
       "properties": {
-        "name": "Čulinec",
+        "labels": [
+          {
+            "value": "Čulinec"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
-        "uic_ref": "72403",
-        "id": "node/2607889081"
+        "id": "node/2607889081",
+        "P722": [
+          {
+            "value": "72403"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6283,7 +7945,11 @@
       "type": "Feature",
       "id": "node/2612939231",
       "properties": {
-        "name": "Stažnjevec",
+        "labels": [
+          {
+            "value": "Stažnjevec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6301,10 +7967,18 @@
       "type": "Feature",
       "id": "node/2613455257",
       "properties": {
-        "name": "Poznanovec",
-        "platforms": "1",
+        "labels": [
+          {
+            "value": "Poznanovec"
+          }
+        ],
         "railway": "halt",
-        "id": "node/2613455257"
+        "id": "node/2613455257",
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6316,27 +7990,13 @@
     },
     {
       "type": "Feature",
-      "id": "node/2614093549",
-      "properties": {
-        "name": "Virje",
-        "public_transport": "stop_position",
-        "railway": "stop",
-        "train": "yes",
-        "id": "node/2614093549"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.0040222,
-          46.0688186
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2768254099",
       "properties": {
-        "name": "Dugo Selo",
+        "labels": [
+          {
+            "value": "Dugo Selo"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6354,7 +8014,11 @@
       "type": "Feature",
       "id": "node/2814220870",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6372,7 +8036,11 @@
       "type": "Feature",
       "id": "node/2814302662",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6390,7 +8058,11 @@
       "type": "Feature",
       "id": "node/2814302727",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6408,8 +8080,15 @@
       "type": "Feature",
       "id": "node/2844817296",
       "properties": {
-        "name": "Šapjane",
-        "name:it": "Sappiane",
+        "labels": [
+          {
+            "value": "Sappiane",
+            "lang": "it"
+          },
+          {
+            "value": "Šapjane"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6427,7 +8106,11 @@
       "type": "Feature",
       "id": "node/3228704372",
       "properties": {
-        "name": "Hromec",
+        "labels": [
+          {
+            "value": "Hromec"
+          }
+        ],
         "railway": "halt",
         "id": "node/3228704372"
       },
@@ -6443,7 +8126,11 @@
       "type": "Feature",
       "id": "node/3326230008",
       "properties": {
-        "name": "Repušnica",
+        "labels": [
+          {
+            "value": "Repušnica"
+          }
+        ],
         "railway": "halt",
         "id": "node/3326230008"
       },
@@ -6459,7 +8146,11 @@
       "type": "Feature",
       "id": "node/3671459717",
       "properties": {
-        "name": "Kaštel Kambelovac",
+        "labels": [
+          {
+            "value": "Kaštel Kambelovac"
+          }
+        ],
         "railway": "halt",
         "id": "node/3671459717"
       },
@@ -6475,7 +8166,11 @@
       "type": "Feature",
       "id": "node/3673522294",
       "properties": {
-        "name": "Vinkovačko Novo Selo",
+        "labels": [
+          {
+            "value": "Vinkovačko Novo Selo"
+          }
+        ],
         "railway": "halt",
         "id": "node/3673522294"
       },
@@ -6491,7 +8186,11 @@
       "type": "Feature",
       "id": "node/3717635961",
       "properties": {
-        "name": "Haganj",
+        "labels": [
+          {
+            "value": "Haganj"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "id": "node/3717635961"
@@ -6508,7 +8207,11 @@
       "type": "Feature",
       "id": "node/3717635962",
       "properties": {
-        "name": "Lubena",
+        "labels": [
+          {
+            "value": "Lubena"
+          }
+        ],
         "railway": "halt",
         "id": "node/3717635962"
       },
@@ -6524,7 +8227,11 @@
       "type": "Feature",
       "id": "node/3717635963",
       "properties": {
-        "name": "Remetinec Križevački",
+        "labels": [
+          {
+            "value": "Remetinec Križevački"
+          }
+        ],
         "railway": "halt",
         "id": "node/3717635963"
       },
@@ -6540,7 +8247,11 @@
       "type": "Feature",
       "id": "node/3887743505",
       "properties": {
-        "name": "Zarilac",
+        "labels": [
+          {
+            "value": "Zarilac"
+          }
+        ],
         "railway": "halt",
         "id": "node/3887743505"
       },
@@ -6556,7 +8267,11 @@
       "type": "Feature",
       "id": "node/3887743886",
       "properties": {
-        "name": "Ciglenik",
+        "labels": [
+          {
+            "value": "Ciglenik"
+          }
+        ],
         "railway": "halt",
         "id": "node/3887743886"
       },
@@ -6572,7 +8287,11 @@
       "type": "Feature",
       "id": "node/3887743917",
       "properties": {
-        "name": "Knežci",
+        "labels": [
+          {
+            "value": "Knežci"
+          }
+        ],
         "railway": "halt",
         "id": "node/3887743917"
       },
@@ -6588,12 +8307,20 @@
       "type": "Feature",
       "id": "node/3898533466",
       "properties": {
-        "name": "Vratišinec",
+        "labels": [
+          {
+            "value": "Vratišinec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
-        "wikidata": "Q88685448",
-        "id": "node/3898533466"
+        "id": "node/3898533466",
+        "PWIKI": [
+          {
+            "value": "Q88685448"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6607,7 +8334,11 @@
       "type": "Feature",
       "id": "node/3898868418",
       "properties": {
-        "name": "Čakovec-Buzovec",
+        "labels": [
+          {
+            "value": "Čakovec-Buzovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6625,7 +8356,11 @@
       "type": "Feature",
       "id": "node/3898868419",
       "properties": {
-        "name": "Čakovec-Buzovec",
+        "labels": [
+          {
+            "value": "Čakovec-Buzovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6643,12 +8378,20 @@
       "type": "Feature",
       "id": "node/3898930258",
       "properties": {
-        "name": "Čakovec",
+        "labels": [
+          {
+            "value": "Čakovec"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "wikidata": "Q72372265",
-        "id": "node/3898930258"
+        "id": "node/3898930258",
+        "PWIKI": [
+          {
+            "value": "Q72372265"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -6662,7 +8405,11 @@
       "type": "Feature",
       "id": "node/3903605142",
       "properties": {
-        "name": "Varaždin",
+        "labels": [
+          {
+            "value": "Varaždin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6680,7 +8427,11 @@
       "type": "Feature",
       "id": "node/3903605146",
       "properties": {
-        "name": "Varaždin",
+        "labels": [
+          {
+            "value": "Varaždin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6698,7 +8449,11 @@
       "type": "Feature",
       "id": "node/3903605147",
       "properties": {
-        "name": "Varaždin",
+        "labels": [
+          {
+            "value": "Varaždin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6716,7 +8471,11 @@
       "type": "Feature",
       "id": "node/3903605148",
       "properties": {
-        "name": "Varaždin",
+        "labels": [
+          {
+            "value": "Varaždin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6734,7 +8493,11 @@
       "type": "Feature",
       "id": "node/3903618528",
       "properties": {
-        "name": "Turčin",
+        "labels": [
+          {
+            "value": "Turčin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6752,7 +8515,11 @@
       "type": "Feature",
       "id": "node/3903618529",
       "properties": {
-        "name": "Turčin",
+        "labels": [
+          {
+            "value": "Turčin"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -6770,7 +8537,11 @@
       "type": "Feature",
       "id": "node/3907195617",
       "properties": {
-        "name": "Zbelava",
+        "labels": [
+          {
+            "value": "Zbelava"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -6788,7 +8559,11 @@
       "type": "Feature",
       "id": "node/3913364258",
       "properties": {
-        "name": "Novi Marof",
+        "labels": [
+          {
+            "value": "Novi Marof"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6806,7 +8581,11 @@
       "type": "Feature",
       "id": "node/3913368315",
       "properties": {
-        "name": "Mađarevo",
+        "labels": [
+          {
+            "value": "Mađarevo"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -6824,7 +8603,11 @@
       "type": "Feature",
       "id": "node/3921879095",
       "properties": {
-        "name": "Golubovec",
+        "labels": [
+          {
+            "value": "Golubovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6842,7 +8625,11 @@
       "type": "Feature",
       "id": "node/3978724057",
       "properties": {
-        "name": "Buzin",
+        "labels": [
+          {
+            "value": "Buzin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -6860,7 +8647,11 @@
       "type": "Feature",
       "id": "node/4196590088",
       "properties": {
-        "name": "Brdašce",
+        "labels": [
+          {
+            "value": "Brdašce"
+          }
+        ],
         "railway": "halt",
         "id": "node/4196590088"
       },
@@ -6876,7 +8667,11 @@
       "type": "Feature",
       "id": "node/4196829016",
       "properties": {
-        "name": "Pristava Krapinska",
+        "labels": [
+          {
+            "value": "Pristava Krapinska"
+          }
+        ],
         "railway": "halt",
         "id": "node/4196829016"
       },
@@ -6892,7 +8687,11 @@
       "type": "Feature",
       "id": "node/4196846137",
       "properties": {
-        "name": "Cret Bizovački",
+        "labels": [
+          {
+            "value": "Cret Bizovački"
+          }
+        ],
         "railway": "halt",
         "id": "node/4196846137"
       },
@@ -6908,7 +8707,11 @@
       "type": "Feature",
       "id": "node/4196847403",
       "properties": {
-        "name": "Osijek Luka",
+        "labels": [
+          {
+            "value": "Osijek Luka"
+          }
+        ],
         "railway": "halt",
         "id": "node/4196847403"
       },
@@ -6924,7 +8727,11 @@
       "type": "Feature",
       "id": "node/4196871138",
       "properties": {
-        "name": "Vinkovci Bolnica",
+        "labels": [
+          {
+            "value": "Vinkovci Bolnica"
+          }
+        ],
         "railway": "halt",
         "id": "node/4196871138"
       },
@@ -6940,7 +8747,11 @@
       "type": "Feature",
       "id": "node/4244472637",
       "properties": {
-        "name": "Učka",
+        "labels": [
+          {
+            "value": "Učka"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "stop",
         "train": "yes",
@@ -6958,7 +8769,11 @@
       "type": "Feature",
       "id": "node/4497688780",
       "properties": {
-        "name": "Gunja",
+        "labels": [
+          {
+            "value": "Gunja"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6976,7 +8791,11 @@
       "type": "Feature",
       "id": "node/4498401459",
       "properties": {
-        "name": "Beli Manastir",
+        "labels": [
+          {
+            "value": "Beli Manastir"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -6994,7 +8813,11 @@
       "type": "Feature",
       "id": "node/4563241399",
       "properties": {
-        "name": "Ilača",
+        "labels": [
+          {
+            "value": "Ilača"
+          }
+        ],
         "railway": "halt",
         "id": "node/4563241399"
       },
@@ -7010,7 +8833,11 @@
       "type": "Feature",
       "id": "node/4568916303",
       "properties": {
-        "name": "Rukavac",
+        "labels": [
+          {
+            "value": "Rukavac"
+          }
+        ],
         "railway": "halt",
         "id": "node/4568916303"
       },
@@ -7026,7 +8853,11 @@
       "type": "Feature",
       "id": "node/4689372083",
       "properties": {
-        "name": "Laduč",
+        "labels": [
+          {
+            "value": "Laduč"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "halt",
         "train": "yes",
@@ -7044,7 +8875,11 @@
       "type": "Feature",
       "id": "node/4841749358",
       "properties": {
-        "name": "Prgomet",
+        "labels": [
+          {
+            "value": "Prgomet"
+          }
+        ],
         "railway": "halt",
         "train": "yes",
         "id": "node/4841749358"
@@ -7061,7 +8896,11 @@
       "type": "Feature",
       "id": "node/4857757758",
       "properties": {
-        "name": "Savski Marof",
+        "labels": [
+          {
+            "value": "Savski Marof"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7079,7 +8918,11 @@
       "type": "Feature",
       "id": "node/4857757759",
       "properties": {
-        "name": "Zagreb Glavni kolodvor",
+        "labels": [
+          {
+            "value": "Zagreb Glavni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7097,7 +8940,11 @@
       "type": "Feature",
       "id": "node/4857757761",
       "properties": {
-        "name": "Zagreb Glavni kolodvor",
+        "labels": [
+          {
+            "value": "Zagreb Glavni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7115,7 +8962,11 @@
       "type": "Feature",
       "id": "node/4857757762",
       "properties": {
-        "name": "Savski Marof",
+        "labels": [
+          {
+            "value": "Savski Marof"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7133,6 +8984,7 @@
       "type": "Feature",
       "id": "node/5054150238",
       "properties": {
+        "labels": [],
         "public_transport": "station",
         "id": "node/5054150238"
       },
@@ -7148,7 +9000,11 @@
       "type": "Feature",
       "id": "node/5132947550",
       "properties": {
-        "name": "Split Predgrađe",
+        "labels": [
+          {
+            "value": "Split Predgrađe"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7166,6 +9022,7 @@
       "type": "Feature",
       "id": "node/5317295124",
       "properties": {
+        "labels": [],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7183,6 +9040,7 @@
       "type": "Feature",
       "id": "node/5317295135",
       "properties": {
+        "labels": [],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7200,7 +9058,11 @@
       "type": "Feature",
       "id": "node/5337694638",
       "properties": {
-        "name": "Vrbovec",
+        "labels": [
+          {
+            "value": "Vrbovec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7218,7 +9080,11 @@
       "type": "Feature",
       "id": "node/5376798402",
       "properties": {
-        "name": "Novi Marof",
+        "labels": [
+          {
+            "value": "Novi Marof"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -7236,7 +9102,11 @@
       "type": "Feature",
       "id": "node/5554423580",
       "properties": {
-        "name": "Majurec",
+        "labels": [
+          {
+            "value": "Majurec"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7254,7 +9124,11 @@
       "type": "Feature",
       "id": "node/5554430195",
       "properties": {
-        "name": "Sesvetski Kraljevec",
+        "labels": [
+          {
+            "value": "Sesvetski Kraljevec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7272,7 +9146,11 @@
       "type": "Feature",
       "id": "node/5554430673",
       "properties": {
-        "name": "Sesvetski Kraljevec",
+        "labels": [
+          {
+            "value": "Sesvetski Kraljevec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7290,7 +9168,11 @@
       "type": "Feature",
       "id": "node/5554942549",
       "properties": {
-        "name": "Širinec",
+        "labels": [
+          {
+            "value": "Širinec"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7308,7 +9190,11 @@
       "type": "Feature",
       "id": "node/5554947864",
       "properties": {
-        "name": "Voloder",
+        "labels": [
+          {
+            "value": "Voloder"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7326,7 +9212,11 @@
       "type": "Feature",
       "id": "node/5554955397",
       "properties": {
-        "name": "Stara Subocka",
+        "labels": [
+          {
+            "value": "Stara Subocka"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7344,7 +9234,11 @@
       "type": "Feature",
       "id": "node/5554959462",
       "properties": {
-        "name": "Rajić",
+        "labels": [
+          {
+            "value": "Rajić"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7362,12 +9256,20 @@
       "type": "Feature",
       "id": "node/5554981303",
       "properties": {
-        "name": "Staro Petrovo Selo",
+        "labels": [
+          {
+            "value": "Staro Petrovo Selo"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "wikidata": "Q38251848",
-        "id": "node/5554981303"
+        "id": "node/5554981303",
+        "PWIKI": [
+          {
+            "value": "Q38251848"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -7381,7 +9283,11 @@
       "type": "Feature",
       "id": "node/5555014541",
       "properties": {
-        "name": "Vrbova",
+        "labels": [
+          {
+            "value": "Vrbova"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7399,7 +9305,11 @@
       "type": "Feature",
       "id": "node/5555027228",
       "properties": {
-        "name": "Dragovci",
+        "labels": [
+          {
+            "value": "Dragovci"
+          }
+        ],
         "railway": "halt",
         "id": "node/5555027228"
       },
@@ -7415,7 +9325,11 @@
       "type": "Feature",
       "id": "node/5555032825",
       "properties": {
-        "name": "Bučje-Koprivnica",
+        "labels": [
+          {
+            "value": "Bučje-Koprivnica"
+          }
+        ],
         "railway": "halt",
         "id": "node/5555032825"
       },
@@ -7431,7 +9345,11 @@
       "type": "Feature",
       "id": "node/5555037636",
       "properties": {
-        "name": "Sulkovci",
+        "labels": [
+          {
+            "value": "Sulkovci"
+          }
+        ],
         "railway": "halt",
         "id": "node/5555037636"
       },
@@ -7447,7 +9365,11 @@
       "type": "Feature",
       "id": "node/5555057415",
       "properties": {
-        "name": "Lužani-Malino",
+        "labels": [
+          {
+            "value": "Lužani-Malino"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7465,7 +9387,11 @@
       "type": "Feature",
       "id": "node/5555063929",
       "properties": {
-        "name": "Brodski Stupnik",
+        "labels": [
+          {
+            "value": "Brodski Stupnik"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7483,7 +9409,11 @@
       "type": "Feature",
       "id": "node/5555064463",
       "properties": {
-        "name": "Kuti",
+        "labels": [
+          {
+            "value": "Kuti"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7501,7 +9431,11 @@
       "type": "Feature",
       "id": "node/5555064464",
       "properties": {
-        "name": "Kuti",
+        "labels": [
+          {
+            "value": "Kuti"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7519,12 +9453,20 @@
       "type": "Feature",
       "id": "node/5555067128",
       "properties": {
-        "name": "Sibinj",
+        "labels": [
+          {
+            "value": "Sibinj"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "wikidata": "Q38251735",
-        "id": "node/5555067128"
+        "id": "node/5555067128",
+        "PWIKI": [
+          {
+            "value": "Q38251735"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -7538,7 +9480,11 @@
       "type": "Feature",
       "id": "node/5555068020",
       "properties": {
-        "name": "Stari Slatinik",
+        "labels": [
+          {
+            "value": "Stari Slatinik"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7556,7 +9502,11 @@
       "type": "Feature",
       "id": "node/5555068021",
       "properties": {
-        "name": "Stari Slatinik",
+        "labels": [
+          {
+            "value": "Stari Slatinik"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7574,7 +9524,11 @@
       "type": "Feature",
       "id": "node/5555071892",
       "properties": {
-        "name": "Slobodnica",
+        "labels": [
+          {
+            "value": "Slobodnica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7592,7 +9546,11 @@
       "type": "Feature",
       "id": "node/5555074341",
       "properties": {
-        "name": "Donja Vrba",
+        "labels": [
+          {
+            "value": "Donja Vrba"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7610,7 +9568,11 @@
       "type": "Feature",
       "id": "node/5555075018",
       "properties": {
-        "name": "Zadubravlje",
+        "labels": [
+          {
+            "value": "Zadubravlje"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -7628,7 +9590,11 @@
       "type": "Feature",
       "id": "node/5555091790",
       "properties": {
-        "name": "Staro Topolje",
+        "labels": [
+          {
+            "value": "Staro Topolje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7646,7 +9612,11 @@
       "type": "Feature",
       "id": "node/5555175939",
       "properties": {
-        "name": "Veliko Trgovišće",
+        "labels": [
+          {
+            "value": "Veliko Trgovišće"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -7664,7 +9634,11 @@
       "type": "Feature",
       "id": "node/5555179053",
       "properties": {
-        "name": "Donja Stubica",
+        "labels": [
+          {
+            "value": "Donja Stubica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7682,7 +9656,11 @@
       "type": "Feature",
       "id": "node/5555190667",
       "properties": {
-        "name": "Oroslavje",
+        "labels": [
+          {
+            "value": "Oroslavje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7700,7 +9678,11 @@
       "type": "Feature",
       "id": "node/5555191655",
       "properties": {
-        "name": "Stubičke Toplice",
+        "labels": [
+          {
+            "value": "Stubičke Toplice"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7718,7 +9700,11 @@
       "type": "Feature",
       "id": "node/5593325964",
       "properties": {
-        "name": "Poljana",
+        "labels": [
+          {
+            "value": "Poljana"
+          }
+        ],
         "railway": "halt",
         "id": "node/5593325964"
       },
@@ -7734,15 +9720,34 @@
       "type": "Feature",
       "id": "node/5627130421",
       "properties": {
-        "name": "Zagreb Zapadni kolodvor",
-        "name:de": "Zagreb Westbahnhof",
+        "labels": [
+          {
+            "value": "Zagreb Westbahnhof",
+            "lang": "de"
+          },
+          {
+            "value": "Zagreb Zapadni kolodvor"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
-        "platforms": "4",
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "74060",
-        "wikidata": "Q12645488",
-        "id": "node/5627130421"
+        "id": "node/5627130421",
+        "P1103": [
+          {
+            "value": "4"
+          }
+        ],
+        "P722": [
+          {
+            "value": "74060"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12645488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -7756,7 +9761,11 @@
       "type": "Feature",
       "id": "node/5627130422",
       "properties": {
-        "name": "Zagreb Glavni kolodvor",
+        "labels": [
+          {
+            "value": "Zagreb Glavni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7774,7 +9783,11 @@
       "type": "Feature",
       "id": "node/5627130423",
       "properties": {
-        "name": "Zagreb Glavni kolodvor",
+        "labels": [
+          {
+            "value": "Zagreb Glavni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7792,7 +9805,11 @@
       "type": "Feature",
       "id": "node/5627130424",
       "properties": {
-        "name": "Zagreb Glavni kolodvor",
+        "labels": [
+          {
+            "value": "Zagreb Glavni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7810,17 +9827,43 @@
       "type": "Feature",
       "id": "node/5627130425",
       "properties": {
-        "name": "Zagreb Glavni kolodvor",
-        "name:de": "Zagreb Hauptbahnhof",
-        "name:en": "Zagreb Central Railway Station",
+        "labels": [
+          {
+            "value": "Zagreb Hauptbahnhof",
+            "lang": "de"
+          },
+          {
+            "value": "Zagreb Central Railway Station",
+            "lang": "en"
+          },
+          {
+            "value": "Zagreb Glavni kolodvor"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
-        "platforms": "5",
         "public_transport": "station",
         "railway": "station",
-        "railway:ref": "ZG",
-        "uic_ref": "72480",
-        "wikidata": "Q140377",
-        "id": "node/5627130425"
+        "id": "node/5627130425",
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ZG"
+          }
+        ],
+        "P722": [
+          {
+            "value": "72480"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q140377"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -7834,15 +9877,19 @@
       "type": "Feature",
       "id": "node/5627328392",
       "properties": {
-        "name": "Osijek OLT",
+        "labels": [
+          {
+            "value": "Osijek OLT"
+          }
+        ],
         "railway": "halt",
         "id": "node/5627328392"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7054399,
-          45.5541345
+          18.7054475,
+          45.5541416
         ]
       }
     },
@@ -7850,7 +9897,11 @@
       "type": "Feature",
       "id": "node/5660705256",
       "properties": {
-        "name": "Dugo Selo",
+        "labels": [
+          {
+            "value": "Dugo Selo"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "station",
         "railway": "station",
@@ -7868,12 +9919,20 @@
       "type": "Feature",
       "id": "node/5661201720",
       "properties": {
-        "name": "Sesvete",
+        "labels": [
+          {
+            "value": "Sesvete"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "station",
         "railway": "station",
-        "uic_ref": "72402",
-        "id": "node/5661201720"
+        "id": "node/5661201720",
+        "P722": [
+          {
+            "value": "72402"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -7887,8 +9946,13 @@
       "type": "Feature",
       "id": "node/5661204727",
       "properties": {
-        "name": "Velika Gorica",
+        "labels": [
+          {
+            "value": "Velika Gorica"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
+        "public_transport": "station",
         "railway": "station",
         "id": "node/5661204727"
       },
@@ -7904,12 +9968,20 @@
       "type": "Feature",
       "id": "node/5666635940",
       "properties": {
-        "name": "Stari Mikanovci",
+        "labels": [
+          {
+            "value": "Stari Mikanovci"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "station",
         "railway": "station",
-        "wikidata": "Q30626953",
-        "id": "node/5666635940"
+        "id": "node/5666635940",
+        "PWIKI": [
+          {
+            "value": "Q30626953"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -7923,11 +9995,19 @@
       "type": "Feature",
       "id": "node/5668463169",
       "properties": {
-        "name": "Banova Jaruga",
+        "labels": [
+          {
+            "value": "Banova Jaruga"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "station",
-        "wikidata": "Q38251859",
-        "id": "node/5668463169"
+        "id": "node/5668463169",
+        "PWIKI": [
+          {
+            "value": "Q38251859"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -7941,7 +10021,11 @@
       "type": "Feature",
       "id": "node/5668784532",
       "properties": {
-        "name": "Hum u Istri",
+        "labels": [
+          {
+            "value": "Hum u Istri"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/5668784532"
@@ -7958,7 +10042,11 @@
       "type": "Feature",
       "id": "node/5703028925",
       "properties": {
-        "name": "Laslovo-Korođ",
+        "labels": [
+          {
+            "value": "Laslovo-Korođ"
+          }
+        ],
         "railway": "halt",
         "id": "node/5703028925"
       },
@@ -7974,7 +10062,11 @@
       "type": "Feature",
       "id": "node/5732671022",
       "properties": {
-        "name": "Osijek Donji Grad",
+        "labels": [
+          {
+            "value": "Osijek Donji Grad"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -7992,7 +10084,11 @@
       "type": "Feature",
       "id": "node/5783733389",
       "properties": {
-        "name": "Sesvetski Kraljevec",
+        "labels": [
+          {
+            "value": "Sesvetski Kraljevec"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -8010,7 +10106,11 @@
       "type": "Feature",
       "id": "node/5799640558",
       "properties": {
-        "name": "Osijek",
+        "labels": [
+          {
+            "value": "Osijek"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8028,7 +10128,11 @@
       "type": "Feature",
       "id": "node/5807966067",
       "properties": {
-        "name": "Osijek",
+        "labels": [
+          {
+            "value": "Osijek"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8046,7 +10150,11 @@
       "type": "Feature",
       "id": "node/5807966068",
       "properties": {
-        "name": "Osijek",
+        "labels": [
+          {
+            "value": "Osijek"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8064,7 +10172,11 @@
       "type": "Feature",
       "id": "node/5858683522",
       "properties": {
-        "name": "Knin",
+        "labels": [
+          {
+            "value": "Knin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8082,7 +10194,11 @@
       "type": "Feature",
       "id": "node/6015077431",
       "properties": {
-        "name": "Zadar",
+        "labels": [
+          {
+            "value": "Zadar"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8100,7 +10216,11 @@
       "type": "Feature",
       "id": "node/6015077432",
       "properties": {
-        "name": "Zadar",
+        "labels": [
+          {
+            "value": "Zadar"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8118,7 +10238,11 @@
       "type": "Feature",
       "id": "node/6017443506",
       "properties": {
-        "name": "Kanfanar",
+        "labels": [
+          {
+            "value": "Kanfanar"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8136,7 +10260,11 @@
       "type": "Feature",
       "id": "node/6017526790",
       "properties": {
-        "name": "Novaki",
+        "labels": [
+          {
+            "value": "Novaki"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "halt",
         "id": "node/6017526790"
@@ -8153,7 +10281,11 @@
       "type": "Feature",
       "id": "node/6017526792",
       "properties": {
-        "name": "Cerovlje",
+        "labels": [
+          {
+            "value": "Cerovlje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8171,7 +10303,11 @@
       "type": "Feature",
       "id": "node/6017526797",
       "properties": {
-        "name": "Borut",
+        "labels": [
+          {
+            "value": "Borut"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "public_transport": "stop_position",
         "railway": "stop",
@@ -8190,7 +10326,11 @@
       "type": "Feature",
       "id": "node/6017558052",
       "properties": {
-        "name": "Lupoglav",
+        "labels": [
+          {
+            "value": "Lupoglav"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8208,7 +10348,11 @@
       "type": "Feature",
       "id": "node/6019184469",
       "properties": {
-        "name": "Velika",
+        "labels": [
+          {
+            "value": "Velika"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8226,7 +10370,11 @@
       "type": "Feature",
       "id": "node/6019205474",
       "properties": {
-        "name": "Višnjevac",
+        "labels": [
+          {
+            "value": "Višnjevac"
+          }
+        ],
         "railway": "halt",
         "id": "node/6019205474"
       },
@@ -8242,7 +10390,11 @@
       "type": "Feature",
       "id": "node/6067201006",
       "properties": {
-        "name": "Ploče",
+        "labels": [
+          {
+            "value": "Ploče"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8260,7 +10412,11 @@
       "type": "Feature",
       "id": "node/6067201007",
       "properties": {
-        "name": "Ploče",
+        "labels": [
+          {
+            "value": "Ploče"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8278,7 +10434,11 @@
       "type": "Feature",
       "id": "node/6096088489",
       "properties": {
-        "name": "Savski Marof",
+        "labels": [
+          {
+            "value": "Savski Marof"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8296,7 +10456,11 @@
       "type": "Feature",
       "id": "node/6100443253",
       "properties": {
-        "name": "Našice Grad",
+        "labels": [
+          {
+            "value": "Našice Grad"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8314,7 +10478,11 @@
       "type": "Feature",
       "id": "node/6135964584",
       "properties": {
-        "name": "Darda",
+        "labels": [
+          {
+            "value": "Darda"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8332,7 +10500,11 @@
       "type": "Feature",
       "id": "node/6135964685",
       "properties": {
-        "name": "Čeminac",
+        "labels": [
+          {
+            "value": "Čeminac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8350,7 +10522,11 @@
       "type": "Feature",
       "id": "node/6171705887",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8368,7 +10544,11 @@
       "type": "Feature",
       "id": "node/6171705888",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8386,7 +10566,11 @@
       "type": "Feature",
       "id": "node/6171705889",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8404,7 +10588,11 @@
       "type": "Feature",
       "id": "node/6171705890",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8422,7 +10610,11 @@
       "type": "Feature",
       "id": "node/6175287172",
       "properties": {
-        "name": "Split",
+        "labels": [
+          {
+            "value": "Split"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8440,7 +10632,11 @@
       "type": "Feature",
       "id": "node/6273084709",
       "properties": {
-        "name": "Bjelovar",
+        "labels": [
+          {
+            "value": "Bjelovar"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8458,7 +10654,11 @@
       "type": "Feature",
       "id": "node/6386177172",
       "properties": {
-        "name": "Mursko Središće",
+        "labels": [
+          {
+            "value": "Mursko Središće"
+          }
+        ],
         "railway": "halt",
         "train": "yes",
         "id": "node/6386177172"
@@ -8475,7 +10675,11 @@
       "type": "Feature",
       "id": "node/6396975612",
       "properties": {
-        "name": "Slobodnica",
+        "labels": [
+          {
+            "value": "Slobodnica"
+          }
+        ],
         "railway": "halt",
         "id": "node/6396975612"
       },
@@ -8491,7 +10695,11 @@
       "type": "Feature",
       "id": "node/6420545345",
       "properties": {
-        "name": "Novska",
+        "labels": [
+          {
+            "value": "Novska"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8509,7 +10717,11 @@
       "type": "Feature",
       "id": "node/6766023828",
       "properties": {
-        "name": "Opatija - Matulji",
+        "labels": [
+          {
+            "value": "Opatija - Matulji"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8527,7 +10739,11 @@
       "type": "Feature",
       "id": "node/6793890665",
       "properties": {
-        "name": "Osijek",
+        "labels": [
+          {
+            "value": "Osijek"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8545,8 +10761,15 @@
       "type": "Feature",
       "id": "node/6971668883",
       "properties": {
-        "name": "Zagreb zapadni kolodvor",
-        "name:de": "Zagreb Westbahnhof",
+        "labels": [
+          {
+            "value": "Zagreb Westbahnhof",
+            "lang": "de"
+          },
+          {
+            "value": "Zagreb zapadni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8564,7 +10787,11 @@
       "type": "Feature",
       "id": "node/6972681604",
       "properties": {
-        "name": "Zaprešić",
+        "labels": [
+          {
+            "value": "Zaprešić"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8582,7 +10809,11 @@
       "type": "Feature",
       "id": "node/6972681605",
       "properties": {
-        "name": "Zaprešić",
+        "labels": [
+          {
+            "value": "Zaprešić"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8600,7 +10831,11 @@
       "type": "Feature",
       "id": "node/6974308076",
       "properties": {
-        "name": "Zdenčina",
+        "labels": [
+          {
+            "value": "Zdenčina"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8618,7 +10853,11 @@
       "type": "Feature",
       "id": "node/6996187455",
       "properties": {
-        "name": "Sveti Ivan Žabno",
+        "labels": [
+          {
+            "value": "Sveti Ivan Žabno"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8636,7 +10875,11 @@
       "type": "Feature",
       "id": "node/6996187456",
       "properties": {
-        "name": "Sveti Ivan Žabno",
+        "labels": [
+          {
+            "value": "Sveti Ivan Žabno"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8654,7 +10897,11 @@
       "type": "Feature",
       "id": "node/6996187457",
       "properties": {
-        "name": "Sveti Ivan Žabno",
+        "labels": [
+          {
+            "value": "Sveti Ivan Žabno"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8672,7 +10919,11 @@
       "type": "Feature",
       "id": "node/6996853936",
       "properties": {
-        "name": "Repinec",
+        "labels": [
+          {
+            "value": "Repinec"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8690,7 +10941,11 @@
       "type": "Feature",
       "id": "node/6996853947",
       "properties": {
-        "name": "Repinec",
+        "labels": [
+          {
+            "value": "Repinec"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -8708,7 +10963,11 @@
       "type": "Feature",
       "id": "node/7236736870",
       "properties": {
-        "name": "Bulić",
+        "labels": [
+          {
+            "value": "Bulić"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8726,7 +10985,11 @@
       "type": "Feature",
       "id": "node/7236736874",
       "properties": {
-        "name": "Lepuri",
+        "labels": [
+          {
+            "value": "Lepuri"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8744,7 +11007,11 @@
       "type": "Feature",
       "id": "node/7252539066",
       "properties": {
-        "name": "Đulovac",
+        "labels": [
+          {
+            "value": "Đulovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8762,7 +11029,11 @@
       "type": "Feature",
       "id": "node/7264716030",
       "properties": {
-        "name": "Zabok kolosijek 3",
+        "labels": [
+          {
+            "value": "Zabok kolosijek 3"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8780,7 +11051,11 @@
       "type": "Feature",
       "id": "node/7297078704",
       "properties": {
-        "name": "Šibenik",
+        "labels": [
+          {
+            "value": "Šibenik"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8798,7 +11073,11 @@
       "type": "Feature",
       "id": "node/7306790859",
       "properties": {
-        "name": "Lič",
+        "labels": [
+          {
+            "value": "Lič"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8816,7 +11095,11 @@
       "type": "Feature",
       "id": "node/7313649278",
       "properties": {
-        "name": "Borovo-Trpinja",
+        "labels": [
+          {
+            "value": "Borovo-Trpinja"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8834,7 +11117,11 @@
       "type": "Feature",
       "id": "node/7340366367",
       "properties": {
-        "name": "Čaglin",
+        "labels": [
+          {
+            "value": "Čaglin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8852,17 +11139,21 @@
       "type": "Feature",
       "id": "node/7352125554",
       "properties": {
-        "name": "Pitomača",
-        "public_transport": "stop_position",
-        "railway": "stop",
+        "labels": [
+          {
+            "value": "Pitomača"
+          }
+        ],
+        "public_transport": "station",
+        "railway": "station",
         "train": "yes",
         "id": "node/7352125554"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2296339,
-          45.9425588
+          17.2294901,
+          45.9425707
         ]
       }
     },
@@ -8870,7 +11161,11 @@
       "type": "Feature",
       "id": "node/7396228397",
       "properties": {
-        "name": "Đevrske",
+        "labels": [
+          {
+            "value": "Đevrske"
+          }
+        ],
         "public_transport": "station",
         "railway": "stop",
         "train": "yes",
@@ -8888,7 +11183,11 @@
       "type": "Feature",
       "id": "node/7415711752",
       "properties": {
-        "name": "Tovarnik",
+        "labels": [
+          {
+            "value": "Tovarnik"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8906,9 +11205,19 @@
       "type": "Feature",
       "id": "node/7419105270",
       "properties": {
-        "name": "Donji Kraljevec",
-        "name:de": "Nieder Kraliewitz",
-        "name:hu": "Murakirály",
+        "labels": [
+          {
+            "value": "Nieder Kraliewitz",
+            "lang": "de"
+          },
+          {
+            "value": "Murakirály",
+            "lang": "hu"
+          },
+          {
+            "value": "Donji Kraljevec"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/7419105270"
@@ -8925,7 +11234,11 @@
       "type": "Feature",
       "id": "node/7419390634",
       "properties": {
-        "name": "Donja Vrijeska",
+        "labels": [
+          {
+            "value": "Donja Vrijeska"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -8943,7 +11256,11 @@
       "type": "Feature",
       "id": "node/7423782670",
       "properties": {
-        "name": "Nuštar Stajalište",
+        "labels": [
+          {
+            "value": "Nuštar Stajalište"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8961,7 +11278,11 @@
       "type": "Feature",
       "id": "node/7442890836",
       "properties": {
-        "name": "Mraclin",
+        "labels": [
+          {
+            "value": "Mraclin"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8979,7 +11300,11 @@
       "type": "Feature",
       "id": "node/7448732773",
       "properties": {
-        "name": "Luka",
+        "labels": [
+          {
+            "value": "Luka"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -8997,7 +11322,11 @@
       "type": "Feature",
       "id": "node/7471086278",
       "properties": {
-        "name": "Gornji Zvečaj",
+        "labels": [
+          {
+            "value": "Gornji Zvečaj"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9015,7 +11344,11 @@
       "type": "Feature",
       "id": "node/7471929784",
       "properties": {
-        "name": "Gomirje",
+        "labels": [
+          {
+            "value": "Gomirje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9033,7 +11366,11 @@
       "type": "Feature",
       "id": "node/7473795214",
       "properties": {
-        "name": "Grginac",
+        "labels": [
+          {
+            "value": "Grginac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9051,7 +11388,11 @@
       "type": "Feature",
       "id": "node/7474405677",
       "properties": {
-        "name": "Graboštani",
+        "labels": [
+          {
+            "value": "Graboštani"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9069,7 +11410,11 @@
       "type": "Feature",
       "id": "node/7529486142",
       "properties": {
-        "name": "Kalinovac",
+        "labels": [
+          {
+            "value": "Kalinovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9087,7 +11432,11 @@
       "type": "Feature",
       "id": "node/7542362666",
       "properties": {
-        "name": "Koprno",
+        "labels": [
+          {
+            "value": "Koprno"
+          }
+        ],
         "railway": "halt",
         "id": "node/7542362666"
       },
@@ -9103,7 +11452,11 @@
       "type": "Feature",
       "id": "node/7552490957",
       "properties": {
-        "name": "Ladimirevci",
+        "labels": [
+          {
+            "value": "Ladimirevci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9121,7 +11474,11 @@
       "type": "Feature",
       "id": "node/7556969881",
       "properties": {
-        "name": "Lipovac-Koritna",
+        "labels": [
+          {
+            "value": "Lipovac-Koritna"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9139,7 +11496,11 @@
       "type": "Feature",
       "id": "node/7615810774",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9157,7 +11518,11 @@
       "type": "Feature",
       "id": "node/7636454415",
       "properties": {
-        "name": "Novi Dvori",
+        "labels": [
+          {
+            "value": "Novi Dvori"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9175,7 +11540,11 @@
       "type": "Feature",
       "id": "node/7651633783",
       "properties": {
-        "name": "Vukovar-Borovo naselje",
+        "labels": [
+          {
+            "value": "Vukovar-Borovo naselje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9193,7 +11562,11 @@
       "type": "Feature",
       "id": "node/7658869490",
       "properties": {
-        "name": "Otok",
+        "labels": [
+          {
+            "value": "Otok"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9211,7 +11584,11 @@
       "type": "Feature",
       "id": "node/7658930334",
       "properties": {
-        "name": "Ozalj",
+        "labels": [
+          {
+            "value": "Ozalj"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -9229,7 +11606,11 @@
       "type": "Feature",
       "id": "node/7689172920",
       "properties": {
-        "name": "Pešćenica",
+        "labels": [
+          {
+            "value": "Pešćenica"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9247,7 +11628,11 @@
       "type": "Feature",
       "id": "node/7690879077",
       "properties": {
-        "name": "Perkovci",
+        "labels": [
+          {
+            "value": "Perkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9265,7 +11650,11 @@
       "type": "Feature",
       "id": "node/7690879078",
       "properties": {
-        "name": "Perkovci",
+        "labels": [
+          {
+            "value": "Perkovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9283,7 +11672,11 @@
       "type": "Feature",
       "id": "node/7703758192",
       "properties": {
-        "name": "Planjane",
+        "labels": [
+          {
+            "value": "Planjane"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9301,7 +11694,11 @@
       "type": "Feature",
       "id": "node/7745155536",
       "properties": {
-        "name": "Ražine",
+        "labels": [
+          {
+            "value": "Ražine"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -9319,7 +11716,11 @@
       "type": "Feature",
       "id": "node/7768096923",
       "properties": {
-        "name": "Rasinja",
+        "labels": [
+          {
+            "value": "Rasinja"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9337,7 +11738,11 @@
       "type": "Feature",
       "id": "node/7768096924",
       "properties": {
-        "name": "Rasinja",
+        "labels": [
+          {
+            "value": "Rasinja"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9355,7 +11760,11 @@
       "type": "Feature",
       "id": "node/7777756634",
       "properties": {
-        "name": "Rukavac",
+        "labels": [
+          {
+            "value": "Rukavac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9373,7 +11782,11 @@
       "type": "Feature",
       "id": "node/7782153848",
       "properties": {
-        "name": "Šaš",
+        "labels": [
+          {
+            "value": "Šaš"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9391,7 +11804,11 @@
       "type": "Feature",
       "id": "node/7787550134",
       "properties": {
-        "name": "Zagreb Glavni kolodvor",
+        "labels": [
+          {
+            "value": "Zagreb Glavni kolodvor"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9409,7 +11826,11 @@
       "type": "Feature",
       "id": "node/7813850778",
       "properties": {
-        "name": "Sedramić",
+        "labels": [
+          {
+            "value": "Sedramić"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9427,7 +11848,11 @@
       "type": "Feature",
       "id": "node/7824300381",
       "properties": {
-        "name": "Sirova Katalena",
+        "labels": [
+          {
+            "value": "Sirova Katalena"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9445,7 +11870,11 @@
       "type": "Feature",
       "id": "node/7837129175",
       "properties": {
-        "name": "Škodinovac",
+        "labels": [
+          {
+            "value": "Škodinovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "id": "node/7837129175"
@@ -9462,7 +11891,11 @@
       "type": "Feature",
       "id": "node/7857545795",
       "properties": {
-        "name": "Stupno",
+        "labels": [
+          {
+            "value": "Stupno"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9480,7 +11913,11 @@
       "type": "Feature",
       "id": "node/7924270088",
       "properties": {
-        "name": "Velimirovac",
+        "labels": [
+          {
+            "value": "Velimirovac"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -9498,7 +11935,11 @@
       "type": "Feature",
       "id": "node/7924288408",
       "properties": {
-        "name": "Veliko Trgovišće",
+        "labels": [
+          {
+            "value": "Veliko Trgovišće"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9516,7 +11957,11 @@
       "type": "Feature",
       "id": "node/7925848970",
       "properties": {
-        "name": "Virje",
+        "labels": [
+          {
+            "value": "Virje"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9525,8 +11970,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.0040651,
-          46.0688362
+          17.0040383,
+          46.0688315
         ]
       }
     },
@@ -9534,7 +11979,11 @@
       "type": "Feature",
       "id": "node/7926085413",
       "properties": {
-        "name": "Vinkovački Banovci",
+        "labels": [
+          {
+            "value": "Vinkovački Banovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9552,7 +12001,11 @@
       "type": "Feature",
       "id": "node/7926085414",
       "properties": {
-        "name": "Vinkovački Banovci",
+        "labels": [
+          {
+            "value": "Vinkovački Banovci"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9570,7 +12023,11 @@
       "type": "Feature",
       "id": "node/7932597865",
       "properties": {
-        "name": "Vladislavci",
+        "labels": [
+          {
+            "value": "Vladislavci"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -9588,7 +12045,11 @@
       "type": "Feature",
       "id": "node/7939875455",
       "properties": {
-        "name": "Vojakovački Kloštar",
+        "labels": [
+          {
+            "value": "Vojakovački Kloštar"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
@@ -9606,7 +12067,11 @@
       "type": "Feature",
       "id": "node/7939875456",
       "properties": {
-        "name": "Vojakovački Kloštar",
+        "labels": [
+          {
+            "value": "Vojakovački Kloštar"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9624,7 +12089,11 @@
       "type": "Feature",
       "id": "node/7978791154",
       "properties": {
-        "name": "Tovarnik",
+        "labels": [
+          {
+            "value": "Tovarnik"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9642,7 +12111,11 @@
       "type": "Feature",
       "id": "node/8000065633",
       "properties": {
-        "name": "Mučna Reka",
+        "labels": [
+          {
+            "value": "Mučna Reka"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9660,7 +12133,11 @@
       "type": "Feature",
       "id": "node/8001227088",
       "properties": {
-        "name": "Živaja",
+        "labels": [
+          {
+            "value": "Živaja"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "id": "node/8001227088"
@@ -9677,7 +12154,11 @@
       "type": "Feature",
       "id": "node/8007703731",
       "properties": {
-        "name": "Zorkovac",
+        "labels": [
+          {
+            "value": "Zorkovac"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9695,13 +12176,25 @@
       "type": "Feature",
       "id": "node/8044291766",
       "properties": {
-        "name": "Knin",
+        "labels": [
+          {
+            "value": "Knin"
+          }
+        ],
         "public_transport": "station",
         "railway": "station",
         "train": "yes",
-        "uic_ref": "76260",
-        "wikidata": "Q82794943",
-        "id": "node/8044291766"
+        "id": "node/8044291766",
+        "P722": [
+          {
+            "value": "76260"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q82794943"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -9715,12 +12208,16 @@
       "type": "Feature",
       "id": "node/8180114468",
       "properties": {
+        "labels": [
+          {
+            "value": "Draše"
+          }
+        ],
         "addr:city": "Kraljevec na Sutli",
         "addr:housenumber": "13",
         "addr:postcode": "49249",
         "addr:street": "Drase",
         "internet_access": "no",
-        "name": "Draše",
         "note": "The train station is out of use since 2000 and there are no train services running on the line.",
         "operator": "Hrvatske Željeznice",
         "public_transport": "station",
@@ -9740,7 +12237,11 @@
       "type": "Feature",
       "id": "node/8316068439",
       "properties": {
-        "name": "Stari Slatinik",
+        "labels": [
+          {
+            "value": "Stari Slatinik"
+          }
+        ],
         "public_transport": "station",
         "railway": "halt",
         "train": "yes",
@@ -9758,7 +12259,11 @@
       "type": "Feature",
       "id": "node/8805288069",
       "properties": {
-        "name": "Botovo",
+        "labels": [
+          {
+            "value": "Botovo"
+          }
+        ],
         "railway": "stop",
         "id": "node/8805288069"
       },
@@ -9774,13 +12279,29 @@
       "type": "Feature",
       "id": "node/9026904301",
       "properties": {
-        "name": "Vinkovci",
+        "labels": [
+          {
+            "value": "Vinkovci"
+          }
+        ],
         "operator": "HŽ Infrastruktura",
         "railway": "station",
-        "railway:ref": "VC",
-        "uic_ref": "7800024",
-        "wikidata": "Q17485357",
-        "id": "node/9026904301"
+        "id": "node/9026904301",
+        "P296": [
+          {
+            "value": "VC"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7800024"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q17485357"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -9794,9 +12315,13 @@
       "type": "Feature",
       "id": "node/9445918170",
       "properties": {
-        "name": "Našice",
-        "public_transport": "station",
-        "railway": "station",
+        "labels": [
+          {
+            "value": "Našice"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "stop",
         "train": "yes",
         "id": "node/9445918170"
       },
@@ -9810,29 +12335,15 @@
     },
     {
       "type": "Feature",
-      "id": "node/9445918171",
-      "properties": {
-        "name": "Našice Grad",
-        "public_transport": "station",
-        "railway": "station",
-        "train": "yes",
-        "id": "node/9445918171"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.0882593,
-          45.4874491
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/9445918173",
       "properties": {
-        "name": "Virovitica Grad",
-        "public_transport": "station",
-        "railway": "station",
+        "labels": [
+          {
+            "value": "Virovitica Grad"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "stop",
         "train": "yes",
         "id": "node/9445918173"
       },
@@ -9848,17 +12359,21 @@
       "type": "Feature",
       "id": "node/9445918174",
       "properties": {
-        "name": "Virovitica",
-        "public_transport": "station",
-        "railway": "station",
+        "labels": [
+          {
+            "value": "Virovitica"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "stop",
         "train": "yes",
         "id": "node/9445918174"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3986493,
-          45.8250803
+          17.3985871,
+          45.8251272
         ]
       }
     },
@@ -9866,7 +12381,11 @@
       "type": "Feature",
       "id": "node/9485972556",
       "properties": {
-        "name": "Jalžabet",
+        "labels": [
+          {
+            "value": "Jalžabet"
+          }
+        ],
         "public_transport": "stop_position",
         "railway": "stop",
         "train": "yes",
@@ -9877,6 +12396,54 @@
         "coordinates": [
           16.4718325,
           46.2684567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9538621240",
+      "properties": {
+        "labels": [
+          {
+            "value": "Pitomača"
+          }
+        ],
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "train": "yes",
+        "id": "node/9538621240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2297117,
+          45.9425243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9597731107",
+      "properties": {
+        "labels": [
+          {
+            "value": "Tovarnik"
+          }
+        ],
+        "operator": "HŽ Infrastruktura",
+        "railway": "station",
+        "id": "node/9597731107",
+        "PWIKI": [
+          {
+            "value": "Q25425984"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1485557,
+          45.1554473
         ]
       }
     }

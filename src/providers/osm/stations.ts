@@ -1,8 +1,10 @@
+import { FeatureCollection, Point } from "geojson";
 import osmToGeojson from "osmtogeojson";
 import { overpass } from "overpass-ts";
 import { concatMap, delay, from, map, of } from "rxjs";
 import { Country } from "../../transform/country";
 import { logger } from "../../utils/logger";
+import { osmToWikidata } from "./osmToWikidata.utils";
 
 const queryStationNodes = (area: string) =>
   [
@@ -16,7 +18,7 @@ const queryStationNodes = (area: string) =>
       (node) =>
         node +
         // Tourism
-        "[usage!=tourism][usage!=leisure][tourism!=yes][tourism!=attraction][station!=miniature]" +
+        "[usage!=tourism][usage!=leisure][tourism!=yes][tourism!=attraction][station!=miniature][historic!=station_site]" +
         // Disused
         "[station!=disused][disused!=yes][disused!=station][train!=disused]" +
         "[station!=abandoned][abandoned!=yes][abandoned!=station]" +
@@ -65,5 +67,10 @@ export const getStations = () =>
           .then((data) => [region, data])
       ).pipe(delay(30000))
     ),
-    map((osm) => [osm[0], osmToGeojson(osm[1])])
+    map((osm) => [
+      osm[0],
+      osmToWikidata(
+        osmToGeojson(osm[1]) as FeatureCollection<Point, Record<string, string>>
+      ),
+    ])
   );
