@@ -66,13 +66,16 @@ title: "Countries"
 
   var markers = L.markerClusterGroup();
 
+  markers.addLayer(L.geoJson({{ site.data.AT | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.BE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.BG | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.CZ | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.DE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.EE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.ES | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.FI | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.GR | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.IE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.IT | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.LT | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.NL | jsonify }}, { onEachFeature }));
