@@ -1,9 +1,11 @@
 import extract from "extract-zip";
 import { promises as fs, constants } from "fs";
 import fetch from "node-fetch";
+import { Options } from "csv-parse";
 import { parse } from "csv-parse/sync";
 import { progressBar } from "./logger";
-import { GtfsStops } from "../types/gtfs";
+import { GtfsShape, GtfsStops } from "../types/gtfs";
+import { Feature, LineString } from "geojson";
 
 const dir = __dirname + "/../../.cache";
 
@@ -27,13 +29,15 @@ const getGtfsFolder = async (url: string, name: string, cache = true) => {
     routes: cachePath + "/routes.txt",
     trips: cachePath + "/trips.txt",
     stopTimes: cachePath + "/stop_times.txt",
+    shapes: cachePath + "/shapes.txt",
   };
 };
 
 export const getGtfsStations = async <T extends GtfsStops>(
   url: string,
   name: string,
-  cache = true
+  cache = true,
+  options: Options = {}
 ): Promise<T[]> => {
   const { stops: stopPath } = await getGtfsFolder(url, name, cache);
   const stops = await fs.readFile(stopPath);
@@ -42,7 +46,45 @@ export const getGtfsStations = async <T extends GtfsStops>(
     skipEmptyLines: true,
     trim: true,
     cast: false,
+    ...options,
   });
+};
+
+export const getGtfsPaths = async (
+  url: string,
+  name: string,
+  cache = true
+): Promise<any[]> => {
+  const { shapes: shapePath } = await getGtfsFolder(url, name, cache);
+  const shapes: GtfsShape[] = parse(await fs.readFile(shapePath), {
+    columns: true,
+    skipEmptyLines: true,
+    trim: true,
+    cast: true,
+  });
+
+  return Object.values(
+    shapes.reduce<{
+      [key: string]: Feature<LineString, { id: number | string }>;
+    }>((acc, item) => {
+      acc[item.shape_id] ||= {
+        type: "Feature",
+        properties: {
+          id: item.shape_id,
+        },
+        geometry: {
+          type: "LineString",
+          coordinates: [],
+        },
+      };
+      acc[item.shape_id].geometry.coordinates.push([
+        item.shape_pt_lon,
+        item.shape_pt_lat,
+      ]);
+      acc[item.shape_id];
+      return acc;
+    }, {})
+  );
 };
 
 export const getGtfsRoutes = async <
@@ -75,8 +117,22 @@ export const getGtfsRoutes = async <
 >(
   url: string,
   name: string,
-  cache = true
-): Promise<{ routes: R[]; stops: T[]; trips: T[]; stopTimes: T[] }> => {
+  cache = true,
+  { stopOptions = {} }: { stopOptions?: Options } = {}
+): Promise<{
+  routes: R[];
+  stops: {
+    stop_id: number | string;
+    stop_name: string;
+    stop_lat: number;
+    stop_lon: number;
+    location_type?: number;
+    wheelchair_boarding?: number;
+    parent_station?: number;
+  }[];
+  trips: T[];
+  stopTimes: T[];
+}> => {
   const {
     routes: routesPath,
     stops: stopsPath,
@@ -92,13 +148,13 @@ export const getGtfsRoutes = async <
       // fromLine: 2,
     })
   );
-  const stops = await fs.readFile(stopsPath).then((routes) =>
-    parse(routes, {
+  const stops = await fs.readFile(stopsPath).then((stops) =>
+    parse(stops, {
       skipEmptyLines: true,
       trim: true,
       cast: true,
       columns: true,
-      // fromLine: 2,
+      ...stopOptions,
     })
   );
   const trips = await fs.readFile(tripsPath).then((trips) =>
@@ -129,63 +185,73 @@ export const getGtfsStationsByRailRoute = (
   {
     cache = true,
     routeType = 2,
+    stopOptions = {},
   }: {
     cache?: boolean;
-    routeType?: number;
+    routeType?: number | number[];
+    stopOptions?: Options;
   } = {}
 ) =>
-  getGtfsRoutes(url, name, cache).then(
+  getGtfsRoutes(url, name, cache, { stopOptions }).then(
     ({ stops, stopTimes, routes, trips }) => {
-      const stopProgressBar = progressBar(
-        `Merging stops into stop times for ${name}`,
-        stops.length
-      );
-      stops.forEach((stops) => {
-        const stopTime = stopTimes.find(
-          ({ stop_id }) => stop_id === stops.stop_id
+      const routeTypes =
+        typeof routeType === "number" ? [routeType] : routeType;
+      const size = trips.length + routes.length + stopTimes.length;
+
+      if (
+        !routeTypes.some((routeType) =>
+          routes.map(({ route_type }) => route_type).includes(routeType)
+        )
+      ) {
+        throw new Error(
+          `${name} does not have route of type(s) ${routeTypes.join(",")}`
         );
-        if (stopTime) {
-          stopTime.stops ||= [];
-          stopTime.stops.push(stops);
-        }
-        stopProgressBar.tick();
-      });
+      }
 
-      const stopTimesProgressBar = progressBar(
-        `Merging stop times into trips for ${name}`,
-        stopTimes.length
-      );
-      stopTimes.forEach((stopTime) => {
-        const trip = trips.find(({ trip_id }) => trip_id === stopTime.trip_id);
-        if (trip) {
-          trip.stopTimes ||= [];
-          trip.stopTimes.push(stopTime);
-        }
-        stopTimesProgressBar.tick();
-      });
-      const l = progressBar(
-        `Merging trips into routes for ${name}`,
-        trips.length
-      );
-      trips.forEach((trip) => {
-        const route = routes.find(({ route_id }) => route_id === trip.route_id);
-        if (route) {
-          route.trips ||= [];
-          route.trips.push(trip);
-        }
-        l.tick();
-      });
+      const stopProgressBar =
+        size > 10
+          ? progressBar(`Finding railway stops served by ${name}`, size)
+          : undefined;
 
-      return routes
-        .filter(({ route_type }) => route_type === routeType)
-        .map(({ trips }) => trips)
-        .flat()
-        .filter(Boolean)
-        .map(({ stopTimes }) => stopTimes)
-        .flat()
-        .filter(Boolean)
-        .map(({ stops }) => stops)
-        .flat()
-        .filter(Boolean);
+      const routeIds = routes
+        .filter(({ route_type }) => {
+          stopProgressBar?.tick();
+          return routeTypes.includes(route_type);
+        })
+        .map(({ route_id }) => route_id);
+
+      const tripIds = trips
+        .filter(({ route_id }) => {
+          stopProgressBar?.tick();
+          return routeIds.includes(route_id);
+        })
+        .map(({ trip_id }) => trip_id);
+
+      const stopIds = stopTimes
+        .filter(({ trip_id }) => {
+          stopProgressBar?.tick();
+          return tripIds.includes(trip_id);
+        })
+        .map(({ stop_id }) => stop_id);
+
+      const filteredStops = stops.filter(({ stop_id }) =>
+        stopIds.includes(stop_id)
+      );
+
+      console.log(
+        name,
+        {
+          routes: routes.length,
+          filteredRoutes: routeIds.length,
+          trips: tripIds.length,
+          stopTimes: stopIds.length,
+          stops: stops.length,
+          filteredStops: filteredStops.length,
+        },
+        new Set(routes.map(({ route_type }) => route_type)),
+        routeType
+      );
+
+      return filteredStops;
     }
   );
