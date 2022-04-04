@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 import { DidokRawLocation } from "./didok.types";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { findCountryByAlpha2 } from "../../transform/country";
 
@@ -15,17 +15,23 @@ export const getLocations = () =>
     .then((response) => response.json())
     .then((locations: DidokRawLocation[]) =>
       locations
-        .filter(({ fields }) => fields.bpvh_verkehrsmittel_text_de?.includes('Zug'))
-        .map<LocationV4>(({ fields }) => {
+        .filter(({ fields }) =>
+          fields.bpvh_verkehrsmittel_text_de?.includes("Zug")
+        )
+        .map<Location>(({ fields }) => {
           return {
+            type: "Feature",
             id: fields.lod,
-            labels: [{ value: fields.bezeichnung_offiziell }],
-            claims: {
+            geometry: {
+              type: "Point",
+              coordinates: [fields.geopos[1], fields.geopos[0]],
+            },
+            properties: {
+              labels: [{ value: fields.bezeichnung_offiziell }],
               [Property.Country]: [
                 { value: findCountryByAlpha2(fields.land_iso2_geo)?.wikidata },
               ],
               [CodeIssuer.UIC]: [{ value: fields.bpuic.toString() }],
-              [Property.CoordinateLocation]: [{ value: fields.geopos }],
               ...(fields.z_wgs84
                 ? {
                     [Property.ElevationAboveSeaLevel]: [
