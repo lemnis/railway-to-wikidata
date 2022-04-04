@@ -1,6 +1,10 @@
 import fetch from "node-fetch";
+import {
+  findCountryByAlpha2,
+  findCountryByIBNR,
+} from "../../transform/country";
 import { Location } from "../../types/location";
-import { CodeIssuer } from "../../types/wikidata";
+import { CodeIssuer, Property } from "../../types/wikidata";
 
 export const getLocations = async () => {
   const response = await fetch(
@@ -34,6 +38,17 @@ export const getLocations = async () => {
         [CodeIssuer.IBNR]: hafasCodes?.map((value) => ({
           value: value.toString(),
         })),
+        [Property.Country]: [
+          {
+            value:
+              hafasCodes
+                ?.map((i) =>
+                  findCountryByIBNR(parseInt(i.toString().slice(0, 2)))
+                )
+                .filter(Boolean)?.[0]?.wikidata ||
+              findCountryByAlpha2(beneCode.slice(0, 2))?.wikidata,
+          },
+        ],
       },
     })
   );
