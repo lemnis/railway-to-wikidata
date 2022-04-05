@@ -29,6 +29,7 @@ export const simplify = (
     },
     properties: {
       labels: simplifyLabel(items),
+      [Property.Wikidata]: [{ value: removeUri(items[0].item?.value) }],
       ...simplifyProperties(items, keys, extra),
     },
   }));

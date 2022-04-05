@@ -60,7 +60,7 @@ export const simplifyByDatatype = (datatype: string, value: string) => {
     if(!Number.isFinite(lon) || !value.startsWith('Point')) {
       console.log(value, lat,lon);
     }
-    return [lat, lon];
+    return [lon, lat];
   } else {
     return value;
   }
