@@ -5,10 +5,20 @@
       "type": "Feature",
       "id": "node/134701987",
       "properties": {
-        "name": "Гевгелија",
-        "name:sr": "Ђевеђелија",
-        "railway": "station",
-        "id": "node/134701987"
+        "labels": [
+          {
+            "value": "Ђевеђелија",
+            "lang": "sr"
+          },
+          {
+            "value": "Гевгелија"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -22,17 +32,45 @@
       "type": "Feature",
       "id": "node/315973888",
       "properties": {
+        "labels": [
+          {
+            "value": "Kičevo",
+            "lang": "de"
+          },
+          {
+            "value": "Kičevo",
+            "lang": "en"
+          },
+          {
+            "value": "Kitchevo",
+            "lang": "fr"
+          },
+          {
+            "value": "Kiczewo",
+            "lang": "pl"
+          },
+          {
+            "value": "Kičevo",
+            "lang": "ro"
+          },
+          {
+            "value": "Kërçova",
+            "lang": "sq"
+          },
+          {
+            "value": "Kırçova",
+            "lang": "tr"
+          },
+          {
+            "value": "Кичево"
+          }
+        ],
         "int_name": "Kičevo",
-        "name": "Кичево",
-        "name:de": "Kičevo",
-        "name:en": "Kičevo",
-        "name:fr": "Kitchevo",
-        "name:pl": "Kiczewo",
-        "name:ro": "Kičevo",
-        "name:sq": "Kërçova",
-        "name:tr": "Kırçova",
-        "railway": "station",
-        "id": "node/315973888"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -46,9 +84,16 @@
       "type": "Feature",
       "id": "node/364982826",
       "properties": {
-        "name": "Сарај",
-        "railway": "halt",
-        "id": "node/364982826"
+        "labels": [
+          {
+            "value": "Сарај"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -62,9 +107,16 @@
       "type": "Feature",
       "id": "node/408145352",
       "properties": {
-        "name": "Миладиновци",
-        "railway": "station",
-        "id": "node/408145352"
+        "labels": [
+          {
+            "value": "Миладиновци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -78,9 +130,16 @@
       "type": "Feature",
       "id": "node/408145411",
       "properties": {
-        "name": "Агино село",
-        "railway": "halt",
-        "id": "node/408145411"
+        "labels": [
+          {
+            "value": "Агино село"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -94,9 +153,16 @@
       "type": "Feature",
       "id": "node/408145471",
       "properties": {
-        "name": "Превој",
-        "railway": "halt",
-        "id": "node/408145471"
+        "labels": [
+          {
+            "value": "Превој"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -110,9 +176,16 @@
       "type": "Feature",
       "id": "node/408145528",
       "properties": {
-        "name": "Куманово",
-        "railway": "station",
-        "id": "node/408145528"
+        "labels": [
+          {
+            "value": "Куманово"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -126,25 +199,59 @@
       "type": "Feature",
       "id": "node/444537577",
       "properties": {
+        "labels": [
+          {
+            "value": "Kočani",
+            "lang": "de"
+          },
+          {
+            "value": "Kočani",
+            "lang": "en"
+          },
+          {
+            "value": "Kotchani",
+            "lang": "fr"
+          },
+          {
+            "value": "Kočani",
+            "lang": "hu"
+          },
+          {
+            "value": "Kočani",
+            "lang": "it"
+          },
+          {
+            "value": "Кочани",
+            "lang": "mk"
+          },
+          {
+            "value": "Koczani",
+            "lang": "pl"
+          },
+          {
+            "value": "Kočani",
+            "lang": "ro"
+          },
+          {
+            "value": "Koçani",
+            "lang": "sq"
+          },
+          {
+            "value": "Кочани"
+          }
+        ],
         "int_name": "Kočani",
-        "name": "Кочани",
-        "name:de": "Kočani",
-        "name:en": "Kočani",
-        "name:fr": "Kotchani",
-        "name:hu": "Kočani",
-        "name:it": "Kočani",
-        "name:mk": "Кочани",
-        "name:pl": "Koczani",
-        "name:ro": "Kočani",
-        "name:sq": "Koçani",
-        "railway": "station",
-        "id": "node/444537577"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.4153952,
-          41.9125116
+          22.41538,
+          41.9125831
         ]
       }
     },
@@ -152,9 +259,16 @@
       "type": "Feature",
       "id": "node/482151152",
       "properties": {
-        "name": "Рајко Жинзифов",
-        "railway": "station",
-        "id": "node/482151152"
+        "labels": [
+          {
+            "value": "Рајко Жинзифов"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -168,10 +282,17 @@
       "type": "Feature",
       "id": "node/482156739",
       "properties": {
+        "labels": [
+          {
+            "value": "Кадина Река"
+          }
+        ],
         "int_name": "Kadina Reka",
-        "name": "Кадина Река",
-        "railway": "station",
-        "id": "node/482156739"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -185,9 +306,16 @@
       "type": "Feature",
       "id": "node/505848493",
       "properties": {
-        "name": "Градско",
-        "railway": "station",
-        "id": "node/505848493"
+        "labels": [
+          {
+            "value": "Градско"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -201,9 +329,16 @@
       "type": "Feature",
       "id": "node/505859261",
       "properties": {
-        "name": "Стоби",
-        "railway": "halt",
-        "id": "node/505859261"
+        "labels": [
+          {
+            "value": "Стоби"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -217,10 +352,17 @@
       "type": "Feature",
       "id": "node/505893474",
       "properties": {
+        "labels": [
+          {
+            "value": "Неготино"
+          }
+        ],
         "int_name": "Negotino Vardar",
-        "name": "Неготино",
-        "railway": "station",
-        "id": "node/505893474"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -234,14 +376,27 @@
       "type": "Feature",
       "id": "node/547207425",
       "properties": {
+        "labels": [
+          {
+            "value": "Brvenica",
+            "lang": "en"
+          },
+          {
+            "value": "Брвеница",
+            "lang": "mk"
+          },
+          {
+            "value": "Брвеница"
+          }
+        ],
         "int_name": "Brvenica",
-        "name": "Брвеница",
-        "name:en": "Brvenica",
-        "name:mk": "Брвеница",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/547207425"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -255,14 +410,27 @@
       "type": "Feature",
       "id": "node/1088079174",
       "properties": {
+        "labels": [
+          {
+            "value": "Obleshevo",
+            "lang": "en"
+          },
+          {
+            "value": "Облешево",
+            "lang": "mk"
+          },
+          {
+            "value": "Облешево"
+          }
+        ],
         "int_name": "Obleševo",
-        "name": "Облешево",
-        "name:en": "Obleshevo",
-        "name:mk": "Облешево",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/1088079174"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -276,15 +444,37 @@
       "type": "Feature",
       "id": "node/1635043504",
       "properties": {
+        "labels": [
+          {
+            "value": "Veles",
+            "lang": "de"
+          },
+          {
+            "value": "Veles",
+            "lang": "en"
+          },
+          {
+            "value": "Велес",
+            "lang": "mk"
+          },
+          {
+            "value": "Velesi",
+            "lang": "sq"
+          },
+          {
+            "value": "Köprülü",
+            "lang": "tr"
+          },
+          {
+            "value": "Велес"
+          }
+        ],
         "int_name": "Veles",
-        "name": "Велес",
-        "name:de": "Veles",
-        "name:en": "Veles",
-        "name:mk": "Велес",
-        "name:sq": "Velesi",
-        "name:tr": "Köprülü",
-        "railway": "station",
-        "id": "node/1635043504"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -298,9 +488,16 @@
       "type": "Feature",
       "id": "node/1781549486",
       "properties": {
-        "name": "Демир Капија",
-        "railway": "station",
-        "id": "node/1781549486"
+        "labels": [
+          {
+            "value": "Демир Капија"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -314,9 +511,16 @@
       "type": "Feature",
       "id": "node/1861418878",
       "properties": {
-        "name": "Карпош",
-        "railway": "halt",
-        "id": "node/1861418878"
+        "labels": [
+          {
+            "value": "Карпош"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -330,9 +534,16 @@
       "type": "Feature",
       "id": "node/1861421092",
       "properties": {
-        "name": "Романовци",
-        "railway": "station",
-        "id": "node/1861421092"
+        "labels": [
+          {
+            "value": "Романовци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -346,9 +557,16 @@
       "type": "Feature",
       "id": "node/1861423464",
       "properties": {
-        "name": "Дељадровци",
-        "railway": "halt",
-        "id": "node/1861423464"
+        "labels": [
+          {
+            "value": "Дељадровци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -362,9 +580,16 @@
       "type": "Feature",
       "id": "node/1861425879",
       "properties": {
-        "name": "Илинден",
-        "railway": "station",
-        "id": "node/1861425879"
+        "labels": [
+          {
+            "value": "Илинден"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -378,9 +603,16 @@
       "type": "Feature",
       "id": "node/1861427831",
       "properties": {
-        "name": "Маџари",
-        "railway": "station",
-        "id": "node/1861427831"
+        "labels": [
+          {
+            "value": "Маџари"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -394,9 +626,16 @@
       "type": "Feature",
       "id": "node/1861432131",
       "properties": {
-        "name": "Јане Сандански",
-        "railway": "station",
-        "id": "node/1861432131"
+        "labels": [
+          {
+            "value": "Јане Сандански"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -410,13 +649,23 @@
       "type": "Feature",
       "id": "node/1861437264",
       "properties": {
+        "labels": [
+          {
+            "value": "Зелениково Ново",
+            "lang": "mk"
+          },
+          {
+            "value": "Zelenikovo Novo"
+          }
+        ],
         "int_name": "Zelenikovo Novo",
-        "name": "Zelenikovo Novo",
-        "name:mk": "Зелениково Ново",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/1861437264"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -430,9 +679,16 @@
       "type": "Feature",
       "id": "node/1861437265",
       "properties": {
-        "name": "Зелениково",
-        "railway": "station",
-        "id": "node/1861437265"
+        "labels": [
+          {
+            "value": "Зелениково"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -446,9 +702,16 @@
       "type": "Feature",
       "id": "node/1861438735",
       "properties": {
-        "name": "Смесница",
-        "railway": "halt",
-        "id": "node/1861438735"
+        "labels": [
+          {
+            "value": "Смесница"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -462,12 +725,25 @@
       "type": "Feature",
       "id": "node/1861440950",
       "properties": {
+        "labels": [
+          {
+            "value": "Pchinja",
+            "lang": "en"
+          },
+          {
+            "value": "Пчиња",
+            "lang": "mk"
+          },
+          {
+            "value": "Пчиња"
+          }
+        ],
         "int_name": "Pčinja",
-        "name": "Пчиња",
-        "name:en": "Pchinja",
-        "name:mk": "Пчиња",
-        "railway": "halt",
-        "id": "node/1861440950"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -481,9 +757,16 @@
       "type": "Feature",
       "id": "node/1861443329",
       "properties": {
-        "name": "Ногаевци",
-        "railway": "halt",
-        "id": "node/1861443329"
+        "labels": [
+          {
+            "value": "Ногаевци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -497,11 +780,21 @@
       "type": "Feature",
       "id": "node/1861446395",
       "properties": {
+        "labels": [
+          {
+            "value": "Kukurichani",
+            "lang": "en"
+          },
+          {
+            "value": "Кукуричани"
+          }
+        ],
         "int_name": "Kukuričani",
-        "name": "Кукуричани",
-        "name:en": "Kukurichani",
-        "railway": "station",
-        "id": "node/1861446395"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -515,9 +808,16 @@
       "type": "Feature",
       "id": "node/1861446447",
       "properties": {
-        "name": "Криволак",
-        "railway": "station",
-        "id": "node/1861446447"
+        "labels": [
+          {
+            "value": "Криволак"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -531,11 +831,21 @@
       "type": "Feature",
       "id": "node/1861447204",
       "properties": {
+        "labels": [
+          {
+            "value": "Crveni Bregovi",
+            "lang": "en"
+          },
+          {
+            "value": "Црвени Брегови"
+          }
+        ],
         "int_name": "Crveni Bregovi",
-        "name": "Црвени Брегови",
-        "name:en": "Crveni Bregovi",
-        "railway": "halt",
-        "id": "node/1861447204"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -549,10 +859,17 @@
       "type": "Feature",
       "id": "node/1861448698",
       "properties": {
+        "labels": [
+          {
+            "value": "Дуброво"
+          }
+        ],
         "int_name": "Dubrovo",
-        "name": "Дуброво",
-        "railway": "station",
-        "id": "node/1861448698"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -566,10 +883,17 @@
       "type": "Feature",
       "id": "node/1861449329",
       "properties": {
+        "labels": [
+          {
+            "value": "Клисура"
+          }
+        ],
         "int_name": "Klisura",
-        "name": "Клисура",
-        "railway": "station",
-        "id": "node/1861449329"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -583,9 +907,16 @@
       "type": "Feature",
       "id": "node/1861450453",
       "properties": {
-        "name": "Миравци",
-        "railway": "station",
-        "id": "node/1861450453"
+        "labels": [
+          {
+            "value": "Миравци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -599,9 +930,16 @@
       "type": "Feature",
       "id": "node/1861451006",
       "properties": {
-        "name": "Прдејци",
-        "railway": "halt",
-        "id": "node/1861451006"
+        "labels": [
+          {
+            "value": "Прдејци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -615,9 +953,16 @@
       "type": "Feature",
       "id": "node/1861451295",
       "properties": {
-        "name": "Смоквица",
-        "railway": "halt",
-        "id": "node/1861451295"
+        "labels": [
+          {
+            "value": "Смоквица"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -631,9 +976,16 @@
       "type": "Feature",
       "id": "node/1861452150",
       "properties": {
-        "name": "Смоквица Нова",
-        "railway": "halt",
-        "id": "node/1861452150"
+        "labels": [
+          {
+            "value": "Смоквица Нова"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -647,9 +999,16 @@
       "type": "Feature",
       "id": "node/1861452250",
       "properties": {
-        "name": "Кошулчеви",
-        "railway": "halt",
-        "id": "node/1861452250"
+        "labels": [
+          {
+            "value": "Кошулчеви"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -663,9 +1022,16 @@
       "type": "Feature",
       "id": "node/1861454476",
       "properties": {
-        "name": "Соколарци",
-        "railway": "station",
-        "id": "node/1861454476"
+        "labels": [
+          {
+            "value": "Соколарци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -679,11 +1045,21 @@
       "type": "Feature",
       "id": "node/1861455960",
       "properties": {
+        "labels": [
+          {
+            "value": "Zletovica",
+            "lang": "en"
+          },
+          {
+            "value": "Злетовица"
+          }
+        ],
         "int_name": "Zletovica",
-        "name": "Злетовица",
-        "name:en": "Zletovica",
-        "railway": "halt",
-        "id": "node/1861455960"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -697,9 +1073,16 @@
       "type": "Feature",
       "id": "node/1861458923",
       "properties": {
-        "name": "Ванчо Пркев",
-        "railway": "station",
-        "id": "node/1861458923"
+        "labels": [
+          {
+            "value": "Ванчо Пркев"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -713,9 +1096,16 @@
       "type": "Feature",
       "id": "node/1861460260",
       "properties": {
-        "name": "Овче Поле",
-        "railway": "station",
-        "id": "node/1861460260"
+        "labels": [
+          {
+            "value": "Овче Поле"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -729,9 +1119,16 @@
       "type": "Feature",
       "id": "node/1861467853",
       "properties": {
-        "name": "Јазла",
-        "railway": "halt",
-        "id": "node/1861467853"
+        "labels": [
+          {
+            "value": "Јазла"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -745,9 +1142,16 @@
       "type": "Feature",
       "id": "node/1861473065",
       "properties": {
-        "name": "Чашка",
-        "railway": "station",
-        "id": "node/1861473065"
+        "labels": [
+          {
+            "value": "Чашка"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -761,11 +1165,21 @@
       "type": "Feature",
       "id": "node/1861474880",
       "properties": {
+        "labels": [
+          {
+            "value": "Stari Grad",
+            "lang": "en"
+          },
+          {
+            "value": "Стари Град"
+          }
+        ],
         "int_name": "Stari Grad",
-        "name": "Стари Град",
-        "name:en": "Stari Grad",
-        "railway": "halt",
-        "id": "node/1861474880"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -779,11 +1193,21 @@
       "type": "Feature",
       "id": "node/1861477026",
       "properties": {
+        "labels": [
+          {
+            "value": "Vasil Antevski",
+            "lang": "en"
+          },
+          {
+            "value": "Васил Антевски"
+          }
+        ],
         "int_name": "Vasil Antevski",
-        "name": "Васил Антевски",
-        "name:en": "Vasil Antevski",
-        "railway": "station",
-        "id": "node/1861477026"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -797,13 +1221,23 @@
       "type": "Feature",
       "id": "node/1861490549",
       "properties": {
+        "labels": [
+          {
+            "value": "Железарница",
+            "lang": "mk"
+          },
+          {
+            "value": "Железарница"
+          }
+        ],
         "int_name": "Železarnica",
-        "name": "Железарница",
-        "name:mk": "Железарница",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/1861490549"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -817,11 +1251,21 @@
       "type": "Feature",
       "id": "node/1861492800",
       "properties": {
+        "labels": [
+          {
+            "value": "Radusha",
+            "lang": "en"
+          },
+          {
+            "value": "Радуша"
+          }
+        ],
         "int_name": "Raduša",
-        "name": "Радуша",
-        "name:en": "Radusha",
-        "railway": "station",
-        "id": "node/1861492800"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -835,14 +1279,29 @@
       "type": "Feature",
       "id": "node/1861494564",
       "properties": {
-        "alt_name": "Станица Свиларе",
+        "labels": [
+          {
+            "value": "Sulari",
+            "lang": "en"
+          },
+          {
+            "value": "Свиларе",
+            "lang": "old"
+          },
+          {
+            "value": "Сулари"
+          },
+          {
+            "value": "Станица Свиларе"
+          }
+        ],
         "int_name": "Svilare",
-        "name": "Сулари",
-        "name:en": "Sulari",
-        "name:old": "Свиларе",
         "population": "0",
-        "railway": "halt",
-        "id": "node/1861494564"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -856,10 +1315,17 @@
       "type": "Feature",
       "id": "node/1861495685",
       "properties": {
+        "labels": [
+          {
+            "value": "Ратае"
+          }
+        ],
         "int_name": "Ratae",
-        "name": "Ратае",
-        "railway": "halt",
-        "id": "node/1861495685"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -873,9 +1339,16 @@
       "type": "Feature",
       "id": "node/1861496994",
       "properties": {
-        "name": "Жеровјане",
-        "railway": "station",
-        "id": "node/1861496994"
+        "labels": [
+          {
+            "value": "Жеровјане"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -889,10 +1362,20 @@
       "type": "Feature",
       "id": "node/1861497100",
       "properties": {
-        "name": "Врановци",
-        "name:en": "Vranovci",
-        "railway": "halt",
-        "id": "node/1861497100"
+        "labels": [
+          {
+            "value": "Vranovci",
+            "lang": "en"
+          },
+          {
+            "value": "Врановци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -906,15 +1389,31 @@
       "type": "Feature",
       "id": "node/1861497552",
       "properties": {
+        "labels": [
+          {
+            "value": "Strogomishte",
+            "lang": "en"
+          },
+          {
+            "value": "Строгомиште",
+            "lang": "mk"
+          },
+          {
+            "value": "Drogomisht",
+            "lang": "sq"
+          },
+          {
+            "value": "Строгомиште"
+          }
+        ],
         "int_name": "Strogomište",
-        "name": "Строгомиште",
-        "name:en": "Strogomishte",
-        "name:mk": "Строгомиште",
-        "name:sq": "Drogomisht",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/1861497552"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -928,10 +1427,20 @@
       "type": "Feature",
       "id": "node/1861497895",
       "properties": {
-        "name": "Длапкин Дол",
-        "name:en": "Dlapkin Dol",
-        "railway": "halt",
-        "id": "node/1861497895"
+        "labels": [
+          {
+            "value": "Dlapkin Dol",
+            "lang": "en"
+          },
+          {
+            "value": "Длапкин Дол"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -945,10 +1454,20 @@
       "type": "Feature",
       "id": "node/1861498044",
       "properties": {
-        "name": "Лакавица",
-        "name:en": "Lakavica",
-        "railway": "halt",
-        "id": "node/1861498044"
+        "labels": [
+          {
+            "value": "Lakavica",
+            "lang": "en"
+          },
+          {
+            "value": "Лакавица"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -962,9 +1481,16 @@
       "type": "Feature",
       "id": "node/1861498385",
       "properties": {
-        "name": "Јегуновце",
-        "railway": "station",
-        "id": "node/1861498385"
+        "labels": [
+          {
+            "value": "Јегуновце"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -978,11 +1504,21 @@
       "type": "Feature",
       "id": "node/1964170265",
       "properties": {
+        "labels": [
+          {
+            "value": "Balvan",
+            "lang": "en"
+          },
+          {
+            "value": "Балван"
+          }
+        ],
         "int_name": "Balvan",
-        "name": "Балван",
-        "name:en": "Balvan",
-        "railway": "halt",
-        "id": "node/1964170265"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -996,16 +1532,41 @@
       "type": "Feature",
       "id": "node/2026118445",
       "properties": {
+        "labels": [
+          {
+            "value": "Gostivar",
+            "lang": "de"
+          },
+          {
+            "value": "Gostivar",
+            "lang": "en"
+          },
+          {
+            "value": "Гостивар",
+            "lang": "mk"
+          },
+          {
+            "value": "Gostiwar",
+            "lang": "pl"
+          },
+          {
+            "value": "Gostivari",
+            "lang": "sq"
+          },
+          {
+            "value": "Gostivar",
+            "lang": "tr"
+          },
+          {
+            "value": "Гостивар"
+          }
+        ],
         "int_name": "Gostivar",
-        "name": "Гостивар",
-        "name:de": "Gostivar",
-        "name:en": "Gostivar",
-        "name:mk": "Гостивар",
-        "name:pl": "Gostiwar",
-        "name:sq": "Gostivari",
-        "name:tr": "Gostivar",
-        "railway": "station",
-        "id": "node/2026118445"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1019,9 +1580,16 @@
       "type": "Feature",
       "id": "node/2039194197",
       "properties": {
-        "name": "Тетово",
-        "railway": "station",
-        "id": "node/2039194197"
+        "labels": [
+          {
+            "value": "Тетово"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1035,11 +1603,21 @@
       "type": "Feature",
       "id": "node/2364709779",
       "properties": {
+        "labels": [
+          {
+            "value": "Orashje",
+            "lang": "en"
+          },
+          {
+            "value": "Орашје"
+          }
+        ],
         "int_name": "Orašje",
-        "name": "Орашје",
-        "name:en": "Orashje",
-        "railway": "halt",
-        "id": "node/2364709779"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1053,9 +1631,16 @@
       "type": "Feature",
       "id": "node/2432438776",
       "properties": {
-        "name": "Згрополци",
-        "railway": "station",
-        "id": "node/2432438776"
+        "labels": [
+          {
+            "value": "Згрополци"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1069,9 +1654,16 @@
       "type": "Feature",
       "id": "node/3010499078",
       "properties": {
-        "name": "Волково",
-        "railway": "station",
-        "id": "node/3010499078"
+        "labels": [
+          {
+            "value": "Волково"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1085,9 +1677,16 @@
       "type": "Feature",
       "id": "node/3274639745",
       "properties": {
-        "name": "Падалиште",
-        "railway": "station",
-        "id": "node/3274639745"
+        "labels": [
+          {
+            "value": "Падалиште"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1101,11 +1700,16 @@
       "type": "Feature",
       "id": "node/3395736710",
       "properties": {
-        "name": "Галичани",
-        "public_transport": "stop_position",
-        "railway": "stop",
-        "train": "yes",
-        "id": "node/3395736710"
+        "labels": [
+          {
+            "value": "Галичани"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1119,9 +1723,16 @@
       "type": "Feature",
       "id": "node/3407057892",
       "properties": {
-        "name": "Лознани",
-        "railway": "halt",
-        "id": "node/3407057892"
+        "labels": [
+          {
+            "value": "Лознани"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1135,10 +1746,16 @@
       "type": "Feature",
       "id": "node/3407148607",
       "properties": {
-        "name": "Битола",
-        "public_transport": "station",
-        "railway": "station",
-        "id": "node/3407148607"
+        "labels": [
+          {
+            "value": "Битола"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1152,9 +1769,16 @@
       "type": "Feature",
       "id": "node/3408837040",
       "properties": {
-        "name": "Сенокос",
-        "railway": "halt",
-        "id": "node/3408837040"
+        "labels": [
+          {
+            "value": "Сенокос"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1168,9 +1792,11 @@
       "type": "Feature",
       "id": "node/3428969393",
       "properties": {
-        "name": "Bus Terminal",
-        "public_transport": "station",
-        "id": "node/3428969393"
+        "labels": [
+          {
+            "value": "Bus Terminal"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1184,9 +1810,16 @@
       "type": "Feature",
       "id": "node/3440942150",
       "properties": {
-        "name": "Теово",
-        "railway": "halt",
-        "id": "node/3440942150"
+        "labels": [
+          {
+            "value": "Теово"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1200,9 +1833,16 @@
       "type": "Feature",
       "id": "node/3440942317",
       "properties": {
-        "name": "Согле",
-        "railway": "halt",
-        "id": "node/3440942317"
+        "labels": [
+          {
+            "value": "Согле"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1216,9 +1856,16 @@
       "type": "Feature",
       "id": "node/3467755333",
       "properties": {
-        "name": "Милетиково",
-        "railway": "halt",
-        "id": "node/3467755333"
+        "labels": [
+          {
+            "value": "Милетиково"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1232,16 +1879,27 @@
       "type": "Feature",
       "id": "node/3745137689",
       "properties": {
+        "labels": [
+          {
+            "value": "Topolka",
+            "lang": "en"
+          },
+          {
+            "value": "Тополка",
+            "lang": "mk"
+          },
+          {
+            "value": "Тополка"
+          }
+        ],
         "int_name": "Topolka",
-        "name": "Тополка",
-        "name:en": "Topolka",
-        "name:mk": "Тополка",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "public_transport": "stop_position",
-        "railway": "stop",
-        "train": "yes",
-        "id": "node/3745137689"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1255,9 +1913,16 @@
       "type": "Feature",
       "id": "node/3788972564",
       "properties": {
-        "name": "Табановце",
-        "railway": "station",
-        "id": "node/3788972564"
+        "labels": [
+          {
+            "value": "Табановце"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1271,13 +1936,23 @@
       "type": "Feature",
       "id": "node/3799169901",
       "properties": {
+        "labels": [
+          {
+            "value": "Орешани",
+            "lang": "mk"
+          },
+          {
+            "value": "Orešani"
+          }
+        ],
         "int_name": "Orešani",
-        "name": "Orešani",
-        "name:mk": "Орешани",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/3799169901"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1291,9 +1966,16 @@
       "type": "Feature",
       "id": "node/4075270297",
       "properties": {
-        "name": "Новоселани",
-        "railway": "halt",
-        "id": "node/4075270297"
+        "labels": [
+          {
+            "value": "Новоселани"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1307,12 +1989,22 @@
       "type": "Feature",
       "id": "node/4075270307",
       "properties": {
-        "name": "Вашарejца",
-        "name:en": "Vasharejca",
+        "labels": [
+          {
+            "value": "Vasharejca",
+            "lang": "en"
+          },
+          {
+            "value": "Вашарejца"
+          }
+        ],
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/4075270307"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1326,13 +2018,23 @@
       "type": "Feature",
       "id": "node/4399373697",
       "properties": {
+        "labels": [
+          {
+            "value": "Превалец",
+            "lang": "mk"
+          },
+          {
+            "value": "Превалец"
+          }
+        ],
         "int_name": "Prevalec",
-        "name": "Превалец",
-        "name:mk": "Превалец",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "railway": "halt",
-        "id": "node/4399373697"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1346,9 +2048,16 @@
       "type": "Feature",
       "id": "node/4502801599",
       "properties": {
-        "name": "Скопје Север",
-        "railway": "station",
-        "id": "node/4502801599"
+        "labels": [
+          {
+            "value": "Скопје Север"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1360,28 +2069,23 @@
     },
     {
       "type": "Feature",
-      "id": "node/6021739317",
-      "properties": {
-        "name": "Гостиражни",
-        "railway": "station",
-        "id": "node/6021739317"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4321386,
-          41.5495992
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/6021739329",
       "properties": {
-        "name": "Браилово",
-        "railway": "station",
-        "wheelchair": "no",
-        "id": "node/6021739329"
+        "labels": [
+          {
+            "value": "Браилово"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P2846": [
+          {
+            "value": "Q24192069"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1395,9 +2099,16 @@
       "type": "Feature",
       "id": "node/6024773299",
       "properties": {
-        "name": "Бакарно Гумно",
-        "railway": "station",
-        "id": "node/6024773299"
+        "labels": [
+          {
+            "value": "Бакарно Гумно"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1411,9 +2122,16 @@
       "type": "Feature",
       "id": "node/6030012856",
       "properties": {
-        "name": "Драчево",
-        "railway": "station",
-        "id": "node/6030012856"
+        "labels": [
+          {
+            "value": "Драчево"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1427,9 +2145,16 @@
       "type": "Feature",
       "id": "node/6031546885",
       "properties": {
-        "name": "Зајас",
-        "railway": "station",
-        "id": "node/6031546885"
+        "labels": [
+          {
+            "value": "Зајас"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1443,9 +2168,16 @@
       "type": "Feature",
       "id": "node/6031666043",
       "properties": {
-        "name": "Јегуновце Фабрика",
-        "railway": "halt",
-        "id": "node/6031666043"
+        "labels": [
+          {
+            "value": "Јегуновце Фабрика"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1459,9 +2191,16 @@
       "type": "Feature",
       "id": "node/6031689968",
       "properties": {
-        "name": "Ѓорче Петров",
-        "railway": "station",
-        "id": "node/6031689968"
+        "labels": [
+          {
+            "value": "Ѓорче Петров"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1475,14 +2214,26 @@
       "type": "Feature",
       "id": "node/7368537704",
       "properties": {
-        "name": "Лисиче",
-        "name:en": "Lisiche",
-        "name:mk": "Лисиче",
+        "labels": [
+          {
+            "value": "Lisiche",
+            "lang": "en"
+          },
+          {
+            "value": "Лисиче",
+            "lang": "mk"
+          },
+          {
+            "value": "Лисиче"
+          }
+        ],
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "public_transport": "station",
-        "railway": "station",
-        "id": "node/7368537704"
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1496,9 +2247,16 @@
       "type": "Feature",
       "id": "node/7385816657",
       "properties": {
-        "name": "Бистрица",
-        "railway": "halt",
-        "id": "node/7385816657"
+        "labels": [
+          {
+            "value": "Бистрица"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1512,9 +2270,16 @@
       "type": "Feature",
       "id": "node/7386352818",
       "properties": {
-        "name": "Орце",
-        "railway": "halt",
-        "id": "node/7386352818"
+        "labels": [
+          {
+            "value": "Орце"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1528,16 +2293,43 @@
       "type": "Feature",
       "id": "node/7388229405",
       "properties": {
-        "internet_access": "no",
-        "name": "Штип",
-        "name:de": "Stip",
-        "name:en": "Stip",
-        "name:es": "Stip",
-        "name:sq": "Shtipi",
-        "railway": "station",
-        "wikidata": "Q921442",
+        "labels": [
+          {
+            "value": "Stip",
+            "lang": "de"
+          },
+          {
+            "value": "Stip",
+            "lang": "en"
+          },
+          {
+            "value": "Stip",
+            "lang": "es"
+          },
+          {
+            "value": "Shtipi",
+            "lang": "sq"
+          },
+          {
+            "value": "Штип"
+          }
+        ],
         "wikipedia": "mk:Македонски железници",
-        "id": "node/7388229405"
+        "P2848": [
+          {
+            "value": "Q1814990"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q921442"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1551,9 +2343,16 @@
       "type": "Feature",
       "id": "node/7391429180",
       "properties": {
-        "name": "Виничани",
-        "railway": "halt",
-        "id": "node/7391429180"
+        "labels": [
+          {
+            "value": "Виничани"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1567,14 +2366,19 @@
       "type": "Feature",
       "id": "node/8301279783",
       "properties": {
+        "labels": [
+          {
+            "value": "Тројкрсти"
+          }
+        ],
         "int_name": "Trojkrsti",
-        "name": "Тројкрсти",
         "network": "Makedonski Železnici",
         "operator": "Makedonski Železnici",
-        "public_transport": "stop_position",
-        "railway": "stop",
-        "train": "yes",
-        "id": "node/8301279783"
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1588,12 +2392,20 @@
       "type": "Feature",
       "id": "node/8418425192",
       "properties": {
-        "name": "Блаце",
-        "name:en": "Blace",
-        "public_transport": "station",
-        "railway": "halt",
-        "train": "yes",
-        "id": "node/8418425192"
+        "labels": [
+          {
+            "value": "Blace",
+            "lang": "en"
+          },
+          {
+            "value": "Блаце"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1607,12 +2419,20 @@
       "type": "Feature",
       "id": "node/8462489856",
       "properties": {
-        "name": "Слепче",
-        "name:en": "Slepche",
-        "public_transport": "stop_position",
-        "railway": "stop",
-        "train": "yes",
-        "id": "node/8462489856"
+        "labels": [
+          {
+            "value": "Slepche",
+            "lang": "en"
+          },
+          {
+            "value": "Слепче"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
