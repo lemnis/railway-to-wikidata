@@ -1,6 +1,40 @@
 import { Label } from "../types/location";
 
-const { remove: removeAccents } = require("diacritics");
+const { remove: removeAccents, diacriticsMap } = require("diacritics");
+
+// Transform german characters
+Object.assign(diacriticsMap, {
+  ä: "ae",
+  ö: "oe",
+  ü: "ue",
+  ß: "ss",
+  Ä: "AE",
+  Ö: "OE",
+  Ü: "UE",
+  å: "aa",
+  Å: "AA",
+  ø: "oe",
+  Ø: "OE",
+});
+
+const TransformMap = {
+  de: new Map([
+    [/ hbf$/, " hauptbahnhof"],
+    [/ bf$/, " bahnhof"],
+    [/ hauptbahnhof$/, " hbf"],
+    [/ bahnhof$/, " bf"],
+  ]),
+  nl: new Map([
+    [/ hbf$/, " hauptbahnhof"],
+    [/ hbf$/, " centraal"],
+    [/ bf$/, " bahnhof"],
+    [/ hauptbahnhof$/, " hbf"],
+    [/ bahnhof$/, " bf"],
+    [/ a\/d /, "  aan den "],
+    [/ a\/d /, " a. d. "],
+    [/'([a-z])/, "$1"],
+  ]),
+};
 
 /** Remove accents (diacrítics), dashes and removes duplicates spaces */
 const normalizeName = (name: string) =>
@@ -41,12 +75,16 @@ export const score = (base: Label[], expansion: Label[]) => {
       match: !!match,
       value,
       lang,
+      // destinationLabels: destinationLabels.map(({ value: b }) =>
+      //   normalizeName(b)
+      // ),
+      // normalize: normalizeName(value),
     };
   });
 
-  const percentage = matches.filter(({ missing }) => !missing).length
+  const percentage = matches.filter(({ missing, match }) => !missing && match).length
     ? matches.filter(({ match }) => match).length /
-      matches.filter(({ missing }) => !missing).length
+      matches.filter(({ missing, match }) => !missing && match).length
     : 0;
 
   return { matches, percentage };

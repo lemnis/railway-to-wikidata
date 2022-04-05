@@ -1,21 +1,19 @@
 import { score as scoreLabel } from "./label";
 import { score as scoreClaims } from "./property";
-import { LocationV4 } from "../types/location";
+import { Location } from "../types/location";
 import { Property } from "../types/wikidata";
 
 export const SCORE_THRESHOLD = 2.3;
 export const WITHOUT_LOCATION_SCORE_THRESHOLD = 1.3;
 
-export const score = async (location: LocationV4, wikidata: LocationV4) => {
-  const labels = scoreLabel(location.labels, wikidata.labels);
+export const score = async (location: Location, wikidata: Location) => {
+  const labels = scoreLabel(location.properties.labels, wikidata.properties.labels);
   const claims = await scoreClaims(
-    location.claims,
-    wikidata.claims,
-    location,
-    wikidata
+    location.properties,
+    wikidata.properties,
   );
 
-  const distance = claims.matches[Property.CoordinateLocation].matches.map(
+  const distance = claims?.matches[Property.CoordinateLocation]?.matches.map(
     (i) => i.distance < 3000 ? 1 - (i.distance / 3000) : 0
   );
 
@@ -23,6 +21,6 @@ export const score = async (location: LocationV4, wikidata: LocationV4) => {
     id: location.id || ':(',
     labels,
     claims,
-    percentage: labels.percentage + claims.percentage + distance.reduce((a, b) => a + b, 0),
+    percentage: labels.percentage + claims.percentage + (distance?.reduce((a, b) => a + b, 0) || 0),
   };
 };
