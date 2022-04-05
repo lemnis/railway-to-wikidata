@@ -65,6 +65,8 @@ const GeoJSONPath = __dirname + "/../../../geojson";
   const renfe = await importLocations(`${GeoJSONPath}/es-renfe.geojson`);
   const sbb = await importLocations(`${GeoJSONPath}/ch-sbb.geojson`);
   const trainOse = await importLocations(`${GeoJSONPath}/gr-train-ose.geojson`);
+  const mav = await importLocations(`${GeoJSONPath}/hu-mav.geojson`);
+  const regiojet = await importLocations(`${GeoJSONPath}/cz-regiojet.geojson`);
   const zsr = await importLocations(`${GeoJSONPath}/sk-zsr.geojson`);
   const atoc = await importLocations(`${GeoJSONPath}/uk-atoc.geojson`);
   const irishRail = await importLocations(
@@ -189,5 +191,31 @@ const GeoJSONPath = __dirname + "/../../../geojson";
     atoc,
     [ns, nsInternational, irishRail, trainline, euafr],
     Country.UnitedKingdom
+  );
+  await generate(
+    euafr,
+    [iris, oebb, regiojet, nsInternational, zsr, trainline],
+    Country.Slovenia
+  );
+  await generate(
+    pkp,
+    [euafr, iris, oebb, leoExpress, regiojet, nsInternational, zsr, trainline],
+    Country.Poland
+  );
+  await generate(
+    entur,
+    [euafr, nsInternational, trafiklab, trainline],
+    Country.Norway
+  );
+  await generate(
+    openov,
+    [euafr, iris, regiojet, nsInternational, trainline],
+    Country.Luxembourg
+  );
+  await generate(euafr, [nsInternational, trainline], Country.Latvia);
+  await generate(
+    mav,
+    [euafr, iris, oebb, regiojet, nsInternational, gov, zsr, trainline],
+    Country.Hungary
   );
 })();

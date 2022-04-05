@@ -35,7 +35,6 @@ title: "Countries"
   </tbody>
 </table>
 
-
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
@@ -71,21 +70,27 @@ title: "Countries"
   markers.addLayer(L.geoJson({{ site.data.BG | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.CZ | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.DE | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.DK | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.EE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.ES | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.FI | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.FR | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.GR | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.HR | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.IE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.IT | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.LT | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.LU | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.LV | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.NL | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.NO | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.PL | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.PT | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.RO | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.SE | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.SI | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.SK | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.UK | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.FR | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.DK | jsonify }}, { onEachFeature }));
 
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
