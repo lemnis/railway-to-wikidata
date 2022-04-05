@@ -2,6 +2,7 @@
 layout: "page"
 title: "Croatia"
 ---
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
@@ -30,6 +31,7 @@ title: "Croatia"
   var geoJsonLayer = L.geoJson(points, { onEachFeature });
   markers.addLayer(geoJsonLayer);
   map.addLayer(markers);
+  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/HR.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
   map.fitBounds(markers.getBounds());
 </script>
 
