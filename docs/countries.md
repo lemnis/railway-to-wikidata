@@ -23,7 +23,7 @@ title: "Countries"
         background-color: {{ row.properties.fill }};
         background-image: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7))
       ">
-        <td>{{ row.id }}</td>
+        <td><a href="/{{ row.id }}">{{ row.id }}</a></td>
         <td>{{ row.properties.name }}</td>
         <td>{{ row.properties.UIC | default: '❌' }}</td>
         <td>{{ row.properties.IBNR | default: '❌' }}</td>
@@ -52,15 +52,13 @@ title: "Countries"
   }).addTo( map );
 
 	function onEachFeature(feature, layer) {
-		const popupContent = `
+		layer.bindPopup(`
       ${feature.properties.labels?.[0]?.value} <br />
       <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br />
       <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br />
       <b>Station code</b> ${feature.properties.P296?.[0]?.value}
       <b>Atoc</b> ${feature.properties.P4755?.[0]?.value}
-    `
-
-		layer.bindPopup(popupContent);
+    `);
 	}
 
   var markers = L.markerClusterGroup();
