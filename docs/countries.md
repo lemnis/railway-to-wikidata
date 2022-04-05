@@ -66,6 +66,7 @@ title: "Countries"
   markers.addLayer(L.geoJson({{ site.data.AT | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.BE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.BG | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.CH | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.CZ | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.DE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.DK | jsonify }}, { onEachFeature }));
@@ -74,6 +75,7 @@ title: "Countries"
   markers.addLayer(L.geoJson({{ site.data.FI | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.FR | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.GR | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.HU | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.HR | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.IE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.IT | jsonify }}, { onEachFeature }));
