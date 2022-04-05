@@ -23,7 +23,7 @@ title: "Countries"
         background-color: {{ row.properties.fill }};
         background-image: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7))
       ">
-        <td><a href="/{{ row.id }}">{{ row.id }}</a></td>
+        <td><a href="./{{ row.id }}">{{ row.id }}</a></td>
         <td>{{ row.properties.name }}</td>
         <td>{{ row.properties.UIC | default: '❌' }}</td>
         <td>{{ row.properties.IBNR | default: '❌' }}</td>
