@@ -2,7 +2,7 @@ import { FeatureCollection, Point } from "geojson";
 import fetch from "node-fetch";
 import { GOLEMIO_API_KEY } from "../../../environment";
 import { Country } from "../../transform/country";
-import { LocationV4 } from "../../types/location";
+import { Location } from "../../types/location";
 import { Property } from "../../types/wikidata";
 import { logger } from "../../utils/logger";
 
@@ -47,13 +47,12 @@ export const getLocations = async () => {
 
   return features
     .filter(({ properties }) => properties.location_type === 1)
-    .map<LocationV4>(({ properties, geometry }) => ({
+    .map<Location>(({ properties, geometry }) => ({
+      type: "Feature",
       id: properties.stop_id,
-      labels: [{ value: properties.stop_name }],
-      claims: {
-        [Property.CoordinateLocation]: [
-          { value: [geometry.coordinates[1], geometry.coordinates[0]] },
-        ],
+      geometry,
+      properties: {
+        labels: [{ value: properties.stop_name }],
         [Property.StationCode]: [
           { value: properties.stop_id, ...(properties as any) },
         ],

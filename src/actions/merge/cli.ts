@@ -33,7 +33,7 @@ const generate = async (
     await matchAndMerge(k, iterator.filter(filter(country)), mergeLocation);
   }
 
-  fs.writeFile(
+  await fs.writeFile(
     `docs/_data/${country.alpha2}.json`,
     JSON.stringify(createFeatureCollection(result), null, 2)
   );
@@ -88,8 +88,8 @@ const GeoJSONPath = __dirname + "/../../../geojson";
   const entur = await importLocations(`${GeoJSONPath}/no-entur.geojson`);
   const sncf = await importLocations(`${GeoJSONPath}/fr-sncf.geojson`);
 
-  await generate(euafr, [nsInternational, trainline], Country.Bulgaria);
-  await generate(peatus, [nsInternational, euafr], Country.Estonia);
+  await generate(euafr, [trainline, nsInternational], Country.Bulgaria);
+  await generate(peatus, [euafr, nsInternational], Country.Estonia);
   await generate(renfe, [euafr, cp, trainline, nsInternational], Country.Spain);
   await generate(trainOse, [trainline, nsInternational], Country.Greece);
   await generate(
@@ -125,15 +125,9 @@ const GeoJSONPath = __dirname + "/../../../geojson";
     [entur, euafr, iris, nsInternational, trainline],
     Country.Sweden
   );
-
   await generate(
-    irail,
-    [euafr, iris, ns, openov, nsInternational, trainline],
-    Country.Bulgaria
-  );
-  await generate(
-    irail,
-    [oebb, golemio, leoExpress, nsInternational, pkp, zsr, trainline, iris],
+    euafr,
+    [oebb, golemio, leoExpress, nsInternational, pkp, zsr, trainline, iris, regiojet],
     Country.Czech
   );
   await generate(

@@ -1,3 +1,4 @@
+import { Country } from "../../transform/country";
 import { Location } from "../../types/location";
 import { Property } from "../../types/wikidata";
 import { rfiData } from "./rfi.data";
@@ -27,7 +28,10 @@ export const getLocations = async () => {
     },
     properties: {
       labels: [{ value: name }],
-      [Property.StationCode]: [{ value: stationList?.value }],
+      ...(stationList
+        ? { [Property.StationCode]: [{ value: stationList?.value }] }
+        : {}),
+      [Property.Country]: [{ value: Country.Italy.wikidata }],
     },
   }));
 };

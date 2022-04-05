@@ -1,5 +1,5 @@
-import { CodeIssuer, Property } from "../../types/wikidata";
-import { LocationV4 } from "../../types/location";
+import { Property } from "../../types/wikidata";
+import { Location } from "../../types/location";
 import { Country } from "../../transform/country";
 import { getGtfsStationsByRailRoute } from "../../utils/gtfs";
 
@@ -11,13 +11,14 @@ export const getLocations = () =>
     "https://gtfs.menetbrand.com/download/mav",
     "mav"
   ).then((data) =>
-    data.map<LocationV4>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
+    data.map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
       return {
+        type: "Feature",
         id: stop_id.toString(),
-        labels: [{ value: stop_name }],
-        claims: {
+        geometry: { type: "Point", coordinates: [stop_lon, stop_lat] },
+        properties: {
+          labels: [{ value: stop_name }],
           [Property.Country]: [{ value: Country.Hungary.wikidata }],
-          [Property.CoordinateLocation]: [{ value: [stop_lat, stop_lon] }],
         },
       };
     })
