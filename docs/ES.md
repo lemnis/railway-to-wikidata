@@ -84,9 +84,10 @@ const icon = L.divIcon({
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
+          <a href="https://horarios.renfe.com/HIRRenfeWeb/destinos.do?&O={{ label.value }}&ID=i&DF={{ site.time | date: '%d' }}&MF={{ site.time | date: '%m' }}&AF={{ site.time | date: '%Y' }}"
+          target="_blank">
+          {{ label.value }}
+          </a><br />
           <br />
           {% endfor %}
         </td>

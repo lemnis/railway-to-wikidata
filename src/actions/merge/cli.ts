@@ -67,7 +67,13 @@ const GeoJSONPath = __dirname + "/../../../geojson";
   const trainOse = await importLocations(`${GeoJSONPath}/gr-train-ose.geojson`);
   const zsr = await importLocations(`${GeoJSONPath}/sk-zsr.geojson`);
   const atoc = await importLocations(`${GeoJSONPath}/uk-atoc.geojson`);
-  const irishRail = await importLocations(`${GeoJSONPath}/ie-irish-rail.geojson`);
+  const irishRail = await importLocations(
+    `${GeoJSONPath}/ie-irish-rail.geojson`
+  );
+  const hzpp = await importLocations(`${GeoJSONPath}/hr-hzpp.geojson`);
+  const digitraffic = await importLocations(
+    `${GeoJSONPath}/fi-digitraffic.geojson`
+  );
   const trenitalia = await importLocations(
     `${GeoJSONPath}/it-trenitalia.geojson`
   );
@@ -78,6 +84,7 @@ const GeoJSONPath = __dirname + "/../../../geojson";
   const litrail = await importLocations(`${GeoJSONPath}/lt-litrail.geojson`);
   const gov = await importLocations(`${GeoJSONPath}/ro-gov.geojson`);
   const entur = await importLocations(`${GeoJSONPath}/no-entur.geojson`);
+  const sncf = await importLocations(`${GeoJSONPath}/fr-sncf.geojson`);
 
   await generate(euafr, [nsInternational, trainline], Country.Bulgaria);
   await generate(peatus, [nsInternational, euafr], Country.Estonia);
@@ -138,11 +145,45 @@ const GeoJSONPath = __dirname + "/../../../geojson";
       trainline,
       openov,
       ns,
+      nsInternational,
       pkp,
       trafiklab,
       zsr,
     ],
     Country.Germany
+  );
+  await generate(
+    oebb,
+    [
+      euafr,
+      iris,
+      sbb,
+      leoExpress,
+      ns,
+      nsInternational,
+      trafiklab,
+      zsr,
+      trainline,
+    ],
+    Country.Austria
+  );
+  await generate(hzpp, [euafr, iris, oebb, trainline], Country.Croatia);
+  await generate(
+    euafr,
+    [iris, nsInternational, trafiklab, trainline],
+    Country.Denmark
+  );
+  await generate(digitraffic, [nsInternational, euafr], Country.Finland);
+  await generate(
+    sncf,
+    [euafr, iris, renfe, openov, nsInternational, ns, trainline],
+    Country.France
+  );
+  await generate(irishRail, [trainline], Country.Ireland);
+  await generate(
+    sbb,
+    [euafr, iris, oebb, nsInternational, ns, zsr, trainline],
+    Country.Switzerland
   );
   await generate(
     atoc,
