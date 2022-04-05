@@ -114,13 +114,16 @@ const prompt = inquirer.createPromptModule();
       d = [...d, ...i];
       console.log(d.length);
       fs.writeFile(
-        `${geoJSONPath}/uic/wikidata-railway-stations.geojson`,
+        `${geoJSONPath}/wikidata-railway-stations.geojson`,
         JSON.stringify(createFeatureCollection(d), null, 2)
       );
       console.log("Updated wikidata");
     });
-    // const { data: uic } = await getUICRailwayStations();
-    // await exportGeoJSON(uic, `${geoJSONPath}/wikidata-uic-stations.geojson`);
+    const { data: uic } = await getUICRailwayStations();
+    fs.writeFile(
+      `${geoJSONPath}/uic/wikidata.geojson`,
+      JSON.stringify(createFeatureCollection(uic), null, 2)
+    );
   }
 
   if (osmUic) {

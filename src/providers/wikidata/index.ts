@@ -17,19 +17,28 @@ import { simplify, simplifyByKeyValue } from "./simplify";
 import { Location } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { logger } from "../../utils/logger";
+import { Country } from "../../transform/country";
 
 export const getAllRailwayStations = async () => {
   // TODO: Exclude closed station, but  include stations who got reopened (e.g. veendam)
-  const ids = simplify(
-    await run(`SELECT DISTINCT ?item WHERE {
+  const k = simplify(
+    await run(`SELECT DISTINCT ?item ?${Property.Country} WHERE {
     ?item (p:P31/(p:P279*)) ?instance.
     ?instance ps:P31 wd:Q55488.
-    ?item p:P625 ?P625Id.
-    ?P625Id ps:P625 ?P625.
+    ?item wdt:P625 ?P625.
+    ?item wdt:${Property.Country} ?${Property.Country}
   }
   ORDER BY ?item`),
-    []
-  ).map(({ id }) => id);
+    [{ property: Property.Country }]
+  )
+  const ids = k.filter(({ properties }) =>
+      properties[Property.Country]?.some(({ value }) =>
+        Object.values(Country)
+          .map((i) => i.wikidata)
+          .includes(value!)
+      )
+    )
+    .map(({ id }) => id);
 
   console.log("Found ", ids.length, "wikidata articles");
 
@@ -84,23 +93,24 @@ export const getAllRailwayStations = async () => {
 export const getUICRailwayStations = async () => {
   const properties = [...Object.values(CodeIssuer), ...Object.values(Property)];
   const query = `SELECT DISTINCT * WHERE {
-    ?item (p:P31/(p:P279*)) ?instance.
-    ?instance ps:P31 wd:Q55488.
-    
-    ${labelQuery}
-    ${querySingleProperty(Property.CoordinateLocation)}
-    ${querySingleProperty(CodeIssuer.UIC)}
-    ${properties
-      .filter((i) => i !== Property.CoordinateLocation && i !== CodeIssuer.UIC)
-      .map((i) => `OPTIONAL { ${querySingleProperty(i)} }`)
-      .join(" ")}
+      ${querySingleProperty(Property.CoordinateLocation)}
+      ${querySingleProperty(CodeIssuer.UIC)}
+
+      VALUES ?key {
+        ${properties.map((property) => `wdt:${property}`).join(" ")}
+        rdfs:label
+        skos:altLabel
+        wdt:P31
+      }
+     
+      OPTIONAL {
+        ?item ?key ?value
+      }
     }
-    LIMIT 1000000
   `;
-  console.log(query);
   const response = await run(query);
 
-  const data = simplify(
+  const data = simplifyByKeyValue(
     response,
     properties.map((property) => ({ property }))
   );

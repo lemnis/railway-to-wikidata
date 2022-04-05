@@ -18,12 +18,14 @@ export const simplify = (
     return acc;
   }, []);
 
-  return Object.values(groupedWikidataItems).map((items) => ({
+  return Object.values(groupedWikidataItems).map((items: any[]) => ({
     type: "Feature",
     id: removeUri(items[0].item.value),
     geometry: {
       type: "MultiPoint",
-      coordinates: simplifyCoordinates(items[Property.CoordinateLocation]),
+      coordinates: simplifyCoordinates(
+        items.map((i) => i[Property.CoordinateLocation]).filter(Boolean)
+      ),
     },
     properties: {
       labels: simplifyLabel(items),
@@ -36,7 +38,7 @@ export const simplifyByKeyValue = (
   response: any,
   keys: { property: string; qualifiers?: string[] }[],
   extra?: string[]
-): Location[] => {
+) => {
   const groupedWikidataItems = (response.results.bindings as any[]).reduce<
     any[]
   >((acc, k) => {
@@ -48,15 +50,18 @@ export const simplifyByKeyValue = (
     return acc;
   }, []);
 
-  return Object.values(groupedWikidataItems).map((items) => ({
+  return Object.values(groupedWikidataItems).map<Location>((items: any[]) => ({
     type: "Feature",
     id: removeUri(items[0].item?.value),
     geometry: {
       type: "MultiPoint",
-      coordinates: simplifyCoordinates(items[Property.CoordinateLocation]),
+      coordinates: simplifyCoordinates(
+        items.map((i) => i[Property.CoordinateLocation]).filter(Boolean)
+      ),
     },
     properties: {
       labels: simplifyLabel(items),
+      [Property.Wikidata]: [{ value: removeUri(items[0].item?.value) }],
       ...simplifyProperties(items, keys, extra),
     },
   }));

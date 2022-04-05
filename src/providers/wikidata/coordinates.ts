@@ -1,13 +1,15 @@
 import { simplifyValue } from "./clean-up";
 
-export const simplify = (claims: { value: string; [key: string]: any }[]) => {
+export const simplify = (
+  claims: { value: string; type: string; datatype: string }[]
+) => {
   return (claims || [])
     .filter(
-      ({ dataType }) =>
-        dataType === "http://www.opengis.net/ont/geosparql#wktLiteral"
+      ({ datatype }) =>
+        datatype === "http://www.opengis.net/ont/geosparql#wktLiteral"
     )
     .map(
-      ({ value, type, dataType }) =>
-        simplifyValue(value, type, dataType) as [number, number]
+      ({ value, type, datatype }) =>
+        simplifyValue(value, type, datatype) as [number, number]
     );
 };
