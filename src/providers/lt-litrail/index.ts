@@ -7,8 +7,8 @@ export const getLocations = () =>
   getStations().translations.map<Location>(
     ([name, latitude, longitude, , id]) => ({
       type: "Feature",
+      id,
       properties: {
-        id,
         labels: [{ value: name }],
         [Property.Country]: [{ value: Country.Lithuania.wikidata }],
         [CodeIssuer.ESR]: [{ value: id }],
