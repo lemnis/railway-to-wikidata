@@ -84,6 +84,8 @@ title: "Countries"
   markers.addLayer(L.geoJson({{ site.data.SE | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.SK | jsonify }}, { onEachFeature }));
   markers.addLayer(L.geoJson({{ site.data.UK | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.FR | jsonify }}, { onEachFeature }));
+  markers.addLayer(L.geoJson({{ site.data.DK | jsonify }}, { onEachFeature }));
 
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
