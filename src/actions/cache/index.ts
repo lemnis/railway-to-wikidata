@@ -52,6 +52,7 @@ const questions = [
       { value: "ch-sbb", checked: true },
       { value: "cz-golemio", checked: true },
       { value: "cz-leo-express", checked: true },
+      { value: "cz-regiojet", checked: true },
       { value: "de-db", checked: true },
       { value: "ee-peatus", checked: true },
       { value: "es-renfe", checked: true },
@@ -140,8 +141,8 @@ const prompt = inquirer.createPromptModule();
   }
 
   if (osm) {
-    import("../../providers/osm")
-      .then((i) => i.getTracks())
+    await import("../../providers/osm")
+      .then(({ getTracks }) => getTracks())
       .then((tracks) => {
         tracks
           .pipe(
@@ -157,8 +158,8 @@ const prompt = inquirer.createPromptModule();
           )
           .subscribe(() => {});
       });
-    import("../../providers/osm")
-      .then((i) => i.getStations())
+    await import("../../providers/osm")
+      .then(({ getStations }) => getStations())
       .then((stations) => {
         stations
           .pipe(
