@@ -64,7 +64,6 @@ const questions = [
       { value: "ie-irish-rail", checked: true },
       { value: "it-trenitalia", checked: true },
       { value: "lt-litrail", checked: true },
-      { value: "lt-visimarsrutai", checked: true },
       { value: "lv-ldz", checked: true },
       { value: "lu-openov", checked: true },
       { value: "nl-ns", checked: true },
