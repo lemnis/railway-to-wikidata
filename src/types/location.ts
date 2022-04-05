@@ -9,7 +9,8 @@ export interface Label {
 }
 
 interface Basic {
-  id: string;
+  /** @deprecated */
+  id?: string;
   labels: Label[];
   info?: {
     match?: {
@@ -18,8 +19,17 @@ interface Basic {
       [key: string]: any;
     }[];
     matched?: number;
+    /** When merged, contains original info object */
+    pregrouped?: Basic["info"][];
+    /** Accumalated reliability score of all merged sources */
+    reliability?: number;
+    [key: string]: any;
   };
 }
+
+export type Claims = {
+  [key in Property | CodeIssuer]?: ClaimObject<string>[];
+};
 
 export interface LocationV4 extends Basic {
   claims: {
@@ -29,11 +39,4 @@ export interface LocationV4 extends Basic {
   };
 }
 
-export type Location = Feature<
-  Point | MultiPoint,
-  Basic &  {
-    [key in Property | CodeIssuer]?: key extends keyof Basic
-      ? Basic[key]
-      : ClaimObject<string>[];
-  }
->;
+export type Location = Feature<Point | MultiPoint, Basic & Claims>;

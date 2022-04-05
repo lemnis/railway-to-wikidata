@@ -1,4 +1,3 @@
-import { LocationV4, Location } from "../../types/location";
 import { promises as fs } from "fs";
 import { createFeatureCollection } from "./geojson";
 import { refreshDatabase } from "./properties";

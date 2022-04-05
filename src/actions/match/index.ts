@@ -1,7 +1,7 @@
 import { Position } from "geojson";
 import { insideCircle, LatLon } from "geolocation-utils";
 import { score } from "../../score/label";
-import { LocationV4, Location } from "../../types/location";
+import { Location } from "../../types/location";
 import { Property, CodeIssuer, ClaimObject } from "../../types/wikidata";
 
 const ids: (CodeIssuer | Property.StationCode)[] = [

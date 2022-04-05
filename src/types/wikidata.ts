@@ -8,6 +8,7 @@ export enum CodeIssuer {
   SNCF = "P8181",
   IATA = "P238",
   GaresAndConnexions = "P3104",
+  ESR = "P2815",
 }
 
 export enum Property {
@@ -27,6 +28,7 @@ export enum Property {
   AppliesToPart = "P518",
   LocatedInTimeZone = "P421",
   NumberOfPlatformTracks = "P1103",
+  InstanceOf = 'P31',
   NumberOfPlatformFaces = "P5595",
   OfficialWebsite = "P856",
   DBStationCategory = "P5105",
@@ -37,12 +39,22 @@ export enum Property {
   UTCTimezoneOffset = "P2907",
   SaidToBeTheSameAs = "P460",
   ValidInPeriod = "P1264",
-  EndTime = 'P582'
+  EndTime = 'P582',
+  Wikidata = 'PWIKI',
+  WifiAccess = 'P2848'
 }
 
 export enum Items {
   AdministrativeTerritorialEntity = "Q56061",
   NederlandseSpoorwegen = "Q23076",
+  WheelchairAccessible = 'Q24192067',
+  WheelchairPartiallyAccessible = 'Q63731120',
+  WheelchairInaccessible = 'Q24192069',
+  RailwayStop = 'Q55678',
+  RailwayStation = 'Q55488',
+  MetroStation = 'Q928830',
+  No = 'Q1814990',
+  Yes = 'Q6452715'
 }
 
 export enum Constraint {
@@ -91,20 +103,6 @@ export const PropertyOptions: {
   },
 };
 
-export const References = {
-  GaresVoyaguers: "Q14915744",
-  Trainline: "Q63450820",
-  SBB: (UIC: number) => `https://lod.opentransportdata.swiss/didok/${UIC}`,
-  Digitraffic: "https://rata.digitraffic.fi/api/v1/metadata/stations",
-  ATOC: (stationCode: string) =>
-    `https://ojp.nationalrail.co.uk/service/ldbboard/dep/${stationCode}`,
-  NS: (stationCode: string) =>
-    `https://www.ns.nl/en/stationsinformatie/${stationCode}`,
-  DB: {
-    P248: "Q63433395",
-  },
-};
-
 export interface ClaimObject<T = string | number> {
   id?: string;
   property?: string;
@@ -119,11 +117,12 @@ export interface ClaimObject<T = string | number> {
   remove?: boolean;
   oldValue?: T;
 
-  qualifiers?: Record<string, Claim<"qualifiers" | "references">>;
-  references?: Record<string, string>[] | Record<string, string>;
+  qualifiers?: Record<string, Claim<"qualifiers" | "references">[]>;
+  references?: Record<string, Claim<"qualifiers" | "references">>[];
 
   label?: string;
   "xml:lang"?: string;
+  info?: Record<string, any>
   [key: string]: string | boolean | undefined | number | Record<string, any>;
 }
 
