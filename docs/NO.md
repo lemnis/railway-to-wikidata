@@ -10,7 +10,7 @@ title: "Norway"
 <div id='map' style="width: 100%; height: 700px"></div>
 
 <script>
-	const map = L.map('map').setView([50.5, 4.4], 8);
+	const map = L.map('map');
 	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
@@ -18,10 +18,10 @@ title: "Norway"
 
 	function onEachFeature(feature, layer) {
 		layer.bindPopup(`
-      ${feature.properties.labels?.[0].value} <br />
-      <b>UIC</b> ${feature.properties.P722?.[0].value} <br />
-      <b>IBNR</b> ${feature.properties.P954?.[0].value} <br />
-      <b>Station code</b> ${feature.properties.P296?.[0].value}
+      ${feature.properties.labels?.[0]?.value} <br />
+      <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br />
+      <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br />
+      <b>Station code</b> ${feature.properties.P296?.[0]?.value}
     `);
 	}
 
