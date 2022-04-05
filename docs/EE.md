@@ -10,33 +10,12 @@ layout: page
 <div id='map' style="width: 100%; height: 700px"></div>
 
 <script>
-	const map = L.map('map').setView([58.7, 25.59], 8);
-
-const markerHtmlStyles = (myCustomColour) => `
-  background-color: ${myCustomColour || 'red'};
-  width: 3rem;
-  height: 3rem;
-  display: block;
-  left: -1.5rem;
-  top: -1.5rem;
-  position: relative;
-  border-radius: 3rem 3rem 0;
-  transform: rotate(45deg);
-  border: 1px solid #FFFFFF`
-
-const icon = L.divIcon({
-  className: "",
-  iconAnchor: [0, 24],
-  labelAnchor: [-6, 0],
-  popupAnchor: [0, -36],
-  html: `<span style="${markerHtmlStyles}" />`
-})
-
+	const map = L.map('map');
 
 	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
-}).addTo( map );
+  }).addTo( map );
 
 	function onEachFeature(feature, layer) {
 		const popupContent = `
@@ -50,16 +29,12 @@ const icon = L.divIcon({
 	}
 
   const points = {{ site.data.EE | jsonify }}
-
   var markers = L.markerClusterGroup();
-
-  var geoJsonLayer = L.geoJson(points, {
-    onEachFeature
-  });
+  var geoJsonLayer = L.geoJson(points, { onEachFeature });
   markers.addLayer(geoJsonLayer);
-
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
+  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/EE.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
 </script>
 
 <table>

@@ -33,7 +33,6 @@ title: "Spain"
   markers.addLayer(geoJsonLayer);
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
-  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/ES.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
 </script>
 
 <table>
