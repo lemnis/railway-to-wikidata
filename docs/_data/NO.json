@@ -75,7 +75,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:117NO0900-09090",
+      "id": "--NSR:StopPlace:117-NO0900-09090-trainline-28387",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -93,15 +93,35 @@
           },
           {
             "value": "Elverum stasjon"
+          },
+          {
+            "value": "Эльверум",
+            "lang": "ru"
+          },
+          {
+            "value": "埃尔沃吕姆",
+            "lang": "zh"
+          },
+          {
+            "value": "Elverum"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600909"
+            "value": "7600909",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28387"
+              }
+            ]
           }
         ],
         "P17": [
@@ -116,6 +136,41 @@
         "P296": [
           {
             "value": "ELV"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAET",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28387"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28387",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28387"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28387"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600015",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28387"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -158,7 +213,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:151NO2330-23330",
+      "id": "-NSR:StopPlace:151-NO2330-23330",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -205,7 +260,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:155NO1120-11230",
+      "id": "-NSR:StopPlace:155-NO1120-11230",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -252,7 +307,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:17NO0720-07340",
+      "id": "--NSR:StopPlace:17-NO0720-07340-trainline-28335",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -270,15 +325,27 @@
           },
           {
             "value": "Ringebu stasjon"
+          },
+          {
+            "value": "Ringebu"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600734"
+            "value": "7600734",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28335"
+              }
+            ]
           }
         ],
         "P17": [
@@ -294,12 +361,47 @@
           {
             "value": "RBU"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOACC",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28335"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28335",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28335"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28335"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600108",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28335"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:200NO2311-23220",
+      "id": "--NSR:StopPlace:200-NO2311-23220-trainline-28460",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -317,15 +419,27 @@
           },
           {
             "value": "Finse stasjon"
+          },
+          {
+            "value": "Finse"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602322"
+            "value": "7602322",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28460"
+              }
+            ]
           }
         ],
         "P17": [
@@ -340,6 +454,41 @@
         "P296": [
           {
             "value": "FIN"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIN",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28460"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28460",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28460"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28460"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600018",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28460"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -382,7 +531,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:222NO2312-23240",
+      "id": "--NSR:StopPlace:222-NO2312-23240-trainline-28462",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -400,15 +549,27 @@
           },
           {
             "value": "Myrdal stasjon"
+          },
+          {
+            "value": "Myrdal"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602324"
+            "value": "7602324",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28462"
+              }
+            ]
           }
         ],
         "P17": [
@@ -424,12 +585,47 @@
           {
             "value": "MYR"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIP",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28462"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28462",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28462"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28462"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600068",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28462"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:23NO0910-09140",
+      "id": "--NSR:StopPlace:23-NO0910-09140-trainline-28389",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -447,15 +643,27 @@
           },
           {
             "value": "Rena stasjon"
+          },
+          {
+            "value": "Rena"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600914"
+            "value": "7600914",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28389"
+              }
+            ]
           }
         ],
         "P17": [
@@ -470,6 +678,41 @@
         "P296": [
           {
             "value": "REN"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAEV",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28389"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28389",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28389"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28389"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600114",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28389"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -512,7 +755,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:247",
+      "id": "-NSR:StopPlace:247-trainline-28440",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -527,15 +770,35 @@
           {
             "lang": "nor",
             "value": "Froland stasjon"
+          },
+          {
+            "value": "Froland"
           }
         ],
         "P722": [
           {
-            "value": "7602140"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7602140",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28440"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -543,12 +806,47 @@
           {
             "value": "FRL"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAHM",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28440"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28440",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28440"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28440"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600334",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28440"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:261NO2220-22250",
+      "id": "-NSR:StopPlace:261-NO2220-22250",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -703,7 +1001,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:302NO0640-06260",
+      "id": "--NSR:StopPlace:302-NO0640-06260-trainline-28325",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -721,15 +1019,39 @@
           },
           {
             "value": "Gjøvik stasjon"
+          },
+          {
+            "value": "예비크",
+            "lang": "ko"
+          },
+          {
+            "value": "Йёвик",
+            "lang": "ru"
+          },
+          {
+            "value": "约维克",
+            "lang": "zh"
+          },
+          {
+            "value": "Gjøvik"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600626"
+            "value": "7600626",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28325"
+              }
+            ]
           }
         ],
         "P17": [
@@ -744,6 +1066,41 @@
         "P296": [
           {
             "value": "GJØ"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOABL",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28325"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28325",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28325"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28325"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600058",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28325"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -822,7 +1179,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:316NO1110-11070",
+      "id": "--NSR:StopPlace:316-NO1110-11070-trainline-28346",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -840,15 +1197,35 @@
           },
           {
             "value": "Oppdal stasjon"
+          },
+          {
+            "value": "Оппдал",
+            "lang": "ru"
+          },
+          {
+            "value": "奧普達爾",
+            "lang": "zh"
+          },
+          {
+            "value": "Oppdal"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601107"
+            "value": "7601107",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
+              }
+            ]
           }
         ],
         "P17": [
@@ -864,12 +1241,47 @@
           {
             "value": "OPD"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOACQ",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28346",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600111",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:329",
+      "id": "-NSR:StopPlace:329-trainline-28385",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -884,15 +1296,35 @@
           {
             "lang": "no",
             "value": "Ilseng stasjon"
+          },
+          {
+            "value": "Ilseng"
           }
         ],
         "P722": [
           {
-            "value": "7600904"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7600904",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28385"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -900,12 +1332,47 @@
           {
             "value": "ILS"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAER",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28385"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28385",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28385"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28385"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600198",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28385"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:33NO1200-12030",
+      "id": "-NSR:StopPlace:33-NO1200-12030",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -952,7 +1419,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:331",
+      "id": "--NSR:StopPlace:331-NO1010-10080-trainline-28403",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -967,15 +1434,38 @@
           {
             "lang": "nor",
             "value": "Glåmos stasjon"
+          },
+          {
+            "value": "GlÕmos stasjon"
+          },
+          {
+            "value": "Glåmos"
           }
         ],
         "P722": [
           {
-            "value": "7601008"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7601008",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28403"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -983,12 +1473,47 @@
           {
             "value": "GOS"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAFL",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28403"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28403",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28403"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28403"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600218",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28403"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:349",
+      "id": "-NSR:StopPlace:349-trainline-28463",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1003,15 +1528,35 @@
           {
             "lang": "nor",
             "value": "Upsete stasjon"
+          },
+          {
+            "value": "Upsete"
           }
         ],
         "P722": [
           {
-            "value": "7602325"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7602325",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28463"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -1019,12 +1564,47 @@
           {
             "value": "UPS"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIQ",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28463"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28463",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28463"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28463"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600358",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28463"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:358NO2310-23200",
+      "id": "--NSR:StopPlace:358-NO2310-23200-trainline-28458",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1042,15 +1622,27 @@
           },
           {
             "value": "Ustaoset stasjon"
+          },
+          {
+            "value": "Ustaoset"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602320"
+            "value": "7602320",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28458"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1065,6 +1657,41 @@
         "P296": [
           {
             "value": "UST"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIL",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28458"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28458",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28458"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28458"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600121",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28458"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -1107,7 +1734,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:364NO2340-23370",
+      "id": "--NSR:StopPlace:364-NO2340-23370-trainline-28470",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1125,15 +1752,27 @@
           },
           {
             "value": "Vaksdal stasjon"
+          },
+          {
+            "value": "Vaksdal"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602337"
+            "value": "7602337",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28470"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1148,6 +1787,41 @@
         "P296": [
           {
             "value": "VAD"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIX",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28470"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28470",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28470"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28470"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600124",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28470"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -1262,7 +1936,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:38NO1300-13040",
+      "id": "--NSR:StopPlace:38-NO1300-13040-trainline-28360",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1280,15 +1954,27 @@
           },
           {
             "value": "Ronglan stasjon"
+          },
+          {
+            "value": "Ronglan"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601304"
+            "value": "7601304",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28360"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1304,12 +1990,47 @@
           {
             "value": "RLA"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOADK",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28360"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28360",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28360"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28360"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600255",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28360"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:382NO0230-02100",
+      "id": "-NSR:StopPlace:382-NO0230-02100",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1428,7 +2149,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:393NO1200-12010",
+      "id": "--NSR:StopPlace:393-NO1200-12010-trainline-28350",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1446,15 +2167,27 @@
           },
           {
             "value": "Leangen stasjon"
+          },
+          {
+            "value": "Leangen"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601201"
+            "value": "7601201",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28350"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1470,12 +2203,47 @@
           {
             "value": "LEA"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOACV",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28350"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28350",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28350"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28350"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600247",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28350"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:398NO2340-23420",
+      "id": "--NSR:StopPlace:398-NO2340-23420-trainline-28472",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1493,15 +2261,27 @@
           },
           {
             "value": "Arna stasjon"
+          },
+          {
+            "value": "Arna"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602342"
+            "value": "7602342",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28472"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1517,12 +2297,47 @@
           {
             "value": "ARN"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIZ",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28472"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28472",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28472"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28472"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600073",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28472"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:4NO0721-07430",
+      "id": "--NSR:StopPlace:4-NO0721-07430-trainline-28338",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1540,15 +2355,27 @@
           },
           {
             "value": "Otta stasjon"
+          },
+          {
+            "value": "Otta"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600743"
+            "value": "7600743",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28338"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1564,12 +2391,47 @@
           {
             "value": "OTA"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOACG",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28338"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28338",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28338"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28338"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600054",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28338"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:400NO1120-11170",
+      "id": "-NSR:StopPlace:400-NO1120-11170",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1616,7 +2478,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:406NO0800-08010",
+      "id": "--NSR:StopPlace:406-NO0800-08010-trainline-28341",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1634,15 +2496,27 @@
           },
           {
             "value": "Lesja stasjon"
+          },
+          {
+            "value": "Lesja"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600801"
+            "value": "7600801",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28341"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1657,6 +2531,41 @@
         "P296": [
           {
             "value": "LES"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOACJ",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28341"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28341",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28341"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28341"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600187",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28341"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -1699,7 +2608,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:416NO1200-12040",
+      "id": "--NSR:StopPlace:416-NO1200-12040-760001204",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1717,6 +2626,10 @@
           },
           {
             "value": "Vikhammer stasjon"
+          },
+          {
+            "value": "Vikhammar",
+            "lang": "sv"
           }
         ],
         "P722": [
@@ -1746,7 +2659,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:42NO2312-23270",
+      "id": "--NSR:StopPlace:42-NO2312-23270-trainline-28465",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1764,15 +2677,27 @@
           },
           {
             "value": "Reimegrend stasjon"
+          },
+          {
+            "value": "Reimegrend"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602327"
+            "value": "7602327",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28465"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1788,12 +2713,47 @@
           {
             "value": "RMG"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIS",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28465"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28465",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28465"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28465"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600360",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28465"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:420NO0710-07250",
+      "id": "--NSR:StopPlace:420-NO0710-07250-trainline-28334",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1811,15 +2771,43 @@
           },
           {
             "value": "Lillehammer stasjon"
+          },
+          {
+            "value": "リレハンメル",
+            "lang": "ja"
+          },
+          {
+            "value": "릴레함메르",
+            "lang": "ko"
+          },
+          {
+            "value": "Лиллехаммер",
+            "lang": "ru"
+          },
+          {
+            "value": "利勒哈默尔",
+            "lang": "zh"
+          },
+          {
+            "value": "Lillehammer"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600725"
+            "value": "7600725",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28334"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1835,12 +2823,47 @@
           {
             "value": "LHM"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOABY",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28334"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28334",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28334"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28334"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600035",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28334"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:421NO2220-22190",
+      "id": "--NSR:StopPlace:421-NO2220-22190-trainline-28433",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1858,15 +2881,27 @@
           },
           {
             "value": "Vigrestad stasjon"
+          },
+          {
+            "value": "Vigrestad"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602219"
+            "value": "7602219",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28433"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1882,12 +2917,47 @@
           {
             "value": "VIG"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAHE",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28433"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28433",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28433"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28433"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600348",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28433"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:425NO0720-07390",
+      "id": "--NSR:StopPlace:425-NO0720-07390-trainline-28336",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1905,15 +2975,27 @@
           },
           {
             "value": "Vinstra stasjon"
+          },
+          {
+            "value": "Vinstra"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600739"
+            "value": "7600739",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28336"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1929,12 +3011,47 @@
           {
             "value": "VIN"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOACE",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28336"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28336",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28336"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28336"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600109",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28336"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:429NO1610-16120",
+      "id": "--NSR:StopPlace:429-NO1610-16120-trainline-28438",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1952,15 +3069,35 @@
           },
           {
             "value": "Vikersund stasjon"
+          },
+          {
+            "value": "ヴィケルスン",
+            "lang": "ja"
+          },
+          {
+            "value": "Викерсунд",
+            "lang": "ru"
+          },
+          {
+            "value": "Vikersund"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601612"
+            "value": "7601612",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28438"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1976,12 +3113,47 @@
           {
             "value": "VKS"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAHJ",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28438"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28438",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28438"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28438"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600302",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28438"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:433NO0540-05020",
+      "id": "-NSR:StopPlace:433-NO0540-05020",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2172,7 +3344,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:447",
+      "id": "-NSR:StopPlace:447-trainline-28398",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2187,15 +3359,35 @@
           {
             "lang": "no",
             "value": "Auma stasjon"
+          },
+          {
+            "value": "Auma"
           }
         ],
         "P722": [
           {
-            "value": "7600927"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7600927",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28398"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -2203,12 +3395,47 @@
           {
             "value": "AUM"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAFG",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28398"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28398",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28398"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28398"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600213",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28398"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:448",
+      "id": "-NSR:StopPlace:448-trainline-28474",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2223,21 +3450,76 @@
           {
             "lang": "nor",
             "value": "Vatnahalsen stasjon"
+          },
+          {
+            "value": "Vatnahalsen"
           }
         ],
         "P722": [
           {
-            "value": "7602358"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7602358",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28474"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
             "value": "VTH"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAJB",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28474"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28474",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28474"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28474"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600456",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28474"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -2280,7 +3562,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:451NO0270-02070",
+      "id": "---NSR:StopPlace:451-NO0270-02070-760000207-trainline-28326",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2298,15 +3580,39 @@
           },
           {
             "value": "Lillestrøm stasjon"
+          },
+          {
+            "value": "Lillestrøm",
+            "lang": "sv"
+          },
+          {
+            "value": "Лиллестрём",
+            "lang": "ru"
+          },
+          {
+            "value": "利勒斯特罗姆",
+            "lang": "zh"
+          },
+          {
+            "value": "Lillestrøm"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600207"
+            "value": "7600207",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28326"
+              }
+            ]
           }
         ],
         "P17": [
@@ -2322,12 +3628,47 @@
           {
             "value": "LLS"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOABP",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28326"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28326",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28326"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28326"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600036",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28326"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:453",
+      "id": "-NSR:StopPlace:453-NO1300-13072",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2342,15 +3683,25 @@
           {
             "lang": "no",
             "value": "Bergsgrav stasjon"
+          },
+          {
+            "value": "Bergsgrav stasjon"
           }
         ],
         "P722": [
           {
             "value": "7611307"
+          },
+          {
+            "value": "7601307"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -2363,7 +3714,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:461NO1120-11160",
+      "id": "-NSR:StopPlace:461-NO1120-11160",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2446,7 +3797,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:467NO0800-08050",
+      "id": "--NSR:StopPlace:467-NO0800-08050-trainline-28342",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2464,15 +3815,27 @@
           },
           {
             "value": "Bjorli stasjon"
+          },
+          {
+            "value": "Bjorli"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600805"
+            "value": "7600805",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28342"
+              }
+            ]
           }
         ],
         "P17": [
@@ -2487,6 +3850,41 @@
         "P296": [
           {
             "value": "BJO"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOACK",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28342"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28342",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28342"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28342"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600197",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28342"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -2637,7 +4035,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:500",
+      "id": "-NSR:StopPlace:500-trainline-28396",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2652,21 +4050,76 @@
           {
             "lang": "nor",
             "value": "Bellingmo stasjon"
+          },
+          {
+            "value": "Bellingmo"
           }
         ],
         "P722": [
           {
-            "value": "7600925"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7600925",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28396"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
             "value": "BMO"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAFE",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28396"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28396",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28396"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28396"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600210",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28396"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -2709,7 +4162,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:518NO2330-23340",
+      "id": "-NSR:StopPlace:518-NO2330-23340",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2756,7 +4209,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:53NO1000-10060",
+      "id": "--NSR:StopPlace:53-NO1000-10060-trainline-28402",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2774,15 +4227,39 @@
           },
           {
             "value": "Røros stasjon"
+          },
+          {
+            "value": "レーロース",
+            "lang": "ja"
+          },
+          {
+            "value": "Рёрус",
+            "lang": "ru"
+          },
+          {
+            "value": "勒羅斯",
+            "lang": "zh"
+          },
+          {
+            "value": "Røros"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601006"
+            "value": "7601006",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28402"
+              }
+            ]
           }
         ],
         "P17": [
@@ -2797,6 +4274,41 @@
         "P296": [
           {
             "value": "ROS"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAFK",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28402"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28402",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28402"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28402"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600217",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28402"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -2911,7 +4423,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:555NO2130-21760",
+      "id": "--NSR:StopPlace:555-NO2130-21760-trainline-28424",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2929,15 +4441,27 @@
           },
           {
             "value": "Breland stasjon"
+          },
+          {
+            "value": "Breland"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602176"
+            "value": "7602176",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28424"
+              }
+            ]
           }
         ],
         "P17": [
@@ -2952,6 +4476,41 @@
         "P296": [
           {
             "value": "BRL"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAGQ",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28424"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28424",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28424"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28424"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600339",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28424"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -2994,7 +4553,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:561NO2220-22180",
+      "id": "-NSR:StopPlace:561-NO2220-22180",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3041,7 +4600,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:574NO0620-06110",
+      "id": "-NSR:StopPlace:574-NO0620-06110",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3088,7 +4647,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:577NO1410-14100",
+      "id": "-NSR:StopPlace:577-NO1410-14100",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3163,7 +4722,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:584NO2330-23310",
+      "id": "-NSR:StopPlace:584-NO2330-23310",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3210,7 +4769,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:58415",
+      "id": "-NSR:StopPlace:58415-NO1350-13860",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3225,15 +4784,25 @@
           {
             "lang": "no",
             "value": "Oteråga stasjon"
+          },
+          {
+            "value": "Oteråga stasjon"
           }
         ],
         "P722": [
           {
             "value": "7600186"
+          },
+          {
+            "value": "7601386"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -3318,7 +4887,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:592NO1210-12150",
+      "id": "---NSR:StopPlace:592-NO1210-12150-760001215-trainline-28356",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3336,15 +4905,31 @@
           },
           {
             "value": "Kopperå stasjon"
+          },
+          {
+            "value": "Kopperå",
+            "lang": "sv"
+          },
+          {
+            "value": "Kopperå"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601215"
+            "value": "7601215",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28356"
+              }
+            ]
           }
         ],
         "P17": [
@@ -3359,6 +4944,41 @@
         "P296": [
           {
             "value": "KPR"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOADE",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28356"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28356",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28356"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28356"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600093",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28356"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -3437,7 +5057,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:602NO1111-11100",
+      "id": "--NSR:StopPlace:602-NO1111-11100-trainline-28347",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3455,15 +5075,27 @@
           },
           {
             "value": "Berkåk stasjon"
+          },
+          {
+            "value": "Berkåk"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601110"
+            "value": "7601110",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28347"
+              }
+            ]
           }
         ],
         "P17": [
@@ -3478,6 +5110,41 @@
         "P296": [
           {
             "value": "BÅK"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOACS",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28347"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28347",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28347"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28347"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600112",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28347"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -3520,7 +5187,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:610",
+      "id": "--NSR:StopPlace:610-NO1410-14080-trainline-28407",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3535,15 +5202,42 @@
           {
             "lang": "no",
             "value": "Sandvika stasjon"
+          },
+          {
+            "value": "Sandvika stasjon Drammenbanen"
+          },
+          {
+            "value": "Сандвика",
+            "lang": "ru"
+          },
+          {
+            "value": "Sandvika"
           }
         ],
         "P722": [
           {
-            "value": "7601408"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7601408",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28407"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
@@ -3551,12 +5245,47 @@
           {
             "value": "SV"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAFR",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28407"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28407",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28407"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28407"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600281",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28407"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:61101NO1800-18060",
+      "id": "--NSR:StopPlace:61101-NO1800-18060-trainline-28485",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3574,15 +5303,27 @@
           },
           {
             "value": "Notodden stasjon"
+          },
+          {
+            "value": "Notodden"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601806"
+            "value": "7601806",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28485"
+              }
+            ]
           }
         ],
         "P17": [
@@ -3598,12 +5339,47 @@
           {
             "value": "NTD"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NONOT",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28485"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28485",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28485"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28485"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600053",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28485"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:628NO1650-16280",
+      "id": "-NSR:StopPlace:628-NO1650-16280",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3650,7 +5426,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:629NO0721-07400",
+      "id": "--NSR:StopPlace:629-NO0721-07400-trainline-28337",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3668,15 +5444,27 @@
           },
           {
             "value": "Kvam stasjon"
+          },
+          {
+            "value": "Kvam"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600740"
+            "value": "7600740",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28337"
+              }
+            ]
           }
         ],
         "P17": [
@@ -3691,6 +5479,41 @@
         "P296": [
           {
             "value": "KVA"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOACF",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28337"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28337",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28337"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28337"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600184",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28337"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -3733,7 +5556,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:636NO1120-11190",
+      "id": "-NSR:StopPlace:636-NO1120-11190",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3780,7 +5603,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:646NO0700-07060",
+      "id": "--NSR:StopPlace:646-NO0700-07060-trainline-28329",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3798,15 +5621,27 @@
           },
           {
             "value": "Tangen stasjon"
+          },
+          {
+            "value": "Tangen"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600706"
+            "value": "7600706",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28329"
+              }
+            ]
           }
         ],
         "P17": [
@@ -3821,6 +5656,41 @@
         "P296": [
           {
             "value": "TAN"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOABS",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28329"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28329",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28329"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28329"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600175",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28329"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -3899,7 +5769,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:669",
+      "id": "-NSR:StopPlace:669-trainline-28390",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3914,21 +5784,76 @@
           {
             "lang": "no",
             "value": "Steinvik stasjon"
+          },
+          {
+            "value": "Steinvik"
           }
         ],
         "P722": [
           {
-            "value": "7600915"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7600915",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28390"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
             "value": "SNV"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAEW",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28390"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28390",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28390"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28390"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600202",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28390"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -3971,7 +5896,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:687",
+      "id": "-NSR:StopPlace:687-trainline-28365",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3986,21 +5911,76 @@
           {
             "lang": "no",
             "value": "Sparbu stasjon"
+          },
+          {
+            "value": "Sparbu"
           }
         ],
         "P722": [
           {
-            "value": "7601311"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7601311",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28365"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
             "value": "SPB"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOADP",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28365"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28365",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28365"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28365"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600259",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28365"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -4043,7 +6023,7 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:699NO0920-09280",
+      "id": "--NSR:StopPlace:699-NO0920-09280-trainline-28399",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4061,15 +6041,35 @@
           },
           {
             "value": "Tynset stasjon"
+          },
+          {
+            "value": "Тюнсет",
+            "lang": "ru"
+          },
+          {
+            "value": "廷瑟",
+            "lang": "zh"
+          },
+          {
+            "value": "Tynset"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600928"
+            "value": "7600928",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28399"
+              }
+            ]
           }
         ],
         "P17": [
@@ -4085,12 +6085,47 @@
           {
             "value": "TYN"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAFH",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28399"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28399",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28399"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28399"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600044",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28399"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:708NO0700-07080",
+      "id": "--NSR:StopPlace:708-NO0700-07080-trainline-28330",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4108,15 +6143,27 @@
           },
           {
             "value": "Stange stasjon"
+          },
+          {
+            "value": "Stange"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7600708"
+            "value": "7600708",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28330"
+              }
+            ]
           }
         ],
         "P17": [
@@ -4132,12 +6179,47 @@
           {
             "value": "STG"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOABT",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28330"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28330",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28330"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28330"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600176",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28330"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:71NO2312-23230",
+      "id": "--NSR:StopPlace:71-NO2312-23230-trainline-28461",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4155,15 +6237,27 @@
           },
           {
             "value": "Hallingskeid stasjon"
+          },
+          {
+            "value": "Hallingskeid"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602323"
+            "value": "7602323",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28461"
+              }
+            ]
           }
         ],
         "P17": [
@@ -4179,12 +6273,47 @@
           {
             "value": "HAL"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIO",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28461"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28461",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28461"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28461"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600357",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28461"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:710NO2340-23360",
+      "id": "--NSR:StopPlace:710-NO2340-23360-trainline-28469",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4202,15 +6331,27 @@
           },
           {
             "value": "Stanghelle stasjon"
+          },
+          {
+            "value": "Stanghelle"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7602336"
+            "value": "7602336",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28469"
+              }
+            ]
           }
         ],
         "P17": [
@@ -4226,12 +6367,47 @@
           {
             "value": "STH"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOAIW",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28469"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28469",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28469"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28469"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600367",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28469"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:74NO1300-13100",
+      "id": "--NSR:StopPlace:74-NO1300-13100-trainline-28364",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4249,15 +6425,27 @@
           },
           {
             "value": "Røra stasjon"
+          },
+          {
+            "value": "Rora"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
-            "value": "7601310"
+            "value": "7601310",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28364"
+              }
+            ]
           }
         ],
         "P17": [
@@ -4273,12 +6461,47 @@
           {
             "value": "RØ"
           }
+        ],
+        "P8448": [
+          {
+            "value": "NOADO",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28364"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28364",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28364"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28364"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600258",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28364"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:77",
+      "id": "-NSR:StopPlace:77-trainline-28381",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4293,21 +6516,76 @@
           {
             "lang": "no",
             "value": "Røkland stasjon"
+          },
+          {
+            "value": "Røkland"
           }
         ],
         "P722": [
           {
-            "value": "7601380"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7601380",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28381"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
             "value": "RØK"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOAEN",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28381"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28381",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28381"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412119",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28381"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600276",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28381"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }

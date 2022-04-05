@@ -1095,7 +1095,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG32040trainline-27854",
+      "id": "-BG32040-trainline-27854",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1964,7 +1964,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG16000BGSOFtrainline-27859",
+      "id": "--BG16000-BGSOF-trainline-27859",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2034,6 +2034,20 @@
             "value": "Q219"
           }
         ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "BGSOF",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
+              }
+            ]
+          }
+        ],
         "P954": [
           {
             "info": {
@@ -2045,20 +2059,6 @@
               "reliability": 0.7000000000000001
             },
             "value": "5200004",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
-              }
-            ]
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "BGSOF",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
@@ -3346,7 +3346,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG24000trainline-27853",
+      "id": "-BG24000-trainline-27853",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3795,7 +3795,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG29030trainline-27860",
+      "id": "-BG29030-trainline-27860",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4268,7 +4268,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG14000trainline-27856",
+      "id": "-BG14000-trainline-27856",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4961,7 +4961,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG83020trainline-27852",
+      "id": "-BG83020-trainline-27852",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6030,7 +6030,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG14020trainline-27851",
+      "id": "-BG14020-trainline-27851",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6319,7 +6319,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG18000trainline-27850",
+      "id": "-BG18000-trainline-27850",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6604,7 +6604,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG11006trainline-27855",
+      "id": "-BG11006-trainline-27855",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6969,7 +6969,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG49000trainline-27858",
+      "id": "-BG49000-trainline-27858",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7306,7 +7306,7 @@
     },
     {
       "type": "Feature",
-      "id": "BG16043trainline-27849",
+      "id": "-BG16043-trainline-27849",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8247,81 +8247,28 @@
     },
     {
       "type": "Feature",
-      "id": "BG49901trainline-27858",
+      "id": "BG49901",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Point",
         "coordinates": [
-          [
-            25.944,
-            43.8403
-          ]
+          25.944,
+          43.8403
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "RUSE ZAPAD"
-          },
-          {
-            "value": "Ruse"
           }
         ],
         "P722": [
           {
             "value": "5249901"
-          },
-          {
-            "value": "5249000",
-            "references": {
-              "P854": "https://trainline-eu.github.io/stations-studio/#/station/27858"
-            },
-            "info": {
-              "reliability": 0.7000000000000001
-            }
           }
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q219"
-          }
-        ],
-        "P8448": [
-          {
-            "value": "BGRUS",
-            "references": {
-              "P854": "https://trainline-eu.github.io/stations-studio/#/station/27858"
-            }
-          }
-        ],
-        "P6724": [
-          {
-            "value": "27858",
-            "references": {
-              "P854": "https://trainline-eu.github.io/stations-studio/#/station/27858"
-            }
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q28148701",
-            "references": {
-              "P854": "https://trainline-eu.github.io/stations-studio/#/station/27858"
-            }
-          }
-        ],
-        "P954": [
-          {
-            "value": "5200024",
-            "references": {
-              "P854": "https://trainline-eu.github.io/stations-studio/#/station/27858"
-            },
-            "info": {
-              "reliability": 0.7000000000000001
-            }
           }
         ]
       }

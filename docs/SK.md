@@ -10,33 +10,12 @@ title: "Slovakia"
 <div id='map' style="width: 100%; height: 700px"></div>
 
 <script>
-	const map = L.map('map').setView([39.6944665,-8.1304769], 8);
-
-const markerHtmlStyles = (myCustomColour) => `
-  background-color: ${myCustomColour || 'red'};
-  width: 3rem;
-  height: 3rem;
-  display: block;
-  left: -1.5rem;
-  top: -1.5rem;
-  position: relative;
-  border-radius: 3rem 3rem 0;
-  transform: rotate(45deg);
-  border: 1px solid #FFFFFF`
-
-const icon = L.divIcon({
-  className: "",
-  iconAnchor: [0, 24],
-  labelAnchor: [-6, 0],
-  popupAnchor: [0, -36],
-  html: `<span style="${markerHtmlStyles}" />`
-})
-
+	const map = L.map('map');
 
 	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
-}).addTo( map );
+  }).addTo( map );
 
 	function onEachFeature(feature, layer) {
 		const popupContent = `
@@ -50,16 +29,14 @@ const icon = L.divIcon({
 	}
 
   const points = {{ site.data.SK | jsonify }}
-
   var markers = L.markerClusterGroup();
-
   var geoJsonLayer = L.geoJson(points, {
     onEachFeature
   });
   markers.addLayer(geoJsonLayer);
-
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
+    fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/SK.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
 </script>
 
 <table>
@@ -74,6 +51,7 @@ const icon = L.divIcon({
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -82,7 +60,7 @@ const icon = L.divIcon({
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
+          <a href="https://aplikacie.zsr.sk/infotabule/StationDetail.aspx?id={{ label.value }}&t=2" target="_blank">
             {{ label.value }}
           </a>
           <br />
@@ -115,6 +93,14 @@ const icon = L.divIcon({
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />

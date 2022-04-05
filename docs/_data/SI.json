@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "SI42001XZD7900017trainline-19100-22732",
+      "id": "---SI42001-XZD-7900017-trainline-19100-22732",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -186,18 +186,24 @@
     },
     {
       "type": "Feature",
-      "id": "SI42004",
+      "id": "-SI42004-XZKR",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          15.4934674,
-          45.9561252
+          [
+            15.4934674,
+            45.9561252
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Krško",
+            "lang": "sl"
+          },
+          {
+            "value": "Krsko",
             "lang": "sl"
           }
         ],
@@ -208,7 +214,27 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900030",
+            "references": {
+              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XZKR",
+            "references": {
+              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
           }
         ]
       }
@@ -273,7 +299,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42100XZSN7900018",
+      "id": "--SI42100-XZSN-7900018",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -421,7 +447,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42200XZZMtrainline-19095",
+      "id": "--SI42200-XZZM-trainline-19095",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -559,7 +585,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42203XZT",
+      "id": "-SI42203-XZT",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -610,7 +636,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42204XZZG",
+      "id": "-SI42204-XZZG",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -690,7 +716,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42207XZLJ",
+      "id": "-SI42207-XZLJ",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -857,7 +883,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42300XZL7900003SILJU",
+      "id": "----SI42300-XZL-7900003-SILJU-trainline-19094",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -879,11 +905,64 @@
           },
           {
             "value": "Ljubljana"
+          },
+          {
+            "value": "Laibach",
+            "lang": "de"
+          },
+          {
+            "value": "Liubliana",
+            "lang": "es"
+          },
+          {
+            "value": "Lubiana",
+            "lang": "it"
+          },
+          {
+            "value": "Lublaň",
+            "lang": "cs"
+          },
+          {
+            "value": "リュブリャナ",
+            "lang": "ja"
+          },
+          {
+            "value": "류블랴나",
+            "lang": "ko"
+          },
+          {
+            "value": "Lublana",
+            "lang": "pl"
+          },
+          {
+            "value": "Liubliana",
+            "lang": "pt"
+          },
+          {
+            "value": "Любляна",
+            "lang": "ru"
+          },
+          {
+            "value": "卢布尔雅那",
+            "lang": "zh"
           }
         ],
         "P722": [
           {
-            "value": "7942300"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7942300",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19094"
+              }
+            ]
           }
         ],
         "P17": [
@@ -898,11 +977,18 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "7900003",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19094"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -922,7 +1008,40 @@
         ],
         "P8448": [
           {
-            "value": "SILJU"
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "SILJU",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19094"
+              }
+            ]
+          }
+        ],
+        "P8181": [
+          {
+            "value": "SILJU",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19094"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "19094",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19094"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412110",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19094"
+            }
           }
         ]
       }
@@ -1132,7 +1251,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42307XZKJtrainline-19099",
+      "id": "--SI42307-XZKJ-trainline-19099",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1357,7 +1476,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42313XZLB",
+      "id": "--SI42313-XZLB-trainline-19093",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1372,11 +1491,28 @@
           {
             "value": "Lesce-Bled",
             "lang": "sl"
+          },
+          {
+            "value": "Lesce Bled",
+            "lang": "sl"
           }
         ],
         "P722": [
           {
-            "value": "7942313"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7942313",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19093"
+              }
+            ]
           }
         ],
         "P17": [
@@ -1390,10 +1526,23 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "7900002",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-            }
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19093"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -1401,6 +1550,30 @@
             "value": "XZLB",
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
+          }
+        ],
+        "P8448": [
+          {
+            "value": "SILES",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19093"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "19093",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19093"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412110",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19093"
             }
           }
         ]
@@ -1466,7 +1639,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42400trainline-19092-22733",
+      "id": "---SI42400-XZJ-7900001-trainline-19092-22733",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1481,6 +1654,14 @@
           {
             "value": "Jesenice",
             "lang": "sl"
+          },
+          {
+            "value": "Jesenice(SL)",
+            "lang": "sl"
+          },
+          {
+            "value": "Jesenice(SL)",
+            "lang": "de"
           },
           {
             "value": "イェセニツェ",
@@ -1527,6 +1708,44 @@
             "value": "Q215"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7900001",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          },
+          {
+            "value": "5403723",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XZJ",
+            "references": {
+              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
+          }
+        ],
         "P8448": [
           {
             "value": "SIADT",
@@ -1559,26 +1778,6 @@
             "value": "Q5412110",
             "references": {
               "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
-            }
-          }
-        ],
-        "P954": [
-          {
-            "value": "7900001",
-            "references": {
-              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
-            },
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "5403723",
-            "references": {
-              "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
-            },
-            "info": {
-              "reliability": 0.7000000000000001
             }
           }
         ]
@@ -2021,18 +2220,24 @@
     },
     {
       "type": "Feature",
-      "id": "SI43002",
+      "id": "-SI43002-OJLAS",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          15.232042,
-          46.1541676
+          [
+            15.232042,
+            46.1541676
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Laško",
+            "lang": "sl"
+          },
+          {
+            "value": "Lasko",
             "lang": "sl"
           }
         ],
@@ -2043,14 +2248,34 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900031",
+            "references": {
+              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
+          }
+        ],
+        "P8671": [
+          {
+            "value": "OJLAS",
+            "references": {
+              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "SI43100OJCJ431007trainline-28636",
+      "id": "---SI43100-OJCJ-431007-trainline-28636",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2229,12 +2454,14 @@
     },
     {
       "type": "Feature",
-      "id": "SI43200",
+      "id": "-SI43200-trainline-28696",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          15.4395814,
-          46.2131061
+          [
+            15.4395814,
+            46.2131061
+          ]
         ]
       },
       "properties": {
@@ -2247,11 +2474,59 @@
         "P722": [
           {
             "value": "7943200"
+          },
+          {
+            "value": "7243200",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28696"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "YUABO",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28696"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28696",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28696"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412110",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28696"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900024",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28696"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -2403,7 +2678,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI43300OJPRtrainline-28632",
+      "id": "--SI43300-OJPR-trainline-28632",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2620,7 +2895,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI43400XZM7900006434001trainline-19096",
+      "id": "----SI43400-XZM-7900006-434001-trainline-19096",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5036,7 +5311,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI43704trainline-28633",
+      "id": "-SI43704-trainline-28633",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5715,7 +5990,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI44009trainline-28634",
+      "id": "-SI44009-trainline-28634",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5839,7 +6114,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI44100trainline-19097",
+      "id": "-SI44100-trainline-19097",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5988,12 +6263,14 @@
     },
     {
       "type": "Feature",
-      "id": "SI44200",
+      "id": "-SI44200-trainline-28637",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          13.9651535,
-          45.6815127
+          [
+            13.9651535,
+            45.6815127
+          ]
         ]
       },
       "properties": {
@@ -6001,16 +6278,80 @@
           {
             "value": "Divača",
             "lang": "sl"
+          },
+          {
+            "value": "Divaccia",
+            "lang": "it"
+          },
+          {
+            "value": "ディヴァーチャ",
+            "lang": "ja"
+          },
+          {
+            "value": "Divaca",
+            "lang": "sl"
           }
         ],
         "P722": [
           {
-            "value": "7944200"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7944200",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28637"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "SIDVC",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28637"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28637",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28637"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412110",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28637"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900009",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28637"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -6046,12 +6387,14 @@
     },
     {
       "type": "Feature",
-      "id": "SI44500",
+      "id": "-SI44500-trainline-28639",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          13.8635336,
-          45.7040572
+          [
+            13.8635336,
+            45.7040572
+          ]
         ]
       },
       "properties": {
@@ -6059,16 +6402,92 @@
           {
             "value": "Sežana",
             "lang": "sl"
+          },
+          {
+            "value": "Sesana",
+            "lang": "it"
+          },
+          {
+            "value": "セジャーナ",
+            "lang": "ja"
+          },
+          {
+            "value": "세자나",
+            "lang": "ko"
+          },
+          {
+            "value": "Сежана",
+            "lang": "ru"
+          },
+          {
+            "value": "塞扎纳",
+            "lang": "zh"
+          },
+          {
+            "value": "Sezana",
+            "lang": "sl"
           }
         ],
         "P722": [
           {
-            "value": "7944500"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7944500",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28639"
+              }
+            ]
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "SISEZ",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28639"
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28639",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28639"
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412110",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28639"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900022",
+            "references": {
+              "P854": "https://trainline-eu.github.io/stations-studio/#/station/28639"
+            },
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -7467,7 +7886,7 @@
     },
     {
       "type": "Feature",
-      "id": "SI42502trainline-28638",
+      "id": "-SI42502-trainline-28638",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
