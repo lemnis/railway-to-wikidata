@@ -49,15 +49,18 @@ const stopIds = {
   "370858": Country.Czech,
   "371450": Country.Czech,
   "38653": Country.Poland,
+  "40998": Country.Poland,
   "431007": Country.Slovenia,
   "434001": Country.Slovenia,
   "534149": Country.Czech,
   "536136": Country.Czech,
+  "538637": Country.Czech,
   "539130": Country.Czech,
   "570762": Country.Czech,
   "571760": Country.Czech,
   "73312": Country.Poland,
   "73700": Country.Poland,
+  "766600": Country.Croatia,
   "77503": Country.Poland,
   "78717": Country.Germany,
   "80630": Country.Poland,
@@ -101,6 +104,11 @@ export const getLocations = async () => {
         ...(stop_id.length === 7
           ? { [CodeIssuer.IBNR]: [{ value: code }] }
           : { [CodeIssuer.UIC]: [{ value: code }] }),
+        ...(country === Country.Slovakia
+          ? {
+              [Property.StationCode]: [{ value: stop_id }],
+            }
+          : {}),
         [Property.Country]: [{ value: country.wikidata }],
       },
     };
