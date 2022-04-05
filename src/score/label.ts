@@ -59,8 +59,8 @@ export const score = (base: Label[], expansion: Label[]) => {
           })),
         ])
         .flat() || [];
-    let match = destinationLabels.find(({ value }) =>
-      normalizeName(value).includes(normalizeName(value))
+    let match = destinationLabels.find(({ value: destinationLabel }) =>
+      normalizeName(destinationLabel).includes(normalizeName(value))
     );
     if (!match && variants) {
       for (const variant of variants) {
@@ -82,7 +82,8 @@ export const score = (base: Label[], expansion: Label[]) => {
     };
   });
 
-  const percentage = matches.filter(({ missing, match }) => !missing && match).length
+  const percentage = matches.filter(({ missing, match }) => !missing && match)
+    .length
     ? matches.filter(({ match }) => match).length /
       matches.filter(({ missing, match }) => !missing && match).length
     : 0;

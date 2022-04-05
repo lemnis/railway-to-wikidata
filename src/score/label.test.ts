@@ -82,12 +82,33 @@ test("Straße should match with strasse", ({ deepEqual }) => {
   );
 });
 
-test.skip("ÖBB should match with oebb", ({ deepEqual }) => {
+test("ÖBB should match with oebb", ({ deepEqual }) => {
   deepEqual(
     score([{ value: "ÖBB", lang: "en" }], [{ value: "oebb", lang: "en" }]),
     {
       matches: [{ match: true, missing: false, value: "ÖBB", lang: "en" }],
       percentage: 1,
+    }
+  );
+});
+
+test("Different values with unknown language should not match", ({ like }) => {
+  like(
+    score(
+      [
+        {
+          value: "RP BIRIMIRCI",
+        },
+      ],
+      [
+        {
+          value: "Sofia",
+        },
+      ]
+    ),
+    {
+      matches: [{ match: false, missing: false, value: "RP BIRIMIRCI", lang: undefined }],
+      percentage: 0,
     }
   );
 });
