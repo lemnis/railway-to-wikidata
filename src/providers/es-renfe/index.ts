@@ -7,16 +7,10 @@ import { Country } from "../../transform/country";
 import { Language } from "../../transform/language";
 
 const StringToCountry = {
-  Francia: Country.France.wikidata,
-  España: Country.Spain.wikidata,
-  Portugal: Country.Portugal.wikidata,
+  Francia: Country.France,
+  España: Country.Spain,
+  Portugal: Country.Portugal,
 };
-
-enum StringToIso {
-  Francia = "87",
-  España = "74",
-  Portugal = "94",
-}
 
 /**
  * @license CC-BY-4.0
@@ -56,12 +50,12 @@ export const getLocations = async () => {
       ...(station.code
         ? {
             [CodeIssuer.UIC]: [
-              { value: StringToIso[station.country] + station.code },
+              { value: StringToCountry[station.country].UIC[0] + station.code },
             ],
             [Property.StationCode]: [{ value: station.code }],
           }
         : {}),
-      [Property.Country]: [{ value: StringToCountry[station.country] }],
+      [Property.Country]: [{ value: StringToCountry[station.country].wikidata }],
       [Property.PostalCode]: [{ value: station.postalCode }],
       [Property.Location]: [{ value: station.direccion }],
       //   [Property.InAdministrativeTerritory]
