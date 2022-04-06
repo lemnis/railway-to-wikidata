@@ -18,14 +18,12 @@ title: "France"
 }).addTo( map );
 
 	function onEachFeature(feature, layer) {
-		const popupContent = `
+		layer.bindPopup(`
       ${feature.properties.labels?.[0].value} <br />
       <b>UIC</b> ${feature.properties.P722?.[0].value} <br />
       <b>IBNR</b> ${feature.properties.P954?.[0].value} <br />
       <b>Station code</b> ${feature.properties.P296?.[0].value}
-    `
-
-		layer.bindPopup(popupContent);
+    `);
 	}
 
   const points = {{ site.data.FR | jsonify }}
@@ -67,7 +65,14 @@ title: "France"
           <br />
           {% endfor %}
         </td>
-        <td>{% for label in feature.properties.P722 %}{{ label.value }}<br />{% endfor %}</td> 
+        <td>
+          {% for label in feature.properties.P722 %}
+            {% assign uic = label.value %}
+            <a href="{% include uicLink.html %}" target="_blank">
+              {{ label.value }}
+            </a><br />
+          {% endfor %}
+        </td>
        <td>
           {% for label in feature.properties.P954 %}
           <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
@@ -85,7 +90,12 @@ title: "France"
             {% endfor %}
         </td>
         <td>{% for label in feature.properties.P8448 %}<a target="_blank" href="https://www.b-europe.com/EN/Booking/Tickets?autoactivatestep2=true&origin={{ label.value }}">{{ label.value }}</a><br />{% endfor %}</td>
-        <td>{% for label in feature.properties.P8181 %}{{ label.value }}<br />{% endfor %}</td>
+        <td>{% for label in feature.properties.P8181 %}
+          <a href="https://www.garesetconnexions.sncf/fr/gare/{{ label.value | downcase }}" target="_blank">
+            {{ label.value }}
+          </a><br />
+          {% endfor %}
+        </td>
         <td>{% for label in feature.properties.P238 %}
           <a href="https://www.iata.org/en/publications/directories/code-search/?airport.search={{ label.value }}" target="_blank">
             {{ label.value }}

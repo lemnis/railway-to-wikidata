@@ -89,7 +89,14 @@ const icon = L.divIcon({
           <br />
           {% endfor %}
         </td>
-        <td>{% for label in feature.properties.P722 %}{{ label.value }}<br />{% endfor %}</td> 
+        <td>
+          {% for label in feature.properties.P722 %}
+            {% assign uic = label.value %}
+            <a href="{% include uicLink.html %}" target="_blank">
+              {{ label.value }}
+            </a><br />
+          {% endfor %}
+        </td>
        <td>
           {% for label in feature.properties.P954 %}
           <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
