@@ -3,7 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "id": "-Andrijevci-HR72802",
+      "id": "--Andrijevci-HR72802-Q38251730",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -17,6 +17,14 @@
         "labels": [
           {
             "value": "Andrijevci"
+          },
+          {
+            "lang": "pl",
+            "value": "Andrijevci"
+          },
+          {
+            "lang": "en",
+            "value": "Andrijevci railway station"
           }
         ],
         "P17": [
@@ -32,12 +40,27 @@
           {
             "value": "7872802"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251730"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1241594"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "--Banova Jaruga-HR72503-XRBJ",
+      "id": "---Banova Jaruga-HR72503-XRBJ-Q38251859",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -50,6 +73,14 @@
       "properties": {
         "labels": [
           {
+            "value": "Banova Jaruga"
+          },
+          {
+            "lang": "en",
+            "value": "Banova Jaruga railway station"
+          },
+          {
+            "lang": "pl",
             "value": "Banova Jaruga"
           }
         ],
@@ -81,6 +112,16 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251859"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -121,7 +162,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Beli Manastir-HR71705",
+      "id": "--Beli Manastir-HR71705-Q54914144",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -135,6 +176,18 @@
         "labels": [
           {
             "value": "Beli Manastir"
+          },
+          {
+            "lang": "en",
+            "value": "Baranyavár-Pélmonostor"
+          },
+          {
+            "lang": "en",
+            "value": "Beli Manastir train station"
+          },
+          {
+            "lang": "hu",
+            "value": "Pélmonostor vasútállomás"
           }
         ],
         "P17": [
@@ -148,7 +201,34 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7871705"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q54914144"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q1402443"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q397645"
           }
         ]
       }
@@ -495,7 +575,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Buzet-HR77425",
+      "id": "--Buzet-HR77425-Q88889008",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -509,6 +589,18 @@
         "labels": [
           {
             "value": "Buzet"
+          },
+          {
+            "lang": "en",
+            "value": "Pinguente"
+          },
+          {
+            "lang": "en",
+            "value": "Buzet railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Pinguente"
           }
         ],
         "P17": [
@@ -523,6 +615,16 @@
         "P722": [
           {
             "value": "7877425"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88889008"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -733,7 +835,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Čakovec-HR74860",
+      "id": "--Čakovec-HR74860-Q72372265",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -747,6 +849,22 @@
         "labels": [
           {
             "value": "Čakovec"
+          },
+          {
+            "lang": "cs",
+            "value": "Čakovec"
+          },
+          {
+            "lang": "de",
+            "value": "Cakovec"
+          },
+          {
+            "lang": "en",
+            "value": "Čakovec railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Čakovec"
           }
         ],
         "P17": [
@@ -761,6 +879,26 @@
         "P722": [
           {
             "value": "7874860"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q72372265"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7800054"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q167839"
           }
         ]
       }
@@ -1107,7 +1245,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Duga Resa-HR75102",
+      "id": "--Duga Resa-HR75102-Q110372351",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1121,6 +1259,10 @@
         "labels": [
           {
             "value": "Duga Resa"
+          },
+          {
+            "lang": "en",
+            "value": "Duga Resa train station"
           }
         ],
         "P17": [
@@ -1135,6 +1277,21 @@
         "P722": [
           {
             "value": "7875102"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110372351"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q396482"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -1429,7 +1586,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Garčin-HR72804",
+      "id": "--Garčin-HR72804-Q38251731",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1443,6 +1600,10 @@
         "labels": [
           {
             "value": "Garčin"
+          },
+          {
+            "lang": "en",
+            "value": "Garčin railway station"
           }
         ],
         "P17": [
@@ -1457,6 +1618,16 @@
         "P722": [
           {
             "value": "7872804"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251731"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -1950,7 +2121,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Ivankovo-HR71101",
+      "id": "--Ivankovo-HR71101-Q30626946",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1964,6 +2135,10 @@
         "labels": [
           {
             "value": "Ivankovo"
+          },
+          {
+            "lang": "en",
+            "value": "Ivankovo railway station"
           }
         ],
         "P17": [
@@ -1978,6 +2153,16 @@
         "P722": [
           {
             "value": "7871101"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q30626946"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -2086,7 +2271,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Josipovac-HR71901",
+      "id": "--Josipovac-HR71901-Q110175233",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2099,6 +2284,10 @@
       "properties": {
         "labels": [
           {
+            "value": "Josipovac"
+          },
+          {
+            "lang": "en",
             "value": "Josipovac"
           }
         ],
@@ -2114,6 +2303,21 @@
         "P722": [
           {
             "value": "7871901"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110175233"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q3044301"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -2188,7 +2392,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Karlovac-HR75060",
+      "id": "--Karlovac-HR75060-Q800984",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2202,6 +2406,34 @@
         "labels": [
           {
             "value": "Karlovac"
+          },
+          {
+            "lang": "pl",
+            "value": "Karlovac"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Karlovac"
+          },
+          {
+            "lang": "en",
+            "value": "Karlovac train station"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznički kolodvor Karlovac"
+          },
+          {
+            "lang": "hu",
+            "value": "Károlyváros vasútállomás"
+          },
+          {
+            "lang": "sv",
+            "value": "Karlovacs järnvägsstation"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Karlovac"
           }
         ],
         "P17": [
@@ -2217,12 +2449,32 @@
           {
             "value": "7875060"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q800984"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "3"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q3617"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Kaštel Stari-HR76508",
+      "id": "--Kaštel Stari-HR76508-Q110372339",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2236,6 +2488,10 @@
         "labels": [
           {
             "value": "Kaštel Stari"
+          },
+          {
+            "lang": "en",
+            "value": "Kaštel Stari train station"
           }
         ],
         "P17": [
@@ -2250,6 +2506,21 @@
         "P722": [
           {
             "value": "7876508"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110372339"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q58253"
           }
         ]
       }
@@ -2358,7 +2629,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Knin-HR76260-trainline-28225",
+      "id": "---Knin-HR76260-trainline-28225-Q82794943",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2392,6 +2663,22 @@
           {
             "value": "克宁",
             "lang": "zh"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Knin"
+          },
+          {
+            "lang": "en",
+            "value": "Knin station"
+          },
+          {
+            "lang": "hr",
+            "value": "Kolodvor Knin"
+          },
+          {
+            "lang": "hsb",
+            "value": "Dwórnišćo Knin"
           }
         ],
         "P17": [
@@ -2462,6 +2749,21 @@
             "info": {
               "reliability": 0.7000000000000001
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q82794943"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q208514"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -2872,7 +3174,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Kutina-HR72505-XRKU",
+      "id": "---Kutina-HR72505-XRKU-Q110372175",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2886,6 +3188,10 @@
         "labels": [
           {
             "value": "Kutina"
+          },
+          {
+            "lang": "en",
+            "value": "Kutina train station"
           }
         ],
         "P17": [
@@ -2916,6 +3222,21 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110372175"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q396536"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -3126,7 +3447,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Lipovljani-HR72502",
+      "id": "--Lipovljani-HR72502-Q38251856",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3140,6 +3461,10 @@
         "labels": [
           {
             "value": "Lipovljani"
+          },
+          {
+            "lang": "en",
+            "value": "Lipovljani railway station"
           }
         ],
         "P17": [
@@ -3154,6 +3479,16 @@
         "P722": [
           {
             "value": "7872502"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251856"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -3330,7 +3665,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Lupoglav-HR77400",
+      "id": "--Lupoglav-HR77400-Q108664138",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3344,6 +3679,14 @@
         "labels": [
           {
             "value": "Lupoglav"
+          },
+          {
+            "lang": "en",
+            "value": "Lupoglav railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Lupogliano"
           }
         ],
         "P17": [
@@ -3358,6 +3701,21 @@
         "P722": [
           {
             "value": "7877400"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q108664138"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1269916"
           }
         ]
       }
@@ -3500,7 +3858,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Meja-HR75421",
+      "id": "--Meja-HR75421-Q97965826",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3514,6 +3872,22 @@
         "labels": [
           {
             "value": "Meja"
+          },
+          {
+            "lang": "en",
+            "value": "Meja railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Meja"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Meja"
+          },
+          {
+            "lang": "es",
+            "value": "estación Meja"
           }
         ],
         "P17": [
@@ -3528,6 +3902,21 @@
         "P722": [
           {
             "value": "7875421"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97965826"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q740324"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -3568,7 +3957,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Moravice-HR75406",
+      "id": "--Moravice-HR75406-Q97395427",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3582,6 +3971,26 @@
         "labels": [
           {
             "value": "Moravice"
+          },
+          {
+            "lang": "en",
+            "value": "Moravice train station"
+          },
+          {
+            "lang": "es",
+            "value": "estación Moravice (Croacia)"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare Moravice"
+          },
+          {
+            "lang": "nl",
+            "value": "Moravice trein station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Moravice"
           }
         ],
         "P17": [
@@ -3596,6 +4005,26 @@
         "P722": [
           {
             "value": "7875406"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97395427"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q387519"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "381"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -3738,7 +4167,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Nova Gradiška-HR72604-XRNG",
+      "id": "---Nova Gradiška-HR72604-XRNG-Q38251849",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3755,6 +4184,22 @@
           },
           {
             "value": "Nova Gradiska"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Nova Gradiška"
+          },
+          {
+            "lang": "es",
+            "value": "estación Nova Gradiška"
+          },
+          {
+            "lang": "en",
+            "value": "Nova Gradiška railway station"
+          },
+          {
+            "lang": "pl",
+            "value": "Nova Gradiška"
           }
         ],
         "P17": [
@@ -3786,12 +4231,27 @@
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251849"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q58342"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "--Nova Kapela-Batrina-HR72708-XRNK",
+      "id": "---Nova Kapela-Batrina-HR72708-XRNK-Q38251845",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3811,6 +4271,10 @@
           },
           {
             "value": "Nova Kapela"
+          },
+          {
+            "lang": "en",
+            "value": "Nova Kapela–Batrina railway station"
           }
         ],
         "P17": [
@@ -3841,6 +4305,16 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251845"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -3949,7 +4423,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Novska-HR72560-XRNV",
+      "id": "---Novska-HR72560-XRNV-Q19913675",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3963,6 +4437,30 @@
         "labels": [
           {
             "value": "Novska"
+          },
+          {
+            "lang": "en",
+            "value": "Novska railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Novska"
+          },
+          {
+            "lang": "ja",
+            "value": "ノヴスカ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Novska"
+          },
+          {
+            "lang": "pl",
+            "value": "Novska"
+          },
+          {
+            "lang": "sh",
+            "value": "Željeznička stanica Novska"
           }
         ],
         "P17": [
@@ -3993,6 +4491,21 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q19913675"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q397639"
           }
         ]
       }
@@ -4067,7 +4580,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Okučani-HR72606",
+      "id": "--Okučani-HR72606-Q38251850",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4081,6 +4594,10 @@
         "labels": [
           {
             "value": "Okučani"
+          },
+          {
+            "lang": "en",
+            "value": "Okučani railway station"
           }
         ],
         "P17": [
@@ -4096,12 +4613,22 @@
           {
             "value": "7872606"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251850"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "--Opatija-Matulji-HR75611-trainline-28229-28697",
+      "id": "---Opatija-Matulji-HR75611-trainline-28229-28697-Q3968807",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4115,6 +4642,38 @@
         "labels": [
           {
             "value": "Opatija-Matulji"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Opatija-Matulji"
+          },
+          {
+            "lang": "en",
+            "value": "Abbazia-Mattuglie railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Stazione di Abbazia-Mattuglie"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Abbazia"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Mattuglie"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Abbazia-Mattuglie"
+          },
+          {
+            "lang": "nl",
+            "value": "Bahnhof Opatija-Matulji"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Opatija-Matulji"
           }
         ],
         "P17": [
@@ -4144,15 +4703,20 @@
             ]
           },
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "7244911",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28229"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P8448": [
@@ -4165,6 +4729,10 @@
             ]
           },
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "YUABY",
             "references": [
               {
@@ -4213,6 +4781,21 @@
               "reliability": 0.7000000000000001
             }
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3968807"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q518871"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
@@ -4252,7 +4835,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Oriovac-HR72706",
+      "id": "--Oriovac-HR72706-Q38251844",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4266,6 +4849,10 @@
         "labels": [
           {
             "value": "Oriovac"
+          },
+          {
+            "lang": "en",
+            "value": "Oriovac railway station"
           }
         ],
         "P17": [
@@ -4281,12 +4868,22 @@
           {
             "value": "7872706"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251844"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "--Osijek-HR71960-trainline-26850",
+      "id": "---Osijek-HR71960-trainline-26850-Q7106792",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4316,6 +4913,26 @@
           {
             "value": "Осиек",
             "lang": "ru"
+          },
+          {
+            "lang": "en",
+            "value": "Osijek railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Eszék vasútállomás"
+          },
+          {
+            "lang": "pl",
+            "value": "Osijek (stacja kolejowa)"
+          },
+          {
+            "lang": "sv",
+            "value": "Osijeks järnvägsstation"
+          },
+          {
+            "lang": "ar",
+            "value": "أوسييك"
           }
         ],
         "P17": [
@@ -4386,6 +5003,21 @@
             "info": {
               "reliability": 0.7000000000000001
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q7106792"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1640"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -4528,7 +5160,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Pazin-HR77405",
+      "id": "--Pazin-HR77405-Q108663976",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4542,6 +5174,14 @@
         "labels": [
           {
             "value": "Pazin"
+          },
+          {
+            "lang": "en",
+            "value": "Pazin railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Pisino"
           }
         ],
         "P17": [
@@ -4556,6 +5196,21 @@
         "P722": [
           {
             "value": "7877405"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q108663976"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q211968"
           }
         ]
       }
@@ -4902,7 +5557,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Pula-HR77417-trainline-28230-28698",
+      "id": "---Pula-HR77417-trainline-28230-28698-Q3446718",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4936,6 +5591,46 @@
           {
             "value": "普拉",
             "lang": "zh"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Pula"
+          },
+          {
+            "lang": "en",
+            "value": "Pula railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Pula"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznički kolodvor u Puli"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Pola"
+          },
+          {
+            "lang": "ja",
+            "value": "プーラ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "Bahnhof Pula"
+          },
+          {
+            "lang": "sh",
+            "value": "Željeznički kolodvor u Puli"
+          },
+          {
+            "lang": "sv",
+            "value": "Pulas järnvägsstation"
+          },
+          {
+            "lang": "pl",
+            "value": "Pula"
           }
         ],
         "P17": [
@@ -4986,6 +5681,10 @@
             ]
           },
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "YUACB",
             "references": [
               {
@@ -5044,6 +5743,21 @@
             "info": {
               "reliability": 0.7000000000000001
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3446718"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q4656"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -5118,7 +5832,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Rijeka-HR75560-trainline-28231",
+      "id": "---Rijeka-HR75560-trainline-28231-Q801362",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5148,6 +5862,46 @@
           {
             "value": "Риека",
             "lang": "ru"
+          },
+          {
+            "lang": "pl",
+            "value": "Rijeka"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Rijeka"
+          },
+          {
+            "lang": "en",
+            "value": "Rijeka railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Rijeka"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznički kolodvor Rijeka"
+          },
+          {
+            "lang": "hu",
+            "value": "Fiume vasútállomás"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Fiume"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Fiume"
+          },
+          {
+            "lang": "nl",
+            "value": "Bahnhof Rijeka"
+          },
+          {
+            "lang": "sv",
+            "value": "Rijekas järnvägsstation"
           }
         ],
         "P17": [
@@ -5179,6 +5933,10 @@
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "HRRJK",
             "references": [
               {
@@ -5218,6 +5976,26 @@
             "info": {
               "reliability": 0.7000000000000001
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q801362"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "4"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1647"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -5326,7 +6104,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Savski Marof-HR74102",
+      "id": "--Savski Marof-HR74102-Q17485351",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5340,6 +6118,30 @@
         "labels": [
           {
             "value": "Savski Marof"
+          },
+          {
+            "lang": "en",
+            "value": "Savski Marof train station"
+          },
+          {
+            "lang": "pl",
+            "value": "Savski Marof"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznički kolodvor Savski Marof"
+          },
+          {
+            "lang": "ja",
+            "value": "サヴスキ・マロフ駅"
+          },
+          {
+            "lang": "sh",
+            "value": "Željeznički kolodvor Savski Marof"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Savski Marof"
           }
         ],
         "P17": [
@@ -5354,6 +6156,21 @@
         "P722": [
           {
             "value": "7874102"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q17485351"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q5408"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -5394,7 +6211,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Sibinj-HR72702",
+      "id": "--Sibinj-HR72702-Q38251735",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5408,6 +6225,14 @@
         "labels": [
           {
             "value": "Sibinj"
+          },
+          {
+            "lang": "pl",
+            "value": "Sibinj"
+          },
+          {
+            "lang": "en",
+            "value": "Sibinj railway station"
           }
         ],
         "P17": [
@@ -5422,6 +6247,21 @@
         "P722": [
           {
             "value": "7872702"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251735"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1271750"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -5666,7 +6506,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Slavonski Brod-HR72807-XRSL",
+      "id": "---Slavonski Brod-HR72807-XRSL-Q38251733",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5679,6 +6519,14 @@
       "properties": {
         "labels": [
           {
+            "value": "Slavonski Brod"
+          },
+          {
+            "lang": "en",
+            "value": "Slavonski Brod railway station"
+          },
+          {
+            "lang": "pl",
             "value": "Slavonski Brod"
           }
         ],
@@ -5711,12 +6559,27 @@
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251733"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q4686"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Solin-HR76510",
+      "id": "--Solin-HR76510-Q98801414",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5730,6 +6593,26 @@
         "labels": [
           {
             "value": "Solin"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin železnička postaja"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin železniční zastávka"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin željeznički kolodvor"
+          },
+          {
+            "lang": "cs",
+            "value": "Železnička stanica Solin"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin železniční stanice"
           }
         ],
         "P17": [
@@ -5744,6 +6627,21 @@
         "P722": [
           {
             "value": "7876510"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98801414"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q642828"
           }
         ]
       }
@@ -5784,7 +6682,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Split-HR76660",
+      "id": "--Split-HR76660-Q2281143",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5798,6 +6696,70 @@
         "labels": [
           {
             "value": "Split"
+          },
+          {
+            "lang": "pl",
+            "value": "Split"
+          },
+          {
+            "lang": "cs",
+            "value": "Split hlavní nádraží"
+          },
+          {
+            "lang": "cs",
+            "value": "Kolodvor Split-grad"
+          },
+          {
+            "lang": "cs",
+            "value": "Nádraží Split-město"
+          },
+          {
+            "lang": "cs",
+            "value": "Split glavni kolodvor"
+          },
+          {
+            "lang": "cs",
+            "value": "Split vlakové nádraží"
+          },
+          {
+            "lang": "cs",
+            "value": "Željeznički kolodvor (postaja) Split"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Split"
+          },
+          {
+            "lang": "en",
+            "value": "Split railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Split train station"
+          },
+          {
+            "lang": "en",
+            "value": "Split station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Split"
+          },
+          {
+            "lang": "hr",
+            "value": "Zgrade željezničkog kolodvora u Splitu"
+          },
+          {
+            "lang": "ja",
+            "value": "スプリト駅"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Split"
+          },
+          {
+            "lang": "sv",
+            "value": "Splits järnvägsstation"
           }
         ],
         "P17": [
@@ -5813,12 +6775,40 @@
           {
             "value": "7876660"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2281143"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q6471233"
+          },
+          {
+            "value": "Q1663"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "2.43"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Domagojeva obala 9, Split"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Split Predgrađe-HR76661",
+      "id": "--Split Predgrađe-HR76661-Q98791501",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5831,6 +6821,30 @@
       "properties": {
         "labels": [
           {
+            "value": "Split Predgrađe"
+          },
+          {
+            "lang": "cs",
+            "value": "Kolodvor Split Predgrađe"
+          },
+          {
+            "lang": "cs",
+            "value": "Kolodvor Split-Predgrađe"
+          },
+          {
+            "lang": "cs",
+            "value": "nádraží Split Predgrađe"
+          },
+          {
+            "lang": "cs",
+            "value": "nádraží Split-Predgrađe"
+          },
+          {
+            "lang": "cs",
+            "value": "nádraží Split-předměstí"
+          },
+          {
+            "lang": "cs",
             "value": "Split Predgrađe"
           }
         ],
@@ -5847,12 +6861,32 @@
           {
             "value": "7876661"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98791501"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Hercegovačka b.b., Split"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q98801437"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Stari Mikanovci-HR71103",
+      "id": "--Stari Mikanovci-HR71103-Q30626953",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5866,6 +6900,10 @@
         "labels": [
           {
             "value": "Stari Mikanovci"
+          },
+          {
+            "lang": "en",
+            "value": "Stari Mikanovci railway station"
           }
         ],
         "P17": [
@@ -5881,12 +6919,22 @@
           {
             "value": "7871103"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q30626953"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Staro Petrovo Selo-HR72602",
+      "id": "--Staro Petrovo Selo-HR72602-Q38251848",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5900,6 +6948,10 @@
         "labels": [
           {
             "value": "Staro Petrovo Selo"
+          },
+          {
+            "lang": "en",
+            "value": "Staro Petrovo Selo railway station"
           }
         ],
         "P17": [
@@ -5915,12 +6967,22 @@
           {
             "value": "7872602"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251848"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "--Strizivojna-Vrpolje-HR71104-XRSV",
+      "id": "---Strizivojna-Vrpolje-HR71104-XRSV-Q38251728",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5934,6 +6996,10 @@
         "labels": [
           {
             "value": "Strizivojna-Vrpolje"
+          },
+          {
+            "lang": "en",
+            "value": "Strizivojna–Vrpolje railway station"
           }
         ],
         "P17": [
@@ -5964,6 +7030,16 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38251728"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -6038,7 +7114,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Sušak-Pećine-HR75502",
+      "id": "--Sušak-Pećine-HR75502-Q60381277",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6055,6 +7131,38 @@
           },
           {
             "value": "Sušak Pećine"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Sušak-Pećine"
+          },
+          {
+            "lang": "en",
+            "value": "Sušak-Pećine railway station"
+          },
+          {
+            "lang": "es",
+            "value": "estación Sušak-Pećine"
+          },
+          {
+            "lang": "hr",
+            "value": "Sušak-Pećine"
+          },
+          {
+            "lang": "hu",
+            "value": "Sušak-Pećine vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "Sušak-Pećine"
+          },
+          {
+            "lang": "pl",
+            "value": "Sušak-Pećine"
+          },
+          {
+            "lang": "ro",
+            "value": "Sušak-Pećine"
           }
         ],
         "P17": [
@@ -6069,6 +7177,21 @@
         "P722": [
           {
             "value": "7875502"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q60381277"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1647"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -6143,7 +7266,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Šapjane-HR75605-XRXSJ",
+      "id": "---Šapjane-HR75605-XRXSJ-Q70471610",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6160,6 +7283,14 @@
           },
           {
             "value": "Sapjane(Gr)"
+          },
+          {
+            "lang": "de",
+            "value": "Sapjane"
+          },
+          {
+            "lang": "en",
+            "value": "Šapjane railway station"
           }
         ],
         "P17": [
@@ -6182,6 +7313,9 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          },
+          {
+            "value": "7800067"
           }
         ],
         "P8671": [
@@ -6191,12 +7325,22 @@
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q70471610"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "--Šibenik-HR76760-trainline-28227",
+      "id": "---Šibenik-HR76760-trainline-28227-Q18435056",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6234,6 +7378,22 @@
           {
             "value": "希贝尼克",
             "lang": "zh"
+          },
+          {
+            "lang": "en",
+            "value": "Šibenik railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Sibenik"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Šibenik"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Sebenico"
           }
         ],
         "P17": [
@@ -6305,6 +7465,16 @@
               "reliability": 0.7000000000000001
             }
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q18435056"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
@@ -6344,7 +7514,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Škrljevo-HR75422",
+      "id": "--Škrljevo-HR75422-Q97965852",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6358,6 +7528,18 @@
         "labels": [
           {
             "value": "Škrljevo"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Škrljevo"
+          },
+          {
+            "lang": "es",
+            "value": "estación Škrljevo"
+          },
+          {
+            "lang": "en",
+            "value": "Škrljevo railway station"
           }
         ],
         "P17": [
@@ -6372,6 +7554,26 @@
         "P722": [
           {
             "value": "7875422"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97965852"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q740324"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3443449"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -6412,7 +7614,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Tovarnik-HR71001",
+      "id": "--Tovarnik-HR71001-Q25425984",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6425,6 +7627,22 @@
       "properties": {
         "labels": [
           {
+            "value": "Tovarnik"
+          },
+          {
+            "lang": "en",
+            "value": "Tovarnik railway station"
+          },
+          {
+            "lang": "ja",
+            "value": "トヴァルニク駅"
+          },
+          {
+            "lang": "sh",
+            "value": "Željeznička stanica Tovarnik"
+          },
+          {
+            "lang": "pl",
             "value": "Tovarnik"
           }
         ],
@@ -6440,6 +7658,21 @@
         "P722": [
           {
             "value": "7871001"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q25425984"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1277958"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -6548,7 +7781,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Varaždin-HR74460",
+      "id": "--Varaždin-HR74460-Q10712896",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6562,6 +7795,22 @@
         "labels": [
           {
             "value": "Varaždin"
+          },
+          {
+            "lang": "en",
+            "value": "Varaždin train station"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznički kolodvor Varaždin"
+          },
+          {
+            "lang": "sv",
+            "value": "Varaždins järnvägsstation"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Varaždin"
           }
         ],
         "P17": [
@@ -6576,6 +7825,16 @@
         "P722": [
           {
             "value": "7874460"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q10712896"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -6684,7 +7943,7 @@
     },
     {
       "type": "Feature",
-      "id": "--Vinkovci-HR71160-XRVI",
+      "id": "---Vinkovci-HR71160-XRVI-Q17485357",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6698,6 +7957,34 @@
         "labels": [
           {
             "value": "Vinkovci"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Vinkovci"
+          },
+          {
+            "lang": "pl",
+            "value": "Vinkovci"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Vinkovci"
+          },
+          {
+            "lang": "en",
+            "value": "Vinkovci railway station"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznički kolodvor Vinkovci"
+          },
+          {
+            "lang": "ja",
+            "value": "ヴィンコヴツィ駅"
+          },
+          {
+            "lang": "sh",
+            "value": "Željeznička stanica Vinkovci"
           }
         ],
         "P17": [
@@ -6728,6 +8015,21 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q17485357"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q221495"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -7006,7 +8308,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Vukovar-HR71452",
+      "id": "--Vukovar-HR71452-Q96414108",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7020,6 +8322,10 @@
         "labels": [
           {
             "value": "Vukovar"
+          },
+          {
+            "lang": "en",
+            "value": "Vukovar–Borovo Naselje railway station"
           }
         ],
         "P17": [
@@ -7035,12 +8341,22 @@
           {
             "value": "7871452"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96414108"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Vukovar-Borovo naselje-HR71204",
+      "id": "--Vukovar-Borovo naselje-HR71204-Q96414108",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7054,6 +8370,10 @@
         "labels": [
           {
             "value": "Vukovar-Borovo naselje"
+          },
+          {
+            "lang": "en",
+            "value": "Vukovar–Borovo Naselje railway station"
           }
         ],
         "P17": [
@@ -7069,12 +8389,22 @@
           {
             "value": "7871204"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96414108"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Zabok-HR74307",
+      "id": "--Zabok-HR74307-Q10724030",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7088,6 +8418,30 @@
         "labels": [
           {
             "value": "Zabok"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Zabok"
+          },
+          {
+            "lang": "en",
+            "value": "Zabok station"
+          },
+          {
+            "lang": "en",
+            "value": "Zabok railway station"
+          },
+          {
+            "lang": "pl",
+            "value": "Zabok (stacja kolejowa)"
+          },
+          {
+            "lang": "sv",
+            "value": "Zaboks järnvägsstation"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Zabok"
           }
         ],
         "P17": [
@@ -7102,6 +8456,16 @@
         "P722": [
           {
             "value": "7874307"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q10724030"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -7218,7 +8582,7 @@
     },
     {
       "type": "Feature",
-      "id": "---Zagreb Glavni kolodvor-HR72480-XRZ-7800020",
+      "id": "----Zagreb Glavni kolodvor-HR72480-XRZ-7800020-Q140377",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7239,6 +8603,142 @@
           {
             "value": "Zagreb Glavni kolodvor",
             "lang": "de"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة زاجريب ماين"
+          },
+          {
+            "lang": "bg",
+            "value": "Централна гара Загреб"
+          },
+          {
+            "lang": "cs",
+            "value": "Zagreb hlavní nádraží"
+          },
+          {
+            "lang": "cs",
+            "value": "Záhřeb hlavní nádraží"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Zagreb gl. k."
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Zagreb Hbf"
+          },
+          {
+            "lang": "cs",
+            "value": "Zagreb Glavni kolodvor"
+          },
+          {
+            "lang": "de",
+            "value": "Zagreb Hauptbahnhof"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Central Station"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Glavni kolodvor"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Glavni railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Zagreb"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Main Station"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Central de Zagreb"
+          },
+          {
+            "lang": "et",
+            "value": "Zagreb Glavni kolodvor"
+          },
+          {
+            "lang": "fa",
+            "value": "ایستگاه اصلی زاگرب"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Zagreb Central"
+          },
+          {
+            "lang": "fr",
+            "value": "gare centrale de Zagreb"
+          },
+          {
+            "lang": "hr",
+            "value": "Zagreb Glavni Kolodvor"
+          },
+          {
+            "lang": "hr",
+            "value": "Zagrebački Glavni kolodvor"
+          },
+          {
+            "lang": "hu",
+            "value": "Zágráb főpályaudvar"
+          },
+          {
+            "lang": "it",
+            "value": "stazione centrale di Zagabria"
+          },
+          {
+            "lang": "ja",
+            "value": "ザグレブ中央駅"
+          },
+          {
+            "lang": "nl",
+            "value": "Zagreb Main Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Zagrzeb Główny"
+          },
+          {
+            "lang": "ro",
+            "value": "gara Centrală din Zagreb"
+          },
+          {
+            "lang": "ru",
+            "value": "Главный вокзал Загреба"
+          },
+          {
+            "lang": "sl",
+            "value": "Glavni kolodvor"
+          },
+          {
+            "lang": "sh",
+            "value": "Zagrebački Glavni kolodvor"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Zagreb"
+          },
+          {
+            "lang": "sv",
+            "value": "Zagrebs centralstation"
+          },
+          {
+            "lang": "uk",
+            "value": "Загребський залізничний вокзал"
+          },
+          {
+            "lang": "zh",
+            "value": "萨格勒布火车总站"
+          },
+          {
+            "lang": "zh",
+            "value": "扎格瑞布火車總站"
           }
         ],
         "P17": [
@@ -7253,6 +8753,9 @@
         "P722": [
           {
             "value": "7872480"
+          },
+          {
+            "value": "7800100"
           }
         ],
         "P954": [
@@ -7275,6 +8778,36 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q140377"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6655"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "7"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1435"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "MFL"
           }
         ]
       }
@@ -7315,7 +8848,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Zagreb Zapadni Kolodvor-HR74060",
+      "id": "--Zagreb Zapadni Kolodvor-HR74060-Q12645488",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7332,6 +8865,38 @@
           },
           {
             "value": "Zagreb ZK"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb West Station"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Zapadni kolodvor"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Zapadni railway station"
+          },
+          {
+            "lang": "hr",
+            "value": "Zagreb Zapadni kolodvor"
+          },
+          {
+            "lang": "ja",
+            "value": "ザグレブ西駅"
+          },
+          {
+            "lang": "pl",
+            "value": "Zagreb Zapadni"
+          },
+          {
+            "lang": "sh",
+            "value": "Zagreb Zapadni kolodvor"
+          },
+          {
+            "lang": "sv",
+            "value": "Zagreb västra station"
           }
         ],
         "P17": [
@@ -7346,6 +8911,26 @@
         "P722": [
           {
             "value": "7874060"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12645488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1435"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6655"
           }
         ]
       }
@@ -7386,7 +8971,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Zaprešić-HR74004",
+      "id": "--Zaprešić-HR74004-Q17356490",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7400,6 +8985,30 @@
         "labels": [
           {
             "value": "Zaprešić"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Zaprešić"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Zaprešić"
+          },
+          {
+            "lang": "en",
+            "value": "Zaprešić railway station"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznički kolodvor Zaprešić"
+          },
+          {
+            "lang": "pl",
+            "value": "Zaprešić"
+          },
+          {
+            "lang": "sh",
+            "value": "Željeznički kolodvor Zaprešić"
           }
         ],
         "P17": [
@@ -7414,6 +9023,21 @@
         "P722": [
           {
             "value": "7874004"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q17356490"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q5408"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -7800,7 +9424,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Mursko Središće-HR74904",
+      "id": "--Mursko Središće-HR74904-Q72367354",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7814,6 +9438,22 @@
         "labels": [
           {
             "value": "Mursko Središće"
+          },
+          {
+            "lang": "cs",
+            "value": "Mursko Središće"
+          },
+          {
+            "lang": "de",
+            "value": "Mursko Sredisce"
+          },
+          {
+            "lang": "en",
+            "value": "Mursko Središće"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Mursko Središće"
           }
         ],
         "P17": [
@@ -7828,6 +9468,26 @@
         "P722": [
           {
             "value": "7874904"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q72367354"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7800106"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q326952"
           }
         ]
       }
@@ -8585,7 +10245,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Bubnjarci-HR75307",
+      "id": "--Bubnjarci-HR75307-Q88666736",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8599,6 +10259,14 @@
         "labels": [
           {
             "value": "Bubnjarci"
+          },
+          {
+            "lang": "de",
+            "value": "Bubnjarci"
+          },
+          {
+            "lang": "en",
+            "value": "Bubnjarci railway station"
           }
         ],
         "P17": [
@@ -8613,6 +10281,26 @@
         "P722": [
           {
             "value": "7875307"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88666736"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q850578"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7800230"
           }
         ]
       }
@@ -9033,7 +10721,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Čakovec-Buzovec-HR74803",
+      "id": "--Čakovec-Buzovec-HR74803-Q88680640",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -9050,6 +10738,18 @@
           },
           {
             "value": "Čakovec Buzovec"
+          },
+          {
+            "lang": "de",
+            "value": "Cakovec-Buzovec"
+          },
+          {
+            "lang": "cs",
+            "value": "Čakovec-Buzovec"
+          },
+          {
+            "lang": "de",
+            "value": "Čakovec-Buzovec"
           }
         ],
         "P17": [
@@ -9064,6 +10764,26 @@
         "P722": [
           {
             "value": "7874803"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88680640"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q167839"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7800108"
           }
         ]
       }
@@ -9957,7 +11677,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Frigis - Osijek-HR71912",
+      "id": "--Frigis - Osijek-HR71912-Q110184455",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -9974,6 +11694,10 @@
           },
           {
             "value": "Frigis"
+          },
+          {
+            "lang": "en",
+            "value": "Frigis - Osijek"
           }
         ],
         "P17": [
@@ -9988,6 +11712,21 @@
         "P722": [
           {
             "value": "7871912"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110184455"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1640"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -10572,7 +12311,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Ilača-HR71002",
+      "id": "--Ilača-HR71002-Q96381956",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -10586,6 +12325,14 @@
         "labels": [
           {
             "value": "Ilača"
+          },
+          {
+            "lang": "en",
+            "value": "Ilača railway station"
+          },
+          {
+            "lang": "ja",
+            "value": "イラチャ駅"
           }
         ],
         "P17": [
@@ -10600,6 +12347,16 @@
         "P722": [
           {
             "value": "7871002"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96381956"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -11932,7 +13689,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Macinec-HR74801",
+      "id": "--Macinec-HR74801-Q70466640",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -11946,6 +13703,14 @@
         "labels": [
           {
             "value": "Macinec"
+          },
+          {
+            "lang": "de",
+            "value": "Macinec"
+          },
+          {
+            "lang": "en",
+            "value": "Macinec railway station"
           }
         ],
         "P17": [
@@ -11960,6 +13725,21 @@
         "P722": [
           {
             "value": "7874801"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q70466640"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7800110"
           }
         ]
       }
@@ -12374,7 +14154,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Mirkovci-HR71010",
+      "id": "--Mirkovci-HR71010-Q96393440",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12388,6 +14168,10 @@
         "labels": [
           {
             "value": "Mirkovci"
+          },
+          {
+            "lang": "en",
+            "value": "Mirkovci railway station"
           }
         ],
         "P17": [
@@ -12402,6 +14186,16 @@
         "P722": [
           {
             "value": "7871010"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96393440"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -12782,7 +14576,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Novo Selo Rok-HR74901",
+      "id": "--Novo Selo Rok-HR74901-Q88685026",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12795,6 +14589,18 @@
       "properties": {
         "labels": [
           {
+            "value": "Novo Selo Rok"
+          },
+          {
+            "lang": "cs",
+            "value": "Novo Selo Rok"
+          },
+          {
+            "lang": "de",
+            "value": "Novo Selo Rok"
+          },
+          {
+            "lang": "en",
             "value": "Novo Selo Rok"
           }
         ],
@@ -12810,6 +14616,26 @@
         "P722": [
           {
             "value": "7874901"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88685026"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1038498"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7800115"
           }
         ]
       }
@@ -12955,7 +14781,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Orolik-HR71006",
+      "id": "--Orolik-HR71006-Q96397745",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12969,6 +14795,10 @@
         "labels": [
           {
             "value": "Orolik"
+          },
+          {
+            "lang": "en",
+            "value": "Orolik railway station"
           }
         ],
         "P17": [
@@ -12983,6 +14813,16 @@
         "P722": [
           {
             "value": "7871006"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96397745"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -13397,7 +15237,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Petrove Gore-HR71913",
+      "id": "--Petrove Gore-HR71913-Q110184549",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -13410,6 +15250,10 @@
       "properties": {
         "labels": [
           {
+            "value": "Petrove Gore"
+          },
+          {
+            "lang": "en",
             "value": "Petrove Gore"
           }
         ],
@@ -13425,6 +15269,21 @@
         "P722": [
           {
             "value": "7871913"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110184549"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1640"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -14624,7 +16483,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Slakovci-HR71007",
+      "id": "--Slakovci-HR71007-Q96405828",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -14638,6 +16497,10 @@
         "labels": [
           {
             "value": "Slakovci"
+          },
+          {
+            "lang": "en",
+            "value": "Slakovci railway station"
           }
         ],
         "P17": [
@@ -14652,6 +16515,16 @@
         "P722": [
           {
             "value": "7871007"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96405828"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -14760,7 +16633,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Sremske Laze-HR71008",
+      "id": "--Sremske Laze-HR71008-Q96406293",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -14777,6 +16650,10 @@
           },
           {
             "value": "Srijemske Laze"
+          },
+          {
+            "lang": "en",
+            "value": "Sremske Laze railway station"
           }
         ],
         "P17": [
@@ -14791,6 +16668,16 @@
         "P722": [
           {
             "value": "7871008"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96406293"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -15310,7 +17197,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Šidski Banovci-HR71003",
+      "id": "--Šidski Banovci-HR71003-Q96416184",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -15327,6 +17214,10 @@
           },
           {
             "value": "Banovci"
+          },
+          {
+            "lang": "en",
+            "value": "Šidski Banovci railway station"
           }
         ],
         "P17": [
@@ -15341,6 +17232,16 @@
         "P722": [
           {
             "value": "7871003"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96416184"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -15721,7 +17622,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Trnava-HR72404",
+      "id": "--Trnava-HR72404-Q25425990",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -15735,6 +17636,22 @@
         "labels": [
           {
             "value": "Trnava"
+          },
+          {
+            "lang": "en",
+            "value": "Trnava railway station"
+          },
+          {
+            "lang": "hr",
+            "value": "Željeznička stanica Trnava"
+          },
+          {
+            "lang": "pl",
+            "value": "Zagreb Trnava"
+          },
+          {
+            "lang": "sh",
+            "value": "Željeznička stanica Trnava"
           }
         ],
         "P17": [
@@ -15749,6 +17666,26 @@
         "P722": [
           {
             "value": "7872404"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q25425990"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1275237"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6655"
           }
         ]
       }
@@ -15891,7 +17828,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Vinkovački Banovci-HR71004",
+      "id": "--Vinkovački Banovci-HR71004-Q96414024",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -15905,6 +17842,10 @@
         "labels": [
           {
             "value": "Vinkovački Banovci"
+          },
+          {
+            "lang": "en",
+            "value": "Vinkovački Banovci railway station"
           }
         ],
         "P17": [
@@ -15919,6 +17860,16 @@
         "P722": [
           {
             "value": "7871004"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q96414024"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -16061,7 +18012,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Višnjevac-HR71910",
+      "id": "--Višnjevac-HR71910-Q110176044",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -16075,6 +18026,10 @@
         "labels": [
           {
             "value": "Višnjevac"
+          },
+          {
+            "lang": "en",
+            "value": "Višnjevac IPK"
           }
         ],
         "P17": [
@@ -16090,12 +18045,27 @@
           {
             "value": "7871910"
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110176044"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q2393687"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-Višnjevac IPK-HR71911",
+      "id": "--Višnjevac IPK-HR71911-Q110176044",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -16108,6 +18078,10 @@
       "properties": {
         "labels": [
           {
+            "value": "Višnjevac IPK"
+          },
+          {
+            "lang": "en",
             "value": "Višnjevac IPK"
           }
         ],
@@ -16123,6 +18097,21 @@
         "P722": [
           {
             "value": "7871911"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110176044"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q2393687"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -16197,7 +18186,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Vodovod-HR71914",
+      "id": "--Vodovod-HR71914-Q110184633",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -16210,6 +18199,10 @@
       "properties": {
         "labels": [
           {
+            "value": "Vodovod"
+          },
+          {
+            "lang": "en",
             "value": "Vodovod"
           }
         ],
@@ -16225,6 +18218,21 @@
         "P722": [
           {
             "value": "7871914"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q110184633"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1640"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -16435,7 +18443,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Vratišinec-HR74903",
+      "id": "--Vratišinec-HR74903-Q88685448",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -16448,6 +18456,22 @@
       "properties": {
         "labels": [
           {
+            "value": "Vratišinec"
+          },
+          {
+            "lang": "en",
+            "value": "Vratišinec"
+          },
+          {
+            "lang": "de",
+            "value": "Vratisinec"
+          },
+          {
+            "lang": "cs",
+            "value": "Vratišinec"
+          },
+          {
+            "lang": "de",
             "value": "Vratišinec"
           }
         ],
@@ -16463,6 +18487,26 @@
         "P722": [
           {
             "value": "7874903"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88685448"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q266531"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7800111"
           }
         ]
       }
@@ -17458,7 +19502,7 @@
     },
     {
       "type": "Feature",
-      "id": "-Novi Jankovci-HR91009",
+      "id": "--Novi Jankovci-HR91009-Q30626806",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -17472,6 +19516,10 @@
         "labels": [
           {
             "value": "Novi Jankovci"
+          },
+          {
+            "lang": "en",
+            "value": "Jankovci railway station"
           }
         ],
         "P17": [
@@ -17486,6 +19534,21 @@
         "P722": [
           {
             "value": "7891009"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q30626806"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1293848"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
