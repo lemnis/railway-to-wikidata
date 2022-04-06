@@ -9,7 +9,7 @@ export const trainlineArrayToLocation = async (
   stations: TrainlineStation[]
 ): Promise<Location> => {
   const url = `https://trainline-eu.github.io/stations-studio/#/station/${stations[0].id}`;
-  const references = { [Property.ReferenceURL]: url };
+  const references = [{ [Property.ReferenceURL]: url }];
 
   const location: Location = {
     type: "Feature",
@@ -49,7 +49,7 @@ export const trainlineArrayToLocation = async (
   };
 
   if (stations?.filter(({ uic }) => uic).length) {
-    location.properties[CodeIssuer.UIC] = stations?.map(({ uic }) => ({
+    location.properties[CodeIssuer.UIC] = stations?.filter(Boolean).map(({ uic }) => ({
       value: uic,
       references,
       info: { reliability: ReliabilityTrainline[CodeIssuer.UIC] },
@@ -62,7 +62,7 @@ export const trainlineArrayToLocation = async (
   if (countries.length) location.properties[Property.Country] = countries;
 
   if (stations?.filter(({ benerail_id }) => benerail_id).length) {
-    location.properties[CodeIssuer.Benerail] = stations?.map(
+    location.properties[CodeIssuer.Benerail] = stations?.filter(Boolean).map(
       ({ benerail_id }) => ({
         value: benerail_id,
         references,
@@ -71,28 +71,28 @@ export const trainlineArrayToLocation = async (
   }
 
   if (stations?.filter(({ atoc_id }) => atoc_id).length) {
-    location.properties[CodeIssuer.ATOC] = stations?.map(({ atoc_id }) => ({
+    location.properties[CodeIssuer.ATOC] = stations?.filter(Boolean).map(({ atoc_id }) => ({
       value: atoc_id,
       references,
     }));
   }
 
   if (stations?.filter(({ sncf_id }) => sncf_id).length) {
-    location.properties[CodeIssuer.SNCF] = stations?.map(({ sncf_id }) => ({
+    location.properties[CodeIssuer.SNCF] = stations?.filter(Boolean).map(({ sncf_id }) => ({
       value: sncf_id,
       references,
     }));
   }
 
   if (stations?.filter(({ id }) => id).length) {
-    location.properties[CodeIssuer.Trainline] = stations?.map(({ id }) => ({
+    location.properties[CodeIssuer.Trainline] = stations?.filter(Boolean).map(({ id }) => ({
       value: id,
       references,
     }));
   }
 
   const timeZones = await Promise.all(
-    [...new Set(stations?.map(({ time_zone }) => time_zone))].map(
+    [...new Set(stations?.map(({ time_zone }) => time_zone))].filter(Boolean).map(
       async (time_zone) => ({
         value: (await getTimeZonesByName(time_zone))?.[0]?.id,
         references,
@@ -103,7 +103,7 @@ export const trainlineArrayToLocation = async (
     location.properties[Property.LocatedInTimeZone] = timeZones;
 
   if (stations?.filter(({ iata_airport_code }) => iata_airport_code).length) {
-    location.properties[CodeIssuer.IATA] = stations?.map(
+    location.properties[CodeIssuer.IATA] = stations?.filter(Boolean).map(
       ({ iata_airport_code }) => ({
         value: iata_airport_code,
         references,
@@ -120,7 +120,7 @@ export const trainlineArrayToLocation = async (
     )
   );
   if (ibnr.length) {
-    location.properties[CodeIssuer.IBNR] = ibnr?.map((value) => ({
+    location.properties[CodeIssuer.IBNR] = ibnr?.filter(Boolean).map((value) => ({
       value,
       references,
       info: { reliability: ReliabilityTrainline[CodeIssuer.IBNR] },

@@ -12,3 +12,7 @@
     display: inline-block;
     margin: 10px 10px;
 }
+
+.wrapper {
+    max-width: calc(1200px - (30px * 2));
+}

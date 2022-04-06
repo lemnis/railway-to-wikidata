@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Czechia"
+title: "Czech Republic"
 ---
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
@@ -9,7 +9,7 @@ title: "Czechia"
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 <script type='text/javascript' src='https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js'></script>
 
-<div id='map' style="width: 100%; height: 500px"></div>
+<div id='map' style="width: 100%; height: 700px"></div>
 
 <script>
 	const map = L.map('map');
@@ -41,6 +41,7 @@ title: "Czechia"
 
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
+  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/CZ.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
 </script>
 
 <table>
@@ -63,13 +64,16 @@ title: "Czechia"
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {{ label.value }}<br />
           {% endfor %}
         </td>
-        <td>{% for label in feature.properties.P722 %}{{ label.value }}<br />{% endfor %}</td> 
+        <td>
+          {% for label in feature.properties.P722 %}
+          <a href="https://www.cd.cz/en/stanice/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a><br />
+          {% endfor %}
+        </td> 
        <td>
           {% for label in feature.properties.P954 %}
           <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">

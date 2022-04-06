@@ -2,12 +2,13 @@
 layout: "page"
 title: "Denmark"
 ---
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 <script type='text/javascript' src='https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js'></script>
-<div id='map' style="width: 100%; height: 700px"></div>
+<div id='map' style="width: 100%; height: 700px"></div><br />
 
 <script>
 	const map = L.map('map').setView([50.5, 4.4], 8);
@@ -41,6 +42,8 @@ title: "Denmark"
   map.fitBounds(markers.getBounds());
 </script>
 
+The links in the first column currently only partially work, as a page only exists if it is serviced by the DSB.
+
 <table>
   <thead>
     <tr>
@@ -58,14 +61,16 @@ title: "Denmark"
   </thead>
   <tbody>
     {% for feature in site.data.DK.features %}
+      {% assign normalizedLabel = feature.properties.labels[0].value | downcase | replace: 'æ', 'a' | replace: 'ø', 'o' | replace: 'é', 'o' | replace: 'å', 'a' | replace: ' ', '-' -%}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td>
+          <a href="https://www.dsb.dk/kundeservice/stationer/{{ normalizedLabel }}/" target="_blank">
+            {{ feature.properties.labels[0].value }}
+          </a>
+        </td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {{ label.value }}<br />
           {% endfor %}
         </td>
         <td>{% for label in feature.properties.P722 %}{{ label.value }}<br />{% endfor %}</td> 
