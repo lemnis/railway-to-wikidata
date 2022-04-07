@@ -11,24 +11,34 @@ import { getGtfsStations } from "../../utils/gtfs";
  * @todo Map ALL values that are included in the stops.txt file
  * @todo Add logic to optionally match to station code instead of atoc code
  */
-export const getLocations = (): Promise<Location[]> =>
-  getGtfsStations(
+export const getLocations = async () => {
+  const data = await getGtfsStations(
     "https://transitfeeds.com/p/association-of-train-operating-companies/284/latest/download",
     "atoc"
-  ).then((data) =>
-    data
-      .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => ({
-        type: "Feature",
-        id: stop_id,
-        geometry: {
-          type: "Point",
-          coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
-        },
-        properties: {
-          labels: [{ value: stop_name, lang: Language.English[1] }],
-          [CodeIssuer.ATOC]: [{ value: stop_id }],
-          [Property.Country]: [{ value: Country.UnitedKingdom.wikidata }],
-        },
-      }))
-      .sort((a, b) => a.id!.toString().localeCompare(b.id!.toString()))
   );
+
+  return data
+    .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => ({
+      type: "Feature",
+      id: stop_id,
+      geometry:
+        stop_lat === "0" && stop_lon === "0"
+          ? { type: "MultiPoint", coordinates: [] }
+          : {
+              type: "Point",
+              coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
+            },
+      properties: {
+        labels: [{ value: stop_name, lang: Language.English[1] }],
+        [CodeIssuer.ATOC]: [{ value: stop_id }],
+        [Property.Country]: [
+          {
+            value: stop_name.match(/\(CIE\)?$/)
+              ? Country.Ireland.wikidata
+              : Country.UnitedKingdom.wikidata,
+          },
+        ],
+      },
+    }))
+    .sort((a, b) => a.id!.toString().localeCompare(b.id!.toString()));
+};
