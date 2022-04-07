@@ -77,8 +77,7 @@ title: "Belgium"
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-            {{ label.value }}
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>

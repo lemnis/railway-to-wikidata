@@ -2,6 +2,9 @@
 layout: page
 title: "Greece"
 ---
+
+(Map only shows in use stations)
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
@@ -27,6 +30,9 @@ title: "Greece"
 	}
 
   const points = {{ site.data.GR | jsonify }}
+  // Filter out disabled locations
+  points.features = points.features.filter(i => i.properties.info.enabled);
+
   var markers = L.markerClusterGroup();
   var geoJsonLayer = L.geoJson(points, { onEachFeature });
   markers.addLayer(geoJsonLayer);
@@ -47,6 +53,7 @@ title: "Greece"
   <thead>
     <tr>
       <th>Name</th>
+      <th>In use</th>
       <th>Station code</th>
       <th>UIC</th>
       <th>IBNR</th>
@@ -62,6 +69,9 @@ title: "Greece"
     {% for feature in site.data.GR.features %}
       <tr>
         <td>{{ feature.properties.labels[1].value }}</td>
+        <td>
+          {% if feature.properties.info.enabled %}✅{% else %}❌{% endif %}
+        </td>
         <td>
           {% for label in feature.properties.P296 %}
             {% include stationCodeLink.html %}
