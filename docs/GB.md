@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "UK"
+title: "United Kingdom"
 ---
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
@@ -46,6 +46,7 @@ title: "UK"
     <tr>
       <th>Name</th>
       <th>Station code</th>
+      <th>Atoc</th>
       <th>UIC</th>
       <th>IBNR</th>
       <th>DB</th>
@@ -53,6 +54,7 @@ title: "UK"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -60,11 +62,18 @@ title: "UK"
       <tr>
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
+          {% for label in feature.properties.P296 %}
+            {% include stationCodeLink.html %}
+          {% endfor %}
+        </td>
+        <td>
           {% for label in feature.properties.P4755 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
+          <a
+            href="https://www.nationalrail.co.uk/stations/{{ label.value }}/details.htmls"
+            target="_blank"
+          >
             {{ label.value }}
-          </a>
-          <br />
+          </a><br />
           {% endfor %}
         </td>
         <td>
@@ -101,6 +110,14 @@ title: "UK"
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />
