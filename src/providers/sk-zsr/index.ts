@@ -1,4 +1,4 @@
-import { CodeIssuer, Property } from "../../types/wikidata";
+import { CodeIssuer, Items, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
 import { Country, findCountryByUIC } from "../../transform/country";
 import { getGtfsStations } from "../../utils/gtfs";
@@ -22,10 +22,22 @@ const stopIds = {
   "138735": Country.Austria,
   "19745": Country.Hungary,
   "21840": Country.Austria,
+  "28977": Country.Austria,
+  "28993": Country.Austria,
+  "29611": Country.Austria,
+  "29686": Country.Austria,
+  "29751": Country.Austria,
+  "29769": Country.Austria,
+  "29975": Country.Austria,
+  "30007": Country.Austria,
+  "30023": Country.Austria,
+  "30031": Country.Austria,
+  "30049": Country.Austria,
   "31070": Country.Austria,
   "31377": Country.Germany,
   "31443": Country.Austria,
   "31856": Country.Austria,
+  "331041": Country.Czech,
   "332346": Country.Czech,
   "332742": Country.Czech,
   "332957": Country.Czech,
@@ -37,6 +49,9 @@ const stopIds = {
   "336743": Country.Czech,
   "337220": Country.Czech,
   "338459": Country.Czech,
+  "339846": Country.Czech,
+  "341040": Country.Czech,
+  "341149": Country.Czech,
   "341248": Country.Czech,
   "343624": Country.Czech,
   "344341": Country.Czech,
@@ -46,6 +61,7 @@ const stopIds = {
   "354423": Country.Czech,
   "355024": Country.Czech,
   "355750": Country.Czech,
+  "361451": Country.Czech,
   "370858": Country.Czech,
   "371450": Country.Czech,
   "38653": Country.Poland,
@@ -106,7 +122,12 @@ export const getLocations = async () => {
           : { [CodeIssuer.UIC]: [{ value: code }] }),
         ...(country === Country.Slovakia
           ? {
-              [Property.StationCode]: [{ value: stop_id }],
+              [Property.StationCode]: [{
+                value: stop_id,
+                qualifiers: {
+                  [Property.AppliesToPart]: [{ value: Items.ZSR }]
+                }
+              }],
             }
           : {}),
         [Property.Country]: [{ value: country.wikidata }],
