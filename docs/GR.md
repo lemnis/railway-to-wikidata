@@ -10,58 +10,39 @@ title: "Greece"
 <div id='map' style="width: 100%; height: 700px"></div>
 
 <script>
-	const map = L.map('map').setView([39.35, 23], 7);
-
-const markerHtmlStyles = (myCustomColour) => `
-  background-color: ${myCustomColour || 'red'};
-  width: 3rem;
-  height: 3rem;
-  display: block;
-  left: -1.5rem;
-  top: -1.5rem;
-  position: relative;
-  border-radius: 3rem 3rem 0;
-  transform: rotate(45deg);
-  border: 1px solid #FFFFFF`
-
-const icon = L.divIcon({
-  className: "",
-  iconAnchor: [0, 24],
-  labelAnchor: [-6, 0],
-  popupAnchor: [0, -36],
-  html: `<span style="${markerHtmlStyles}" />`
-})
-
+	const map = L.map('map');
 
 	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
-}).addTo( map );
+  }).addTo( map );
 
 	function onEachFeature(feature, layer) {
-		const popupContent = `
+		layer.bindPopup(`
       ${feature.properties.labels?.[0]?.value || 'Unknown'} <br />
       <b>UIC</b> ${feature.properties.P722?.[0].value} <br />
       <b>IBNR</b> ${feature.properties.P954?.[0].value} <br />
       <b>Station code</b> ${feature.properties.P296?.[0].value}
-    `
-
-		layer.bindPopup(popupContent);
+    `);
 	}
 
   const points = {{ site.data.GR | jsonify }}
-
   var markers = L.markerClusterGroup();
-
-  var geoJsonLayer = L.geoJson(points, {
-    onEachFeature
-  });
+  var geoJsonLayer = L.geoJson(points, { onEachFeature });
   markers.addLayer(geoJsonLayer);
-
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
+  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/GR.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
 </script>
+<br />
 
+## Resources
+
+- [InterCity Network Map (PDF)](https://www.trainose.gr/wp-content/uploads/2021/03/%CE%A7%CE%AC%CF%81%CF%84%CE%B7%CF%82-%CE%A0%CE%91%CE%9D%CE%95%CE%9B%CE%9B%CE%91%CE%94%CE%99%CE%9A%CE%9F%CE%A5-%CE%B4%CE%B9%CE%BA%CF%84%CF%8D%CE%BF%CF%85-18%CE%99%CE%BF%CF%85%CE%BD2020.pdf)
+
+(source: [https://www.trainose.gr/en/passenger-activity/intercity-network/]())
+
+## Stations
 <table>
   <thead>
     <tr>
@@ -74,6 +55,7 @@ const icon = L.divIcon({
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -82,10 +64,7 @@ const icon = L.divIcon({
         <td>{{ feature.properties.labels[1].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -127,6 +106,14 @@ const icon = L.divIcon({
           <br />
           {% endfor %}
         </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>        
       </tr>
     {% endfor %}
   </tbody>

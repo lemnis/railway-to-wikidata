@@ -36,13 +36,12 @@ title: "Sweden"
 </script>
 <br />
 
-
 ## Resources
 
 - [Official Rail network in Sweden (PDF)](https://www.sj.se/content/dam/externt/bilder/ovrigt/kartor/sjlinjekartahelasverige-eng-2022.pdf)
 - [Rail network in the Nordic countries (PDF)](https://www.sj.se/content/dam/externt/bilder/ovrigt/kartor/kartaovernordiskajarnvagsnatet-2012.pdf)
 
-(source: [https://www.sj.se/en/traffic-info/timetables-and-maps.html](https://www.sj.se/en/traffic-info/timetables-and-maps.html))
+(source: [https://www.sj.se/en/traffic-info/timetables-and-maps.html]())
 
 ## Todo
 
