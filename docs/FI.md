@@ -10,35 +10,29 @@ title: "Finland"
 <div id='map' style="width: 100%; height: 700px"></div>
 
 <script>
-	const map = L.map('map').setView([50.5, 4.4], 8);
+	const map = L.map('map');
 
 	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
-}).addTo( map );
+  }).addTo( map );
 
 	function onEachFeature(feature, layer) {
-		const popupContent = `
+		layer.bindPopup(`
       ${feature.properties.labels?.[0].value} <br />
       <b>UIC</b> ${feature.properties.P722?.[0].value} <br />
       <b>IBNR</b> ${feature.properties.P954?.[0].value} <br />
       <b>Station code</b> ${feature.properties.P296?.[0].value}
-    `
-
-		layer.bindPopup(popupContent);
+    `);
 	}
 
   const points = {{ site.data.FI | jsonify }}
-
   var markers = L.markerClusterGroup();
-
-  var geoJsonLayer = L.geoJson(points, {
-    onEachFeature
-  });
+  var geoJsonLayer = L.geoJson(points, { onEachFeature });
   markers.addLayer(geoJsonLayer);
-
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
+  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/FI.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
 </script>
 
 <table>
@@ -53,18 +47,21 @@ title: "Finland"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
     {% for feature in site.data.FI.features %}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td>
+          {% assign normalizedLabel = feature.properties.labels[0].value | downcase | replace: 'å', 'a'| replace: ' ', '-' -%}
+          <a href="https://www.vr.fi/rautatieasemat-ja-reitit/{{ normalizedLabel }}/" target="_blank">
+            {{ feature.properties.labels[0].value }}
+          </a>
+        </td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -101,6 +98,14 @@ title: "Finland"
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />

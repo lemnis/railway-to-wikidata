@@ -12,6 +12,7 @@ The goal of this project to get a complete overview of all **in-use** & **public
 - Improve label scoring system
 - Remove duplicate labels
 - Prevent original locations being matched a new location
+- Fix locations without a country
 
 ## Resources that can help finding new data sources
 
