@@ -60,10 +60,7 @@ title: "Slovakia"
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://aplikacie.zsr.sk/infotabule/StationDetail.aspx?id={{ label.value }}&t=2" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>

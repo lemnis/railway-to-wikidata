@@ -30,6 +30,6 @@ https://irail.be/stations/NMBS/00{{ uic }}
 {% endif %}
 {% assign total = first | plus: second | plus: thirth  | plus: fourth  | plus: fifth %}
 {% assign mod = total | modulo: 10 %}
-https://m.ter.sncf.com/occitanie/se-deplacer/gares/{{ uic }}{{ 10 | minus: mod }}
+https://m.ter.sncf.com/occitanie/se-deplacer/gares/{{ uic }}{{ 10 | minus: mod | modulo: 10 }}
 {% comment %}https://www.sncf.com/en/stations/fake/OCE{{ uic }}{{ 10 | minus: mod }}{% endcomment %}
 {% endif %}

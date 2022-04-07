@@ -13,43 +13,20 @@ title: "Germany"
 <div id='map' style="width: 100%; height: 700px"></div>
 
 <script>
-	const map = L.map('map').setView([51.163375, 10.447683 ], 6);
-
-const markerHtmlStyles = (myCustomColour) => `
-  background-color: ${myCustomColour || 'red'};
-  width: 3rem;
-  height: 3rem;
-  display: block;
-  left: -1.5rem;
-  top: -1.5rem;
-  position: relative;
-  border-radius: 3rem 3rem 0;
-  transform: rotate(45deg);
-  border: 1px solid #FFFFFF`
-
-const icon = L.divIcon({
-  className: "",
-  iconAnchor: [0, 24],
-  labelAnchor: [-6, 0],
-  popupAnchor: [0, -36],
-  html: `<span style="${markerHtmlStyles}" />`
-})
-
+	const map = L.map('map');
 
 	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
-}).addTo( map );
+  }).addTo( map );
 
 	function onEachFeature(feature, layer) {
-		const popupContent = `
+		layer.bindPopup(`
       ${feature.properties.labels?.[0]?.value} <br />
       <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br />
       <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br />
       <b>Station code</b> ${feature.properties.P296?.[0]?.value}
-    `
-
-		layer.bindPopup(popupContent);
+    `);
 	}
 
   const points = {{ site.data.DE | jsonify }}
@@ -83,10 +60,7 @@ const icon = L.divIcon({
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+          {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>

@@ -8,14 +8,29 @@ title: "Belgium"
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
 <script type='text/javascript' src='https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js'></script>
 <div id='map' style="width: 100%; height: 700px"></div>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
 
 <script>
+  L.TopoJSON = L.GeoJSON.extend({
+    addData: function (jsonData) {
+      if (jsonData.type === 'Topology') {
+        for (key in jsonData.objects) {
+          geojson = topojson.feature(jsonData, jsonData.objects[key]);
+          L.GeoJSON.prototype.addData.call(this, geojson);
+        }
+      } else {
+        L.GeoJSON.prototype.addData.call(this, jsonData);
+      }
+    },
+  });
+  // Copyright (c) 2013 Ryan Clark
+
 	const map = L.map('map');
 
 	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
-}).addTo( map );
+  }).addTo( map );
 
 	function onEachFeature(feature, layer) {
 		const popupContent = `
@@ -34,7 +49,11 @@ title: "Belgium"
   markers.addLayer(geoJsonLayer);
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
-  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/BE.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
+  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/BE.json').then(data => data.json()).then(data => {
+    const topoLayer = new L.TopoJSON();
+    topoLayer.addData(data);
+    topoLayer.addTo(map);
+  });
 </script>
 
 <table>
@@ -49,6 +68,7 @@ title: "Belgium"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -61,10 +81,14 @@ title: "Belgium"
           <br />
           {% endfor %}
         </td>
-        <td>{% for label in feature.properties.P722 %}
-        <a href=" https://irail.be/stations/NMBS/00{{ label.value }}" target="_blank">
-          {{ label.value }}
-          </a><br />{% endfor %}</td> 
+        <td>
+          {% for label in feature.properties.P722 %}
+            {% assign uic = label.value %}
+            <a href="{% include uicLink.html %}" target="_blank">
+              {{ label.value }}
+            </a><br />
+          {% endfor %}
+        </td>
        <td>
           {% for label in feature.properties.P954 %}
           <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
@@ -91,6 +115,14 @@ title: "Belgium"
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />
