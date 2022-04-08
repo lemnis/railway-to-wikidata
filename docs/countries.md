@@ -44,54 +44,63 @@ title: "Countries"
 <div id='map' style="width: 100%; height: 500px"></div>
 
 <script>
-	const map = L.map('map');
+const map = L.map("map");
 
-	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    subdomains: ['a','b','c']
-  }).addTo( map );
+L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  subdomains: ["a", "b", "c"],
+}).addTo(map);
 
-	function onEachFeature(feature, layer) {
-		layer.bindPopup(`
-      ${feature.properties.labels?.[0]?.value} <br />
-      <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br />
-      <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br />
-      <b>Station code</b> ${feature.properties.P296?.[0]?.value}
-      <b>Atoc</b> ${feature.properties.P4755?.[0]?.value}
-    `);
-	}
+function onEachFeature(feature, layer) {
+  layer.bindPopup(
+    ` ${feature.properties.labels?.[0]?.value} <br /> <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br /> <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br /> <b>Station code</b> ${feature.properties.P296?.[0]?.value} <b>Atoc</b> ${feature.properties.P4755?.[0]?.value} `
+  );
+}
 
-  var markers = L.markerClusterGroup();
+var markers = L.markerClusterGroup();
 
-  markers.addLayer(L.geoJson({{ site.data.AT | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.BE | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.BG | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.CH | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.CZ | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.DE | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.DK | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.EE | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.ES | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.FI | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.FR | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.GR | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.HU | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.HR | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.IE | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.IT | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.LT | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.LU | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.LV | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.NL | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.NO | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.PL | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.PT | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.RO | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.SE | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.SI | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.SK | jsonify }}, { onEachFeature }));
-  markers.addLayer(L.geoJson({{ site.data.UK | jsonify }}, { onEachFeature }));
-
+Promise.all(
+  [
+    "AT",
+    "BE",
+    "BG",
+    "CH",
+    "CZ",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GR",
+    "HU",
+    "HR",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "NL",
+    "NO",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK",
+    // "GB",
+  ].map((country) =>
+    fetch(
+      `https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/docs/_data/${country}.json`
+    )
+      .then((data) => data.json())
+      .then((data) => {
+        markers.addLayer(L.geoJson(data, { onEachFeature }));
+      })
+  )
+).then(() => {
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
+});
 </script>

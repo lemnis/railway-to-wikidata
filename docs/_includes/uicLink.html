@@ -1,13 +1,59 @@
-{% assign uicCountryCode = uic | slice: 0, 2 %}
+{{ label.value }}
+
+{% assign uicCountryCode = label.value | slice: 0, 2 %}
 
 {% if uicCountryCode == '54' %}
-https://www.cd.cz/stanice/{{ uic }}
+<a
+  href="https://www.cd.cz/stanice/{{ label.value }}"
+  target="_blank"
+>
+  {{ label.value }}
+  <img
+    src="https://commons.wikimedia.org/wiki/File:%C4%8CD_logo.svg"
+    title="CD (CZ)"
+    style="width: 1.2em; width: 1.2em"
+  />
+</a>
 {% elsif uicCountryCode == '55' %}
-https://www.kapella2.hu/ehuszfelulet/szolghelyadatok?taf_id={{ uic }}&vizsgalt_idopont=2020-04-29&vizsgalt_idoszak_kezdo=2020-05-04&vizsgalt_idoszak_veg=2020-05-31&infra_id=21943
+<a
+  href="https://www.kapella2.hu/ehuszfelulet/szolghelyadatok?taf_id={{ label.value }}&vizsgalt_idopont=2020-04-29&vizsgalt_idoszak_kezdo=2020-05-04&vizsgalt_idoszak_veg=2020-05-31&infra_id=21943"
+  target="_blank"
+>
+  {{ label.value }}
+  <img
+    src="http://www.hzpp.hr/Themes/CorvusTheme/Content/img/HZPP_logo_color_small.png"
+    title="HZPP (HU)"
+    style="width: 1.2em; width: 1.2em"
+  />
+</a>
 {% elsif uicCountryCode == '88' %}
-https://irail.be/stations/NMBS/00{{ uic }}
-{% elsif uicCountryCode == '' %}
-#
+<a
+  href="https://lod.opentransportdata.swiss/didok/{{ label.value }}"
+  target="_blank"
+>
+  {{ label.value }}
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/9/9d/LogoBR.svg"
+    title="NMBS (BE)"
+    style="width: 1.2em; width: 1.2em"
+  />
+</a>
+{% elsif uicCountryCode == '85' %}
+<a
+  href="https://lod.opentransportdata.swiss/didok/{{ label.value }}"
+  target="_blank"
+>
+  {{ label.value }}
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/2/23/SBB_logo_simplified.svg"
+    title="SBB (CH)"
+    style="width: 1.2em; width: 1.2em"
+  />
+</a>
+{% endif %}
+
+{% if label.value == '' %}
+{% comment %} Missing uic code {% endcomment %} 
 {% else %}
 {% comment %} (Limited) luhn algorithm to calculate uic8 code. {% endcomment %} 
 {% assign uic = uic | split: ''  %}
@@ -30,6 +76,16 @@ https://irail.be/stations/NMBS/00{{ uic }}
 {% endif %}
 {% assign total = first | plus: second | plus: thirth  | plus: fourth  | plus: fifth %}
 {% assign mod = total | modulo: 10 %}
-https://m.ter.sncf.com/occitanie/se-deplacer/gares/{{ uic }}{{ 10 | minus: mod | modulo: 10 }}
-{% comment %}https://www.sncf.com/en/stations/fake/OCE{{ uic }}{{ 10 | minus: mod }}{% endcomment %}
+<a
+  href="https://m.ter.sncf.com/occitanie/se-deplacer/gares/{{ label.value }}{{ 10 | minus: mod | modulo: 10 }}"
+  target="_blank"
+>
+  {{ label.value }}
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Sncf-logo.svg"
+    title="SNCF (FR)"
+    style="width: 1.2em; width: 1.2em"
+  />
+</a>
+{% comment %}https://www.sncf.com/en/stations/fake/OCE{{ label.value }}{{ 10 | minus: mod }}{% endcomment %}
 {% endif %}

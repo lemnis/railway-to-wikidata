@@ -2,65 +2,9 @@
 title: "Lithuania"
 layout: page  
 ---
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-<script type='text/javascript' src='https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js'></script>
-<div id='map' style="width: 100%; height: 700px"></div>
-
-<script>
-	const map = L.map('map').setView([55.45, 23.93], 7);
-
-const markerHtmlStyles = (myCustomColour) => `
-  background-color: ${myCustomColour || 'red'};
-  width: 3rem;
-  height: 3rem;
-  display: block;
-  left: -1.5rem;
-  top: -1.5rem;
-  position: relative;
-  border-radius: 3rem 3rem 0;
-  transform: rotate(45deg);
-  border: 1px solid #FFFFFF`
-
-const icon = L.divIcon({
-  className: "",
-  iconAnchor: [0, 24],
-  labelAnchor: [-6, 0],
-  popupAnchor: [0, -36],
-  html: `<span style="${markerHtmlStyles}" />`
-})
-
-
-	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    subdomains: ['a','b','c']
-}).addTo( map );
-
-	function onEachFeature(feature, layer) {
-		const popupContent = `
-      ${feature.properties.labels?.[0].value} <br />
-      <b>UIC</b> ${feature.properties.P722?.[0].value} <br />
-      <b>IBNR</b> ${feature.properties.P954?.[0].value} <br />
-      <b>Station code</b> ${feature.properties.P296?.[0].value}
-    `
-
-		layer.bindPopup(popupContent);
-	}
-
-  const points = {{ site.data.LT | jsonify }}
-
-  var markers = L.markerClusterGroup();
-
-  var geoJsonLayer = L.geoJson(points, {
-    onEachFeature
-  });
-  markers.addLayer(geoJsonLayer);
-
-  map.addLayer(markers);
-  map.fitBounds(markers.getBounds());
-</script>
+{% assign stations = site.data.LT %}
+{% assign tracks = 'LT' %}
+{% include map.html %}
 
 <table>
   <thead>
@@ -88,10 +32,7 @@ const icon = L.divIcon({
         </td>
         <td>
           {% for label in feature.properties.P722 %}
-            {% assign uic = label.value %}
-            <a href="{% include uicLink.html %}" target="_blank">
-              {{ label.value }}
-            </a><br />
+            {% include uicLink.html %}
           {% endfor %}
         </td>
        <td>

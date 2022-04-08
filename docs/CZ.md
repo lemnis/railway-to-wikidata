@@ -2,47 +2,8 @@
 layout: post
 title: "Czech Republic"
 ---
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-<script type='text/javascript' src='https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js'></script>
-
-<div id='map' style="width: 100%; height: 700px"></div>
-
-<script>
-	const map = L.map('map');
-
-	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    subdomains: ['a','b','c']
-  }).addTo( map );
-
-	function onEachFeature(feature, layer) {
-		const popupContent = `
-      ${feature.properties.labels?.[0].value} <br />
-      <b>UIC</b> ${feature.properties.P722?.[0].value} <br />
-      <b>IBNR</b> ${feature.properties.P954?.[0].value} <br />
-      <b>Station code</b> ${feature.properties.P296?.[0].value}
-    `
-
-		layer.bindPopup(popupContent);
-	}
-
-  const geoJsonData = {{ site.data.CZ | jsonify }}
-
-  var markers = L.markerClusterGroup();
-
-  var geoJsonLayer = L.geoJson(geoJsonData, {
-    onEachFeature
-  });
-  markers.addLayer(geoJsonLayer);
-
-  map.addLayer(markers);
-  map.fitBounds(markers.getBounds());
-  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/CZ.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
-</script>
+{% assign stations = site.data.CZ %}
+{% include map.html %}
 
 <table>
   <thead>

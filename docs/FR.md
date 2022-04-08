@@ -67,10 +67,7 @@ title: "France"
         </td>
         <td>
           {% for label in feature.properties.P722 %}
-            {% assign uic = label.value %}
-            <a href="{% include uicLink.html %}" target="_blank">
-              {{ label.value }}
-            </a><br />
+            {% include uicLink.html %}
           {% endfor %}
         </td>
        <td>
