@@ -5,6 +5,14 @@ layout: page
 {% assign stations = site.data.EE %}
 {% assign tracks = 'EE' %}
 {% include map.html %}
+<br />
+
+## Todo
+
+- Include the station code from the GTFS feed and link it to `https://web.peatus.ee/aggregaatti-aikataulu/estonia:${stationCode}`
+- Merge duplicate locations
+
+## Stations
 
 <table>
   <thead>
@@ -18,6 +26,7 @@ layout: page
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -37,10 +46,7 @@ layout: page
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+            {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -61,6 +67,14 @@ layout: page
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />

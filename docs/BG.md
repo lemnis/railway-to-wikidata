@@ -24,7 +24,11 @@ title: "Bulgaria"
   <tbody>
     {% for feature in site.data.BG.features %}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td>
+          <a href="https://live.bdz.bg/en/{{ feature.properties.labels[0].value | downcase | replace: ' ', '-' }}/arrivals" target="_blank">
+            {{ feature.properties.labels[0].value }}
+          </a>
+        </td>
         <td>
           {% for label in feature.properties.P296 %}
           <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
