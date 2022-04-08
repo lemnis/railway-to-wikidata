@@ -3,6 +3,7 @@ layout: "page"
 title: "Austria"
 ---
 {% assign stations = site.data.AT %}
+{% assign tracks = 'AT' %}
 {% include map.html %}
 
 <table>
@@ -36,10 +37,7 @@ title: "Austria"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+            {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

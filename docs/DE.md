@@ -17,6 +17,7 @@ title: "Germany"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -25,7 +26,7 @@ title: "Germany"
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          {% include stationCodeLink.html %}
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -35,10 +36,7 @@ title: "Germany"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+            {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -59,6 +57,14 @@ title: "Germany"
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />

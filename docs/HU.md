@@ -26,10 +26,7 @@ title: "Hungary"
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -39,10 +36,7 @@ title: "Hungary"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+            {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>
