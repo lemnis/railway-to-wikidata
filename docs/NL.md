@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Netherlands"
-date: 2022-02-26 13:09:55 +0100
-categories: jekyll update
 ---
 {% assign stations = site.data.NL %}
 {% assign tracks = 'NL' %}
@@ -22,6 +20,7 @@ categories: jekyll update
       <th>Trainline</th>
       <th>Number of Facs</th>
       <th>Number of Tracks</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -30,10 +29,7 @@ categories: jekyll update
         <td>{{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -74,6 +70,14 @@ categories: jekyll update
         </td>
         <td>{% for label in feature.properties.P5595 %}{{ label.value }}<br />{% endfor %}</td>
         <td>{% for label in feature.properties.P1103 %}{{ label.value }}<br />{% endfor %}</td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
       </tr>
     {% endfor %}
   </tbody>

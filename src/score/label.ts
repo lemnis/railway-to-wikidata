@@ -1,4 +1,5 @@
 import { Label } from "../types/location";
+import { distance, closest } from "fastest-levenshtein";
 
 const { remove: removeAccents, diacriticsMap } = require("diacritics");
 
@@ -62,6 +63,11 @@ export const score = (base: Label[], expansion: Label[]) => {
     let match = destinationLabels.find(({ value: destinationLabel }) =>
       normalizeName(destinationLabel).includes(normalizeName(value))
     );
+    const close = closest(
+      value,
+      destinationLabels.map(({ value }) => normalizeName(value))
+    );
+
     if (!match && variants) {
       for (const variant of variants) {
         match = destinationLabels.find(({ value }) =>
@@ -75,6 +81,7 @@ export const score = (base: Label[], expansion: Label[]) => {
       match: !!match,
       value,
       lang,
+      similarity: match ? 1 : distance(value, close) < value.length ? distance(value, close) / value.length : 0,
       // destinationLabels: destinationLabels.map(({ value: b }) =>
       //   normalizeName(b)
       // ),
@@ -84,8 +91,10 @@ export const score = (base: Label[], expansion: Label[]) => {
 
   const percentage = matches.filter(({ missing, match }) => !missing && match)
     .length
-    ? matches.filter(({ match }) => match).length /
-      matches.filter(({ missing, match }) => !missing && match).length
+    ? matches.filter(({ missing }) => !missing).length /
+      matches
+        .filter(({ missing }) => !missing)
+        .reduce((acc, c) => acc + c.similarity, 0)
     : 0;
 
   return { matches, percentage };

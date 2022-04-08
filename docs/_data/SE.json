@@ -3283,9 +3283,10 @@
         ],
         "P296": [
           {
-            "value": "Str"
-          },
-          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "STR"
           }
         ],
@@ -5161,9 +5162,10 @@
         ],
         "P296": [
           {
-            "value": "Cg"
-          },
-          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CG"
           }
         ],
@@ -12691,7 +12693,7 @@
     },
     {
       "type": "Feature",
-      "id": "--740000153-NSR:StopPlace:565-Q106336007",
+      "id": "---740000153-NSR:StopPlace:565-SEMi-Q106336007",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12710,6 +12712,10 @@
           {
             "lang": "no",
             "value": "Mörsil station"
+          },
+          {
+            "value": "Mörsil",
+            "lang": "sv"
           },
           {
             "lang": "en",
@@ -12747,7 +12753,11 @@
         ],
         "P296": [
           {
-            "value": "MI"
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Mi"
           }
         ],
         "PWIKI": [
@@ -15407,7 +15417,7 @@
     },
     {
       "type": "Feature",
-      "id": "--740000192-NSR:StopPlace:567-SEAFK",
+      "id": "---740000192-NSR:StopPlace:567-SEKla-SEAFK",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -15426,6 +15436,10 @@
           {
             "lang": "no",
             "value": "Kumla station"
+          },
+          {
+            "value": "Kumla",
+            "lang": "sv"
           },
           {
             "value": "Kumla"
@@ -15450,7 +15464,11 @@
         ],
         "P296": [
           {
-            "value": "KLA"
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Kla"
           }
         ],
         "P8448": [
@@ -20308,9 +20326,6 @@
               "reliability": 0
             },
             "value": "Ed"
-          },
-          {
-            "value": "ED"
           }
         ],
         "PWIKI": [
@@ -21642,7 +21657,7 @@
     },
     {
       "type": "Feature",
-      "id": "--740000307-NSR:StopPlace:559-Q12011522",
+      "id": "---740000307-NSR:StopPlace:559-SEÅt-Q12011522",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -21661,6 +21676,10 @@
           {
             "lang": "no",
             "value": "Åmotfors station"
+          },
+          {
+            "value": "Åmotfors",
+            "lang": "sv"
           },
           {
             "lang": "en",
@@ -21698,9 +21717,10 @@
         ],
         "P296": [
           {
-            "value": "ÅT"
-          },
-          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Åt"
           }
         ],
@@ -24492,7 +24512,7 @@
     },
     {
       "type": "Feature",
-      "id": "--740000410-NSR:StopPlace:128-Q15527420",
+      "id": "---740000410-NSR:StopPlace:128-SEEn-Q15527420",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -24511,6 +24531,10 @@
           {
             "lang": "no",
             "value": "Edane station"
+          },
+          {
+            "value": "Edane",
+            "lang": "sv"
           },
           {
             "lang": "en",
@@ -24545,9 +24569,10 @@
         ],
         "P296": [
           {
-            "value": "EN"
-          },
-          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "En"
           }
         ],
@@ -27145,7 +27170,7 @@
     },
     {
       "type": "Feature",
-      "id": "--740000550-SEDta-Q11856290",
+      "id": "--740000550-SEDta-Q104523813",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -27166,20 +27191,44 @@
             "lang": "sv"
           },
           {
-            "lang": "fi",
-            "value": "Dorotean rautatieasema"
+            "lang": "en",
+            "value": "Dorotea Camping"
+          },
+          {
+            "lang": "nl",
+            "value": "Dorotea Camping"
           },
           {
             "lang": "en",
-            "value": "Dorotea railway station"
+            "value": "Dorotea camping"
           },
           {
             "lang": "en",
-            "value": "Dorotea station"
+            "value": "Dorotea camping railway station"
           },
           {
             "lang": "en",
-            "value": "Dorotea"
+            "value": "Dorotea Camping railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Dorotea camping station"
+          },
+          {
+            "lang": "en",
+            "value": "Dorotea Camping station"
+          },
+          {
+            "lang": "nl",
+            "value": "Dorotea camping"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Dorotea camping"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Dorotea Camping"
           }
         ],
         "P722": [
@@ -27203,30 +27252,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q11856290"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q207020"
-          },
-          {
-            "value": "Q25989"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q132334"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q1202958"
+            "value": "Q104523813"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q132334"
           }
         ]
       }

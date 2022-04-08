@@ -1,3 +1,5 @@
+import { scoreLocatedInTimeZone } from "../../transform/locatedInTimeZone";
+import { scoreStationCode } from "../../transform/stationCode";
 import { ClaimObject, CodeIssuer, Property } from "../../types/wikidata";
 
 export const propertyMatch = async (
@@ -5,14 +7,21 @@ export const propertyMatch = async (
   origin: ClaimObject<any>[],
   destination: ClaimObject<any>[]
 ) => {
-    return origin.map(a => {
-      const b = destination.find(b => a.value === b.value);
+  if (key === Property.StationCode) {
+    return scoreStationCode(origin, destination);
+  }
+  // if (key === Property.LocatedInTimeZone) {
+  //   return scoreLocatedInTimeZone(origin, destination);
+  // }
 
-      return {
-        match: !!b,
-        value: a,
-        origin: b,
-        missing: destination.length === 0
-      }
-    })
+  return origin?.map((a) => {
+    const b = destination.find((b) => a.value === b.value);
+
+    return {
+      match: !!b,
+      value: a,
+      origin: b,
+      missing: destination.length === 0,
+    };
+  });
 };

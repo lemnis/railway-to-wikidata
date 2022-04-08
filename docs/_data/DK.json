@@ -17799,7 +17799,7 @@
     },
     {
       "type": "Feature",
-      "id": "----DK00234-XDVJ-DKVJX-trainline-18795-Q2010673",
+      "id": "----DK00234-XDVJ-DKVJX-trainline-27838-Q12340645",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -17818,75 +17818,35 @@
             "value": "Vejle st"
           },
           {
-            "value": "ヴァイレ",
-            "lang": "ja"
-          },
-          {
-            "value": "바일레",
-            "lang": "ko"
-          },
-          {
-            "value": "Вайле",
-            "lang": "ru"
-          },
-          {
-            "value": "瓦埃勒",
-            "lang": "zh"
-          },
-          {
-            "value": "Vejle St."
+            "value": "Vejle Sygehus St."
           },
           {
             "lang": "de",
-            "value": "Bahnhof Vejle"
+            "value": "Bahnhof Vejle Sygehus"
           },
           {
             "lang": "fr",
-            "value": "gare de Vejle"
-          },
-          {
-            "lang": "nb",
-            "value": "Vejle stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Vejle"
-          },
-          {
-            "lang": "da",
-            "value": "Vejle Station"
-          },
-          {
-            "lang": "en",
-            "value": "Vejle Station"
+            "value": "gare de Vejle Sygehus"
           },
           {
             "lang": "it",
-            "value": "stazione di Vejle"
+            "value": "stazione di Vejle Sygehus"
+          },
+          {
+            "lang": "nb",
+            "value": "Vejle Sygehus stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Vejle Sygehus Station"
+          },
+          {
+            "lang": "en",
+            "value": "Vejle Sygehus railway station"
           },
           {
             "lang": "nl",
-            "value": "station Vejle"
-          },
-          {
-            "lang": "zh",
-            "value": "瓦埃勒车站"
-          },
-          {
-            "lang": "zh",
-            "value": "瓦埃勒站"
-          },
-          {
-            "lang": "zh-cn",
-            "value": "瓦埃勒车站"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "瓦埃勒车站"
-          },
-          {
-            "lang": "zh-hant",
-            "value": "瓦埃勒車站"
+            "value": "Station Vejle Sygehus"
           }
         ],
         "P17": [
@@ -17901,20 +17861,29 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
+              "pregrouped": [],
               "reliability": 0
             },
             "value": "8602756",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
-              },
-              {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          },
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "8602956",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
               }
             ]
           }
@@ -17929,42 +17898,23 @@
         ],
         "P8448": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "DKVJX",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
-              }
-            ]
-          }
-        ],
-        "P722": [
+            "value": "DKVJX"
+          },
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "value": "8600073",
+            "value": "DKVJS",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
               }
             ]
           }
         ],
         "P6724": [
           {
-            "value": "18795",
+            "value": "27838",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
               }
             ]
           }
@@ -17974,20 +17924,20 @@
             "value": "Q5412103",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
               }
             ]
           },
           {
-            "value": "Q25989"
+            "value": "Q207020"
           },
           {
-            "value": "Q207020"
+            "value": "Q25989"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q2010673"
+            "value": "Q12340645"
           }
         ],
         "P276": [
@@ -17997,7 +17947,7 @@
         ],
         "P1103": [
           {
-            "value": "4"
+            "value": "1"
           }
         ],
         "P281": [
@@ -18015,14 +17965,19 @@
             "value": "Q55488"
           }
         ],
+        "P722": [
+          {
+            "value": "8600281"
+          }
+        ],
         "P296": [
           {
-            "value": "Vj"
+            "value": "Vjs"
           }
         ],
         "P6375": [
           {
-            "value": "Banegårdspladsen 3B, 7100 Vejle"
+            "value": "Beriderbakken 1, 7100 Vejle"
           }
         ]
       }
@@ -27476,7 +27431,7 @@
     },
     {
       "type": "Feature",
-      "id": "----DK00350-XDRB-DKRBX-trainline-18702-Q9310209",
+      "id": "----DK00350-XDRB-DKRBX-trainline-18702-Q12333396",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -27515,39 +27470,35 @@
           },
           {
             "lang": "da",
-            "value": "Ribe Station"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Ribe"
+            "value": "Ribe Nørremark Station"
           },
           {
             "lang": "en",
-            "value": "Ribe Station"
+            "value": "Ribe Nørremark Station"
           },
           {
             "lang": "nl",
-            "value": "Station Ribe"
+            "value": "Station Ribe Norremark"
           },
           {
-            "lang": "pl",
-            "value": "Ribe (stacja kolejowa)"
+            "lang": "nl",
+            "value": "Station Ribe Nørremark"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Ribe Nørremark"
           },
           {
             "lang": "fr",
-            "value": "gare de Ribe"
+            "value": "gare de Ribe Nørremark"
           },
           {
             "lang": "it",
-            "value": "stazione di Ribe"
-          },
-          {
-            "lang": "da",
-            "value": "Ribe Banegård"
+            "value": "stazione di Ribe Nørremark"
           },
           {
             "lang": "nb",
-            "value": "Ribe stasjon"
+            "value": "Ribe Nørremark stasjon"
           }
         ],
         "P17": [
@@ -27567,7 +27518,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.7000000000000001
             },
             "value": "8601971",
             "references": [
@@ -27578,6 +27529,9 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
+          },
+          {
+            "value": "8601972"
           }
         ],
         "P8671": [
@@ -27604,20 +27558,18 @@
         ],
         "P722": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
             "value": "8600423",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18702"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          },
+          {
+            "value": "8600436"
           }
         ],
         "P6724": [
@@ -27640,40 +27592,20 @@
             ]
           },
           {
-            "value": "Q25989"
+            "value": "Q207020"
           },
           {
-            "value": "Q207020"
+            "value": "Q25989"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q9310209"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P281": [
-          {
-            "value": "6760"
+            "value": "Q12333396"
           }
         ],
         "P296": [
           {
-            "value": "Rb"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Dagmarsgade 16, 6760 Ribe"
+            "value": "Rbn"
           }
         ],
         "P276": [
@@ -27686,9 +27618,24 @@
             "value": "Q645747"
           }
         ],
-        "P669": [
+        "P31": [
           {
-            "value": "Q80094986"
+            "value": "Q55488"
+          }
+        ],
+        "P281": [
+          {
+            "value": "6760"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Skyttevej 2, 6760 Ribe"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "1"
           }
         ]
       }
@@ -30175,7 +30122,7 @@
     },
     {
       "type": "Feature",
-      "id": "----DK00371-XDVR-DKVAX-trainline-18756-Q2258344",
+      "id": "----DK00371-XDVR-DKVAX-trainline-27836-Q12340575",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -30194,43 +30141,35 @@
             "value": "Varde st"
           },
           {
-            "value": "Варде",
-            "lang": "ru"
-          },
-          {
-            "value": "Varde St."
+            "value": "Varde Kaserne St."
           },
           {
             "lang": "de",
-            "value": "Bahnhof Varde"
+            "value": "Bahnhof Varde Kaserne"
           },
           {
             "lang": "fr",
-            "value": "gare de Varde"
+            "value": "gare de Varde Kaserne"
           },
           {
             "lang": "it",
-            "value": "stazione di Varde"
+            "value": "stazione di Varde Kaserne"
           },
           {
             "lang": "nb",
-            "value": "Varde stasjon"
+            "value": "Varde Kaserne stasjon"
           },
           {
             "lang": "da",
-            "value": "Varde Station"
+            "value": "Varde Kaserne Station"
           },
           {
             "lang": "en",
-            "value": "Varde Station"
+            "value": "Varde Kaserne station"
           },
           {
             "lang": "nl",
-            "value": "station Varde"
-          },
-          {
-            "lang": "pl",
-            "value": "Varde"
+            "value": "Station Varde Kaserne"
           }
         ],
         "P17": [
@@ -30245,20 +30184,29 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
+              "pregrouped": [],
               "reliability": 0
             },
             "value": "8602729",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
-              },
-              {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          },
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "8600130",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27836"
               }
             ]
           }
@@ -30273,42 +30221,23 @@
         ],
         "P8448": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "DKVAX",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
-              }
-            ]
-          }
-        ],
-        "P722": [
+            "value": "DKVAX"
+          },
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "value": "8600212",
+            "value": "DKVKA",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27836"
               }
             ]
           }
         ],
         "P6724": [
           {
-            "value": "18756",
+            "value": "27836",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27836"
               }
             ]
           }
@@ -30318,7 +30247,7 @@
             "value": "Q5412103",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27836"
               }
             ]
           },
@@ -30331,7 +30260,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2258344"
+            "value": "Q12340575"
           }
         ],
         "P276": [
@@ -30341,7 +30270,7 @@
         ],
         "P1103": [
           {
-            "value": "4"
+            "value": "1"
           }
         ],
         "P131": [
@@ -30361,12 +30290,17 @@
         ],
         "P296": [
           {
-            "value": "Va"
+            "value": "Vka"
           }
         ],
         "P6375": [
           {
-            "value": "Stationspladsen 3, 6800 Varde"
+            "value": "Hedestien, 6800 Varde"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8600249"
           }
         ]
       }

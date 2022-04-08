@@ -120,16 +120,12 @@ export const getLocations = async () => {
         ...(stop_id.length === 7
           ? { [CodeIssuer.IBNR]: [{ value: code }] }
           : { [CodeIssuer.UIC]: [{ value: code }] }),
-        ...(country === Country.Slovakia
-          ? {
-              [Property.StationCode]: [{
-                value: stop_id,
-                qualifiers: {
-                  [Property.AppliesToPart]: [{ value: Items.ZSR }]
-                }
-              }],
-            }
-          : {}),
+        [Property.StationCode]: [{
+          value: stop_id,
+          qualifiers: {
+            [Property.AppliesToPart]: [{ value: Items.ZSR }]
+          }
+        }],
         [Property.Country]: [{ value: country.wikidata }],
       },
     };

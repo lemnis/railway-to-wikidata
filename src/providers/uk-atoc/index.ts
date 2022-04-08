@@ -29,7 +29,12 @@ export const getLocations = async () => {
               coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
             },
       properties: {
-        labels: [{ value: stop_name, lang: Language.English[1] }],
+        labels: [
+          {
+            value: stop_name.replace(/ +\(CIE\)?$/, ""),
+            lang: Language.English[1],
+          },
+        ],
         [CodeIssuer.ATOC]: [{ value: stop_id }],
         [Property.Country]: [
           {

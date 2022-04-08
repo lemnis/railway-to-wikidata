@@ -731,9 +731,6 @@
           },
           {
             "value": "63858"
-          },
-          {
-            "value": "WS"
           }
         ],
         "P8671": [
@@ -1919,7 +1916,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----8100010-ATStb-XASY-ATAAL-trainline-17501-Q37983416",
+      "id": "-----8100010-ATStb-XASY-ATAAL-trainline-17501-Q111172397",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1959,20 +1956,8 @@
             "lang": "zh"
           },
           {
-            "lang": "en",
-            "value": "Steyrtalbahn in Steyr"
-          },
-          {
             "lang": "de",
-            "value": "Areal des Bahnhofes Steyr-Lokalbahn und Streckenteil"
-          },
-          {
-            "lang": "de-at",
-            "value": "Areal des Bahnhofes Steyr-Lokalbahn und Streckenteil"
-          },
-          {
-            "lang": "hu",
-            "value": "Areal des Bahnhofes Steyr-Lokalbahn und Streckenteil"
+            "value": "Bahnhof Steyr Münichholz"
           }
         ],
         "P954": [
@@ -1994,6 +1979,9 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
+          },
+          {
+            "value": "8101609"
           }
         ],
         "P17": [
@@ -2073,36 +2061,28 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17501"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q37983416"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Lokalbahn Steyr-Grünburg"
+            "value": "Q111172397"
           }
         ],
         "P131": [
           {
             "value": "Q260320"
           }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "----8100011-ATEns-XAEN-ATAAM-Q111171348",
+      "id": "----8100011-ATEns-XAEN-ATAAM-Q111171355",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2127,7 +2107,7 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Enns"
+            "value": "Bahnhof Ennsdorf"
           }
         ],
         "P954": [
@@ -2142,6 +2122,9 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
+          },
+          {
+            "value": "8100759"
           }
         ],
         "P17": [
@@ -2173,12 +2156,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111171348"
+            "value": "Q111171355"
           }
         ],
         "P131": [
           {
-            "value": "Q260089"
+            "value": "Q697066"
           }
         ],
         "P31": [
@@ -2190,7 +2173,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----8100012-ATAms-XAAS-60341-ATATT-trainline-17540",
+      "id": "------8100012-ATAms-XAAS-60341-ATATT-trainline-17540-Q800385",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2231,6 +2214,42 @@
           {
             "value": "阿姆施泰滕",
             "lang": "zh"
+          },
+          {
+            "lang": "pl",
+            "value": "Amstetten"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Amstetten"
+          },
+          {
+            "lang": "de-at",
+            "value": "Bahnhof Amstetten"
+          },
+          {
+            "lang": "en",
+            "value": "Bahnhof Amstetten"
+          },
+          {
+            "lang": "hu",
+            "value": "Bahnhof Amstetten"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Amstetten"
+          },
+          {
+            "lang": "ja",
+            "value": "アムシュテッテン駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Amstetten"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Amstetten NÖ"
           }
         ],
         "P954": [
@@ -2241,7 +2260,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8100012",
             "references": [
@@ -2265,6 +2284,10 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Ams"
           }
         ],
@@ -2281,15 +2304,20 @@
             "value": "8160341"
           },
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8101049",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17540"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P8448": [
@@ -2324,6 +2352,32 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17540"
               }
             ]
+          },
+          {
+            "value": "Q6655"
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q800385"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "6"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q251231"
           }
         ]
       }
@@ -3302,7 +3356,7 @@
     },
     {
       "type": "Feature",
-      "id": "----8100019-ATStw-XASR-ATABA-Q111045750",
+      "id": "-----8100019-ATStw-XASR-ATABA-trainline-17602-Q105102484",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3329,8 +3383,27 @@
             "value": "Strasswalchen"
           },
           {
+            "value": "Steindorf bei Straßwalchen"
+          },
+          {
+            "lang": "bar",
+            "value": "Bahnhof Steindorf bei Straßwalchen"
+          },
+          {
             "lang": "de",
-            "value": "Bahnhof Straßwalchen"
+            "value": "Bahnhof Steindorf bei Straßwalchen"
+          },
+          {
+            "lang": "de-at",
+            "value": "Bahnhof Steindorf bei Straßwalchen"
+          },
+          {
+            "lang": "en",
+            "value": "Bahnhof Steindorf bei Straßwalchen"
+          },
+          {
+            "lang": "pl",
+            "value": "Steindorf bei Straßwalchen"
           }
         ],
         "P954": [
@@ -3343,6 +3416,22 @@
             "references": [
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          },
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "8100020",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17602"
               }
             ]
           }
@@ -3372,11 +3461,52 @@
         "P8448": [
           {
             "value": "ATABA"
+          },
+          {
+            "value": "ATABC",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17602"
+              }
+            ]
+          }
+        ],
+        "P722": [
+          {
+            "value": "8101105",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17602"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "17602",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17602"
+              }
+            ]
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q28148658",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17602"
+              }
+            ]
           }
         ],
         "PWIKI": [
           {
-            "value": "Q111045750"
+            "value": "Q105102484"
           }
         ],
         "P131": [
@@ -12892,7 +13022,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----8100090-ATBg-XAB-ATBRE-trainline-17544-22705-Q15282663",
+      "id": "-----8100090-ATBg-XAB-ATBRE-trainline-17544-22705-Q56887354",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12941,43 +13071,7 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Bregenz"
-          },
-          {
-            "lang": "de-at",
-            "value": "Bahnhof Bregenz"
-          },
-          {
-            "lang": "en",
-            "value": "Bregenz railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Bahnhof Bregenz"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Bregenz"
-          },
-          {
-            "lang": "nl",
-            "value": "station Bregenz"
-          },
-          {
-            "lang": "zh",
-            "value": "布雷根茨车站"
-          },
-          {
-            "lang": "zh-cn",
-            "value": "布雷根茨车站"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "布雷根茨车站"
-          },
-          {
-            "lang": "zh-hant",
-            "value": "佈雷根茨車站"
+            "value": "Bahnhof Bregenz-Riedenburg"
           }
         ],
         "P954": [
@@ -12988,7 +13082,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.7000000000000001
             },
             "value": "8100090",
             "references": [
@@ -13023,10 +13117,6 @@
         ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Bg"
           }
         ],
@@ -13061,20 +13151,15 @@
         ],
         "P722": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
             "value": "8100467",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17544"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           },
           {
             "value": "8102336",
@@ -13090,10 +13175,6 @@
         ],
         "P8181": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "ATBGZ",
             "references": [
               {
@@ -13135,19 +13216,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17544"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q15282663"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "5"
+            "value": "Q56887354"
           }
         ],
         "P131": [
@@ -15107,7 +15180,7 @@
     },
     {
       "type": "Feature",
-      "id": "----8100103-ATSw-XASC-ATAFA-trainline-17640",
+      "id": "-----8100103-ATSw-XASC-ATAFA-trainline-17640-Q111044834",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -15141,6 +15214,10 @@
           {
             "value": "施瓦茨",
             "lang": "zh"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Stans bei Schwaz"
           }
         ],
         "P954": [
@@ -15162,6 +15239,9 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
+          },
+          {
+            "value": "8100310"
           }
         ],
         "P17": [
@@ -15231,6 +15311,16 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17640"
               }
             ]
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q111044834"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -19943,7 +20033,7 @@
     },
     {
       "type": "Feature",
-      "id": "----8100140-ATEbn-XAEB-ATAGR-trainline-17658",
+      "id": "-----8100140-ATEbn-XAEB-ATAGR-trainline-17658-Q17122384",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -19968,6 +20058,30 @@
           },
           {
             "value": "Eben Im Pongau"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Eben im Pongau"
+          },
+          {
+            "lang": "de-at",
+            "value": "Bahnhof Eben im Pongau"
+          },
+          {
+            "lang": "en",
+            "value": "Bahnhof Eben im Pongau"
+          },
+          {
+            "lang": "hu",
+            "value": "Bahnhof Eben im Pongau"
+          },
+          {
+            "lang": "nl",
+            "value": "station Eben im Pongau"
+          },
+          {
+            "lang": "pl",
+            "value": "Eben im Pongau"
           }
         ],
         "P954": [
@@ -19978,7 +20092,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8100140",
             "references": [
@@ -20029,15 +20143,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8101479",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17658"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -20058,6 +20177,34 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17658"
               }
             ]
+          },
+          {
+            "value": "Q6655"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q17122384"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q267047"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "856"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Hauptstraße 43"
           }
         ]
       }
@@ -28682,7 +28829,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8100248-ATGst-Q111167800",
+      "id": "--8100248-ATGst-Q111267155",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -28704,16 +28851,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Garsten"
+            "value": "Bahnhof Lahrndorf bei Garsten"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8100248"
+          },
+          {
+            "value": "8101118"
           }
         ],
         "P17": [
@@ -28732,12 +28878,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111167800"
+            "value": "Q111267155"
           }
         ],
         "P131": [
           {
-            "value": "Q683068"
+            "value": "Q67505571"
           }
         ],
         "P31": [
@@ -33018,7 +33164,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8100332-ATGtt-OAGTX-Q111267117",
+      "id": "----8100332-ATGtt-OAGTX-30049-Q111267117",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -33040,6 +33186,10 @@
           },
           {
             "value": "Gattendorf"
+          },
+          {
+            "value": "Gattendorf",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -33080,6 +33230,11 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "P722": [
+          {
+            "value": "8103004"
           }
         ],
         "PWIKI": [
@@ -34809,7 +34964,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8100369-ATGn-XAGR-Q42662698",
+      "id": "----8100369-ATGn-XAGR-29686-Q42662698",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -34831,6 +34986,10 @@
           },
           {
             "value": "Gramatneusiedl"
+          },
+          {
+            "value": "Gramatneusiedl",
+            "lang": "sk"
           },
           {
             "lang": "pl",
@@ -34883,6 +35042,11 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "P722": [
+          {
+            "value": "8102968"
           }
         ],
         "PWIKI": [
@@ -35301,7 +35465,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8100373-ATKtt-XAKIT-Q111267120",
+      "id": "----8100373-ATKtt-XAKIT-30023-Q111267120",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -35323,6 +35487,10 @@
           },
           {
             "value": "Kittsee"
+          },
+          {
+            "value": "Kittsee",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -35363,6 +35531,11 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "P722": [
+          {
+            "value": "8103002"
           }
         ],
         "PWIKI": [
@@ -36804,7 +36977,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8100409-ATMho-Q111267123",
+      "id": "--8100409-ATMho-Q111267382",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -36826,16 +36999,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Mattighofen"
+            "value": "Bahnhof Schalchen-Mattighofen"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8100409"
+          },
+          {
+            "value": "8102068"
           }
         ],
         "P17": [
@@ -36854,7 +37026,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111267123"
+            "value": "Q111267382"
           }
         ],
         "P131": [
@@ -37217,7 +37389,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8100416-ATSad-Q111167747",
+      "id": "--8100416-ATSad-Q111267466",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -37239,16 +37411,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Sattledt"
+            "value": "Bahnhof Unterhart bei Sattledt"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8100416"
+          },
+          {
+            "value": "8101700"
           }
         ],
         "P17": [
@@ -37267,7 +37438,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111167747"
+            "value": "Q111267466"
           }
         ],
         "P131": [
@@ -38896,7 +39067,7 @@
     },
     {
       "type": "Feature",
-      "id": "----8100447-ATHf-XAWH-WIENH-trainline-17733",
+      "id": "-----8100447-ATHf-XAWH-WIENH-trainline-17733-Q801609",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -38942,6 +39113,42 @@
           {
             "value": "Wenen",
             "lang": "nl"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Wien Penzing"
+          },
+          {
+            "lang": "de",
+            "value": "Wien Penzing"
+          },
+          {
+            "lang": "de-at",
+            "value": "Bahnhof Wien Penzing"
+          },
+          {
+            "lang": "en",
+            "value": "Wien Penzing railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Wien Penzing"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Vienna Penzing"
+          },
+          {
+            "lang": "nl",
+            "value": "station Wien Penzing"
+          },
+          {
+            "lang": "pl",
+            "value": "Wien Penzig"
+          },
+          {
+            "lang": "pl",
+            "value": "Wien Penzing"
           }
         ],
         "P954": [
@@ -38966,6 +39173,9 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
+          },
+          {
+            "value": "8100450"
           }
         ],
         "P17": [
@@ -38990,6 +39200,9 @@
                 }
               ]
             }
+          },
+          {
+            "value": "Pz"
           }
         ],
         "P8671": [
@@ -39059,6 +39272,26 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17733"
               }
             ]
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q801609"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1741"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -39169,7 +39402,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----8100449-ATHz-XAWMI-ATAAB-trainline-23588-Q1620486",
+      "id": "-----8100449-ATHz-XAWMI-ATAAB-trainline-23588-Q85848026",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -39214,23 +39447,23 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Wien Nord"
-          },
-          {
-            "lang": "de",
-            "value": "Wien Nordbahnhof"
-          },
-          {
-            "lang": "de-at",
-            "value": "Wien Nordbahnhof"
+            "value": "Bahnhof Wien Handelskai"
           },
           {
             "lang": "en",
-            "value": "Nordbahnhof, Vienna"
+            "value": "Wien Handelskai railway station"
           },
           {
-            "lang": "ja",
-            "value": "ウィーン北駅"
+            "lang": "fr",
+            "value": "gare de Vienne Handelskai"
+          },
+          {
+            "lang": "nl",
+            "value": "station Wien Handelskai"
+          },
+          {
+            "lang": "zh",
+            "value": "維也納漢德爾斯凱車站"
           }
         ],
         "P954": [
@@ -39252,6 +39485,12 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
+          },
+          {
+            "value": "8101934"
+          },
+          {
+            "value": "8101947"
           }
         ],
         "P17": [
@@ -39266,6 +39505,15 @@
         "P296": [
           {
             "value": "Hz"
+          },
+          {
+            "value": "HK"
+          },
+          {
+            "value": "Hak"
+          },
+          {
+            "value": "Nw H2"
           }
         ],
         "P8671": [
@@ -39326,20 +39574,25 @@
         ],
         "PWIKI": [
           {
-            "value": "Q1620486"
+            "value": "Q85848026"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1741"
           }
         ],
         "P31": [
           {
-            "value": "Q55485"
+            "value": "Q55484"
           },
           {
             "value": "Q55488"
           }
         ],
-        "P131": [
+        "P1103": [
           {
-            "value": "Q259120"
+            "value": "4"
           }
         ]
       }
@@ -40039,7 +40292,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8100466-ATMac-XAMG-Q56389861",
+      "id": "----8100466-ATMac-XAMG-28993-Q56389861",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -40061,6 +40314,10 @@
           },
           {
             "value": "Marchegg"
+          },
+          {
+            "value": "Marchegg",
+            "lang": "sk"
           },
           {
             "lang": "en",
@@ -40127,6 +40384,15 @@
             }
           }
         ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "8102899"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q56389861"
@@ -40140,11 +40406,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8102899"
           }
         ]
       }
@@ -42716,7 +42977,7 @@
     },
     {
       "type": "Feature",
-      "id": "------8100514-ATMi-XAWG-ATABM-31070-trainline-17734-Q1620486",
+      "id": "------8100514-ATMi-XAWG-ATABM-31070-trainline-17734-Q1619775",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -42765,23 +43026,27 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Wien Nord"
+            "value": "Nordwestbahnhof"
           },
           {
             "lang": "de",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "de-at",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "en",
-            "value": "Nordbahnhof, Vienna"
+            "value": "Wien Nordwestbahnhof"
           },
           {
-            "lang": "ja",
-            "value": "ウィーン北駅"
+            "lang": "fr",
+            "value": "gare Vienne Nord-Ouest"
+          },
+          {
+            "lang": "fr",
+            "value": "Wien Nordwestbahnhof"
           }
         ],
         "P954": [
@@ -42887,11 +43152,24 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17734"
               }
             ]
+          },
+          {
+            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q1620486"
+            "value": "Q1619775"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1741"
           }
         ],
         "P31": [
@@ -42900,18 +43178,16 @@
           },
           {
             "value": "Q55488"
-          }
-        ],
-        "P131": [
+          },
           {
-            "value": "Q259120"
+            "value": "Q22808404"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "----8100515-ATApo H1-OAPO-ATPOT-Q111171678",
+      "id": "-----8100515-ATApo H1-OAPO-ATPOT-29751-Q111171678",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -42933,6 +43209,10 @@
           },
           {
             "value": "Parndorf Ort"
+          },
+          {
+            "value": "Parndorf Ort",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -42986,6 +43266,11 @@
         "P8448": [
           {
             "value": "ATPOT"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8102975"
           }
         ],
         "PWIKI": [
@@ -44632,7 +44917,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8100543-ATGtt H1-OAPAM-Q111267128",
+      "id": "----8100543-ATGtt H1-OAPAM-30031-Q111267128",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -44654,6 +44939,10 @@
           },
           {
             "value": "Pama"
+          },
+          {
+            "value": "Pama",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -44694,6 +44983,11 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "P722": [
+          {
+            "value": "8103003"
           }
         ],
         "PWIKI": [
@@ -45142,7 +45436,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8100554-ATHol H1-XALT-ATLEI",
+      "id": "----8100554-ATHol H1-XALT-ATLEI-Q38177006",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -45167,6 +45461,26 @@
           },
           {
             "value": "Leithen B.Seefeld"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Leithen bei Seefeld"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Eichberg am Semmering"
+          },
+          {
+            "lang": "de",
+            "value": "Aufnahmsgebäude Haltestelle Leithen"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Leithen"
+          },
+          {
+            "lang": "en",
+            "value": "Leithen railway station"
           }
         ],
         "P954": [
@@ -45181,6 +45495,9 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
+          },
+          {
+            "value": "8100736"
           }
         ],
         "P17": [
@@ -45208,6 +45525,30 @@
         "P8448": [
           {
             "value": "ATLEI"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q38177006"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q684419"
+          },
+          {
+            "value": "Q105451754"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q1339195"
+          },
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q55678"
           }
         ]
       }
@@ -51567,7 +51908,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8100764-ATErf-Q111171457",
+      "id": "--8100764-ATErf-Q111171662",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -51589,16 +51930,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Erlauf"
+            "value": "Bahnhof Wieselburg/Erlauf"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8100764"
+          },
+          {
+            "value": "8100355"
           }
         ],
         "P17": [
@@ -51617,12 +51957,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111171457"
+            "value": "Q111171662"
           }
         ],
         "P131": [
           {
-            "value": "Q675693"
+            "value": "Q674444"
           }
         ],
         "P31": [
@@ -54949,7 +55289,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8100882-ATGru-Q111267567",
+      "id": "--8100882-ATGru-Q111171993",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -54971,15 +55311,16 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Grünbach am Schneeberg Schule/Kolonie"
+            "value": "Bahnhof Grünbach am Schneeberg"
           }
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "8100882"
-          },
-          {
-            "value": "8101837"
           }
         ],
         "P17": [
@@ -54998,7 +55339,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111267567"
+            "value": "Q111171993"
           }
         ],
         "P131": [
@@ -57425,7 +57766,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8100980-ATOtg H3-Q111167433",
+      "id": "--8100980-ATOtg H3-Q111166803",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -57447,16 +57788,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Hausruck"
+            "value": "Bahnhof Holzleithen am Hausruck"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8100980"
+          },
+          {
+            "value": "8100276"
           }
         ],
         "P17": [
@@ -57475,12 +57815,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111167433"
+            "value": "Q111166803"
           }
         ],
         "P131": [
           {
-            "value": "Q684966"
+            "value": "Q67892067"
           }
         ],
         "P31": [
@@ -68824,7 +69164,7 @@
     },
     {
       "type": "Feature",
-      "id": "----8101335-ATPar-XAPD-ATPOT-Q20493287",
+      "id": "-----8101335-ATPar-XAPD-ATPOT-29769-Q20493287",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -68849,6 +69189,10 @@
           },
           {
             "value": "Parndorf Ort"
+          },
+          {
+            "value": "Parndorf",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -68913,6 +69257,11 @@
         "P8448": [
           {
             "value": "ATPOT"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8102976"
           }
         ],
         "PWIKI": [
@@ -70955,7 +71304,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8101391-ATPus-Q111171451",
+      "id": "--8101391-ATPus-Q111267569",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -70977,16 +71326,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Purgstall/Erlauf"
+            "value": "Bahnhof Sölling bei Purgstall"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8101391"
+          },
+          {
+            "value": "8101851"
           }
         ],
         "P17": [
@@ -71005,7 +71353,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111171451"
+            "value": "Q111267569"
           }
         ],
         "P131": [
@@ -71084,7 +71432,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8101394-ATPie-Q111267195",
+      "id": "--8101394-ATPie-Q111172111",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -71106,7 +71454,7 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Markt Piesting Harzwerk"
+            "value": "Bahnhof Waldegg/Piesting"
           }
         ],
         "P954": [
@@ -71114,7 +71462,7 @@
             "value": "8101394"
           },
           {
-            "value": "8101974"
+            "value": "8101745"
           }
         ],
         "P17": [
@@ -71133,12 +71481,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111267195"
+            "value": "Q111172111"
           }
         ],
         "P131": [
           {
-            "value": "Q673427"
+            "value": "Q673446"
           }
         ],
         "P31": [
@@ -72541,7 +72889,7 @@
     },
     {
       "type": "Feature",
-      "id": "----8101432-ATRw-XARWL-ATREK-Q104833850",
+      "id": "----8101432-ATRw-XARWL-ATREK-Q38006148",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -72565,8 +72913,16 @@
             "value": "Rekawinkel"
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Rekawinkel"
+          },
+          {
+            "lang": "de-at",
+            "value": "Bahnhof Rekawinkel"
+          },
+          {
             "lang": "en",
-            "value": "Rekawinkel railway station"
+            "value": "Rekawinkel station"
           }
         ],
         "P954": [
@@ -72612,7 +72968,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q104833850"
+            "value": "Q38006148"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q666577"
           }
         ],
         "P31": [
@@ -73741,7 +74102,7 @@
     },
     {
       "type": "Feature",
-      "id": "----8101473-ATWwb-OASBF-trainline-29336-Q1620486",
+      "id": "----8101473-ATWwb-OASBF-trainline-29336-Q1619775",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -73786,23 +74147,27 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Wien Nord"
+            "value": "Nordwestbahnhof"
           },
           {
             "lang": "de",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "de-at",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "en",
-            "value": "Nordbahnhof, Vienna"
+            "value": "Wien Nordwestbahnhof"
           },
           {
-            "lang": "ja",
-            "value": "ウィーン北駅"
+            "lang": "fr",
+            "value": "gare Vienne Nord-Ouest"
+          },
+          {
+            "lang": "fr",
+            "value": "Wien Nordwestbahnhof"
           }
         ],
         "P954": [
@@ -73866,11 +74231,24 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29336"
               }
             ]
+          },
+          {
+            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q1620486"
+            "value": "Q1619775"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1741"
           }
         ],
         "P31": [
@@ -73879,11 +74257,9 @@
           },
           {
             "value": "Q55488"
-          }
-        ],
-        "P131": [
+          },
           {
-            "value": "Q259120"
+            "value": "Q22808404"
           }
         ]
       }
@@ -75948,7 +76324,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8101545-ATSfl-OASLS-Q111172101",
+      "id": "----8101545-ATSfl-OASLS-28977-Q111172101",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -75970,6 +76346,10 @@
           },
           {
             "value": "Schönfeld-Lassee"
+          },
+          {
+            "value": "Schönfeld-Lassee",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -76010,6 +76390,11 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "P722": [
+          {
+            "value": "8102897"
           }
         ],
         "PWIKI": [
@@ -76155,7 +76540,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8101553-ATWbf H1-XAWSG-Q2516434",
+      "id": "----8101553-ATWbf H1-XAWSG-29611-Q2516434",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -76177,6 +76562,10 @@
           },
           {
             "value": "Wien Simmering"
+          },
+          {
+            "value": "Wien Simmering",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -76292,6 +76681,11 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "P722": [
+          {
+            "value": "8102961"
           }
         ],
         "PWIKI": [
@@ -76772,7 +77166,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8101573-ATHk H2-Q111171374",
+      "id": "--8101573-ATHk H2-Q111172321",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -76794,16 +77188,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Sonntagberg NÖ"
+            "value": "Bahnhof Rosenau am Sonntagberg"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8101573"
+          },
+          {
+            "value": "8101449"
           }
         ],
         "P17": [
@@ -76822,7 +77215,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111171374"
+            "value": "Q111172321"
           }
         ],
         "P131": [
@@ -77331,7 +77724,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----8101590-ATWsp-OASRP-60329-trainline-29234-Q1620486",
+      "id": "-----8101590-ATWsp-OASRP-60329-trainline-29234-Q1619775",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -77407,23 +77800,27 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Wien Nord"
+            "value": "Nordwestbahnhof"
           },
           {
             "lang": "de",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "de-at",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "en",
-            "value": "Nordbahnhof, Vienna"
+            "value": "Wien Nordwestbahnhof"
           },
           {
-            "lang": "ja",
-            "value": "ウィーン北駅"
+            "lang": "fr",
+            "value": "gare Vienne Nord-Ouest"
+          },
+          {
+            "lang": "fr",
+            "value": "Wien Nordwestbahnhof"
           }
         ],
         "P954": [
@@ -77492,11 +77889,24 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29234"
               }
             ]
+          },
+          {
+            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q1620486"
+            "value": "Q1619775"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1741"
           }
         ],
         "P31": [
@@ -77505,11 +77915,9 @@
           },
           {
             "value": "Q55488"
-          }
-        ],
-        "P131": [
+          },
           {
-            "value": "Q259120"
+            "value": "Q22808404"
           }
         ]
       }
@@ -79114,7 +79522,7 @@
     },
     {
       "type": "Feature",
-      "id": "--8101643-ATTrn-Q111172399",
+      "id": "--8101643-ATTrn-Q111172084",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -79136,16 +79544,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Traisen"
+            "value": "Bahnhof Marktl/Traisen"
           }
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8101643"
+          },
+          {
+            "value": "8100576"
           }
         ],
         "P17": [
@@ -79164,12 +79571,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q111172399"
+            "value": "Q111172084"
           }
         ],
         "P131": [
           {
-            "value": "Q682965"
+            "value": "Q110701367"
           }
         ],
         "P31": [
@@ -84354,7 +84761,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8101803-ATNst H2-ATWSE-Q111045741",
+      "id": "-----8101803-ATNst H2-XANKD-ATWSE-trainline-23523-Q111045751",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -84375,11 +84782,17 @@
             "lang": "de"
           },
           {
+            "value": "Neumarkt/Wallersee"
+          },
+          {
             "value": "Wallersee"
           },
           {
+            "value": "Neumarkt am Wallersee"
+          },
+          {
             "lang": "de",
-            "value": "Bahnhof Wallersee"
+            "value": "Bahnhof Seekirchen am Wallersee"
           }
         ],
         "P954": [
@@ -84389,6 +84802,26 @@
               "reliability": 0
             },
             "value": "8101803"
+          },
+          {
+            "value": "8100134",
+            "references": {
+              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
+          },
+          {
+            "value": "1250304",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23523"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          },
+          {
+            "value": "8100426"
           }
         ],
         "P17": [
@@ -84405,24 +84838,65 @@
             "value": "Nst"
           }
         ],
+        "P8671": [
+          {
+            "value": "XANKD",
+            "references": {
+              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            }
+          }
+        ],
         "P8448": [
           {
             "value": "ATWSE"
           }
         ],
-        "PWIKI": [
+        "P722": [
           {
-            "value": "Q111045741"
+            "value": "8101107",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23523"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
-        "P131": [
+        "P6724": [
           {
-            "value": "Q280588"
+            "value": "23523",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23523"
+              }
+            ]
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q28148658",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23523"
+              }
+            ]
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q111045751"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q280588"
           }
         ]
       }
@@ -84607,7 +85081,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8101818-ATNw H1H-trainline-34642-Q1620486",
+      "id": "---8101818-ATNw H1H-trainline-34642-Q1619775",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -84652,23 +85126,27 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Wien Nord"
+            "value": "Nordwestbahnhof"
           },
           {
             "lang": "de",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "de-at",
-            "value": "Wien Nordbahnhof"
+            "value": "Wien Nordwestbahnhof"
           },
           {
             "lang": "en",
-            "value": "Nordbahnhof, Vienna"
+            "value": "Wien Nordwestbahnhof"
           },
           {
-            "lang": "ja",
-            "value": "ウィーン北駅"
+            "lang": "fr",
+            "value": "gare Vienne Nord-Ouest"
+          },
+          {
+            "lang": "fr",
+            "value": "Wien Nordwestbahnhof"
           }
         ],
         "P954": [
@@ -84732,11 +85210,24 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34642"
               }
             ]
+          },
+          {
+            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q1620486"
+            "value": "Q1619775"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1741"
           }
         ],
         "P31": [
@@ -84745,11 +85236,9 @@
           },
           {
             "value": "Q55488"
-          }
-        ],
-        "P131": [
+          },
           {
-            "value": "Q259120"
+            "value": "Q22808404"
           }
         ]
       }
@@ -88964,7 +89453,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8102888-ATSty-PAWAN-Q85848019",
+      "id": "----8102888-ATSty-PAWAN-30007-Q85848019",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -88986,6 +89475,10 @@
           },
           {
             "value": "Wien Aspern Nord"
+          },
+          {
+            "value": "Wien Aspern Nord",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -89044,6 +89537,11 @@
             }
           }
         ],
+        "P722": [
+          {
+            "value": "8103000"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q85848019"
@@ -89063,7 +89561,7 @@
     },
     {
       "type": "Feature",
-      "id": "--------8103000-ATWbf-XAWIE-60329-WBF-ATWIH-10033-trainline-22644-Q111267113",
+      "id": "--------8103000-ATWbf-XAWIE-60329-WBF-ATWIH-10033-trainline-22644-Q1619775",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -89150,7 +89648,27 @@
           },
           {
             "lang": "de",
-            "value": "Wien Hbf (Autoreisezuganlage)"
+            "value": "Nordwestbahnhof"
+          },
+          {
+            "lang": "de",
+            "value": "Wien Nordwestbahnhof"
+          },
+          {
+            "lang": "de-at",
+            "value": "Wien Nordwestbahnhof"
+          },
+          {
+            "lang": "en",
+            "value": "Wien Nordwestbahnhof"
+          },
+          {
+            "lang": "fr",
+            "value": "gare Vienne Nord-Ouest"
+          },
+          {
+            "lang": "fr",
+            "value": "Wien Nordwestbahnhof"
           }
         ],
         "P954": [
@@ -89175,9 +89693,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8100004"
           }
         ],
         "P17": [
@@ -89191,9 +89706,10 @@
         ],
         "P296": [
           {
-            "value": "Wbf"
-          },
-          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "WBF",
             "qualifiers": {
               "P518": [
@@ -89278,16 +89794,35 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/22644"
               }
             ]
+          },
+          {
+            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q111267113"
+            "value": "Q1619775"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1741"
           }
         ],
         "P31": [
           {
+            "value": "Q55485"
+          },
+          {
             "value": "Q55488"
+          },
+          {
+            "value": "Q22808404"
           }
         ]
       }
@@ -89612,7 +90147,7 @@
     },
     {
       "type": "Feature",
-      "id": "---8104229-ATEl H3-XASU-Q85848033",
+      "id": "----8104229-ATEl H3-XASU-29975-Q85848033",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -89634,6 +90169,10 @@
           },
           {
             "value": "Wien Stadlau"
+          },
+          {
+            "value": "Wien Stadlau",
+            "lang": "sk"
           },
           {
             "lang": "de",
@@ -89690,6 +90229,11 @@
             "references": {
               "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
             }
+          }
+        ],
+        "P722": [
+          {
+            "value": "8102997"
           }
         ],
         "PWIKI": [

@@ -716,7 +716,7 @@
     },
     {
       "type": "Feature",
-      "id": "---ΑΘΗΝ-trainline-28218-GRATH-Q3560693",
+      "id": "---ΑΘΗΝ-trainline-28218-GRATH-Q20747227",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -799,92 +799,28 @@
             "value": "Athina"
           },
           {
-            "lang": "el",
-            "value": "Σιδηροδρομικός σταθμός Αθήνας"
+            "lang": "en",
+            "value": "Athens Peloponnese railway station"
           },
           {
-            "lang": "arz",
-            "value": "محطة اثينس"
+            "lang": "en",
+            "value": "Athens Peloponnese train station"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Athen"
+            "value": "Athen Peloponnesischer Bahnhof"
+          },
+          {
+            "lang": "de",
+            "value": "Athen Peloponnes-Bahnhof"
           },
           {
             "lang": "el",
-            "value": "Κεντρικός σιδηροδρομικός σταθμός Αθηνών"
-          },
-          {
-            "lang": "el",
-            "value": "Σιδηροδρομικός σταθμός Πειραιώς - Αθηνών - Πελοποννήσου"
-          },
-          {
-            "lang": "el",
-            "value": "Σταθμός Λαρίσης"
+            "value": "σιδηροδρομικός σταθμός Αθηνών Πελοποννήσου"
           },
           {
             "lang": "en",
-            "value": "Athens Railway Station"
-          },
-          {
-            "lang": "en",
-            "value": "Larissa Station"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Atenas"
-          },
-          {
-            "lang": "es",
-            "value": "Estación Central de Atenas"
-          },
-          {
-            "lang": "fa",
-            "value": "ایستگاه راهآهن آتن"
-          },
-          {
-            "lang": "fi",
-            "value": "Ateenan rautatieasema"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Athènes"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Atene"
-          },
-          {
-            "lang": "ja",
-            "value": "アテネ駅"
-          },
-          {
-            "lang": "nl",
-            "value": "station Athene"
-          },
-          {
-            "lang": "pl",
-            "value": "Ateny Centralne"
-          },
-          {
-            "lang": "tr",
-            "value": "Atina Tren İstasyonu"
-          },
-          {
-            "lang": "zh",
-            "value": "雅典火车站"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "雅典火车站"
-          },
-          {
-            "lang": "zh-hant",
-            "value": "雅典火車站"
-          },
-          {
-            "lang": "zh-hk",
-            "value": "雅典火車站"
+            "value": "Peloponnese railway station of Athens"
           }
         ],
         "info": {
@@ -908,20 +844,15 @@
         ],
         "P722": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
             "value": "7300106",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28218"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P8448": [
@@ -972,7 +903,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.7000000000000001
             },
             "value": "7300001",
             "references": [
@@ -984,7 +915,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q3560693"
+            "value": "Q20747227"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P131": [
@@ -994,22 +930,7 @@
         ],
         "P276": [
           {
-            "value": "Q1524"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "15"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P8671": [
-          {
-            "value": "XGA"
+            "value": "Q25247393"
           }
         ]
       }
@@ -7514,7 +7435,7 @@
     },
     {
       "type": "Feature",
-      "id": "--ΕΙΔΟ-trainline-28220-Q105972629",
+      "id": "--ΕΙΔΟ-trainline-28220-Q18335591",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7538,8 +7459,8 @@
             "value": "Idomeni"
           },
           {
-            "lang": "en",
-            "value": "Idomeni railway station"
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ειδομένης"
           }
         ],
         "info": {
@@ -7602,6 +7523,12 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28220"
               }
             ]
+          },
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
           }
         ],
         "P954": [
@@ -7619,7 +7546,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q105972629"
+            "value": "Q18335591"
           }
         ],
         "P31": [
@@ -8586,7 +8513,7 @@
     },
     {
       "type": "Feature",
-      "id": "---ΘΕΣΣ-trainline-28212-GRAAE-Q15116556",
+      "id": "---ΘΕΣΣ-trainline-28212-GRAAE-Q64865392",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8646,76 +8573,8 @@
             "value": "Thessaloniki"
           },
           {
-            "lang": "arz",
-            "value": "محطة نيو"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Thessaloniki"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Thessaloníki"
-          },
-          {
-            "lang": "de",
-            "value": "Neuer Bahnhof Thessaloniki"
-          },
-          {
             "lang": "el",
-            "value": "Νέος Σιδηροδρομικός Σταθμός Θεσσαλονίκης"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Thessaloníki"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Θεσσαλονίκης"
-          },
-          {
-            "lang": "en",
-            "value": "New Railway Station of Thessaloniki"
-          },
-          {
-            "lang": "en",
-            "value": "New Railway Station, Thessaloniki"
-          },
-          {
-            "lang": "es",
-            "value": "estación Salónica"
-          },
-          {
-            "lang": "fi",
-            "value": "Thessalonikin rautatieasema"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Thessalonique"
-          },
-          {
-            "lang": "it",
-            "value": "Nuova stazione di Salonicco"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Salonicco"
-          },
-          {
-            "lang": "ja",
-            "value": "テッサロニキ新駅"
-          },
-          {
-            "lang": "pl",
-            "value": "Nowa Stacja Kolejowa w Salonikach"
-          },
-          {
-            "lang": "ru",
-            "value": "Новый вокзал"
-          },
-          {
-            "lang": "zh",
-            "value": "新塞薩洛尼基車站"
+            "value": "παλαιός σιδηροδρομικός σταθμός  Θεσσαλονίκης"
           }
         ],
         "info": {
@@ -8808,33 +8667,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q15116556"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q17151"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "8"
+            "value": "Q64865392"
           }
         ],
         "P31": [
           {
-            "value": "Q55485"
-          },
-          {
             "value": "Q55488"
-          },
-          {
-            "value": "Q22808404"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q6627746"
           }
         ]
       }
@@ -10001,7 +9839,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΚΑΛΤ-Q3239501",
+      "id": "-ΚΑΛΤ-Q105563811",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -10022,16 +9860,8 @@
             "lang": "en"
           },
           {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Καλαμάτας"
-          },
-          {
             "lang": "en",
-            "value": "Kalamata Railway Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Kalamata"
+            "value": "Kalamata railway station"
           }
         ],
         "info": {
@@ -10057,35 +9887,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q3239501"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q167895"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q1192028"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
+            "value": "Q105563811"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "7301595"
           }
         ]
       }
@@ -13148,7 +12955,7 @@
     },
     {
       "type": "Feature",
-      "id": "--ΛΑΜΙ-trainline-28223-Q17449588",
+      "id": "--ΛΑΜΙ-trainline-28223-Q18335612",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -13181,11 +12988,7 @@
           },
           {
             "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Λαμίας"
-          },
-          {
-            "lang": "en",
-            "value": "Lamia railway station"
+            "value": "σιδηροδρομικός σταθμός Καλυβίων Λαμίας"
           }
         ],
         "info": {
@@ -13271,17 +13074,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q17449588"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q192980"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q16329968"
+            "value": "Q18335612"
           }
         ],
         "P31": [
@@ -25535,7 +25328,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΣΟΥΦ-Q98560020",
+      "id": "-ΣΟΥΦ-Q104861764",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -25554,10 +25347,6 @@
           {
             "value": "Soufli",
             "lang": "en"
-          },
-          {
-            "lang": "el",
-            "value": "Σουφλι"
           },
           {
             "lang": "en",
@@ -25587,7 +25376,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q98560020"
+            "value": "Q104861764"
           }
         ],
         "P31": [

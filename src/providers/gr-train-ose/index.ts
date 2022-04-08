@@ -19,9 +19,7 @@ export const getLocations = async () => {
   }[] = json.data.nodes;
   const nodesInUse = json.data.nodes_in_use;
   return nodes
-    .filter(
-      ({ LAT, LON, STAT }) => nodesInUse.includes(STAT) || LAT || LON
-    )
+    .filter(({ LAT, LON, STAT }) => nodesInUse.includes(STAT) || LAT || LON)
     .map<Location>(({ STAT, LON, LAT, LABEL_EL, LABEL_EN, COUNTRY }) => ({
       type: "Feature",
       id: STAT,
@@ -31,8 +29,12 @@ export const getLocations = async () => {
           : { type: "MultiPoint", coordinates: [] },
       properties: {
         labels: [
-          ...(LABEL_EL && LABEL_EL !== 'null' ? [{ value: LABEL_EL, lang: Language.Greek[1] }] : []),
-          ...(LABEL_EN && LABEL_EN !== 'null'  ? [{ value: LABEL_EN, lang: Language.English[1] }] : []),
+          ...(LABEL_EL && LABEL_EL !== "null"
+            ? [{ value: LABEL_EL, lang: Language.Greek[1] }]
+            : []),
+          ...(LABEL_EN && LABEL_EN !== "null"
+            ? [{ value: LABEL_EN, lang: Language.English[1] }]
+            : []),
         ],
         [Property.StationCode]: [{ value: STAT }],
         [Property.Country]: [
@@ -40,7 +42,8 @@ export const getLocations = async () => {
             value:
               COUNTRY === "SKO"
                 ? Country.NorthMacedonia.wikidata
-                : findCountryByAlpha3(COUNTRY)?.wikidata,
+                : findCountryByAlpha3(COUNTRY)?.wikidata ||
+                  Country.Greece.wikidata,
           },
         ],
         info: {
