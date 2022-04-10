@@ -23,7 +23,9 @@ title: "Czech Republic"
   <tbody>
     {% for feature in site.data.CZ.features %}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          {{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
             {% include stationCodeLink.html %}

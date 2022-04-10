@@ -68,8 +68,10 @@ title: "Sweden"
   <tbody>
     {% for feature in site.data.SE.features %}
       <tr>
-        <td>
-          <a href="https://trafikinfo.sj.se/sv/station/{{ feature.properties.labels[1].value | url_param_escape }}?date={{ site.time | date: '%Y-%m-%d' }}" target="_blank">
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          
+          <a href="https://trafikinfo.sj.se/sv/station/{{ feature.properties.labels[1].value | downcase | replace: 'æ', 'a' | replace: 'ø', 'o' | replace: 'é', 'o' | replace: 'å', 'a' | replace: ' ', '-' | url_param_escape }}?date={{ site.time | date: '%Y-%m-%d' }}" target="_blank">
             {{ feature.properties.labels[0].value }}
           </a>
         </td>
@@ -85,10 +87,7 @@ title: "Sweden"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

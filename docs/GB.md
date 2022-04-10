@@ -24,7 +24,9 @@ title: "United Kingdom"
   <tbody>
     {% for feature in site.data.GB.features %}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          {{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
             {% include stationCodeLink.html %}
@@ -47,10 +49,7 @@ title: "United Kingdom"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

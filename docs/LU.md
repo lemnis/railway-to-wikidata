@@ -18,18 +18,22 @@ title: "Luxembourg"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
     {% for feature in site.data.LU.features %}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}"
+        >
+          <a href="https://www.cfl.lu/en-GB/network/station/{{ feature.properties.labels[1].value | prepend: 'Gare de ' | replace: ' ', '-' | replace: '/', '-' | replace: 'é', 'e' }}" target="_blank">
+            {{ feature.properties.labels[0].value }}
+          </a>
+        </td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+           {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -39,10 +43,7 @@ title: "Luxembourg"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -63,6 +64,14 @@ title: "Luxembourg"
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />

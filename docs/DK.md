@@ -27,7 +27,9 @@ The links in the first column currently only partially work, as a page only exis
     {% for feature in site.data.DK.features %}
       {% assign normalizedLabel = feature.properties.labels[0].value | downcase | replace: 'æ', 'a' | replace: 'ø', 'o' | replace: 'é', 'o' | replace: 'å', 'a' | replace: ' ', '-' -%}
       <tr>
-        <td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          
           <a href="https://www.dsb.dk/kundeservice/stationer/{{ normalizedLabel }}/" target="_blank">
             {{ feature.properties.labels[0].value }}
           </a>
@@ -44,10 +46,7 @@ The links in the first column currently only partially work, as a page only exis
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

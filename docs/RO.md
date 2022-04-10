@@ -24,7 +24,13 @@ layout: page
   <tbody>
     {% for feature in site.data.RO.features %}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          
+          <a href="https://bilete.cfrcalatori.ro/en-GB/Station/{{ feature.properties.labels[0].value  | default: '' | downcase | replace: ' ', '-' | replace: '.', '' | replace: 'ş','s' }}" target="_blank">
+            {{ feature.properties.labels[0].value }}
+          </a>
+        </td>
         <td>
           {% for label in feature.properties.P296 %}
             {% include stationCodeLink.html %}
@@ -37,10 +43,7 @@ layout: page
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

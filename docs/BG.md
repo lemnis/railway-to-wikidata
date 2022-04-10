@@ -24,7 +24,9 @@ title: "Bulgaria"
   <tbody>
     {% for feature in site.data.BG.features %}
       <tr>
-        <td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          
           <a href="https://live.bdz.bg/en/{{ feature.properties.labels[0].value | downcase | replace: ' ', '-' }}/arrivals" target="_blank">
             {{ feature.properties.labels[0].value }}
           </a>
@@ -44,10 +46,7 @@ title: "Bulgaria"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

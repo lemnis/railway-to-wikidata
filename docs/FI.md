@@ -24,7 +24,9 @@ title: "Finland"
   <tbody>
     {% for feature in site.data.FI.features %}
       <tr>
-        <td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          
           {% assign normalizedLabel = feature.properties.labels[0].value | downcase | replace: 'ä', 'a'| replace: ' ', '-' %}
           <a href="https://www.vr.fi/rautatieasemat-ja-reitit/{{ normalizedLabel }}/" target="_blank">
             {{ feature.properties.labels[0].value }}
@@ -42,10 +44,7 @@ title: "Finland"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

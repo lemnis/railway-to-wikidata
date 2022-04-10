@@ -1,9 +1,8 @@
 ---
 layout: "page"
-title: "Latvia"
+title: "Slovenia"
 ---
-{% assign stations = site.data.LV %}
-{% assign tracks = 'LV' %}
+{% assign stations = site.data.SI %}
 {% include map.html %}
 
 <table>
@@ -21,17 +20,14 @@ title: "Latvia"
     </tr>
   </thead>
   <tbody>
-    {% for feature in site.data.LV.features %}
+    {% for feature in site.data.SI.features %}
       <tr>
         <td
           title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
           {{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -41,7 +37,7 @@ title: "Latvia"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-           {% include ibnrLink.html %}
+            {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>

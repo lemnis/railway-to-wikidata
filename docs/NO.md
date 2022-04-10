@@ -2,37 +2,16 @@
 layout: "page"
 title: "Norway"
 ---
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.css" />
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.1.0/dist/MarkerCluster.Default.css" />
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-<script type='text/javascript' src='https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js'></script>
-<div id='map' style="width: 100%; height: 700px"></div>
+{% assign stations = site.data.NO %}
+{% assign tracks = 'NO' %}
+{% include map.html %}
+<br />
 
-<script>
-	const map = L.map('map');
-	L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    subdomains: ['a','b','c']
-  }).addTo( map );
+## Todo
 
-	function onEachFeature(feature, layer) {
-		layer.bindPopup(`
-      ${feature.properties.labels?.[0]?.value} <br />
-      <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br />
-      <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br />
-      <b>Station code</b> ${feature.properties.P296?.[0]?.value}
-    `);
-	}
+- Improve links attached to the name
 
-  const points = {{ site.data.NO | jsonify }}
-  var markers = L.markerClusterGroup();
-  var geoJsonLayer = L.geoJson(points, { onEachFeature });
-  markers.addLayer(geoJsonLayer);
-  map.addLayer(markers);
-  map.fitBounds(markers.getBounds());
-  fetch('https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/NO.geojson').then(data => data.json()).then(data => map.addLayer(L.geoJson(data)));
-</script>
+## Stations
 
 <table>
   <thead>
@@ -52,7 +31,13 @@ title: "Norway"
   <tbody>
     {% for feature in site.data.NO.features %}
       <tr>
-        <td>{{ feature.properties.labels[0].value }}</td>
+        <td
+          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          
+          <a href="https://www.banenor.no/en/reisende/stasjonsoversikt/Search-for-stations/-{{ feature.properties.labels[0].value | slice: 0,1 | url_param_escape }}-/{{ feature.properties.labels[0].value | replace: ' stasjon','' | url_param_escape }}" target="_blank">
+            {{ feature.properties.labels[0].value }}
+          </a>
+        </td>
         <td>
           {% for label in feature.properties.P296 %}
             {% include stationCodeLink.html %}
@@ -65,10 +50,7 @@ title: "Norway"
         </td>
        <td>
           {% for label in feature.properties.P954 %}
-          <a href="https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input={{ label.value }}&boardType=dep&time=actual&productsDefault=1111101&start=yes" target="_blank">
-              {{ label.value }}
-          </a>
-          <br />
+           {% include ibnrLink.html %}
           {% endfor %}
         </td>
         <td>
