@@ -32,7 +32,7 @@ title: "Norway"
     {% for feature in site.data.NO.features %}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
           
           <a href="https://www.banenor.no/en/reisende/stasjonsoversikt/Search-for-stations/-{{ feature.properties.labels[0].value | slice: 0,1 | url_param_escape }}-/{{ feature.properties.labels[0].value | replace: ' stasjon','' | url_param_escape }}" target="_blank">
             {{ feature.properties.labels[0].value }}

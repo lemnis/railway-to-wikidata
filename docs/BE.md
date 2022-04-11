@@ -25,7 +25,7 @@ title: "Belgium"
     {% for feature in site.data.BE.features %}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
           {{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}

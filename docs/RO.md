@@ -25,7 +25,7 @@ layout: page
     {% for feature in site.data.RO.features %}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
           
           <a href="https://bilete.cfrcalatori.ro/en-GB/Station/{{ feature.properties.labels[0].value  | default: '' | downcase | replace: ' ', '-' | replace: '.', '' | replace: 'ş','s' }}" target="_blank">
             {{ feature.properties.labels[0].value }}

@@ -25,7 +25,7 @@ title: "Finland"
     {% for feature in site.data.FI.features %}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
           
           {% assign normalizedLabel = feature.properties.labels[0].value | downcase | replace: 'ä', 'a'| replace: ' ', '-' %}
           <a href="https://www.vr.fi/rautatieasemat-ja-reitit/{{ normalizedLabel }}/" target="_blank">

@@ -40,7 +40,7 @@ title: "Sweden"
     {% for feature in site.data.SE.features %}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
           
           <a href="https://trafikinfo.sj.se/sv/station/{{ feature.properties.labels[1].value | downcase | replace: 'æ', 'a' | replace: 'ø', 'o' | replace: 'é', 'o' | replace: 'å', 'a' | replace: ' ', '-' | url_param_escape }}?date={{ site.time | date: '%Y-%m-%d' }}" target="_blank">
             {{ feature.properties.labels[0].value }}

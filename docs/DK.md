@@ -28,7 +28,7 @@ The links in the first column currently only partially work, as a page only exis
       {% assign normalizedLabel = feature.properties.labels[0].value | downcase | replace: 'æ', 'a' | replace: 'ø', 'o' | replace: 'é', 'o' | replace: 'å', 'a' | replace: ' ', '-' -%}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
           
           <a href="https://www.dsb.dk/kundeservice/stationer/{{ normalizedLabel }}/" target="_blank">
             {{ feature.properties.labels[0].value }}

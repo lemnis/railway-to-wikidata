@@ -25,7 +25,7 @@ title: "Luxembourg"
     {% for feature in site.data.LU.features %}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}"
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}"
         >
           <a href="https://www.cfl.lu/en-GB/network/station/{{ feature.properties.labels[1].value | prepend: 'Gare de ' | replace: ' ', '-' | replace: '/', '-' | replace: 'é', 'e' }}" target="_blank">
             {{ feature.properties.labels[0].value }}

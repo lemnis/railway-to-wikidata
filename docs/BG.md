@@ -25,7 +25,7 @@ title: "Bulgaria"
     {% for feature in site.data.BG.features %}
       <tr>
         <td
-          title="{% for label in feature.properties.labels %}{{ label.value }} ({{ label.lang }})&#013;{% endfor %}">
+          title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
           
           <a href="https://live.bdz.bg/en/{{ feature.properties.labels[0].value | downcase | replace: ' ', '-' }}/arrivals" target="_blank">
             {{ feature.properties.labels[0].value }}
