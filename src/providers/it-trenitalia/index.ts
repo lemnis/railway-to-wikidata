@@ -19,7 +19,7 @@ export const getLocations = async () => {
     ),
   }));
 
-  return merged.map<Location>(({ loc, name, stationList, ct }) => ({
+  return merged.map<Location>(({ loc, name, stationList, ct, lk }) => ({
     type: "Feature",
     id: ct,
     geometry: {
@@ -32,6 +32,7 @@ export const getLocations = async () => {
         ? { [Property.StationCode]: [{ value: stationList?.value }] }
         : {}),
       [Property.Country]: [{ value: Country.Italy.wikidata }],
+      [Property.OfficialWebsite]: [{ value: `https://www.rfi.it/en/stations/${lk}` }],
     },
   }));
 };

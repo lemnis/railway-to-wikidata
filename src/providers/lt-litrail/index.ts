@@ -5,17 +5,18 @@ import { getStations } from "./litrail.data";
 
 export const getLocations = () =>
   getStations().translations.map<Location>(
-    ([name, latitude, longitude, , id]) => ({
+    ([name, latitude, longitude, , id, slug]) => ({
       type: "Feature",
       id,
+      geometry: {
+        type: "Point",
+        coordinates: [longitude, latitude],
+      },
       properties: {
         labels: [{ value: name }],
         [Property.Country]: [{ value: Country.Lithuania.wikidata }],
         [CodeIssuer.ESR]: [{ value: id }],
-      },
-      geometry: {
-        type: "Point",
-        coordinates: [longitude, latitude],
+        [Property.OfficialWebsite]: [{ value: `https://cargo.litrail.lt/${slug}`}]
       },
     })
   );

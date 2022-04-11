@@ -34,6 +34,7 @@ title: "Sweden"
       <th>IATA</th>
       <th>Trainline</th>
       <th>Wikidata</th>
+      <th>Website</th>
     </tr>
   </thead>
   <tbody>
@@ -91,7 +92,15 @@ title: "Sweden"
           </a>
           <br />
           {% endfor %}
-        </td>        
+        </td>    
+        <td>
+          {% for label in feature.properties.P856 %}
+          <a href="{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>    
       </tr>
     {% endfor %}
   </tbody>

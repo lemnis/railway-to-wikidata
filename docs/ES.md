@@ -18,6 +18,8 @@ title: "Spain"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
+      <th>Website</th>
     </tr>
   </thead>
   <tbody>
@@ -25,14 +27,10 @@ title: "Spain"
       <tr>
         <td
           title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
-          {{ feature.properties.labels[0].value }}</td>
+          {{ feature.properties.labels[0].value | downcase | capitalize }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://horarios.renfe.com/HIRRenfeWeb/destinos.do?&O={{ label.value }}&ID=i&DF={{ site.time | date: '%d' }}&MF={{ site.time | date: '%m' }}&AF={{ site.time | date: '%Y' }}"
-          target="_blank">
-          {{ label.value }}
-          </a><br />
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
         <td>
@@ -63,6 +61,22 @@ title: "Spain"
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.P856 %}
+          <a href="{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />

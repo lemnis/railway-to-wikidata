@@ -6,6 +6,19 @@ title: "railway-to-wikidata"
 
 The goal of this project to get a complete overview of all **in-use** & **public** railway stations with its corresponding IDs of different systems.
 
+## UIC station codes
+
+A UIC station code is a unique 7-digit code indicating a station. The first 2 digits indicate the country. 
+
+Multiple resources uses is ID also for there internal systems, but possible in a different format. Common formats are:
+
+- 5-digit number (country code is ommitted, station code)
+- 6-digit number (same value as above, with the 6th number as a checksum following the luhn algorithm)
+- 7-digit number (default, country code + station code)
+- 8-digit number (country code + station code, with the 8th number as a checksum against the 3th to 7th number)
+
+Often the internal IDs of a data source are based off the UIC code, as such it is advised to check if you can find overlap with UIC codes already gathered from other data sources.
+
 ## Todo
 
 - `sk-zsr` - Remove hardcoded country, instead get country through coordinats.
@@ -13,8 +26,9 @@ The goal of this project to get a complete overview of all **in-use** & **public
 - Remove duplicate labels
 - Prevent original locations being matched a new location
 - Fix locations without a country
+- Improve scoring system by creating a flexible maximum score
 
-## Resources that can help finding new data sources
+## Resources that can help find new data sources
 
 - [https://github.com/RensBloom/EUrailcompanies/blob/master/EUrailcompanies.md]()
 - [https://github.com/public-transport/european-transport-operators]()

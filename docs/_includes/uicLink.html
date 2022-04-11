@@ -1,8 +1,32 @@
+{% assign uicCountryCode = label.value | slice: 0, 2 %}
+{% assign uicStationCode = label.value | slice: 2, 7 %}
+
+{% comment %} (Limited) luhn algorithm to calculate uic8 code. {% endcomment %} 
+{% assign uic = label.value | split: ''  %}
+{% assign first = uic[2] | times: 2  %}
+{% if first > 9 %}
+  {% assign firstFirst = first | divided_by:10 | floor %}
+  {% assign first = first | modulo:10 | plus: firstFirst %}
+{% endif %}
+{% assign second = uic[3] %}
+{% assign thirth = uic[4] | times: 2  %}
+{% if thirth > 9 %}
+  {% assign thirthFirst = thirth | divided_by:10 | floor %}
+  {% assign thirth = thirth | modulo:10 | plus: thirthFirst %}
+{% endif %}
+{% assign fourth = uic[5] %}
+{% assign fifth = uic[6] | times: 2 %}
+{% if fifth > 9 %}
+  {% assign fifthFirst = fifth | divided_by:10 | floor %}
+  {% assign fifth = fifth | modulo:10 | plus: fifthFirst %}
+{% endif %}
+{% assign total = first | plus: second | plus: thirth  | plus: fourth  | plus: fifth %}
+{% assign mod = total | modulo: 10 %}
+{% assign uic8 = 10 | minus: mod | modulo: 10 %}
+
 <div style="white-space: nowrap;">
   {{ label.value }}
 
-  {% assign uicCountryCode = label.value | slice: 0, 2 %}
-  {% assign uicStationCode = label.value | slice: 2, 7 %}
 
   {% if uicCountryCode == '54' %}
     <a
@@ -30,6 +54,30 @@
         style="width: 1.2em; width: 1.2em"
       />
     </a>
+    {% elsif uicCountryCode == '56' %}
+    <a
+      href="https://aplikacie.zsr.sk/infotabule/StationDetail.aspx?t=2&id={{ uicStationCode }}{{ uic8 }}"
+      target="_blank"
+    >
+      {{ label.value }}
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/0/04/ZSR-Logo.svg"
+        title="NS (NL)"
+        style="width: 1.2em; width: 1.2em"
+      />
+    </a>
+    {% elsif uicCountryCode == '71' %}
+    <a
+      href="https://horarios.renfe.com/HIRRenfeWeb/destinos.do?&O={{ uicStationCode }}&ID=i&DF={{ site.time | date: '%d' }}&MF={{ site.time | date: '%m' }}&AF={{ site.time | date: '%Y' }}"
+      target="_blank"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Logotipo_de_Renfe_Operadora.svg"
+        title="Renfe (ES)"
+        style="width: 1.2em; width: 1.2em"
+      />
+    </a>
+    <br />
     {% elsif uicCountryCode == '79' %}
     <a
       href="https://potniski.sz.si/en/plan-your-journey/?action=timetables_search&current-language=en&entry-station={{ uicStationCode }}"
@@ -72,29 +120,8 @@
   {% endif %}
 
   {% if label.value != '' %}
-    {% comment %} (Limited) luhn algorithm to calculate uic8 code. {% endcomment %} 
-    {% assign uic = label.value | split: ''  %}
-    {% assign first = uic[2] | times: 2  %}
-    {% if first > 9 %}
-      {% assign firstFirst = first | divided_by:10 | floor %}
-      {% assign first = first | modulo:10 | plus: firstFirst %}
-    {% endif %}
-    {% assign second = uic[3] %}
-    {% assign thirth = uic[4] | times: 2  %}
-    {% if thirth > 9 %}
-      {% assign thirthFirst = thirth | divided_by:10 | floor %}
-      {% assign thirth = thirth | modulo:10 | plus: thirthFirst %}
-    {% endif %}
-    {% assign fourth = uic[5] %}
-    {% assign fifth = uic[6] | times: 2 %}
-    {% if fifth > 9 %}
-      {% assign fifthFirst = fifth | divided_by:10 | floor %}
-      {% assign fifth = fifth | modulo:10 | plus: fifthFirst %}
-    {% endif %}
-    {% assign total = first | plus: second | plus: thirth  | plus: fourth  | plus: fifth %}
-    {% assign mod = total | modulo: 10 %}
     <a
-      href="https://m.ter.sncf.com/occitanie/se-deplacer/gares/{{ label.value }}{{ 10 | minus: mod | modulo: 10 }}"
+      href="https://m.ter.sncf.com/occitanie/se-deplacer/gares/{{ label.value }}{{ uic8 }}"
       target="_blank"
       class="btn btn-outline-dark btn-sm"
       style="word-wrap: nowrap;"
