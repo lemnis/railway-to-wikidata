@@ -49,7 +49,7 @@ export const trainlineArrayToLocation = async (
   };
 
   if (stations?.filter(({ uic }) => uic).length) {
-    location.properties[CodeIssuer.UIC] = stations?.filter(Boolean).map(({ uic }) => ({
+    location.properties[CodeIssuer.UIC] = stations?.filter(({uic }) => uic).map(({ uic }) => ({
       value: uic,
       references,
       info: { reliability: ReliabilityTrainline[CodeIssuer.UIC] },
@@ -62,7 +62,7 @@ export const trainlineArrayToLocation = async (
   if (countries.length) location.properties[Property.Country] = countries;
 
   if (stations?.filter(({ benerail_id }) => benerail_id).length) {
-    location.properties[CodeIssuer.Benerail] = stations?.filter(Boolean).map(
+    location.properties[CodeIssuer.Benerail] = stations?.filter(({ benerail_id }) => benerail_id).map(
       ({ benerail_id }) => ({
         value: benerail_id,
         references,
@@ -71,21 +71,21 @@ export const trainlineArrayToLocation = async (
   }
 
   if (stations?.filter(({ atoc_id }) => atoc_id).length) {
-    location.properties[CodeIssuer.ATOC] = stations?.filter(Boolean).map(({ atoc_id }) => ({
+    location.properties[CodeIssuer.ATOC] = stations?.filter(({atoc_id }) => atoc_id).map(({ atoc_id }) => ({
       value: atoc_id,
       references,
     }));
   }
 
   if (stations?.filter(({ sncf_id }) => sncf_id).length) {
-    location.properties[CodeIssuer.SNCF] = stations?.filter(Boolean).map(({ sncf_id }) => ({
+    location.properties[CodeIssuer.SNCF] = stations?.filter(({sncf_id }) => sncf_id).map(({ sncf_id }) => ({
       value: sncf_id,
       references,
     }));
   }
 
   if (stations?.filter(({ id }) => id).length) {
-    location.properties[CodeIssuer.Trainline] = stations?.filter(Boolean).map(({ id }) => ({
+    location.properties[CodeIssuer.Trainline] = stations?.filter(({id }) => id).map(({ id }) => ({
       value: id,
       references,
     }));
@@ -103,7 +103,7 @@ export const trainlineArrayToLocation = async (
     location.properties[Property.LocatedInTimeZone] = timeZones;
 
   if (stations?.filter(({ iata_airport_code }) => iata_airport_code).length) {
-    location.properties[CodeIssuer.IATA] = stations?.filter(Boolean).map(
+    location.properties[CodeIssuer.IATA] = stations?.filter(({ iata_airport_code }) => iata_airport_code).map(
       ({ iata_airport_code }) => ({
         value: iata_airport_code,
         references,
