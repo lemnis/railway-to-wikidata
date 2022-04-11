@@ -5,6 +5,7 @@ import { closeTo, getFullMatchScore } from "../../utils/test";
 import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import fs from "fs";
+import { SCORE, SMALL_DATA_SET } from "./euafr.constants";
 
 const path = __dirname + "/../../../geojson/";
 
@@ -19,25 +20,25 @@ export const singleProperty = test.macro({
   async exec(
     t,
     countryId: CountryInfo,
-    expected: number,
     {
       code = CodeIssuer.UIC,
       data = trainline,
-      large = true,
     }: {
       code?: Property | CodeIssuer;
       data?: Location[];
-      large?: boolean;
       size?: number;
     } = {}
   ) {
+    const expected = SCORE[countryId.wikidata][code]!;
+    const large = !SMALL_DATA_SET.includes(countryId)
+
     const locations = euafrLocations
       .filter((feature) =>
         feature.properties?.[Property.Country]?.every(
           ({ value }) => value === countryId.wikidata
         )
       )
-      .slice(0, 10);
+      .slice(0, 500);
 
     const {
       [Property.Country]: country,

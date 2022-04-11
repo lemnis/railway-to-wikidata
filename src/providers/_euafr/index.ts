@@ -9,6 +9,7 @@ import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { promises as fs } from "fs";
 import { Language, LanguageInfo } from "../../transform/language";
+import { getReliabilityScore } from "./euafr.constants";
 
 const API_BASE_URL = "https://rinf.era.europa.eu/api";
 
@@ -196,11 +197,14 @@ export const getLocations = async () => {
           ],
           ...(type?.property
             ? {
-                [type?.property!]: [
+                [type.property]: [
                   {
                     value: isNumericCode
                       ? country?.UIC?.[0] + stationCode
                       : stationCode,
+                    info: {
+                      reliability: country && getReliabilityScore(country)[type.property]
+                    },
                   },
                 ],
               }

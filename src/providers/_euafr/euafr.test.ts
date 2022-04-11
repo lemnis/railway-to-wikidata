@@ -16,55 +16,50 @@ const wiki: Location[] = JSON.parse(
   )
 ).features;
 
-test(singleProperty, Country.Austria, 1, {
+test(singleProperty, Country.Austria, {
   data: wiki,
   code: Property.StationCode,
 });
-test(singleProperty, Country.Belgium, 1, {
+test(singleProperty, Country.Belgium, {
   data: wiki,
   code: Property.StationCode,
 });
-test(singleProperty, Country.Bulgaria, 0.7, { large: false });
-test(singleProperty, Country.Croatia, 0.9, { large: false});
 
-test.todo("Cyprus should not have any locations");
-
-test(singleProperty, Country.Czech, .85);
+test(singleProperty, Country.Bulgaria);
+test(singleProperty, Country.Croatia);
+test(singleProperty, Country.Czech);
 test(noCodeIssuers, Country.Denmark);
 test(noCodeIssuers, Country.Estonia);
-test(singleProperty, Country.Finland, 1, { data: wiki });
+test(singleProperty, Country.Finland, { data: wiki });
 test(noCodeIssuers, Country.France);
-test(singleProperty, Country.Germany, 1, {
-  data: wiki,
-  code: CodeIssuer.DB,
-});
+test(singleProperty, Country.Germany, { data: wiki, code: CodeIssuer.DB });
 test(noCodeIssuers, Country.Greece);
 test(noCodeIssuers, Country.Hungary);
 test(noLocations, Country.Ireland);
-test(singleProperty, Country.Italy, 1);
+test(singleProperty, Country.Italy);
 test(noCodeIssuers, Country.Latvia);
 test(noCodeIssuers, Country.Lithuania);
 test(noCodeIssuers, Country.Luxembourg);
 
+test.todo("Cyprus should not have any locations");
 test.todo("Malta should not have any locations");
 test.todo("Northern Ireland should not have any locations");
 
-test(singleProperty, Country.Norway, 1);
-test(singleProperty, Country.Poland, 0.9);
-test(singleProperty, Country.Portugal, 0.8);
-test(singleProperty, Country.Romania, 1, { large: false, data: wiki });
-test(singleProperty, Country.Slovakia, 0.7, { large: false });
-test(singleProperty, Country.Slovenia, 0.6);
-test(singleProperty, Country.Spain, 1);
-test(singleProperty, Country.Sweden, 1, {
+test(singleProperty, Country.Norway);
+test(singleProperty, Country.Poland);
+test(singleProperty, Country.Portugal);
+test(singleProperty, Country.Romania, { data: wiki });
+test(singleProperty, Country.Slovenia);
+test(singleProperty, Country.Spain);
+test(singleProperty, Country.Sweden, {
   data: wiki,
   code: Property.StationCode,
 });
-test(singleProperty, Country.Switzerland, 0.8);
-test(singleProperty, Country.Netherlands, 1, {
+test(singleProperty, Country.Switzerland);
+test(singleProperty, Country.Netherlands, {
   data: wiki,
   code: Property.StationCode,
 });
-test(singleProperty, Country.UnitedKingdom, 1, { code: CodeIssuer.ATOC });
+test(singleProperty, Country.UnitedKingdom, { code: CodeIssuer.ATOC });
 
-test(labelLanguage, euafrLocations, wiki)
+test.skip(labelLanguage, euafrLocations, wiki);
