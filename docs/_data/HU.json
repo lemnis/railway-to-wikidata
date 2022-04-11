@@ -3853,7 +3853,7 @@
     },
     {
       "type": "Feature",
-      "id": "---268-HUce//0-XMBF-Q102107914",
+      "id": "---268-HUce//0-XMBF-Q1000474",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3872,12 +3872,28 @@
             "value": "Budapest-Ferencváros"
           },
           {
-            "lang": "hu",
-            "value": "Ferencváros \"C\" elágazás"
+            "lang": "de",
+            "value": "Ferencváros"
           },
           {
-            "lang": "ru",
-            "value": "Ференцварошский вокзал \"C\""
+            "lang": "cs",
+            "value": "Ferencváros"
+          },
+          {
+            "lang": "en",
+            "value": "Ferencváros railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Budapest-Ferencváros"
+          },
+          {
+            "lang": "hu",
+            "value": "Ferencváros pályaudvar"
+          },
+          {
+            "lang": "pl",
+            "value": "Budapest Ferencváros"
           }
         ],
         "P17": [
@@ -3907,17 +3923,37 @@
         ],
         "PWIKI": [
           {
-            "value": "Q102107914"
+            "value": "Q1000474"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "112"
           }
         ],
         "P131": [
           {
-            "value": "Q301411"
+            "value": "Q1781"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FC"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5510025"
           }
         ]
       }
@@ -6383,7 +6419,7 @@
     },
     {
       "type": "Feature",
-      "id": "----299-HU46//10-XMNV-5500913-Q21866921",
+      "id": "----299-HU46//10-XMNV-5500913-Q21866920",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6407,11 +6443,11 @@
           },
           {
             "lang": "en",
-            "value": "Nagymaros railway station"
+            "value": "Nagymaros-Visegrád railway station"
           },
           {
             "lang": "hu",
-            "value": "Nagymaros vasútállomás"
+            "value": "Nagymaros-Visegrád megállóhely"
           }
         ],
         "P17": [
@@ -6447,7 +6483,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q21866921"
+            "value": "Q21866920"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5510470"
           }
         ],
         "P131": [
@@ -6460,19 +6501,9 @@
             "value": "Q25989"
           }
         ],
-        "P296": [
-          {
-            "value": "M"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5510488"
           }
         ]
       }
@@ -14654,7 +14685,7 @@
     },
     {
       "type": "Feature",
-      "id": "--824-HUee//1-Q3096084",
+      "id": "--824-HUee//1-Q3096085",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -14674,15 +14705,19 @@
           },
           {
             "lang": "en",
-            "value": "Háros railway station"
+            "value": "Budafok railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Budafok-Háros"
+            "value": "Gare de Budafok-Belváros"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Budafok"
           },
           {
             "lang": "hu",
-            "value": "Háros vasútállomás"
+            "value": "Budafok megállóhely"
           }
         ],
         "P17": [
@@ -14696,7 +14731,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q3096084"
+            "value": "Q3096085"
           }
         ],
         "P131": [
@@ -14714,14 +14749,14 @@
             "value": "Q55488"
           }
         ],
-        "P296": [
-          {
-            "value": "HA"
-          }
-        ],
         "P722": [
           {
-            "value": "5505785"
+            "value": "5503129"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BFBV"
           }
         ]
       }
@@ -16620,7 +16655,7 @@
     },
     {
       "type": "Feature",
-      "id": "--854-HU5e//9-Q22073979",
+      "id": "--854-HU5e//9-Q22073980",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -16640,7 +16675,7 @@
           },
           {
             "lang": "hu",
-            "value": "Szendrő vasútállomás"
+            "value": "Szendrő felső megállóhely"
           }
         ],
         "P17": [
@@ -16654,17 +16689,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q22073979"
+            "value": "Q22073980"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
           {
-            "value": "5512963"
-          }
-        ],
-        "P296": [
-          {
-            "value": "SZE"
+            "value": "5512971"
           }
         ],
         "P131": [
@@ -16679,12 +16714,7 @@
         ],
         "P1103": [
           {
-            "value": "2"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
+            "value": "1"
           }
         ]
       }
@@ -26116,7 +26146,7 @@
     },
     {
       "type": "Feature",
-      "id": "--1002-HUc/2/1-Q21877375",
+      "id": "--1002-HUc/2/1-Q12816463",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -26135,16 +26165,36 @@
             "value": "Bánhida mh."
           },
           {
+            "lang": "cs",
+            "value": "Tatabánya"
+          },
+          {
+            "lang": "pl",
+            "value": "Tatabánya"
+          },
+          {
             "lang": "en",
-            "value": "Bánhida railway station"
+            "value": "Tatabánya railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Bánhida"
+            "value": "gare de Tatabánya"
           },
           {
             "lang": "hu",
-            "value": "Bánhida megállóhely"
+            "value": "Bánhida vasútállomás (korábban)"
+          },
+          {
+            "lang": "hu",
+            "value": "Tatabánya vasútállomás"
+          },
+          {
+            "lang": "zh",
+            "value": "陶陶巴尼奥车站"
+          },
+          {
+            "lang": "en",
+            "value": "Bánhida railway station"
           }
         ],
         "P17": [
@@ -26158,7 +26208,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q21877375"
+            "value": "Q12816463"
           }
         ],
         "P131": [
@@ -26171,6 +26221,16 @@
             "value": "Q25989"
           }
         ],
+        "P2044": [
+          {
+            "value": "146"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BN"
+          }
+        ],
         "P31": [
           {
             "value": "Q55488"
@@ -26178,7 +26238,7 @@
         ],
         "P722": [
           {
-            "value": "5541129"
+            "value": "5501131"
           }
         ]
       }
@@ -30679,7 +30739,7 @@
     },
     {
       "type": "Feature",
-      "id": "---1622-HU51//12-trainline-28287-Q22071260",
+      "id": "--1622-HU51//12-trainline-28287",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -30709,14 +30769,6 @@
           {
             "value": "紹爾戈陶爾揚",
             "lang": "zh"
-          },
-          {
-            "lang": "en",
-            "value": "Salgótarján külső railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Salgótarján külső vasútállomás"
           }
         ],
         "P17": [
@@ -30739,9 +30791,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "5511874"
           }
         ],
         "P8448": [
@@ -30772,9 +30821,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28287"
               }
             ]
-          },
-          {
-            "value": "Q25989"
           }
         ],
         "P954": [
@@ -30788,36 +30834,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q22071260"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q189769"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P296": [
-          {
-            "value": "SA"
-          }
-        ],
-        "P5595": [
-          {
-            "value": "2"
           }
         ]
       }
@@ -31647,7 +31663,7 @@
     },
     {
       "type": "Feature",
-      "id": "---1638-HUb//12-trainline-28263-Q21872088",
+      "id": "--1638-HUb//12-trainline-28263",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -31681,22 +31697,6 @@
           {
             "value": "維斯普雷姆",
             "lang": "zh"
-          },
-          {
-            "lang": "en",
-            "value": "Veszprém railway station (Jutas)"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Veszprém"
-          },
-          {
-            "lang": "hu",
-            "value": "Veszprém vasútállomás"
-          },
-          {
-            "lang": "pl",
-            "value": "Veszprém (stacja kolejowa)"
           }
         ],
         "P17": [
@@ -31710,28 +31710,19 @@
         ],
         "P722": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
             "value": "5503947",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28263"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P8448": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "HUABT",
             "references": [
               {
@@ -31758,9 +31749,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28263"
               }
             ]
-          },
-          {
-            "value": "Q25989"
           }
         ],
         "P954": [
@@ -31774,36 +31762,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q21872088"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q146317"
-          }
-        ],
-        "P2848": [
-          {
-            "value": "Q1543615"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "209"
-          }
-        ],
-        "P296": [
-          {
-            "value": "J"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -40998,7 +40956,7 @@
     },
     {
       "type": "Feature",
-      "id": "--1812-HU57/2/c-Q22040991",
+      "id": "--1812-HU57/2/c-Q22040988",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -41017,24 +40975,16 @@
             "value": "Szilvásvárad-Szalajkavölgy"
           },
           {
-            "lang": "cs",
-            "value": "Szilvásvárad"
-          },
-          {
             "lang": "en",
-            "value": "Szilvásvárad railway station"
+            "value": "Szilvásvárad-Szalajkavölgy railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Szilvásvárad"
+            "value": "gare de Szilvásvárad-Szalajkavölgy"
           },
           {
             "lang": "hu",
-            "value": "Szilvásvárad vasútállomás"
-          },
-          {
-            "lang": "ko",
-            "value": "실바슈바러드역"
+            "value": "Szilvásvárad-Szalajkavölgy megállóhely"
           }
         ],
         "P17": [
@@ -41048,12 +40998,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q22040991"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5512492"
+            "value": "Q22040988"
           }
         ],
         "P131": [
@@ -41068,7 +41013,7 @@
         ],
         "P1103": [
           {
-            "value": "3"
+            "value": "1"
           }
         ],
         "P31": [
@@ -41076,9 +41021,9 @@
             "value": "Q55488"
           }
         ],
-        "P296": [
+        "P722": [
           {
-            "value": "RD"
+            "value": "5542507"
           }
         ]
       }
@@ -46135,7 +46080,7 @@
     },
     {
       "type": "Feature",
-      "id": "---2507-HU17//0-trainline-28262-Q21872151",
+      "id": "--2507-HU17//0-trainline-28262",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -46165,18 +46110,6 @@
           {
             "value": "佐洛埃格塞格",
             "lang": "zh"
-          },
-          {
-            "lang": "en",
-            "value": "Zalaegerszeg railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Zalaegerszeg vasútállomás"
-          },
-          {
-            "lang": "pl",
-            "value": "Zalaegerszeg (stacja kolejowa)"
           }
         ],
         "P17": [
@@ -46190,28 +46123,19 @@
         ],
         "P722": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
             "value": "5504895",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P8448": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "HUABQ",
             "references": [
               {
@@ -46238,9 +46162,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
               }
             ]
-          },
-          {
-            "value": "Q25989"
           }
         ],
         "P954": [
@@ -46265,31 +46186,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q21872151"
-          }
-        ],
-        "P2848": [
-          {
-            "value": "Q1543615"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ZE"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q60037"
           }
         ]
       }
@@ -55671,7 +55567,7 @@
     },
     {
       "type": "Feature",
-      "id": "--3611-trainline-28254-Q21877046",
+      "id": "--3611-trainline-28254-Q21877047",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -55691,11 +55587,11 @@
           },
           {
             "lang": "en",
-            "value": "Bélatelep railway station"
+            "value": "Alsóbélatelep railway station"
           },
           {
             "lang": "hu",
-            "value": "Bélatelep megállóhely"
+            "value": "Alsóbélatelep megállóhely"
           }
         ],
         "P17": [
@@ -55709,22 +55605,28 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "5503517",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28254"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "5503509"
+            ]
           }
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "HUABF",
             "references": [
               {
@@ -55771,7 +55673,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q21877046"
+            "value": "Q21877047"
           }
         ],
         "P131": [

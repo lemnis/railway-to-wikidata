@@ -340,7 +340,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----110606008-LUTv   -XLTV-LUTRV-trainline-8590-Q3097920",
+      "id": "----110606008-LUTv   -XLTV-LUTRV-trainline-8590",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -365,38 +365,6 @@
           {
             "value": "Труавьерж",
             "lang": "ru"
-          },
-          {
-            "lang": "ca",
-            "value": "Estació de trens de Troisvierges"
-          },
-          {
-            "lang": "en",
-            "value": "Troisvierges railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Troisvierges"
-          },
-          {
-            "lang": "hu",
-            "value": "Troisvierges vasútállomás"
-          },
-          {
-            "lang": "lb",
-            "value": "Gare Ëlwen"
-          },
-          {
-            "lang": "nl",
-            "value": "station Troisvierges"
-          },
-          {
-            "lang": "sr",
-            "value": "Железничка станица у Троавјержу"
-          },
-          {
-            "lang": "pl",
-            "value": "Troisvierges"
           }
         ],
         "P17": [
@@ -492,29 +460,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/8590"
               }
             ]
-          },
-          {
-            "value": "Q25989"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q3097920"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "434"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q24454"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -947,7 +892,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----120903020-LUWz   -XLWW-LUWIW-trainline-23135-Q2298354",
+      "id": "-----120903020-LUWz   -XLWW-LUWIW-trainline-23135-Q2317700",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -970,31 +915,27 @@
           },
           {
             "lang": "ca",
-            "value": "Estació de trens de Wilwerwiltz"
+            "value": "Estació de trens de Wiltz"
           },
           {
             "lang": "en",
-            "value": "Wilwerwiltz railway station"
+            "value": "Wiltz railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Wilwerwiltz"
+            "value": "gare de Wiltz"
           },
           {
             "lang": "hu",
-            "value": "Wilwerwiltz vasútállomás"
+            "value": "Wiltz vasútállomás"
           },
           {
             "lang": "lb",
-            "value": "Gare Wëlwerwolz"
+            "value": "Gare Wolz"
           },
           {
             "lang": "nl",
-            "value": "station Wilwerwiltz"
-          },
-          {
-            "lang": "pl",
-            "value": "Wilwerwiltz"
+            "value": "station Wiltz"
           }
         ],
         "P17": [
@@ -1051,20 +992,18 @@
         ],
         "P722": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
             "value": "8200132",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23135"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          },
+          {
+            "value": "8200142"
           }
         ],
         "P6724": [
@@ -1092,22 +1031,25 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2298354"
+            "value": "Q2317700"
           }
         ],
         "P131": [
           {
-            "value": "Q1143742"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "304"
+            "value": "Q741589"
           }
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55488"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "326"
           }
         ]
       }
@@ -6324,7 +6266,7 @@
     },
     {
       "type": "Feature",
-      "id": "---200417051-LUPf-K -LUPFA-Q25583594",
+      "id": "--200417051-LUPf-K -Q25583594",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6370,16 +6312,6 @@
               "reliability": 0
             },
             "value": "Q32"
-          }
-        ],
-        "P8448": [
-          {
-            "value": "LUPFA"
-          }
-        ],
-        "P954": [
-          {
-            "value": "8200102"
           }
         ],
         "PWIKI": [
@@ -9859,7 +9791,7 @@
     },
     {
       "type": "Feature",
-      "id": "----221201014-LURu   -LURML-trainline-23272-Q1905375",
+      "id": "----221201014-LURu   -LURML-trainline-23272-Q2063434",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -9878,16 +9810,28 @@
             "value": "Rumelange"
           },
           {
+            "lang": "ca",
+            "value": "Estació de trens de Rumelange"
+          },
+          {
             "lang": "en",
-            "value": "Rumelange - Ottange train station"
+            "value": "Rumelange railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Rumelange - Ottange"
+            "value": "gare de Rumelange"
+          },
+          {
+            "lang": "hu",
+            "value": "Rumelange vasútállomás"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Rëmeleng"
           },
           {
             "lang": "nl",
-            "value": "Station Rumelange-Ottange"
+            "value": "station Rumelange"
           }
         ],
         "P17": [
@@ -9933,18 +9877,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8200626",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23272"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "8200628"
+            ]
           }
         ],
         "P6724": [
@@ -9965,16 +9911,24 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23272"
               }
             ]
+          },
+          {
+            "value": "Q25989"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q1905375"
+            "value": "Q2063434"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q914847"
           }
         ]
       }

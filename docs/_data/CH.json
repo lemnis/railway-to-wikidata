@@ -6589,7 +6589,7 @@
     },
     {
       "type": "Feature",
-      "id": "----http://lod.opentransportdata.swiss/didok/8508100-CH08100-XSLT-CHZHW-Q33509422",
+      "id": "----http://lod.opentransportdata.swiss/didok/8508100-CH08100-XSLT-CHZHW-Q5846546",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6608,16 +6608,36 @@
             "value": "Langenthal(CH)"
           },
           {
+            "lang": "arz",
+            "value": "محطة لانجينثال"
+          },
+          {
             "lang": "de",
-            "value": "Bahnhof Langenthal [Gleis 4-5]"
+            "value": "Bahnhof Langenthal"
           },
           {
             "lang": "en",
-            "value": "Langenthal [Gleis 4-5] station"
+            "value": "Langenthal railway station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Langenthal [Gleis 4-5]"
+            "lang": "es",
+            "value": "Estacion de Langenthal"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Langenthal"
+          },
+          {
+            "lang": "hu",
+            "value": "Langenthal vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Langenthal"
+          },
+          {
+            "lang": "ko",
+            "value": "랑엔탈역"
           }
         ],
         "P17": [
@@ -6636,9 +6656,6 @@
               "reliability": 0
             },
             "value": "8508100"
-          },
-          {
-            "value": "8508160"
           }
         ],
         "P2044": [
@@ -6662,9 +6679,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8508160"
           }
         ],
         "P8671": [
@@ -6682,12 +6696,15 @@
         ],
         "PWIKI": [
           {
-            "value": "Q33509422"
+            "value": "Q5846546"
           }
         ],
-        "P421": [
+        "P1103": [
           {
-            "value": "Q6655"
+            "value": "4"
+          },
+          {
+            "value": "7"
           }
         ],
         "P31": [
@@ -6695,9 +6712,27 @@
             "value": "Q55488"
           }
         ],
+        "P296": [
+          {
+            "value": "LTH"
+          },
+          {
+            "value": "LTG"
+          }
+        ],
         "P131": [
           {
             "value": "Q69726"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "2"
+          }
+        ],
+        "P8181": [
+          {
+            "value": "CHZHW"
           }
         ]
       }
@@ -7760,7 +7795,7 @@
     },
     {
       "type": "Feature",
-      "id": "----http://lod.opentransportdata.swiss/didok/8508005-CH08005-CHBDF-trainline-6294-Q33509180",
+      "id": "----http://lod.opentransportdata.swiss/didok/8508005-CH08005-CHBDF-trainline-6294-Q5845864",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7792,15 +7827,35 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Burgdorf Steinhof"
+            "value": "Bahnhof Burgdorf"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة بورجدورف"
           },
           {
             "lang": "en",
-            "value": "Burgdorf Steinhof railway station"
+            "value": "Burgdorf railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Burgdorf"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Burgdorf"
           },
           {
             "lang": "fr",
-            "value": "gare de Burgdorf Steinhof"
+            "value": "gare de Berthoud"
+          },
+          {
+            "lang": "hu",
+            "value": "Burgdorf vasútállomás"
+          },
+          {
+            "lang": "ko",
+            "value": "부르크도르프역"
           }
         ],
         "P17": [
@@ -7820,7 +7875,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8508005",
             "references": [
@@ -7828,17 +7883,15 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6294"
               }
             ]
-          },
-          {
-            "value": "8508081"
           }
         ],
         "P2044": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "533"
-          },
-          {
-            "value": "544"
           }
         ],
         "P8448": [
@@ -7863,7 +7916,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8508005",
             "references": [
@@ -7871,13 +7924,14 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6294"
               }
             ]
-          },
-          {
-            "value": "8508081"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHBDF",
             "references": [
               {
@@ -7911,7 +7965,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q33509180"
+            "value": "Q5845864"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "6"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "3"
           }
         ],
         "P31": [
@@ -16593,7 +16657,7 @@
     },
     {
       "type": "Feature",
-      "id": "-------http://lod.opentransportdata.swiss/didok/8503088-XSZH-8503000-CHAJD-ZUE-8503000-trainline-6245-Q33514137",
+      "id": "-------http://lod.opentransportdata.swiss/didok/8503088-XSZH-8503000-CHAJD-ZUE-8503000-trainline-6245-Q33456193",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -16670,20 +16734,36 @@
             "lang": "zh"
           },
           {
-            "lang": "en",
-            "value": "Zurich, Romerhof station"
+            "lang": "ca",
+            "value": "Estació de Zürich HB SZU"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Zürich, Römerhof"
+            "value": "Bahnhof Zürich HB SZU"
           },
           {
             "lang": "en",
-            "value": "Zürich, Römerhof station"
+            "value": "Zürich HB SZU station"
+          },
+          {
+            "lang": "ko",
+            "value": "취리히 HB SZU역"
+          },
+          {
+            "lang": "en",
+            "value": "Zurich HB SZU station"
+          },
+          {
+            "lang": "es",
+            "value": "estación central de Zúrich SZU"
+          },
+          {
+            "lang": "es",
+            "value": "estación Zúrich HB SZU"
           },
           {
             "lang": "fr",
-            "value": "gare de Zürich, Römerhof"
+            "value": "gare de Zürich HB SZU"
           }
         ],
         "P17": [
@@ -16697,6 +16777,10 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "8503088"
           },
           {
@@ -16717,17 +16801,15 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6245"
               }
             ]
-          },
-          {
-            "value": "8503083"
           }
         ],
         "P2044": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "396"
-          },
-          {
-            "value": "443"
           }
         ],
         "P954": [
@@ -16754,7 +16836,7 @@
             ]
           },
           {
-            "value": "8503083"
+            "value": "8503088"
           }
         ],
         "P8671": [
@@ -16819,14 +16901,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6245"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q33514137"
+            "value": "Q33456193"
           }
         ],
         "P131": [
@@ -16836,13 +16915,13 @@
         ],
         "P31": [
           {
+            "value": "Q55485"
+          },
+          {
+            "value": "Q55491"
+          },
+          {
             "value": "Q55488"
-          },
-          {
-            "value": "Q953806"
-          },
-          {
-            "value": "Q2175765"
           }
         ]
       }
@@ -21767,7 +21846,7 @@
     },
     {
       "type": "Feature",
-      "id": "----http://lod.opentransportdata.swiss/didok/8501380-XSMO-CHZJP-trainline-6392-Q33513742",
+      "id": "----http://lod.opentransportdata.swiss/didok/8501380-XSMO-CHZJP-trainline-6392-Q680986",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -21806,24 +21885,56 @@
             "lang": "zh"
           },
           {
-            "lang": "en",
-            "value": "Montreux-Les Planches station"
+            "lang": "pl",
+            "value": "Montreux"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة مونتريوكس"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Montreux-Les Planches"
+            "value": "Bahnhof Montreux"
           },
           {
             "lang": "en",
-            "value": "Montreux-Les Planches railway station"
+            "value": "Montreux railway station"
           },
           {
             "lang": "es",
-            "value": "Estación de Montreux-Les Planches"
+            "value": "Estacion de Montreux"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Montreux"
           },
           {
             "lang": "fr",
-            "value": "gare de Montreux-Les Planches"
+            "value": "gare de Montreux"
+          },
+          {
+            "lang": "hu",
+            "value": "Montreux vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Montreux"
+          },
+          {
+            "lang": "zh",
+            "value": "蒙特勒火车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "蒙特勒火车站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "蒙特勒火車站"
+          },
+          {
+            "lang": "zh-hk",
+            "value": "蒙特勒火車站"
           }
         ],
         "P17": [
@@ -21840,30 +21951,6 @@
             "value": "8501380"
           },
           {
-            "value": "8501300",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6392"
-              }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "8501360"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "424.5"
-          },
-          {
-            "value": "450"
-          }
-        ],
-        "P954": [
-          {
             "info": {
               "pregrouped": [
                 {
@@ -21876,14 +21963,37 @@
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6392"
+              }
+            ]
+          }
+        ],
+        "P2044": [
+          {
+            "value": "424.5"
+          },
+          {
+            "value": "395"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0
+            },
+            "value": "8501300",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6392"
               },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8501360"
           }
         ],
         "P8671": [
@@ -21910,6 +22020,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHZJP",
             "references": [
               {
@@ -21943,7 +22057,23 @@
         ],
         "PWIKI": [
           {
-            "value": "Q33513742"
+            "value": "Q680986"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "4"
+          },
+          {
+            "value": "7"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q12771"
+          },
+          {
+            "value": "Q69354"
           }
         ],
         "P31": [
@@ -21951,9 +22081,19 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
+        "P296": [
           {
-            "value": "Q69354"
+            "value": "MX"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "7"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Avenue des Alpes 74"
           }
         ]
       }
@@ -23561,7 +23701,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8501483-CHLEY-trainline-18558-Q33447714",
+      "id": "---http://lod.opentransportdata.swiss/didok/8501483-CHLEY-trainline-18558-Q33447690",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -23580,20 +23720,16 @@
             "value": "Leysin-Feydey"
           },
           {
-            "lang": "en",
-            "value": "Leysin-Grand-Hotel station"
-          },
-          {
             "lang": "de",
-            "value": "Bahnhof Leysin-Grand-Hôtel"
+            "value": "Bahnhof Leysin-Feydey"
           },
           {
             "lang": "en",
-            "value": "Leysin-Grand-Hôtel station"
+            "value": "Leysin-Feydey station"
           },
           {
             "lang": "fr",
-            "value": "gare de Leysin-Grand-Hôtel"
+            "value": "gare de Leysin-Feydey"
           }
         ],
         "P17": [
@@ -23607,22 +23743,23 @@
         ],
         "P722": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "8501483"
           },
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8501482",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18558"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P2044": [
@@ -23630,7 +23767,7 @@
             "value": "1448"
           },
           {
-            "value": "1450"
+            "value": "1398"
           }
         ],
         "P8448": [
@@ -23655,7 +23792,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8501482",
             "references": [
@@ -23663,13 +23800,14 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18558"
               }
             ]
-          },
-          {
-            "value": "8501483"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHACV",
             "references": [
               {
@@ -23703,7 +23841,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q33447714"
+            "value": "Q33447690"
           }
         ],
         "P31": [
@@ -25172,7 +25310,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8501120-CH01120-XSLA-CHAJF-trainline-4091-6247-Q3096217",
+      "id": "----http://lod.opentransportdata.swiss/didok/8501120-CH01120-XSLA-CHAJF-trainline-4091-6247",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -25218,26 +25356,6 @@
           {
             "value": "洛桑",
             "lang": "zh"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Cheseaux-sur-Lausanne"
-          },
-          {
-            "lang": "en",
-            "value": "Cheseaux railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare de Cheseaux"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Cheseaux-sur-Lausanne"
-          },
-          {
-            "lang": "hu",
-            "value": "Cheseaux-sur-Lausanne vasútállomás"
           }
         ],
         "P17": [
@@ -25276,17 +25394,11 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8501169"
           }
         ],
         "P2044": [
           {
             "value": "447.09"
-          },
-          {
-            "value": "607"
           }
         ],
         "P954": [
@@ -25308,9 +25420,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8501169"
           }
         ],
         "P8671": [
@@ -25386,24 +25495,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/4091"
               }
             ]
-          },
-          {
-            "value": "Q6655"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q3096217"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q52773"
           }
         ]
       }
@@ -28889,7 +28980,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8501026-CH01026-XSGEA-CHGAE-trainline-6320-Q3098155",
+      "id": "----http://lod.opentransportdata.swiss/didok/8501026-CH01026-XSGEA-CHGAE-trainline-6320",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -28961,54 +29052,6 @@
           },
           {
             "value": "Genève Aéroport"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Genève-Eaux-Vives"
-          },
-          {
-            "lang": "en",
-            "value": "Genève-Eaux-Vives railway station"
-          },
-          {
-            "lang": "es",
-            "value": "Estación de Genève-Eaux-Vives"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare de Genève Eaux-Vives"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare des Eaux-Vives"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Genève-Eaux-Vives"
-          },
-          {
-            "lang": "it",
-            "value": "Gare des Eaux-Vives"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Eaux-Vives"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Ginevra Eaux-Vives"
-          },
-          {
-            "lang": "ja",
-            "value": "オー・ヴィーヴ駅"
-          },
-          {
-            "lang": "nl",
-            "value": "gare des Eaux-Vives"
-          },
-          {
-            "lang": "pt",
-            "value": "Gare des Eaux-Vives"
           }
         ],
         "P17": [
@@ -29036,17 +29079,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6320"
               }
             ]
-          },
-          {
-            "value": "8516273"
           }
         ],
         "P2044": [
           {
             "value": "411"
-          },
-          {
-            "value": "385"
           }
         ],
         "P954": [
@@ -29068,12 +29105,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8501311"
-          },
-          {
-            "value": "8516273"
           }
         ],
         "P8671": [
@@ -29126,9 +29157,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6320"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "P238": [
@@ -29139,34 +29167,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6320"
               }
             ]
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q3098155"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q11917"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55485"
-          },
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P5595": [
-          {
-            "value": "2"
           }
         ]
       }
@@ -29756,7 +29756,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8509258-CHZUZ-trainline-18373-Q8075325",
+      "id": "--http://lod.opentransportdata.swiss/didok/8509258-CHZUZ-trainline-18373",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -29786,34 +29786,6 @@
           {
             "value": "楚奧茨",
             "lang": "zh"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة زوز"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zuoz"
-          },
-          {
-            "lang": "en",
-            "value": "Zuoz train station"
-          },
-          {
-            "lang": "en",
-            "value": "Zuoz railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Zuoz (Rhaetian vasútállomás)"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Zuoz"
-          },
-          {
-            "lang": "lmo",
-            "value": "Stazion de Zuoz"
           }
         ],
         "P17": [
@@ -29833,7 +29805,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.7000000000000001
             },
             "value": "8509258",
             "references": [
@@ -29846,9 +29818,6 @@
         "P2044": [
           {
             "value": "1691.8"
-          },
-          {
-            "value": "1691"
           }
         ],
         "P8448": [
@@ -29873,7 +29842,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.7000000000000001
             },
             "value": "8509258",
             "references": [
@@ -29901,32 +29870,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18373"
               }
             ]
-          },
-          {
-            "value": "Q6655"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q8075325"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q66184"
-          },
-          {
-            "value": "Q11925"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "3"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -38050,7 +37993,7 @@
     },
     {
       "type": "Feature",
-      "id": "------http://lod.opentransportdata.swiss/didok/8500010-CH00010-XSB-CHBAS-BASELS-trainline-811-5878-Q683366",
+      "id": "------http://lod.opentransportdata.swiss/didok/8500010-CH00010-XSB-CHBAS-BASELS-trainline-811-5878-Q455492",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -38121,40 +38064,56 @@
             "lang": "zh"
           },
           {
-            "lang": "arz",
-            "value": "محطة باسيل دريسپيتز"
+            "lang": "de",
+            "value": "Basel SNCF"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Basel Dreispitz"
+            "value": "Elsässerbahnhof"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Basel SNCF"
           },
           {
             "lang": "en",
-            "value": "Basel Dreispitz railway station"
+            "value": "Basel SNCF"
+          },
+          {
+            "lang": "en",
+            "value": "Basel SNCF railway station"
           },
           {
             "lang": "fr",
-            "value": "Gare de Basel Dreispitz"
+            "value": "Gare SNCF de Bâle"
           },
           {
             "lang": "fr",
-            "value": "gare de Bâle-Dreispitz"
+            "value": "gare de Bâle SNCF"
           },
           {
             "lang": "gsw",
-            "value": "Bahnhof Basel Dreispitz"
+            "value": "Bahnhof Basel SNCF"
           },
           {
             "lang": "hu",
-            "value": "Bahnhof Basel Dreispitz"
+            "value": "Bahnhof Basel SNCF"
           },
           {
             "lang": "it",
-            "value": "stazione di Basilea Dreispitz"
+            "value": "stazione di Basilea SNCF"
+          },
+          {
+            "lang": "ja",
+            "value": "バーゼルSNCF駅"
           },
           {
             "lang": "nl",
-            "value": "station Basel Dreispitz"
+            "value": "station Basel SNCF"
+          },
+          {
+            "lang": "zh",
+            "value": "巴塞尔法国车站"
           }
         ],
         "P17": [
@@ -38187,18 +38146,20 @@
             ]
           },
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8718791",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/811"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "8500136"
+            ]
           }
         ],
         "P2044": [
@@ -38206,7 +38167,7 @@
             "value": "276.75"
           },
           {
-            "value": "284"
+            "value": "277"
           }
         ],
         "P954": [
@@ -38233,7 +38194,7 @@
             ]
           },
           {
-            "value": "8500132"
+            "value": "8718791"
           }
         ],
         "P8671": [
@@ -38279,6 +38240,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FRBNL",
             "references": [
               {
@@ -38321,30 +38286,27 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/811"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q683366"
+            "value": "Q455492"
           }
         ],
         "P1103": [
           {
-            "value": "2"
+            "value": "5"
           }
         ],
         "P131": [
-          {
-            "value": "Q12172"
-          },
           {
             "value": "Q78"
           }
         ],
         "P31": [
+          {
+            "value": "Q55485"
+          },
           {
             "value": "Q55488"
           }
@@ -44719,7 +44681,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8501405-CH01405-trainline-6096-Q10952886",
+      "id": "---http://lod.opentransportdata.swiss/didok/8501405-CH01405-trainline-4044-Q10952886",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -44779,19 +44741,21 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
+              "pregrouped": [],
               "reliability": 0
             },
-            "value": "8501405",
+            "value": "8501405"
+          },
+          {
+            "value": "8774666",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6096"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/4044"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P2044": [
@@ -44802,40 +44766,25 @@
             "value": "452"
           }
         ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "CHADH",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6096"
-              }
-            ]
-          }
-        ],
         "P8181": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "CHADH",
+            "value": "FRHUN",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6096"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/4044"
               }
             ]
+          },
+          {
+            "value": "CHADH"
           }
         ],
         "P6724": [
           {
-            "value": "6096",
+            "value": "4044",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6096"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/4044"
               }
             ]
           }
@@ -44845,7 +44794,7 @@
             "value": "Q16919450",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6096"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/4044"
               }
             ]
           },
@@ -44866,9 +44815,20 @@
             "value": "8501405",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6096"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/4044"
               }
             ]
+          },
+          {
+            "value": "8501561",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/4044"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "PWIKI": [
@@ -44894,6 +44854,11 @@
         "P5595": [
           {
             "value": "2"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "CHADH"
           }
         ]
       }
@@ -60762,7 +60727,7 @@
     },
     {
       "type": "Feature",
-      "id": "--http://lod.opentransportdata.swiss/didok/8501495-trainline-6365-Q33446833",
+      "id": "--http://lod.opentransportdata.swiss/didok/8501495-trainline-6365-Q33447979",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -60787,15 +60752,19 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Villars-sur-Ollon Golf"
+            "value": "Bahnhof Villars-sur-Ollon"
           },
           {
             "lang": "en",
-            "value": "Villars-sur-Ollon Golf station"
+            "value": "Villars-sur-Ollon railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Villars-sur-Ollon"
           },
           {
             "lang": "fr",
-            "value": "gare de Villars-sur-Ollon Golf"
+            "value": "gare de Villars-sur-Ollon"
           }
         ],
         "P17": [
@@ -60809,6 +60778,10 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "8501495"
           },
           {
@@ -60821,9 +60794,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8501446"
           }
         ],
         "P2044": [
@@ -60831,17 +60801,24 @@
             "value": "1253.5"
           },
           {
-            "value": "1604"
+            "value": "1253"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHVIO",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6365"
               }
             ]
+          },
+          {
+            "value": "CHAGQ"
           }
         ],
         "P6724": [
@@ -60869,23 +60846,25 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8501495",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6365"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "8501446"
+            ]
           }
         ],
         "PWIKI": [
           {
-            "value": "Q33446833"
+            "value": "Q33447979"
           }
         ],
         "P31": [
@@ -61440,7 +61419,7 @@
     },
     {
       "type": "Feature",
-      "id": "----http://lod.opentransportdata.swiss/didok/8500329-CH00329-XSKO-trainline-18183-18428-Q15096125",
+      "id": "----http://lod.opentransportdata.swiss/didok/8500329-CH00329-XSKO-trainline-18183-18428-Q801024",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -61474,24 +61453,40 @@
             "value": "Koblenz Bahnhof"
           },
           {
-            "lang": "arz",
-            "value": "محطة كوبلينز دورف"
-          },
-          {
             "lang": "de",
-            "value": "Bahnhof Koblenz Dorf"
+            "value": "Bahnhof Koblenz"
           },
           {
             "lang": "en",
-            "value": "Koblenz Dorf railway station"
+            "value": "Bahnhof Koblenz"
+          },
+          {
+            "lang": "gsw",
+            "value": "Bahnhof Koblenz"
+          },
+          {
+            "lang": "en",
+            "value": "Koblenz railway station"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة كوبلينز"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Koblenz"
           },
           {
             "lang": "hu",
-            "value": "Koblenz Dorf vasútállomás"
+            "value": "Koblenz vasútállomás (Switzerland)"
           },
           {
             "lang": "nl",
-            "value": "station Koblenz Dorf"
+            "value": "station Koblenz"
+          },
+          {
+            "lang": "ko",
+            "value": "코블렌츠역"
           }
         ],
         "P17": [
@@ -61511,7 +61506,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8500329",
             "references": [
@@ -61529,9 +61524,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8503411"
           }
         ],
         "P2044": [
@@ -61539,7 +61531,7 @@
             "value": "320.3"
           },
           {
-            "value": "324"
+            "value": "320"
           }
         ],
         "P954": [
@@ -61550,7 +61542,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8500329",
             "references": [
@@ -61572,9 +61564,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8503411"
           }
         ],
         "P8671": [
@@ -61587,6 +61576,10 @@
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHAHD",
             "references": [
               {
@@ -61604,6 +61597,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHAHD",
             "references": [
               {
@@ -61645,24 +61642,42 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18183"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q15096125"
+            "value": "Q801024"
           }
         ],
         "P1103": [
           {
-            "value": "1"
+            "value": "3"
+          }
+        ],
+        "P281": [
+          {
+            "value": "5322"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          },
+          {
+            "value": "Q811979"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KB"
+          },
+          {
+            "value": "XSKO"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Bahnhofstrasse 55, 5322 Koblenz"
           }
         ],
         "P131": [
@@ -63083,7 +63098,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8501008-CH01008-XSGE-CHGVA-trainline-5336-Q31454852",
+      "id": "----http://lod.opentransportdata.swiss/didok/8501008-CH01008-XSGE-CHGVA-trainline-5336",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -63155,26 +63170,6 @@
           },
           {
             "value": "Genève Cornavin"
-          },
-          {
-            "lang": "en",
-            "value": "Geneve-Stade Station"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Genève-Stade"
-          },
-          {
-            "lang": "en",
-            "value": "Genève-Stade Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Genève-Stade"
-          },
-          {
-            "lang": "gsw",
-            "value": "Bahnhof Genève-Stade"
           }
         ],
         "P17": [
@@ -63202,17 +63197,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/5336"
               }
             ]
-          },
-          {
-            "value": "8516174"
           }
         ],
         "P2044": [
           {
             "value": "392.01"
-          },
-          {
-            "value": "386"
           }
         ],
         "P954": [
@@ -63238,9 +63227,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8516174"
           }
         ],
         "P8671": [
@@ -63293,37 +63279,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/5336"
               }
             ]
-          },
-          {
-            "value": "Q6655"
-          },
-          {
-            "value": "Q25989"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q31454852"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q64065"
-          }
-        ],
-        "P296": [
-          {
-            "value": "GEST"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.sbb.ch/content/internet/sbb/de/bahnhof-services/bahnhoefe/bahnhof-finden/bahnhof.16174.html"
           }
         ]
       }
@@ -76449,7 +76404,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8508391-CHSTS-trainline-17531-Q7600185",
+      "id": "---http://lod.opentransportdata.swiss/didok/8508391-CHSTS-trainline-17531-Q7600170",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -76481,20 +76436,36 @@
             "lang": "zh"
           },
           {
+            "lang": "ko",
+            "value": "슈탄스역"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ستانس"
+          },
+          {
             "lang": "de",
-            "value": "Bahnhof Stansstad"
+            "value": "Bahnhof Stans"
           },
           {
             "lang": "en",
-            "value": "Stansstad railway station"
+            "value": "Stans railway station"
           },
           {
             "lang": "hu",
-            "value": "Stansstad vasútállomás"
+            "value": "Stans vasútállomás"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Stans"
+          },
+          {
+            "lang": "lmo",
+            "value": "Stazion de Stans"
           },
           {
             "lang": "nl",
-            "value": "station Stansstad"
+            "value": "station Stans"
           }
         ],
         "P17": [
@@ -76514,7 +76485,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8508391",
             "references": [
@@ -76522,9 +76493,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17531"
               }
             ]
-          },
-          {
-            "value": "8508390"
           }
         ],
         "P2044": [
@@ -76532,7 +76500,7 @@
             "value": "450.7"
           },
           {
-            "value": "438"
+            "value": "454"
           }
         ],
         "P8448": [
@@ -76557,7 +76525,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8508391",
             "references": [
@@ -76565,13 +76533,14 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17531"
               }
             ]
-          },
-          {
-            "value": "8508390"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHSST",
             "references": [
               {
@@ -76605,7 +76574,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q7600185"
+            "value": "Q7600170"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
           }
         ],
         "P131": [
@@ -76613,12 +76592,7 @@
             "value": "Q12592"
           },
           {
-            "value": "Q64285"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
+            "value": "Q63931"
           }
         ]
       }
@@ -78158,7 +78132,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8503203-CH03203-XSOR-Q7074806",
+      "id": "---http://lod.opentransportdata.swiss/didok/8503203-CH03203-XSOR-Q2110622",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -78178,23 +78152,31 @@
           },
           {
             "lang": "arz",
-            "value": "محطة اوبيريدين دورف"
+            "value": "محطة اوبيريدين"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Oberrieden Dorf"
+            "value": "Bahnhof Oberrieden"
           },
           {
             "lang": "en",
-            "value": "Oberrieden Dorf railway station"
+            "value": "Oberrieden railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Oberrieden"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Oberrieden"
           },
           {
             "lang": "hu",
-            "value": "Oberrieden Dorf vasútállomás"
+            "value": "Oberrieden vasútállomás"
           },
           {
             "lang": "nl",
-            "value": "station Oberrieden Dorf"
+            "value": "station Oberrieden"
           }
         ],
         "P17": [
@@ -78213,9 +78195,6 @@
               "reliability": 0
             },
             "value": "8503203"
-          },
-          {
-            "value": "8502209"
           }
         ],
         "P2044": [
@@ -78223,18 +78202,21 @@
             "value": "424.5"
           },
           {
-            "value": "460"
+            "value": "424"
           }
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "8503203",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-            }
-          },
-          {
-            "value": "8502209"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -78247,7 +78229,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q7074806"
+            "value": "Q2110622"
           }
         ],
         "P421": [
@@ -78260,17 +78242,19 @@
             "value": "2"
           }
         ],
-        "P131": [
+        "P5595": [
           {
-            "value": "Q11943"
-          },
-          {
-            "value": "Q65528"
+            "value": "2"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q65528"
           }
         ]
       }
@@ -79501,7 +79485,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8516273-CH16273-trainline-3190-Q48610587",
+      "id": "--http://lod.opentransportdata.swiss/didok/8516273-CH16273-trainline-3190",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -79570,26 +79554,6 @@
           },
           {
             "value": "Genève Eaux-Vives"
-          },
-          {
-            "lang": "en",
-            "value": "Champel-Hôpital railway station"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Genf Champel"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Champel-Hôpital"
-          },
-          {
-            "lang": "en",
-            "value": "Genève-Champel railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Genève-Champel"
           }
         ],
         "P17": [
@@ -79619,17 +79583,11 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8516272"
           }
         ],
         "P2044": [
           {
             "value": "385.5"
-          },
-          {
-            "value": "389"
           }
         ],
         "P8448": [
@@ -79694,24 +79652,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8516272"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q48610587"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q2546289"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -88678,7 +88618,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8506000-CH06000-XSWT-CHABC-trainline-6040-Q801619",
+      "id": "-----http://lod.opentransportdata.swiss/didok/8506000-CH06000-XSWT-CHABC-trainline-6040-Q677527",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -88714,32 +88654,80 @@
             "lang": "zh"
           },
           {
-            "lang": "arz",
-            "value": "محطة وينتيرثور توس"
-          },
-          {
             "lang": "de",
-            "value": "Bahnhof Töss"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Winterthur Töss"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Winterthur-Töss"
+            "value": "Bahnhof Winterthur"
           },
           {
             "lang": "en",
-            "value": "Winterthur Töss railway station"
+            "value": "Winterthur railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Winterthur"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Winterthour"
           },
           {
             "lang": "hu",
-            "value": "Winterthur Töss vasútállomás"
+            "value": "Winterthur vasútállomás"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Winterthur"
+          },
+          {
+            "lang": "de",
+            "value": "Hauptbahnhof Winterthur"
+          },
+          {
+            "lang": "de",
+            "value": "Winterthur Hauptbahnhof"
+          },
+          {
+            "lang": "de",
+            "value": "Winterthur HB"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Winterthur"
           },
           {
             "lang": "nl",
-            "value": "station Winterthur-Töss"
+            "value": "Winterthur Hauptbahnhof"
+          },
+          {
+            "lang": "nl",
+            "value": "station Winterthur"
+          },
+          {
+            "lang": "pl",
+            "value": "Winterthur (stacja kolejowa)"
+          },
+          {
+            "lang": "zh",
+            "value": "溫特圖爾車站"
+          },
+          {
+            "lang": "zh",
+            "value": "温特图尔车站"
+          },
+          {
+            "lang": "zh-cn",
+            "value": "温特图尔车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "温特图尔车站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "溫特圖爾車站"
+          },
+          {
+            "lang": "ko",
+            "value": "빈터투어역"
           }
         ],
         "P17": [
@@ -88759,7 +88747,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8506000",
             "references": [
@@ -88767,9 +88755,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6040"
               }
             ]
-          },
-          {
-            "value": "8506044"
           }
         ],
         "P2044": [
@@ -88777,7 +88762,7 @@
             "value": "438.9"
           },
           {
-            "value": "435"
+            "value": "438"
           }
         ],
         "P954": [
@@ -88788,7 +88773,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8506000",
             "references": [
@@ -88799,17 +88784,20 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8506044"
           }
         ],
         "P8671": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "XSWT",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-            }
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
           }
         ],
         "P8448": [
@@ -88828,6 +88816,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHABC",
             "references": [
               {
@@ -88861,7 +88853,22 @@
         ],
         "PWIKI": [
           {
-            "value": "Q801619"
+            "value": "Q677527"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "9"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "9"
+          }
+        ],
+        "P296": [
+          {
+            "value": "W"
           }
         ],
         "P31": [
@@ -88869,20 +88876,25 @@
             "value": "Q55488"
           },
           {
-            "value": "Q2065736"
+            "value": "Q1147171"
+          },
+          {
+            "value": "Q22808404"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://www.sbb.ch/bahnhof-services/am-bahnhof/bahnhof/weitere-bahnhoefe/bahnhof-winterthur.html"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Bahnhofplatz 5–9"
           }
         ],
         "P131": [
           {
-            "value": "Q1699150"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
-          },
-          {
-            "value": "3"
+            "value": "Q2326384"
           }
         ]
       }
@@ -91468,7 +91480,7 @@
     },
     {
       "type": "Feature",
-      "id": "----http://lod.opentransportdata.swiss/didok/8504483-CH04483-CHINS-trainline-18279-Q33512005",
+      "id": "----http://lod.opentransportdata.swiss/didok/8504483-CH04483-CHINS-trainline-18279-Q33466716",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -91496,16 +91508,28 @@
             "lang": "zh"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Ins [Gleis 11]"
-          },
-          {
-            "lang": "en",
-            "value": "Ins [Gleis 11] station"
+            "lang": "es",
+            "value": "Estación de Ins"
           },
           {
             "lang": "fr",
-            "value": "gare de Ins [Gleis 11]"
+            "value": "gare d'Ins"
+          },
+          {
+            "lang": "fr",
+            "value": "gare d'Anet"
+          },
+          {
+            "lang": "ko",
+            "value": "인스역"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Ins"
+          },
+          {
+            "lang": "en",
+            "value": "Ins railway station"
           }
         ],
         "P17": [
@@ -91525,7 +91549,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8504483",
             "references": [
@@ -91533,9 +91557,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18279"
               }
             ]
-          },
-          {
-            "value": "8516177"
           }
         ],
         "P2044": [
@@ -91543,7 +91564,7 @@
             "value": "436.95"
           },
           {
-            "value": "477"
+            "value": "436"
           }
         ],
         "P8448": [
@@ -91568,7 +91589,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8504483",
             "references": [
@@ -91576,13 +91597,14 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18279"
               }
             ]
-          },
-          {
-            "value": "8516177"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHINS",
             "references": [
               {
@@ -91616,7 +91638,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q33512005"
+            "value": "Q33466716"
           }
         ],
         "P31": [
@@ -98134,7 +98156,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8500207-CH00207-XSSO-CHACH-trainline-6070-Q33512015",
+      "id": "-----http://lod.opentransportdata.swiss/didok/8500207-CH00207-XSSO-CHACH-trainline-6070-Q22941",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -98186,16 +98208,88 @@
             "lang": "zh"
           },
           {
+            "lang": "arz",
+            "value": "محطة سولوثورن"
+          },
+          {
+            "lang": "ca",
+            "value": "Estació de Solothurn"
+          },
+          {
             "lang": "de",
-            "value": "Bahnhof Solothurn [Gleis 21]"
+            "value": "Bahnhof Solothurn"
           },
           {
             "lang": "en",
-            "value": "Solothurn [Gleis 21] station"
+            "value": "Solothurn railway station"
+          },
+          {
+            "lang": "en-ca",
+            "value": "Solothurn railway station"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Solothurn railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Soleura"
           },
           {
             "lang": "fr",
-            "value": "gare de Solothurn [Gleis 21]"
+            "value": "gare de Soleure"
+          },
+          {
+            "lang": "hu",
+            "value": "Soleura vasútállomás"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Soletta"
+          },
+          {
+            "lang": "nl",
+            "value": "station Solothurn"
+          },
+          {
+            "lang": "pl",
+            "value": "Solothurn (stacja kolejowa)"
+          },
+          {
+            "lang": "zh",
+            "value": "索洛图恩车站"
+          },
+          {
+            "lang": "zh-cn",
+            "value": "索洛图恩车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "索洛图恩车站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "索洛圖恩車站"
+          },
+          {
+            "lang": "zh",
+            "value": "索洛图恩中央车站"
+          },
+          {
+            "lang": "ko",
+            "value": "졸로투른역"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Soleura"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Solothurn"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Solothurn"
           }
         ],
         "P17": [
@@ -98215,7 +98309,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8500207",
             "references": [
@@ -98223,17 +98317,15 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6070"
               }
             ]
-          },
-          {
-            "value": "8516181"
           }
         ],
         "P2044": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "432"
-          },
-          {
-            "value": "431"
           }
         ],
         "P954": [
@@ -98244,7 +98336,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8500207",
             "references": [
@@ -98255,9 +98347,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8516181"
           }
         ],
         "P8671": [
@@ -98284,6 +98373,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHACH",
             "references": [
               {
@@ -98317,7 +98410,28 @@
         ],
         "PWIKI": [
           {
-            "value": "Q33512015"
+            "value": "Q22941"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "5"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "4"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q11929"
+          },
+          {
+            "value": "Q68965"
+          },
+          {
+            "value": "Q494663"
           }
         ],
         "P31": [
@@ -98325,9 +98439,9 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
+        "P6375": [
           {
-            "value": "Q68965"
+            "value": "Dornacherstrasse 48–54"
           }
         ]
       }
@@ -105095,7 +105209,7 @@
     },
     {
       "type": "Feature",
-      "id": "--http://lod.opentransportdata.swiss/didok/8501466-trainline-6253-Q33446894",
+      "id": "--http://lod.opentransportdata.swiss/didok/8501466-trainline-6253-Q33447308",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -105119,19 +105233,19 @@
           },
           {
             "lang": "en",
-            "value": "Champery station"
+            "value": "Champery-Village station"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Champéry"
+            "value": "Bahnhof Champéry-Village"
           },
           {
             "lang": "en",
-            "value": "Champéry station"
+            "value": "Champéry-Village station"
           },
           {
             "lang": "fr",
-            "value": "gare de Champéry"
+            "value": "gare de Champéry-Village"
           }
         ],
         "P17": [
@@ -105151,7 +105265,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8501466",
             "references": [
@@ -105159,9 +105273,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6253"
               }
             ]
-          },
-          {
-            "value": "8501448"
           }
         ],
         "P2044": [
@@ -105169,7 +105280,7 @@
             "value": "1027.8"
           },
           {
-            "value": "1035"
+            "value": "1043"
           }
         ],
         "P8448": [
@@ -105217,25 +105328,23 @@
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
             "value": "8501448",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6253"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          },
+          {
+            "value": "8501466"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q33446894"
+            "value": "Q33447308"
           }
         ],
         "P31": [
@@ -105252,7 +105361,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8501463-CHMOV-trainline-6274-Q33447227",
+      "id": "--http://lod.opentransportdata.swiss/didok/8501463-CHMOV-Q33447227",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -105266,25 +105375,6 @@
         "labels": [
           {
             "value": "Monthey-Ville"
-          },
-          {
-            "value": "モンテー",
-            "lang": "ja"
-          },
-          {
-            "value": "몽테",
-            "lang": "ko"
-          },
-          {
-            "value": "Монте",
-            "lang": "ru"
-          },
-          {
-            "value": "蒙泰",
-            "lang": "zh"
-          },
-          {
-            "value": "Monthey Ville"
           },
           {
             "lang": "de",
@@ -105311,19 +105401,10 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
+              "pregrouped": [],
               "reliability": 0
             },
-            "value": "8501463",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
+            "value": "8501463"
           }
         ],
         "P2044": [
@@ -105342,61 +105423,20 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0
-            },
-            "value": "8501463",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
-          }
-        ],
-        "P8181": [
-          {
-            "info": {
               "pregrouped": [],
               "reliability": 0
             },
-            "value": "CHAKH",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
-          }
-        ],
-        "P6724": [
-          {
-            "value": "6274",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q16919450",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
-          },
-          {
-            "value": "Q6655"
+            "value": "8501463"
           }
         ],
         "PWIKI": [
           {
             "value": "Q33447227"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6655"
           }
         ],
         "P31": [
@@ -105407,6 +105447,11 @@
         "P131": [
           {
             "value": "Q64051"
+          }
+        ],
+        "P8181": [
+          {
+            "value": "CHAKH"
           }
         ]
       }
@@ -119744,7 +119789,7 @@
     },
     {
       "type": "Feature",
-      "id": "--http://lod.opentransportdata.swiss/didok/8510085-trainline-18197-36237-Q569784",
+      "id": "-http://lod.opentransportdata.swiss/didok/8510085-trainline-18197-36237",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -119777,46 +119822,6 @@
           },
           {
             "value": "Vevey (funi)"
-          },
-          {
-            "lang": "pl",
-            "value": "Vevey"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة ڤيڤى"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Vevey"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion de Vevey"
-          },
-          {
-            "lang": "en",
-            "value": "Vevey railway station"
-          },
-          {
-            "lang": "es",
-            "value": "Estación de Vevey"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Vevey"
-          },
-          {
-            "lang": "hu",
-            "value": "Vevey vasútállomás"
-          },
-          {
-            "lang": "nl",
-            "value": "station Vevey"
-          },
-          {
-            "lang": "ko",
-            "value": "브베역"
           }
         ],
         "P17": [
@@ -119831,17 +119836,10 @@
         "P722": [
           {
             "value": "8510085"
-          },
-          {
-            "value": "8501200"
           }
         ],
         "P2044": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "386"
           }
         ],
@@ -119871,9 +119869,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18197"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "P954": [
@@ -119898,57 +119893,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8501200"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q569784"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q12771"
-          },
-          {
-            "value": "Q68160"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "5"
-          }
-        ],
-        "P5595": [
-          {
-            "value": "3"
-          }
-        ],
-        "P296": [
-          {
-            "value": "VV"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Rue de la Gare 3"
-          }
-        ],
-        "P8181": [
-          {
-            "value": "CHZKZ"
-          }
-        ],
-        "P8448": [
-          {
-            "value": "CHZKZ"
           }
         ]
       }
@@ -123256,7 +123200,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8508305-CHBRE-trainline-18338-Q10640342",
+      "id": "---http://lod.opentransportdata.swiss/didok/8508305-CHBRE-trainline-18338-Q4967053",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -123288,24 +123232,28 @@
             "lang": "zh"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Oberried am Brienzersee"
+            "lang": "en",
+            "value": "Brienz railway station"
           },
           {
-            "lang": "en",
-            "value": "Oberried am Brienzersee railway station"
+            "lang": "de",
+            "value": "Bahnhof Brienz"
           },
           {
             "lang": "hu",
-            "value": "Oberried am Brienzersee vasútállomás"
+            "value": "Brienz vasútállomás"
           },
           {
             "lang": "lmo",
-            "value": "Stazion de Oberried am Brienzersee"
+            "value": "Stazion de Brienz"
           },
           {
             "lang": "nl",
-            "value": "station Oberried am Brienzersee"
+            "value": "station Brienz"
+          },
+          {
+            "lang": "ko",
+            "value": "브리엔츠역"
           }
         ],
         "P17": [
@@ -123325,7 +123273,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8508305",
             "references": [
@@ -123333,9 +123281,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18338"
               }
             ]
-          },
-          {
-            "value": "8508303"
           }
         ],
         "P2044": [
@@ -123343,7 +123288,7 @@
             "value": "565.95"
           },
           {
-            "value": "589"
+            "value": "566"
           }
         ],
         "P8448": [
@@ -123368,7 +123313,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8508305",
             "references": [
@@ -123376,13 +123321,14 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18338"
               }
             ]
-          },
-          {
-            "value": "8508303"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHAJT",
             "references": [
               {
@@ -123416,20 +123362,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q10640342"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q11911"
-          },
-          {
-            "value": "Q66000"
+            "value": "Q4967053"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q65268"
           }
         ]
       }
@@ -142552,7 +142495,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8505400-CH05400-XSLC-CHZJI-trainline-18295-Q48834660",
+      "id": "----http://lod.opentransportdata.swiss/didok/8505400-CH05400-XSLC-CHZJI-trainline-18295",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -142582,26 +142525,6 @@
           {
             "value": "洛迦诺",
             "lang": "zh"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Locarno"
-          },
-          {
-            "lang": "en",
-            "value": "Locarno railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare de Locarno (FART)"
-          },
-          {
-            "lang": "en",
-            "value": "Locarno FART"
-          },
-          {
-            "lang": "de",
-            "value": "Locarno (FART 1908)"
           }
         ],
         "P17": [
@@ -142629,9 +142552,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18295"
               }
             ]
-          },
-          {
-            "value": "8505470"
           }
         ],
         "P2044": [
@@ -142710,29 +142630,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18295"
               }
             ]
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q48834660"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q22808404"
-          },
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q11935"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
           }
         ]
       }
@@ -169419,7 +169316,7 @@
     },
     {
       "type": "Feature",
-      "id": "----http://lod.opentransportdata.swiss/didok/8509072-XSDD-CHDDF-trainline-18361-Q5242110",
+      "id": "----http://lod.opentransportdata.swiss/didok/8509072-XSDD-CHDDF-trainline-18361-Q5242109",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -169451,32 +169348,32 @@
             "lang": "zh"
           },
           {
-            "lang": "arz",
-            "value": "محطة داڤوس فراوينكيرتش"
-          },
-          {
             "lang": "de",
-            "value": "Bahnhof Davos Frauenkirch"
+            "value": "Bahnhof Davos-Dorf"
           },
           {
             "lang": "en",
-            "value": "Davos Frauenkirch railway station"
+            "value": "Davos Dorf train station"
+          },
+          {
+            "lang": "en",
+            "value": "Davos Dorf railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Davos-Dorf"
           },
           {
             "lang": "hu",
-            "value": "Davos Frauenkirch (Rhaetian vasútállomás)"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Davos Frauenkirch"
+            "value": "Davos Dorf (Rhaetian vasútállomás)"
           },
           {
             "lang": "lmo",
-            "value": "Stazion de Davos Frauenkirch"
+            "value": "Stazion de Davos Dorf"
           },
           {
             "lang": "ko",
-            "value": "다보스 프라우엔키르히역"
+            "value": "다보스 도르프역"
           }
         ],
         "P17": [
@@ -169496,7 +169393,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8509072",
             "references": [
@@ -169504,9 +169401,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18361"
               }
             ]
-          },
-          {
-            "value": "8509075"
           }
         ],
         "P2044": [
@@ -169514,7 +169408,7 @@
             "value": "1559.8"
           },
           {
-            "value": "1504"
+            "value": "1559"
           }
         ],
         "P954": [
@@ -169525,7 +169419,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8509072",
             "references": [
@@ -169536,9 +169430,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8509075"
           }
         ],
         "P8671": [
@@ -169565,6 +169456,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHDDF",
             "references": [
               {
@@ -169598,12 +169493,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q5242110"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
+            "value": "Q5242109"
           }
         ],
         "P131": [
@@ -169617,6 +169507,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q89418081"
           }
         ]
       }
@@ -173518,7 +173413,7 @@
     },
     {
       "type": "Feature",
-      "id": "---http://lod.opentransportdata.swiss/didok/8516272-CH16272-trainline-38692-Q3098155",
+      "id": "---http://lod.opentransportdata.swiss/didok/8516272-CH16272-trainline-38692-Q48610587",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -173586,52 +173481,24 @@
             "lang": "zh"
           },
           {
+            "lang": "en",
+            "value": "Champel-Hôpital railway station"
+          },
+          {
             "lang": "de",
-            "value": "Bahnhof Genève-Eaux-Vives"
+            "value": "Bahnhof Genf Champel"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Champel-Hôpital"
           },
           {
             "lang": "en",
-            "value": "Genève-Eaux-Vives railway station"
-          },
-          {
-            "lang": "es",
-            "value": "Estación de Genève-Eaux-Vives"
+            "value": "Genève-Champel railway station"
           },
           {
             "lang": "fr",
-            "value": "Gare de Genève Eaux-Vives"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare des Eaux-Vives"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Genève-Eaux-Vives"
-          },
-          {
-            "lang": "it",
-            "value": "Gare des Eaux-Vives"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Eaux-Vives"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Ginevra Eaux-Vives"
-          },
-          {
-            "lang": "ja",
-            "value": "オー・ヴィーヴ駅"
-          },
-          {
-            "lang": "nl",
-            "value": "gare des Eaux-Vives"
-          },
-          {
-            "lang": "pt",
-            "value": "Gare des Eaux-Vives"
+            "value": "gare de Genève-Champel"
           }
         ],
         "P17": [
@@ -173650,9 +173517,6 @@
               "reliability": 0
             },
             "value": "8516272"
-          },
-          {
-            "value": "8516273"
           }
         ],
         "P2044": [
@@ -173660,7 +173524,7 @@
             "value": "389.72"
           },
           {
-            "value": "385"
+            "value": "389"
           }
         ],
         "P8181": [
@@ -173691,56 +173555,39 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38692"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8516272",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38692"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "8501311"
-          },
-          {
-            "value": "8516273"
+            ]
           }
         ],
         "PWIKI": [
           {
-            "value": "Q3098155"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
+            "value": "Q48610587"
           }
         ],
         "P131": [
           {
-            "value": "Q11917"
+            "value": "Q2546289"
           }
         ],
         "P31": [
           {
-            "value": "Q55485"
-          },
-          {
             "value": "Q55488"
-          }
-        ],
-        "P5595": [
-          {
-            "value": "2"
           }
         ]
       }
@@ -180109,7 +179956,7 @@
     },
     {
       "type": "Feature",
-      "id": "----http://lod.opentransportdata.swiss/didok/8501689-XSZE-CHADD-trainline-18218-Q33514023",
+      "id": "----http://lod.opentransportdata.swiss/didok/8501689-XSZE-CHADD-trainline-18218-Q8069422",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -180141,16 +179988,36 @@
             "lang": "zh"
           },
           {
+            "lang": "ko",
+            "value": "체르마트역"
+          },
+          {
             "lang": "de",
-            "value": "Bahnhof Zermatt GGB"
+            "value": "Bahnhof Zermatt"
           },
           {
             "lang": "en",
-            "value": "Zermatt GGB station"
+            "value": "Zermatt railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Zermatt GGB"
+            "value": "gare de Zermatt"
+          },
+          {
+            "lang": "hu",
+            "value": "Zermatt vasútállomás"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Zermatt"
+          },
+          {
+            "lang": "lmo",
+            "value": "Stazion de Zermatt"
+          },
+          {
+            "lang": "nl",
+            "value": "station Zermatt"
           }
         ],
         "P17": [
@@ -180170,7 +180037,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8501689",
             "references": [
@@ -180178,9 +180045,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18218"
               }
             ]
-          },
-          {
-            "value": "8501690"
           }
         ],
         "P2044": [
@@ -180199,7 +180063,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8501689",
             "references": [
@@ -180210,9 +180074,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8501690"
           }
         ],
         "P8671": [
@@ -180239,6 +180100,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "CHADD",
             "references": [
               {
@@ -180272,10 +180137,13 @@
         ],
         "PWIKI": [
           {
-            "value": "Q33514023"
+            "value": "Q8069422"
           }
         ],
         "P131": [
+          {
+            "value": "Q834"
+          },
           {
             "value": "Q27494"
           }
@@ -186373,7 +186241,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8501421-CH01421-XSMY-CHMOV-trainline-6274-Q33445263",
+      "id": "----http://lod.opentransportdata.swiss/didok/8501421-CH01421-XSMY-CHMOV-Q12174813",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -186392,35 +186260,36 @@
             "value": "Monthey-Ville"
           },
           {
-            "value": "モンテー",
-            "lang": "ja"
-          },
-          {
-            "value": "몽테",
-            "lang": "ko"
-          },
-          {
-            "value": "Монте",
-            "lang": "ru"
-          },
-          {
-            "value": "蒙泰",
-            "lang": "zh"
-          },
-          {
-            "value": "Monthey Ville"
+            "lang": "arz",
+            "value": "محطة مونثى"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Monthey-En Place"
+            "value": "Bahnhof Monthey"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Monthey"
           },
           {
             "lang": "en",
-            "value": "Monthey-En Place station"
+            "value": "Monthey railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Monthey"
           },
           {
             "lang": "fr",
-            "value": "gare de Monthey-En Place"
+            "value": "gare de Monthey"
+          },
+          {
+            "lang": "hu",
+            "value": "Monthey vasútállomás"
+          },
+          {
+            "lang": "pl",
+            "value": "Monthey"
           }
         ],
         "P17": [
@@ -186439,20 +186308,6 @@
               "reliability": 0
             },
             "value": "8501421"
-          },
-          {
-            "value": "8501463",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          },
-          {
-            "value": "8501229"
           }
         ],
         "P2044": [
@@ -186460,34 +186315,24 @@
             "value": "405.97"
           },
           {
-            "value": "418"
+            "value": "406"
           }
         ],
         "P954": [
           {
-            "value": "8501421",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-            }
-          },
-          {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
+              "pregrouped": [],
+              "reliability": 0
             },
-            "value": "8501463",
+            "value": "8501421",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
           },
           {
-            "value": "8501229"
+            "value": "8501463"
           }
         ],
         "P8671": [
@@ -186503,42 +186348,24 @@
             "value": "CHMOV"
           }
         ],
-        "P8181": [
+        "PWIKI": [
           {
-            "value": "CHAKH",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
-          }
-        ],
-        "P6724": [
-          {
-            "value": "6274",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
+            "value": "Q12174813"
           }
         ],
         "P421": [
           {
-            "value": "Q16919450",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6274"
-              }
-            ]
-          },
-          {
             "value": "Q6655"
           }
         ],
-        "PWIKI": [
+        "P1103": [
           {
-            "value": "Q33445263"
+            "value": "2"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "1"
           }
         ],
         "P31": [
@@ -193312,7 +193139,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----http://lod.opentransportdata.swiss/didok/8503016-CH03016-XSZF-CHAJO-trainline-18234-Q801677",
+      "id": "----http://lod.opentransportdata.swiss/didok/8503016-CH03016-XSZF-CHAJO-trainline-18234",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -193362,26 +193189,6 @@
           {
             "value": "苏黎世",
             "lang": "zh"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zürich Letten"
-          },
-          {
-            "lang": "en",
-            "value": "Zurich Letten railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Zürich Letten vasútállomás"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Zurigo Letten"
-          },
-          {
-            "lang": "nl",
-            "value": "station Zürich Letten"
           }
         ],
         "P17": [
@@ -193409,17 +193216,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18234"
               }
             ]
-          },
-          {
-            "value": "8503002"
           }
         ],
         "P2044": [
           {
             "value": "413"
-          },
-          {
-            "value": "409"
           }
         ],
         "P954": [
@@ -193441,9 +193242,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8503002"
           }
         ],
         "P8671": [
@@ -193496,9 +193294,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18234"
               }
             ]
-          },
-          {
-            "value": "Q6655"
           }
         ],
         "P238": [
@@ -193509,26 +193304,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18234"
               }
             ]
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q801677"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q11943"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
           }
         ]
       }
@@ -194667,7 +194442,7 @@
     },
     {
       "type": "Feature",
-      "id": "--------http://lod.opentransportdata.swiss/didok/8503000-CH03000-XSZH-8503000-CHAJD-ZUE-8503000-trainline-6245-Q33514137",
+      "id": "-------http://lod.opentransportdata.swiss/didok/8503000-CH03000-XSZH-8503000-CHAJD-ZUE-8503000-trainline-6245",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -194739,22 +194514,6 @@
           {
             "value": "苏黎世",
             "lang": "zh"
-          },
-          {
-            "lang": "en",
-            "value": "Zurich, Romerhof station"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zürich, Römerhof"
-          },
-          {
-            "lang": "en",
-            "value": "Zürich, Römerhof station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Zürich, Römerhof"
           }
         ],
         "P17": [
@@ -194785,17 +194544,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6245"
               }
             ]
-          },
-          {
-            "value": "8503083"
           }
         ],
         "P2044": [
           {
             "value": "407.7"
-          },
-          {
-            "value": "443"
           }
         ],
         "P954": [
@@ -194820,9 +194573,6 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
-          },
-          {
-            "value": "8503083"
           }
         ],
         "P8671": [
@@ -194887,30 +194637,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/6245"
               }
             ]
-          },
-          {
-            "value": "Q6655"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q33514137"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q72"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          },
-          {
-            "value": "Q953806"
-          },
-          {
-            "value": "Q2175765"
           }
         ]
       }

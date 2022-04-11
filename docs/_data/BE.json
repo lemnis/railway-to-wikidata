@@ -5453,7 +5453,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008811726-BEGWV-BEWAV-trainline-18068-Q2625038",
+      "id": "----https://irail.be/stations/NMBS/008811726-BEGWV-BEWAV-trainline-18068-Q2493508",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5490,15 +5490,15 @@
           },
           {
             "lang": "en",
-            "value": "Basse-Wavre railway station"
+            "value": "Wavre railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Basse-Wavre"
+            "value": "gare de Wavre"
           },
           {
             "lang": "nl",
-            "value": "station Basse-Wavre"
+            "value": "station Waver"
           }
         ],
         "P722": [
@@ -5509,7 +5509,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8811726",
             "references": [
@@ -5517,9 +5517,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18068"
               }
             ]
-          },
-          {
-            "value": "8811734"
           }
         ],
         "P17": [
@@ -5533,10 +5530,11 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "GWV"
-          },
-          {
-            "value": "BGWV"
           }
         ],
         "P8448": [
@@ -5551,9 +5549,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18068"
               }
             ]
-          },
-          {
-            "value": "BEBWV"
           }
         ],
         "P954": [
@@ -5564,7 +5559,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800500",
             "references": [
@@ -5572,13 +5567,14 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18068"
               }
             ]
-          },
-          {
-            "value": "8800501"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEZGV",
             "references": [
               {
@@ -5609,7 +5605,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2625038"
+            "value": "Q2493508"
           }
         ],
         "P131": [
@@ -5619,22 +5615,17 @@
         ],
         "P1103": [
           {
-            "value": "2"
+            "value": "3"
           }
         ],
         "P2044": [
           {
-            "value": "40"
+            "value": "53"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Chaussée du Tilleul"
           }
         ]
       }
@@ -6717,7 +6708,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008811916-BEFBSM-BESHU-trainline-17817-Q1825002",
+      "id": "---https://irail.be/stations/NMBS/008811916-BEFBSM-BESHU-trainline-17817",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6793,26 +6784,6 @@
           {
             "value": "布鲁塞尔",
             "lang": "zh"
-          },
-          {
-            "lang": "en",
-            "value": "Brussels Allee-Verte railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Brussels Groendreef railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Brussels Allée-Verte railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Bruxelles-Allée-Verte"
-          },
-          {
-            "lang": "nl",
-            "value": "station Brussel-Groendreef"
           }
         ],
         "P722": [
@@ -6845,9 +6816,6 @@
         "P296": [
           {
             "value": "FBSM"
-          },
-          {
-            "value": "FBV"
           }
         ],
         "P8448": [
@@ -6911,32 +6879,12 @@
               }
             ]
           }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q1825002"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q239"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "18"
-          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008811940-BEANDL-BEADL-trainline-61114-Q98436002",
+      "id": "--https://irail.be/stations/NMBS/008811940-BEANDL-trainline-61114",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6953,25 +6901,6 @@
           },
           {
             "value": "Anderlecht | Anderlecht"
-          },
-          {
-            "value": "Anderlecht "
-          },
-          {
-            "lang": "en",
-            "value": "Anderlecht station"
-          },
-          {
-            "lang": "en",
-            "value": "Anderlecht railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare d'Anderlecht"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Anderlecht"
           }
         ],
         "P722": [
@@ -7008,29 +6937,7 @@
         ],
         "P8448": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "BEADL",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/61114"
-              }
-            ]
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0
-            },
-            "value": "8811940",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/61114"
@@ -7040,10 +6947,6 @@
         ],
         "P6724": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "61114",
             "references": [
               {
@@ -7062,19 +6965,17 @@
             ]
           }
         ],
-        "PWIKI": [
+        "P954": [
           {
-            "value": "Q98436002"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q12886"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
+            "value": "8811940",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/61114"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -10282,7 +10183,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008813037-BEFBCK-BEBCO-trainline-17851-Q1825002",
+      "id": "----https://irail.be/stations/NMBS/008813037-BEFBCK-BEBCO-trainline-17851-Q2627408",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -10358,23 +10259,23 @@
           },
           {
             "lang": "en",
-            "value": "Brussels Allee-Verte railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Brussels Groendreef railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Brussels Allée-Verte railway station"
+            "value": "Brussels-Chapel railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Bruxelles-Allée-Verte"
+            "value": "gare de Bruxelles-Chapelle"
+          },
+          {
+            "lang": "hu",
+            "value": "Brussels-Chapel vasútállomás"
           },
           {
             "lang": "nl",
-            "value": "station Brussel-Groendreef"
+            "value": "station Brussel-Kapellekerk"
+          },
+          {
+            "lang": "ro",
+            "value": "gara Bruxelles-Chapelle"
           }
         ],
         "P722": [
@@ -10385,7 +10286,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8813037",
             "references": [
@@ -10406,10 +10307,11 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FBCK"
-          },
-          {
-            "value": "FBV"
           }
         ],
         "P8448": [
@@ -10434,7 +10336,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800211",
             "references": [
@@ -10466,7 +10368,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q1825002"
+            "value": "Q2627408"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "24"
           }
         ],
         "P131": [
@@ -10479,16 +10386,16 @@
             "value": "Q55488"
           }
         ],
-        "P2044": [
+        "P856": [
           {
-            "value": "18"
+            "value": "http://www.belgianrail.be/en/stations-and-train/search-a-station/1/bruxelles-chapelle.aspx"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008813045-BEFBCO-BECON-trainline-17852-Q1825002",
+      "id": "----https://irail.be/stations/NMBS/008813045-BEFBCO-BECON-trainline-17852-Q2201793",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -10572,24 +10479,40 @@
             "value": "Bruxelles-Congrès"
           },
           {
-            "lang": "en",
-            "value": "Brussels Allee-Verte railway station"
+            "lang": "ca",
+            "value": "gare de Bruxelles-Congrès"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Bruxelles-Congrès/Brussel-Congres"
           },
           {
             "lang": "en",
-            "value": "Brussels Groendreef railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Brussels Allée-Verte railway station"
+            "value": "Brussels Congress railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Bruxelles-Allée-Verte"
+            "value": "gare de Bruxelles-Congrès"
+          },
+          {
+            "lang": "hu",
+            "value": "Brussels Congress"
+          },
+          {
+            "lang": "ja",
+            "value": "ブリュッセル＝コングレ駅"
           },
           {
             "lang": "nl",
-            "value": "station Brussel-Groendreef"
+            "value": "station Brussel-Congres"
+          },
+          {
+            "lang": "sv",
+            "value": "gare de Bruxelles-Congrès"
+          },
+          {
+            "lang": "zh",
+            "value": "布魯塞爾國會站"
           }
         ],
         "P722": [
@@ -10600,7 +10523,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8813045",
             "references": [
@@ -10621,10 +10544,11 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FBCO"
-          },
-          {
-            "value": "FBV"
           }
         ],
         "P8448": [
@@ -10649,7 +10573,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800212",
             "references": [
@@ -10681,7 +10605,20 @@
         ],
         "PWIKI": [
           {
-            "value": "Q1825002"
+            "value": "Q2201793"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55491"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q67206915"
           }
         ],
         "P131": [
@@ -10689,21 +10626,16 @@
             "value": "Q239"
           }
         ],
-        "P31": [
+        "P281": [
           {
-            "value": "Q55488"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "18"
+            "value": "1000"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008814001-BEFBMZ-BEBMI-trainline-5893-17538-Q2627408",
+      "id": "----https://irail.be/stations/NMBS/008814001-BEFBMZ-BEBMI-trainline-5893-17538-Q800587",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -10787,24 +10719,224 @@
             "value": "Bruxelles-Midi Eurostar"
           },
           {
+            "lang": "hu",
+            "value": "Déli pályaudvar"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة بروسيلس سوث"
+          },
+          {
+            "lang": "bn",
+            "value": "গার দু মিদি"
+          },
+          {
+            "lang": "cs",
+            "value": "ZYR"
+          },
+          {
+            "lang": "da",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "cs",
+            "value": "Brusel jižní nádraží"
+          },
+          {
+            "lang": "da",
+            "value": "Brussels Zuid"
+          },
+          {
+            "lang": "de",
+            "value": "Brüsseler Südbahnhof"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Bruxelles-Midi/Brussel-Zuid"
+          },
+          {
             "lang": "en",
-            "value": "Brussels-Chapel railway station"
+            "value": "Brussels Midi Eurostar"
+          },
+          {
+            "lang": "en",
+            "value": "Brussels Midi/Zuid"
+          },
+          {
+            "lang": "en",
+            "value": "Brussels Zuid"
+          },
+          {
+            "lang": "en",
+            "value": "Brussels-Midi"
+          },
+          {
+            "lang": "en",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "en",
+            "value": "Midi/Zuidstation"
+          },
+          {
+            "lang": "en",
+            "value": "Brussels-South railway station"
+          },
+          {
+            "lang": "en",
+            "value": "ZYR"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Brussels Midi Eurostar"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Brussels Midi/Zuid"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Brussels Zuid"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Brussels-Midi"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Midi/Zuidstation"
+          },
+          {
+            "lang": "en-gb",
+            "value": "ZYR"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Bruselas-Sur"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Bruselas-Sur"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Bruselas Sur"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Brussels-South railway station"
+          },
+          {
+            "lang": "eo",
+            "value": "Stacidomo Bruselo Suda"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Bruselas Sur"
+          },
+          {
+            "lang": "eu",
+            "value": "Brusela Hegoaldeko geltokia"
+          },
+          {
+            "lang": "fa",
+            "value": "ایستگاه راهآهن بروکسل جنوبی"
           },
           {
             "lang": "fr",
-            "value": "gare de Bruxelles-Chapelle"
+            "value": "gare de Bruxelles-Midi"
           },
           {
             "lang": "hu",
-            "value": "Brussels-Chapel vasútállomás"
+            "value": "Brussel-Zuid"
+          },
+          {
+            "lang": "hu",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "ja",
+            "value": "ZYR"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Bruxelles-Midi"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Bruxelles-Midi"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare du Midi vu Bréissel"
+          },
+          {
+            "lang": "ja",
+            "value": "ブリュッセル南駅"
+          },
+          {
+            "lang": "ko",
+            "value": "브뤼셀 남역"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Bréissel-Midi"
+          },
+          {
+            "lang": "lv",
+            "value": "Briseles Dienvidu stacija"
           },
           {
             "lang": "nl",
-            "value": "station Brussel-Kapellekerk"
+            "value": "station Brussel-Zuid"
+          },
+          {
+            "lang": "pl",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "pl",
+            "value": "Garde du Midi"
+          },
+          {
+            "lang": "pl",
+            "value": "Bruxelles Midi"
           },
           {
             "lang": "ro",
-            "value": "gara Bruxelles-Chapelle"
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "ro",
+            "value": "Gara Bruxelles-Midi"
+          },
+          {
+            "lang": "ro",
+            "value": "Gara bruxelles-sud"
+          },
+          {
+            "lang": "ro",
+            "value": "Gara Bruxelles-Sud"
+          },
+          {
+            "lang": "tr",
+            "value": "Brüksel Güney İstasyonu"
+          },
+          {
+            "lang": "zh",
+            "value": "布鲁塞尔南站"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação de Bruxelas-Midi"
+          },
+          {
+            "lang": "id",
+            "value": "Stasiun kereta api Brussel Selatan"
           }
         ],
         "P722": [
@@ -10815,7 +10947,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8814001",
             "references": [
@@ -10833,9 +10965,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8813037"
           }
         ],
         "P17": [
@@ -10849,10 +10978,14 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FBMZ"
           },
           {
-            "value": "FBCK"
+            "value": "BEFBMZ"
           }
         ],
         "P8448": [
@@ -10884,7 +11017,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800004",
             "references": [
@@ -10908,13 +11041,14 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/5893"
               }
             ]
-          },
-          {
-            "value": "8800211"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEBMI",
             "references": [
               {
@@ -10960,17 +11094,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2627408"
+            "value": "Q800587"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "22"
           }
         ],
         "P2044": [
           {
-            "value": "24"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q239"
+            "value": "26"
           }
         ],
         "P31": [
@@ -10978,9 +11112,24 @@
             "value": "Q55488"
           }
         ],
+        "P238": [
+          {
+            "value": "ZYR"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q237674"
+          }
+        ],
         "P856": [
           {
-            "value": "http://www.belgianrail.be/en/stations-and-train/search-a-station/1/bruxelles-chapelle.aspx"
+            "value": "http://www.belgianrail.be/fr/gares/recherche-gares/1/bruxelles-midi.aspx"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Avenue Fonsny 47B, 1060 Brussel"
           }
         ]
       }
@@ -12088,7 +12237,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008814209-BEFNVT-BENIV-trainline-17819-Q1816389",
+      "id": "----https://irail.be/stations/NMBS/008814209-BEFNVT-BENIV-trainline-17819-Q2953782",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12116,16 +12265,28 @@
             "lang": "zh"
           },
           {
+            "lang": "arz",
+            "value": "محطة نيڤيليس"
+          },
+          {
             "lang": "en",
-            "value": "Bois-de-Nivelles railway station"
+            "value": "Nivelles railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Bois-de-Nivelles"
+            "value": "gare de Nivelles"
           },
           {
             "lang": "nl",
-            "value": "station Bois-de-Nivelles"
+            "value": "station Nijvel"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "尼韦勒站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "尼韋爾站"
           }
         ],
         "P722": [
@@ -12136,7 +12297,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8814209",
             "references": [
@@ -12157,6 +12318,10 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FNVT"
           }
         ],
@@ -12182,7 +12347,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800152",
             "references": [
@@ -12194,6 +12359,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEACN",
             "references": [
               {
@@ -12224,7 +12393,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q1816389"
+            "value": "Q2953782"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q319463"
           }
         ],
         "P31": [
@@ -12232,9 +12406,19 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
+        "P1103": [
           {
-            "value": "Q319463"
+            "value": "3"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "117"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://www.belgianrail.be/en/stations-and-train/search-a-station/19/nivelles.aspx"
           }
         ]
       }
@@ -12391,7 +12575,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008814258-BEFBD-BEBRL-trainline-17763-Q108907453",
+      "id": "----https://irail.be/stations/NMBS/008814258-BEFBD-BEBRL-trainline-17763-Q2060145",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12428,12 +12612,20 @@
             "value": "Braine-l’Alleud"
           },
           {
-            "lang": "nl",
-            "value": "Station Kasteelbrakel"
+            "lang": "arz",
+            "value": "محطة براين لاليود"
+          },
+          {
+            "lang": "en",
+            "value": "Braine-l'Alleud railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Braine-le-Château"
+            "value": "gare de Braine-l'Alleud"
+          },
+          {
+            "lang": "nl",
+            "value": "station Eigenbrakel"
           }
         ],
         "P722": [
@@ -12444,7 +12636,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8814258",
             "references": [
@@ -12465,6 +12657,10 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FBD"
           }
         ],
@@ -12490,7 +12686,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800042",
             "references": [
@@ -12502,6 +12698,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEABU",
             "references": [
               {
@@ -12532,7 +12732,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q108907453"
+            "value": "Q2060145"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "4"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "115"
           }
         ],
         "P31": [
@@ -12540,9 +12750,14 @@
             "value": "Q55488"
           }
         ],
+        "P856": [
+          {
+            "value": "http://www.belgianrail.be/en/stations-and-train/search-a-station/19/braine-l-alleud.aspx"
+          }
+        ],
         "P131": [
           {
-            "value": "Q497558"
+            "value": "Q497572"
           }
         ]
       }
@@ -18721,7 +18936,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----https://irail.be/stations/NMBS/008821519-BEMID-MID-BEHEI-trainline-23150-Q2455656",
+      "id": "----https://irail.be/stations/NMBS/008821519-BEMID-MID-BEHEI-trainline-23150",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -18739,30 +18954,6 @@
           {
             "value": "Heide (B)",
             "lang": "nl"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة هيد"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Heide"
-          },
-          {
-            "lang": "es",
-            "value": "Heide"
-          },
-          {
-            "lang": "pl",
-            "value": "Heide"
-          },
-          {
-            "lang": "en",
-            "value": "Heide railway station"
-          },
-          {
-            "lang": "nl",
-            "value": "station Heide"
           }
         ],
         "P722": [
@@ -18776,7 +18967,7 @@
                   "reliability": 0.68
                 }
               ],
-              "reliability": 0
+              "reliability": 0.7000000000000001
             },
             "value": "8821519",
             "references": [
@@ -18822,7 +19013,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.7000000000000001
             },
             "value": "8800062",
             "references": [
@@ -18864,36 +19055,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23150"
               }
             ]
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q2455656"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q724777"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "2"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "25"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P5595": [
-          {
-            "value": "2"
           }
         ]
       }
@@ -27505,7 +27666,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008832045-BELNE-BEBAL-trainline-17843-Q3324235",
+      "id": "----https://irail.be/stations/NMBS/008832045-BELNE-BEBAL-trainline-17843-Q2342272",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -27533,8 +27694,16 @@
             "lang": "zh"
           },
           {
+            "lang": "en",
+            "value": "Balen railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Baelen"
+          },
+          {
             "lang": "nl",
-            "value": "station Balen-Wezel"
+            "value": "station Balen"
           }
         ],
         "P722": [
@@ -27545,7 +27714,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8832045",
             "references": [
@@ -27566,10 +27735,11 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "LNE"
-          },
-          {
-            "value": "GBA"
           }
         ],
         "P8448": [
@@ -27594,7 +27764,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800202",
             "references": [
@@ -27626,7 +27796,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q3324235"
+            "value": "Q2342272"
           }
         ],
         "P31": [
@@ -70192,7 +70362,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008891009-BEFR-BEBSP-trainline-5973-Q2279278",
+      "id": "----https://irail.be/stations/NMBS/008891009-BEFR-BEBRG-trainline-5973-Q800580",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -70209,9 +70379,6 @@
           },
           {
             "value": "Brugge"
-          },
-          {
-            "value": "Brugge-St-Pieters"
           },
           {
             "value": "Bruges",
@@ -70262,8 +70429,48 @@
             "lang": "zh"
           },
           {
+            "lang": "fr",
+            "value": "gare de Bruges"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة بروج"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Brugge"
+          },
+          {
+            "lang": "en",
+            "value": "Brugge railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Station Brugge"
+          },
+          {
+            "lang": "eo",
+            "value": "Stacidomo de Bruĝo"
+          },
+          {
+            "lang": "ja",
+            "value": "ブルージュ駅"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Bruges"
+          },
+          {
+            "lang": "ja",
+            "value": "ブルッヘ駅"
+          },
+          {
             "lang": "nl",
-            "value": "station Brugge-Vorming"
+            "value": "station Brugge"
+          },
+          {
+            "lang": "zh",
+            "value": "布鲁日车站"
           }
         ],
         "P722": [
@@ -70274,7 +70481,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8891009",
             "references": [
@@ -70295,17 +70502,19 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FR"
-          },
-          {
-            "value": "FRV"
           }
         ],
         "P8448": [
           {
-            "value": "BEBSP"
-          },
-          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEBRG",
             "references": [
               {
@@ -70316,22 +70525,28 @@
         ],
         "P954": [
           {
-            "value": "8800307"
-          },
-          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0
+            },
             "value": "8800029",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/5973"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEBRG",
             "references": [
               {
@@ -70362,12 +70577,42 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2279278"
+            "value": "Q800580"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "10"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "7"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q12994"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P281": [
+          {
+            "value": "8000"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Stationsplein"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://hari.b-holding.be/infsta/InfoStation.aspx?StationId=1000210"
           }
         ]
       }
@@ -72075,7 +72320,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008891553-BELZE-BEZEE-trainline-5930-Q2277667",
+      "id": "----https://irail.be/stations/NMBS/008891553-BELZE-BEZEE-trainline-5930-Q339697",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -72094,8 +72339,16 @@
             "value": "Zeebrugge"
           },
           {
+            "lang": "en",
+            "value": "Zeebrugge-Dorp railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Zeebrugge-Dorp"
+          },
+          {
             "lang": "nl",
-            "value": "station Zeebrugge-Vorming"
+            "value": "station Zeebrugge-Dorp"
           }
         ],
         "P722": [
@@ -72106,7 +72359,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8891553",
             "references": [
@@ -72127,10 +72380,11 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "LZE"
-          },
-          {
-            "value": "LZR"
           }
         ],
         "P8448": [
@@ -72155,7 +72409,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800184",
             "references": [
@@ -72167,6 +72421,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEABD",
             "references": [
               {
@@ -72197,7 +72455,22 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2277667"
+            "value": "Q339697"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "3"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q12994"
           }
         ],
         "P31": [
@@ -78024,7 +78297,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008893401-BEFDR-BEDSG-trainline-17771-Q3006672",
+      "id": "----https://irail.be/stations/NMBS/008893401-BEFDR-BEDMD-trainline-17771-Q2426602",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -78041,9 +78314,6 @@
           },
           {
             "value": "Dendermonde"
-          },
-          {
-            "value": "Sint-Gillis-Dendermonde"
           },
           {
             "value": "Termonde",
@@ -78067,15 +78337,23 @@
           },
           {
             "lang": "en",
-            "value": "Sint-Gillis railway station"
+            "value": "Dendermonde railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Saint-Gilles-Lez-Termonde"
+            "value": "gare de Termonde"
           },
           {
             "lang": "nl",
-            "value": "station Sint-Gillis"
+            "value": "station Dendermonde"
+          },
+          {
+            "lang": "zh",
+            "value": "登德爾蒙德車站"
+          },
+          {
+            "lang": "es",
+            "value": "Dendermonde"
           }
         ],
         "P722": [
@@ -78086,7 +78364,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8893401",
             "references": [
@@ -78094,9 +78372,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17771"
               }
             ]
-          },
-          {
-            "value": "8893443"
           }
         ],
         "P17": [
@@ -78110,10 +78385,11 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FDR"
-          },
-          {
-            "value": "1001730"
           }
         ],
         "P8448": [
@@ -78122,9 +78398,6 @@
               "pregrouped": [],
               "reliability": 0
             },
-            "value": "BEDSG"
-          },
-          {
             "value": "BEDMD",
             "references": [
               {
@@ -78136,21 +78409,19 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
               "reliability": 0
             },
-            "value": "8800344"
-          },
-          {
             "value": "8800051",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17771"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -78175,17 +78446,32 @@
         ],
         "PWIKI": [
           {
-            "value": "Q3006672"
+            "value": "Q2426602"
           }
         ],
-        "P1103": [
+        "P131": [
           {
-            "value": "2"
+            "value": "Q13122"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "9"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "4"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "5"
           }
         ]
       }
@@ -86457,7 +86743,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008896008-BELK-BEKOR-trainline-18148-Q2649707",
+      "id": "----https://irail.be/stations/NMBS/008896008-BELK-BEKOR-trainline-18148-Q2786619",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -86508,8 +86794,48 @@
             "lang": "zh"
           },
           {
+            "lang": "arz",
+            "value": "محطة كورتريچك"
+          },
+          {
+            "lang": "en",
+            "value": "Kortrijk railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Courtrai"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Courtrai"
+          },
+          {
+            "lang": "ja",
+            "value": "コルトレイク駅"
+          },
+          {
             "lang": "nl",
-            "value": "station Kortrijk-Weide"
+            "value": "station Kortrijk"
+          },
+          {
+            "lang": "zh",
+            "value": "科特賴克車站"
+          },
+          {
+            "lang": "vls",
+            "value": "Stoatie van Kortryk"
+          },
+          {
+            "lang": "zh",
+            "value": "库尔特赖站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "库尔特赖站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "庫爾特賴站"
           }
         ],
         "P722": [
@@ -86520,7 +86846,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8896008",
             "references": [
@@ -86541,6 +86867,10 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "LK"
           }
         ],
@@ -86566,7 +86896,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800077",
             "references": [
@@ -86578,6 +86908,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEQKT",
             "references": [
               {
@@ -86608,12 +86942,27 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2649707"
+            "value": "Q2786619"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q12995"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "8"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "20"
           }
         ]
       }
@@ -87086,7 +87435,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008896305-BEFME-BEMEN-trainline-5940-Q62609436",
+      "id": "----https://irail.be/stations/NMBS/008896305-BEFME-BEMEN-trainline-5940-Q3097017",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -87117,8 +87466,16 @@
             "lang": "zh"
           },
           {
+            "lang": "en",
+            "value": "Menen railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Menin"
+          },
+          {
             "lang": "nl",
-            "value": "Station Menen-Koekoek"
+            "value": "station Menen"
           }
         ],
         "P722": [
@@ -87129,7 +87486,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8896305",
             "references": [
@@ -87150,6 +87507,10 @@
         ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "FME"
           }
         ],
@@ -87175,7 +87536,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "8800153",
             "references": [
@@ -87187,6 +87548,10 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "BEABN",
             "references": [
               {
@@ -87217,7 +87582,22 @@
         ],
         "PWIKI": [
           {
-            "value": "Q62609436"
+            "value": "Q3097017"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q213224"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "3"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "17"
           }
         ],
         "P31": [

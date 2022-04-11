@@ -2720,7 +2720,7 @@
     },
     {
       "type": "Feature",
-      "id": "---NSR:StopPlace:316-NO1110-11070-trainline-28346-Q611313",
+      "id": "--NSR:StopPlace:316-NO1110-11070-Q611313",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2738,17 +2738,6 @@
           },
           {
             "value": "Oppdal stasjon"
-          },
-          {
-            "value": "Оппдал",
-            "lang": "ru"
-          },
-          {
-            "value": "奧普達爾",
-            "lang": "zh"
-          },
-          {
-            "value": "Oppdal"
           },
           {
             "lang": "pl",
@@ -2778,19 +2767,10 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
+              "pregrouped": [],
               "reliability": 0
             },
-            "value": "7601107",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
-              }
-            ]
+            "value": "7601107"
           }
         ],
         "P17": [
@@ -2811,67 +2791,17 @@
             "value": "OPD"
           }
         ],
-        "P8448": [
+        "PWIKI": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "NOACQ",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
-              }
-            ]
-          }
-        ],
-        "P6724": [
-          {
-            "value": "28346",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
-              }
-            ]
+            "value": "Q611313"
           }
         ],
         "P421": [
-          {
-            "value": "Q5412119",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
-              }
-            ]
-          },
           {
             "value": "Q25989"
           },
           {
             "value": "Q207020"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "value": "7600111",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28346"
-              }
-            ]
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q611313"
           }
         ],
         "P2044": [
@@ -2882,6 +2812,16 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7600111"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "NOACQ"
           }
         ],
         "P131": [
@@ -5717,7 +5657,7 @@
     },
     {
       "type": "Feature",
-      "id": "---NSR:StopPlace:416-NO1200-12040-760001204-Q9368710",
+      "id": "--NSR:StopPlace:416-NO1200-12040-760001204",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5739,34 +5679,6 @@
           {
             "value": "Vikhammar",
             "lang": "sv"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة ڤيخامير"
-          },
-          {
-            "lang": "da",
-            "value": "Vikhammer Station"
-          },
-          {
-            "lang": "en",
-            "value": "Vikhammer Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Vikhammer"
-          },
-          {
-            "lang": "nb",
-            "value": "Vikhammer stasjon"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Vikhammer"
-          },
-          {
-            "lang": "pl",
-            "value": "Vikhammer (przystanek kolejowy)"
           }
         ],
         "P722": [
@@ -5789,49 +5701,7 @@
         ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "VHR"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q9368710"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
-          },
-          {
-            "value": "Q207020"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "1"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "4.7"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600248"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q493988"
           }
         ]
       }

@@ -5,6 +5,8 @@ import { promises as fs } from "fs";
 import { matchAndMerge, merge as mergeMultipleEntities } from ".";
 import { createFeatureCollection } from "../cache/geojson";
 
+console.log('Starting...')
+
 async function importLocations(file: string) {
   const data = await fs.readFile(file, "utf8");
   return JSON.parse(data).features as Location[];
@@ -102,7 +104,7 @@ const GeoJSONPath = __dirname + "/../../../geojson";
     Country.Bulgaria
   );
   await generate(peatus, [nsInternational, euafr, wikidata], Country.Estonia);
-  await generate(renfe, [euafr, cp, trainline, nsInternational], Country.Spain);
+  await generate(renfe, [euafr, cp, trainline, nsInternational, wikidata], Country.Spain);
   await generate(
     trainOse,
     [trainline, nsInternational, wikidata],
@@ -116,21 +118,21 @@ const GeoJSONPath = __dirname + "/../../../geojson";
 
   await generate(
     trenitalia,
-    [nsInternational, sbb, oebb, euafr, iris, trainline],
+    [nsInternational, sbb, oebb, euafr, iris, trainline, wikidata],
     Country.Italy
   );
   await generate(
     litrail,
-    [nsInternational, euafr, trainline, wikidata],
+    [nsInternational, euafr, trainline, wikidata, wikidata],
     Country.Lithuania
   );
   // TODO: has wikidata currently
   await generate(
     ns,
-    [nsInternational, euafr, iris, trainline],
+    [nsInternational, euafr, iris, trainline, wikidata],
     Country.Netherlands
   );
-  await generate(cp, [euafr, renfe, trainline], Country.Portugal);
+  await generate(cp, [euafr, renfe, trainline, wikidata], Country.Portugal);
   await generate(
     gov,
     [nsInternational, euafr, oebb, iris, trainline, wikidata],
@@ -143,45 +145,45 @@ const GeoJSONPath = __dirname + "/../../../geojson";
   );
   await generate(
     euafr,
-    [trainline, oebb, leoExpress, nsInternational, pkp, zsr, iris, regiojet],
+    [trainline, oebb, leoExpress, nsInternational, pkp, zsr, iris, regiojet, wikidata],
     Country.Czech
   );
-  await generate(hzpp, [euafr, iris, oebb, trainline], Country.Croatia);
+  await generate(hzpp, [euafr, iris, oebb, trainline, wikidata], Country.Croatia);
   await generate(
     euafr,
     [iris, nsInternational, trafiklab, trainline, wikidata],
     Country.Denmark
   );
-  await generate(digitraffic, [nsInternational, euafr], Country.Finland);
+  await generate(digitraffic, [nsInternational, euafr, wikidata], Country.Finland);
   await generate(
     sncf,
-    [euafr, iris, renfe, openov, nsInternational, ns, trainline],
+    [euafr, iris, renfe, openov, nsInternational, ns, trainline, wikidata],
     Country.France
   );
-  await generate(irishRail, [trainline], Country.Ireland);
+  await generate(irishRail, [trainline, wikidata], Country.Ireland);
   await generate(
     sbb,
-    [euafr, iris, oebb, nsInternational, ns, zsr, trainline],
+    [euafr, iris, oebb, nsInternational, ns, zsr, trainline, wikidata],
     Country.Switzerland
   );
   await generate(
     atoc,
-    [ns, nsInternational, irishRail, trainline, euafr],
+    [ns, nsInternational, irishRail, trainline, euafr, wikidata],
     Country.UnitedKingdom
   );
   await generate(
     euafr,
-    [iris, oebb, regiojet, nsInternational, zsr, trainline],
+    [iris, oebb, regiojet, nsInternational, zsr, trainline, wikidata],
     Country.Slovenia
   );
   await generate(
     pkp,
-    [euafr, iris, oebb, leoExpress, regiojet, nsInternational, zsr, trainline],
+    [euafr, iris, oebb, leoExpress, regiojet, nsInternational, zsr, trainline, wikidata],
     Country.Poland
   );
   await generate(
     entur,
-    [euafr, nsInternational, trafiklab, trainline],
+    [euafr, nsInternational, trafiklab, trainline, wikidata],
     Country.Norway
   );
   await generate(
@@ -220,6 +222,7 @@ const GeoJSONPath = __dirname + "/../../../geojson";
       pkp,
       trafiklab,
       zsr,
+      wikidata
     ],
     Country.Germany
   );
@@ -235,6 +238,7 @@ const GeoJSONPath = __dirname + "/../../../geojson";
       trafiklab,
       zsr,
       trainline,
+      wikidata
     ],
     Country.Austria
   );

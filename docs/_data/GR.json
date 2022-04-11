@@ -476,7 +476,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΑΔΕΝ-Q105359918",
+      "id": "-ΑΔΕΝ-Q15116515",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -497,8 +497,8 @@
             "lang": "en"
           },
           {
-            "lang": "en",
-            "value": "Adendro railway station"
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Αδένδρου"
           }
         ],
         "info": {
@@ -524,7 +524,15 @@
         ],
         "PWIKI": [
           {
-            "value": "Q105359918"
+            "value": "Q15116515"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
           }
         ],
         "P31": [
@@ -716,7 +724,7 @@
     },
     {
       "type": "Feature",
-      "id": "---ΑΘΗΝ-trainline-28218-GRATH-Q20747227",
+      "id": "---ΑΘΗΝ-trainline-28218-GRATH-Q3560693",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -799,28 +807,92 @@
             "value": "Athina"
           },
           {
-            "lang": "en",
-            "value": "Athens Peloponnese railway station"
+            "lang": "el",
+            "value": "Σιδηροδρομικός σταθμός Αθήνας"
           },
           {
-            "lang": "en",
-            "value": "Athens Peloponnese train station"
-          },
-          {
-            "lang": "de",
-            "value": "Athen Peloponnesischer Bahnhof"
+            "lang": "arz",
+            "value": "محطة اثينس"
           },
           {
             "lang": "de",
-            "value": "Athen Peloponnes-Bahnhof"
+            "value": "Bahnhof Athen"
           },
           {
             "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Αθηνών Πελοποννήσου"
+            "value": "Κεντρικός σιδηροδρομικός σταθμός Αθηνών"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός σταθμός Πειραιώς - Αθηνών - Πελοποννήσου"
+          },
+          {
+            "lang": "el",
+            "value": "Σταθμός Λαρίσης"
           },
           {
             "lang": "en",
-            "value": "Peloponnese railway station of Athens"
+            "value": "Athens Railway Station"
+          },
+          {
+            "lang": "en",
+            "value": "Larissa Station"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Atenas"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Central de Atenas"
+          },
+          {
+            "lang": "fa",
+            "value": "ایستگاه راهآهن آتن"
+          },
+          {
+            "lang": "fi",
+            "value": "Ateenan rautatieasema"
+          },
+          {
+            "lang": "fr",
+            "value": "gare d'Athènes"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Atene"
+          },
+          {
+            "lang": "ja",
+            "value": "アテネ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Athene"
+          },
+          {
+            "lang": "pl",
+            "value": "Ateny Centralne"
+          },
+          {
+            "lang": "tr",
+            "value": "Atina Tren İstasyonu"
+          },
+          {
+            "lang": "zh",
+            "value": "雅典火车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "雅典火车站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "雅典火車站"
+          },
+          {
+            "lang": "zh-hk",
+            "value": "雅典火車站"
           }
         ],
         "info": {
@@ -844,15 +916,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "7300106",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28218"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P8448": [
@@ -903,7 +980,7 @@
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0
             },
             "value": "7300001",
             "references": [
@@ -915,12 +992,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q20747227"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
+            "value": "Q3560693"
           }
         ],
         "P131": [
@@ -930,7 +1002,22 @@
         ],
         "P276": [
           {
-            "value": "Q25247393"
+            "value": "Q1524"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "15"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XGA"
           }
         ]
       }
@@ -1112,14 +1199,12 @@
     },
     {
       "type": "Feature",
-      "id": "-ΑΙΓΝ-Q98768991",
+      "id": "ΑΙΓΝ",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Point",
         "coordinates": [
-          [
-            22.540719985961914,
-            40.511661529541016
-          ]
+          22.540719985961914,
+          40.511661529541016
         ]
       },
       "properties": {
@@ -1131,19 +1216,8 @@
           {
             "value": "Aiginio",
             "lang": "en"
-          },
-          {
-            "lang": "en",
-            "value": "Aiginio railway station"
           }
         ],
-        "info": {
-          "pregrouped": [
-            {
-              "enabled": true
-            }
-          ]
-        },
         "P296": [
           {
             "value": "ΑΙΓΝ"
@@ -1151,23 +1225,12 @@
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q41"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q98768991"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
+        "info": {
+          "enabled": true
+        }
       }
     },
     {
@@ -1659,7 +1722,7 @@
     },
     {
       "type": "Feature",
-      "id": "--ΑΛΕΞ-trainline-28216-Q18335627",
+      "id": "-ΑΛΕΞ-trainline-28216",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1701,39 +1764,13 @@
           },
           {
             "value": "Alexandroupoli"
-          },
-          {
-            "lang": "el",
-            "value": "Σιδηροδρομικός σταθμός Αλεξανδρούπολης"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Λιμένα Αλεξανδρούπολης"
-          },
-          {
-            "lang": "en",
-            "value": "Alexandroupoli railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Alexandroupoli"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Alessandropoli"
-          },
-          {
-            "lang": "ja",
-            "value": "アレクサンドルポリス駅"
-          },
-          {
-            "lang": "pl",
-            "value": "Aleksandropolis Port"
           }
         ],
         "info": {
           "pregrouped": [
-            {}
+            {
+              "enabled": true
+            }
           ]
         },
         "P296": [
@@ -1791,12 +1828,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28216"
               }
             ]
-          },
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
           }
         ],
         "P954": [
@@ -1810,27 +1841,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q18335627"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55485"
-          },
-          {
-            "value": "Q55488"
-          },
-          {
-            "value": "Q22808404"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q190847"
           }
         ]
       }
@@ -3581,14 +3591,12 @@
     },
     {
       "type": "Feature",
-      "id": "-ΑΣΠΧ-Q23070495",
+      "id": "ΑΣΠΧ",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Point",
         "coordinates": [
-          [
-            22.08778953552246,
-            37.039058685302734
-          ]
+          22.08778953552246,
+          37.039058685302734
         ]
       },
       "properties": {
@@ -3600,23 +3608,8 @@
           {
             "value": "Asprochoma",
             "lang": "en"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Ασπροχώματος"
-          },
-          {
-            "lang": "en",
-            "value": "Asprochoma Railway Station"
           }
         ],
-        "info": {
-          "pregrouped": [
-            {
-              "enabled": false
-            }
-          ]
-        },
         "P296": [
           {
             "value": "ΑΣΠΧ"
@@ -3624,36 +3617,12 @@
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q41"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q23070495"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q1192028"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
-          }
-        ]
+        "info": {
+          "enabled": false
+        }
       }
     },
     {
@@ -4065,7 +4034,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΑΧΑΡ-Q17853994",
+      "id": "-ΑΧΑΡ-Q15116532",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4087,19 +4056,15 @@
           },
           {
             "lang": "el",
-            "value": "σιδηροδρομικός σταθμός  Κάτω Αχαρνών"
+            "value": "σιδηροδρομικός σταθμός Αχαρνών"
           },
           {
             "lang": "en",
-            "value": "Kato Acharnes railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Kato Acharnai station"
+            "value": "Acharnes station"
           },
           {
             "lang": "it",
-            "value": "stazione di Kato Acharnai"
+            "value": "stazione di Acharnes SKA"
           }
         ],
         "info": {
@@ -4125,23 +4090,10 @@
         ],
         "PWIKI": [
           {
-            "value": "Q17853994"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q4670000"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q21514830"
+            "value": "Q15116532"
           }
         ],
         "P31": [
-          {
-            "value": "Q22808404"
-          },
           {
             "value": "Q55488"
           }
@@ -4958,7 +4910,7 @@
     },
     {
       "type": "Feature",
-      "id": "--ΒΟΛΟ-trainline-28211-Q17843621",
+      "id": "-ΒΟΛΟ-trainline-28211",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4984,31 +4936,13 @@
           },
           {
             "value": "Volos"
-          },
-          {
-            "lang": "ba",
-            "value": "Волос тимер юл станцияһы"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Volos"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Βόλου"
-          },
-          {
-            "lang": "en",
-            "value": "Volos railway station"
-          },
-          {
-            "lang": "ru",
-            "value": "Волос"
           }
         ],
         "info": {
           "pregrouped": [
-            {}
+            {
+              "enabled": true
+            }
           ]
         },
         "P296": [
@@ -5066,12 +5000,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28211"
               }
             ]
-          },
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
           }
         ],
         "P954": [
@@ -5085,19 +5013,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q17843621"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q22808404"
-          },
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -7435,7 +7350,7 @@
     },
     {
       "type": "Feature",
-      "id": "--ΕΙΔΟ-trainline-28220-Q18335591",
+      "id": "--ΕΙΔΟ-trainline-28220-Q105972629",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7459,8 +7374,8 @@
             "value": "Idomeni"
           },
           {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Ειδομένης"
+            "lang": "en",
+            "value": "Idomeni railway station"
           }
         ],
         "info": {
@@ -7523,12 +7438,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28220"
               }
             ]
-          },
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
           }
         ],
         "P954": [
@@ -7546,7 +7455,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q18335591"
+            "value": "Q105972629"
           }
         ],
         "P31": [
@@ -8513,7 +8422,7 @@
     },
     {
       "type": "Feature",
-      "id": "---ΘΕΣΣ-trainline-28212-GRAAE-Q64865392",
+      "id": "---ΘΕΣΣ-trainline-28212-GRAAE-Q15116556",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8573,8 +8482,76 @@
             "value": "Thessaloniki"
           },
           {
+            "lang": "arz",
+            "value": "محطة نيو"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Thessaloniki"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Thessaloníki"
+          },
+          {
+            "lang": "de",
+            "value": "Neuer Bahnhof Thessaloniki"
+          },
+          {
             "lang": "el",
-            "value": "παλαιός σιδηροδρομικός σταθμός  Θεσσαλονίκης"
+            "value": "Νέος Σιδηροδρομικός Σταθμός Θεσσαλονίκης"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Thessaloníki"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Θεσσαλονίκης"
+          },
+          {
+            "lang": "en",
+            "value": "New Railway Station of Thessaloniki"
+          },
+          {
+            "lang": "en",
+            "value": "New Railway Station, Thessaloniki"
+          },
+          {
+            "lang": "es",
+            "value": "estación Salónica"
+          },
+          {
+            "lang": "fi",
+            "value": "Thessalonikin rautatieasema"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Thessalonique"
+          },
+          {
+            "lang": "it",
+            "value": "Nuova stazione di Salonicco"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Salonicco"
+          },
+          {
+            "lang": "ja",
+            "value": "テッサロニキ新駅"
+          },
+          {
+            "lang": "pl",
+            "value": "Nowa Stacja Kolejowa w Salonikach"
+          },
+          {
+            "lang": "ru",
+            "value": "Новый вокзал"
+          },
+          {
+            "lang": "zh",
+            "value": "新塞薩洛尼基車站"
           }
         ],
         "info": {
@@ -8667,12 +8644,33 @@
         ],
         "PWIKI": [
           {
-            "value": "Q64865392"
+            "value": "Q15116556"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q17151"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "8"
           }
         ],
         "P31": [
           {
+            "value": "Q55485"
+          },
+          {
             "value": "Q55488"
+          },
+          {
+            "value": "Q22808404"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q6627746"
           }
         ]
       }
@@ -9839,7 +9837,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΚΑΛΤ-Q105563811",
+      "id": "-ΚΑΛΤ-Q3239501",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -9860,8 +9858,16 @@
             "lang": "en"
           },
           {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Καλαμάτας"
+          },
+          {
             "lang": "en",
-            "value": "Kalamata railway station"
+            "value": "Kalamata Railway Station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Kalamata"
           }
         ],
         "info": {
@@ -9887,12 +9893,35 @@
         ],
         "PWIKI": [
           {
-            "value": "Q105563811"
+            "value": "Q3239501"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q167895"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1192028"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7301595"
           }
         ]
       }
@@ -12955,7 +12984,7 @@
     },
     {
       "type": "Feature",
-      "id": "--ΛΑΜΙ-trainline-28223-Q18335612",
+      "id": "--ΛΑΜΙ-trainline-28223-Q17449588",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12988,7 +13017,11 @@
           },
           {
             "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Καλυβίων Λαμίας"
+            "value": "σιδηροδρομικός σταθμός Λαμίας"
+          },
+          {
+            "lang": "en",
+            "value": "Lamia railway station"
           }
         ],
         "info": {
@@ -13074,7 +13107,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q18335612"
+            "value": "Q17449588"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q192980"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q16329968"
           }
         ],
         "P31": [
@@ -13221,7 +13264,7 @@
     },
     {
       "type": "Feature",
-      "id": "--ΛΑΡΙ-trainline-28210-Q14771486",
+      "id": "-ΛΑΡΙ-trainline-28210",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -13251,35 +13294,18 @@
           },
           {
             "value": "Larissa"
-          },
-          {
-            "lang": "pl",
-            "value": "Larisa"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Larissa"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός  Λαρίσης"
-          },
-          {
-            "lang": "en",
-            "value": "Larissa railway station"
           }
         ],
         "info": {
           "pregrouped": [
-            {}
+            {
+              "enabled": true
+            }
           ]
         },
         "P296": [
           {
             "value": "ΛΑΡΙ"
-          },
-          {
-            "value": "LAR"
           }
         ],
         "P17": [
@@ -13332,12 +13358,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28210"
               }
             ]
-          },
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
           }
         ],
         "P954": [
@@ -13351,24 +13371,6 @@
             "info": {
               "reliability": 0.7000000000000001
             }
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q14771486"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          },
-          {
-            "value": "Q22808404"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q178405"
           }
         ]
       }
@@ -15848,14 +15850,12 @@
     },
     {
       "type": "Feature",
-      "id": "-ΜΕΣΠ-Q18335596",
+      "id": "ΜΕΣΠ",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Point",
         "coordinates": [
-          [
-            22.16152000427246,
-            38.11042022705078
-          ]
+          22.16152000427246,
+          38.11042022705078
         ]
       },
       "properties": {
@@ -15867,63 +15867,8 @@
           {
             "value": "Mega Spilaio",
             "lang": "en"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zachlorú-Mega Spilaion"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zachloru-Mega Spileon"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zachlorú-Mega Spiléon"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zachlorú-Mega Spiläon"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Ζαχλωρούς-Μεγάλου Σπηλαίου"
-          },
-          {
-            "lang": "en",
-            "value": "Zachlorou-Mega Spilaio railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Zachlorou-Mega Spileon railway station"
-          },
-          {
-            "lang": "es",
-            "value": "estación de Zachlorú-Mega Spileon"
-          },
-          {
-            "lang": "en",
-            "value": "Zachlorou-Mega Spileo railway station"
-          },
-          {
-            "lang": "es",
-            "value": "estación Zachlorú-Mega Spileon"
-          },
-          {
-            "lang": "en",
-            "value": "Mega Spileo railway station"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Μεγάλου Σπηλαίου"
           }
         ],
-        "info": {
-          "pregrouped": [
-            {
-              "enabled": true
-            }
-          ]
-        },
         "P296": [
           {
             "value": "ΜΕΣΠ"
@@ -15931,41 +15876,12 @@
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q41"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q18335596"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q3574535"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q16005641"
-          }
-        ]
+        "info": {
+          "enabled": true
+        }
       }
     },
     {
@@ -17965,14 +17881,12 @@
     },
     {
       "type": "Feature",
-      "id": "-ΞΥΛΟ-Q87394083",
+      "id": "ΞΥΛΟ",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Point",
         "coordinates": [
-          [
-            22.631900787353516,
-            38.074378967285156
-          ]
+          22.631900787353516,
+          38.074378967285156
         ]
       },
       "properties": {
@@ -17984,23 +17898,8 @@
           {
             "value": "Xylokastro",
             "lang": "en"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Ξυλοκάστρου"
-          },
-          {
-            "lang": "en",
-            "value": "Xylokastro railway station"
           }
         ],
-        "info": {
-          "pregrouped": [
-            {
-              "enabled": true
-            }
-          ]
-        },
         "P296": [
           {
             "value": "ΞΥΛΟ"
@@ -18008,31 +17907,12 @@
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q41"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q87394083"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
+        "info": {
+          "enabled": true
+        }
       }
     },
     {
@@ -21886,7 +21766,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΠΜΕΤ-Q106610109",
+      "id": "-ΠΜΕΤ-Q12884456",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -21908,7 +21788,27 @@
           },
           {
             "lang": "en",
+            "value": "Metamorfosi station"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Μεταμόρφωσης"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός σταθμός Μεταμόρφωσης"
+          },
+          {
+            "lang": "en",
             "value": "Metamorfosi railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "Metamorfosi"
+          },
+          {
+            "lang": "ru",
+            "value": "Метаморфосис"
           }
         ],
         "info": {
@@ -21934,7 +21834,25 @@
         ],
         "PWIKI": [
           {
-            "value": "Q106610109"
+            "value": "Q12884456"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q2290700"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q21622089"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
           }
         ],
         "P31": [
@@ -22631,7 +22549,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΠΠΕΝ-Q106610156",
+      "id": "-ΠΠΕΝ-Q12884465",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -22652,8 +22570,16 @@
             "lang": "en"
           },
           {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Πεντέλης"
+          },
+          {
             "lang": "en",
-            "value": "Pentelis railway station"
+            "value": "Pentelis station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Pentelis"
           }
         ],
         "info": {
@@ -22679,7 +22605,15 @@
         ],
         "PWIKI": [
           {
-            "value": "Q106610156"
+            "value": "Q12884465"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
           }
         ],
         "P31": [
@@ -25328,7 +25262,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΣΟΥΦ-Q104861764",
+      "id": "-ΣΟΥΦ-Q98560020",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -25347,6 +25281,10 @@
           {
             "value": "Soufli",
             "lang": "en"
+          },
+          {
+            "lang": "el",
+            "value": "Σουφλι"
           },
           {
             "lang": "en",
@@ -25376,7 +25314,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q104861764"
+            "value": "Q98560020"
           }
         ],
         "P31": [
@@ -26143,7 +26081,7 @@
     },
     {
       "type": "Feature",
-      "id": "-ΣΥΝΕ-Q18009302",
+      "id": "-ΣΥΝΕ-Q18009300",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -26164,16 +26102,12 @@
             "lang": "en"
           },
           {
-            "lang": "en",
-            "value": "Dilesi railway station"
-          },
-          {
             "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Δηλεσίου"
+            "value": "σιδηροδρομικός σταθμός  Αγίου Γεωργίου"
           },
           {
             "lang": "en",
-            "value": "Dilesi station"
+            "value": "Agios Georgios station"
           }
         ],
         "info": {
@@ -26199,12 +26133,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q18009302"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
+            "value": "Q18009300"
           }
         ],
         "P421": [
@@ -26213,6 +26142,11 @@
           },
           {
             "value": "Q6760"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -30390,14 +30324,12 @@
     },
     {
       "type": "Feature",
-      "id": "-ΛΥΚΠ-Q106610317",
+      "id": "ΛΥΚΠ",
       "geometry": {
-        "type": "MultiPoint",
+        "type": "Point",
         "coordinates": [
-          [
-            22.503143310546875,
-            38.1271858215332
-          ]
+          22.503143310546875,
+          38.1271858215332
         ]
       },
       "properties": {
@@ -30409,19 +30341,8 @@
           {
             "value": "Lykoporia",
             "lang": "en"
-          },
-          {
-            "lang": "en",
-            "value": "Lykoporia railway station"
           }
         ],
-        "info": {
-          "pregrouped": [
-            {
-              "enabled": true
-            }
-          ]
-        },
         "P296": [
           {
             "value": "ΛΥΚΠ"
@@ -30429,23 +30350,12 @@
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q41"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q106610317"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
+        "info": {
+          "enabled": true
+        }
       }
     },
     {
