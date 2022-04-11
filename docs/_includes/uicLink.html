@@ -2,6 +2,7 @@
   {{ label.value }}
 
   {% assign uicCountryCode = label.value | slice: 0, 2 %}
+  {% assign uicStationCode = label.value | slice: 2, 7 %}
 
   {% if uicCountryCode == '54' %}
     <a
@@ -26,6 +27,19 @@
       <img
         src="http://www.hzpp.hr/Themes/CorvusTheme/Content/img/HZPP_logo_color_small.png"
         title="HZPP (HU)"
+        style="width: 1.2em; width: 1.2em"
+      />
+    </a>
+    {% elsif uicCountryCode == '79' %}
+    <a
+      href="https://potniski.sz.si/en/plan-your-journey/?action=timetables_search&current-language=en&entry-station={{ uicStationCode }}"
+      target="_blank"
+      class="btn btn-outline-dark btn-sm"
+      style="word-wrap: nowrap;"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/92/Slovenske_%C5%BEeleznice_logo.svg"
+        title="SZ (SI)"
         style="width: 1.2em; width: 1.2em"
       />
     </a>
