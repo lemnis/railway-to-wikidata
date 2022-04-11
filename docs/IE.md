@@ -5,12 +5,20 @@ title: "Ireland"
 {% assign stations = site.data.IE %}
 {% assign tracks = 'IE' %}
 {% include map.html %}
+<br />
+
+## Todo
+
+- Add links to departure board, format: `https://www.transportforireland.ie/live-travel-info-service-updates/live-departures/?departureId=${stop_id.slice(0, -1)}&departureValue=${stop_name}`
+
+## Stations
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
       <th>Station code</th>
+      <th>ATOC</th>
       <th>UIC</th>
       <th>IBNR</th>
       <th>DB</th>
@@ -18,6 +26,7 @@ title: "Ireland"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
     </tr>
   </thead>
   <tbody>
@@ -28,12 +37,19 @@ title: "Ireland"
           {{ feature.properties.labels[0].value }}</td>
         <td>
           {% for label in feature.properties.P296 %}
-          <a href="https://www.ns.nl/en/stationsinformatie/{{ label.value }}" target="_blank">
-            {{ label.value }}
-          </a>
-          <br />
+            {% include stationCodeLink.html %}
           {% endfor %}
         </td>
+        <td>
+          {% for label in feature.properties.P4755 %}
+          <a
+            href="https://www.nationalrail.co.uk/stations/{{ label.value }}/details.htmls"
+            target="_blank"
+          >
+            {{ label.value }}
+          </a><br />
+          {% endfor %}
+        </td>      
         <td>
           {% for label in feature.properties.P722 %}
             {% include uicLink.html %}
@@ -67,6 +83,14 @@ title: "Ireland"
           <br />
           {% endfor %}
         </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>        
       </tr>
     {% endfor %}
   </tbody>
