@@ -13,7 +13,7 @@ export const trainlineArrayToLocation = async (
 
   const location: Location = {
     type: "Feature",
-    id: `trainline-${stations.map(({ id }) => id).join('-')}`,
+    id: `trainline-${stations.map(({ id }) => id).join("-")}`,
     geometry: {
       type: "MultiPoint",
       coordinates:
@@ -49,11 +49,13 @@ export const trainlineArrayToLocation = async (
   };
 
   if (stations?.filter(({ uic }) => uic).length) {
-    location.properties[CodeIssuer.UIC] = stations?.filter(({uic }) => uic).map(({ uic }) => ({
-      value: uic,
-      references,
-      info: { reliability: ReliabilityTrainline[CodeIssuer.UIC] },
-    }));
+    location.properties[CodeIssuer.UIC] = stations
+      ?.filter(({ uic }) => uic)
+      .map(({ uic }) => ({
+        value: uic,
+        references,
+        info: { reliability: ReliabilityTrainline[CodeIssuer.UIC] },
+      }));
   }
 
   const countries = stations
@@ -62,53 +64,63 @@ export const trainlineArrayToLocation = async (
   if (countries.length) location.properties[Property.Country] = countries;
 
   if (stations?.filter(({ benerail_id }) => benerail_id).length) {
-    location.properties[CodeIssuer.Benerail] = stations?.filter(({ benerail_id }) => benerail_id).map(
-      ({ benerail_id }) => ({
+    location.properties[CodeIssuer.Benerail] = stations
+      ?.filter(({ benerail_id }) => benerail_id)
+      .map(({ benerail_id }) => ({
         value: benerail_id,
         references,
-      })
-    );
+        info: { reliability: ReliabilityTrainline[CodeIssuer.Benerail] },
+      }));
   }
 
   if (stations?.filter(({ atoc_id }) => atoc_id).length) {
-    location.properties[CodeIssuer.ATOC] = stations?.filter(({atoc_id }) => atoc_id).map(({ atoc_id }) => ({
-      value: atoc_id,
-      references,
-    }));
+    location.properties[CodeIssuer.ATOC] = stations
+      ?.filter(({ atoc_id }) => atoc_id)
+      .map(({ atoc_id }) => ({
+        value: atoc_id,
+        references,
+        info: { reliability: ReliabilityTrainline[CodeIssuer.ATOC] },
+      }));
   }
 
   if (stations?.filter(({ sncf_id }) => sncf_id).length) {
-    location.properties[CodeIssuer.SNCF] = stations?.filter(({sncf_id }) => sncf_id).map(({ sncf_id }) => ({
-      value: sncf_id,
-      references,
-    }));
+    location.properties[CodeIssuer.SNCF] = stations
+      ?.filter(({ sncf_id }) => sncf_id)
+      .map(({ sncf_id }) => ({
+        value: sncf_id,
+        references,
+        info: { reliability: ReliabilityTrainline[CodeIssuer.SNCF] },
+      }));
   }
 
   if (stations?.filter(({ id }) => id).length) {
-    location.properties[CodeIssuer.Trainline] = stations?.filter(({id }) => id).map(({ id }) => ({
-      value: id,
-      references,
-    }));
+    location.properties[CodeIssuer.Trainline] = stations
+      ?.filter(({ id }) => id)
+      .map(({ id }) => ({
+        value: id,
+        references,
+        info: { reliability: ReliabilityTrainline[CodeIssuer.Trainline] },
+      }));
   }
 
   const timeZones = await Promise.all(
-    [...new Set(stations?.map(({ time_zone }) => time_zone))].filter(Boolean).map(
-      async (time_zone) => ({
+    [...new Set(stations?.map(({ time_zone }) => time_zone))]
+      .filter(Boolean)
+      .map(async (time_zone) => ({
         value: (await getTimeZonesByName(time_zone))?.[0]?.id,
         references,
-      })
-    )
+      }))
   );
   if (timeZones.length)
     location.properties[Property.LocatedInTimeZone] = timeZones;
 
   if (stations?.filter(({ iata_airport_code }) => iata_airport_code).length) {
-    location.properties[CodeIssuer.IATA] = stations?.filter(({ iata_airport_code }) => iata_airport_code).map(
-      ({ iata_airport_code }) => ({
+    location.properties[CodeIssuer.IATA] = stations
+      ?.filter(({ iata_airport_code }) => iata_airport_code)
+      .map(({ iata_airport_code }) => ({
         value: iata_airport_code,
         references,
-      })
-    );
+      }));
   }
 
   const ibnr = Array.from(
@@ -120,11 +132,13 @@ export const trainlineArrayToLocation = async (
     )
   );
   if (ibnr.length) {
-    location.properties[CodeIssuer.IBNR] = ibnr?.filter(Boolean).map((value) => ({
-      value,
-      references,
-      info: { reliability: ReliabilityTrainline[CodeIssuer.IBNR] },
-    }));
+    location.properties[CodeIssuer.IBNR] = ibnr
+      ?.filter(Boolean)
+      .map((value) => ({
+        value,
+        references,
+        info: { reliability: ReliabilityTrainline[CodeIssuer.IBNR] },
+      }));
   }
 
   return location;

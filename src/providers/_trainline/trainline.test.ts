@@ -5,19 +5,19 @@ import { Country } from "../../transform/country";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
-import { GenericScore } from "./trainline.constants";
+import { Score } from "./trainline.constants";
 import { labelLanguage } from "../../utils/test/labelLanguage";
 
 const path = __dirname + "/../../../geojson/";
 
-const SIZE_LIMIT = 3;
+const SIZE_LIMIT = 500;
 type Context = Awaited<ReturnType<typeof getFullMatchScore>>;
 
 const trainlineLocations: Location[] = JSON.parse(
   fs.readFileSync(path + "trainline-stations.geojson", "utf-8")
 ).features;
-const wikipedia: Location[] = JSON.parse(
-  fs.readFileSync(path + "_iris.geojson", "utf-8")
+const wikidata: Location[] = JSON.parse(
+  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
 ).features;
 
 const byCountry: Record<string, Location[]> = {};
@@ -38,7 +38,7 @@ trainlineLocations.forEach((location) => {
 test.before(async (t) => {
   t.context = await getFullMatchScore(
     Object.values(byCountry).flat(),
-    wikipedia
+    wikidata
   );
 });
 
@@ -46,7 +46,6 @@ const macro = test.macro({
   exec: async (t, c: any, locations: any[]) => {
     const {
       [Property.Country]: country,
-      [Property.CoordinateLocation]: location,
       // [Property.StationCode]: stationCode,
       [CodeIssuer.UIC]: uic,
       [CodeIssuer.ATOC]: atoc,
@@ -58,9 +57,9 @@ const macro = test.macro({
       [CodeIssuer.Trainline]: trainline,
     } = t.context as Context;
 
-    // closeTo(t, country.matches / country.total, 1);
-    // 
+    console.log(t.context);
 
+    // closeTo(t, country.matches / country.total, 1);
     // t.assert(trainline.total < LARGE_DATA_SIZE);
 
     atoc?.total > LARGE_DATA_SIZE
@@ -96,32 +95,32 @@ test("ATOC", (t) => {
     t,
     (t.context as Context)[CodeIssuer.ATOC]?.matches /
       (t.context as Context)[CodeIssuer.ATOC]?.total,
-    GenericScore[CodeIssuer.ATOC]
+    Score[CodeIssuer.ATOC]
   );
 });
 
-// test("DB", (t) => {
-//   t.false((t.context as Context)[CodeIssuer.DB]?.total > LARGE_DATA_SIZE);
-//   closeTo(
-//     t,
-//     (t.context as Context)[CodeIssuer.DB]?.matches /
-//       (t.context as Context)[CodeIssuer.DB]?.total,
-//     GenericScore[CodeIssuer.DB]
-//   );
-// });
+test.skip("DB", (t) => {
+  t.false((t.context as Context)[CodeIssuer.DB]?.total > LARGE_DATA_SIZE);
+  closeTo(
+    t,
+    (t.context as Context)[CodeIssuer.DB]?.matches /
+      (t.context as Context)[CodeIssuer.DB]?.total,
+    Score[CodeIssuer.DB]
+  );
+});
 
-// test("garesAndConnexions", (t) => {
-//   t.false(
-//     (t.context as Context)[CodeIssuer.GaresAndConnexions]?.total >
-//       LARGE_DATA_SIZE
-//   );
-//   closeTo(
-//     t,
-//     (t.context as Context)[CodeIssuer.GaresAndConnexions]?.matches /
-//       (t.context as Context)[CodeIssuer.GaresAndConnexions]?.total,
-//     GenericScore[CodeIssuer.GaresAndConnexions]
-//   );
-// });
+test.skip("garesAndConnexions", (t) => {
+  t.false(
+    (t.context as Context)[CodeIssuer.GaresAndConnexions]?.total >
+      LARGE_DATA_SIZE
+  );
+  closeTo(
+    t,
+    (t.context as Context)[CodeIssuer.GaresAndConnexions]?.matches /
+      (t.context as Context)[CodeIssuer.GaresAndConnexions]?.total,
+    Score[CodeIssuer.GaresAndConnexions]
+  );
+});
 
 test("UIC", (t) => {
   t.truthy((t.context as Context)[CodeIssuer.UIC]?.total > LARGE_DATA_SIZE);
@@ -129,7 +128,7 @@ test("UIC", (t) => {
     t,
     (t.context as Context)[CodeIssuer.UIC]?.matches /
       (t.context as Context)[CodeIssuer.UIC]?.total,
-    GenericScore[CodeIssuer.UIC]
+    Score[CodeIssuer.UIC]
   );
 });
 
@@ -141,7 +140,7 @@ test("Benerail", (t) => {
     t,
     (t.context as Context)[CodeIssuer.Benerail]?.matches /
       (t.context as Context)[CodeIssuer.Benerail]?.total,
-    GenericScore[CodeIssuer.Benerail]
+    Score[CodeIssuer.Benerail]
   );
 });
 
@@ -151,7 +150,7 @@ test("IBNR", (t) => {
     t,
     (t.context as Context)[CodeIssuer.IBNR]?.matches /
       (t.context as Context)[CodeIssuer.IBNR]?.total,
-    GenericScore[CodeIssuer.IBNR]
+    Score[CodeIssuer.IBNR]
   );
 });
 
@@ -161,7 +160,7 @@ test("SNCF", (t) => {
     t,
     (t.context as Context)[CodeIssuer.SNCF]?.matches /
       (t.context as Context)[CodeIssuer.SNCF]?.total,
-    GenericScore[CodeIssuer.SNCF]
+    Score[CodeIssuer.SNCF]
   );
 });
 
@@ -173,11 +172,11 @@ test("Trainline", (t) => {
     t,
     (t.context as Context)[CodeIssuer.Trainline]?.matches /
       (t.context as Context)[CodeIssuer.Trainline]?.total,
-    GenericScore[CodeIssuer.Trainline]
+    Score[CodeIssuer.Trainline]
   );
 });
 
 test.skip(macro, "trainline", Object.values(byCountry).flat());
 test.todo("Should compare reliliability of the coordinate locations");
 
-test(labelLanguage, trainlineLocations, wikipedia);
+test.skip(labelLanguage, trainlineLocations, wikidata);
