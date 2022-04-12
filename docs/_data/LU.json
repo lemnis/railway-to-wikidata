@@ -385,7 +385,7 @@
     },
     {
       "type": "Feature",
-      "id": "----110606008-LUTv   -XLTV-LUTRV-trainline-8590",
+      "id": "-----110606008-LUTv   -XLTV-LUTRV-trainline-8590-Q3097920",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -410,6 +410,38 @@
           {
             "value": "Труавьерж",
             "lang": "ru"
+          },
+          {
+            "lang": "ca",
+            "value": "Estació de trens de Troisvierges"
+          },
+          {
+            "lang": "en",
+            "value": "Troisvierges railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Troisvierges"
+          },
+          {
+            "lang": "hu",
+            "value": "Troisvierges vasútállomás"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Ëlwen"
+          },
+          {
+            "lang": "nl",
+            "value": "station Troisvierges"
+          },
+          {
+            "lang": "sr",
+            "value": "Железничка станица у Троавјержу"
+          },
+          {
+            "lang": "pl",
+            "value": "Troisvierges"
           }
         ],
         "P17": [
@@ -529,6 +561,29 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/8590"
               }
             ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3097920"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "434"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q24454"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -1006,7 +1061,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----120903020-LUWz   -XLWW-LUWIW-trainline-23135-Q2317700",
+      "id": "----120903020-LUWz   -LUWIL-trainline-8595-Q2317700",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1025,7 +1080,8 @@
             "value": "Wiltz"
           },
           {
-            "value": "Wilwerwiltz"
+            "value": "Вильц",
+            "lang": "ru"
           },
           {
             "lang": "ca",
@@ -1061,46 +1117,6 @@
             "value": "Q32"
           }
         ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 2.3
-            },
-            "value": "8271120",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23135"
-              },
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ]
-          }
-        ],
-        "P8671": [
-          {
-            "value": "XLWW",
-            "references": [
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
-          }
-        ],
         "P8448": [
           {
             "info": {
@@ -1114,36 +1130,72 @@
               ],
               "reliability": 1.5
             },
-            "value": "LUWIW",
+            "value": "LUWIL",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23135"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8595"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "value": "8200142",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8595"
               }
             ]
           }
         ],
         "P722": [
           {
-            "value": "8200132",
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
+            "value": "8200142",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23135"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8595"
+              }
+            ]
+          }
+        ],
+        "P8181": [
+          {
+            "value": "LUAAG",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8595"
               }
             ],
             "info": {
-              "reliability": 0.6400000000000001
+              "reliability": 0.7000000000000001
             }
-          },
-          {
-            "value": "8200142"
           }
         ],
         "P6724": [
           {
-            "value": "23135",
+            "value": "8595",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23135"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8595"
               }
             ],
             "info": {
@@ -1156,7 +1208,7 @@
             "value": "Q28148670",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23135"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8595"
               }
             ]
           },
@@ -1191,7 +1243,7 @@
     },
     {
       "type": "Feature",
-      "id": "-120904002-Q2790914",
+      "id": "--120904002-LUPa   -Q2790914",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1205,6 +1257,9 @@
         "labels": [
           {
             "value": "Paradiso, Gare"
+          },
+          {
+            "value": "Paradiso"
           },
           {
             "lang": "ca",
@@ -2206,7 +2261,7 @@
     },
     {
       "type": "Feature",
-      "id": "---160301004-LUCOL-trainline-23249-Q2550691",
+      "id": "----160301004-LUCb   -LUCOL-trainline-23249-Q2550691",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3278,7 +3333,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----180106009-LURt   -XLRT-LURSE-trainline-23271-Q3079960",
+      "id": "----180106009-LURt   -XLRT-LURSE-trainline-23271",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -3298,30 +3353,6 @@
           },
           {
             "value": "Roodt/Syre"
-          },
-          {
-            "lang": "ca",
-            "value": "Estació de trens de Roodt"
-          },
-          {
-            "lang": "en",
-            "value": "Roodt railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Roodt"
-          },
-          {
-            "lang": "hu",
-            "value": "Roodt vasútállomás"
-          },
-          {
-            "lang": "lb",
-            "value": "Gare Rued"
-          },
-          {
-            "lang": "nl",
-            "value": "station Roodt"
           }
         ],
         "P17": [
@@ -3428,29 +3459,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23271"
               }
             ]
-          },
-          {
-            "value": "Q25989"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q3079960"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q850734"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "239"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -4000,7 +4008,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----180703009-LUW    -XLW-LUAAD-trainline-8592-18843-Q102173565",
+      "id": "-----180703009-LUW    -XLW-LUAAD-trainline-8592-18843-Q801581",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4019,24 +4027,52 @@
             "value": "Wasserbillig"
           },
           {
-            "lang": "fr",
-            "value": "gare de Wasserbillig (PH)"
+            "lang": "arz",
+            "value": "محطة واسيربيليج"
+          },
+          {
+            "lang": "ca",
+            "value": "Estació de trens de Wasserbillig"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Wasserbillig"
+          },
+          {
+            "lang": "en",
+            "value": "Wasserbillig railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Wasserbillig (Prince-Henri)"
+            "value": "gare de Wasserbillig"
+          },
+          {
+            "lang": "hu",
+            "value": "Wasserbillig vasútállomás"
           },
           {
             "lang": "lb",
-            "value": "Gare Waasserbëlleg (Prënz)"
+            "value": "Gare Waasserbëlleg"
           },
           {
-            "lang": "fr",
-            "value": "gare de Wasserbillig du Prince-Henri"
+            "lang": "nl",
+            "value": "station Wasserbillig"
           },
           {
-            "lang": "lb",
-            "value": "Gare Waasserbëlleg (PH)"
+            "lang": "pl",
+            "value": "Wasserbillig (stacja kolejowa)"
+          },
+          {
+            "lang": "zh-cn",
+            "value": "瓦瑟比利希车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "瓦瑟比利希车站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "瓦瑟比利希車站"
           }
         ],
         "P17": [
@@ -4122,28 +4158,38 @@
             }
           },
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
             "value": "8200341",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/8592"
               }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001
-            }
+            ]
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "LUAAD",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/8592"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -4178,16 +4224,24 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/8592"
               }
             ]
+          },
+          {
+            "value": "Q25989"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q102173565"
+            "value": "Q801581"
           }
         ],
-        "P131": [
+        "P1103": [
           {
-            "value": "Q985387"
+            "value": "4"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "140"
           }
         ],
         "P31": [
@@ -4195,9 +4249,19 @@
             "value": "Q55488"
           }
         ],
-        "P582": [
+        "P856": [
           {
-            "value": "1964-05-27T00:00:00Z"
+            "value": "http://www.cfl.lu/CFLInternet/Espaces/01EspaceVoyageurs/02InfosGare/Wasserbillig/GareWasserbillig.htm"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Route de Luxembourg, L-6630 Wasserbillig"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q985387"
           }
         ]
       }
@@ -4936,7 +5000,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----190903008-LUxx2  -XLMR-LUMAM-trainline-23138-Q2596197",
+      "id": "-----190903008-LUMr   -XLMR-LUMAM-trainline-23138-Q2596197",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4950,9 +5014,6 @@
         "labels": [
           {
             "value": "Mamer, Gare"
-          },
-          {
-            "value": "Merkholtz Poste de block"
           },
           {
             "value": "Mamer"
@@ -6058,7 +6119,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----200405060-LUL    -XLL-LULUX-trainline-8604-9864-Q801140",
+      "id": "-----200405060-LULh   -XLL-LULUX-trainline-8604-9864-Q801140",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6072,6 +6133,9 @@
         "labels": [
           {
             "value": "Luxembourg, Gare Centrale"
+          },
+          {
+            "value": "Luxembourg secteur Hollerich"
           },
           {
             "value": "Luxembourg"
@@ -6985,7 +7049,7 @@
     },
     {
       "type": "Feature",
-      "id": "--200417051-LUPf-K -Q25583594",
+      "id": "---200417051-LUPf-K -LUPFA-Q25583594",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7033,6 +7097,22 @@
             "value": "Q32"
           }
         ],
+        "P8448": [
+          {
+            "value": "LUPFA",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "8200102",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q25583594"
@@ -7062,23 +7142,181 @@
     },
     {
       "type": "Feature",
-      "id": "200601016",
+      "id": "-----200601016-LUSc   -XLSC-LUSWC-trainline-23273-Q2689477",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          6.211775,
-          49.599093
+          [
+            6.211775,
+            49.599093
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Sandweiler-Contern, Gare"
+          },
+          {
+            "value": "Sandweiler-Contern"
+          },
+          {
+            "lang": "ca",
+            "value": "Estació de trens de Sandweiler-Contern"
+          },
+          {
+            "lang": "en",
+            "value": "Sandweiler-Contern railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Sandweiler - Contern"
+          },
+          {
+            "lang": "hu",
+            "value": "Sandweiler-Contern vasútállomás"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Sandweiler-Conter"
+          },
+          {
+            "lang": "nl",
+            "value": "station Sandweiler-Contern"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q32"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 2.3
+            },
+            "value": "8270930",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23273"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XLSC",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "value": "LUSWC",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23273"
+              }
+            ]
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
+            "value": "8200208",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23273"
+              }
+            ]
+          }
+        ],
+        "P6724": [
+          {
+            "value": "23273",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23273"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q28148670",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23273"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2689477"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q985476"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "327"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -8044,7 +8282,7 @@
     },
     {
       "type": "Feature",
-      "id": "--220201021-LUD    -Q5275268",
+      "id": "-----220201021-LUD    -XLDI-LUDIF-trainline-8594-Q5275268",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8061,6 +8299,17 @@
           },
           {
             "value": "Differdange (gare)"
+          },
+          {
+            "value": "Differdange"
+          },
+          {
+            "value": "Дифферданж",
+            "lang": "ru"
+          },
+          {
+            "value": "迪弗當日",
+            "lang": "zh"
           },
           {
             "lang": "ca",
@@ -8092,6 +8341,119 @@
             "value": "Q32"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 2.3
+            },
+            "value": "8200920",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8594"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XLDI",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "value": "LUDIF",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8594"
+              }
+            ]
+          }
+        ],
+        "P722": [
+          {
+            "value": "8200920",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8594"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P8181": [
+          {
+            "value": "LUAAF",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8594"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "8594",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8594"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q28148670",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8594"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q5275268"
@@ -8105,11 +8467,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
           }
         ],
         "P2044": [
@@ -10683,7 +11040,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----221101001-LUBc   -XLBC-LUBHM-trainline-23243-Q3095966",
+      "id": "----221101001-LUBc   -XLBC-LUBHM-trainline-23243",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -10706,26 +11063,6 @@
           },
           {
             "value": "Berchem (Lux.)"
-          },
-          {
-            "lang": "ca",
-            "value": "Estació de trens de Berchem"
-          },
-          {
-            "lang": "en",
-            "value": "Berchem railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Berchem"
-          },
-          {
-            "lang": "hu",
-            "value": "Berchem vasútállomás"
-          },
-          {
-            "lang": "lb",
-            "value": "Gare Bierchem"
           }
         ],
         "P17": [
@@ -10832,29 +11169,6 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23243"
               }
             ]
-          },
-          {
-            "value": "Q25989"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q3095966"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q683922"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "273"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }

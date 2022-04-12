@@ -5915,7 +5915,7 @@
     },
     {
       "type": "Feature",
-      "id": "---https://irail.be/stations/NMBS/008811718-BEFBRG-trainline-18067-Q1854489",
+      "id": "----https://irail.be/stations/NMBS/008811718-BEFBRG-BEBIE-trainline-18067-Q1854489",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5929,6 +5929,9 @@
         "labels": [
           {
             "value": "Bierges-Walibi"
+          },
+          {
+            "value": "Bierges"
           },
           {
             "lang": "en",
@@ -5990,11 +5993,35 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "BEBIE",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18067"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "value": "8800499",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18067"
@@ -6036,24 +6063,6 @@
         "P421": [
           {
             "value": "Q5412099",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18067"
-              }
-            ]
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "value": "8800499",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18067"
@@ -7507,7 +7516,7 @@
     },
     {
       "type": "Feature",
-      "id": "---https://irail.be/stations/NMBS/008811916-BEFBSM-BESHU-trainline-17817",
+      "id": "----https://irail.be/stations/NMBS/008811916-BEFBSM-BESHU-trainline-17817-Q800589",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7583,6 +7592,82 @@
           {
             "value": "布鲁塞尔",
             "lang": "zh"
+          },
+          {
+            "lang": "ca",
+            "value": "Estació Bruxel·les-Schuman"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Bruxelles-Schuman/Brussel-Schuman"
+          },
+          {
+            "lang": "en",
+            "value": "Brussels-Schuman railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Schuman"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Bruxelles-Schuman"
+          },
+          {
+            "lang": "hu",
+            "value": "Bahnhof Bruxelles-Schuman/Brussel-Schuman"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Bruxelles Schuman"
+          },
+          {
+            "lang": "ja",
+            "value": "シューマン駅"
+          },
+          {
+            "lang": "en",
+            "value": "gare de Bruxelles-Schuman"
+          },
+          {
+            "lang": "en",
+            "value": "station Brussel-Schuman"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Schuman"
+          },
+          {
+            "lang": "es",
+            "value": "Schuman (estación)"
+          },
+          {
+            "lang": "ja",
+            "value": "ブリュッセル＝シューマン駅"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Bréissel-Schuman"
+          },
+          {
+            "lang": "nl",
+            "value": "station Brussel-Schuman"
+          },
+          {
+            "lang": "pt",
+            "value": "Schuman (Metro de Bruxelas)"
+          },
+          {
+            "lang": "ro",
+            "value": "gara Bruxelles-Schuman"
+          },
+          {
+            "lang": "sv",
+            "value": "Bryssel-Schuman-stationen"
+          },
+          {
+            "lang": "zh",
+            "value": "布魯塞爾-舒曼車站"
           }
         ],
         "P722": [
@@ -7617,10 +7702,15 @@
         ],
         "P296": [
           {
-            "value": "FBSM",
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
               "reliability": 0.6400000000000001
-            }
+            },
+            "value": "FBSM"
           }
         ],
         "P8448": [
@@ -7667,15 +7757,20 @@
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "BESCH",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/17817"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -7700,12 +7795,35 @@
               }
             ]
           }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q800589"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q239"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55491"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Rue de la Loi"
+          }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "--https://irail.be/stations/NMBS/008811940-BEANDL-trainline-61114",
+      "id": "---https://irail.be/stations/NMBS/008811940-BEANDL-trainline-61114-Q98436002",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7722,6 +7840,22 @@
           },
           {
             "value": "Anderlecht | Anderlecht"
+          },
+          {
+            "lang": "en",
+            "value": "Anderlecht station"
+          },
+          {
+            "lang": "en",
+            "value": "Anderlecht railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare d'Anderlecht"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Anderlecht"
           }
         ],
         "P722": [
@@ -7764,28 +7898,38 @@
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "BEADL",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/61114"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P6724": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
             "value": "61114",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/61114"
               }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001
-            }
+            ]
           }
         ],
         "P421": [
@@ -7800,15 +7944,35 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "8811940",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/61114"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98436002"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q12886"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -11875,7 +12039,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008814001-BEFBMZ-BEBMI-trainline-5893-17538-Q800587",
+      "id": "-----https://irail.be/stations/NMBS/008814001-BEFBMZ-BRUSZ-BEACG-trainline-5893-17538-Q800587",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -11894,10 +12058,11 @@
             "value": "Bruxelles-Midi | Brussel-Zuid"
           },
           {
-            "value": "Brussel Zuid - Midi"
+            "value": "Brussel-Zuid Midi",
+            "lang": "nl"
           },
           {
-            "value": "Brussels South"
+            "value": "Zone Bruxelles/Brussel"
           },
           {
             "value": "Brüssel",
@@ -12187,10 +12352,13 @@
                   "reliability": 0.6400000000000001
                 },
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 1.9800000000000004
             },
             "value": "8814001",
             "references": [
@@ -12222,28 +12390,17 @@
             "value": "FBMZ"
           },
           {
-            "value": "BEFBMZ"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
+            "value": "BRUSZ",
+            "qualifiers": {
+              "P518": [
                 {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
+                  "value": "Q23076"
                 }
-              ],
-              "reliability": 1.5
-            },
-            "value": "BEBMI",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5893"
-              }
-            ]
+              ]
+            }
+          },
+          {
+            "value": "BEFBMZ"
           }
         ],
         "P954": [
@@ -12255,16 +12412,38 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 1.5
+              "reliability": 2.2
             },
-            "value": "8898004",
+            "value": "8800004",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/5893"
               }
             ]
+          },
+          {
+            "value": "8898004",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5893"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P8448": [
+          {
+            "value": "BEACG",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           },
           {
             "info": {
@@ -12275,7 +12454,7 @@
               ],
               "reliability": 0.7000000000000001
             },
-            "value": "8800004",
+            "value": "BEBMI",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/5893"
@@ -31102,7 +31281,7 @@
     },
     {
       "type": "Feature",
-      "id": "----https://irail.be/stations/NMBS/008832227-BEMBV-BEBER-trainline-18140-Q2654519",
+      "id": "----https://irail.be/stations/NMBS/008832227-BEMBV-BEBER-trainline-18140-Q2463957",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -31118,8 +31297,20 @@
             "value": "Beverlo"
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Beverlo"
+          },
+          {
+            "lang": "en",
+            "value": "Beverlo railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Beverlo"
+          },
+          {
             "lang": "nl",
-            "value": "station Beverloo-Heide"
+            "value": "station Beverlo"
           }
         ],
         "P722": [
@@ -31158,6 +31349,9 @@
             "info": {
               "reliability": 0.6400000000000001
             }
+          },
+          {
+            "value": "1000143"
           }
         ],
         "P8448": [
@@ -31227,7 +31421,17 @@
         ],
         "PWIKI": [
           {
-            "value": "Q2654519"
+            "value": "Q2463957"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q851683"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "1"
           }
         ],
         "P31": [
@@ -60254,7 +60458,7 @@
     },
     {
       "type": "Feature",
-      "id": "---https://irail.be/stations/NMBS/008871100-BEFMR-trainline-23193-Q2310045",
+      "id": "----https://irail.be/stations/NMBS/008871100-BEFMR-BEMRZ-trainline-23193-Q2310045",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -60271,6 +60475,9 @@
           },
           {
             "value": "Marchienne-au-Pont"
+          },
+          {
+            "value": "Marchienne Zone"
           },
           {
             "lang": "en",
@@ -60334,6 +60541,12 @@
         ],
         "P8448": [
           {
+            "value": "BEMRZ",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          },
+          {
             "info": {
               "pregrouped": [
                 {
@@ -60343,6 +60556,30 @@
               "reliability": 0.7000000000000001
             },
             "value": "BEMAP",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23193"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "8800485",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          },
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "8800122",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23193"
@@ -60384,24 +60621,6 @@
         "P421": [
           {
             "value": "Q5412099",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23193"
-              }
-            ]
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "value": "8800122",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23193"
@@ -71266,7 +71485,7 @@
     },
     {
       "type": "Feature",
-      "id": "---https://irail.be/stations/NMBS/008882206-BELVRS-trainline-23202-Q2132655",
+      "id": "----https://irail.be/stations/NMBS/008882206-BELVRS-BELAZ-trainline-23202-Q2132655",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -71283,6 +71502,9 @@
           },
           {
             "value": "La Louvière-Sud"
+          },
+          {
+            "value": "La Louviere"
           },
           {
             "value": "Zuid",
@@ -71361,6 +71583,12 @@
         ],
         "P8448": [
           {
+            "value": "BELAZ",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          },
+          {
             "info": {
               "pregrouped": [
                 {
@@ -71370,6 +71598,30 @@
               "reliability": 0.7000000000000001
             },
             "value": "BELAS",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23202"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "8800416",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          },
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "8800078",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23202"
@@ -71411,24 +71663,6 @@
         "P421": [
           {
             "value": "Q5412099",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23202"
-              }
-            ]
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "value": "8800078",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23202"

@@ -444,23 +444,83 @@
     },
     {
       "type": "Feature",
-      "id": "190",
+      "id": "--190-HU6/1/0-Q21876886",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          18.642777777777777,
-          47.48638888888889
+          [
+            18.642777777777777,
+            47.48638888888889
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Bicske alsó"
+          },
+          {
+            "value": "Bicske"
+          },
+          {
+            "lang": "cs",
+            "value": "Bicske"
+          },
+          {
+            "lang": "en",
+            "value": "Bicske railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Bicske"
+          },
+          {
+            "lang": "hu",
+            "value": "Bicske vasútállomás"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q21876886"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "168"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BI"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q3599"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5501081"
           }
         ]
       }
@@ -1039,7 +1099,7 @@
     },
     {
       "type": "Feature",
-      "id": "--206-HU46//13-Q21866925",
+      "id": "-----206-HU46//13-XMSB-105049-trainline-28253-Q21866925",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -1053,6 +1113,13 @@
         "labels": [
           {
             "value": "Szob alsó"
+          },
+          {
+            "value": "Szob"
+          },
+          {
+            "value": "Szob",
+            "lang": "sk"
           },
           {
             "lang": "en",
@@ -1072,6 +1139,103 @@
             "value": "Q28"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "value": "5500006",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28253"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XMSB",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
+            "value": "5510504",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28253"
+              }
+            ]
+          },
+          {
+            "value": "5540865"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUABD",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28253"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28253",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28253"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28253"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q21866925"
@@ -1082,19 +1246,9 @@
             "value": "Q429409"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5540865"
           }
         ]
       }
@@ -2103,7 +2257,7 @@
     },
     {
       "type": "Feature",
-      "id": "--237-HU3c/2/a-Q22003464",
+      "id": "-237-HU3c/2/9",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2119,12 +2273,7 @@
             "value": "Nagypeterd"
           },
           {
-            "lang": "en",
-            "value": "Nagypeterd railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Nagypeterd megállóhely"
+            "value": "Botykapeterd"
           }
         ],
         "P17": [
@@ -2134,36 +2283,6 @@
               "reliability": 0
             },
             "value": "Q28"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q22003464"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5505751"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q383998"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "1"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -5000,7 +5119,7 @@
     },
     {
       "type": "Feature",
-      "id": "-280-Q18005403",
+      "id": "--280-HUcd//0-Q18005403",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5014,6 +5133,9 @@
         "labels": [
           {
             "value": "Kőbánya alsó"
+          },
+          {
+            "value": "Kőbánya felső"
           },
           {
             "lang": "cs",
@@ -6511,7 +6633,7 @@
     },
     {
       "type": "Feature",
-      "id": "----299-HU46//10-XMNV-5500913-Q21866920",
+      "id": "----299-HU46//10-XMNV-5500913-Q21866921",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -6535,11 +6657,11 @@
           },
           {
             "lang": "en",
-            "value": "Nagymaros-Visegrád railway station"
+            "value": "Nagymaros railway station"
           },
           {
             "lang": "hu",
-            "value": "Nagymaros-Visegrád megállóhely"
+            "value": "Nagymaros vasútállomás"
           }
         ],
         "P17": [
@@ -6584,12 +6706,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q21866920"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5510470"
+            "value": "Q21866921"
           }
         ],
         "P131": [
@@ -6602,9 +6719,19 @@
             "value": "Q25989"
           }
         ],
+        "P296": [
+          {
+            "value": "M"
+          }
+        ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5510488"
           }
         ]
       }
@@ -12545,7 +12672,7 @@
     },
     {
       "type": "Feature",
-      "id": "--490-HU98//c-Q22086736",
+      "id": "---490-HU98//c-trainline-28238-Q22086736",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12559,6 +12686,25 @@
         "labels": [
           {
             "value": "Kecskemét alsó"
+          },
+          {
+            "value": "ケチケメート",
+            "lang": "ja"
+          },
+          {
+            "value": "케치케메트",
+            "lang": "ko"
+          },
+          {
+            "value": "Кечкемет",
+            "lang": "ru"
+          },
+          {
+            "value": "凯奇凯梅特",
+            "lang": "zh"
+          },
+          {
+            "value": "Kecskemét"
           },
           {
             "lang": "en",
@@ -12578,6 +12724,74 @@
             "value": "Q28"
           }
         ],
+        "P722": [
+          {
+            "value": "5517111",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28238"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "5516535"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUAAH",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28238"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28238",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28238"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28238"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5500098",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28238"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q22086736"
@@ -12588,11 +12802,6 @@
             "value": "Q171357"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P296": [
           {
             "value": "CE"
@@ -12601,11 +12810,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5516535"
           }
         ]
       }
@@ -22387,7 +22591,7 @@
     },
     {
       "type": "Feature",
-      "id": "-939-Q22074426",
+      "id": "--939-trainline-28283-Q22074426",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -22401,6 +22605,9 @@
         "labels": [
           {
             "value": "Mezőkövesd felső"
+          },
+          {
+            "value": "Mezőkövesd"
           },
           {
             "lang": "en",
@@ -22424,24 +22631,82 @@
             "value": "Q28"
           }
         ],
+        "P722": [
+          {
+            "value": "5511312",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28283"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "5511320"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUMEZ",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28283"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28283",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28283"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28283"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5500015",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28283"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q22074426"
           }
         ],
-        "P722": [
-          {
-            "value": "5511320"
-          }
-        ],
         "P131": [
           {
             "value": "Q933638"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
           }
         ],
         "P1103": [
@@ -25951,7 +26216,7 @@
     },
     {
       "type": "Feature",
-      "id": "-991-Q18005420",
+      "id": "--991-HU46//3-Q18005420",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -25965,6 +26230,9 @@
         "labels": [
           {
             "value": "Rákospalota-Kertváros"
+          },
+          {
+            "value": "Rákospalota-Újpest"
           },
           {
             "lang": "en",
@@ -26408,7 +26676,7 @@
     },
     {
       "type": "Feature",
-      "id": "--1002-HUc/2/1-Q12816463",
+      "id": "--1002-HUc/2/1-Q21877375",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -26427,36 +26695,16 @@
             "value": "Bánhida mh."
           },
           {
-            "lang": "cs",
-            "value": "Tatabánya"
-          },
-          {
-            "lang": "pl",
-            "value": "Tatabánya"
-          },
-          {
             "lang": "en",
-            "value": "Tatabánya railway station"
+            "value": "Bánhida railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Tatabánya"
+            "value": "gare de Bánhida"
           },
           {
             "lang": "hu",
-            "value": "Bánhida vasútállomás (korábban)"
-          },
-          {
-            "lang": "hu",
-            "value": "Tatabánya vasútállomás"
-          },
-          {
-            "lang": "zh",
-            "value": "陶陶巴尼奥车站"
-          },
-          {
-            "lang": "en",
-            "value": "Bánhida railway station"
+            "value": "Bánhida megállóhely"
           }
         ],
         "P17": [
@@ -26470,7 +26718,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q12816463"
+            "value": "Q21877375"
           }
         ],
         "P131": [
@@ -26483,16 +26731,6 @@
             "value": "Q25989"
           }
         ],
-        "P2044": [
-          {
-            "value": "146"
-          }
-        ],
-        "P296": [
-          {
-            "value": "BN"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
@@ -26500,7 +26738,7 @@
         ],
         "P722": [
           {
-            "value": "5501131"
+            "value": "5541129"
           }
         ]
       }
@@ -27361,23 +27599,67 @@
     },
     {
       "type": "Feature",
-      "id": "1025",
+      "id": "-1025-Q22030367",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          19.0875,
-          47.340555555555554
+          [
+            19.0875,
+            47.340555555555554
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Dunaharaszti alsó"
+          },
+          {
+            "lang": "en",
+            "value": "Dunaharaszti railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Dunaharaszti vasútállomás"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22030367"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5516121"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q854933"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P296": [
+          {
+            "value": "H"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -27508,7 +27790,7 @@
     },
     {
       "type": "Feature",
-      "id": "--1031-HU57/2/c-Q22040988",
+      "id": "--1031-HU57/2/e-Q22040991",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -27524,16 +27806,27 @@
             "value": "Szilvásvárad-Szalajkavölgy"
           },
           {
+            "value": "Szilvásvárad"
+          },
+          {
+            "lang": "cs",
+            "value": "Szilvásvárad"
+          },
+          {
             "lang": "en",
-            "value": "Szilvásvárad-Szalajkavölgy railway station"
+            "value": "Szilvásvárad railway station"
           },
           {
             "lang": "fr",
-            "value": "gare de Szilvásvárad-Szalajkavölgy"
+            "value": "gare de Szilvásvárad"
           },
           {
             "lang": "hu",
-            "value": "Szilvásvárad-Szalajkavölgy megállóhely"
+            "value": "Szilvásvárad vasútállomás"
+          },
+          {
+            "lang": "ko",
+            "value": "실바슈바러드역"
           }
         ],
         "P17": [
@@ -27547,7 +27840,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q22040988"
+            "value": "Q22040991"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5512492"
           }
         ],
         "P131": [
@@ -27562,7 +27860,7 @@
         ],
         "P1103": [
           {
-            "value": "1"
+            "value": "3"
           }
         ],
         "P31": [
@@ -27570,9 +27868,9 @@
             "value": "Q55488"
           }
         ],
-        "P722": [
+        "P296": [
           {
-            "value": "5542507"
+            "value": "RD"
           }
         ]
       }
@@ -27946,7 +28244,7 @@
     },
     {
       "type": "Feature",
-      "id": "--1051-HU23//16-Q22121896",
+      "id": "--1051-HU23//16-trainline-18800",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -27962,12 +28260,23 @@
             "value": "Sióvölgy"
           },
           {
-            "lang": "en",
-            "value": "Sióvölgy railway station"
+            "value": "シオーフォク",
+            "lang": "ja"
           },
           {
-            "lang": "hu",
-            "value": "Sióvölgy megállóhely"
+            "value": "시오포크",
+            "lang": "ko"
+          },
+          {
+            "value": "Шиофок",
+            "lang": "ru"
+          },
+          {
+            "value": "希歐福克",
+            "lang": "zh"
+          },
+          {
+            "value": "Siofok"
           }
         ],
         "P17": [
@@ -27979,29 +28288,66 @@
             "value": "Q28"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q22121896"
-          }
-        ],
         "P722": [
           {
-            "value": "5543240"
+            "value": "5503350",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18800"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
-        "P131": [
+        "P8448": [
           {
-            "value": "Q245126"
+            "value": "HUAAT",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18800"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "18800",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18800"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
           {
-            "value": "Q25989"
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18800"
+              }
+            ]
           }
         ],
-        "P31": [
+        "P954": [
           {
-            "value": "Q55488"
+            "value": "5500037",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18800"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -31962,7 +32308,7 @@
     },
     {
       "type": "Feature",
-      "id": "--1638-HUb//12-trainline-28263",
+      "id": "---1638-HUb//12-trainline-28263-Q21872088",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -31996,6 +32342,22 @@
           {
             "value": "維斯普雷姆",
             "lang": "zh"
+          },
+          {
+            "lang": "en",
+            "value": "Veszprém railway station (Jutas)"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Veszprém"
+          },
+          {
+            "lang": "hu",
+            "value": "Veszprém vasútállomás"
+          },
+          {
+            "lang": "pl",
+            "value": "Veszprém (stacja kolejowa)"
           }
         ],
         "P17": [
@@ -32009,28 +32371,38 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
             "value": "5503947",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28263"
               }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001
-            }
+            ]
           }
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "HUABT",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28263"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -32054,6 +32426,9 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28263"
               }
             ]
+          },
+          {
+            "value": "Q25989"
           }
         ],
         "P954": [
@@ -32067,6 +32442,36 @@
             "info": {
               "reliability": 0.7000000000000001
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q21872088"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q146317"
+          }
+        ],
+        "P2848": [
+          {
+            "value": "Q1543615"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "209"
+          }
+        ],
+        "P296": [
+          {
+            "value": "J"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -33781,7 +34186,7 @@
     },
     {
       "type": "Feature",
-      "id": "-1679-Q22091781",
+      "id": "-1679-trainline-18807",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -33797,12 +34202,15 @@
             "value": "Balatonarács"
           },
           {
-            "lang": "en",
-            "value": "Balatonarács railway station"
+            "value": "Балатонфюред",
+            "lang": "ru"
           },
           {
-            "lang": "hu",
-            "value": "Balatonarács megállóhely"
+            "value": "巴拉頓菲賴德",
+            "lang": "zh"
+          },
+          {
+            "value": "Balatonfüred"
           }
         ],
         "P17": [
@@ -33814,29 +34222,66 @@
             "value": "Q28"
           }
         ],
-        "PWIKI": [
+        "P722": [
           {
-            "value": "Q22091781"
+            "value": "5504416",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18807"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
-        "P131": [
+        "P8448": [
           {
-            "value": "Q680743"
+            "value": "HUBAL",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18807"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "18807",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18807"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
           {
-            "value": "Q25989"
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18807"
+              }
+            ]
           }
         ],
-        "P31": [
+        "P954": [
           {
-            "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5504408"
+            "value": "5500073",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18807"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -35563,23 +36008,65 @@
     },
     {
       "type": "Feature",
-      "id": "1702",
+      "id": "--1702-HU69//1-Q22076758",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          21.648055555555555,
-          47.54055555555556
+          [
+            21.648055555555555,
+            47.54055555555556
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Debrecen-Csapókert"
+          },
+          {
+            "value": "Debrecen-Szabadságtelep mh."
+          },
+          {
+            "lang": "en",
+            "value": "Debrecen-Szabadságtelep"
+          },
+          {
+            "lang": "hu",
+            "value": "Debrecen-Szabadságtelep megállóhely"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22076758"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5515123"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q79880"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -38980,7 +39467,7 @@
     },
     {
       "type": "Feature",
-      "id": "-1760-Q22222633",
+      "id": "---1760-HU32/1/1-trainline-28241-Q22222633",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -38994,6 +39481,12 @@
         "labels": [
           {
             "value": "Dombóvár alsó"
+          },
+          {
+            "value": "Dombóvári elágazás"
+          },
+          {
+            "value": "Dombóvár"
           },
           {
             "lang": "en",
@@ -39021,6 +39514,74 @@
             "value": "Q28"
           }
         ],
+        "P722": [
+          {
+            "value": "5506189",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28241"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "5506197"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUAAK",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28241"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28241",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28241"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28241"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5500085",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28241"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q22222633"
@@ -39031,11 +39592,6 @@
             "value": "Q633789"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P296": [
           {
             "value": "DM"
@@ -39044,11 +39600,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5506197"
           }
         ]
       }
@@ -41653,7 +42204,7 @@
     },
     {
       "type": "Feature",
-      "id": "--1823-HU5c/1/2-Q830801",
+      "id": "----1823-HU5c/1/2-5500018-trainline-18798-Q854118",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -41669,44 +42220,79 @@
             "value": "Miskolc-Gömöri"
           },
           {
+            "value": "Miskolc Tiszai pu",
+            "lang": "sk"
+          },
+          {
+            "value": "ミシュコルツ",
+            "lang": "ja"
+          },
+          {
+            "value": "미슈콜츠",
+            "lang": "ko"
+          },
+          {
+            "value": "Miszkolc",
+            "lang": "pl"
+          },
+          {
+            "value": "Мишкольц",
+            "lang": "ru"
+          },
+          {
+            "value": "米什科尔茨",
+            "lang": "zh"
+          },
+          {
+            "value": "Miskolc Tiszai pu"
+          },
+          {
             "lang": "cs",
-            "value": "Miskolc-Gömöri pályaudvár"
+            "value": "Miskolc-Tiszai pályaudvár"
           },
           {
             "lang": "en",
-            "value": "Gömöri railway station"
+            "value": "Miskolc Tiszai railway station"
           },
           {
-            "lang": "en",
-            "value": "Miskolc Gömöri railway station"
+            "lang": "eo",
+            "value": "Stacidomo Tiszai"
           },
           {
             "lang": "fr",
-            "value": "gare de Miskolc-Gömöri"
+            "value": "gare de Miskolc-Tiszai"
           },
           {
             "lang": "hu",
-            "value": "Gömöri pályaudvar"
+            "value": "Miskolc-Tiszai pályaudvar"
           },
           {
             "lang": "hu",
-            "value": "Miskolc-Gömöri pályaudvar"
+            "value": "Tiszai pályaudvar"
+          },
+          {
+            "lang": "ja",
+            "value": "ミシュコルツ・ティサ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "Miskolc Tiszai railway station"
           },
           {
             "lang": "pl",
-            "value": "Miskolc Gömöri"
+            "value": "Miskolc Tiszai"
           },
           {
             "lang": "sv",
-            "value": "Gömöris järnvägsstation"
+            "value": "Tiszai pályaudvar"
           },
           {
             "lang": "sv",
-            "value": "Gömöris tågstation"
+            "value": "Tiszais järnvägsstation"
           },
           {
             "lang": "sv",
-            "value": "Miskolc–Gömöri järnvägsstation"
+            "value": "Miskolc–Tiszai järnvägsstation"
           }
         ],
         "P17": [
@@ -41718,19 +42304,94 @@
             "value": "Q28"
           }
         ],
-        "PWIKI": [
+        "P954": [
           {
-            "value": "Q830801"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "5500018",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18798"
+              }
+            ]
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
+            "value": "5511387",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18798"
+              }
+            ]
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "HUAAW",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18798"
+              }
+            ]
+          }
+        ],
+        "P6724": [
+          {
+            "value": "18798",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18798"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
           {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18798"
+              }
+            ]
+          },
+          {
             "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q854118"
           }
         ],
         "P296": [
           {
-            "value": "MC"
+            "value": "MS"
           }
         ],
         "P31": [
@@ -41738,19 +42399,19 @@
             "value": "Q55488"
           }
         ],
-        "P722": [
-          {
-            "value": "5512674"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5500860"
-          }
-        ],
         "P131": [
           {
             "value": "Q102397"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://www.mav-start.hu/"
+          }
+        ],
+        "P2848": [
+          {
+            "value": "Q1543615"
           }
         ]
       }
@@ -44221,7 +44882,7 @@
     },
     {
       "type": "Feature",
-      "id": "-2012-Q22091050",
+      "id": "--2012-HU1b//9-Q22091050",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -44235,6 +44896,9 @@
         "labels": [
           {
             "value": "Balatonfőkajár felső"
+          },
+          {
+            "value": "Balatonfőkajár mh."
           },
           {
             "lang": "en",
@@ -46594,7 +47258,7 @@
     },
     {
       "type": "Feature",
-      "id": "--2507-HU17//0-trainline-28262",
+      "id": "---2507-HU17//0-trainline-28262-Q21872151",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -46624,6 +47288,18 @@
           {
             "value": "佐洛埃格塞格",
             "lang": "zh"
+          },
+          {
+            "lang": "en",
+            "value": "Zalaegerszeg railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Zalaegerszeg vasútállomás"
+          },
+          {
+            "lang": "pl",
+            "value": "Zalaegerszeg (stacja kolejowa)"
           }
         ],
         "P17": [
@@ -46637,28 +47313,38 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
             "value": "5504895",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
               }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001
-            }
+            ]
           }
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
             "value": "HUABQ",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
               }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -46682,6 +47368,9 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
               }
             ]
+          },
+          {
+            "value": "Q25989"
           }
         ],
         "P954": [
@@ -46706,6 +47395,31 @@
             "info": {
               "reliability": 0.7000000000000001
             }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q21872151"
+          }
+        ],
+        "P2848": [
+          {
+            "value": "Q1543615"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ZE"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q60037"
           }
         ]
       }
@@ -47296,7 +48010,7 @@
     },
     {
       "type": "Feature",
-      "id": "-2520-Q22115853",
+      "id": "---2520-HU17//0-trainline-28262-Q22115853",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -47310,6 +48024,25 @@
         "labels": [
           {
             "value": "Zalaegerszeg-Ola"
+          },
+          {
+            "value": "Zalaegerszeg"
+          },
+          {
+            "value": "ザラエゲルセグ",
+            "lang": "ja"
+          },
+          {
+            "value": "절러에게르세그",
+            "lang": "ko"
+          },
+          {
+            "value": "Залаэгерсег",
+            "lang": "ru"
+          },
+          {
+            "value": "佐洛埃格塞格",
+            "lang": "zh"
           },
           {
             "lang": "en",
@@ -47329,6 +48062,85 @@
             "value": "Q28"
           }
         ],
+        "P722": [
+          {
+            "value": "5504895",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "5505090"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUABQ",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28262",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5500087",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          },
+          {
+            "value": "5595505",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q22115853"
@@ -47342,16 +48154,6 @@
         "P131": [
           {
             "value": "Q60037"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5505090"
           }
         ]
       }
@@ -49538,7 +50340,7 @@
     },
     {
       "type": "Feature",
-      "id": "-2575-HU6a/2/2",
+      "id": "--2575-HU6a/2/2-Q22057713",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -49555,6 +50357,18 @@
           },
           {
             "value": "Derecske-Vásártér mh."
+          },
+          {
+            "lang": "en",
+            "value": "Derecske railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Derecske"
+          },
+          {
+            "lang": "hu",
+            "value": "Derecske vasútállomás"
           }
         ],
         "P17": [
@@ -49564,6 +50378,36 @@
               "reliability": 0
             },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22057713"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q781435"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P296": [
+          {
+            "value": "DE"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5514951"
           }
         ]
       }
@@ -51468,7 +52312,7 @@
     },
     {
       "type": "Feature",
-      "id": "-2691-HU91/2/7",
+      "id": "--2691-HU91/2/7-Q22059271",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -51482,6 +52326,14 @@
         "labels": [
           {
             "value": "Nyárlőrinci szőlők"
+          },
+          {
+            "lang": "en",
+            "value": "Nyárlőrinc railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Nyárlőrinc vasútállomás"
           }
         ],
         "P17": [
@@ -51491,6 +52343,36 @@
               "reliability": 0
             },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22059271"
+          }
+        ],
+        "P296": [
+          {
+            "value": "YL"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1051493"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5517251"
           }
         ]
       }
@@ -55541,7 +56423,7 @@
     },
     {
       "type": "Feature",
-      "id": "-3605-Q21877042",
+      "id": "--3605-trainline-18802-Q21877042",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -55555,6 +56437,9 @@
         "labels": [
           {
             "value": "Balatonlelle felső"
+          },
+          {
+            "value": "Balatonlelle"
           },
           {
             "lang": "en",
@@ -55574,6 +56459,74 @@
             "value": "Q28"
           }
         ],
+        "P722": [
+          {
+            "value": "5503459",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18802"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "5503442"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUABA",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18802"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "18802",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18802"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18802"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5500043",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18802"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q21877042"
@@ -55584,11 +56537,6 @@
             "value": "Q789299"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
@@ -55597,11 +56545,6 @@
         "P296": [
           {
             "value": "LF"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5503442"
           }
         ]
       }
@@ -55932,7 +56875,7 @@
     },
     {
       "type": "Feature",
-      "id": "-3609-Q21877049",
+      "id": "--3609-HU27/b/1-Q21877049",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -55946,6 +56889,9 @@
         "labels": [
           {
             "value": "Balatonfenyves alsó"
+          },
+          {
+            "value": "Balatonfenyves GV"
           },
           {
             "lang": "en",
@@ -58724,7 +59670,7 @@
     },
     {
       "type": "Feature",
-      "id": "-3648-Q21876905",
+      "id": "--3648-HU138//0-Q21876905",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -58738,6 +59684,9 @@
         "labels": [
           {
             "value": "Alsógalla"
+          },
+          {
+            "value": "Felsőgalla"
           },
           {
             "lang": "cs",
@@ -65278,7 +66227,7 @@
     },
     {
       "type": "Feature",
-      "id": "-3900-HU87/1/4",
+      "id": "--3900-HU87/1/4-Q22046612",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -65292,6 +66241,10 @@
         "labels": [
           {
             "value": "Sarkadi Cukorgyár"
+          },
+          {
+            "lang": "hu",
+            "value": "Sarkad vasútállomás"
           }
         ],
         "P17": [
@@ -65301,6 +66254,36 @@
               "reliability": 0
             },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22046612"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5518739"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q188247"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SA"
           }
         ]
       }
@@ -65569,7 +66552,7 @@
     },
     {
       "type": "Feature",
-      "id": "--3906-HU79/3/1-Q21877055",
+      "id": "---3906-HU79/3/1-trainline-18808-Q21877055",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -65583,6 +66566,13 @@
         "labels": [
           {
             "value": "Újszeged"
+          },
+          {
+            "value": "Szegedin",
+            "lang": "de"
+          },
+          {
+            "value": "Szeged"
           },
           {
             "lang": "en",
@@ -65602,6 +66592,74 @@
             "value": "Q28"
           }
         ],
+        "P722": [
+          {
+            "value": "5517228",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "5518945"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUABY",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "18808",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5500101",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q21877055"
@@ -65612,11 +66670,6 @@
             "value": "Q81581"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
@@ -65625,11 +66678,6 @@
         "P296": [
           {
             "value": "UG"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5518945"
           }
         ]
       }
@@ -66369,7 +67417,7 @@
     },
     {
       "type": "Feature",
-      "id": "-3920-HU79/1/4",
+      "id": "--3920-HU79/1/4-Q22227173",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -66383,6 +67431,10 @@
         "labels": [
           {
             "value": "Mezőkovácsháza felső"
+          },
+          {
+            "lang": "hu",
+            "value": "Mezőkovácsháza vasútállomás"
           }
         ],
         "P17": [
@@ -66392,6 +67444,36 @@
               "reliability": 0
             },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22227173"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q855032"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "KH"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5519182"
           }
         ]
       }
@@ -70067,7 +71149,7 @@
     },
     {
       "type": "Feature",
-      "id": "-6093-HU8e/2/1",
+      "id": "--6093-HU8e/2/1-Q21876154",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -70081,6 +71163,14 @@
         "labels": [
           {
             "value": "Lajosmizse alsó"
+          },
+          {
+            "lang": "en",
+            "value": "Lajosmizse railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Lajosmizse vasútállomás"
           }
         ],
         "P17": [
@@ -70090,6 +71180,36 @@
               "reliability": 0
             },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q21876154"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q843025"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LM"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5516915"
           }
         ]
       }
@@ -73166,7 +74286,7 @@
     },
     {
       "type": "Feature",
-      "id": "--7204-HU92/1/4-Q22059422",
+      "id": "--7204-HU92/1/5-Q22059423",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -73182,12 +74302,15 @@
             "value": "Tiszaalpár alsó"
           },
           {
+            "value": "Tiszaalpár"
+          },
+          {
             "lang": "en",
-            "value": "Tiszaalpár alsó railway station"
+            "value": "Tiszaalpár railway station"
           },
           {
             "lang": "hu",
-            "value": "Tiszaalpár alsó megállóhely"
+            "value": "Tiszaalpár vasútállomás"
           }
         ],
         "P17": [
@@ -73201,12 +74324,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q22059422"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5517772"
+            "value": "Q22059423"
           }
         ],
         "P131": [
@@ -73222,6 +74340,16 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "TA"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5517764"
           }
         ]
       }
@@ -80126,69 +81254,246 @@
     },
     {
       "type": "Feature",
-      "id": "152452",
+      "id": "--152452-HU82/3/6-Q22043849",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.3175,
-          46.411944444444444
+          [
+            20.3175,
+            46.411944444444444
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Hódmezővásárhely, Hősök tere"
+          },
+          {
+            "value": "Hódmezővásárhelyi Népkert"
+          },
+          {
+            "lang": "en",
+            "value": "Hódmezővásárhelyi Népkert railway halt"
+          },
+          {
+            "lang": "hu",
+            "value": "Hódmezővásárhelyi Népkert megállóhely"
+          },
+          {
+            "lang": "hu",
+            "value": "Hódmezővásárhelyi Népkert vasútállomás"
+          },
+          {
+            "lang": "ja",
+            "value": "ホードメゼーヴァーシャールヘイ人民庭園駅"
+          },
+          {
+            "lang": "pl",
+            "value": "Hódmezővásárhelyi Népkert"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22043849"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q124375"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5518564"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "152453",
+      "id": "--152453-HU82/3/6-Q22043849",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.31972222222222,
-          46.41444444444444
+          [
+            20.31972222222222,
+            46.41444444444444
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Hódmezővásárhely, Kossuth tér"
+          },
+          {
+            "value": "Hódmezővásárhelyi Népkert"
+          },
+          {
+            "lang": "en",
+            "value": "Hódmezővásárhelyi Népkert railway halt"
+          },
+          {
+            "lang": "hu",
+            "value": "Hódmezővásárhelyi Népkert megállóhely"
+          },
+          {
+            "lang": "hu",
+            "value": "Hódmezővásárhelyi Népkert vasútállomás"
+          },
+          {
+            "lang": "ja",
+            "value": "ホードメゼーヴァーシャールヘイ人民庭園駅"
+          },
+          {
+            "lang": "pl",
+            "value": "Hódmezővásárhelyi Népkert"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22043849"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q124375"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5518564"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "152454",
+      "id": "--152454-HU82/3/6-Q22043849",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.315555555555555,
-          46.40888888888889
+          [
+            20.315555555555555,
+            46.40888888888889
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Hódmezővásárhely, Strandfürdő"
+          },
+          {
+            "value": "Hódmezővásárhelyi Népkert"
+          },
+          {
+            "lang": "en",
+            "value": "Hódmezővásárhelyi Népkert railway halt"
+          },
+          {
+            "lang": "hu",
+            "value": "Hódmezővásárhelyi Népkert megállóhely"
+          },
+          {
+            "lang": "hu",
+            "value": "Hódmezővásárhelyi Népkert vasútállomás"
+          },
+          {
+            "lang": "ja",
+            "value": "ホードメゼーヴァーシャールヘイ人民庭園駅"
+          },
+          {
+            "lang": "pl",
+            "value": "Hódmezővásárhelyi Népkert"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22043849"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q124375"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5518564"
           }
         ]
       }
@@ -80241,46 +81546,153 @@
     },
     {
       "type": "Feature",
-      "id": "152457",
+      "id": "-152457-Q22044056",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.141666666666666,
-          46.259166666666665
+          [
+            20.141666666666666,
+            46.259166666666665
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Szeged, Rókusi templom"
+          },
+          {
+            "lang": "en",
+            "value": "Szeged-Rókus railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Szeged-Rókus vasútállomás"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22044056"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q81581"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P296": [
+          {
+            "value": "RO"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5518531"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "152458",
+      "id": "--152458-HU82/4/0-Q21877080",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.328333333333333,
-          46.416666666666664
+          [
+            20.328333333333333,
+            46.416666666666664
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Hódmezővásárhely, Kálvin János tér"
+          },
+          {
+            "value": "Hódmezővásárhely"
+          },
+          {
+            "lang": "en",
+            "value": "Hódmezővásárhely railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Hódmezővásárhely vasútállomás"
+          },
+          {
+            "lang": "pl",
+            "value": "Hódmezővásárhely"
+          },
+          {
+            "lang": "de",
+            "value": "Hódmezővásárhely"
+          },
+          {
+            "lang": "fr",
+            "value": "Hódmezővásárhely"
+          },
+          {
+            "lang": "ro",
+            "value": "Hódmezővásárhely"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q21877080"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5518572"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q124375"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "HM"
           }
         ]
       }
@@ -80547,7 +81959,7 @@
     },
     {
       "type": "Feature",
-      "id": "--152465-trainline-18808-Q1295359",
+      "id": "---152465-HU119//1-trainline-18808-Q1295359",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -80563,6 +81975,9 @@
             "value": "Szeged vasútállomás"
           },
           {
+            "value": "Szeged-Tisza"
+          },
+          {
             "value": "Szegedin",
             "lang": "de"
           },
@@ -80737,7 +82152,7 @@
     },
     {
       "type": "Feature",
-      "id": "--152466-trainline-18808-Q1295359",
+      "id": "---152466-HU119//1-trainline-18808-Q1295359",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -80753,6 +82168,9 @@
             "value": "Szeged, Bem utca"
           },
           {
+            "value": "Szeged-Tisza"
+          },
+          {
             "value": "Szegedin",
             "lang": "de"
           },
@@ -80927,7 +82345,7 @@
     },
     {
       "type": "Feature",
-      "id": "--152467-trainline-18808-Q1295359",
+      "id": "---152467-HU119//1-trainline-18808-Q1295359",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -80943,6 +82361,9 @@
             "value": "Szeged, Galamb utca"
           },
           {
+            "value": "Szeged-Tisza"
+          },
+          {
             "value": "Szegedin",
             "lang": "de"
           },
@@ -81117,23 +82538,123 @@
     },
     {
       "type": "Feature",
-      "id": "152468",
+      "id": "-152468-Q1295359",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.146944444444443,
-          46.24777777777778
+          [
+            20.146944444444443,
+            46.24777777777778
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Szeged, Aradi vértanúk tere"
+          },
+          {
+            "lang": "de",
+            "value": "Szeged"
+          },
+          {
+            "lang": "ru",
+            "value": "Сегед"
+          },
+          {
+            "lang": "cs",
+            "value": "Szeged"
+          },
+          {
+            "lang": "en",
+            "value": "Szeged railway station"
+          },
+          {
+            "lang": "eo",
+            "value": "Stacidomo de Szeged"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Szeged"
+          },
+          {
+            "lang": "hu",
+            "value": "Szeged vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "gare de Szeged"
+          },
+          {
+            "lang": "pl",
+            "value": "Szeged"
+          },
+          {
+            "lang": "ro",
+            "value": "Szeged"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Seghedino"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q28"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q1295359"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "6"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FS"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5517228"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "HUABY"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5500101"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q81581"
+          }
+        ],
+        "P2848": [
+          {
+            "value": "Q1543615"
           }
         ]
       }

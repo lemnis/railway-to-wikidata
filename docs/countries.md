@@ -130,7 +130,7 @@ List of implemented providers with rough indication of the area covered and its 
 | MAV           | Hungary                             | None!                                                      |
 | Irish Rail    | Ireland & Northern Ireland          | Station Code                                               |
 | Trenitalia    | Italy                               | Station Code for a few locations                           |
-| Litrail       | Lithuania                           | ESR                                                        |
+| Litrail       | Lithuania                           | ESR, UIC                                                   |
 | Openov        | Luxembourg & neighbours             | None!                                                      |
 
 ...Need to add more...

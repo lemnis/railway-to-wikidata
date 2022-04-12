@@ -13617,7 +13617,7 @@
     },
     {
       "type": "Feature",
-      "id": "----DK00175-XDKHL-DKCPH-trainline-22607-Q2431774",
+      "id": "-----DK00175-XDKHL-DKCPH-860000858-trainline-22607-Q2431774",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -13637,6 +13637,10 @@
           },
           {
             "value": "Copenhagen Airport Kastrup"
+          },
+          {
+            "value": "Copenhagen Airport",
+            "lang": "sv"
           },
           {
             "value": "Kastrup Lufthavn St."
@@ -13779,6 +13783,13 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "8600858"
+          },
+          {
             "value": "8603327",
             "references": [
               {
@@ -13788,9 +13799,6 @@
             "info": {
               "reliability": 0.6400000000000001
             }
-          },
-          {
-            "value": "8600858"
           }
         ],
         "P6724": [
@@ -13869,7 +13877,7 @@
     },
     {
       "type": "Feature",
-      "id": "--DK00181-DKFRS-trainline-18621",
+      "id": "---DK00181-DKFRS-trainline-18621-Q12313084",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -13886,6 +13894,42 @@
           },
           {
             "value": "Fruens Bøge St."
+          },
+          {
+            "lang": "da",
+            "value": "Fruens Bøge Station"
+          },
+          {
+            "lang": "de",
+            "value": "Fruens Bøge Station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Fruens Bøge"
+          },
+          {
+            "lang": "en",
+            "value": "Fruens Bøge Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Fruens Boge"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Fruens Bøge"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Fruens Bøge"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Fruens Bøge"
+          },
+          {
+            "lang": "nb",
+            "value": "Fruens Bøge stasjon"
           }
         ],
         "P17": [
@@ -13941,15 +13985,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
             "value": "8600533",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18621"
               }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -13973,6 +14022,52 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18621"
               }
             ]
+          },
+          {
+            "value": "Q207020"
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12313084"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Frs"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Fruens Bøge Skov 4, 5250 Odense SV"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q25331"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P281": [
+          {
+            "value": "5250"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q21146"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -22348,7 +22443,7 @@
     },
     {
       "type": "Feature",
-      "id": "--DK00273-DKSNX-trainline-27823",
+      "id": "---DK00273-DKSNX-trainline-27823-Q2534443",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -22368,6 +22463,38 @@
           },
           {
             "value": "Svenstrup St. (Jylland)"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Svenstrup"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Svenstrup"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Svenstrup"
+          },
+          {
+            "lang": "nb",
+            "value": "Svenstrup stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Svenstrup Station"
+          },
+          {
+            "lang": "en",
+            "value": "Svenstrup station"
+          },
+          {
+            "lang": "hu",
+            "value": "Svenstrup vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Svenstrup"
           }
         ],
         "P17": [
@@ -22442,6 +22569,57 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/27823"
               }
             ]
+          },
+          {
+            "value": "Q207020"
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2534443"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q300856"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3198692"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P281": [
+          {
+            "value": "9230"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Sn"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8600023"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Svenstrup Banevej, 9230 Svenstrup"
           }
         ]
       }
@@ -26677,7 +26855,7 @@
     },
     {
       "type": "Feature",
-      "id": "--DK00326-DKSDB-trainline-18729",
+      "id": "---DK00326-DKSDB-trainline-18729-Q2194233",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -26710,6 +26888,58 @@
           },
           {
             "value": "Sønderborg St."
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Sønderborg"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Sønderborg"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Sønderborg"
+          },
+          {
+            "lang": "nb",
+            "value": "Sønderborg stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Sønderborg Station"
+          },
+          {
+            "lang": "en",
+            "value": "Sønderborg Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Sonderborg"
+          },
+          {
+            "lang": "nl",
+            "value": "station Sønderborg"
+          },
+          {
+            "lang": "pl",
+            "value": "Sønderborg"
+          },
+          {
+            "lang": "zh",
+            "value": "森讷堡站"
+          },
+          {
+            "lang": "zh",
+            "value": "森訥堡站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "森讷堡站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "森訥堡站"
           }
         ],
         "P17": [
@@ -26765,15 +26995,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
             "value": "8600327",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18729"
               }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -26797,6 +27032,52 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18729"
               }
             ]
+          },
+          {
+            "value": "Q25989"
+          },
+          {
+            "value": "Q207020"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2194233"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q21179"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q21108"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P281": [
+          {
+            "value": "6400"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Sdb"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Alsion 1, 6400 Sønderborg"
           }
         ]
       }
@@ -32645,7 +32926,7 @@
     },
     {
       "type": "Feature",
-      "id": "---DK00373-DKVNO-trainline-27837-Q12340578",
+      "id": "---DK00373-XDVR-DKVAX-trainline-18756",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -32661,35 +32942,17 @@
             "value": "Varde Nord"
           },
           {
-            "value": "Varde Nord St."
+            "value": "Varde st"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Varde Nord"
+            "value": "Varde"
           },
           {
-            "lang": "fr",
-            "value": "gare de Varde Nord"
+            "value": "Варде",
+            "lang": "ru"
           },
           {
-            "lang": "it",
-            "value": "stazione di Varde Nord"
-          },
-          {
-            "lang": "nb",
-            "value": "Varde Nord stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Varde Nord Station"
-          },
-          {
-            "lang": "en",
-            "value": "Varde Nord station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Varde Nord"
+            "value": "Varde St."
           }
         ],
         "P17": [
@@ -32699,6 +32962,46 @@
               "reliability": 0
             },
             "value": "Q35"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 2.3
+            },
+            "value": "8602729",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XDVR",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P8448": [
@@ -32714,41 +33017,33 @@
               ],
               "reliability": 1.5
             },
-            "value": "DKVNO",
+            "value": "DKVAX",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27837"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
               }
             ]
           }
         ],
-        "P954": [
+        "P722": [
           {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "value": "8602730",
+            "value": "8600212",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27837"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P6724": [
           {
-            "value": "27837",
+            "value": "18756",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27837"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
               }
             ],
             "info": {
@@ -32761,60 +33056,9 @@
             "value": "Q5412103",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27837"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18756"
               }
             ]
-          },
-          {
-            "value": "Q207020"
-          },
-          {
-            "value": "Q25989"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q12340578"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q2048321"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "1"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q21142"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P281": [
-          {
-            "value": "6800"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8600213"
-          }
-        ],
-        "P296": [
-          {
-            "value": "Vno"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Skrænten 15, 6800 Varde"
           }
         ]
       }
@@ -38856,7 +39100,7 @@
     },
     {
       "type": "Feature",
-      "id": "--DK00446-DKJLX-trainline-18664",
+      "id": "---DK00446-DKJLX-trainline-18664-Q12319194",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -38889,6 +39133,34 @@
           },
           {
             "value": "Jelling St."
+          },
+          {
+            "lang": "da",
+            "value": "Jelling Station"
+          },
+          {
+            "lang": "en",
+            "value": "Jelling railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Jelling"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Jelling"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Jelling"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Jelling"
+          },
+          {
+            "lang": "nb",
+            "value": "Jelling stasjon"
           }
         ],
         "P17": [
@@ -38944,15 +39216,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
             "value": "8600285",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18664"
               }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001
-            }
+            ]
           }
         ],
         "P6724": [
@@ -38976,13 +39253,59 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18664"
               }
             ]
+          },
+          {
+            "value": "Q207020"
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12319194"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Jernbanevej 3, 7300 Jelling"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q835708"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q28150"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P281": [
+          {
+            "value": "7300"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Jl"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "---DK00450-DKVJS-trainline-27838-Q12340645",
+      "id": "----DK00450-XDVJ-DKVJX-trainline-18795-Q2010673",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -38998,35 +39321,81 @@
             "value": "Vejle Sygehus"
           },
           {
-            "value": "Vejle Sygehus St."
+            "value": "Vejle st"
+          },
+          {
+            "value": "Vejle"
+          },
+          {
+            "value": "ヴァイレ",
+            "lang": "ja"
+          },
+          {
+            "value": "바일레",
+            "lang": "ko"
+          },
+          {
+            "value": "Вайле",
+            "lang": "ru"
+          },
+          {
+            "value": "瓦埃勒",
+            "lang": "zh"
+          },
+          {
+            "value": "Vejle St."
           },
           {
             "lang": "de",
-            "value": "Bahnhof Vejle Sygehus"
+            "value": "Bahnhof Vejle"
           },
           {
             "lang": "fr",
-            "value": "gare de Vejle Sygehus"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Vejle Sygehus"
+            "value": "gare de Vejle"
           },
           {
             "lang": "nb",
-            "value": "Vejle Sygehus stasjon"
+            "value": "Vejle stasjon"
+          },
+          {
+            "lang": "pl",
+            "value": "Vejle"
           },
           {
             "lang": "da",
-            "value": "Vejle Sygehus Station"
+            "value": "Vejle Station"
           },
           {
             "lang": "en",
-            "value": "Vejle Sygehus railway station"
+            "value": "Vejle Station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Vejle"
           },
           {
             "lang": "nl",
-            "value": "Station Vejle Sygehus"
+            "value": "station Vejle"
+          },
+          {
+            "lang": "zh",
+            "value": "瓦埃勒车站"
+          },
+          {
+            "lang": "zh",
+            "value": "瓦埃勒站"
+          },
+          {
+            "lang": "zh-cn",
+            "value": "瓦埃勒车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "瓦埃勒车站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "瓦埃勒車站"
           }
         ],
         "P17": [
@@ -39036,6 +39405,46 @@
               "reliability": 0
             },
             "value": "Q35"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 2.3
+            },
+            "value": "8602756",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ]
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XDVJ",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P8448": [
@@ -39051,41 +39460,38 @@
               ],
               "reliability": 1.5
             },
-            "value": "DKVJS",
+            "value": "DKVJX",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
               }
             ]
           }
         ],
-        "P954": [
+        "P722": [
           {
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 1.5
+              "reliability": 0.6400000000000001
             },
-            "value": "8602956",
+            "value": "8600073",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
               }
             ]
           }
         ],
         "P6724": [
           {
-            "value": "27838",
+            "value": "18795",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
               }
             ],
             "info": {
@@ -39098,20 +39504,20 @@
             "value": "Q5412103",
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27838"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18795"
               }
             ]
           },
           {
-            "value": "Q207020"
+            "value": "Q25989"
           },
           {
-            "value": "Q25989"
+            "value": "Q207020"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q12340645"
+            "value": "Q2010673"
           }
         ],
         "P276": [
@@ -39121,7 +39527,7 @@
         ],
         "P1103": [
           {
-            "value": "1"
+            "value": "4"
           }
         ],
         "P281": [
@@ -39139,19 +39545,14 @@
             "value": "Q55488"
           }
         ],
-        "P722": [
-          {
-            "value": "8600281"
-          }
-        ],
         "P296": [
           {
-            "value": "Vjs"
+            "value": "Vj"
           }
         ],
         "P6375": [
           {
-            "value": "Beriderbakken 1, 7100 Vejle"
+            "value": "Banegårdspladsen 3B, 7100 Vejle"
           }
         ]
       }
@@ -46777,23 +47178,51 @@
     },
     {
       "type": "Feature",
-      "id": "DK00954",
+      "id": "-DK00954-DKABL",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          9.8758,
-          57.0842
+          [
+            9.8758,
+            57.0842
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Aalborg Lufthavn"
+          },
+          {
+            "value": "Aalborg Luvthavn"
+          },
+          {
+            "value": "Aalborg Airport"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P8448": [
+          {
+            "value": "DKABL",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "8600115",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ]
       }
@@ -49956,7 +50385,7 @@
     },
     {
       "type": "Feature",
-      "id": "---DK00819-DKVPT-trainline-27840-Q2039347",
+      "id": "----DK00819-DKVPT-860000646-trainline-27840-Q2039347",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -49970,6 +50399,10 @@
         "labels": [
           {
             "value": "Vesterport"
+          },
+          {
+            "value": "Nørreport",
+            "lang": "sv"
           },
           {
             "value": "Vesterport St."
@@ -50078,6 +50511,14 @@
             ]
           }
         ],
+        "P722": [
+          {
+            "value": "8600646"
+          },
+          {
+            "value": "8600645"
+          }
+        ],
         "P6724": [
           {
             "value": "27840",
@@ -50138,11 +50579,6 @@
         "P296": [
           {
             "value": "Vpt"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8600645"
           }
         ],
         "P131": [
@@ -56596,7 +57032,7 @@
     },
     {
       "type": "Feature",
-      "id": "--DK00865-DKFSX-trainline-27746",
+      "id": "---DK00865-DKFSX-trainline-27746-Q2350881",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -56617,6 +57053,50 @@
           },
           {
             "value": "Frederikssund St."
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Frederikssund"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Frederikssund"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Frederikssund"
+          },
+          {
+            "lang": "nb",
+            "value": "Frederikssund stasjon"
+          },
+          {
+            "lang": "pl",
+            "value": "Frederikssund"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة فريديريكسوند"
+          },
+          {
+            "lang": "da",
+            "value": "Frederikssund Station"
+          },
+          {
+            "lang": "en",
+            "value": "Frederikssund station"
+          },
+          {
+            "lang": "hu",
+            "value": "Frederikssund vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Frederikssund"
+          },
+          {
+            "lang": "zh",
+            "value": "腓特烈松站"
           }
         ],
         "P17": [
@@ -56691,6 +57171,57 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/27746"
               }
             ]
+          },
+          {
+            "value": "Q207020"
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2350881"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q503232"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3223801"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P281": [
+          {
+            "value": "3600"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Fs"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8600714"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Jernbanegade 46, 3600 Frederikssund"
           }
         ]
       }
@@ -65567,7 +66098,7 @@
     },
     {
       "type": "Feature",
-      "id": "-DK00530-Q12325241",
+      "id": "---DK00530-DKLYX-trainline-27787-Q12325241",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -65581,6 +66112,12 @@
         "labels": [
           {
             "value": "Lyngby Lokal"
+          },
+          {
+            "value": "Lyngby"
+          },
+          {
+            "value": "Lyngby St."
           },
           {
             "lang": "de",
@@ -65624,6 +66161,80 @@
             "value": "Q35"
           }
         ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "value": "DKLYX",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27787"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "value": "8602928",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27787"
+              }
+            ]
+          },
+          {
+            "value": "8601528"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "27787",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27787"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412103",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27787"
+              }
+            ]
+          },
+          {
+            "value": "Q207020"
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q12325241"
@@ -65634,14 +66245,6 @@
             "value": "8603007"
           }
         ],
-        "P421": [
-          {
-            "value": "Q207020"
-          },
-          {
-            "value": "Q25989"
-          }
-        ],
         "P131": [
           {
             "value": "Q493826"
@@ -65650,11 +66253,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "8601528"
           }
         ],
         "P296": [
@@ -81448,23 +82046,113 @@
     },
     {
       "type": "Feature",
-      "id": "DK00777",
+      "id": "-DK00777-Q12343287",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          9.951,
-          57.524
+          [
+            9.951,
+            57.524
+          ]
         ]
       },
       "properties": {
         "labels": [
           {
             "value": "Sønderby"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Tornby"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Tornby"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Tornby"
+          },
+          {
+            "lang": "nb",
+            "value": "Tornby stasjon"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة تورنبى"
+          },
+          {
+            "lang": "da",
+            "value": "Tornby Station"
+          },
+          {
+            "lang": "en",
+            "value": "Tornby station"
+          },
+          {
+            "lang": "hu",
+            "value": "Tornby vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Tornby"
           }
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12343287"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8601839"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q207020"
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q511214"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q2096919"
+          }
+        ],
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Tor"
+          }
+        ],
+        "P954": [
+          {
+            "value": "8602594"
           }
         ]
       }

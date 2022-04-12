@@ -8607,7 +8607,7 @@
     },
     {
       "type": "Feature",
-      "id": "----BNN-NLBNN-ONBAN-trainline-23297-Q3907891",
+      "id": "-----BNN-NLBNN-NLBNVA-ONBAN-trainline-23297-Q3907891",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8625,6 +8625,10 @@
           },
           {
             "value": "Barneveld Noord"
+          },
+          {
+            "value": "Barneveld aansl.",
+            "lang": "nl"
           },
           {
             "value": "Барневелд",
@@ -8715,6 +8719,12 @@
                   "value": "Q23076"
                 }
               ]
+            }
+          },
+          {
+            "value": "BNVA",
+            "info": {
+              "reliability": 0.67
             }
           }
         ],
@@ -28489,7 +28499,7 @@
     },
     {
       "type": "Feature",
-      "id": "----FN-NLFNK-NLFN-ONFR-Q17934",
+      "id": "-----FN-NLFNK-NLFN-ONFR-trainline-23322-Q17934",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -28511,6 +28521,14 @@
           },
           {
             "value": "Franeker"
+          },
+          {
+            "value": "Франекер",
+            "lang": "ru"
+          },
+          {
+            "value": "弗拉訥克",
+            "lang": "zh"
           },
           {
             "lang": "de",
@@ -28562,12 +28580,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400232"
+            "value": "8400232",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23322"
+              }
+            ]
           }
         ],
         "P954": [
@@ -28575,6 +28601,9 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
@@ -28584,10 +28613,13 @@
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 3.1
             },
             "value": "8400232",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23322"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -28642,12 +28674,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLFNK"
+            "value": "NLFNK",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23322"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -28663,6 +28703,32 @@
             }
           }
         ],
+        "P6724": [
+          {
+            "value": "23322",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23322"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23322"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q17934"
@@ -28671,11 +28737,6 @@
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/fn/franeker"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
           }
         ],
         "P276": [
@@ -29356,7 +29417,7 @@
     },
     {
       "type": "Feature",
-      "id": "----BHDV-NLBVH-NLBHDV-PNABP-trainline-23302",
+      "id": "-----BHDV-NLBVH-NLBHDV-PNABP-trainline-23302-Q641454",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -29378,6 +29439,38 @@
           {
             "value": "Boven Hardinxveld",
             "lang": "nl"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة بوڤين هاردينكسڤيلد"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Boven Hardinxveld"
+          },
+          {
+            "lang": "en",
+            "value": "Boven Hardinxveld railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Boven Hardinxveld"
+          },
+          {
+            "lang": "fr",
+            "value": "Boven Hardinxveld"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Boven-Hardinxveld"
+          },
+          {
+            "lang": "nl",
+            "value": "Stopplaats Boven Hardinxveld"
+          },
+          {
+            "lang": "nl",
+            "value": "station Boven Hardinxveld"
           }
         ],
         "P722": [
@@ -29441,7 +29534,7 @@
               ],
               "reliability": 0.67
             },
-            "value": "BHDV",
+            "value": "Bhdv",
             "qualifiers": {
               "P518": [
                 {
@@ -29467,6 +29560,10 @@
         ],
         "P1103": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2"
           }
         ],
@@ -29525,6 +29622,34 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23302"
               }
             ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q641454"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q953012"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q2692102"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/bhdv/boven-hardinxveld"
           }
         ]
       }
@@ -36795,7 +36920,7 @@
     },
     {
       "type": "Feature",
-      "id": "---HLG-NLHLG-NLHLG-Q800889",
+      "id": "----HLG-NLHLG-NLHLG-trainline-23333-Q800889",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -36817,6 +36942,22 @@
           },
           {
             "value": "Harlingen"
+          },
+          {
+            "value": "ハルリンゲン",
+            "lang": "ja"
+          },
+          {
+            "value": "하를링언",
+            "lang": "ko"
+          },
+          {
+            "value": "Харлинген",
+            "lang": "ru"
+          },
+          {
+            "value": "哈靈根",
+            "lang": "zh"
           },
           {
             "lang": "de",
@@ -36860,12 +37001,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400296"
+            "value": "8400296",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23333"
+              }
+            ]
           }
         ],
         "P954": [
@@ -36873,15 +37022,23 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.5999999999999999
+              "reliability": 2.3
             },
-            "value": "8400296"
+            "value": "8400296",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23333"
+              }
+            ]
           }
         ],
         "P296": [
@@ -36932,22 +37089,51 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLHLG"
+            "value": "NLHLG",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23333"
+              }
+            ]
+          }
+        ],
+        "P6724": [
+          {
+            "value": "23333",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23333"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23333"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
           }
         ],
         "PWIKI": [
           {
             "value": "Q800889"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
           }
         ],
         "P276": [
@@ -37622,7 +37808,7 @@
     },
     {
       "type": "Feature",
-      "id": "---HMH-NLHMH-trainline-18939-Q2570647",
+      "id": "----HMH-NLHMH-ONHMH-trainline-18939-Q2570647",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -37640,6 +37826,10 @@
           },
           {
             "value": "Helmond 't Hout"
+          },
+          {
+            "value": "Helmond t Hout",
+            "lang": "nl"
           },
           {
             "value": "Helmond ’t Hout",
@@ -37703,14 +37893,20 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.3
+              "reliability": 3.1
             },
             "value": "8400300",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18939"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ]
           }
@@ -37773,6 +37969,19 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18939"
               }
             ]
+          }
+        ],
+        "P8671": [
+          {
+            "value": "ONHMH",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -42290,7 +42499,7 @@
     },
     {
       "type": "Feature",
-      "id": "---HNP-NLHDL-ONHI-Q5765960",
+      "id": "----HNP-NLHDL-ONHI-trainline-23340-Q5765960",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -42312,6 +42521,10 @@
           },
           {
             "value": "Hindeloopen"
+          },
+          {
+            "value": "欣德洛彭",
+            "lang": "zh"
           },
           {
             "lang": "de",
@@ -42343,12 +42556,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400323"
+            "value": "8400323",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23340"
+              }
+            ]
           }
         ],
         "P954": [
@@ -42356,6 +42577,9 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
@@ -42365,10 +42589,13 @@
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 3.1
             },
             "value": "8400323",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23340"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -42419,12 +42646,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLHDL"
+            "value": "NLHDL",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23340"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -42440,14 +42675,35 @@
             }
           }
         ],
-        "PWIKI": [
+        "P6724": [
           {
-            "value": "Q5765960"
+            "value": "23340",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23340"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
           {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23340"
+              }
+            ]
+          },
+          {
             "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5765960"
           }
         ],
         "P31": [
@@ -45018,7 +45274,7 @@
     },
     {
       "type": "Feature",
-      "id": "-----HN-NLHON-NLHN-XNHOR-trainline-18955-Q800935",
+      "id": "-----HN-NLHON-NLHN-XNHOR-trainline-18955-Q20724917",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -45058,36 +45314,8 @@
             "value": "Hoorn"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Hoorn"
-          },
-          {
-            "lang": "en",
-            "value": "Hoorn railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Hoorn vasútállomás"
-          },
-          {
             "lang": "nl",
-            "value": "NS Station Hoorn"
-          },
-          {
-            "lang": "nl",
-            "value": "rijksmonumentnummer 22576"
-          },
-          {
-            "lang": "nl",
-            "value": "station Hoorn"
-          },
-          {
-            "lang": "pl",
-            "value": "Hoorn (stacja kolejowa)"
-          },
-          {
-            "lang": "zh",
-            "value": "霍倫車站"
+            "value": "tramstation Hoorn"
           }
         ],
         "P722": [
@@ -45151,7 +45379,7 @@
               ],
               "reliability": 0.67
             },
-            "value": "Hn",
+            "value": "HN",
             "qualifiers": {
               "P518": [
                 {
@@ -45177,14 +45405,7 @@
         ],
         "P1103": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "3"
-          },
-          {
-            "value": "5"
           }
         ],
         "P8448": [
@@ -45249,40 +45470,23 @@
         ],
         "PWIKI": [
           {
-            "value": "Q800935"
+            "value": "Q20724917"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q1339195"
+          },
+          {
+            "value": "Q2175765"
+          },
+          {
+            "value": "Q55488"
           }
         ],
         "P131": [
           {
             "value": "Q9938"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          },
-          {
-            "value": "Q1339195"
-          }
-        ],
-        "P856": [
-          {
-            "value": "http://www.ns.nl/stationsinformatie/hoorn.html"
-          }
-        ],
-        "P281": [
-          {
-            "value": "1621HX"
-          }
-        ],
-        "P669": [
-          {
-            "value": "Q19546871"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Stationsplein 1"
           }
         ]
       }
@@ -45990,7 +46194,7 @@
     },
     {
       "type": "Feature",
-      "id": "---SGL-NLHTS-ONHSG-Q511637",
+      "id": "----SGL-NLHTS-ONHSG-trainline-23344-Q511637",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -46008,6 +46212,10 @@
           },
           {
             "value": "Houthem-St. Gerlach"
+          },
+          {
+            "value": "Houthem-St Gerlach",
+            "lang": "nl"
           },
           {
             "lang": "de",
@@ -46047,12 +46255,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400341"
+            "value": "8400341",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23344"
+              }
+            ]
           }
         ],
         "P954": [
@@ -46060,6 +46276,9 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
@@ -46069,10 +46288,13 @@
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 3.1
             },
             "value": "8400341",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23344"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -46123,12 +46345,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLHTS"
+            "value": "NLHTS",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23344"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -46144,14 +46374,35 @@
             }
           }
         ],
-        "PWIKI": [
+        "P6724": [
           {
-            "value": "Q511637"
+            "value": "23344",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23344"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
           {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23344"
+              }
+            ]
+          },
+          {
             "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q511637"
           }
         ],
         "P131": [
@@ -50759,7 +51010,7 @@
     },
     {
       "type": "Feature",
-      "id": "----LW-NLLWD-NLLW-XNLW-Q17944",
+      "id": "-----LW-NLLWD-NLLW-XNLW-trainline-8648-23356-Q17944",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -50781,6 +51032,22 @@
           },
           {
             "value": "Leeuwarden"
+          },
+          {
+            "value": "レーワルデン",
+            "lang": "ja"
+          },
+          {
+            "value": "레이우아르던",
+            "lang": "ko"
+          },
+          {
+            "value": "Леуварден",
+            "lang": "ru"
+          },
+          {
+            "value": "吕伐登",
+            "lang": "zh"
           },
           {
             "lang": "de",
@@ -50840,12 +51107,31 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400387"
+            "value": "8400387",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              }
+            ]
+          },
+          {
+            "value": "8484387",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P954": [
@@ -50853,6 +51139,9 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
@@ -50862,10 +51151,13 @@
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 3.1
             },
             "value": "8400387",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -50919,12 +51211,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLLWD"
+            "value": "NLLWD",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -50938,6 +51238,61 @@
             "info": {
               "reliability": 0.7000000000000001
             }
+          }
+        ],
+        "P8181": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "NLABP",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              }
+            ]
+          }
+        ],
+        "P6724": [
+          {
+            "value": "8648",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "23356",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8648"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
           }
         ],
         "PWIKI": [
@@ -50955,11 +51310,6 @@
             "value": "Q25390"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P856": [
           {
             "value": "http://ns.nl/cs/Satellite?pagename=NS2007/Generic/GetStation&station=Leeuwarden"
@@ -50968,11 +51318,6 @@
         "P281": [
           {
             "value": "8911AC"
-          }
-        ],
-        "P8181": [
-          {
-            "value": "NLABP"
           }
         ],
         "P6375": [
@@ -57207,7 +57552,7 @@
     },
     {
       "type": "Feature",
-      "id": "---AMPO-NLAPT-PNAP-trainline-18975",
+      "id": "----AMPO-NLAPT-PNAP-trainline-18975-Q1962194",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -57225,6 +57570,30 @@
           },
           {
             "value": "Almere Poort"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Almere Poort"
+          },
+          {
+            "lang": "en",
+            "value": "Almere Poort railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "Almere Poort"
+          },
+          {
+            "lang": "hu",
+            "value": "Almere Poort vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Almere Poort"
+          },
+          {
+            "lang": "zh",
+            "value": "阿爾梅勒港口火車站"
           }
         ],
         "P722": [
@@ -57280,7 +57649,11 @@
         ],
         "P296": [
           {
-            "value": "AMPO",
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Ampo",
             "qualifiers": {
               "P518": [
                 {
@@ -57306,6 +57679,10 @@
         ],
         "P1103": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2"
           }
         ],
@@ -57364,6 +57741,29 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18975"
               }
             ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q1962194"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/ampo/almere-poort"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q83178"
           }
         ]
       }
@@ -61083,7 +61483,7 @@
     },
     {
       "type": "Feature",
-      "id": "----ODZ-NLODZ-NLODZ-XNOD-Q599851",
+      "id": "-----ODZ-NLODZ-NLODZ-XNOD-trainline-8632-23370-Q599851",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -61101,6 +61501,10 @@
           },
           {
             "value": "Oldenzaal"
+          },
+          {
+            "value": "Олдензал",
+            "lang": "ru"
           },
           {
             "lang": "de",
@@ -61128,12 +61532,31 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400483"
+            "value": "8400483",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              }
+            ]
+          },
+          {
+            "value": "8484483",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P954": [
@@ -61141,6 +61564,9 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
@@ -61150,10 +61576,13 @@
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 3.1
             },
             "value": "8400483",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -61208,12 +61637,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLODZ"
+            "value": "NLODZ",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -61229,14 +61666,64 @@
             }
           }
         ],
-        "PWIKI": [
+        "P8181": [
           {
-            "value": "Q599851"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "NLAAZ",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              }
+            ]
+          }
+        ],
+        "P6724": [
+          {
+            "value": "8632",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          },
+          {
+            "value": "23370",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
           {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8632"
+              }
+            ]
+          },
+          {
             "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q599851"
           }
         ],
         "P131": [
@@ -61252,11 +61739,6 @@
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/odz/oldenzaal"
-          }
-        ],
-        "P8181": [
-          {
-            "value": "NLAAZ"
           }
         ]
       }
@@ -62888,7 +63370,7 @@
     },
     {
       "type": "Feature",
-      "id": "---SDTB-NLSBH-PNABR-trainline-23382",
+      "id": "----SDTB-NLSBH-PNABR-trainline-23382-Q2751367",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -62906,6 +63388,26 @@
           },
           {
             "value": "Sliedrecht Baanhoek"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة سليدريتشت بانهويك"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Sliedrecht Baanhoek"
+          },
+          {
+            "lang": "en",
+            "value": "Sliedrecht Baanhoek railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Sliedrecht Baanhoek vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Sliedrecht Baanhoek"
           }
         ],
         "P722": [
@@ -62961,7 +63463,11 @@
         ],
         "P296": [
           {
-            "value": "SDTB",
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Sdtb",
             "qualifiers": {
               "P518": [
                 {
@@ -62987,6 +63493,10 @@
         ],
         "P1103": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "1"
           }
         ],
@@ -63045,6 +63555,24 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23382"
               }
             ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2751367"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q750760"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -73925,7 +74453,7 @@
     },
     {
       "type": "Feature",
-      "id": "----SKND-NLSNO-NLSKND-ONSKN-Q1908342",
+      "id": "-----SKND-NLSNO-NLSKND-ONSKN-trainline-23384-Q1908342",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -73947,6 +74475,22 @@
           },
           {
             "value": "Sneek Noord"
+          },
+          {
+            "value": "スネーク",
+            "lang": "ja"
+          },
+          {
+            "value": "스네이크",
+            "lang": "ko"
+          },
+          {
+            "value": "Снек",
+            "lang": "ru"
+          },
+          {
+            "value": "斯內克",
+            "lang": "zh"
           },
           {
             "lang": "de",
@@ -73978,12 +74522,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400574"
+            "value": "8400574",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23384"
+              }
+            ]
           }
         ],
         "P954": [
@@ -73991,6 +74543,9 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
@@ -74000,10 +74555,13 @@
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 3.1
             },
             "value": "8400574",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23384"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -74058,12 +74616,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLSNO"
+            "value": "NLSNO",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23384"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -74079,6 +74645,32 @@
             }
           }
         ],
+        "P6724": [
+          {
+            "value": "23384",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23384"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23384"
+              }
+            ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q1908342"
@@ -74087,11 +74679,6 @@
         "P276": [
           {
             "value": "Q23070"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
           }
         ],
         "P31": [
@@ -77059,7 +77646,7 @@
     },
     {
       "type": "Feature",
-      "id": "---SSH-NLSSH-PNABS-trainline-18887",
+      "id": "----SSH-NLSSH-PNABS-trainline-18887-Q2186815",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -77081,6 +77668,30 @@
           {
             "value": "Сассенхейм",
             "lang": "ru"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Sassenheim"
+          },
+          {
+            "lang": "en",
+            "value": "Sassenheim railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "Sassenheim"
+          },
+          {
+            "lang": "hu",
+            "value": "Sassenheim vasútállomás"
+          },
+          {
+            "lang": "nl",
+            "value": "station Sassenheim"
+          },
+          {
+            "lang": "pl",
+            "value": "Sassenheim"
           }
         ],
         "P722": [
@@ -77136,7 +77747,11 @@
         ],
         "P296": [
           {
-            "value": "SSH",
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Ssh",
             "qualifiers": {
               "P518": [
                 {
@@ -77162,6 +77777,10 @@
         ],
         "P1103": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2"
           }
         ],
@@ -77220,13 +77839,46 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18887"
               }
             ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2186815"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Stationsplein 1, Warmond"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q1615421"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1368003"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q19645548"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "---UTVR-NLUVR-PNUVR-trainline-28937",
+      "id": "----UTVR-NLUVR-PNUVR-trainline-28937-Q3397831",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -77264,6 +77916,14 @@
           {
             "value": "乌得勒支",
             "lang": "zh"
+          },
+          {
+            "lang": "en",
+            "value": "Utrecht Vaartsche Rijn railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Utrecht Vaartsche Rijn"
           }
         ],
         "P722": [
@@ -77306,7 +77966,11 @@
         ],
         "P296": [
           {
-            "value": "UTVR",
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Utvr",
             "qualifiers": {
               "P518": [
                 {
@@ -77332,7 +77996,14 @@
         ],
         "P1103": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "4"
+          },
+          {
+            "value": "2"
           }
         ],
         "P8448": [
@@ -77390,6 +78061,27 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28937"
               }
             ]
+          },
+          {
+            "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3397831"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q3201814"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q803"
           }
         ]
       }
@@ -80629,7 +81321,7 @@
     },
     {
       "type": "Feature",
-      "id": "----VSV-NLVSV-NLVSV-ONVS-Q4866021",
+      "id": "-----VSV-NLVSV-NLVSV-ONVS-trainline-23396-Q4866021",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -80651,6 +81343,10 @@
           {
             "value": "Varseveld",
             "lang": "nl"
+          },
+          {
+            "value": "Варссевелд",
+            "lang": "ru"
           },
           {
             "lang": "fr",
@@ -80678,12 +81374,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.44
             },
-            "value": "8400635"
+            "value": "8400635",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23396"
+              }
+            ]
           }
         ],
         "P954": [
@@ -80691,6 +81395,9 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
@@ -80700,10 +81407,13 @@
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 3.1
             },
             "value": "8400635",
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23396"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -80758,12 +81468,20 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
-            "value": "NLVSV"
+            "value": "NLVSV",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23396"
+              }
+            ]
           }
         ],
         "P8671": [
@@ -80779,14 +81497,35 @@
             }
           }
         ],
-        "PWIKI": [
+        "P6724": [
           {
-            "value": "Q4866021"
+            "value": "23396",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23396"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
           {
+            "value": "Q5412088",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23396"
+              }
+            ]
+          },
+          {
             "value": "Q25989"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q4866021"
           }
         ],
         "P31": [

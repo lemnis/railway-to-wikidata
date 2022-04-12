@@ -440,7 +440,7 @@
     },
     {
       "type": "Feature",
-      "id": "-166900-Q84177757",
+      "id": "--166900-SK166900-Q84177757",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -454,6 +454,10 @@
         "labels": [
           {
             "value": "Bánovce n.Ondavou",
+            "lang": "sk"
+          },
+          {
+            "value": "Bánovce nad Ondavou",
             "lang": "sk"
           },
           {
@@ -475,6 +479,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5616690"
           }
         ],
@@ -746,7 +758,7 @@
     },
     {
       "type": "Feature",
-      "id": "--133835-SK133835-Q4857148",
+      "id": "---133835-SK133835-trainline-32192-Q4857148",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -760,6 +772,38 @@
         "labels": [
           {
             "value": "Banská Bystrica mesto",
+            "lang": "sk"
+          },
+          {
+            "value": "Neusohl",
+            "lang": "de"
+          },
+          {
+            "value": "Besztercebánya",
+            "lang": "hu"
+          },
+          {
+            "value": "バンスカー・ビストリツァ",
+            "lang": "ja"
+          },
+          {
+            "value": "반스카비스트리차",
+            "lang": "ko"
+          },
+          {
+            "value": "Bańska Bystrzyca",
+            "lang": "pl"
+          },
+          {
+            "value": "Банска-Бистрица",
+            "lang": "ru"
+          },
+          {
+            "value": "班斯卡-比斯特里察",
+            "lang": "zh"
+          },
+          {
+            "value": "Banská Bystrica",
             "lang": "sk"
           },
           {
@@ -815,6 +859,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "32192",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32192"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32192"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600179",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32192"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "PWIKI": [
@@ -2516,7 +2596,7 @@
     },
     {
       "type": "Feature",
-      "id": "---145169-SK145169-trainline-28644-Q9179063",
+      "id": "----145169-SK145169-XYBN-trainline-28644-Q9179063",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2534,6 +2614,10 @@
           },
           {
             "value": "Bratislava predmestie",
+            "lang": "sk"
+          },
+          {
+            "value": "Bratislava Nove Mesto",
             "lang": "sk"
           },
           {
@@ -2615,6 +2699,48 @@
             "value": "Q214"
           }
         ],
+        "P954": [
+          {
+            "value": "5600209",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          },
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "5600578",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28644"
+              }
+            ]
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XYBN",
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "P8448": [
           {
             "info": {
@@ -2649,24 +2775,6 @@
         "P421": [
           {
             "value": "Q16891899",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28644"
-              }
-            ]
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "value": "5600578",
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28644"
@@ -5504,7 +5612,7 @@
     },
     {
       "type": "Feature",
-      "id": "--181255-SK181255-Q9393780",
+      "id": "---181255-SK181255-trainline-29305-Q9393780",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5518,6 +5626,18 @@
         "labels": [
           {
             "value": "Čadca mesto",
+            "lang": "sk"
+          },
+          {
+            "value": "Csaca",
+            "lang": "hu"
+          },
+          {
+            "value": "Чадца",
+            "lang": "ru"
+          },
+          {
+            "value": "Čadca",
             "lang": "sk"
           },
           {
@@ -5575,6 +5695,42 @@
             "value": "Q214"
           }
         ],
+        "P6724": [
+          {
+            "value": "29305",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29305"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29305"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600041",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29305"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q9393780"
@@ -5594,7 +5750,7 @@
     },
     {
       "type": "Feature",
-      "id": "-181354-SK181354",
+      "id": "--181354-SK181354-trainline-29305",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -5612,6 +5768,18 @@
           },
           {
             "value": "Čadca zastávka",
+            "lang": "sk"
+          },
+          {
+            "value": "Csaca",
+            "lang": "hu"
+          },
+          {
+            "value": "Чадца",
+            "lang": "ru"
+          },
+          {
+            "value": "Čadca",
             "lang": "sk"
           }
         ],
@@ -5647,6 +5815,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "29305",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29305"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29305"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600041",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29305"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -7844,7 +8048,7 @@
     },
     {
       "type": "Feature",
-      "id": "-147835-Q97209262",
+      "id": "--147835-SK147835-Q97209262",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7861,6 +8065,10 @@
             "lang": "sk"
           },
           {
+            "value": "Dobrá Niva zastávka",
+            "lang": "sk"
+          },
+          {
             "lang": "en",
             "value": "Dobrá Niva railway station"
           },
@@ -7871,6 +8079,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614783"
           }
         ],
@@ -8544,7 +8760,7 @@
     },
     {
       "type": "Feature",
-      "id": "-141309-SK141309",
+      "id": "--141309-SK141309-trainline-33358",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8558,6 +8774,18 @@
         "labels": [
           {
             "value": "Dolný Smokovec",
+            "lang": "sk"
+          },
+          {
+            "value": "Altschmecks",
+            "lang": "de"
+          },
+          {
+            "value": "Старый Смоковец",
+            "lang": "ru"
+          },
+          {
+            "value": "Starý Smokovec",
             "lang": "sk"
           }
         ],
@@ -8593,6 +8821,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "33358",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600273",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -9400,7 +9664,7 @@
     },
     {
       "type": "Feature",
-      "id": "--137034-SK137034-Q27656308",
+      "id": "--137034-SK137034-Q27656228",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -9422,11 +9686,15 @@
           },
           {
             "lang": "en",
-            "value": "Fiľakovo stop"
+            "value": "Fiľakovo train station"
           },
           {
             "lang": "hu",
-            "value": "Fülek-gyártelep megállóhely"
+            "value": "Fülek vasútállomás"
+          },
+          {
+            "lang": "sk",
+            "value": "Fiľakovo železničná stanica"
           }
         ],
         "P722": [
@@ -9465,7 +9733,12 @@
         ],
         "PWIKI": [
           {
-            "value": "Q27656308"
+            "value": "Q27656228"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
           }
         ],
         "P31": [
@@ -11680,7 +11953,7 @@
     },
     {
       "type": "Feature",
-      "id": "--136234-SK136234-Q31093518",
+      "id": "-136234-SK136234",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -11695,14 +11968,6 @@
           {
             "value": "Holiša",
             "lang": "sk"
-          },
-          {
-            "lang": "en",
-            "value": "Holiša railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Ipolygalsa megállóhely"
           }
         ],
         "P722": [
@@ -11737,21 +12002,6 @@
               "reliability": 0
             },
             "value": "Q214"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q31093518"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q1046298"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -12477,7 +12727,7 @@
     },
     {
       "type": "Feature",
-      "id": "-141606-SK141606",
+      "id": "--141606-SK141606-trainline-33358",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12491,6 +12741,18 @@
         "labels": [
           {
             "value": "Horný Smokovec",
+            "lang": "sk"
+          },
+          {
+            "value": "Altschmecks",
+            "lang": "de"
+          },
+          {
+            "value": "Старый Смоковец",
+            "lang": "ru"
+          },
+          {
+            "value": "Starý Smokovec",
             "lang": "sk"
           }
         ],
@@ -12526,6 +12788,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "33358",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600273",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -13340,7 +13638,7 @@
     },
     {
       "type": "Feature",
-      "id": "-160606-SK160606",
+      "id": "--160606-SK160606-Q56072239",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -13355,6 +13653,22 @@
           {
             "value": "Humenné mesto",
             "lang": "sk"
+          },
+          {
+            "lang": "cs",
+            "value": "Humenné"
+          },
+          {
+            "lang": "en",
+            "value": "Humenné"
+          },
+          {
+            "lang": "fr",
+            "value": "gare d'Humenné"
+          },
+          {
+            "lang": "sk",
+            "value": "Humenné"
           }
         ],
         "P722": [
@@ -13389,6 +13703,21 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56072239"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q502264"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -15785,12 +16114,14 @@
     },
     {
       "type": "Feature",
-      "id": "142505",
+      "id": "---142505-SK142505-trainline-33352-Q15119683",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.42958,
-          49.1499
+          [
+            20.42958,
+            49.1499
+          ]
         ]
       },
       "properties": {
@@ -15798,10 +16129,66 @@
           {
             "value": "Kežmarok zast.",
             "lang": "sk"
+          },
+          {
+            "value": "Kežmarok zastávka",
+            "lang": "sk"
+          },
+          {
+            "value": "Késmárk",
+            "lang": "hu"
+          },
+          {
+            "value": "ケジュマロク",
+            "lang": "ja"
+          },
+          {
+            "value": "케주마로크",
+            "lang": "ko"
+          },
+          {
+            "value": "Kieżmark",
+            "lang": "pl"
+          },
+          {
+            "value": "Кежмарок",
+            "lang": "ru"
+          },
+          {
+            "value": "凱日馬羅克",
+            "lang": "zh"
+          },
+          {
+            "value": "Kežmarok",
+            "lang": "sk"
+          },
+          {
+            "lang": "cs",
+            "value": "Železniční stanice Kežmarok"
+          },
+          {
+            "lang": "en",
+            "value": "Train station in Kežmarok"
+          },
+          {
+            "lang": "pl",
+            "value": "Kežmarok"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Kežmarok"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614250"
           }
         ],
@@ -15819,7 +16206,62 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "33352",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33352"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33352"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5601464",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33352"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q15119683"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q327977"
           }
         ]
       }
@@ -21150,7 +21592,7 @@
     },
     {
       "type": "Feature",
-      "id": "--135533-SK135533-Q31093606",
+      "id": "-135533-SK135533",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -21165,14 +21607,6 @@
           {
             "value": "Lovinobaňa",
             "lang": "sk"
-          },
-          {
-            "lang": "en",
-            "value": "Lovinobaňa railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Lónyabánya vasútállomás"
           }
         ],
         "P722": [
@@ -21207,21 +21641,6 @@
               "reliability": 0
             },
             "value": "Q214"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q31093606"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q261390"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -21675,12 +22094,14 @@
     },
     {
       "type": "Feature",
-      "id": "162065",
+      "id": "-162065-SK162065",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          18.28161,
-          48.21125
+          [
+            18.28161,
+            48.21125
+          ]
         ]
       },
       "properties": {
@@ -21688,10 +22109,22 @@
           {
             "value": "Lúčnica n.Žitavou",
             "lang": "sk"
+          },
+          {
+            "value": "Lúčnica nad Žitavou",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5616206"
           }
         ],
@@ -21709,6 +22142,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -22387,12 +22824,14 @@
     },
     {
       "type": "Feature",
-      "id": "155424",
+      "id": "-155424-SK155424",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          18.26418,
-          48.14646
+          [
+            18.26418,
+            48.14646
+          ]
         ]
       },
       "properties": {
@@ -22400,10 +22839,22 @@
           {
             "value": "Maňa zast.",
             "lang": "sk"
+          },
+          {
+            "value": "Maňa zastávka",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615542"
           }
         ],
@@ -22421,6 +22872,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -23351,12 +23806,14 @@
     },
     {
       "type": "Feature",
-      "id": "151530",
+      "id": "-151530-SK151530",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          19.75601,
-          48.77372
+          [
+            19.75601,
+            48.77372
+          ]
         ]
       },
       "properties": {
@@ -23364,10 +23821,22 @@
           {
             "value": "Michalová zast.",
             "lang": "sk"
+          },
+          {
+            "value": "Michalová zastávka",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615153"
           }
         ],
@@ -23385,6 +23854,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -23694,12 +24167,14 @@
     },
     {
       "type": "Feature",
-      "id": "145904",
+      "id": "-145904-SK145904",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.42666,
-          48.85094
+          [
+            20.42666,
+            48.85094
+          ]
         ]
       },
       "properties": {
@@ -23707,10 +24182,22 @@
           {
             "value": "Mlynky zast.",
             "lang": "sk"
+          },
+          {
+            "value": "Mlynky zastávka",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614590"
           }
         ],
@@ -23728,6 +24215,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -24126,12 +24617,14 @@
     },
     {
       "type": "Feature",
-      "id": "152306",
+      "id": "-152306-SK152306",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          21.0039,
-          48.60907
+          [
+            21.0039,
+            48.60907
+          ]
         ]
       },
       "properties": {
@@ -24139,10 +24632,22 @@
           {
             "value": "Moldava n.Bodvou mesto",
             "lang": "sk"
+          },
+          {
+            "value": "Moldava nad Bodvou mesto",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615230"
           }
         ],
@@ -24160,6 +24665,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -26276,7 +26785,7 @@
     },
     {
       "type": "Feature",
-      "id": "-141200-SK141200",
+      "id": "--141200-SK141200-trainline-33358",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -26290,6 +26799,18 @@
         "labels": [
           {
             "value": "Nový Smokovec",
+            "lang": "sk"
+          },
+          {
+            "value": "Altschmecks",
+            "lang": "de"
+          },
+          {
+            "value": "Старый Смоковец",
+            "lang": "ru"
+          },
+          {
+            "value": "Starý Smokovec",
             "lang": "sk"
           }
         ],
@@ -26325,6 +26846,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "33358",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600273",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -27614,7 +28171,7 @@
     },
     {
       "type": "Feature",
-      "id": "-155663-SK155663",
+      "id": "--155663-SK155663-trainline-33354",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -27632,6 +28189,22 @@
           },
           {
             "value": "Partizánske zastávka",
+            "lang": "sk"
+          },
+          {
+            "value": "Simony",
+            "lang": "hu"
+          },
+          {
+            "value": "Партизанске",
+            "lang": "ru"
+          },
+          {
+            "value": "帕蒂贊斯克",
+            "lang": "zh"
+          },
+          {
+            "value": "Partizánske",
             "lang": "sk"
           }
         ],
@@ -27667,6 +28240,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "33354",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33354"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33354"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5602321",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33354"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -30874,7 +31483,7 @@
     },
     {
       "type": "Feature",
-      "id": "-157602-SK157602",
+      "id": "--157602-SK157602-trainline-29310",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -30888,6 +31497,18 @@
         "labels": [
           {
             "value": "Prešov mesto",
+            "lang": "sk"
+          },
+          {
+            "value": "Eperjes",
+            "lang": "hu"
+          },
+          {
+            "value": "Preszów",
+            "lang": "pl"
+          },
+          {
+            "value": "Prešov",
             "lang": "sk"
           }
         ],
@@ -30923,6 +31544,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "29310",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29310"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29310"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5602535",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29310"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -34723,12 +35380,14 @@
     },
     {
       "type": "Feature",
-      "id": "183954",
+      "id": "-183954-SK183954",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          18.87904,
-          49.5014
+          [
+            18.87904,
+            49.5014
+          ]
         ]
       },
       "properties": {
@@ -34736,10 +35395,22 @@
           {
             "value": "Skalité zast.",
             "lang": "sk"
+          },
+          {
+            "value": "Skalité zastávka",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618395"
           }
         ],
@@ -34757,6 +35428,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -36482,7 +37157,7 @@
     },
     {
       "type": "Feature",
-      "id": "-141804-SK141804",
+      "id": "--141804-SK141804-trainline-33355",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -36496,6 +37171,14 @@
         "labels": [
           {
             "value": "Stará Lesná",
+            "lang": "sk"
+          },
+          {
+            "value": "Татранска Ломница",
+            "lang": "ru"
+          },
+          {
+            "value": "Tatranská Lomnica",
             "lang": "sk"
           }
         ],
@@ -36531,6 +37214,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "33355",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33355"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33355"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600272",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33355"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -39584,7 +40303,7 @@
     },
     {
       "type": "Feature",
-      "id": "-141903-SK141903",
+      "id": "--141903-SK141903-trainline-33355",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -39598,6 +40317,14 @@
         "labels": [
           {
             "value": "Tatranská Lesná",
+            "lang": "sk"
+          },
+          {
+            "value": "Татранска Ломница",
+            "lang": "ru"
+          },
+          {
+            "value": "Tatranská Lomnica",
             "lang": "sk"
           }
         ],
@@ -39633,6 +40360,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "33355",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33355"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33355"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600272",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33355"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -39776,12 +40539,14 @@
     },
     {
       "type": "Feature",
-      "id": "144006",
+      "id": "-144006-SK144006",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          20.322443,
-          49.145144
+          [
+            20.322443,
+            49.145144
+          ]
         ]
       },
       "properties": {
@@ -39789,10 +40554,22 @@
           {
             "value": "Tatranská Lomnica z.",
             "lang": "sk"
+          },
+          {
+            "value": "Tatranská Lomnica zastávka",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614400"
           }
         ],
@@ -39810,6 +40587,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -41577,7 +42358,7 @@
     },
     {
       "type": "Feature",
-      "id": "-138768-SK138768",
+      "id": "--138768-SK138768-trainline-32253",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -41595,6 +42376,26 @@
           },
           {
             "value": "Trenčín predmestie",
+            "lang": "sk"
+          },
+          {
+            "value": "Trentschin",
+            "lang": "de"
+          },
+          {
+            "value": "Trencsén",
+            "lang": "hu"
+          },
+          {
+            "value": "Trenczyn",
+            "lang": "pl"
+          },
+          {
+            "value": "Тренчин",
+            "lang": "ru"
+          },
+          {
+            "value": "Trenčín",
             "lang": "sk"
           }
         ],
@@ -41630,6 +42431,42 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "32253",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32253"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32253"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600105",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32253"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ]
       }
@@ -44538,7 +45375,7 @@
     },
     {
       "type": "Feature",
-      "id": "--134734-SK134734-Q34132853",
+      "id": "-134734-SK134734",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -44553,14 +45390,6 @@
           {
             "value": "Vígľaš",
             "lang": "sk"
-          },
-          {
-            "lang": "en",
-            "value": "Víglaš railway station"
-          },
-          {
-            "lang": "hu",
-            "value": "Végles vasútállomás"
           }
         ],
         "P722": [
@@ -44595,21 +45424,6 @@
               "reliability": 0
             },
             "value": "Q214"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q34132853"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q1095685"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -45406,12 +46220,14 @@
     },
     {
       "type": "Feature",
-      "id": "188953",
+      "id": "-188953-SK188953",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          18.94663,
-          49.10906
+          [
+            18.94663,
+            49.10906
+          ]
         ]
       },
       "properties": {
@@ -45419,10 +46235,22 @@
           {
             "value": "Vrútky nákl.st.",
             "lang": "sk"
+          },
+          {
+            "value": "Vrútky nákladná stanica",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618895"
           }
         ],
@@ -45440,6 +46268,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -45557,12 +46389,14 @@
     },
     {
       "type": "Feature",
-      "id": "180034",
+      "id": "-180034-SK136234",
       "geometry": {
-        "type": "Point",
+        "type": "MultiPoint",
         "coordinates": [
-          19.74168,
-          48.30423
+          [
+            19.74168,
+            48.30423
+          ]
         ]
       },
       "properties": {
@@ -45570,11 +46404,21 @@
           {
             "value": "Výh. Holiša",
             "lang": "sk"
+          },
+          {
+            "value": "Holiša",
+            "lang": "sk"
           }
         ],
         "P722": [
           {
             "value": "5618003"
+          },
+          {
+            "value": "5613623",
+            "info": {
+              "reliability": 0.38
+            }
           }
         ],
         "P296": [
@@ -45591,6 +46435,10 @@
         ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ]
@@ -47037,7 +47885,7 @@
     },
     {
       "type": "Feature",
-      "id": "-132639-SK132639",
+      "id": "---132639-SK132639-trainline-32261-Q47254726",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -47052,6 +47900,34 @@
           {
             "value": "Zvolen mesto",
             "lang": "sk"
+          },
+          {
+            "value": "Zólyom",
+            "lang": "hu"
+          },
+          {
+            "value": "Zwoleń",
+            "lang": "pl"
+          },
+          {
+            "value": "Зволен",
+            "lang": "ru"
+          },
+          {
+            "value": "Zvolen",
+            "lang": "sk"
+          },
+          {
+            "lang": "en",
+            "value": "Zvolen railway station (former)"
+          },
+          {
+            "lang": "en",
+            "value": "Zvolen Nákladná Stanica"
+          },
+          {
+            "lang": "hu",
+            "value": "Zólyom-régi vasútállomás"
           }
         ],
         "P722": [
@@ -47086,6 +47962,57 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "32261",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32261"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q16891899",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32261"
+              }
+            ]
+          }
+        ],
+        "P954": [
+          {
+            "value": "5696002",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/32261"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q47254726"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q11874"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55493"
           }
         ]
       }

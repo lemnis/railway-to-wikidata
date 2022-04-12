@@ -14,7 +14,7 @@ const isMultiPoint = (
   return Array.isArray(position[0]);
 };
 
-export const score = async (location: Location, wikidata: Location) => {
+export const score = async (location: Location, wikidata: Location, any?: any[]) => {
   const { id, info, labels: locationLabels, ...properties } = location.properties;
   const labels = scoreLabel(
     locationLabels,
@@ -37,9 +37,10 @@ export const score = async (location: Location, wikidata: Location) => {
     .map((i) => i.distance)
     ?.sort((a, b) => a! - b!);
   const distanceInPercentage =
-    closestDistance[0] && closestDistance[0]! < 3000
+    closestDistance[0] != undefined && closestDistance[0]! < 3000
       ? 1 - closestDistance[0]! / 3000
       : 0;
+
   return {
     id: location.id || ":(",
     labels,
