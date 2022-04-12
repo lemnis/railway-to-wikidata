@@ -14,35 +14,29 @@ export const ReliabilityNs = {
   Netherlands: {
     [CodeIssuer.UIC]:
       Reliability.START +
-      (Reliability.FIRST_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.RAW * NETHERLANDS_UIC_SCORE),
+      (Reliability.FIRST_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW) *
+        NETHERLANDS_UIC_SCORE,
     [CodeIssuer.IBNR]:
       Reliability.START +
-      (Reliability.FIRST_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.RAW * NETHERLANDS_IBNR_SCORE),
+      (Reliability.FIRST_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW) *
+        NETHERLANDS_IBNR_SCORE,
     [Property.NumberOfPlatformTracks]:
       Reliability.START +
-      (Reliability.FIRST_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.RAW * NETHERLANDS_TRACKS_SCORE),
+      (Reliability.FIRST_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW) *
+        NETHERLANDS_TRACKS_SCORE,
     [Property.NumberOfPlatformFaces]:
       Reliability.START +
-      (Reliability.FIRST_PARTY +
-        Reliability.SMALL_DATA_SET +
-        Reliability.RAW * NETHERLANDS_FACES_SCORE),
+      (Reliability.FIRST_PARTY + Reliability.SMALL_DATA_SET + Reliability.RAW) *
+        NETHERLANDS_FACES_SCORE,
   },
   Foreign: {
     [CodeIssuer.UIC]:
       Reliability.START +
-      (Reliability.THIRD_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.RAW * FOREIGN_UIC_SCORE),
+      (Reliability.THIRD_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW) *
+        FOREIGN_UIC_SCORE,
     [CodeIssuer.IBNR]:
       Reliability.START +
-      (Reliability.THIRD_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.RAW * FOREIGN_IBNR_SCORE),
+      (Reliability.THIRD_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW) *
+        FOREIGN_IBNR_SCORE,
   },
 };
