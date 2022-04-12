@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Countries"
+title: "Countries & Providers"
 ---
 
 <script src="https://embed.github.com/view/geojson/lemnis/railway-to-wikidata/master/docs/_data/map.json"></script>
@@ -104,3 +104,33 @@ Promise.all(
   map.fitBounds(markers.getBounds());
 });
 </script>
+<br/>
+
+## Providers
+
+List of implemented providers with rough indication of the area covered and its ID used.
+
+| Name          | Area                                | Properties                                                 |
+| ------------- | ----------------------------------- | ---------------------------------------------------------- |
+| Euasfr        | EU                                  | 60% of the countries have a station code (IBNR, UIC, etc.) |
+| Iris          | German & neighbouring countries     | IBNR, UIC                                                  |
+| Trainline     | Mostly EU                           | All (international) station codes                          |
+| Oebb          | Austria & neighbours                | IBNR                                                       |
+| Irail         | Belgium                             | UIC                                                        |
+| Sbb           | Switzerland & neighbours            | UIC                                                        |
+| LeoExpress    | Czechia, Slovakia & neighbours      | UIC                                                        |
+| Regiojet      | Czechia & neighbours                | Station Code                                               |
+| Deutsche Bahn | Germany                             | IBNR, UIC                                                  |
+| Peatus        | Estonia                             | None!                                                      |
+| Renfe         | Spain & neighbourPs                 | UIC                                                        |
+| Digitraffic   | Finland & a couple Russian stations | UIC, Station Code                                          |
+| SNCF          | France                              | UIC                                                        |
+| TrainOse      | Greece & neighbours                 | Station Code                                               |
+| HZPP          | Croatia                             | None!                                                      |
+| MAV           | Hungary                             | None!                                                      |
+| Irish Rail    | Ireland & Northern Ireland          | Station Code                                               |
+| Trenitalia    | Italy                               | Station Code for a few locations                           |
+| Litrail       | Lithuania                           | ESR                                                        |
+| Openov        | Luxembourg & neighbours             | None!                                                      |
+
+...Need to add more...
