@@ -2,7 +2,7 @@ import test from "ava";
 import { promises as fs } from "fs";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { ScoreForeign, ScoreLeoExpress } from "./cz-leo-express.contstants";
+import { SCORE_UIC_FOREIGN, SCORE_UIC_CZECH } from "./cz-leo-express.contstants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { Location } from "../../types/location";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
@@ -39,7 +39,7 @@ test("Locations in the Czech should match expected score", async (t) => {
   closeTo(t, country.matches / country.total, 1);
 
   t.assert(uic?.total > LARGE_DATA_SIZE);
-  closeTo(t, uic?.matches / uic?.total, ScoreLeoExpress[CodeIssuer.UIC]);
+  closeTo(t, uic?.matches / uic?.total, SCORE_UIC_CZECH);
 });
 
 test("Foreign locations should match expected score", async (t) => {
@@ -60,5 +60,5 @@ test("Foreign locations should match expected score", async (t) => {
   t.is(country.matches / country.total, 1);
 
   t.assert(uic?.total > LARGE_DATA_SIZE);
-  closeTo(t, uic?.matches / uic?.total, ScoreForeign[CodeIssuer.UIC]);
+  closeTo(t, uic?.matches / uic?.total, SCORE_UIC_FOREIGN);
 });

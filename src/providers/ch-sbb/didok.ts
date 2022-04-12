@@ -2,7 +2,8 @@ import fetch from "node-fetch";
 import { DidokRawLocation } from "./didok.types";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { findCountryByAlpha2 } from "../../transform/country";
+import { Country, findCountryByAlpha2 } from "../../transform/country";
+import { RELIABILITY_UIC_SBB } from "./ch-sbb.constants";
 
 /**
  * @license Open use. Must provide source. https://opendata.swiss/de/dataset/haltestellen-des-offentlichen-verkehrs
@@ -18,20 +19,27 @@ export const getLocations = () =>
         .filter(({ fields }) =>
           fields.bpvh_verkehrsmittel_text_de?.includes("Zug")
         )
-        .map<Location>(({ fields }) => {
+        .map<Location>(({ fields, recordid }) => {
+          const country = findCountryByAlpha2(fields.land_iso2_geo);
+
           return {
             type: "Feature",
-            id: fields.lod,
+            id: recordid,
             geometry: {
               type: "Point",
               coordinates: [fields.geopos[1], fields.geopos[0]],
             },
             properties: {
               labels: [{ value: fields.bezeichnung_offiziell }],
-              [Property.Country]: [
-                { value: findCountryByAlpha2(fields.land_iso2_geo)?.wikidata },
+              [Property.Country]: [{ value: country?.wikidata }],
+              [CodeIssuer.UIC]: [
+                {
+                  value: fields.bpuic.toString(),
+                  ...(country === Country.Austria
+                    ? { info: { reliability: RELIABILITY_UIC_SBB } }
+                    : {}),
+                },
               ],
-              [CodeIssuer.UIC]: [{ value: fields.bpuic.toString() }],
               ...(fields.z_wgs84
                 ? {
                     [Property.ElevationAboveSeaLevel]: [
@@ -42,4 +50,5 @@ export const getLocations = () =>
             },
           };
         })
+        .sort((a, b) => a.id!.toString().localeCompare(b.id!.toString()))
     );

@@ -6,8 +6,8 @@ export const SCORE: Record<
   string,
   Partial<Record<CodeIssuer | Property, number>>
 > = {
-  [Country.Austria.wikidata]: { [Property.StationCode]: .8 },
-  [Country.Belgium.wikidata]: { [Property.StationCode]: .9 },
+  [Country.Austria.wikidata]: { [Property.StationCode]: 0.8 },
+  [Country.Belgium.wikidata]: { [Property.StationCode]: 0.9 },
   [Country.Bulgaria.wikidata]: { [CodeIssuer.UIC]: 0.85 },
   [Country.Croatia.wikidata]: { [CodeIssuer.UIC]: 0.8 },
   [Country.Czech.wikidata]: { [CodeIssuer.UIC]: 1 },
@@ -45,7 +45,8 @@ export const getReliabilityScore = (country: CountryInfo) => {
           (SMALL_DATA_SET.includes(country)
             ? Reliability.SMALL_DATA_SET
             : Reliability.BIG_DATA_SET) +
-          Reliability.RAW * value);
+          Reliability.RAW) *
+          value;
       return result;
     },
     {}

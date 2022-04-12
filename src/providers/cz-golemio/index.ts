@@ -36,13 +36,12 @@ const getStops = (
   ).then((response) => response.json());
 
 export const getLocations = async () => {
-  const features = await Promise.all([
-    getStops(0),
-    getStops(1)
-  ]).then(collections => collections.map(collection => collection.features).flat())
+  const features = await Promise.all([getStops(0), getStops(1)]).then(
+    (collections) => collections.map((collection) => collection.features).flat()
+  );
 
-  if(features.length >= LIMIT * 2) {
-    logger.error('More stops than expected for golemio');
+  if (features.length >= LIMIT * 2) {
+    logger.error("More stops than expected for golemio");
   }
 
   return features
@@ -53,10 +52,8 @@ export const getLocations = async () => {
       geometry,
       properties: {
         labels: [{ value: properties.stop_name }],
-        [Property.StationCode]: [
-          { value: properties.stop_id, ...(properties as any) },
-        ],
-        [Property.Country]: [{ value: Country.Czech.wikidata }]
+        [Property.StationCode]: [{ value: properties.stop_id }],
+        [Property.Country]: [{ value: Country.Czech.wikidata }],
       },
     }));
 };

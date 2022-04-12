@@ -7,15 +7,13 @@ export const ReliabilityOebb = {
   Austria: {
     [CodeIssuer.IBNR]:
       Reliability.START +
-      (Reliability.FIRST_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.RAW * IBNR_SCORE),
+      (Reliability.FIRST_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW) *
+        IBNR_SCORE,
   },
   Foreign: {
     [CodeIssuer.IBNR]:
       Reliability.START +
-      (Reliability.THIRD_PARTY +
-        Reliability.BIG_DATA_SET +
-        Reliability.RAW * IBNR_SCORE),
+      (Reliability.THIRD_PARTY + Reliability.BIG_DATA_SET + Reliability.RAW) *
+        IBNR_SCORE,
   },
 };

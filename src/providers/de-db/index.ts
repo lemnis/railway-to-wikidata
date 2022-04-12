@@ -14,6 +14,7 @@ import { logger, progressBar } from "../../utils/logger";
 import { getDBStationCategory } from "../../transform/deutscheBahnStationCategory";
 import { parse } from "csv-parse/sync";
 import { Language } from "../../transform/language";
+import { RELIABILITY_DB_IBNR } from "./db.constants";
 
 const getCoordinates = (coordinates: (EVANumber | RiL100Identifier)[]) => {
   return uniqWith(
@@ -30,31 +31,31 @@ export const getBetriebstellen2021 = async () => {
     "https://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2021-10.csv"
   ).then((response) => response.text());
   const csv: {
-    PL: string,
+    PL: string;
     /** DB Code */
-    'RL100-Code': string,
+    "RL100-Code": string;
     /** Long Name */
-    'RL100-Langname': string,
+    "RL100-Langname": string;
     /** Short Name */
-    'RL100-Kurzname': string,
+    "RL100-Kurzname": string;
     /** Short Type */
-    'Typ Kurz': string,
+    "Typ Kurz": string;
     /** Long Type */
-    'Typ Lang': string,
-    Betriebszustand: string,
+    "Typ Lang": string;
+    Betriebszustand: string;
     /** Date from */
-    'Datum ab': number,
+    "Datum ab": number;
     /** Date untill */
-    'Datum bis': string,
-    Niederlassung: number,
+    "Datum bis": string;
+    Niederlassung: number;
     /** Responsible regional area */
-    Regionalbereich: string,
-    'Letzte Änderung': number
+    Regionalbereich: string;
+    "Letzte Änderung": number;
   }[] = parse(raw, {
     trim: true,
     cast: true,
     delimiter: ";",
-    columns: true
+    columns: true,
   });
   console.log(csv);
 };
@@ -65,34 +66,34 @@ export const getBetriebstellen2018 = async () => {
   ).then((response) => response.text());
   const csv: {
     /** DB Code */
-    Abk: string,
-    Name: string,
+    Abk: string;
+    Name: string;
     /** Short Name */
-    Kurzname: string,
+    Kurzname: string;
     /** Type */
-    Typ: string,
+    Typ: string;
     /** Operating status */
-    'Betr-Zust': string,
+    "Betr-Zust": string;
     /** Unique number */
-    'Primary location code': string,
+    "Primary location code": string;
     /** UIC Country Code */
-    UIC: string,
+    UIC: string;
     /** Responsible regional area */
-    RB: string,
+    RB: string;
     /** Valid from */
-    'gültig von': string,
+    "gültig von": string;
     /** Valid until */
-    'gültig bis': string,
+    "gültig bis": string;
     /** Network key */
-    'Netz-Key': string,
+    "Netz-Key": string;
     /** Location can be ordered on timetable */
-    'Fpl-rel': string,
+    "Fpl-rel": string;
     /** Timetable processing limit */
-    'Fpl-Gr': string
+    "Fpl-Gr": string;
   }[] = parse(raw, {
     trim: true,
     delimiter: ";",
-    columns: true
+    columns: true,
   });
   console.log(csv);
 };
@@ -193,7 +194,7 @@ export const getLocations = async (cache = true) => {
         progress.tick();
 
         return {
-          type: 'Feature',
+          type: "Feature",
           id: number,
           geometry: { type: "MultiPoint", coordinates },
           properties: {
@@ -202,13 +203,17 @@ export const getLocations = async (cache = true) => {
               evaNumbers
                 ?.map(({ number }) => number)
                 .filter(Boolean)
-                .map((number) => ({ value: number?.toString() })) || [],
+                .map((number) => ({
+                  value: number?.toString(),
+                  info: { reliability: RELIABILITY_DB_IBNR },
+                })) || [],
             [CodeIssuer.DB]:
               ril100Identifiers
                 ?.map(({ rilIdentifier }) => rilIdentifier)
                 .filter(Boolean)
                 .map((rilIdentifier) => ({
                   value: rilIdentifier?.replace(/ +/g, " "),
+                  info: { reliability: RELIABILITY_DB_IBNR },
                 })) || [],
             [Property.PostalCode]: [mailingAddress?.zipcode]
               .filter(Boolean)
