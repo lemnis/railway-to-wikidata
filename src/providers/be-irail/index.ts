@@ -2,6 +2,7 @@ import { Country } from "../../transform/country";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { getGtfsStations } from "../../utils/gtfs";
+import { RELIABILITY_UIC_IRAIL } from "./be-irail.constants";
 
 /**
  * @see https://transitfeeds.com/p/societe-nationale-des-chemins-de-fer-belges/528
@@ -26,7 +27,9 @@ export const getLocations = async () => {
         },
         properties: {
           labels: [{ value: stop_name }],
-          [CodeIssuer.UIC]: [{ value: uic }],
+          [CodeIssuer.UIC]: [
+            { value: uic, info: { reliability: RELIABILITY_UIC_IRAIL } },
+          ],
           [Property.Country]: [{ value: Country.Belgium.wikidata }],
         },
       };

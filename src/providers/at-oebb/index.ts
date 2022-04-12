@@ -1,8 +1,9 @@
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
-import { findCountryByUIC } from "../../transform/country";
+import { Country, findCountryByUIC } from "../../transform/country";
 import { getGtfsStations } from "../../utils/gtfs";
 import { Language } from "../../transform/language";
+import { ReliabilityOebb } from "./oebb.constants";
 
 /**
  * @version 2018.06.26
@@ -15,6 +16,7 @@ export const getLocations = (): Promise<Location[]> =>
     "obb"
   ).then((data) =>
     data.map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
+      const country = findCountryByUIC(parseInt(stop_id.slice(0, 2)));
       return {
         type: "Feature",
         id: stop_id,
@@ -24,11 +26,20 @@ export const getLocations = (): Promise<Location[]> =>
         },
         properties: {
           labels: [{ value: stop_name, lang: Language.German[1] }],
-          [CodeIssuer.IBNR]: [{ value: stop_id }],
+          [CodeIssuer.IBNR]: [
+            {
+              value: stop_id,
+              info: {
+                reliability:
+                  country === Country.Austria
+                    ? ReliabilityOebb.Austria[CodeIssuer.IBNR]
+                    : ReliabilityOebb.Foreign[CodeIssuer.IBNR],
+              },
+            },
+          ],
           [Property.Country]: [
             {
-              value: findCountryByUIC(parseInt(stop_id[0] + stop_id[1]))
-                ?.wikidata,
+              value: country?.wikidata,
             },
           ],
         },

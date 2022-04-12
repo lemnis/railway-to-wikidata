@@ -3,7 +3,7 @@ import { CodeIssuer } from "../../types/wikidata";
 
 export const IBNR_SCORE = 1;
 
-export const ReliabilityEntur = {
+export const ReliabilityOebb = {
   Austria: {
     [CodeIssuer.IBNR]:
       Reliability.START +
