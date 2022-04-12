@@ -169,8 +169,15 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
             },
             "value": "LVRIX",
             "references": [
@@ -186,9 +193,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "2500009",
             "references": [
@@ -198,7 +208,10 @@
             ]
           },
           {
-            "value": "2509501"
+            "value": "2509501",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P722": [
@@ -210,7 +223,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           },
           {
@@ -224,7 +237,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28296"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [

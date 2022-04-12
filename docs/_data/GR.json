@@ -919,10 +919,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "7300106",
             "references": [
@@ -935,8 +935,15 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.5
             },
             "value": "GRATH",
             "references": [
@@ -953,7 +960,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28218"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -977,10 +987,13 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7999999999999999
+                },
+                {
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 1.5
             },
             "value": "7300001",
             "references": [
@@ -1796,7 +1809,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -1807,7 +1820,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28216"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -1817,7 +1833,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28216"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -4968,7 +4987,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -4979,7 +4998,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28211"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -4989,7 +5011,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28211"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -7070,7 +7095,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -7081,7 +7106,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28215"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -7091,7 +7119,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28215"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -7406,7 +7437,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -7417,7 +7448,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28220"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -7427,7 +7461,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28220"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -8582,15 +8619,22 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.5
             },
             "value": "GRAAE",
             "references": [
@@ -8607,7 +8651,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28212"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -8639,7 +8686,10 @@
             }
           },
           {
-            "value": "7300008"
+            "value": "7300008",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "PWIKI": [
@@ -10842,7 +10892,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -10853,7 +10903,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28222"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -10863,7 +10916,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28222"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -11675,10 +11731,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "7300558",
             "references": [
@@ -11695,7 +11751,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -11705,7 +11764,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -13052,7 +13114,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -13063,7 +13125,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28223"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -13073,7 +13138,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28223"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -13326,7 +13394,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -13337,7 +13405,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28210"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -13347,7 +13418,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28210"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -16446,7 +16520,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -16457,7 +16531,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28219"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -16467,7 +16544,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28219"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -18053,7 +18133,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -18064,7 +18144,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28221"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -18074,7 +18157,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28221"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -19797,10 +19883,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "7301192",
             "references": [
@@ -19817,7 +19903,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28217"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -19827,7 +19916,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28217"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -27783,10 +27875,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "7300580",
             "references": [
@@ -27803,7 +27895,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28214"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -27813,7 +27908,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28214"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [

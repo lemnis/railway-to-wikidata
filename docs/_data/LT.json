@@ -4635,7 +4635,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           },
           {
@@ -4653,7 +4653,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28292"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -4663,7 +4666,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28292"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -5557,8 +5563,15 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
             },
             "value": "LTVNO",
             "references": [
@@ -5574,9 +5587,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 1.5
             },
             "value": "2400008",
             "references": [
@@ -5595,7 +5611,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           },
           {
@@ -5613,7 +5629,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28293"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [

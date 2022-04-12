@@ -3709,9 +3709,18 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 3
             },
             "value": "5500003",
             "references": [
@@ -3727,16 +3736,28 @@
         "P8671": [
           {
             "value": "XMBK",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
             },
             "value": "HUABU",
             "references": [
@@ -3751,10 +3772,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.6400000000000001
             },
             "value": "5510017",
             "references": [
@@ -3767,8 +3788,12 @@
         "P8181": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABU",
             "references": [
@@ -3785,7 +3810,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/10502"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -3908,16 +3936,26 @@
         "P954": [
           {
             "value": "5500133",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "XMBF",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -4143,9 +4181,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 1.5
             },
             "value": "5500728",
             "references": [
@@ -4161,8 +4202,13 @@
         "P8671": [
           {
             "value": "XMBN",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -4171,10 +4217,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.6400000000000001
             },
             "value": "5510033",
             "references": [
@@ -4187,8 +4233,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUBNY",
             "references": [
@@ -4205,7 +4255,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18818"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -4598,10 +4651,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5510090",
             "references": [
@@ -4614,8 +4667,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUBUZ",
             "references": [
@@ -4632,7 +4689,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28269"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -5056,10 +5116,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5510173",
             "references": [
@@ -5072,8 +5132,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUKOE",
             "references": [
@@ -5090,7 +5154,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28281"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -5287,10 +5354,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5510173",
             "references": [
@@ -5303,8 +5370,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUKOE",
             "references": [
@@ -5321,7 +5392,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28281"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -6132,8 +6206,12 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "5501413",
             "references": [
@@ -6146,8 +6224,13 @@
         "P8671": [
           {
             "value": "XMV",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -6371,8 +6454,12 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "5500913",
             "references": [
@@ -6385,8 +6472,13 @@
         "P8671": [
           {
             "value": "XMNV",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -6462,8 +6554,12 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "5500913",
             "references": [
@@ -6476,8 +6572,13 @@
         "P8671": [
           {
             "value": "XMNV",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -6620,9 +6721,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500006",
             "references": [
@@ -6638,8 +6742,13 @@
         "P8671": [
           {
             "value": "XMSB",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -6648,10 +6757,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.6400000000000001
             },
             "value": "5510504",
             "references": [
@@ -6664,8 +6773,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABD",
             "references": [
@@ -6682,7 +6795,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28253"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -11231,10 +11347,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5516204",
             "references": [
@@ -11247,8 +11363,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUKUN",
             "references": [
@@ -11265,7 +11385,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28282"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -11715,10 +11838,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5516261",
             "references": [
@@ -11731,8 +11854,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABX",
             "references": [
@@ -11749,7 +11876,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28265"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -12017,10 +12147,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5516311",
             "references": [
@@ -12033,8 +12163,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAQ",
             "references": [
@@ -12051,7 +12185,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28246"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -12311,10 +12448,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5516352",
             "references": [
@@ -12327,8 +12464,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUKEL",
             "references": [
@@ -12345,7 +12486,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28277"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -13391,8 +13535,12 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "5500032"
           }
@@ -13654,8 +13802,15 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
             },
             "value": "5501494",
             "references": [
@@ -13668,8 +13823,13 @@
         "P8671": [
           {
             "value": "XMS",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -15651,10 +15811,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503269",
             "references": [
@@ -15667,8 +15827,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAN",
             "references": [
@@ -15685,7 +15849,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18799"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -17815,10 +17982,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5513193",
             "references": [
@@ -17831,8 +17998,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUFOR",
             "references": [
@@ -17849,7 +18020,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28270"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -18139,10 +18313,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.6400000000000001
             },
             "value": "5513243",
             "references": [
@@ -18155,8 +18329,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUHID",
             "references": [
@@ -18173,7 +18351,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28276"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -19950,10 +20131,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5513722",
             "references": [
@@ -19966,8 +20147,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABW",
             "references": [
@@ -19984,7 +20169,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28264"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -20201,9 +20389,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500053",
             "references": [
@@ -20219,8 +20410,13 @@
         "P8671": [
           {
             "value": "XMSN",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -20229,10 +20425,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5513748",
             "references": [
@@ -20245,8 +20441,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABR",
             "references": [
@@ -20263,7 +20463,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18804"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -20430,16 +20633,26 @@
         "P954": [
           {
             "value": "5501381",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMTKZ",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -21240,10 +21453,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511205",
             "references": [
@@ -21256,8 +21469,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUHAT",
             "references": [
@@ -21274,7 +21491,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28275"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -21373,10 +21593,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511239",
             "references": [
@@ -21389,8 +21609,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUVAM",
             "references": [
@@ -21407,7 +21631,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28290"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -21855,10 +22082,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511296",
             "references": [
@@ -21871,8 +22098,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUFUE",
             "references": [
@@ -21889,7 +22120,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28271"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -22072,10 +22306,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511312",
             "references": [
@@ -22088,8 +22322,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUMEZ",
             "references": [
@@ -22106,7 +22344,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28283"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -22629,10 +22870,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511387",
             "references": [
@@ -22645,8 +22886,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAW",
             "references": [
@@ -22663,7 +22908,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18798"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -23102,10 +23350,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511445",
             "references": [
@@ -23118,8 +23366,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAZ",
             "references": [
@@ -23136,7 +23388,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28251"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -23368,10 +23623,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511478",
             "references": [
@@ -23384,8 +23639,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUTOK",
             "references": [
@@ -23402,7 +23661,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28289"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -28399,10 +28661,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5516709",
             "references": [
@@ -28415,8 +28677,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABL",
             "references": [
@@ -28433,7 +28699,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28259"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -28628,10 +28897,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5516758",
             "references": [
@@ -28644,8 +28913,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUKIS",
             "references": [
@@ -28662,7 +28935,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28280"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -30477,16 +30753,26 @@
         "P954": [
           {
             "value": "5500151",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMADA",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -30789,7 +31075,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -30800,7 +31086,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28287"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -30810,7 +31099,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28287"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -30971,10 +31263,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503350",
             "references": [
@@ -30987,8 +31279,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAT",
             "references": [
@@ -31005,7 +31301,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18800"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -31717,7 +32016,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -31728,7 +32027,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28263"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -31738,7 +32040,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28263"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -32471,10 +32776,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5504093",
             "references": [
@@ -32487,8 +32792,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAG",
             "references": [
@@ -32505,7 +32814,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28237"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -33581,10 +33893,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5504416",
             "references": [
@@ -33597,8 +33909,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUBAL",
             "references": [
@@ -33615,7 +33931,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18807"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -34358,16 +34677,26 @@
         "P954": [
           {
             "value": "5500126",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMKZ",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -34452,9 +34781,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500054",
             "references": [
@@ -34470,8 +34802,13 @@
         "P8671": [
           {
             "value": "OMKA",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -34480,10 +34817,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5513847",
             "references": [
@@ -34496,8 +34833,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABO",
             "references": [
@@ -34514,7 +34855,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28261"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -34604,9 +34948,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500055",
             "references": [
@@ -34622,8 +34969,13 @@
         "P8671": [
           {
             "value": "OMPK",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -34632,10 +34984,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5513862",
             "references": [
@@ -34648,8 +35000,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUPUE",
             "references": [
@@ -34666,7 +35022,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28286"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -34822,10 +35181,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5513888",
             "references": [
@@ -34838,8 +35197,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABP",
             "references": [
@@ -34856,7 +35219,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18805"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -35067,9 +35433,15 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 2.2
             },
             "value": "5500058",
             "references": [
@@ -35085,8 +35457,13 @@
         "P8671": [
           {
             "value": "XMD",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -35095,10 +35472,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5513912",
             "references": [
@@ -35111,8 +35488,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABS",
             "references": [
@@ -35129,7 +35510,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18806"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -35523,9 +35907,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 1.5
             },
             "value": "5500061",
             "references": [
@@ -35541,8 +35928,13 @@
         "P8671": [
           {
             "value": "XMNH",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -35551,10 +35943,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5514019",
             "references": [
@@ -35567,8 +35959,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUNYI",
             "references": [
@@ -35585,7 +35981,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28285"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -36116,10 +36515,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5514118",
             "references": [
@@ -36132,8 +36531,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUKIA",
             "references": [
@@ -36150,7 +36553,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28278"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -36498,10 +36904,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5514175",
             "references": [
@@ -36514,8 +36920,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUZAH",
             "references": [
@@ -36532,7 +36942,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28291"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -37178,16 +37591,26 @@
         "P954": [
           {
             "value": "5500268",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMBRN",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -37268,16 +37691,26 @@
         "P954": [
           {
             "value": "5501151",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMSAP",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -37358,16 +37791,26 @@
         "P954": [
           {
             "value": "5500116",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "XMBTU",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -37444,16 +37887,26 @@
         "P954": [
           {
             "value": "5500853",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMMZP",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -37538,9 +37991,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500074",
             "references": [
@@ -37556,8 +38012,13 @@
         "P8671": [
           {
             "value": "XMBH",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -37566,10 +38027,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5514449",
             "references": [
@@ -37582,8 +38043,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUBHK",
             "references": [
@@ -37600,7 +38065,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28267"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -38415,10 +38883,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5506189",
             "references": [
@@ -38431,8 +38899,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAK",
             "references": [
@@ -38449,7 +38921,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28241"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -38641,10 +39116,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5511924",
             "references": [
@@ -38657,8 +39132,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUSOM",
             "references": [
@@ -38675,7 +39154,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28288"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -40408,10 +40890,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5512401",
             "references": [
@@ -40424,8 +40906,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUEGE",
             "references": [
@@ -40442,7 +40928,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18809"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -43511,16 +44000,26 @@
         "P954": [
           {
             "value": "5500030",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMCS",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -44955,10 +45454,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5504689",
             "references": [
@@ -44971,8 +45470,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABK",
             "references": [
@@ -44985,8 +45488,12 @@
         "P6724": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
             },
             "value": "28258",
             "references": [
@@ -45238,10 +45745,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5504747",
             "references": [
@@ -45254,8 +45761,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABN",
             "references": [
@@ -45272,7 +45783,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28260"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -46130,7 +46644,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -46141,7 +46655,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -46151,7 +46668,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28262"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -47604,10 +48124,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5505371",
             "references": [
@@ -47620,8 +48140,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAV",
             "references": [
@@ -47638,7 +48162,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28249"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -54401,10 +54928,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5502170",
             "references": [
@@ -54417,8 +54944,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAJ",
             "references": [
@@ -54435,7 +54966,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28240"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -54784,10 +55318,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503418",
             "references": [
@@ -54800,8 +55334,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAX",
             "references": [
@@ -54818,7 +55356,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18801"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -55105,10 +55646,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503459",
             "references": [
@@ -55121,8 +55662,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABA",
             "references": [
@@ -55139,7 +55684,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18802"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -55290,10 +55838,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503475",
             "references": [
@@ -55306,8 +55854,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABB",
             "references": [
@@ -55324,7 +55876,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18803"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -55480,10 +56035,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503491",
             "references": [
@@ -55496,8 +56051,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABC",
             "references": [
@@ -55514,7 +56073,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28252"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -55608,10 +56170,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503517",
             "references": [
@@ -55624,8 +56186,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABF",
             "references": [
@@ -55642,7 +56208,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28254"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -55728,10 +56297,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503517",
             "references": [
@@ -55744,8 +56313,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABF",
             "references": [
@@ -55762,7 +56335,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28254"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -56054,7 +56630,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
@@ -56065,7 +56641,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28255"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            }
           }
         ],
         "P6724": [
@@ -56075,7 +56654,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28255"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -56159,10 +56741,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503566",
             "references": [
@@ -56175,8 +56757,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABH",
             "references": [
@@ -56193,7 +56779,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28256"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -56454,10 +57043,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5503624",
             "references": [
@@ -56470,8 +57059,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABJ",
             "references": [
@@ -56488,7 +57081,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28257"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -57228,10 +57824,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5501016",
             "references": [
@@ -57244,8 +57840,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAC",
             "references": [
@@ -57262,7 +57862,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18797"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -57463,9 +58066,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 1.5
             },
             "value": "5500008",
             "references": [
@@ -57481,8 +58087,13 @@
         "P8671": [
           {
             "value": "XMBL",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -57491,10 +58102,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5501024",
             "references": [
@@ -57507,8 +58118,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAE",
             "references": [
@@ -57521,8 +58136,12 @@
         "P8181": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAE",
             "references": [
@@ -57539,7 +58158,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/22626"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -58243,16 +58865,26 @@
         "P954": [
           {
             "value": "5500009",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "XMTB",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -58500,16 +59132,26 @@
         "P954": [
           {
             "value": "5500010",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "XMTA",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -58841,9 +59483,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500012",
             "references": [
@@ -58859,8 +59504,13 @@
         "P8671": [
           {
             "value": "XMKO",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -58869,10 +59519,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5501222",
             "references": [
@@ -58885,8 +59535,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAL",
             "references": [
@@ -58903,7 +59557,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28242"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -59372,8 +60029,15 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
             },
             "value": "5500080",
             "references": [
@@ -59397,8 +60061,13 @@
         "P8671": [
           {
             "value": "XMG",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -59411,7 +60080,7 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           },
           {
@@ -59421,8 +60090,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAO",
             "references": [
@@ -59439,7 +60112,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28244"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -59536,16 +60212,26 @@
         "P954": [
           {
             "value": "5501019",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMOTT",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -59635,16 +60321,26 @@
         "P954": [
           {
             "value": "5500765",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMLEM",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -59742,16 +60438,26 @@
         "P954": [
           {
             "value": "5500653",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMKIM",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -59852,9 +60558,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500016",
             "references": [
@@ -59881,8 +60590,13 @@
         "P8671": [
           {
             "value": "XMMO",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -59893,7 +60607,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35961"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -59990,16 +60707,26 @@
         "P954": [
           {
             "value": "5500771",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMLEE",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -60116,9 +60843,15 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 2.2
             },
             "value": "5500017",
             "references": [
@@ -60134,8 +60867,13 @@
         "P8671": [
           {
             "value": "XMHY",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -60155,15 +60893,19 @@
               }
             ],
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             }
           }
         ],
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUHEG",
             "references": [
@@ -60180,7 +60922,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/23605"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -61337,10 +62082,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5506338",
             "references": [
@@ -61353,8 +62098,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAS",
             "references": [
@@ -61371,7 +62120,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28248"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -62058,10 +62810,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5506437",
             "references": [
@@ -62074,8 +62826,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAY",
             "references": [
@@ -62092,7 +62848,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28250"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -64396,10 +65155,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5518697",
             "references": [
@@ -64412,8 +65171,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUGYU",
             "references": [
@@ -64430,7 +65193,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28274"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -66692,10 +67458,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5507294",
             "references": [
@@ -66708,8 +67474,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAP",
             "references": [
@@ -66726,7 +67496,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28245"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -69675,10 +70448,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517095",
             "references": [
@@ -69691,8 +70464,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUNAG",
             "references": [
@@ -69709,7 +70486,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28284"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -69909,10 +70689,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517111",
             "references": [
@@ -69925,8 +70705,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAH",
             "references": [
@@ -69943,7 +70727,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28238"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -70127,10 +70914,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517137",
             "references": [
@@ -70143,8 +70930,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAI",
             "references": [
@@ -70161,7 +70952,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28239"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -70402,10 +71196,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517160",
             "references": [
@@ -70418,8 +71212,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUKIK",
             "references": [
@@ -70436,7 +71234,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28279"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -70788,10 +71589,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517228",
             "references": [
@@ -70804,8 +71605,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABY",
             "references": [
@@ -70822,7 +71627,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -72616,10 +73424,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517848",
             "references": [
@@ -72632,8 +73440,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAA",
             "references": [
@@ -72650,7 +73462,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28234"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -72819,10 +73634,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517863",
             "references": [
@@ -72835,8 +73650,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUGYM",
             "references": [
@@ -72853,7 +73672,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28272"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -73027,10 +73849,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517889",
             "references": [
@@ -73043,8 +73865,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAB",
             "references": [
@@ -73061,7 +73887,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28235"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -73160,10 +73989,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517897",
             "references": [
@@ -73176,8 +74005,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUGYR",
             "references": [
@@ -73194,7 +74027,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28273"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -73313,9 +74149,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500109",
             "references": [
@@ -73331,8 +74170,13 @@
         "P8671": [
           {
             "value": "XMBS",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -73341,10 +74185,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5518036",
             "references": [
@@ -73357,8 +74201,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUBKB",
             "references": [
@@ -73375,7 +74223,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28268"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -73554,9 +74405,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "5500110",
             "references": [
@@ -73572,8 +74426,13 @@
         "P8671": [
           {
             "value": "XMLO",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -73582,10 +74441,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5518069",
             "references": [
@@ -73598,8 +74457,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAF",
             "references": [
@@ -73616,7 +74479,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28236"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -75549,16 +76415,26 @@
         "P954": [
           {
             "value": "5500127",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "XMKR",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -75647,9 +76523,15 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 2.2
             },
             "value": "5500029",
             "references": [
@@ -75665,8 +76547,13 @@
         "P8671": [
           {
             "value": "XMSG",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -75675,10 +76562,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5502329",
             "references": [
@@ -75691,8 +76578,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAR",
             "references": [
@@ -75709,7 +76600,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28247"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -75820,9 +76714,15 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0
+              "reliability": 2.2
             },
             "value": "5500028",
             "references": [
@@ -75849,8 +76749,13 @@
         "P8671": [
           {
             "value": "OMSO",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -75859,10 +76764,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5502246",
             "references": [
@@ -75875,8 +76780,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUAAM",
             "references": [
@@ -75893,7 +76802,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28243"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -76103,16 +77015,26 @@
         "P954": [
           {
             "value": "5500613",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMHR",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ]
@@ -76159,16 +77081,26 @@
         "P954": [
           {
             "value": "5500471",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMEGH",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -76245,16 +77177,26 @@
         "P954": [
           {
             "value": "5500187",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMASR",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -76326,16 +77268,26 @@
         "P954": [
           {
             "value": "5501280",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMSBS",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -76399,16 +77351,26 @@
         "P954": [
           {
             "value": "5501125",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMRTO",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ]
@@ -76455,16 +77417,26 @@
         "P954": [
           {
             "value": "5501609",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMJB",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -76616,16 +77588,26 @@
         "P954": [
           {
             "value": "5501132",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMRPC",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -76717,10 +77699,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0
+              "reliability": 0.6400000000000001
             },
             "value": "5501974",
             "references": [
@@ -76733,8 +77715,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUACA",
             "references": [
@@ -76751,7 +77737,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28266"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -78507,16 +79496,26 @@
         "P954": [
           {
             "value": "5501621",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMHOR",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -78588,16 +79587,26 @@
         "P954": [
           {
             "value": "5500368",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7999999999999999
             }
           }
         ],
         "P8671": [
           {
             "value": "OMCSK",
-            "references": {
-              "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
             }
           }
         ],
@@ -79619,10 +80628,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517228",
             "references": [
@@ -79635,8 +80644,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABY",
             "references": [
@@ -79653,7 +80666,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -79802,10 +80818,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517228",
             "references": [
@@ -79818,8 +80834,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABY",
             "references": [
@@ -79836,7 +80856,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
@@ -79985,10 +81008,10 @@
             "info": {
               "pregrouped": [
                 {
-                  "reliability": 0.7000000000000001
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 0.6400000000000001
             },
             "value": "5517228",
             "references": [
@@ -80001,8 +81024,12 @@
         "P8448": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "value": "HUABY",
             "references": [
@@ -80019,7 +81046,10 @@
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/18808"
               }
-            ]
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [

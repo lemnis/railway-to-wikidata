@@ -177,6 +177,6 @@ test("Trainline", (t) => {
 });
 
 test.skip(macro, "trainline", Object.values(byCountry).flat());
-test.todo("Should compare reliliability of the coordinate locations");
+test.todo("Should compare reliability of the coordinate locations");
 
 test.skip(labelLanguage, trainlineLocations, wikidata);

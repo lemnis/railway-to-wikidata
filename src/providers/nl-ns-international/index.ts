@@ -5,6 +5,10 @@ import {
 } from "../../transform/country";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
+import {
+  RELIABILITY_BENERAIL_NS_INTERNATIONAL,
+  RELIABILITY_IBNR_NS_INTERNATIONAL,
+} from "./nl-ns-international.constants";
 
 export const getLocations = async () => {
   const response = await fetch(
@@ -34,9 +38,15 @@ export const getLocations = async () => {
           { value: name },
           ...(aliases ? aliases.map((value) => ({ value })) : []),
         ],
-        [CodeIssuer.Benerail]: [{ value: beneCode }],
+        [CodeIssuer.Benerail]: [
+          {
+            value: beneCode,
+            info: { reliability: RELIABILITY_BENERAIL_NS_INTERNATIONAL },
+          },
+        ],
         [CodeIssuer.IBNR]: hafasCodes?.map((value) => ({
           value: value.toString(),
+          info: { reliability: RELIABILITY_IBNR_NS_INTERNATIONAL },
         })),
         [Property.Country]: [
           {

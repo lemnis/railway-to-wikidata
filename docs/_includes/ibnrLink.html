@@ -1,4 +1,7 @@
-<div style="white-space: nowrap;">
+<div
+  style="white-space: nowrap; {% if label.info.reliability > 1 %} background-color: honeydew; {% endif %}"
+  title="{{ label.info.reliability }}"
+>
   {{ label.value }}
 
   <a
