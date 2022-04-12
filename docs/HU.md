@@ -18,6 +18,8 @@ title: "Hungary"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
+      <th>Wikidata</th>
+      <th>Website</th>
     </tr>
   </thead>
   <tbody>
@@ -59,6 +61,22 @@ title: "Hungary"
         <td>
           {% for label in feature.properties.P6724 %}
           <a href="https://trainline-eu.github.io/stations-studio/#/station/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.PWIKI %}
+          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
+            {{ label.value }}
+          </a>
+          <br />
+          {% endfor %}
+        </td>
+        <td>
+          {% for label in feature.properties.P856 %}
+          <a href="{{ label.value }}" target="_blank">
             {{ label.value }}
           </a>
           <br />
