@@ -2,6 +2,7 @@ import fetch from "node-fetch";
 import { Country, findCountryByUIC } from "../../transform/country";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
+import { ReliabilityEntur } from "./entur.constants";
 
 const source = `{
   stopPlace(
@@ -63,7 +64,7 @@ export const getLocations = () =>
             .map(({ values }) => values)
             .flat()
             // Some UIC code incorrectly start with some 0's..
-            .map(value => parseFloat(value).toString())
+            .map((value) => parseFloat(value).toString())
             .filter(Boolean);
           const stationCodes = keyValues
             .filter(({ key }) => key === "jbvCode")
@@ -86,6 +87,7 @@ export const getLocations = () =>
           const uicCountry = uicCodes
             .map((value) => findCountryByUIC(parseInt(value.slice(0, 2))))
             .filter(Boolean)?.[0];
+          const country = uicCountry || guessedCountry;
 
           return {
             type: "Feature",
@@ -96,10 +98,18 @@ export const getLocations = () =>
             },
             properties: {
               labels,
-              [CodeIssuer.UIC]: uicCodes.map((value) => ({ value })),
+              [CodeIssuer.UIC]: uicCodes.map((value) => ({
+                value,
+                info: {
+                  reliability:
+                    country === Country.Norway
+                      ? ReliabilityEntur.Norway[CodeIssuer.UIC]
+                      : ReliabilityEntur.Foreign[CodeIssuer.UIC],
+                },
+              })),
               [Property.Country]: [
                 {
-                  value: (uicCountry || guessedCountry)?.wikidata,
+                  value: country?.wikidata,
                 },
               ],
               [Property.StationCode]: stationCodes.map((value) => ({ value })),

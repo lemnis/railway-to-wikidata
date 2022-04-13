@@ -54,7 +54,10 @@
         ],
         "P722": [
           {
-            "value": "7610206"
+            "value": "7610206",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -133,7 +136,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Seimsgrend stasjon"
           },
           {
@@ -184,8 +187,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7602332"
           }
@@ -253,7 +260,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Elverum stasjon"
           },
           {
@@ -304,9 +311,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600909",
             "references": [
@@ -479,8 +489,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601125"
           }
@@ -599,9 +613,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7602333"
           }
@@ -718,9 +735,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601123"
           }
@@ -845,9 +865,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600734",
             "references": [
@@ -1044,9 +1067,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602322",
             "references": [
@@ -1220,8 +1246,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7602232"
           }
@@ -1294,7 +1324,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Myrdal stasjon"
           },
           {
@@ -1377,9 +1407,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602324",
             "references": [
@@ -1557,9 +1590,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600914",
             "references": [
@@ -1718,7 +1754,10 @@
         ],
         "P722": [
           {
-            "value": "7601387"
+            "value": "7601387",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -1784,7 +1823,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Froland stasjon"
           },
           {
@@ -1817,9 +1856,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7602140",
             "references": [
@@ -1994,9 +2036,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7602225"
           }
@@ -2056,7 +2101,7 @@
     },
     {
       "type": "Feature",
-      "id": "-NSR:StopPlace:271-Q4577718",
+      "id": "NSR:StopPlace:271",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -2071,103 +2116,24 @@
           {
             "lang": "no",
             "value": "Lademoen stasjon"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة لاديموين"
-          },
-          {
-            "lang": "da",
-            "value": "Lademoen Station"
-          },
-          {
-            "lang": "en",
-            "value": "Lademoen Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Lademoen"
-          },
-          {
-            "lang": "nb",
-            "value": "Lademoen stasjon"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Lademoen"
-          },
-          {
-            "lang": "pl",
-            "value": "Lademoen"
           }
         ],
         "P722": [
           {
-            "value": "7621200"
-          },
-          {
-            "value": "7601200"
+            "value": "7621200",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "NNN"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q4577718"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
-          },
-          {
-            "value": "Q207020"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "1"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "6"
-          }
-        ],
-        "P5595": [
-          {
-            "value": "1"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600486"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q1324436"
           }
         ]
       }
@@ -2222,8 +2188,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7600729"
           }
@@ -2291,7 +2261,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Nisterud stasjon"
           },
           {
@@ -2314,8 +2284,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601813"
           }
@@ -2459,9 +2433,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600626",
             "references": [
@@ -2594,7 +2571,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Gjerdåker stasjon"
           },
           {
@@ -2628,7 +2605,10 @@
         ],
         "P722": [
           {
-            "value": "7612329"
+            "value": "7612329",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -2733,8 +2713,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7600203"
           }
@@ -2812,7 +2796,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Oppdal stasjon"
           },
           {
@@ -2849,9 +2833,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601107"
           }
@@ -2966,9 +2953,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7600904",
             "references": [
@@ -3098,7 +3088,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Ranheim stasjon"
           },
           {
@@ -3139,9 +3129,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601203"
           }
@@ -3209,7 +3202,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Glåmos stasjon"
           },
           {
@@ -3264,9 +3257,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601008",
             "references": [
@@ -3399,7 +3395,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Upsete stasjon"
           },
           {
@@ -3460,9 +3456,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7602325",
             "references": [
@@ -3587,7 +3586,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Ustaoset stasjon"
           },
           {
@@ -3638,9 +3637,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602320",
             "references": [
@@ -3808,7 +3810,10 @@
         ],
         "P722": [
           {
-            "value": "7602230"
+            "value": "7602230",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -3879,7 +3884,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Vaksdal stasjon"
           },
           {
@@ -3922,9 +3927,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602337",
             "references": [
@@ -4088,8 +4096,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601118"
           }
@@ -4198,8 +4210,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601386"
           }
@@ -4302,7 +4318,10 @@
         ],
         "P722": [
           {
-            "value": "7610607"
+            "value": "7610607",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -4411,9 +4430,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601304",
             "references": [
@@ -4584,9 +4606,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7600210"
           }
@@ -4713,7 +4738,10 @@
         ],
         "P722": [
           {
-            "value": "7610200"
+            "value": "7610200",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -4776,7 +4804,7 @@
     },
     {
       "type": "Feature",
-      "id": "-NSR:StopPlace:388-Q4577665",
+      "id": "NSR:StopPlace:388",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -4791,98 +4819,24 @@
           {
             "lang": "no",
             "value": "Lilleby stasjon"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة ليليبى"
-          },
-          {
-            "lang": "da",
-            "value": "Lilleby Station"
-          },
-          {
-            "lang": "en",
-            "value": "Lilleby Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Lilleby"
-          },
-          {
-            "lang": "nb",
-            "value": "Lilleby stasjon"
-          },
-          {
-            "lang": "nb",
-            "value": "Lilleby holdeplass"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Lilleby"
-          },
-          {
-            "lang": "nn",
-            "value": "Lilleby haldeplass"
-          },
-          {
-            "lang": "pl",
-            "value": "Lilleby"
           }
         ],
         "P722": [
           {
-            "value": "7601200"
+            "value": "7601200",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "LDM"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q4577665"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
-          },
-          {
-            "value": "Q207020"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "1"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600246"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q1324436"
           }
         ]
       }
@@ -4953,9 +4907,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601201",
             "references": [
@@ -5090,7 +5047,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Arna stasjon"
           },
           {
@@ -5141,9 +5098,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602342",
             "references": [
@@ -5321,9 +5281,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600743",
             "references": [
@@ -5458,7 +5421,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Ler stasjon"
           },
           {
@@ -5495,9 +5458,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601117"
           }
@@ -5575,7 +5541,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Lesja stasjon"
           },
           {
@@ -5622,9 +5588,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600801",
             "references": [
@@ -5783,7 +5752,10 @@
         ],
         "P722": [
           {
-            "value": "7610204"
+            "value": "7610204",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -5876,9 +5848,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601204"
           }
@@ -5961,9 +5936,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602327",
             "references": [
@@ -6151,9 +6129,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600725",
             "references": [
@@ -6330,9 +6311,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602219",
             "references": [
@@ -6462,7 +6446,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Vinstra stasjon"
           },
           {
@@ -6505,9 +6489,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600739",
             "references": [
@@ -6684,9 +6671,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601612",
             "references": [
@@ -6856,9 +6846,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7600502"
           }
@@ -6970,7 +6963,10 @@
         ],
         "P722": [
           {
-            "value": "7632325"
+            "value": "7632325",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -7036,7 +7032,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Auli stasjon"
           },
           {
@@ -7070,7 +7066,10 @@
         ],
         "P722": [
           {
-            "value": "7610308"
+            "value": "7610308",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -7123,7 +7122,7 @@
     },
     {
       "type": "Feature",
-      "id": "-NSR:StopPlace:445-Q920880",
+      "id": "NSR:StopPlace:445",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7136,93 +7135,33 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Vieren stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Vieren Station"
-          },
-          {
-            "lang": "en",
-            "value": "Vieren Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Vieren"
-          },
-          {
-            "lang": "nb",
-            "value": "Vieren holdeplass"
-          },
-          {
-            "lang": "nn",
-            "value": "Vieren haldeplass"
-          },
-          {
-            "lang": "pl",
-            "value": "Vieren"
           }
         ],
         "P722": [
           {
-            "value": "7612325"
-          },
-          {
-            "value": "7600441"
+            "value": "7612325",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "VRN"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q920880"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
-          },
-          {
-            "value": "Q207020"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600441"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q487711"
           }
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "-NSR:StopPlace:446-Q13434444",
+      "id": "NSR:StopPlace:446",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -7235,97 +7174,26 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Langlete stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Langlete Station"
-          },
-          {
-            "lang": "en",
-            "value": "Langlete Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Langlete"
-          },
-          {
-            "lang": "nb",
-            "value": "Langlete stasjon"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Langlete"
-          },
-          {
-            "lang": "pl",
-            "value": "Langlete"
           }
         ],
         "P722": [
           {
+            "value": "7601015",
             "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "7601015"
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q20"
           }
         ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "LLE"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q13434444"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
-          },
-          {
-            "value": "Q207020"
-          }
-        ],
-        "P1103": [
-          {
-            "value": "1"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "2359"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600224"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q484084"
           }
         ]
       }
@@ -7378,9 +7246,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7600927",
             "references": [
@@ -7505,7 +7376,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Vatnahalsen stasjon"
           },
           {
@@ -7542,9 +7413,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7602358",
             "references": [
@@ -7674,7 +7548,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Reinunga stasjon"
           },
           {
@@ -7704,7 +7578,10 @@
         ],
         "P722": [
           {
-            "value": "7612358"
+            "value": "7612358",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -7846,9 +7723,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600207",
             "references": [
@@ -8023,7 +7903,10 @@
         ],
         "P722": [
           {
-            "value": "7611307"
+            "value": "7611307",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           },
           {
             "value": "7601307",
@@ -8095,7 +7978,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Lundamo stasjon"
           },
           {
@@ -8136,9 +8019,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601116"
           }
@@ -8247,8 +8133,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7602329"
           }
@@ -8362,9 +8252,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600805",
             "references": [
@@ -8481,7 +8374,7 @@
     },
     {
       "type": "Feature",
-      "id": "-NSR:StopPlace:468-Q3363940",
+      "id": "--NSR:StopPlace:468-trainline-28478-Q3363940",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -8496,6 +8389,9 @@
           {
             "lang": "no",
             "value": "Ørneberget stasjon"
+          },
+          {
+            "value": "Ørneberget"
           },
           {
             "lang": "da",
@@ -8528,7 +8424,21 @@
         ],
         "P722": [
           {
-            "value": "7622325"
+            "value": "7622325",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
+          },
+          {
+            "value": "7632134",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28478"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P17": [
@@ -8549,17 +8459,74 @@
             "value": "ØBG"
           }
         ],
-        "PWIKI": [
+        "P8448": [
           {
-            "value": "Q3363940"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "NOAJF",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28478"
+              }
+            ]
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28478",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28478"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
+          {
+            "value": "Q5412119",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28478"
+              }
+            ]
+          },
           {
             "value": "Q207020"
           },
           {
             "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7600442",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28478"
+              }
+            ]
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3363940"
           }
         ],
         "P131": [
@@ -8570,16 +8537,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600442"
-          }
-        ],
-        "P8448": [
-          {
-            "value": "NOAJF"
           }
         ]
       }
@@ -8638,8 +8595,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601127"
           }
@@ -8744,7 +8705,10 @@
         ],
         "P722": [
           {
-            "value": "7622327"
+            "value": "7622327",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -8845,8 +8809,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7600803"
           }
@@ -8919,7 +8887,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Bellingmo stasjon"
           },
           {
@@ -8952,9 +8920,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7600925",
             "references": [
@@ -9123,8 +9094,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601012"
           }
@@ -9237,9 +9212,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7602334"
           }
@@ -9307,7 +9285,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Røros stasjon"
           },
           {
@@ -9390,9 +9368,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601006",
             "references": [
@@ -9527,7 +9508,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Kjosfossen stasjon"
           },
           {
@@ -9553,7 +9534,10 @@
         ],
         "P722": [
           {
-            "value": "7622358"
+            "value": "7622358",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -9662,7 +9646,10 @@
         ],
         "P722": [
           {
-            "value": "7621306"
+            "value": "7621306",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -9728,7 +9715,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Kløve stasjon"
           },
           {
@@ -9754,7 +9741,10 @@
         ],
         "P722": [
           {
-            "value": "7612328"
+            "value": "7612328",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -9863,9 +9853,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602176",
             "references": [
@@ -10025,8 +10018,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7600531"
           }
@@ -10138,9 +10135,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7602218"
           }
@@ -10246,9 +10246,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7600611"
           }
@@ -10316,7 +10319,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Billingstad stasjon"
           },
           {
@@ -10361,9 +10364,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601410"
           }
@@ -10434,34 +10440,6 @@
     },
     {
       "type": "Feature",
-      "id": "NSR:StopPlace:581",
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            15.202519,
-            59.269809
-          ]
-        ]
-      },
-      "properties": {
-        "labels": [
-          {
-            "lang": "no",
-            "value": "Örebro södra station"
-          }
-        ],
-        "P722": [],
-        "P17": [],
-        "P296": [
-          {
-            "value": "ØS"
-          }
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "--NSR:StopPlace:584-NO2330-23310-Q1801807",
       "geometry": {
         "type": "MultiPoint",
@@ -10516,9 +10494,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7602331"
           }
@@ -10607,7 +10588,10 @@
         ],
         "P722": [
           {
-            "value": "7600186"
+            "value": "7600186",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           },
           {
             "value": "7601386",
@@ -10709,8 +10693,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601019"
           }
@@ -10809,7 +10797,10 @@
         ],
         "P722": [
           {
-            "value": "7600735"
+            "value": "7600735",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -10926,9 +10917,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601215",
             "references": [
@@ -11058,7 +11052,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Bøylestad stasjon"
           },
           {
@@ -11093,8 +11087,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7602139"
           }
@@ -11205,7 +11203,10 @@
         ],
         "P722": [
           {
-            "value": "7610505"
+            "value": "7610505",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -11326,9 +11327,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601110",
             "references": [
@@ -11509,8 +11513,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7602144"
           }
@@ -11642,9 +11650,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601408",
             "references": [
@@ -11817,9 +11828,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601806",
             "references": [
@@ -11981,9 +11995,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601628"
           }
@@ -12059,7 +12076,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Kvam stasjon"
           },
           {
@@ -12102,9 +12119,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600740",
             "references": [
@@ -12221,7 +12241,7 @@
     },
     {
       "type": "Feature",
-      "id": "-NSR:StopPlace:63-Q1777687",
+      "id": "-NSR:StopPlace:63-Q11973441",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -12238,37 +12258,20 @@
             "value": "Eidsberg stasjon"
           },
           {
-            "lang": "nb",
-            "value": "Eidsberg stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Eidsberg"
-          },
-          {
             "lang": "da",
-            "value": "Eidsberg Station"
+            "value": "Gutu Station"
           },
           {
-            "lang": "en",
-            "value": "Eidsberg Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Eidsberg"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Eidsberg"
+            "lang": "nb",
+            "value": "Gutu holdeplass"
           }
         ],
         "P722": [
           {
+            "value": "7600537",
             "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "7600537"
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -12282,39 +12285,20 @@
         ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "EBG"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q1777687"
+            "value": "Q11973441"
           }
         ],
         "P421": [
           {
-            "value": "Q25989"
+            "value": "Q207020"
           },
           {
-            "value": "Q207020"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "152.8"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600153"
+            "value": "Q25989"
           }
         ],
         "P131": [
@@ -12323,6 +12307,11 @@
           },
           {
             "value": "Q42293305"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -12375,9 +12364,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "value": "7601119"
           }
@@ -12488,9 +12480,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600706",
             "references": [
@@ -12659,8 +12654,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7601409"
           }
@@ -12771,7 +12770,10 @@
         ],
         "P722": [
           {
-            "value": "7610604"
+            "value": "7610604",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -12879,9 +12881,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7600915",
             "references": [
@@ -13069,8 +13074,12 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
             "value": "7602145"
           }
@@ -13125,7 +13134,7 @@
     },
     {
       "type": "Feature",
-      "id": "--NSR:StopPlace:687-trainline-28365-Q4570414",
+      "id": "---NSR:StopPlace:687-NO1300-13114-trainline-28365-Q4570414",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -13140,6 +13149,9 @@
           {
             "lang": "no",
             "value": "Sparbu stasjon"
+          },
+          {
+            "value": "Mære stasjon"
           },
           {
             "value": "Sparbu"
@@ -13175,9 +13187,15 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 2.14
             },
             "value": "7601311",
             "references": [
@@ -13307,7 +13325,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Skiple stasjon"
           },
           {
@@ -13341,7 +13359,10 @@
         ],
         "P722": [
           {
-            "value": "7612327"
+            "value": "7612327",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -13454,9 +13475,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600928",
             "references": [
@@ -13581,7 +13605,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Stange stasjon"
           },
           {
@@ -13624,9 +13648,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7600708",
             "references": [
@@ -13756,7 +13783,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Hallingskeid stasjon"
           },
           {
@@ -13807,9 +13834,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602323",
             "references": [
@@ -13939,7 +13969,7 @@
       "properties": {
         "labels": [
           {
-            "lang": "nor",
+            "lang": "no",
             "value": "Stanghelle stasjon"
           },
           {
@@ -13982,9 +14012,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7602336",
             "references": [
@@ -14164,9 +14197,12 @@
                 },
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 2.14
             },
             "value": "7601310",
             "references": [
@@ -14332,9 +14368,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.44
             },
             "value": "7601380",
             "references": [
@@ -14502,7 +14541,10 @@
         ],
         "P722": [
           {
-            "value": "7602233"
+            "value": "7602233",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           }
         ],
         "P17": [
@@ -14565,7 +14607,7 @@
     },
     {
       "type": "Feature",
-      "id": "-NSR:StopPlace:87-Q3538482",
+      "id": "---NSR:StopPlace:87-NO2220-22260-trainline-28436-Q3538482",
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
@@ -14580,6 +14622,12 @@
           {
             "lang": "no",
             "value": "Skeiane stasjon"
+          },
+          {
+            "value": "Sandnes stasjon"
+          },
+          {
+            "value": "Sandnes"
           },
           {
             "lang": "da",
@@ -14624,10 +14672,29 @@
         ],
         "P722": [
           {
-            "value": "7612226"
+            "value": "7612226",
+            "info": {
+              "reliability": 0.7999999999999999
+            }
           },
           {
-            "value": "7602226"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "value": "7602226",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28436"
+              }
+            ]
           }
         ],
         "P17": [
@@ -14648,22 +14715,74 @@
             "value": "SAS"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q3538482"
-          }
-        ],
         "P8448": [
           {
-            "value": "NOAHH"
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "NOAHH",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28436"
+              }
+            ]
+          }
+        ],
+        "P6724": [
+          {
+            "value": "28436",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28436"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001
+            }
           }
         ],
         "P421": [
+          {
+            "value": "Q5412119",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28436"
+              }
+            ]
+          },
           {
             "value": "Q207020"
           },
           {
             "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "value": "7600071",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28436"
+              }
+            ]
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3538482"
           }
         ],
         "P131": [
@@ -14674,11 +14793,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7600071"
           }
         ]
       }
