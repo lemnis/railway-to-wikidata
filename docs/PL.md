@@ -68,7 +68,13 @@ title: "Poland"
         </td>
         <td>
           {% for label in feature.properties.PWIKI %}
-          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
+          <a
+            href="https://www.wikidata.org/wiki/{{ label.value }}"
+            target="_blank"
+            {% for other in stations.features %}  {% for prop in other.properties.PWIKI %}
+              {% if prop.value == label.value and other.id != feature.id %}style="background: firebrick;"{% endif %}
+            {% endfor %} {% endfor %}
+          >
             {{ label.value }}
           </a>
           <br />

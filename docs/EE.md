@@ -1,7 +1,8 @@
 ---
 title: "Estonia"
-layout: page  
+layout: page
 ---
+
 {% assign stations = site.data.EE %}
 {% assign tracks = 'EE' %}
 {% include map.html %}
@@ -30,7 +31,7 @@ layout: page
     </tr>
   </thead>
   <tbody>
-    {% for feature in site.data.EE.features %}
+    {% for feature in stations.features %}
       <tr>
         <td
           title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
@@ -76,7 +77,13 @@ layout: page
         </td>
         <td>
           {% for label in feature.properties.PWIKI %}
-          <a href="https://www.wikidata.org/wiki/{{ label.value }}" target="_blank">
+          <a
+            href="https://www.wikidata.org/wiki/{{ label.value }}"
+            target="_blank"
+            {% for other in stations.features %}  {% for prop in other.properties.PWIKI %}
+              {% if prop.value == label.value and other.id != feature.id %}style="background: firebrick;"{% endif %}
+            {% endfor %} {% endfor %}
+          >
             {{ label.value }}
           </a>
           <br />
@@ -86,3 +93,38 @@ layout: page
     {% endfor %}
   </tbody>
 </table>
+
+
+<script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.js"></script>
+<div id="myGrid" style="width:100%; height: 90vh;" class="ag-theme-alpine"></div>
+
+<script>
+const valueFormatter = function (params) {
+  console.log(params, params.value)
+  return params.value?.map(({ value }) => value).join(', ');
+};
+
+const defaultColumns = ['labels','P296', 'P954', 'P722', 'PWIKI', 'P8448']
+
+const columnDefs = [...new Set(points.features.map(i => Object.keys(i.properties)).flat())].filter(i => !['P17', "P31", 'P131'].includes(i)).map(field => ({ field, valueFormatter,checked: defaultColumns.includes(field) }))
+
+// specify the data
+const rowData = points.features.map(i => i.properties);
+
+// let the grid know which columns and what data to use
+const gridOptions = {
+  columnDefs,
+  defaultColDef: {
+    flex: 1,
+    minWidth: 120,
+    sortable: true,
+    filter: true,
+     menuTabs: ['filterMenuTab', 'generalMenuTab', 'columnsMenuTab']
+  },
+  rowData
+};
+
+// setup the grid after the page has finished loading
+const gridDiv = document.querySelector('#myGrid');
+  new agGrid.Grid(gridDiv, gridOptions);
+</script>
