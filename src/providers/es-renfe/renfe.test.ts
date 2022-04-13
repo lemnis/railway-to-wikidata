@@ -3,7 +3,7 @@ import fs from "fs";
 import { Location } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { ReliabilityRenfe, ScoreRenfe } from "./renfe.constants";
+import { RELIABILITY_RENFE_UIC, SCORE_UIC } from "./renfe.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import { labelLanguage } from "../../utils/test/labelLanguage";
@@ -22,7 +22,6 @@ test("Spanish locations should match expected score", async (t) => {
     [Property.Country]: country,
     [Property.PostalCode]: postalCode,
     [Property.Location]: location,
-    [Property.StationCode]: stationCode,
     [CodeIssuer.UIC]: uic,
   } = await getFullMatchScore(
     renfeLocations
@@ -37,18 +36,11 @@ test("Spanish locations should match expected score", async (t) => {
   );
 
   t.is(country.matches / country.total, 1);
-  closeTo(t, postalCode.matches / postalCode.total, 0.8);
+  closeTo(t, postalCode.matches / postalCode.total, 1);
   t.is(location.matches / location.total, 0);
 
   t.assert(uic?.total > LARGE_DATA_SIZE);
-  closeTo(t, uic?.matches / uic?.total, ScoreRenfe[CodeIssuer.UIC]);
-
-  t.assert(stationCode?.total > LARGE_DATA_SIZE);
-  closeTo(
-    t,
-    stationCode?.matches / stationCode?.total,
-    ScoreRenfe[Property.StationCode]
-  );
+  closeTo(t, uic?.matches / uic?.total, SCORE_UIC);
 });
 
 test("Foreign locations should match score", async (t) => {
@@ -62,7 +54,6 @@ test("Foreign locations should match score", async (t) => {
   const {
     [Property.Country]: country,
     [Property.PostalCode]: postalCode,
-    [Property.StationCode]: stationCode,
     [CodeIssuer.UIC]: uic,
   } = await getFullMatchScore(
     foreignLocations,
@@ -78,15 +69,12 @@ test("Foreign locations should match score", async (t) => {
 
   t.is(country.matches / country.total, 1);
   t.is(postalCode.matches / postalCode.total, 0);
-  t.is(stationCode?.total, 3);
   t.assert(uic?.total < LARGE_DATA_SIZE);
-  closeTo(t, uic?.matches / uic?.total, ScoreRenfe[CodeIssuer.UIC]);
+  closeTo(t, uic?.matches / uic?.total, 0);
 });
 
 test("Calculated reliability score should match", (t) => {
-  t.is(ReliabilityRenfe.Spain[Property.StationCode].toFixed(1), "0.8");
-  t.is(ReliabilityRenfe.Spain[CodeIssuer.UIC].toFixed(1), "0.6");
-  t.is(ReliabilityRenfe.Foreign[CodeIssuer.UIC].toFixed(1), "0.3");
+  t.is(RELIABILITY_RENFE_UIC.toFixed(1), "0.7");
 });
 
 test(labelLanguage, renfeLocations, wikipedia);

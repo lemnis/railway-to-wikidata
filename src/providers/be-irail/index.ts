@@ -15,23 +15,22 @@ export const getLocations = async () => {
   );
   return data
     .filter(({ location_type }) => location_type === "1")
-    .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id, ...item }) => {
-      const uic = stop_id.slice(1, 8);
-      const url = `https://irail.be/stations/NMBS/00${uic}`;
-      return {
-        type: "Feature",
-        id: url,
-        geometry: {
-          type: "Point",
-          coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
-        },
-        properties: {
-          labels: [{ value: stop_name }],
-          [CodeIssuer.UIC]: [
-            { value: uic, info: { reliability: RELIABILITY_UIC_IRAIL } },
-          ],
-          [Property.Country]: [{ value: Country.Belgium.wikidata }],
-        },
-      };
-    });
+    .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => ({
+      type: "Feature",
+      id: stop_id,
+      geometry: {
+        type: "Point",
+        coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
+      },
+      properties: {
+        labels: [{ value: stop_name }],
+        [CodeIssuer.UIC]: [
+          {
+            value: stop_id.slice(1, 8),
+            info: { reliability: RELIABILITY_UIC_IRAIL },
+          },
+        ],
+        [Property.Country]: [{ value: Country.Belgium.wikidata }],
+      },
+    }));
 };
