@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { findCountryByUIC } from "../../transform/country";
+import { Country, findCountryByUIC } from "../../transform/country";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
@@ -57,35 +57,53 @@ export const getLocations = () =>
         .filter(({ keyValues }) =>
           keyValues.some(({ key }) => ["uicCode", "jbvCode"].includes(key))
         )
-        .map<Location>(({ id, keyValues, geometry, name }) => ({
-          type: "Feature",
-          id,
-          geometry: {
-            type: "MultiPoint",
-            coordinates: geometry.coordinates || [],
-          },
-          properties: {
-            labels: Array.isArray(name) ? name : [name],
-            [CodeIssuer.UIC]: keyValues
-              .filter(({ key }) => key === "uicCode")
-              .map(({ values }) => values)
-              .flat()
-              .map((value) => ({ value: parseInt(value).toString() })),
-            [Property.Country]: keyValues
-              .filter(({ key }) => key === "uicCode")
-              .map(({ values }) => values)
-              .flat()
-              .filter(Boolean)
-              .map((value) => parseInt(value).toString())
-              .map((value) => ({
-                value: findCountryByUIC(parseInt(value[0] + value[1]))
-                  ?.wikidata,
-              })),
-            [Property.StationCode]: keyValues
-              .filter(({ key }) => key === "jbvCode")
-              .map(({ values }) => values)
-              .flat()
-              .map((value) => ({ value })),
-          },
-        }))
+        .map<Location>(({ id, keyValues, geometry, name }) => {
+          const uicCodes = keyValues
+            .filter(({ key }) => key === "uicCode")
+            .map(({ values }) => values)
+            .flat()
+            // Some UIC code incorrectly start with some 0's..
+            .map(value => parseFloat(value).toString())
+            .filter(Boolean);
+          const stationCodes = keyValues
+            .filter(({ key }) => key === "jbvCode")
+            .map(({ values }) => values)
+            .flat();
+
+          const labels = [name].flat().map((i) => ({
+            ...i,
+            lang: i.lang === "nor" ? "no" : i.lang,
+          }));
+
+          // In some rare cases UIC code is missing, instead guess the country trough its name.
+          const guessedCountry = labels.some(({ value }) =>
+            value.includes("station")
+          )
+            ? Country.Sweden
+            : labels.some(({ value }) => value.includes("stasjon"))
+            ? Country.Norway
+            : undefined;
+          const uicCountry = uicCodes
+            .map((value) => findCountryByUIC(parseInt(value.slice(0, 2))))
+            .filter(Boolean)?.[0];
+
+          return {
+            type: "Feature",
+            id,
+            geometry: {
+              type: "MultiPoint",
+              coordinates: geometry.coordinates || [],
+            },
+            properties: {
+              labels,
+              [CodeIssuer.UIC]: uicCodes.map((value) => ({ value })),
+              [Property.Country]: [
+                {
+                  value: (uicCountry || guessedCountry)?.wikidata,
+                },
+              ],
+              [Property.StationCode]: stationCodes.map((value) => ({ value })),
+            },
+          };
+        })
     );
