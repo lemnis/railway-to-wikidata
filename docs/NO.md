@@ -33,8 +33,7 @@ title: "Norway"
       <tr>
         <td
           title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
-          
-          <a href="https://www.banenor.no/en/reisende/stasjonsoversikt/Search-for-stations/-{{ feature.properties.labels[0].value | slice: 0,1 | url_param_escape }}-/{{ feature.properties.labels[0].value | replace: ' stasjon','' | url_param_escape }}" target="_blank">
+          <a href="https://www.banenor.no/en/reisende/stasjonsoversikt/Search-for-stations/-{{ feature.properties.labels[0].value | slice: 0,1 | url_param_escape }}-/{{ feature.properties.labels[0].value | replace: ' stasjon','' | replace: 'æ', 'a' | replace: 'ø', 'o' | replace: 'å', 'a' | url_param_escape }}" target="_blank">
             {{ feature.properties.labels[0].value }}
           </a>
         </td>
