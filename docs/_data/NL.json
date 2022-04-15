@@ -23,14 +23,6 @@
             "value": "Aalten"
           },
           {
-            "lang": "pt",
-            "value": "Estação Ferroviária de Aalten"
-          },
-          {
-            "lang": "en",
-            "value": "Aalten"
-          },
-          {
             "lang": "fr",
             "value": "Aalten"
           },
@@ -53,6 +45,14 @@
           {
             "lang": "nl",
             "value": "station Aalten"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Ferroviária de Aalten"
+          },
+          {
+            "lang": "en",
+            "value": "Aalten"
           }
         ],
         "P722": [
@@ -964,14 +964,14 @@
             "value": "Q55488"
           }
         ],
-        "P276": [
-          {
-            "value": "Q16977290"
-          }
-        ],
         "P856": [
           {
             "value": "http://www.ns.nl/stationsinformatie/alkmaar.html"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q16977290"
           }
         ]
       }
@@ -1023,19 +1023,31 @@
           },
           {
             "lang": "nl",
-            "value": "rijksmonumentnummer 532159"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Almelo"
-          },
-          {
-            "lang": "nl",
             "value": "station Almelo"
           },
           {
             "lang": "pl",
             "value": "Almelo (stacja kolejowa)"
+          },
+          {
+            "lang": "zh",
+            "value": "阿尔默洛站"
+          },
+          {
+            "lang": "zh-cn",
+            "value": "阿尔默洛车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "阿尔默洛车站"
+          },
+          {
+            "lang": "nl",
+            "value": "rijksmonumentnummer 532159"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Almelo"
           },
           {
             "lang": "zh",
@@ -1060,18 +1072,6 @@
           {
             "lang": "zh-hant",
             "value": "阿爾默洛站"
-          },
-          {
-            "lang": "zh",
-            "value": "阿尔默洛站"
-          },
-          {
-            "lang": "zh-cn",
-            "value": "阿尔默洛车站"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "阿尔默洛车站"
           },
           {
             "lang": "zh-hant",
@@ -3312,17 +3312,17 @@
             "value": "Q50719"
           }
         ],
-        "P669": [
-          {
-            "value": "Q2095205"
-          }
-        ],
         "P31": [
           {
             "value": "Q1339195"
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q2095205"
           }
         ],
         "P856": [
@@ -3333,6 +3333,11 @@
             "value": "https://www.ns.nl/stationsinformatie/asd/amsterdam-centraal"
           }
         ],
+        "P2044": [
+          {
+            "value": "9"
+          }
+        ],
         "P131": [
           {
             "value": "Q9899"
@@ -3341,11 +3346,6 @@
         "P281": [
           {
             "value": "1012AB"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "9"
           }
         ]
       }
@@ -3635,12 +3635,6 @@
         ],
         "P31": [
           {
-            "value": "Q55484"
-          },
-          {
-            "value": "Q55488"
-          },
-          {
             "value": "Q494829"
           },
           {
@@ -3648,6 +3642,12 @@
           },
           {
             "value": "Q2175765"
+          },
+          {
+            "value": "Q55484"
+          },
+          {
+            "value": "Q55488"
           }
         ],
         "P131": [
@@ -3684,10 +3684,6 @@
             "value": "Amsterdam Muiderpoort"
           },
           {
-            "lang": "eo",
-            "value": "Amsterdam Muiderpoort"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Amsterdam Muiderpoort"
           },
@@ -3701,6 +3697,10 @@
           },
           {
             "lang": "hu",
+            "value": "Amsterdam Muiderpoort"
+          },
+          {
+            "lang": "eo",
             "value": "Amsterdam Muiderpoort"
           },
           {
@@ -4207,13 +4207,13 @@
         ],
         "P31": [
           {
+            "value": "Q55488"
+          },
+          {
             "value": "Q494829"
           },
           {
             "value": "Q2175765"
-          },
-          {
-            "value": "Q55488"
           }
         ],
         "P131": [
@@ -4437,6 +4437,11 @@
             "value": "Q2198127"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/ana/anna-paulowna"
+          }
+        ],
         "P131": [
           {
             "value": "Q9936"
@@ -4445,11 +4450,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/ana/anna-paulowna"
           }
         ],
         "P276": [
@@ -5183,24 +5183,24 @@
             "value": "Q2388194"
           }
         ],
-        "P131": [
-          {
-            "value": "Q1124998"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P276": [
           {
             "value": "Q1165364"
           }
         ],
+        "P131": [
+          {
+            "value": "Q1124998"
+          }
+        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/akl/arkel"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -5426,20 +5426,20 @@
             "value": "Q800400"
           }
         ],
-        "P131": [
-          {
-            "value": "Q10076"
-          },
-          {
-            "value": "Q81183"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
           },
           {
             "value": "Q1339195"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q10076"
+          },
+          {
+            "value": "Q81183"
           }
         ],
         "P6375": [
@@ -6195,11 +6195,11 @@
           },
           {
             "lang": "en",
-            "value": "Amsterdam Bijlmer ArenA"
+            "value": "Station Amsterdam Bijlmer ArenA"
           },
           {
             "lang": "en",
-            "value": "Station Amsterdam Bijlmer ArenA"
+            "value": "Amsterdam Bijlmer ArenA"
           },
           {
             "lang": "eo",
@@ -6638,11 +6638,6 @@
             "value": "Q2356392"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/ahpr/arnhem-presikhaaf"
-          }
-        ],
         "P131": [
           {
             "value": "Q1310"
@@ -6651,6 +6646,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/ahpr/arnhem-presikhaaf"
           }
         ]
       }
@@ -6914,14 +6914,14 @@
             "value": "Q55488"
           }
         ],
-        "P669": [
-          {
-            "value": "Q2187762"
-          }
-        ],
         "P131": [
           {
             "value": "Q9899"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q2187762"
           }
         ],
         "P856": [
@@ -7157,6 +7157,11 @@
             "value": "Q55488"
           }
         ],
+        "P856": [
+          {
+            "value": "http://www.ns.nl/stationsinformatie/almere-centrum.html"
+          }
+        ],
         "P131": [
           {
             "value": "Q83178"
@@ -7165,11 +7170,6 @@
         "P276": [
           {
             "value": "Q2511595"
-          }
-        ],
-        "P856": [
-          {
-            "value": "http://www.ns.nl/stationsinformatie/almere-centrum.html"
           }
         ]
       }
@@ -7380,14 +7380,14 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
-          {
-            "value": "Q83178"
-          }
-        ],
         "P856": [
           {
             "value": "http://www.ns.nl/reizigers/reisinformatie/stationsvoorzieningen/stations/a/almere-buiten"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q83178"
           }
         ]
       }
@@ -8806,14 +8806,14 @@
             "value": "Q2001429"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/bnn/barneveld-noord"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -10233,14 +10233,14 @@
             "value": "Q55488"
           }
         ],
-        "P276": [
-          {
-            "value": "Q192508"
-          }
-        ],
         "P856": [
           {
             "value": "http://www.ns.nl/stationsinformatie/bergen-op-zoom.html"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q192508"
           }
         ]
       }
@@ -11345,11 +11345,6 @@
             "value": "Q3322237"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/br/blerick"
-          }
-        ],
         "P131": [
           {
             "value": "Q9777"
@@ -11358,6 +11353,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/br/blerick"
           }
         ]
       }
@@ -11796,14 +11796,14 @@
             "value": "Q889423"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/bdg/bodegraven"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -13067,11 +13067,6 @@
             "value": "Q2481512"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P276": [
           {
             "value": "Q13443096"
@@ -13085,6 +13080,11 @@
         "P131": [
           {
             "value": "Q9821"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P856": [
@@ -15143,14 +15143,14 @@
             "value": "Q106363816"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/bsmz/bussum-zuid"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -16710,6 +16710,11 @@
             "value": "Q1974246"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/dln/dalen"
+          }
+        ],
         "P31": [
           {
             "value": "Q55488"
@@ -16718,11 +16723,6 @@
         "P131": [
           {
             "value": "Q60453"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/dln/dalen"
           }
         ]
       }
@@ -16948,11 +16948,6 @@
             "value": "Q800664"
           }
         ],
-        "P131": [
-          {
-            "value": "Q9913"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
@@ -16962,6 +16957,11 @@
           },
           {
             "value": "Q953806"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q9913"
           }
         ],
         "P856": [
@@ -17231,6 +17231,10 @@
             "value": "Diemen vasútállomás"
           },
           {
+            "lang": "nl",
+            "value": "station Diemen"
+          },
+          {
             "lang": "eo",
             "value": "Diemen"
           },
@@ -17241,10 +17245,6 @@
           {
             "lang": "pl",
             "value": "Diemen"
-          },
-          {
-            "lang": "nl",
-            "value": "station Diemen"
           }
         ],
         "P722": [
@@ -17406,11 +17406,6 @@
             "value": "Q2692686"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/dmn/diemen"
-          }
-        ],
         "P131": [
           {
             "value": "Q9913"
@@ -17419,6 +17414,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/dmn/diemen"
           }
         ]
       }
@@ -19144,6 +19144,11 @@
             "value": "Q2003030"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/dn/deurne"
+          }
+        ],
         "P131": [
           {
             "value": "Q9828"
@@ -19157,11 +19162,6 @@
         "P276": [
           {
             "value": "Q2583037"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/dn/deurne"
           }
         ]
       }
@@ -19933,14 +19933,14 @@
             "value": "Q322986"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/dzw/delfzijl-west"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/dzw/delfzijl-west"
           }
         ]
       }
@@ -20448,15 +20448,15 @@
           },
           {
             "lang": "nl",
-            "value": "station Den Dolder"
-          },
-          {
-            "lang": "nl",
             "value": "rijksmonumentnummer 40409"
           },
           {
             "lang": "nl",
             "value": "Station Den Dolder"
+          },
+          {
+            "lang": "nl",
+            "value": "station Den Dolder"
           }
         ],
         "P722": [
@@ -20896,11 +20896,6 @@
             "value": "Q800675"
           }
         ],
-        "P6375": [
-          {
-            "value": "Stationsplein 1"
-          }
-        ],
         "P131": [
           {
             "value": "Q26421"
@@ -20912,6 +20907,11 @@
           },
           {
             "value": "Q1339195"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Stationsplein 1"
           }
         ],
         "P856": [
@@ -22262,6 +22262,11 @@
             "value": "Q2231426"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/ddrs/dordrecht-stadspolders"
+          }
+        ],
         "P131": [
           {
             "value": "Q26421"
@@ -22270,11 +22275,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/ddrs/dordrecht-stadspolders"
           }
         ]
       }
@@ -22496,17 +22496,17 @@
             "value": "Q5244819"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P131": [
           {
             "value": "Q43631"
           },
           {
             "value": "Q848324"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ],
         "P582": [
@@ -24249,6 +24249,11 @@
             "value": "Q55488"
           }
         ],
+        "P856": [
+          {
+            "value": "http://ns.nl/cs/Satellite?pagename=NS2007/Generic/GetStation&station=Ede-Wageningen"
+          }
+        ],
         "P238": [
           {
             "value": "EWS"
@@ -24257,11 +24262,6 @@
         "P276": [
           {
             "value": "Q2473978"
-          }
-        ],
-        "P856": [
-          {
-            "value": "http://ns.nl/cs/Satellite?pagename=NS2007/Generic/GetStation&station=Ede-Wageningen"
           }
         ]
       }
@@ -25350,14 +25350,14 @@
             "value": "Q55488"
           }
         ],
-        "P276": [
-          {
-            "value": "Q6807568"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/emn/emmen"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q6807568"
           }
         ]
       }
@@ -27529,11 +27529,6 @@
             "value": "Q2527357"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/ahz/arnhem-zuid"
-          }
-        ],
         "P131": [
           {
             "value": "Q1310"
@@ -27542,6 +27537,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/ahz/arnhem-zuid"
           }
         ]
       }
@@ -28500,11 +28500,11 @@
           },
           {
             "lang": "es",
-            "value": "estacion de Franeker"
+            "value": "estación de Franeker"
           },
           {
             "lang": "es",
-            "value": "estación de Franeker"
+            "value": "estacion de Franeker"
           },
           {
             "lang": "fr",
@@ -29123,16 +29123,6 @@
             "value": "Q2616812"
           }
         ],
-        "P276": [
-          {
-            "value": "Q1019312"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/eghm/eygelshoven-markt"
-          }
-        ],
         "P131": [
           {
             "value": "Q9796"
@@ -29141,6 +29131,16 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q1019312"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/eghm/eygelshoven-markt"
           }
         ]
       }
@@ -30078,6 +30078,11 @@
             "value": "Q55488"
           }
         ],
+        "P131": [
+          {
+            "value": "Q145845"
+          }
+        ],
         "P582": [
           {
             "value": "1934-05-15T00:00:00Z"
@@ -30086,11 +30091,6 @@
         "P276": [
           {
             "value": "Q171272"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q145845"
           }
         ],
         "P856": [
@@ -30301,6 +30301,11 @@
             "value": "Q2694671"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/hmbv/helmond-brandevoort"
+          }
+        ],
         "P131": [
           {
             "value": "Q9844"
@@ -30309,11 +30314,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/hmbv/helmond-brandevoort"
           }
         ]
       }
@@ -31006,16 +31006,6 @@
             "value": "Q2677839"
           }
         ],
-        "P131": [
-          {
-            "value": "Q9781"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P276": [
           {
             "value": "Q73570"
@@ -31024,6 +31014,16 @@
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/gln/geleen-oost"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q9781"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -31726,14 +31726,14 @@
             "value": "Q55488"
           }
         ],
-        "P276": [
-          {
-            "value": "Q81220"
-          }
-        ],
         "P856": [
           {
             "value": "http://www.ns.nl/reizigers/reisinformatie/stationsvoorzieningen/stations/f-h/goes"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q81220"
           }
         ]
       }
@@ -31764,10 +31764,6 @@
             "lang": "ru"
           },
           {
-            "lang": "fr",
-            "value": "Goor"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Goor"
           },
@@ -31782,6 +31778,10 @@
           {
             "lang": "nl",
             "value": "station Goor"
+          },
+          {
+            "lang": "fr",
+            "value": "Goor"
           }
         ],
         "P722": [
@@ -32204,14 +32204,14 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
-          {
-            "value": "Q244327"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/gr/gorinchem"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q244327"
           }
         ]
       }
@@ -33574,6 +33574,10 @@
           },
           {
             "lang": "nl",
+            "value": "Noorderstation"
+          },
+          {
+            "lang": "nl",
             "value": "station Groningen Noord"
           },
           {
@@ -33583,10 +33587,6 @@
           {
             "lang": "zh",
             "value": "格罗宁根北站"
-          },
-          {
-            "lang": "nl",
-            "value": "Noorderstation"
           }
         ],
         "P722": [
@@ -33988,14 +33988,14 @@
             "value": "Q840641"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/gw/grou-jirnsum"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/gw/grou-jirnsum"
           }
         ]
       }
@@ -35031,31 +35031,7 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Den Haag Hollands Spoor"
-          },
-          {
-            "lang": "de",
-            "value": "Den Haag Hollands Spoor"
-          },
-          {
-            "lang": "de",
-            "value": "Den Haag HS"
-          },
-          {
-            "lang": "de",
             "value": "Bahnhof Den Haag HS"
-          },
-          {
-            "lang": "en",
-            "value": "Den Haag Hollands Spoor railway station"
-          },
-          {
-            "lang": "en",
-            "value": "The Hague Hollands Spoor"
-          },
-          {
-            "lang": "en",
-            "value": "The Hague HS"
           },
           {
             "lang": "en",
@@ -35063,19 +35039,7 @@
           },
           {
             "lang": "en-gb",
-            "value": "Den Haag HS"
-          },
-          {
-            "lang": "en-gb",
             "value": "Den Haag Hollands Spoor"
-          },
-          {
-            "lang": "fr",
-            "value": "Den Haag Hollands Spoor"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare de Den Haag Hollands Spoor"
           },
           {
             "lang": "fr",
@@ -35114,16 +35078,40 @@
             "value": "海牙荷蘭車站"
           },
           {
-            "lang": "zh-cn",
-            "value": "海牙荷兰车站"
+            "lang": "de",
+            "value": "Bahnhof Den Haag Hollands Spoor"
           },
           {
-            "lang": "zh-hans",
-            "value": "海牙荷兰车站"
+            "lang": "de",
+            "value": "Den Haag Hollands Spoor"
           },
           {
-            "lang": "eo",
+            "lang": "de",
             "value": "Den Haag HS"
+          },
+          {
+            "lang": "en",
+            "value": "Den Haag Hollands Spoor railway station"
+          },
+          {
+            "lang": "en",
+            "value": "The Hague Hollands Spoor"
+          },
+          {
+            "lang": "en",
+            "value": "The Hague HS"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Den Haag HS"
+          },
+          {
+            "lang": "fr",
+            "value": "Den Haag Hollands Spoor"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare de Den Haag Hollands Spoor"
           },
           {
             "lang": "fr",
@@ -35172,6 +35160,18 @@
           {
             "lang": "zh",
             "value": "海牙荷兰车站"
+          },
+          {
+            "lang": "zh-cn",
+            "value": "海牙荷兰车站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "海牙荷兰车站"
+          },
+          {
+            "lang": "eo",
+            "value": "Den Haag HS"
           }
         ],
         "P722": [
@@ -35921,14 +35921,14 @@
             "value": "Q800863"
           }
         ],
-        "P131": [
-          {
-            "value": "Q9920"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q9920"
           }
         ],
         "P281": [
@@ -38169,11 +38169,6 @@
             "value": "Q2326678"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P276": [
           {
             "value": "Q1061677"
@@ -38187,6 +38182,11 @@
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/hry/heerenveen-ijsstadion"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -38921,6 +38921,11 @@
             "value": "Q55488"
           }
         ],
+        "P856": [
+          {
+            "value": "http://ns.nl/cs/Satellite?pagename=NS2007/Generic/GetStation&station=Heerenveen"
+          }
+        ],
         "P276": [
           {
             "value": "Q1061677"
@@ -38929,11 +38934,6 @@
         "P131": [
           {
             "value": "Q574558"
-          }
-        ],
-        "P856": [
-          {
-            "value": "http://ns.nl/cs/Satellite?pagename=NS2007/Generic/GetStation&station=Heerenveen"
           }
         ]
       }
@@ -40846,6 +40846,11 @@
             "value": "Q2581822"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/hm/helmond"
+          }
+        ],
         "P131": [
           {
             "value": "Q9844"
@@ -40854,11 +40859,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/hm/helmond"
           }
         ]
       }
@@ -41371,14 +41371,14 @@
             "value": "Q55488"
           }
         ],
-        "P856": [
-          {
-            "value": "http://www.ns.nl/stationsinformatie/hengelo.html"
-          }
-        ],
         "P238": [
           {
             "value": "QYH"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://www.ns.nl/stationsinformatie/hengelo.html"
           }
         ]
       }
@@ -41409,10 +41409,6 @@
             "lang": "ru"
           },
           {
-            "lang": "fr",
-            "value": "Heemskerk"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Heemskerk"
           },
@@ -41427,6 +41423,10 @@
           {
             "lang": "nl",
             "value": "station Heemskerk"
+          },
+          {
+            "lang": "fr",
+            "value": "Heemskerk"
           }
         ],
         "P722": [
@@ -44549,6 +44549,14 @@
             "value": "Q9924"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q494829"
+          }
+        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/hfd/hoofddorp"
@@ -44557,14 +44565,6 @@
         "P276": [
           {
             "value": "Q995911"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q494829"
-          },
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -44993,11 +44993,6 @@
             "value": "Q1914597"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/htnc/houten-castellum"
@@ -45006,6 +45001,11 @@
         "P131": [
           {
             "value": "Q10044"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -45215,6 +45215,11 @@
             "value": "Q2375196"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/hnk/hoorn-kersenboogerd"
+          }
+        ],
         "P131": [
           {
             "value": "Q9938"
@@ -45223,11 +45228,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/hnk/hoorn-kersenboogerd"
           }
         ]
       }
@@ -45877,16 +45877,6 @@
             "value": "Q2803291"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Stationsstraat 151"
-          }
-        ],
         "P276": [
           {
             "value": "Q1976164"
@@ -45907,9 +45897,19 @@
             "value": "Q9797"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P281": [
           {
             "value": "5963AA"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Stationsstraat 151"
           }
         ]
       }
@@ -46600,16 +46600,6 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
-          {
-            "value": "Q23814173"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Stationsplein 1"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/kpn/kampen"
@@ -46618,6 +46608,16 @@
         "P669": [
           {
             "value": "Q19546873"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q23814173"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Stationsplein 1"
           }
         ]
       }
@@ -47062,6 +47062,11 @@
             "value": "Q2462184"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/krd/kerkrade-centrum"
+          }
+        ],
         "P131": [
           {
             "value": "Q9796"
@@ -47070,11 +47075,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/krd/kerkrade-centrum"
           }
         ]
       }
@@ -48664,11 +48664,6 @@
             "value": "Q2126637"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/kmw/koudum-molkwerum"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
@@ -48685,6 +48680,11 @@
         "P131": [
           {
             "value": "Q1473276"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/kmw/koudum-molkwerum"
           }
         ]
       }
@@ -48908,14 +48908,14 @@
             "value": "Q55488"
           }
         ],
-        "P856": [
-          {
-            "value": "http://www.ns.nl/stationsinformatie/krabbendijke.html"
-          }
-        ],
         "P276": [
           {
             "value": "Q1669150"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://www.ns.nl/stationsinformatie/krabbendijke.html"
           }
         ]
       }
@@ -51761,14 +51761,14 @@
             "value": "Q17948"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/lwc/leeuwarden-camminghaburen"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P276": [
@@ -52317,14 +52317,14 @@
             "value": "Q801084"
           }
         ],
-        "P2044": [
-          {
-            "value": "-3"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "-3"
           }
         ],
         "P131": [
@@ -53893,6 +53893,11 @@
             "value": "Q2152781"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/emnz/emmen-zuid"
+          }
+        ],
         "P131": [
           {
             "value": "Q14641"
@@ -53901,11 +53906,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/emnz/emmen-zuid"
           }
         ]
       }
@@ -54343,6 +54343,11 @@
             "value": "Q932008"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/mas/maarssen"
+          }
+        ],
         "P131": [
           {
             "value": "Q10042"
@@ -54351,11 +54356,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/mas/maarssen"
           }
         ]
       }
@@ -54639,6 +54639,11 @@
             "value": "Q55488"
           }
         ],
+        "P6375": [
+          {
+            "value": "Stationsplein 25"
+          }
+        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/mt/maastricht"
@@ -54652,11 +54657,6 @@
         "P669": [
           {
             "value": "Q19546881"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Stationsplein 25"
           }
         ]
       }
@@ -55347,14 +55347,14 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
-          {
-            "value": "Q3916626"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/mrb/marienberg"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q3916626"
           }
         ]
       }
@@ -55787,6 +55787,11 @@
             "value": "Q2599924"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P276": [
           {
             "value": "Q1025087"
@@ -55800,11 +55805,6 @@
         "P131": [
           {
             "value": "Q9823"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -56224,6 +56224,11 @@
             "value": "Q3539623"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P276": [
           {
             "value": "Q2452442"
@@ -56234,19 +56239,14 @@
             "value": "Q19546882"
           }
         ],
-        "P131": [
-          {
-            "value": "Q9772"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/mes/meerssen"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q9772"
           }
         ],
         "P6375": [
@@ -56828,14 +56828,14 @@
             "value": "4337PA"
           }
         ],
-        "P669": [
-          {
-            "value": "Q19288688"
-          }
-        ],
         "P6375": [
           {
             "value": "Kanaalweg 22"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q19288688"
           }
         ]
       }
@@ -57045,14 +57045,14 @@
             "value": "Q2173319"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/hbzm/hardinxveld-blauwe-zoom"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P131": [
@@ -57493,11 +57493,6 @@
             "value": "Q2024081"
           }
         ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/mtn/maastricht-noord"
-          }
-        ],
         "P131": [
           {
             "value": "Q1309"
@@ -57506,6 +57501,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/mtn/maastricht-noord"
           }
         ]
       }
@@ -58403,6 +58403,11 @@
             "value": "Q2409225"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/na/nieuw-amsterdam"
+          }
+        ],
         "P131": [
           {
             "value": "Q14641"
@@ -58411,11 +58416,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/na/nieuw-amsterdam"
           }
         ]
       }
@@ -58923,14 +58923,14 @@
             "value": "Q1347872"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/nsch/bad-nieuweschans"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -62586,6 +62586,11 @@
             "value": "Q2302483"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/hvl/hoevelaken"
+          }
+        ],
         "P131": [
           {
             "value": "Q992"
@@ -62594,11 +62599,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/hvl/hoevelaken"
           }
         ]
       }
@@ -63759,16 +63759,6 @@
             "value": "Q1339195"
           }
         ],
-        "P276": [
-          {
-            "value": "Q2701706"
-          }
-        ],
-        "P669": [
-          {
-            "value": "Q19547053"
-          }
-        ],
         "P6375": [
           {
             "value": "Stationsstraat 9"
@@ -63777,6 +63767,16 @@
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/odb/oudenbosch"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q2701706"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q19547053"
           }
         ]
       }
@@ -67179,6 +67179,11 @@
             "value": "Q9783"
           }
         ],
+        "P2044": [
+          {
+            "value": "28"
+          }
+        ],
         "P31": [
           {
             "value": "Q55488"
@@ -67192,11 +67197,6 @@
         "P131": [
           {
             "value": "Q8167972"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "28"
           }
         ]
       }
@@ -67941,6 +67941,11 @@
             "value": "5"
           }
         ],
+        "P6375": [
+          {
+            "value": "Stationsplein 1"
+          }
+        ],
         "P131": [
           {
             "value": "Q9861"
@@ -67964,11 +67969,6 @@
         "P669": [
           {
             "value": "Q19546898"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Stationsplein 1"
           }
         ]
       }
@@ -68587,6 +68587,11 @@
             "value": "Q494829"
           }
         ],
+        "P131": [
+          {
+            "value": "Q2680952"
+          }
+        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/rtd/rotterdam-centraal"
@@ -68598,11 +68603,6 @@
         "P669": [
           {
             "value": "Q2394032"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q2680952"
           }
         ],
         "P276": [
@@ -68944,6 +68944,10 @@
             "lang": "zh"
           },
           {
+            "lang": "eo",
+            "value": "Rotterdam Zuid"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Rotterdam Zuid"
           },
@@ -68966,10 +68970,6 @@
           {
             "lang": "zh",
             "value": "鹿特丹南站"
-          },
-          {
-            "lang": "eo",
-            "value": "Rotterdam Zuid"
           },
           {
             "lang": "pl",
@@ -70034,6 +70034,11 @@
             "value": "Q7370662"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P276": [
           {
             "value": "Q2240740"
@@ -70047,11 +70052,6 @@
         "P669": [
           {
             "value": "Q18932219"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ],
         "P856": [
@@ -70730,6 +70730,11 @@
             "value": "Q2409365"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P131": [
           {
             "value": "Q1025079"
@@ -70738,11 +70743,6 @@
         "P276": [
           {
             "value": "Q2361678"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -72237,23 +72237,7 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Schiphol"
-          },
-          {
-            "lang": "de",
             "value": "Bahnhof Schiphol Airport"
-          },
-          {
-            "lang": "en",
-            "value": "Schiphol railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Station Schiphol"
-          },
-          {
-            "lang": "en",
-            "value": "Station Schiphol Airport"
           },
           {
             "lang": "en",
@@ -72277,11 +72261,27 @@
           },
           {
             "lang": "nl",
-            "value": "station Schiphol"
+            "value": "Station Schiphol Airport"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Schiphol"
+          },
+          {
+            "lang": "en",
+            "value": "Schiphol railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Station Schiphol"
+          },
+          {
+            "lang": "en",
+            "value": "Station Schiphol Airport"
           },
           {
             "lang": "nl",
-            "value": "Station Schiphol Airport"
+            "value": "station Schiphol"
           },
           {
             "lang": "pl",
@@ -73081,10 +73081,6 @@
           },
           {
             "lang": "en",
-            "value": "Station sneek"
-          },
-          {
-            "lang": "en",
             "value": "Sneek railway station"
           },
           {
@@ -73098,6 +73094,10 @@
           {
             "lang": "hu",
             "value": "Sneek vasútállomás"
+          },
+          {
+            "lang": "en",
+            "value": "Station sneek"
           },
           {
             "lang": "nl",
@@ -74227,16 +74227,16 @@
             "value": "Spaubeek railway station"
           },
           {
-            "lang": "fr",
-            "value": "Spaubeek"
-          },
-          {
             "lang": "hu",
             "value": "Spaubeek vasútállomás"
           },
           {
             "lang": "nl",
             "value": "station Spaubeek"
+          },
+          {
+            "lang": "fr",
+            "value": "Spaubeek"
           }
         ],
         "P722": [
@@ -75742,14 +75742,14 @@
             "value": "Q55488"
           }
         ],
-        "P131": [
-          {
-            "value": "Q8167972"
-          }
-        ],
         "P276": [
           {
             "value": "Q1556536"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q8167972"
           }
         ]
       }
@@ -75955,11 +75955,6 @@
             "value": "Q3512428"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P276": [
           {
             "value": "Q1019522"
@@ -75968,6 +75963,11 @@
         "P131": [
           {
             "value": "Q9777"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -76215,20 +76215,12 @@
             "value": "Tilburg University"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Tilburg West"
-          },
-          {
             "lang": "da",
             "value": "Tilburg Universiteit station"
           },
           {
             "lang": "de",
             "value": "Bahnhof Tilburg Universiteit"
-          },
-          {
-            "lang": "en",
-            "value": "Tilburg West railway station"
           },
           {
             "lang": "en",
@@ -76240,15 +76232,7 @@
           },
           {
             "lang": "it",
-            "value": "Stazione di Tilburg Universiteit"
-          },
-          {
-            "lang": "it",
             "value": "stazione di Tilburg Università"
-          },
-          {
-            "lang": "nl",
-            "value": "station Tilburg West"
           },
           {
             "lang": "nl",
@@ -76261,6 +76245,22 @@
           {
             "lang": "zh",
             "value": "蒂爾堡大學車站"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Tilburg West"
+          },
+          {
+            "lang": "en",
+            "value": "Tilburg West railway station"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Tilburg Universiteit"
+          },
+          {
+            "lang": "nl",
+            "value": "station Tilburg West"
           }
         ],
         "P722": [
@@ -80576,11 +80576,6 @@
             "value": "Q2632448"
           }
         ],
-        "P669": [
-          {
-            "value": "Q19266362"
-          }
-        ],
         "P131": [
           {
             "value": "Q803"
@@ -80592,6 +80587,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q19266362"
           }
         ],
         "P281": [
@@ -82699,14 +82699,14 @@
             "value": "VSN"
           }
         ],
-        "P276": [
-          {
-            "value": "Q3322237"
-          }
-        ],
         "P856": [
           {
             "value": "http://www.ns.nl/reizigers/reisinformatie/stationsvoorzieningen/stations/t-z/venlo"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3322237"
           }
         ]
       }
@@ -83635,6 +83635,11 @@
             "value": "Q508613"
           }
         ],
+        "P6375": [
+          {
+            "value": "Stationsplein 1"
+          }
+        ],
         "P131": [
           {
             "value": "Q10084"
@@ -83651,19 +83656,14 @@
             "value": "Q1339195"
           }
         ],
-        "P669": [
-          {
-            "value": "Q19546917"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Stationsplein 1"
-          }
-        ],
         "P856": [
           {
             "value": "http://www.ns.nl/stationsinformatie/vlissingen.html"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q19546917"
           }
         ]
       }
@@ -83877,14 +83877,14 @@
             "value": "Q801569"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P131": [
           {
             "value": "Q10084"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P856": [
@@ -86437,14 +86437,14 @@
             "value": "Q2797593"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P421": [
           {
             "value": "Q25989"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -88732,9 +88732,19 @@
             "value": "Q173829"
           }
         ],
+        "P2044": [
+          {
+            "value": "38.7"
+          }
+        ],
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://www.ns.nl/stationsinformatie/winterswijk.html"
           }
         ],
         "P131": [
@@ -88745,16 +88755,6 @@
         "P276": [
           {
             "value": "Q15910469"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "38.7"
-          }
-        ],
-        "P856": [
-          {
-            "value": "http://www.ns.nl/stationsinformatie/winterswijk.html"
           }
         ]
       }
@@ -89420,11 +89420,6 @@
             "value": "Q32848"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P131": [
           {
             "value": "Q691725"
@@ -89433,6 +89428,11 @@
         "P276": [
           {
             "value": "Q3027084"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -89492,6 +89492,14 @@
           },
           {
             "lang": "nl",
+            "value": "rijksmonumentnummer 508659"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Wolvega"
+          },
+          {
+            "lang": "nl",
             "value": "station Wolvega"
           },
           {
@@ -89501,14 +89509,6 @@
           {
             "lang": "fy",
             "value": "Stasjon Wolvegea"
-          },
-          {
-            "lang": "nl",
-            "value": "rijksmonumentnummer 508659"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Wolvega"
           }
         ],
         "P722": [
@@ -90140,6 +90140,11 @@
             "value": "Q2656844"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P276": [
           {
             "value": "Q1164598"
@@ -90148,11 +90153,6 @@
         "P131": [
           {
             "value": "Q9978"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -90367,6 +90367,11 @@
             "value": "Q55488"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.ns.nl/stationsinformatie/wc/wijchen"
+          }
+        ],
         "P131": [
           {
             "value": "Q72981"
@@ -90375,11 +90380,6 @@
         "P276": [
           {
             "value": "Q15981302"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.ns.nl/stationsinformatie/wc/wijchen"
           }
         ]
       }
@@ -90605,6 +90605,11 @@
             "value": "Q2520883"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P276": [
           {
             "value": "Q3164650"
@@ -90613,11 +90618,6 @@
         "P131": [
           {
             "value": "Q10017"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ]
       }
@@ -92492,6 +92492,11 @@
             "value": "Q55488"
           }
         ],
+        "P276": [
+          {
+            "value": "Q76960"
+          }
+        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/zvb/zevenbergen"
@@ -92500,11 +92505,6 @@
         "P6375": [
           {
             "value": "Stationslaan 1"
-          }
-        ],
-        "P276": [
-          {
-            "value": "Q76960"
           }
         ],
         "P669": [
@@ -93953,14 +93953,14 @@
             "value": "Q1907265"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P856": [
           {
             "value": "https://www.ns.nl/stationsinformatie/dwe/de-westereen"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ]
       }
@@ -94135,10 +94135,6 @@
           {
             "value": "兹沃勒",
             "lang": "zh"
-          },
-          {
-            "lang": "nl",
-            "value": "Station"
           },
           {
             "lang": "arz",
