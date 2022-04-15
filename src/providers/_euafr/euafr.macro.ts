@@ -49,7 +49,7 @@ export const singleProperty = test.macro({
     t.assert(codeMatch?.total > 0);
     t.assert(
       large
-        ? codeMatch?.total > LARGE_DATA_SIZE
+        ? codeMatch?.total >= LARGE_DATA_SIZE
         : codeMatch?.total < LARGE_DATA_SIZE
     );
     closeTo(t, codeMatch?.matches / codeMatch?.total, expected);
