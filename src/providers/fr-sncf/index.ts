@@ -3,9 +3,10 @@ import { findCountryByUIC } from "../../transform/country";
 import { Language } from "../../transform/language";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { merge as mergeMultipleEntities } from "../../actions/merge";
+import { merge } from "../../actions/merge";
 import { logger } from "../../utils/logger";
 import { SncfRawLocation } from "./sncf.types";
+import { RELIABILITY_UIC_SNCF } from "./sncf.constants";
 
 /**
  * Looks like complete list of (mostly) france stations,
@@ -45,7 +46,10 @@ export const getLocations = async () => {
         return {
           type: "Feature",
           id: code,
-          geometry: { type: "Point", coordinates: [wgs_84[1], wgs_84[0]] },
+          geometry:
+            wgs_84?.[1] && wgs_84?.[0]
+              ? { type: "Point", coordinates: [wgs_84[1], wgs_84[0]] }
+              : { type: "MultiPoint", coordinates: [] },
           properties: {
             labels: [
               ...new Set([
@@ -56,7 +60,9 @@ export const getLocations = async () => {
               .filter(Boolean)
               .map((value) => ({ value, lang: Language.French[1] })),
             ...{
-              [CodeIssuer.UIC]: [{ value: uic }],
+              [CodeIssuer.UIC]: [
+                { value: uic, info: { reliability: RELIABILITY_UIC_SNCF } },
+              ],
               [Property.Country]: [
                 {
                   value: findCountryByUIC(parseInt(uic[0] + uic[1]))?.wikidata,
@@ -75,8 +81,8 @@ export const getLocations = async () => {
             //       ],
             //     }
             //   : {}),
+            info: fields,
           },
-          info: fields,
         };
       }
     );
@@ -89,9 +95,9 @@ export const getLocations = async () => {
           acc[location.properties.info?.code_gare].push(location);
         } else {
           logger.error(
+            location,
             `Location is missing code_gare property
-            ${location.properties.labels?.[0].value}
-            ${location.properties[CodeIssuer.UIC]}`
+            ${location.properties.labels?.[0].value} - ${location.properties.info?.code_gare}`
           );
         }
 
@@ -99,7 +105,11 @@ export const getLocations = async () => {
       },
       {}
     )
-  )
-  const merged = await Promise.all(grouped.map(i => mergeMultipleEntities(i)));
-  return merged.sort((a, b) => a.id!.toString().localeCompare(b.id!.toString()));
+  );
+  const merged = await Promise.all(
+    grouped.map((i) => merge(i))
+  );
+  return merged.sort((a, b) =>
+    a.id!.toString().localeCompare(b.id!.toString())
+  );
 };
