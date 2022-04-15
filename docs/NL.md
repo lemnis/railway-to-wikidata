@@ -18,8 +18,6 @@ title: "Netherlands"
       <th>SNCF</th>
       <th>IATA</th>
       <th>Trainline</th>
-      <th>Number of Facs</th>
-      <th>Number of Tracks</th>
       <th>Wikidata</th>
     </tr>
   </thead>
@@ -67,16 +65,11 @@ title: "Netherlands"
           <br />
           {% endfor %}
         </td>
-        <td>{% for label in feature.properties.P5595 %}{{ label.value }}<br />{% endfor %}</td>
-        <td>{% for label in feature.properties.P1103 %}{{ label.value }}<br />{% endfor %}</td>
         <td>
           {% for label in feature.properties.PWIKI %}
           <a
             href="https://www.wikidata.org/wiki/{{ label.value }}"
             target="_blank"
-            {% for other in stations.features %}  {% for prop in other.properties.PWIKI %}
-              {% if prop.value == label.value and other.id != feature.id %}style="background: firebrick;"{% endif %}
-            {% endfor %} {% endfor %}
           >
             {{ label.value }}
           </a>
