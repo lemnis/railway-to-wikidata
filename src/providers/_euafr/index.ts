@@ -31,6 +31,7 @@ const mapping: Record<
   string,
   {
     getCode?: (id: string, name: string) => string;
+    filter?: (id: string, name: string) => boolean;
     getName?: (name: string) => string;
     property?: CodeIssuer | Property | undefined;
     country?: CountryInfo;
@@ -72,6 +73,8 @@ const mapping: Record<
   "The Netherlands": {
     property: Property.StationCode,
     language: Language.Dutch,
+    filter: (id, name) =>
+      !["aansl", "overloopwissels"].some((n) => name.includes(n)),
   },
   "United Kingdom": {
     country: Country.UnitedKingdom,
@@ -171,9 +174,15 @@ export const getLocations = async () => {
     ].includes(point.Type)
   );
 
-  return stations.map<Location>(
-    ({ Name, Country, Longitude, Latitude, UOPID }) => {
+  return stations
+    .filter(({ Name, Country, UOPID }) => {
       const type = mapping[Country as keyof typeof mapping];
+      return type?.filter ? type?.filter(UOPID, Name) : true;
+    })
+    .map<Location>(({ Name, Country, Longitude, Latitude, UOPID }) => {
+      const type = mapping[Country as keyof typeof mapping];
+      const k = type?.filter?.(UOPID, Name);
+      if (type?.filter) console.log(Name, UOPID, k);
       const isNumericCode = UOPID.match(endsWith5Numbers);
       const stationCode =
         type?.getCode?.(UOPID, Name) ||
@@ -203,7 +212,8 @@ export const getLocations = async () => {
                       ? country?.UIC?.[0] + stationCode
                       : stationCode,
                     info: {
-                      reliability: country && getReliabilityScore(country)[type.property]
+                      reliability:
+                        country && getReliabilityScore(country)[type.property],
                     },
                   },
                 ],
@@ -212,6 +222,5 @@ export const getLocations = async () => {
           [Property.Country]: [{ value: country?.wikidata }],
         },
       };
-    }
-  );
+    });
 };
