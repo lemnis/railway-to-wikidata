@@ -1,316 +1,88 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "id": "node/276675368",
-      "properties": {
-        "labels": [
-          {
-            "value": "Златица",
-            "lang": "sr"
-          },
-          {
-            "value": "Zlatica"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
-        ]
-      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
-          19.2954508,
-          42.469043
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/301885814",
-      "properties": {
-        "labels": [
-          {
-            "value": "Подгорица",
-            "lang": "sr"
-          },
-          {
-            "value": "Podgorica",
-            "lang": "sr-Latn"
-          },
-          {
-            "value": "Podgorica"
-          }
+          19.7460738,
+          43.0374418
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
+        "type": "Point"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.2693884,
-          42.4319673
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/312404997",
-      "properties": {
-        "labels": [
-          {
-            "value": "Žari"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.617934,
-          42.9850094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/418346188",
-      "properties": {
-        "labels": [
-          {
-            "value": "Биоче",
-            "lang": "sr"
-          },
-          {
-            "value": "Bioče"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.3673778,
-          42.5278896
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/418346303",
-      "properties": {
-        "labels": [
-          {
-            "value": "Bratonožići"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.3489185,
-          42.5563451
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/418346401",
-      "properties": {
-        "labels": [
-          {
-            "value": "Lutovo"
-          }
-        ],
-        "operator": "ŽPCG",
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.3857293,
-          42.6280316
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/420105032",
-      "properties": {
-        "labels": [
-          {
-            "value": "Mojkovac"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5861715,
-          42.9528752
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/420428656",
-      "properties": {
-        "labels": [
-          {
-            "value": "Štitarička Rijeka"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5723426,
-          42.9289382
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/420429664",
-      "properties": {
-        "labels": [
-          {
-            "value": "Oblutak"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5360231,
-          42.8637059
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1395906256",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "labels": [
           {
             "value": "Lješnica"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.7460738,
-          43.0374418
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.735019,
+          43.0023687
+        ],
+        "type": "Point"
+      },
       "id": "node/1768837946",
       "properties": {
-        "labels": [
-          {
-            "value": "Kruševo"
-          }
-        ],
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.735019,
-          43.0023687
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1793533341",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Врањина",
-            "lang": "sr"
-          },
-          {
-            "value": "Vranjina"
+            "value": "Kruševo"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.1292583,
+          42.2784658
         ],
+        "type": "Point"
+      },
+      "id": "node/1793533341",
+      "properties": {
         "P31": [
           {
             "value": "Q55678"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.1292583,
-          42.2784658
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1846487777",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Шушањ",
-            "lang": "sr"
+            "lang": "sr",
+            "value": "Врањина"
           },
           {
-            "value": "Šušanj"
+            "value": "Vranjina"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.1000162,
+          42.1104273
         ],
+        "type": "Point"
+      },
+      "id": "node/1846487777",
+      "properties": {
         "P31": [
           {
             "value": "Q55678"
@@ -320,116 +92,130 @@
           {
             "value": "Q3971403"
           }
+        ],
+        "labels": [
+          {
+            "lang": "sr",
+            "value": "Шушањ"
+          },
+          {
+            "value": "Šušanj"
+          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.1000162,
-          42.1104273
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.0751358,
+          42.2108706
+        ],
+        "type": "Point"
+      },
       "id": "node/1846488218",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "labels": [
           {
             "value": "Crmnica"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.1586691,
+          42.2956575
         ],
+        "type": "Point"
+      },
+      "id": "node/1846488577",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0751358,
-          42.2108706
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1846488577",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Zeta"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.2182993,
+          42.3436175
         ],
+        "type": "Point"
+      },
+      "id": "node/1846489402",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.1586691,
-          42.2956575
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1846489402",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Голубовићи",
-            "lang": "sr"
+            "lang": "sr",
+            "value": "Голубовићи"
           },
           {
             "value": "Golubovci"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.2182993,
-          42.3436175
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.2067082,
+          42.3155645
+        ],
+        "type": "Point"
+      },
       "id": "node/1846494328",
       "properties": {
-        "labels": [
-          {
-            "value": "Morača"
-          }
-        ],
         "P31": [
           {
             "value": "Q55678"
           }
+        ],
+        "labels": [
+          {
+            "value": "Morača"
+          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.2067082,
-          42.3155645
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.4756343,
+          42.6859347
+        ],
+        "type": "Point"
+      },
       "id": "node/1846513097",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "labels": [
           {
             "value": "Trebešica"
@@ -438,538 +224,747 @@
             "value": "Trebješica"
           }
         ],
-        "operator": "ŽICG",
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ]
+        "operator": "ŽICG"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.4756343,
-          42.6859347
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.4141793,
+          42.6637172
+        ],
+        "type": "Point"
+      },
       "id": "node/1846516823",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "labels": [
           {
             "value": "Kruševački Potok"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.4141793,
-          42.6637172
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.4962108,
+          42.7422532
+        ],
+        "type": "Point"
+      },
       "id": "node/1846517445",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "labels": [
           {
             "value": "Kos"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.4962108,
-          42.7422532
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.484464,
+          42.7261703
+        ],
+        "type": "Point"
+      },
       "id": "node/1846518344",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "labels": [
           {
             "value": "Selište"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.484464,
-          42.7261703
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.6524603,
+          42.984421
+        ],
+        "type": "Point"
+      },
       "id": "node/1846524147",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "labels": [
           {
             "value": "Mijatovo Kolo"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.6524603,
-          42.984421
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.7101545,
+          42.9870117
+        ],
+        "type": "Point"
+      },
       "id": "node/1846527787",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "labels": [
           {
             "value": "Ravna Rijeka"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.7101545,
-          42.9870117
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.0306505,
+          42.6539263
+        ],
+        "type": "Point"
+      },
       "id": "node/1846530089",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "description": "Altitude 363 m",
         "labels": [
           {
             "value": "Ostrog"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.2011835,
+          42.5133054
         ],
-        "description": "Altitude 363 m",
+        "type": "Point"
+      },
+      "id": "node/1947214421",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0306505,
-          42.6539263
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1947214421",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Spuž"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.1136307,
+          42.5591576
         ],
+        "type": "Point"
+      },
+      "id": "node/1947214538",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.2011835,
-          42.5133054
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1947214538",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Danilovgradas",
-            "lang": "lt"
+            "lang": "lt",
+            "value": "Danilovgradas"
           },
           {
-            "value": "Даниловград",
-            "lang": "sr"
+            "lang": "sr",
+            "value": "Даниловград"
           },
           {
             "value": "Danilovgrad"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.2232553,
+          42.5039966
         ],
+        "type": "Point"
+      },
+      "id": "node/2043767191",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.1136307,
-          42.5591576
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2043767191",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Pričelje"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.1582872,
+          42.550492
         ],
+        "type": "Point"
+      },
+      "id": "node/2043767874",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.2232553,
-          42.5039966
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2043767874",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Ljutotuk"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.0888658,
+          42.6043835
         ],
+        "type": "Point"
+      },
+      "id": "node/2043768820",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.1582872,
-          42.550492
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2043768820",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Slap"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.0758084,
+          42.6244674
         ],
+        "type": "Point"
+      },
+      "id": "node/2043769759",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0888658,
-          42.6043835
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2043769759",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Šumanovića Bare"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.0615491,
+          42.6326134
         ],
+        "type": "Point"
+      },
+      "id": "node/2043771030",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0758084,
-          42.6244674
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2043771030",
-      "properties": {
+        ],
+        "description": "Altitude=295 m",
         "labels": [
           {
             "value": "Šobajići"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.0169594,
+          42.6758982
         ],
-        "description": "Altitude=295 m",
+        "type": "Point"
+      },
+      "id": "node/2043771859",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0615491,
-          42.6326134
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2043771859",
-      "properties": {
+        ],
+        "description": "Altitude 430 m",
         "labels": [
           {
-            "value": "Dabovichi",
-            "lang": "en"
+            "lang": "en",
+            "value": "Dabovichi"
           },
           {
-            "value": "Дабовичи",
-            "lang": "ru"
+            "lang": "ru",
+            "value": "Дабовичи"
           },
           {
             "value": "Dabovići"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.971028,
+          42.7044225
         ],
-        "description": "Altitude 430 m",
+        "type": "Point"
+      },
+      "id": "node/2043774728",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0169594,
-          42.6758982
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2043774728",
-      "properties": {
+        ],
+        "description": "Altitude 535 m",
         "labels": [
           {
             "value": "Stubica"
           }
-        ],
-        "description": "Altitude 535 m",
-        "P31": [
-          {
-            "value": "Q55488"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.971028,
-          42.7044225
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.686007,
+          42.989664
+        ],
+        "type": "Point"
+      },
       "id": "node/2431193290",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "labels": [
           {
             "value": "Slijepač Most"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.2954508,
+          42.469043
         ],
+        "type": "Point"
+      },
+      "id": "node/276675368",
+      "properties": {
         "P31": [
           {
             "value": "Q55678"
           }
+        ],
+        "labels": [
+          {
+            "lang": "sr",
+            "value": "Златица"
+          },
+          {
+            "value": "Zlatica"
+          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.686007,
-          42.989664
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.2693884,
+          42.4319673
+        ],
+        "type": "Point"
+      },
+      "id": "node/301885814",
+      "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sr",
+            "value": "Подгорица"
+          },
+          {
+            "lang": "sr-Latn",
+            "value": "Podgorica"
+          },
+          {
+            "value": "Podgorica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.617934,
+          42.9850094
+        ],
+        "type": "Point"
+      },
+      "id": "node/312404997",
+      "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Žari"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.5421275,
+          42.8883217
+        ],
+        "type": "Point"
+      },
       "id": "node/4172717201",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "labels": [
           {
             "value": "Trebaljevo"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.5374069,
+          42.8196334
         ],
+        "type": "Point"
+      },
+      "id": "node/4172717211",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5421275,
-          42.8883217
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/4172717211",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Kolašin"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5374069,
-          42.8196334
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          19.5484301,
+          42.7935175
+        ],
+        "type": "Point"
+      },
       "id": "node/4172717220",
       "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "labels": [
           {
             "value": "Padež"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.5338654,
+          42.7688691
         ],
+        "type": "Point"
+      },
+      "id": "node/4172717221",
+      "properties": {
         "P31": [
           {
             "value": "Q55678"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5484301,
-          42.7935175
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/4172717221",
-      "properties": {
+        ],
         "labels": [
           {
             "value": "Mateševo"
           }
-        ],
-        "P31": [
-          {
-            "value": "Q55678"
-          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.5338654,
-          42.7688691
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "node/7198645519",
-      "properties": {
-        "labels": [
-          {
-            "value": "Tuzi"
-          }
+      "geometry": {
+        "coordinates": [
+          19.3673778,
+          42.5278896
         ],
+        "type": "Point"
+      },
+      "id": "node/418346188",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
+        ],
+        "labels": [
+          {
+            "lang": "sr",
+            "value": "Биоче"
+          },
+          {
+            "value": "Bioče"
+          }
         ]
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "Point",
+        "coordinates": [
+          19.3489185,
+          42.5563451
+        ],
+        "type": "Point"
+      },
+      "id": "node/418346303",
+      "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Bratonožići"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.3857293,
+          42.6280316
+        ],
+        "type": "Point"
+      },
+      "id": "node/418346401",
+      "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Lutovo"
+          }
+        ],
+        "operator": "ŽPCG"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.5861715,
+          42.9528752
+        ],
+        "type": "Point"
+      },
+      "id": "node/420105032",
+      "properties": {
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Mojkovac"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.5723426,
+          42.9289382
+        ],
+        "type": "Point"
+      },
+      "id": "node/420428656",
+      "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Štitarička Rijeka"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.5360231,
+          42.8637059
+        ],
+        "type": "Point"
+      },
+      "id": "node/420429664",
+      "properties": {
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Oblutak"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [
           19.3379404,
           42.3613236
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/7198645520",
+        ],
+        "type": "Point"
+      },
+      "id": "node/7198645519",
       "properties": {
-        "labels": [
+        "P31": [
           {
-            "value": "Вирпазар",
-            "lang": "sr"
-          },
-          {
-            "value": "Virpazar"
+            "value": "Q55488"
           }
         ],
-        "wikipedia": "sr:Железничка станица Вирпазар",
+        "labels": [
+          {
+            "value": "Tuzi"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.0840459,
+          42.2394916
+        ],
+        "type": "Point"
+      },
+      "id": "node/7198645520",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
@@ -979,30 +974,30 @@
           {
             "value": "Q3971343"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0840459,
-          42.2394916
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/7198645521",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Сутоморе",
-            "lang": "sr"
+            "lang": "sr",
+            "value": "Вирпазар"
           },
           {
-            "value": "Sutomore"
+            "value": "Virpazar"
           }
         ],
-        "wikipedia": "sr:Железничка станица Сутоморе",
+        "wikipedia": "sr:Железничка станица Вирпазар"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.0503466,
+          42.1397083
+        ],
+        "type": "Point"
+      },
+      "id": "node/7198645521",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
@@ -1012,48 +1007,53 @@
           {
             "value": "Q3971060"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0503466,
-          42.1397083
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/7198645522",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Bijelo Polje"
+            "lang": "sr",
+            "value": "Сутоморе"
+          },
+          {
+            "value": "Sutomore"
           }
         ],
+        "wikipedia": "sr:Железничка станица Сутоморе"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.7694297,
+          43.0542555
+        ],
+        "type": "Point"
+      },
+      "id": "node/7198645522",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.7694297,
-          43.0542555
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/7198645523",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Bar"
+            "value": "Bijelo Polje"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.1055901,
+          42.087459
         ],
+        "type": "Point"
+      },
+      "id": "node/7198645523",
+      "properties": {
         "P31": [
           {
             "value": "Q55488"
@@ -1063,42 +1063,42 @@
           {
             "value": "Q4857956"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.1055901,
-          42.087459
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/7198645524",
-      "properties": {
+        ],
         "labels": [
           {
-            "value": "Аеродром",
-            "lang": "sr"
-          },
-          {
-            "value": "Aerodrom"
+            "value": "Bar"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.2345242,
+          42.3653066
         ],
+        "type": "Point"
+      },
+      "id": "node/7198645524",
+      "properties": {
         "P31": [
           {
             "value": "Q55678"
           }
+        ],
+        "labels": [
+          {
+            "lang": "sr",
+            "value": "Аеродром"
+          },
+          {
+            "value": "Aerodrom"
+          }
         ]
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.2345242,
-          42.3653066
-        ]
-      }
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }

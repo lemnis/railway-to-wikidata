@@ -1,113 +1,23 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "id": "node/413757070",
-      "properties": {
-        "labels": [
-          {
-            "value": "Nendeln"
-          }
-        ],
-        "ele": "447",
-        "network": "VVV",
-        "operator": "ÖBB-Infrastruktur AG",
-        "railway:platform_height": "25",
-        "railway:platform_length": "119",
-        "P31": [
-          {
-            "value": "Q55678"
-          }
-        ],
-        "P296": [
-          {
-            "value": "1"
-          }
-        ]
-      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
-          9.5418733,
-          47.200483
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/413828077",
-      "properties": {
-        "labels": [
-          {
-            "value": "Schaan-Vaduz"
-          }
+          9.5417183,
+          47.200335
         ],
-        "ele": "447",
-        "note": "H-Lst",
-        "operator": "ÖBB-Infrastruktur AG",
-        "railway:platform_height": "55",
-        "railway:platform_length": "100",
-        "railway:position": "15.9",
-        "railway:position:exact": "15.875",
-        "P31": [
-          {
-            "value": "Q55678"
-          }
-        ],
-        "P296": [
-          {
-            "value": "Nd K1"
-          },
-          {
-            "value": "1"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8100482"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q801403"
-          }
-        ]
+        "type": "Point"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5081562,
-          47.1685925
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/1353606655",
       "properties": {
-        "labels": [
-          {
-            "value": "Нендельн",
-            "lang": "ru"
-          },
-          {
-            "value": "Nendeln"
-          }
-        ],
-        "ele": "447",
-        "network": "VVV",
-        "operator": "ÖBB-Infrastruktur AG",
-        "railway:position": "11.5",
-        "railway:position:exact": "11.470",
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P296": [
           {
             "value": "Nd"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -119,53 +29,85 @@
           {
             "value": "Q978912"
           }
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5417183,
-          47.200335
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/1353606656",
-      "properties": {
+        ],
+        "ele": "447",
         "labels": [
+          {
+            "lang": "ru",
+            "value": "Нендельн"
+          },
           {
             "value": "Nendeln"
           }
         ],
-        "ele": "447",
         "network": "VVV",
         "operator": "ÖBB-Infrastruktur AG",
-        "railway:platform_height": "25",
-        "railway:platform_length": "70",
+        "railway:position": "11.5",
+        "railway:position:exact": "11.470"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.5419293,
+          47.2004601
+        ],
+        "type": "Point"
+      },
+      "id": "node/1353606656",
+      "properties": {
+        "P296": [
+          {
+            "value": "2"
+          }
+        ],
         "P31": [
           {
             "value": "Q55678"
           }
         ],
-        "P296": [
+        "ele": "447",
+        "labels": [
           {
-            "value": "2"
+            "value": "Nendeln"
           }
-        ]
+        ],
+        "network": "VVV",
+        "operator": "ÖBB-Infrastruktur AG",
+        "railway:platform_height": "25",
+        "railway:platform_length": "70"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5419293,
-          47.2004601
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          9.5210473,
+          47.1812938
+        ],
+        "type": "Point"
+      },
       "id": "node/1887823668",
       "properties": {
+        "P296": [
+          {
+            "value": "Nd H1"
+          },
+          {
+            "value": "1"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q1865867"
+          }
+        ],
         "labels": [
           {
             "value": "Forst Hilti"
@@ -175,33 +117,91 @@
         "railway:platform_height": "38",
         "railway:platform_length": "75",
         "railway:position": "14.1",
-        "railway:position:exact": "14.125",
+        "railway:position:exact": "14.125"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.5418733,
+          47.200483
+        ],
+        "type": "Point"
+      },
+      "id": "node/413757070",
+      "properties": {
+        "P296": [
+          {
+            "value": "1"
+          }
+        ],
         "P31": [
           {
             "value": "Q55678"
           }
         ],
+        "ele": "447",
+        "labels": [
+          {
+            "value": "Nendeln"
+          }
+        ],
+        "network": "VVV",
+        "operator": "ÖBB-Infrastruktur AG",
+        "railway:platform_height": "25",
+        "railway:platform_length": "119"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.5081562,
+          47.1685925
+        ],
+        "type": "Point"
+      },
+      "id": "node/413828077",
+      "properties": {
         "P296": [
           {
-            "value": "Nd H1"
+            "value": "Nd K1"
           },
           {
             "value": "1"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8100482"
+          }
+        ],
         "PWIKI": [
           {
-            "value": "Q1865867"
+            "value": "Q801403"
           }
-        ]
+        ],
+        "ele": "447",
+        "labels": [
+          {
+            "value": "Schaan-Vaduz"
+          }
+        ],
+        "note": "H-Lst",
+        "operator": "ÖBB-Infrastruktur AG",
+        "railway:platform_height": "55",
+        "railway:platform_length": "100",
+        "railway:position": "15.9",
+        "railway:position:exact": "15.875"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5210473,
-          47.1812938
-        ]
-      }
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }
