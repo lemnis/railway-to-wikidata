@@ -1,67 +1,7 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "id": "way/50313290",
-      "properties": {
-        "electrified": "no",
-        "gauge": "1435",
-        "layer": "-1",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "tracks": "1",
-        "tunnel": "yes",
-        "usage": "branch",
-        "id": "way/50313290"
-      },
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            12.4497487,
-            41.9017489
-          ],
-          [
-            12.4497247,
-            41.9017586
-          ],
-          [
-            12.4495487,
-            41.9018404
-          ],
-          [
-            12.4493614,
-            41.9019223
-          ],
-          [
-            12.4491638,
-            41.9020087
-          ],
-          [
-            12.4487411,
-            41.9021971
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/239728499",
-      "properties": {
-        "electrified": "no",
-        "gauge": "1435",
-        "name": "Ferrovia Italia - Città del Vaticano",
-        "name:it": "Ferrovia Italia - Città del Vaticano",
-        "name:la": "Ferriviaria",
-        "passenger_lines": "2",
-        "railway": "rail",
-        "tracks": "1",
-        "usage": "branch",
-        "id": "way/239728499"
-      },
-      "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             12.4512137,
@@ -147,25 +87,70 @@
             12.4497487,
             41.9017489
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/620617518",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/239728499",
       "properties": {
         "electrified": "no",
         "gauge": "1435",
+        "id": "way/239728499",
+        "name": "Ferrovia Italia - Città del Vaticano",
+        "name:it": "Ferrovia Italia - Città del Vaticano",
+        "name:la": "Ferriviaria",
         "passenger_lines": "2",
         "railway": "rail",
-        "source": "Bing",
+        "tracks": "1",
+        "usage": "branch"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            12.4497487,
+            41.9017489
+          ],
+          [
+            12.4497247,
+            41.9017586
+          ],
+          [
+            12.4495487,
+            41.9018404
+          ],
+          [
+            12.4493614,
+            41.9019223
+          ],
+          [
+            12.4491638,
+            41.9020087
+          ],
+          [
+            12.4487411,
+            41.9021971
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/50313290",
+      "properties": {
+        "electrified": "no",
+        "gauge": "1435",
+        "id": "way/50313290",
+        "layer": "-1",
+        "passenger_lines": "1",
+        "railway": "rail",
         "tracks": "1",
         "tunnel": "yes",
-        "usage": "branch",
-        "id": "way/620617518"
+        "usage": "branch"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             12.4497247,
@@ -175,8 +160,23 @@
             12.4497475,
             41.9017478
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/620617518",
+      "properties": {
+        "electrified": "no",
+        "gauge": "1435",
+        "id": "way/620617518",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "source": "Bing",
+        "tracks": "1",
+        "tunnel": "yes",
+        "usage": "branch"
+      },
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }

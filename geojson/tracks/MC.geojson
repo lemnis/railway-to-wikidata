@@ -1,165 +1,7 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "id": "way/4978262",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "50",
-        "gauge": "1435",
-        "importance": "national",
-        "layer": "-1",
-        "maxspeed": "90",
-        "name": "Ligne de Marseille à Vintimille",
-        "name:it": "Ferrovia Marsiglia-Ventimiglia",
-        "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
-        "oneway": "yes",
-        "operator": "SNCF Réseau",
-        "passenger_lines": "2",
-        "railway": "rail",
-        "railway:bidirectional": "regular",
-        "railway:kvb": "yes",
-        "railway:preferred_direction": "forward",
-        "railway:radio": "analogue",
-        "railway:track_ref": "1",
-        "railway:traffic_mode": "mixed",
-        "ref": "930000",
-        "start_date": "1964",
-        "tunnel": "yes",
-        "usage": "main",
-        "voltage": "25000",
-        "id": "way/4978262"
-      },
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.4215385,
-            43.7403639
-          ],
-          [
-            7.4217999,
-            43.7406083
-          ],
-          [
-            7.4220497,
-            43.740849
-          ],
-          [
-            7.4228139,
-            43.7415765
-          ],
-          [
-            7.4259878,
-            43.7450212
-          ],
-          [
-            7.4271042,
-            43.7461353
-          ],
-          [
-            7.4296806,
-            43.7483461
-          ],
-          [
-            7.431905,
-            43.7500695
-          ],
-          [
-            7.4337256,
-            43.7512152
-          ],
-          [
-            7.4347921,
-            43.7517252
-          ],
-          [
-            7.4364449,
-            43.7524634
-          ],
-          [
-            7.4378046,
-            43.7529636
-          ],
-          [
-            7.4392854,
-            43.7533755
-          ],
-          [
-            7.4404103,
-            43.7536325
-          ],
-          [
-            7.4415141,
-            43.7538105
-          ],
-          [
-            7.4427554,
-            43.7539174
-          ],
-          [
-            7.4455825,
-            43.7539659
-          ],
-          [
-            7.4461445,
-            43.7539882
-          ],
-          [
-            7.4468115,
-            43.7540628
-          ],
-          [
-            7.4471225,
-            43.754113
-          ],
-          [
-            7.4473972,
-            43.7541653
-          ],
-          [
-            7.4477085,
-            43.7542447
-          ],
-          [
-            7.4479825,
-            43.7543379
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/156780356",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "50",
-        "gauge": "1435",
-        "importance": "national",
-        "layer": "-1",
-        "maxspeed": "90",
-        "name": "Ligne de Marseille à Vintimille",
-        "name:it": "Ferrovia Marsiglia-Ventimiglia",
-        "oneway": "yes",
-        "operator": "SNCF Réseau",
-        "passenger_lines": "2",
-        "railway": "rail",
-        "railway:bidirectional": "regular",
-        "railway:kvb": "yes",
-        "railway:preferred_direction": "forward",
-        "railway:radio": "analogue",
-        "railway:track_ref": "2",
-        "railway:traffic_mode": "mixed",
-        "ref": "930000",
-        "start_date": "1964",
-        "tunnel": "yes",
-        "usage": "main",
-        "voltage": "25000",
-        "id": "way/156780356"
-      },
-      "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4480098,
@@ -253,16 +95,58 @@
             7.4216028,
             43.7403292
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/156780356",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1435",
+        "id": "way/156780356",
+        "importance": "national",
+        "layer": "-1",
+        "maxspeed": "90",
+        "name": "Ligne de Marseille à Vintimille",
+        "name:it": "Ferrovia Marsiglia-Ventimiglia",
+        "oneway": "yes",
+        "operator": "SNCF Réseau",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:kvb": "yes",
+        "railway:preferred_direction": "forward",
+        "railway:radio": "analogue",
+        "railway:track_ref": "2",
+        "railway:traffic_mode": "mixed",
+        "ref": "930000",
+        "start_date": "1964",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            7.4211461,
+            43.7398899
+          ],
+          [
+            7.4206167,
+            43.7393982
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/182695883",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/182695883",
         "importance": "national",
         "layer": "-2",
         "maxspeed": "60",
@@ -280,53 +164,12 @@
         "start_date": "1999",
         "tunnel": "yes",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/182695883"
+        "voltage": "25000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.4211461,
-            43.7398899
-          ],
-          [
-            7.4206167,
-            43.7393982
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/182695884",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "50",
-        "gauge": "1435",
-        "importance": "national",
-        "layer": "-2",
-        "maxspeed": "60",
-        "name": "Monaco - Monte Carlo",
-        "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
-        "operator": "SNCF Réseau",
-        "passenger_lines": "3",
-        "railway": "rail",
-        "railway:bidirectional": "regular",
-        "railway:kvb": "yes",
-        "railway:preferred_direction": "forward",
-        "railway:radio": "analogue",
-        "railway:track_ref": "B",
-        "railway:traffic_mode": "mixed",
-        "ref": "930000",
-        "start_date": "1999",
-        "tunnel": "yes",
-        "usage": "main",
-        "voltage": "25000",
-        "id": "way/182695884"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4206167,
@@ -364,42 +207,39 @@
             7.4157569,
             43.7359621
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/182695885",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/182695884",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/182695884",
         "importance": "national",
-        "layer": "-3",
-        "maxspeed": "90",
-        "name": "Ligne de Marseille à Vintimille",
-        "name:it": "Ferrovia Marsiglia-Ventimiglia",
+        "layer": "-2",
+        "maxspeed": "60",
+        "name": "Monaco - Monte Carlo",
         "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
-        "oneway": "yes",
         "operator": "SNCF Réseau",
-        "passenger_lines": "2",
+        "passenger_lines": "3",
         "railway": "rail",
         "railway:bidirectional": "regular",
         "railway:kvb": "yes",
         "railway:preferred_direction": "forward",
         "railway:radio": "analogue",
-        "railway:track_ref": "1",
+        "railway:track_ref": "B",
         "railway:traffic_mode": "mixed",
         "ref": "930000",
         "start_date": "1999",
         "tunnel": "yes",
-        "tunnel:name": "Tunnel de Monaco",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/182695885"
+        "voltage": "25000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4016756,
@@ -505,40 +345,42 @@
             7.4150536,
             43.7357179
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/182695886",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/182695885",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/182695885",
         "importance": "national",
-        "layer": "-2",
+        "layer": "-3",
         "maxspeed": "90",
-        "name": "Monaco - Monte Carlo",
+        "name": "Ligne de Marseille à Vintimille",
+        "name:it": "Ferrovia Marsiglia-Ventimiglia",
         "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
         "oneway": "yes",
         "operator": "SNCF Réseau",
-        "passenger_lines": "3",
+        "passenger_lines": "2",
         "railway": "rail",
         "railway:bidirectional": "regular",
         "railway:kvb": "yes",
         "railway:preferred_direction": "forward",
         "railway:radio": "analogue",
-        "railway:track_ref": "A",
+        "railway:track_ref": "1",
         "railway:traffic_mode": "mixed",
         "ref": "930000",
         "start_date": "1999",
         "tunnel": "yes",
+        "tunnel:name": "Tunnel de Monaco",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/182695886"
+        "voltage": "25000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4150536,
@@ -592,41 +434,40 @@
             7.421088,
             43.739922
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/235692674",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/182695886",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/182695886",
         "importance": "national",
-        "layer": "-3",
+        "layer": "-2",
         "maxspeed": "90",
-        "name": "Ligne de Marseille à Vintimille",
-        "name:it": "Ferrovia Marsiglia-Ventimiglia",
+        "name": "Monaco - Monte Carlo",
+        "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
         "oneway": "yes",
         "operator": "SNCF Réseau",
-        "passenger_lines": "2",
+        "passenger_lines": "3",
         "railway": "rail",
         "railway:bidirectional": "regular",
         "railway:kvb": "yes",
         "railway:preferred_direction": "forward",
         "railway:radio": "analogue",
-        "railway:track_ref": "2",
+        "railway:track_ref": "A",
         "railway:traffic_mode": "mixed",
         "ref": "930000",
         "start_date": "1999",
         "tunnel": "yes",
-        "tunnel:name": "Tunnel de Monaco",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/235692674"
+        "voltage": "25000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4150818,
@@ -732,16 +573,59 @@
             7.4016925,
             43.7215374
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/235692674",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1435",
+        "id": "way/235692674",
+        "importance": "national",
+        "layer": "-3",
+        "maxspeed": "90",
+        "name": "Ligne de Marseille à Vintimille",
+        "name:it": "Ferrovia Marsiglia-Ventimiglia",
+        "oneway": "yes",
+        "operator": "SNCF Réseau",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:kvb": "yes",
+        "railway:preferred_direction": "forward",
+        "railway:radio": "analogue",
+        "railway:track_ref": "2",
+        "railway:traffic_mode": "mixed",
+        "ref": "930000",
+        "start_date": "1999",
+        "tunnel": "yes",
+        "tunnel:name": "Tunnel de Monaco",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            7.4157569,
+            43.7359621
+          ],
+          [
+            7.4150818,
+            43.7356745
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/235977378",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/235977378",
         "importance": "national",
         "layer": "-2",
         "maxspeed": "60",
@@ -759,30 +643,34 @@
         "start_date": "1999",
         "tunnel": "yes",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/235977378"
+        "voltage": "25000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.4157569,
-            43.7359621
-          ],
-          [
-            7.4150818,
-            43.7356745
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            7.4216028,
+            43.7403292
+          ],
+          [
+            7.4213747,
+            43.7401207
+          ],
+          [
+            7.4211461,
+            43.7398899
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/444971006",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/444971006",
         "importance": "national",
         "layer": "-1",
         "maxspeed": "90",
@@ -802,34 +690,34 @@
         "start_date": "1999",
         "tunnel": "yes",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/444971006"
+        "voltage": "25000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.4216028,
-            43.7403292
-          ],
-          [
-            7.4213747,
-            43.7401207
-          ],
-          [
-            7.4211461,
-            43.7398899
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            7.421088,
+            43.739922
+          ],
+          [
+            7.4213163,
+            43.7401479
+          ],
+          [
+            7.4215385,
+            43.7403639
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/444971009",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/444971009",
         "importance": "national",
         "layer": "-1",
         "maxspeed": "90",
@@ -850,57 +738,12 @@
         "start_date": "1999",
         "tunnel": "yes",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/444971009"
+        "voltage": "25000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            7.421088,
-            43.739922
-          ],
-          [
-            7.4213163,
-            43.7401479
-          ],
-          [
-            7.4215385,
-            43.7403639
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/444971010",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "50",
-        "gauge": "1435",
-        "importance": "national",
-        "layer": "-2",
-        "maxspeed": "60",
-        "name": "Monaco - Monte Carlo",
-        "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
-        "oneway": "yes",
-        "operator": "SNCF Réseau",
-        "passenger_lines": "3",
-        "railway": "rail",
-        "railway:bidirectional": "regular",
-        "railway:kvb": "yes",
-        "railway:preferred_direction": "forward",
-        "railway:radio": "analogue",
-        "railway:traffic_mode": "mixed",
-        "ref": "930000",
-        "start_date": "1999",
-        "tunnel": "yes",
-        "usage": "main",
-        "voltage": "25000",
-        "id": "way/444971010"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4206167,
@@ -910,16 +753,15 @@
             7.421088,
             43.739922
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/444971011",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/444971010",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/444971010",
         "importance": "national",
         "layer": "-2",
         "maxspeed": "60",
@@ -938,11 +780,12 @@
         "start_date": "1999",
         "tunnel": "yes",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/444971011"
+        "voltage": "25000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4150536,
@@ -956,20 +799,20 @@
             7.4157569,
             43.7359621
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/444971012",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/444971011",
       "properties": {
         "electrified": "contact_line",
         "frequency": "50",
         "gauge": "1435",
+        "id": "way/444971011",
         "importance": "national",
         "layer": "-2",
-        "maxspeed": "90",
+        "maxspeed": "60",
         "name": "Monaco - Monte Carlo",
+        "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
         "oneway": "yes",
         "operator": "SNCF Réseau",
         "passenger_lines": "3",
@@ -978,17 +821,17 @@
         "railway:kvb": "yes",
         "railway:preferred_direction": "forward",
         "railway:radio": "analogue",
-        "railway:track_ref": "C",
         "railway:traffic_mode": "mixed",
         "ref": "930000",
         "start_date": "1999",
         "tunnel": "yes",
         "usage": "main",
-        "voltage": "25000",
-        "id": "way/444971012"
+        "voltage": "25000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             7.4211461,
@@ -1030,8 +873,165 @@
             7.4150818,
             43.7356745
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/444971012",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1435",
+        "id": "way/444971012",
+        "importance": "national",
+        "layer": "-2",
+        "maxspeed": "90",
+        "name": "Monaco - Monte Carlo",
+        "oneway": "yes",
+        "operator": "SNCF Réseau",
+        "passenger_lines": "3",
+        "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:kvb": "yes",
+        "railway:preferred_direction": "forward",
+        "railway:radio": "analogue",
+        "railway:track_ref": "C",
+        "railway:traffic_mode": "mixed",
+        "ref": "930000",
+        "start_date": "1999",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            7.4215385,
+            43.7403639
+          ],
+          [
+            7.4217999,
+            43.7406083
+          ],
+          [
+            7.4220497,
+            43.740849
+          ],
+          [
+            7.4228139,
+            43.7415765
+          ],
+          [
+            7.4259878,
+            43.7450212
+          ],
+          [
+            7.4271042,
+            43.7461353
+          ],
+          [
+            7.4296806,
+            43.7483461
+          ],
+          [
+            7.431905,
+            43.7500695
+          ],
+          [
+            7.4337256,
+            43.7512152
+          ],
+          [
+            7.4347921,
+            43.7517252
+          ],
+          [
+            7.4364449,
+            43.7524634
+          ],
+          [
+            7.4378046,
+            43.7529636
+          ],
+          [
+            7.4392854,
+            43.7533755
+          ],
+          [
+            7.4404103,
+            43.7536325
+          ],
+          [
+            7.4415141,
+            43.7538105
+          ],
+          [
+            7.4427554,
+            43.7539174
+          ],
+          [
+            7.4455825,
+            43.7539659
+          ],
+          [
+            7.4461445,
+            43.7539882
+          ],
+          [
+            7.4468115,
+            43.7540628
+          ],
+          [
+            7.4471225,
+            43.754113
+          ],
+          [
+            7.4473972,
+            43.7541653
+          ],
+          [
+            7.4477085,
+            43.7542447
+          ],
+          [
+            7.4479825,
+            43.7543379
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/4978262",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "50",
+        "gauge": "1435",
+        "id": "way/4978262",
+        "importance": "national",
+        "layer": "-1",
+        "maxspeed": "90",
+        "name": "Ligne de Marseille à Vintimille",
+        "name:it": "Ferrovia Marsiglia-Ventimiglia",
+        "note": "estimated location; leaving thee Monaco station to the south-west, the line turns right (north)!",
+        "oneway": "yes",
+        "operator": "SNCF Réseau",
+        "passenger_lines": "2",
+        "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:kvb": "yes",
+        "railway:preferred_direction": "forward",
+        "railway:radio": "analogue",
+        "railway:track_ref": "1",
+        "railway:traffic_mode": "mixed",
+        "ref": "930000",
+        "start_date": "1964",
+        "tunnel": "yes",
+        "usage": "main",
+        "voltage": "25000"
+      },
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }

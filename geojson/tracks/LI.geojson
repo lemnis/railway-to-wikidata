@@ -1,280 +1,7 @@
 {
-  "type": "FeatureCollection",
   "features": [
     {
-      "type": "Feature",
-      "id": "way/19780616",
-      "properties": {
-        "bridge": "yes",
-        "bridge:name": "Rheinbrücke",
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "layer": "1",
-        "length": "190",
-        "maxspeed": "90",
-        "name": "ÖBB Feldkirch – Buchs",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D2",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1935",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/19780616"
-      },
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.4918499,
-            47.164621
-          ],
-          [
-            9.4906551,
-            47.1645332
-          ],
-          [
-            9.4906332,
-            47.1645316
-          ],
-          [
-            9.4905985,
-            47.1645292
-          ],
-          [
-            9.4901178,
-            47.1644948
-          ],
-          [
-            9.4900611,
-            47.1644908
-          ],
-          [
-            9.4885288,
-            47.1643814
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/19780617",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "100",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/19780617"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5586792,
-            47.2105524
-          ],
-          [
-            9.5584966,
-            47.2105184
-          ],
-          [
-            9.5582989,
-            47.2104816
-          ],
-          [
-            9.558228,
-            47.2104684
-          ],
-          [
-            9.5536277,
-            47.2096117
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/25827132",
-      "properties": {
-        "bridge": "yes",
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "layer": "1",
-        "maxspeed": "90",
-        "name": "ÖBB Feldkirch – Buchs",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/25827132"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5588937,
-            47.2105922
-          ],
-          [
-            9.5586792,
-            47.2105524
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/46742715",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "90",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D2",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/46742715"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.4943171,
-            47.164796
-          ],
-          [
-            9.4933894,
-            47.1647292
-          ],
-          [
-            9.4928279,
-            47.1646887
-          ],
-          [
-            9.4918499,
-            47.164621
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/46742716",
-      "properties": {
-        "bridge": "yes",
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "layer": "1",
-        "maxspeed": "90",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D2",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/46742716"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.4947587,
-            47.1648269
-          ],
-          [
-            9.4943171,
-            47.164796
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007124",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "100",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007124"
-      },
-      "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5397304,
@@ -344,17 +71,56 @@
             9.5334449,
             47.1906394
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007124",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/117007124",
+        "maxspeed": "100",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D4",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5334449,
+            47.1906394
+          ],
+          [
+            9.5333401,
+            47.1905703
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/117007125",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007125",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -372,51 +138,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007125"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5334449,
-            47.1906394
-          ],
-          [
-            9.5333401,
-            47.1905703
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/117007126",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "100",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007126"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5318387,
@@ -434,17 +161,16 @@
             9.5274356,
             47.186687
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007127",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007126",
       "properties": {
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
-        "maxspeed": "90",
+        "id": "way/117007126",
+        "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
         "note": "rail in Liechtenstein operated by ÖBB!",
         "operator": "ÖBB-Infrastruktur AG",
@@ -452,7 +178,7 @@
         "railway": "rail",
         "railway:pzb": "yes",
         "railway:radio": "gsm-r",
-        "railway:track_class": "D2",
+        "railway:track_class": "D4",
         "railway:track_type": "main",
         "railway:traffic_mode": "mixed",
         "ref": "303 01",
@@ -460,11 +186,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007127"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5054952,
@@ -502,16 +229,15 @@
             9.5017714,
             47.165325
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007128",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007127",
       "properties": {
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007127",
         "maxspeed": "90",
         "name": "ÖBB Feldkirch – Buchs",
         "note": "rail in Liechtenstein operated by ÖBB!",
@@ -528,11 +254,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007128"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5013357,
@@ -550,17 +277,56 @@
             9.4947587,
             47.1648269
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007128",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/117007128",
+        "maxspeed": "90",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D2",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5536277,
+            47.2096117
+          ],
+          [
+            9.5535134,
+            47.2095912
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/117007129",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007129",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -578,51 +344,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007129"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5536277,
-            47.2096117
-          ],
-          [
-            9.5535134,
-            47.2095912
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/117007130",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "100",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007130"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.544926,
@@ -640,17 +367,56 @@
             9.5435488,
             47.2022622
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007130",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/117007130",
+        "maxspeed": "100",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D4",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5274356,
+            47.186687
+          ],
+          [
+            9.5273307,
+            47.1866181
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/117007133",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007133",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -668,30 +434,30 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007133"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5274356,
-            47.186687
-          ],
-          [
-            9.5273307,
-            47.1866181
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5333401,
+            47.1905703
+          ],
+          [
+            9.5319051,
+            47.1896236
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/117007134",
       "properties": {
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007134",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
         "note": "rail in Liechtenstein operated by ÖBB!",
@@ -708,31 +474,31 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007134"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5333401,
-            47.1905703
-          ],
-          [
-            9.5319051,
-            47.1896236
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5017714,
+            47.165325
+          ],
+          [
+            9.5013357,
+            47.165293
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/117007135",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007135",
         "layer": "1",
         "maxspeed": "90",
         "name": "ÖBB Feldkirch – Buchs",
@@ -750,31 +516,31 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007135"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5017714,
-            47.165325
-          ],
-          [
-            9.5013357,
-            47.165293
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5481193,
+            47.2075387
+          ],
+          [
+            9.5480348,
+            47.2074764
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/117007136",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007136",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -792,51 +558,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007136"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5481193,
-            47.2075387
-          ],
-          [
-            9.5480348,
-            47.2074764
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/117007137",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "100",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007137"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5535134,
@@ -854,16 +581,15 @@
             9.5524405,
             47.2093889
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007138",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007137",
       "properties": {
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007137",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
         "note": "rail in Liechtenstein operated by ÖBB!",
@@ -880,11 +606,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007138"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5273307,
@@ -934,16 +661,15 @@
             9.5131236,
             47.1734877
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007139",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007138",
       "properties": {
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007138",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
         "note": "rail in Liechtenstein operated by ÖBB!",
@@ -960,11 +686,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007139"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5480348,
@@ -994,18 +721,15 @@
             9.5449766,
             47.2040291
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007140",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007139",
       "properties": {
-        "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
-        "layer": "1",
+        "id": "way/117007139",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
         "note": "rail in Liechtenstein operated by ÖBB!",
@@ -1022,11 +746,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007140"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5435488,
@@ -1036,17 +761,16 @@
             9.5435015,
             47.2022113
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007141",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007140",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007140",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -1064,11 +788,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007141"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5319051,
@@ -1078,59 +803,16 @@
             9.5318387,
             47.18958
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007142",
-      "properties": {
-        "bridge": "yes",
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "layer": "1",
-        "maxspeed": "90",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D2",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007142"
+        ],
+        "type": "LineString"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5055992,
-            47.1662396
-          ],
-          [
-            9.5054952,
-            47.166178
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/117007143",
+      "id": "way/117007141",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007141",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -1148,30 +830,32 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/117007143"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5449766,
-            47.2040291
-          ],
-          [
-            9.544926,
-            47.2039645
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/120790960",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5055992,
+            47.1662396
+          ],
+          [
+            9.5054952,
+            47.166178
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007142",
       "properties": {
+        "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/117007142",
+        "layer": "1",
         "maxspeed": "90",
         "name": "ÖBB Feldkirch – Buchs",
         "note": "rail in Liechtenstein operated by ÖBB!",
@@ -1188,11 +872,54 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/120790960"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
+        "coordinates": [
+          [
+            9.5449766,
+            47.2040291
+          ],
+          [
+            9.544926,
+            47.2039645
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/117007143",
+      "properties": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/117007143",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D4",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [
           [
             9.5089986,
@@ -1222,17 +949,56 @@
             9.5055992,
             47.1662396
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/120790960",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/120790960",
+        "maxspeed": "90",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D2",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5524405,
+            47.2093889
+          ],
+          [
+            9.5523157,
+            47.2093605
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/120796192",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/120796192",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -1250,51 +1016,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/120796192"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5524405,
-            47.2093889
-          ],
-          [
-            9.5523157,
-            47.2093605
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/120796209",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "100",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/120796209"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5523157,
@@ -1328,18 +1055,18 @@
             9.5481193,
             47.2075387
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/241033193",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/120796209",
       "properties": {
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
-        "maxspeed": "90",
+        "id": "way/120796209",
+        "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
         "operator": "ÖBB-Infrastruktur AG",
         "passenger_lines": "1",
         "railway": "rail",
@@ -1353,11 +1080,127 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/241033193"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
+        "coordinates": [
+          [
+            9.4918499,
+            47.164621
+          ],
+          [
+            9.4906551,
+            47.1645332
+          ],
+          [
+            9.4906332,
+            47.1645316
+          ],
+          [
+            9.4905985,
+            47.1645292
+          ],
+          [
+            9.4901178,
+            47.1644948
+          ],
+          [
+            9.4900611,
+            47.1644908
+          ],
+          [
+            9.4885288,
+            47.1643814
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/19780616",
+      "properties": {
+        "bridge": "yes",
+        "bridge:name": "Rheinbrücke",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/19780616",
+        "layer": "1",
+        "length": "190",
+        "maxspeed": "90",
+        "name": "ÖBB Feldkirch – Buchs",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D2",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1935",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            9.5586792,
+            47.2105524
+          ],
+          [
+            9.5584966,
+            47.2105184
+          ],
+          [
+            9.5582989,
+            47.2104816
+          ],
+          [
+            9.558228,
+            47.2104684
+          ],
+          [
+            9.5536277,
+            47.2096117
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/19780617",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/19780617",
+        "maxspeed": "100",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D4",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [
           [
             9.5751089,
@@ -1475,19 +1318,17 @@
             9.5588937,
             47.2105922
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/241034125",
+        ],
+        "type": "LineString"
+      },
+      "id": "way/241033193",
       "properties": {
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/241033193",
         "maxspeed": "90",
         "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
         "operator": "ÖBB-Infrastruktur AG",
         "passenger_lines": "1",
         "railway": "rail",
@@ -1501,11 +1342,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/241034125"
+        "voltage": "15000"
       },
+      "type": "Feature"
+    },
+    {
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5131236,
@@ -1535,17 +1377,97 @@
             9.5089986,
             47.1694238
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/241034125",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/241034125",
+        "maxspeed": "90",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D4",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
     },
     {
-      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            9.5588937,
+            47.2105922
+          ],
+          [
+            9.5586792,
+            47.2105524
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/25827132",
+      "properties": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/25827132",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "ÖBB Feldkirch – Buchs",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D4",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            9.5397909,
+            47.1983752
+          ],
+          [
+            9.5397304,
+            47.198313
+          ]
+        ],
+        "type": "LineString"
+      },
       "id": "way/448802618",
       "properties": {
         "bridge": "yes",
         "electrified": "contact_line",
         "frequency": "16.7",
         "gauge": "1435",
+        "id": "way/448802618",
         "layer": "1",
         "maxspeed": "100",
         "name": "ÖBB Feldkirch – Buchs",
@@ -1563,51 +1485,12 @@
         "structure_gauge": "GC",
         "tracks": "1",
         "usage": "main",
-        "voltage": "15000",
-        "id": "way/448802618"
+        "voltage": "15000"
       },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            9.5397909,
-            47.1983752
-          ],
-          [
-            9.5397304,
-            47.198313
-          ]
-        ]
-      }
+      "type": "Feature"
     },
     {
-      "type": "Feature",
-      "id": "way/448802619",
-      "properties": {
-        "electrified": "contact_line",
-        "frequency": "16.7",
-        "gauge": "1435",
-        "maxspeed": "100",
-        "name": "ÖBB Feldkirch – Buchs",
-        "note": "rail in Liechtenstein operated by ÖBB!",
-        "operator": "ÖBB-Infrastruktur AG",
-        "passenger_lines": "1",
-        "railway": "rail",
-        "railway:pzb": "yes",
-        "railway:radio": "gsm-r",
-        "railway:track_class": "D4",
-        "railway:track_type": "main",
-        "railway:traffic_mode": "mixed",
-        "ref": "303 01",
-        "start_date": "1872-10-24",
-        "structure_gauge": "GC",
-        "tracks": "1",
-        "usage": "main",
-        "voltage": "15000",
-        "id": "way/448802619"
-      },
       "geometry": {
-        "type": "LineString",
         "coordinates": [
           [
             9.5435015,
@@ -1657,8 +1540,125 @@
             9.5397909,
             47.1983752
           ]
-        ]
-      }
+        ],
+        "type": "LineString"
+      },
+      "id": "way/448802619",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/448802619",
+        "maxspeed": "100",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D4",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            9.4943171,
+            47.164796
+          ],
+          [
+            9.4933894,
+            47.1647292
+          ],
+          [
+            9.4928279,
+            47.1646887
+          ],
+          [
+            9.4918499,
+            47.164621
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/46742715",
+      "properties": {
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/46742715",
+        "maxspeed": "90",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D2",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            9.4947587,
+            47.1648269
+          ],
+          [
+            9.4943171,
+            47.164796
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "way/46742716",
+      "properties": {
+        "bridge": "yes",
+        "electrified": "contact_line",
+        "frequency": "16.7",
+        "gauge": "1435",
+        "id": "way/46742716",
+        "layer": "1",
+        "maxspeed": "90",
+        "name": "ÖBB Feldkirch – Buchs",
+        "note": "rail in Liechtenstein operated by ÖBB!",
+        "operator": "ÖBB-Infrastruktur AG",
+        "passenger_lines": "1",
+        "railway": "rail",
+        "railway:pzb": "yes",
+        "railway:radio": "gsm-r",
+        "railway:track_class": "D2",
+        "railway:track_type": "main",
+        "railway:traffic_mode": "mixed",
+        "ref": "303 01",
+        "start_date": "1872-10-24",
+        "structure_gauge": "GC",
+        "tracks": "1",
+        "usage": "main",
+        "voltage": "15000"
+      },
+      "type": "Feature"
     }
-  ]
+  ],
+  "type": "FeatureCollection"
 }
