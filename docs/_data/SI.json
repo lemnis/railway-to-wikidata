@@ -273,8 +273,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-----SI43400-XZM-7900006-434001-trainline-19096-Q12807503",
+      "id": "-----SI43400-XZM-7900006-434001-trainline-19096-Q6762546",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3435104"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -285,6 +290,9 @@
           }
         ],
         "P31": [
+          {
+            "value": "Q18564289"
+          },
           {
             "value": "Q55488"
           }
@@ -388,7 +396,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q12807503"
+            "value": "Q6762546"
           }
         ],
         "labels": [
@@ -422,11 +430,252 @@
           },
           {
             "lang": "en",
-            "value": "Maribor Studenci train station"
+            "value": "Maribor railway station"
+          },
+          {
+            "lang": "et",
+            "value": "Maribori raudteejaam"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Maribor"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione ferroviaria di Maribor"
+          },
+          {
+            "lang": "ja",
+            "value": "マリボル駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Maribor"
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja Maribor Studenci"
+            "value": "Kolodvor Maribor"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Maribor"
+          },
+          {
+            "lang": "zh",
+            "value": "馬里博爾車站"
+          },
+          {
+            "lang": "pl",
+            "value": "Maribor"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            15.6561357,
+            45.8982323
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "----SI42001-XZD-7900017-trainline-19100-22732-Q5286654",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q2255086"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q1402443"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              }
+            ],
+            "value": "Q5412110"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              }
+            ],
+            "value": "19100"
+          },
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              }
+            ],
+            "value": "22732"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.52
+                }
+              ],
+              "reliability": 1.1600000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              }
+            ],
+            "value": "7942001"
+          },
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              }
+            ],
+            "value": "7942000"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              }
+            ],
+            "value": "SIDBV"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "XZD"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "7900017"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5286654"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Dobova"
+          },
+          {
+            "lang": "sk",
+            "value": "Dobova"
+          },
+          {
+            "lang": "pl",
+            "value": "Dobova"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Dobova"
+          },
+          {
+            "lang": "en",
+            "value": "Dobova railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Dobova"
+          },
+          {
+            "lang": "gl",
+            "value": "Estación de tren de Dobova"
+          },
+          {
+            "lang": "hu",
+            "value": "Dobova vasútállomás"
+          },
+          {
+            "lang": "ja",
+            "value": "ドボヴァ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Dobova"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Dobova"
           }
         ]
       },
@@ -685,6 +934,233 @@
           {
             "lang": "da",
             "value": "Ljubljana-Šiška jernbanestation"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            14.0546156,
+            46.4360452
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "----SI42400-XZJ-7900001-trainline-19092-22733-Q6962376",
+      "properties": {
+        "P1103": [
+          {
+            "value": "14"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q15881"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q18564289"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "Q5412110"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "19092"
+          },
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "22733"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.52
+                }
+              ],
+              "reliability": 1.1600000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "7942400"
+          },
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "7942401"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "SIADT"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "XZJ"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 2.2
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "7900001"
+          },
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "5403723"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q6962376"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Jesenice"
+          },
+          {
+            "lang": "sl",
+            "value": "Jesenice(SL)"
+          },
+          {
+            "lang": "de",
+            "value": "Jesenice(SL)"
+          },
+          {
+            "lang": "ja",
+            "value": "イェセニツェ"
+          },
+          {
+            "lang": "ru",
+            "value": "Есенице"
+          },
+          {
+            "lang": "pl",
+            "value": "Jesenice"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة چيسينيس"
+          },
+          {
+            "lang": "en",
+            "value": "Jesenice railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Jesenice"
+          },
+          {
+            "lang": "ja",
+            "value": "イェセニツェ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Jesenice"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Jesenice"
           }
         ]
       },
@@ -1387,14 +1863,19 @@
       "geometry": {
         "coordinates": [
           [
-            15.6561357,
-            45.8982323
+            15.3012959,
+            46.0093232
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "---SI42001-XZD-7900017-trainline-19100-22732",
+      "id": "---SI42100-XZSN-7900018-Q9335716",
       "properties": {
+        "P131": [
+          {
+            "value": "Q15915"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -1404,11 +1885,125 @@
             "value": "Q215"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7942100"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "XZSN"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 0.7999999999999999
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "7900018"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q9335716"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Sevnica"
+          },
+          {
+            "lang": "sk",
+            "value": "Sevnica"
+          },
+          {
+            "lang": "en",
+            "value": "Sevnica train station"
+          },
+          {
+            "lang": "ja",
+            "value": "セヴニツァ駅"
+          },
+          {
+            "lang": "pl",
+            "value": "Sevnica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Sevnica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            15.1701995,
+            46.0855064
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "---SI42200-XZZM-trainline-19095-Q8071482",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q15887"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q198478"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P421": [
           {
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
               }
             ],
             "value": "Q5412110"
@@ -1417,25 +2012,19 @@
         "P6724": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
               "reliability": 0.6400000000000001
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
               }
             ],
-            "value": "19100"
-          },
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
-              }
-            ],
-            "value": "22732"
+            "value": "19095"
           }
         ],
         "P722": [
@@ -1453,39 +2042,38 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
               }
             ],
-            "value": "7942001"
-          },
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
-              }
-            ],
-            "value": "7942000"
+            "value": "7942200"
           }
         ],
         "P8448": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
               }
             ],
-            "value": "SIDBV"
+            "value": "SIABM"
           }
         ],
         "P8671": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -1493,7 +2081,7 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ],
-            "value": "XZD"
+            "value": "XZZM"
           }
         ],
         "P954": [
@@ -1511,23 +2099,235 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
               },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ],
-            "value": "7900017"
+            "value": "7900004"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q8071482"
           }
         ],
         "labels": [
           {
             "lang": "sl",
-            "value": "Dobova"
+            "value": "Zidani Most"
           },
           {
-            "lang": "sk",
-            "value": "Dobova"
+            "lang": "ru",
+            "value": "Зидани Мост"
+          },
+          {
+            "lang": "zh",
+            "value": "濟達尼莫斯特"
+          },
+          {
+            "lang": "pl",
+            "value": "Zidani Most"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Zidani Most"
+          },
+          {
+            "lang": "en",
+            "value": "Zidani Most railway station"
+          },
+          {
+            "lang": "es",
+            "value": "estación Zidani Most"
+          },
+          {
+            "lang": "ja",
+            "value": "チダニモスト駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Zidani Most"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Zidani Most"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Steinbrück"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            14.3476422,
+            46.2421477
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "---SI42307-XZKJ-trainline-19099-Q6436087",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3441893"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
+              }
+            ],
+            "value": "Q5412110"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
+              }
+            ],
+            "value": "19099"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.52
+                }
+              ],
+              "reliability": 1.1600000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
+              }
+            ],
+            "value": "7942307"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
+              }
+            ],
+            "value": "SIKRA"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "XZKJ"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "7900014"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q6436087"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Kranj"
+          },
+          {
+            "lang": "ja",
+            "value": "クラーニ"
+          },
+          {
+            "lang": "ru",
+            "value": "Крань"
+          },
+          {
+            "lang": "en",
+            "value": "Kranj railway station"
+          },
+          {
+            "lang": "ja",
+            "value": "クラーニ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Kranj"
+          },
+          {
+            "lang": "pl",
+            "value": "Kranj (stacja kolejowa)"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Kranj"
           }
         ]
       },
@@ -1705,13 +2505,13 @@
       "geometry": {
         "coordinates": [
           [
-            14.0546156,
-            46.4360452
+            15.6621676,
+            46.3954119
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "---SI42400-XZJ-7900001-trainline-19092-22733",
+      "id": "---SI43300-OJPR-trainline-28632-Q7237627",
       "properties": {
         "P17": [
           {
@@ -1722,11 +2522,16 @@
             "value": "Q215"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P421": [
           {
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
               }
             ],
             "value": "Q5412110"
@@ -1739,21 +2544,10 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
               }
             ],
-            "value": "19092"
-          },
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
-              }
-            ],
-            "value": "22733"
+            "value": "28632"
           }
         ],
         "P722": [
@@ -1771,21 +2565,10 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
               }
             ],
-            "value": "7942400"
-          },
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
-              }
-            ],
-            "value": "7942401"
+            "value": "7943300"
           }
         ],
         "P8448": [
@@ -1795,10 +2578,10 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
               }
             ],
-            "value": "SIADT"
+            "value": "SIABR"
           }
         ],
         "P8671": [
@@ -1811,7 +2594,7 @@
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ],
-            "value": "XZJ"
+            "value": "OJPR"
           }
         ],
         "P954": [
@@ -1822,56 +2605,43 @@
                   "reliability": 0.7000000000000001
                 },
                 {
-                  "reliability": 0.7000000000000001
-                },
-                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.2
+              "reliability": 1.5
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
               },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ],
-            "value": "7900001"
-          },
+            "value": "7900007"
+          }
+        ],
+        "PWIKI": [
           {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
-              }
-            ],
-            "value": "5403723"
+            "value": "Q7237627"
           }
         ],
         "labels": [
           {
             "lang": "sl",
-            "value": "Jesenice"
+            "value": "Pragersko"
+          },
+          {
+            "lang": "en",
+            "value": "Pragersko railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Pragersko"
           },
           {
             "lang": "sl",
-            "value": "Jesenice(SL)"
-          },
-          {
-            "lang": "de",
-            "value": "Jesenice(SL)"
-          },
-          {
-            "lang": "ja",
-            "value": "イェセニツェ"
-          },
-          {
-            "lang": "ru",
-            "value": "Есенице"
+            "value": "Železniška postaja Pragersko"
           }
         ]
       },
@@ -2316,211 +3086,6 @@
       "geometry": {
         "coordinates": [
           [
-            15.3012959,
-            46.0093232
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "--SI42100-XZSN-7900018",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7942100"
-          }
-        ],
-        "P8671": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "value": "XZSN"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 0.7999999999999999
-            },
-            "references": [
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "value": "7900018"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Sevnica"
-          },
-          {
-            "lang": "sk",
-            "value": "Sevnica"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            15.1701995,
-            46.0855064
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "--SI42200-XZZM-trainline-19095",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q215"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
-              }
-            ],
-            "value": "Q5412110"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
-              }
-            ],
-            "value": "19095"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.52
-                }
-              ],
-              "reliability": 1.1600000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
-              }
-            ],
-            "value": "7942200"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
-              }
-            ],
-            "value": "SIABM"
-          }
-        ],
-        "P8671": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "value": "XZZM"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19095"
-              },
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "value": "7900004"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Zidani Most"
-          },
-          {
-            "lang": "ru",
-            "value": "Зидани Мост"
-          },
-          {
-            "lang": "zh",
-            "value": "濟達尼莫斯特"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             15.0366892,
             46.1262165
           ]
@@ -2788,138 +3353,6 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Litija"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            14.3476422,
-            46.2421477
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "--SI42307-XZKJ-trainline-19099",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q215"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
-              }
-            ],
-            "value": "Q5412110"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
-              }
-            ],
-            "value": "19099"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.52
-                }
-              ],
-              "reliability": 1.1600000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
-              }
-            ],
-            "value": "7942307"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
-              }
-            ],
-            "value": "SIKRA"
-          }
-        ],
-        "P8671": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "value": "XZKJ"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19099"
-              },
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "value": "7900014"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Kranj"
-          },
-          {
-            "lang": "ja",
-            "value": "クラーニ"
-          },
-          {
-            "lang": "ru",
-            "value": "Крань"
           }
         ]
       },
@@ -3254,14 +3687,19 @@
       "geometry": {
         "coordinates": [
           [
-            15.6621676,
-            46.3954119
+            16.1717606,
+            46.6592027
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "--SI43300-OJPR-trainline-28632",
+      "id": "--SI43704-trainline-28633-Q6939694",
       "properties": {
+        "P131": [
+          {
+            "value": "Q15899"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -3271,11 +3709,16 @@
             "value": "Q215"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P421": [
           {
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
               }
             ],
             "value": "Q5412110"
@@ -3288,10 +3731,10 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
               }
             ],
-            "value": "28632"
+            "value": "28633"
           }
         ],
         "P722": [
@@ -3309,66 +3752,92 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
               }
             ],
-            "value": "7943300"
+            "value": "7943704"
           }
         ],
         "P8448": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
               }
             ],
-            "value": "SIABR"
-          }
-        ],
-        "P8671": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
-              }
-            ],
-            "value": "OJPR"
+            "value": "SIABU"
           }
         ],
         "P954": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28632"
-              },
-              {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
               }
             ],
-            "value": "7900007"
+            "value": "7900033"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q6939694"
           }
         ],
         "labels": [
           {
             "lang": "sl",
-            "value": "Pragersko"
+            "value": "Murska Sobota"
+          },
+          {
+            "lang": "de",
+            "value": "Olsnitz"
+          },
+          {
+            "lang": "hu",
+            "value": "Muraszombat"
+          },
+          {
+            "lang": "ja",
+            "value": "ムルスカ・ソボタ"
+          },
+          {
+            "lang": "ru",
+            "value": "Мурска Собота"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Murska Sobota"
+          },
+          {
+            "lang": "en",
+            "value": "Murska Sobota railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Murska Sobota"
+          },
+          {
+            "lang": "pl",
+            "value": "Murska Sobota"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação ferroviária de Murska Sobota"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Murska Sobota"
           }
         ]
       },
@@ -4593,16 +5062,16 @@
             "value": "Jevnica"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Jevnica"
-          },
-          {
             "lang": "pl",
             "value": "Jevnica"
           },
           {
             "lang": "ru",
             "value": "Евница"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Jevnica"
           },
           {
             "lang": "sl",
@@ -4941,6 +5410,75 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Ljubljana Črnuče"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            14.5923722,
+            46.1392542
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI42352-Q5291407",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q15865"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7942352"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5291407"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Domžale"
+          },
+          {
+            "lang": "en",
+            "value": "Domžale railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Domžale"
+          },
+          {
+            "lang": "pl",
+            "value": "Domžale"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Domžale"
           }
         ]
       },
@@ -5349,6 +5887,75 @@
       "geometry": {
         "coordinates": [
           [
+            15.1277889,
+            45.714607
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI42509-Q7901632",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q398116"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7942509"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q7901632"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Uršna Sela"
+          },
+          {
+            "lang": "en",
+            "value": "Uršna sela railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Uršna sela"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Uršna sela"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             15.1556434,
             45.8108544
           ]
@@ -5460,6 +6067,71 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Mirna Peč"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            15.0086497,
+            45.9067118
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI42700-Q9361433",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q15926"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7942700"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q9361433"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Trebnje"
+          },
+          {
+            "lang": "en",
+            "value": "Trebnje train station"
+          },
+          {
+            "lang": "pl",
+            "value": "Trebnje (stacja kolejowa)"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Trebnje"
           }
         ]
       },
@@ -5746,6 +6418,58 @@
       "geometry": {
         "coordinates": [
           [
+            14.5543891,
+            45.9990745
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI42803-Q61360272",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7942803"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q61360272"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Lavrica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Lavrica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             14.5187967,
             46.0369269
           ]
@@ -5813,6 +6537,66 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Ljubljana Rakovnik"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            14.6813583,
+            45.8585329
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI42851-Q5286711",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7942851"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5286711"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Dobrepolje"
+          },
+          {
+            "lang": "en",
+            "value": "Dobrepolje railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Dobrepolje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Dobrepolje"
           }
         ]
       },
@@ -6613,6 +7397,67 @@
       "geometry": {
         "coordinates": [
           [
+            15.7704878,
+            46.4007424
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43352-Q88783642",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943352"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900212"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88783642"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Strnišče"
+          },
+          {
+            "lang": "de",
+            "value": "Strnisce"
+          },
+          {
+            "lang": "en",
+            "value": "Strnišče railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             15.800332,
             46.4006449
           ]
@@ -6660,6 +7505,71 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Kidričevo"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            15.8551122,
+            46.4031776
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43354-Q70374469",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943354"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900110"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q70374469"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Hajdina"
+          },
+          {
+            "lang": "en",
+            "value": "Hajdina railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Hajdina"
+          },
+          {
+            "lang": "de",
+            "value": "Hajdina"
           }
         ]
       },
@@ -6781,6 +7691,255 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Moškanjci"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.049497,
+            46.4194451
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43357-Q88799074",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943357"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900164"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88799074"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Osluševci"
+          },
+          {
+            "lang": "de",
+            "value": "Oslusevci"
+          },
+          {
+            "lang": "en",
+            "value": "Osluševci railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.1053432,
+            46.4150967
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43358-Q88799395",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3621532"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943358"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900242"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88799395"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Velika Nedelja"
+          },
+          {
+            "lang": "en",
+            "value": "Velika Nedelja railway station"
+          },
+          {
+            "lang": "de",
+            "value": "Velika Nedelja"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.0165031,
+            46.4214057
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43359-Q88798917",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943359"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900253"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88798917"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Zamušani"
+          },
+          {
+            "lang": "de",
+            "value": "Zamusani"
+          },
+          {
+            "lang": "en",
+            "value": "Zamušani railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            15.6969648,
+            46.4009737
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43360-Q88785911",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943360"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900222"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88785911"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Šikole"
+          },
+          {
+            "lang": "de",
+            "value": "Sikole"
+          },
+          {
+            "lang": "en",
+            "value": "Šikole railway station"
           }
         ]
       },
@@ -6949,6 +8108,62 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Ruta"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            15.4063709,
+            46.5748582
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43407-Q86004878",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943407"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q86004878"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Ožbalt"
+          },
+          {
+            "lang": "en",
+            "value": "Ožbalt railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ožbalt"
           }
         ]
       },
@@ -7247,6 +8462,66 @@
       "geometry": {
         "coordinates": [
           [
+            15.0268857,
+            46.5869714
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43500-Q5305970",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943500"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5305970"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Dravograd"
+          },
+          {
+            "lang": "en",
+            "value": "Dravograd railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Dravograd"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Dravograd"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             14.9217973,
             46.5500055
           ]
@@ -7377,6 +8652,258 @@
       "geometry": {
         "coordinates": [
           [
+            16.1560799,
+            46.4031304
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43600-Q7103472",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943600"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q7103472"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Ormož"
+          },
+          {
+            "lang": "en",
+            "value": "Ormož railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Ormož"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ormož"
+          },
+          {
+            "lang": "zh",
+            "value": "奧爾莫日車站"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.1762354,
+            46.4099113
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43601-Q88803732",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943601"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900195"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88803732"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Pušenci"
+          },
+          {
+            "lang": "de",
+            "value": "Pusenci"
+          },
+          {
+            "lang": "en",
+            "value": "Pušenci railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.157647,
+            46.4564051
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43603-Q88803710",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q1826693"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943603"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900119"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88803710"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Ivanjkovci"
+          },
+          {
+            "lang": "de",
+            "value": "Ivanjkovci"
+          },
+          {
+            "lang": "en",
+            "value": "Ivanjkovci railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.155286,
+            46.5007906
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43604-Q88802723",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943604"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900257"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88802723"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Mekotnjak"
+          },
+          {
+            "lang": "de",
+            "value": "Mekotnjak"
+          },
+          {
+            "lang": "en",
+            "value": "Mekotnjak railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             16.1997343,
             46.5209993
           ]
@@ -7432,6 +8959,67 @@
           {
             "lang": "sl",
             "value": "Železniško postajališče Ljutomer mesto"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.2259684,
+            46.3910133
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43651-Q70379755",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943651"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900161"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q70379755"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Obrež"
+          },
+          {
+            "lang": "de",
+            "value": "Obrež"
+          },
+          {
+            "lang": "en",
+            "value": "Obrež railway station"
           }
         ]
       },
@@ -7581,7 +9169,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-SI43700-Q12807600",
+      "id": "-SI43700-Q6661022",
       "properties": {
         "P17": [
           {
@@ -7607,7 +9195,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q12807600"
+            "value": "Q6661022"
           }
         ],
         "labels": [
@@ -7617,19 +9205,142 @@
           },
           {
             "lang": "en",
-            "value": "Ljutomer mesto railway station"
+            "value": "Ljutomer railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Ljutomer"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Ljutomer - mesto"
-          },
+            "value": "Železniška postaja Ljutomer"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.1819738,
+            46.5739714
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43701-Q88804776",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943701"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900244"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88804776"
+          }
+        ],
+        "labels": [
           {
             "lang": "sl",
-            "value": "Železniško postajališče Ljutomer-mesto"
+            "value": "Veržej"
           },
           {
+            "lang": "de",
+            "value": "Verzej"
+          },
+          {
+            "lang": "en",
+            "value": "Veržej railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.1742315,
+            46.5572326
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43702-Q88804767",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q2515928"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943702"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7900109"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q88804767"
+          }
+        ],
+        "labels": [
+          {
             "lang": "sl",
-            "value": "Železniško postajališče Ljutomer mesto"
+            "value": "Grlava"
+          },
+          {
+            "lang": "de",
+            "value": "Grlava"
+          },
+          {
+            "lang": "en",
+            "value": "Grlava railway station"
           }
         ]
       },
@@ -7686,122 +9397,6 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Lipovci"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            16.1717606,
-            46.6592027
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "-SI43704-trainline-28633",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q215"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
-              }
-            ],
-            "value": "Q5412110"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
-              }
-            ],
-            "value": "28633"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.52
-                }
-              ],
-              "reliability": 1.1600000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
-              }
-            ],
-            "value": "7943704"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
-              }
-            ],
-            "value": "SIABU"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28633"
-              }
-            ],
-            "value": "7900033"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Murska Sobota"
-          },
-          {
-            "lang": "de",
-            "value": "Olsnitz"
-          },
-          {
-            "lang": "hu",
-            "value": "Muraszombat"
-          },
-          {
-            "lang": "ja",
-            "value": "ムルスカ・ソボタ"
-          },
-          {
-            "lang": "ru",
-            "value": "Мурска Собота"
           }
         ]
       },
@@ -7910,6 +9505,88 @@
           {
             "lang": "sl",
             "value": "Železniško postajališče Šalovci"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.329218,
+            46.8200896
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI43777-Q5876307",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q940174"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q25989"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943777"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5876307"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Hodoš"
+          },
+          {
+            "lang": "en",
+            "value": "Hodoš railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Hodoš"
+          },
+          {
+            "lang": "hu",
+            "value": "Őrihodos vasútállomás"
+          },
+          {
+            "lang": "ja",
+            "value": "ホドシ駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Hodoš"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Hodoš"
           }
         ]
       },
@@ -9023,6 +10700,100 @@
       "geometry": {
         "coordinates": [
           [
+            13.9351781,
+            45.6036278
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI44202-Q5923902",
+      "properties": {
+        "P1103": [
+          {
+            "value": "6"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q556206"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7944202"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5923902"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Hrpelje Kozina"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة هرپيلچ كوزينا"
+          },
+          {
+            "lang": "en",
+            "value": "Hrpelje-Kozina railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Erpelle-Cosina"
+          },
+          {
+            "lang": "nl",
+            "value": "station Hrpelje-Kozina"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Hrpelje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Hrpelje - Kozina"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Hrpelje Kozina"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Kozina"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Hrpelje-Kozina"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             13.9410749,
             45.5705366
           ]
@@ -9158,6 +10929,96 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Podgorje"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            13.7385807,
+            45.539055
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI44352-Q6431071",
+      "properties": {
+        "P1103": [
+          {
+            "value": "4"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1015"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7944352"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q6431071"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Koper"
+          },
+          {
+            "lang": "pl",
+            "value": "Koper"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة كوپير"
+          },
+          {
+            "lang": "en",
+            "value": "Koper railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Koper"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Capodistria"
+          },
+          {
+            "lang": "nl",
+            "value": "station Koper"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Koper"
+          },
+          {
+            "lang": "zh",
+            "value": "科佩爾車站"
           }
         ]
       },
@@ -9914,18 +11775,6 @@
           },
           {
             "lang": "it",
-            "value": "stazione di Nova Gorica"
-          },
-          {
-            "lang": "nl",
-            "value": "station Nova Gorica"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja Nova Gorica"
-          },
-          {
-            "lang": "it",
             "value": "Stazione della Transalpina"
           },
           {
@@ -9935,6 +11784,18 @@
           {
             "lang": "it",
             "value": "Stazione di Gorizia Nord"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Nova Gorica"
+          },
+          {
+            "lang": "nl",
+            "value": "station Nova Gorica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Nova Gorica"
           },
           {
             "lang": "zh",
@@ -10929,6 +12790,84 @@
       "geometry": {
         "coordinates": [
           [
+            14.2358994,
+            45.5691811
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-SI44903-Q5998405",
+      "properties": {
+        "P1103": [
+          {
+            "value": "6"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q15876"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7944903"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5998405"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "sl",
+            "value": "Ilirska Bistrica"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ايليرسكا بيستريكا"
+          },
+          {
+            "lang": "en",
+            "value": "Ilirska Bistrica railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Bisterza"
+          },
+          {
+            "lang": "nl",
+            "value": "station Ilirska Bistrica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ilirska Bistrica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             15.6511108,
             46.5390383
           ]
@@ -11372,38 +13311,6 @@
     {
       "geometry": {
         "coordinates": [
-          14.5923722,
-          46.1392542
-        ],
-        "type": "Point"
-      },
-      "id": "SI42352",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7942352"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Domžale"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           14.6093233,
           46.2249434
         ],
@@ -11820,38 +13727,6 @@
     {
       "geometry": {
         "coordinates": [
-          15.1277889,
-          45.714607
-        ],
-        "type": "Point"
-      },
-      "id": "SI42509",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7942509"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Uršna Sela"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           15.1481451,
           45.7579663
         ],
@@ -12036,38 +13911,6 @@
           {
             "lang": "sl",
             "value": "Hudo"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          15.0086497,
-          45.9067118
-        ],
-        "type": "Point"
-      },
-      "id": "SI42700",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7942700"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Trebnje"
           }
         ]
       },
@@ -12356,70 +14199,6 @@
           {
             "lang": "sl",
             "value": "Šmarje-Sap"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.5543891,
-          45.9990745
-        ],
-        "type": "Point"
-      },
-      "id": "SI42803",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7942803"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Lavrica"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.6813583,
-          45.8585329
-        ],
-        "type": "Point"
-      },
-      "id": "SI42851",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7942851"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Dobrepolje"
           }
         ]
       },
@@ -12972,198 +14751,6 @@
     {
       "geometry": {
         "coordinates": [
-          15.7704878,
-          46.4007424
-        ],
-        "type": "Point"
-      },
-      "id": "SI43352",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943352"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Strnišče"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          15.8551122,
-          46.4031776
-        ],
-        "type": "Point"
-      },
-      "id": "SI43354",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943354"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Hajdina"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.049497,
-          46.4194451
-        ],
-        "type": "Point"
-      },
-      "id": "SI43357",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943357"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Osluševci"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.1053432,
-          46.4150967
-        ],
-        "type": "Point"
-      },
-      "id": "SI43358",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943358"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Velika Nedelja"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.0165031,
-          46.4214057
-        ],
-        "type": "Point"
-      },
-      "id": "SI43359",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943359"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Zamušani"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          15.6969648,
-          46.4009737
-        ],
-        "type": "Point"
-      },
-      "id": "SI43360",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943360"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Šikole"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           15.7404948,
           46.4008395
         ],
@@ -13316,38 +14903,6 @@
           {
             "lang": "sl",
             "value": "Fala"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          15.4063709,
-          46.5748582
-        ],
-        "type": "Point"
-      },
-      "id": "SI43407",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943407"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Ožbalt"
           }
         ]
       },
@@ -13644,38 +15199,6 @@
     {
       "geometry": {
         "coordinates": [
-          15.0268857,
-          46.5869714
-        ],
-        "type": "Point"
-      },
-      "id": "SI43500",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943500"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Dravograd"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           14.9633671,
           46.5470794
         ],
@@ -13772,70 +15295,6 @@
     {
       "geometry": {
         "coordinates": [
-          16.1560799,
-          46.4031304
-        ],
-        "type": "Point"
-      },
-      "id": "SI43600",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943600"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Ormož"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.1762354,
-          46.4099113
-        ],
-        "type": "Point"
-      },
-      "id": "SI43601",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943601"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Pušenci"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           16.1789759,
           46.421702
         ],
@@ -13868,102 +15327,6 @@
     {
       "geometry": {
         "coordinates": [
-          16.157647,
-          46.4564051
-        ],
-        "type": "Point"
-      },
-      "id": "SI43603",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943603"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Ivanjkovci"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.155286,
-          46.5007906
-        ],
-        "type": "Point"
-      },
-      "id": "SI43604",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943604"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Mekotnjak"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.2259684,
-          46.3910133
-        ],
-        "type": "Point"
-      },
-      "id": "SI43651",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943651"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Obrež"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           16.1891343,
           46.3956433
         ],
@@ -13988,70 +15351,6 @@
           {
             "lang": "sl",
             "value": "Frankovci"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.1819738,
-          46.5739714
-        ],
-        "type": "Point"
-      },
-      "id": "SI43701",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943701"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Veržej"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.1742315,
-          46.5572326
-        ],
-        "type": "Point"
-      },
-      "id": "SI43702",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943702"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Grlava"
           }
         ]
       },
@@ -14148,38 +15447,6 @@
           {
             "lang": "sl",
             "value": "Gornji Petrovci"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.329218,
-          46.8200896
-        ],
-        "type": "Point"
-      },
-      "id": "SI43777",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7943777"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Hodoš"
           }
         ]
       },
@@ -14860,38 +16127,6 @@
     {
       "geometry": {
         "coordinates": [
-          13.9351781,
-          45.6036278
-        ],
-        "type": "Point"
-      },
-      "id": "SI44202",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7944202"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Hrpelje Kozina"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           13.9269282,
           45.700804
         ],
@@ -14948,38 +16183,6 @@
           {
             "lang": "sl",
             "value": "Rakitovec"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          13.7385807,
-          45.539055
-        ],
-        "type": "Point"
-      },
-      "id": "SI44352",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7944352"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Koper"
           }
         ]
       },
@@ -15460,38 +16663,6 @@
           {
             "lang": "sl",
             "value": "Kočna"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.2358994,
-          45.5691811
-        ],
-        "type": "Point"
-      },
-      "id": "SI44903",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q215"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.52
-            },
-            "value": "7944903"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "sl",
-            "value": "Ilirska Bistrica"
           }
         ]
       },

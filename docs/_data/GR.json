@@ -222,12 +222,12 @@
             "value": "Athina"
           },
           {
-            "lang": "arz",
-            "value": "محطة اثينس"
-          },
-          {
             "lang": "el",
             "value": "Σιδηροδρομικός σταθμός Αθήνας"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة اثينس"
           },
           {
             "lang": "de",
@@ -1496,6 +1496,142 @@
       "geometry": {
         "coordinates": [
           [
+            21.792640686035156,
+            40.29465103149414
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--ΚΟΖΑ-trainline-28213-Q98828632",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΚΟΖΑ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
+              }
+            ],
+            "value": "Q5412093"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
+              }
+            ],
+            "value": "28213"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
+              }
+            ],
+            "value": "7300558"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
+              }
+            ],
+            "value": "GRAAF"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
+              }
+            ],
+            "value": "7300009"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98828632"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {}
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Κοζάνη"
+          },
+          {
+            "lang": "en",
+            "value": "Kozani"
+          },
+          {
+            "lang": "ru",
+            "value": "Козани"
+          },
+          {
+            "value": "Kozani"
+          },
+          {
+            "lang": "en",
+            "value": "Kozani railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Kozani"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             22.434919357299805,
             38.89603042602539
           ]
@@ -2580,6 +2716,126 @@
       "geometry": {
         "coordinates": [
           [
+            22.090349197387695,
+            38.25497055053711
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΑΙΓΙ-Q99293491",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΑΙΓΙ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q99293491"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Αίγιο"
+          },
+          {
+            "lang": "en",
+            "value": "Aegion"
+          },
+          {
+            "lang": "en",
+            "value": "Aigio railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.540719985961914,
+            40.511661529541016
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΑΙΓΝ-Q98768991",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΑΙΓΝ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98768991"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Αιγίνιο"
+          },
+          {
+            "lang": "en",
+            "value": "Aiginio"
+          },
+          {
+            "lang": "en",
+            "value": "Aiginio railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             23.179859161376953,
             41.26237869262695
           ]
@@ -3150,6 +3406,92 @@
       "geometry": {
         "coordinates": [
           [
+            22.614349365234375,
+            37.47629928588867
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΑΝΔΣ-Q56398687",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q649278"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q21590091"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΑΝΔΣ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56398687"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ανδρίτσα"
+          },
+          {
+            "lang": "en",
+            "value": "Andritsa"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός Σταθμός Ανδρίτσας"
+          },
+          {
+            "lang": "en",
+            "value": "Andritsa Railway Station"
+          },
+          {
+            "lang": "tr",
+            "value": "Andritsa Tren İstasyonu"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             21.727310180664062,
             38.23908996582031
           ]
@@ -3223,6 +3565,165 @@
           {
             "lang": "en",
             "value": "Agios Andreas railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.208650588989258,
+            37.35783004760742
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΑΝΕΜ-Q56398707",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3332789"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3567063"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΑΝΕΜ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56398707"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ανεμοδούρι"
+          },
+          {
+            "lang": "en",
+            "value": "Anemodouri"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ανεμοδουρίου"
+          },
+          {
+            "lang": "en",
+            "value": "Anemodouri Railway Station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.72425651550293,
+            38.22410202026367
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΑΝΘΕ-Q87482024",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q12875753"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΑΝΘΕ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q87482024"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ανθεία"
+          },
+          {
+            "lang": "en",
+            "value": "Anthia"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ανθείας"
+          },
+          {
+            "lang": "en",
+            "value": "Antheias railway station"
           }
         ]
       },
@@ -3394,12 +3895,12 @@
             "value": "Argos Railway Station"
           },
           {
-            "lang": "es",
-            "value": "estación Árgos"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Árgos"
+          },
+          {
+            "lang": "es",
+            "value": "estación Árgos"
           }
         ]
       },
@@ -3475,6 +3976,162 @@
           {
             "lang": "en",
             "value": "Armenio railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.835050582885742,
+            40.79804992675781
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΑΡΝΙ-Q98581892",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q12275550"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3297728"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΑΡΝΙ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98581892"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Άρνισσα"
+          },
+          {
+            "lang": "en",
+            "value": "Arnissa"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός Σταθμός Άρνισσας"
+          },
+          {
+            "lang": "en",
+            "value": "Arnissa railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.28240966796875,
+            37.401649475097656
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΑΣΕΑ-Q56398754",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3539555"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q21589947"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΑΣΕΑ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56398754"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ασέα"
+          },
+          {
+            "lang": "en",
+            "value": "Asea"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός Σταθμός Ασέας"
+          },
+          {
+            "lang": "en",
+            "value": "Asea Railway Station"
           }
         ]
       },
@@ -4301,6 +4958,85 @@
       "geometry": {
         "coordinates": [
           [
+            23.779029846191406,
+            38.099239349365234
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΔΕΚΕ-Q5252797",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΔΕΚΕ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q22808404"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5252797"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Δεκέλεια"
+          },
+          {
+            "lang": "en",
+            "value": "Dekelia"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός Σταθμός Τατοΐου"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Δεκελείας"
+          },
+          {
+            "lang": "en",
+            "value": "Dekeleia railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             22.197980880737305,
             38.191749572753906
           ]
@@ -4895,6 +5631,147 @@
       "geometry": {
         "coordinates": [
           [
+            23.548749923706055,
+            38.04541015625
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΕΛΕΣ-Q56397083",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q16329869"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q204905"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΕΛΕΣ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q12144897"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56397083"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ελευσίνα"
+          },
+          {
+            "lang": "en",
+            "value": "Elefsina"
+          },
+          {
+            "lang": "en",
+            "value": "Elefsina railway station"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ελευσίνας"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.14463996887207,
+            38.21472930908203
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΕΛΙΚ-Q97215845",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΕΛΙΚ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97215845"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ελίκη"
+          },
+          {
+            "lang": "en",
+            "value": "Eliki"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ελίκης"
+          },
+          {
+            "lang": "en",
+            "value": "Eliki railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             22.140880584716797,
             40.68635940551758
           ]
@@ -5231,6 +6108,83 @@
           {
             "lang": "el",
             "value": "σιδηροδρομικός σταθμός  Θουρίου"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.718454360961914,
+            38.21194839477539
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΙΤΙΕ-Q87482093",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q12875753"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΙΤΙΕ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q87482093"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ιτιές"
+          },
+          {
+            "lang": "en",
+            "value": "Ities"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ιτεών"
+          },
+          {
+            "lang": "en",
+            "value": "Ities railway station"
           }
         ]
       },
@@ -6507,13 +7461,13 @@
       "geometry": {
         "coordinates": [
           [
-            21.792640686035156,
-            40.29465103149414
+            25.797679901123047,
+            40.97557067871094
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-ΚΟΖΑ-trainline-28213",
+      "id": "-ΚΙΡΚ-Q76377422",
       "properties": {
         "P17": [
           {
@@ -6526,69 +7480,77 @@
         ],
         "P296": [
           {
-            "value": "ΚΟΖΑ"
+            "value": "ΚΙΡΚ"
           }
         ],
-        "P421": [
+        "P31": [
           {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
-              }
-            ],
-            "value": "Q5412093"
+            "value": "Q55488"
           }
         ],
-        "P6724": [
+        "PWIKI": [
           {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
-              }
-            ],
-            "value": "28213"
+            "value": "Q76377422"
           }
         ],
-        "P722": [
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
           {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
-              }
-            ],
-            "value": "7300558"
-          }
-        ],
-        "P8448": [
+            "lang": "el",
+            "value": "Κίρκη"
+          },
           {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
-              }
-            ],
-            "value": "GRAAF"
+            "lang": "en",
+            "value": "Kirki"
+          },
+          {
+            "lang": "en",
+            "value": "Kirki railway station"
           }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.754650115966797,
+            40.46253967285156
+          ]
         ],
-        "P954": [
+        "type": "MultiPoint"
+      },
+      "id": "-ΚΟΜΑ-Q98914733",
+      "properties": {
+        "P17": [
           {
             "info": {
-              "reliability": 0.7000000000000001
+              "pregrouped": [],
+              "reliability": 0
             },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28213"
-              }
-            ],
-            "value": "7300009"
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΚΟΜΑ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98914733"
           }
         ],
         "info": {
@@ -6601,18 +7563,15 @@
         "labels": [
           {
             "lang": "el",
-            "value": "Κοζάνη"
+            "value": "Κόμανος"
           },
           {
             "lang": "en",
-            "value": "Kozani"
+            "value": "Komanos"
           },
           {
-            "lang": "ru",
-            "value": "Козани"
-          },
-          {
-            "value": "Kozani"
+            "lang": "en",
+            "value": "Mavrodendri railway station"
           }
         ]
       },
@@ -6703,19 +7662,74 @@
       "geometry": {
         "coordinates": [
           [
+            26.301279067993164,
+            41.15768814086914
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΚΟΡΝ-Q98558861",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΚΟΡΝ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98558861"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Κορνοφωλιά"
+          },
+          {
+            "lang": "en",
+            "value": "Kornofolia"
+          },
+          {
+            "lang": "en",
+            "value": "Kornofolia railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             22.577539443969727,
             40.3161506652832
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-ΚΟΡΟ-Q15116567",
+      "id": "-ΚΟΡΟ-Q97861233",
       "properties": {
-        "P131": [
-          {
-            "value": "Q1784437"
-          }
-        ],
         "P17": [
           {
             "info": {
@@ -6735,17 +7749,9 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
-          }
-        ],
         "PWIKI": [
           {
-            "value": "Q15116567"
+            "value": "Q97861233"
           }
         ],
         "info": {
@@ -6765,12 +7771,8 @@
             "value": "Korinos"
           },
           {
-            "lang": "pl",
-            "value": "Korinos"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Κορινού"
+            "lang": "en",
+            "value": "Korinos railway station"
           }
         ]
       },
@@ -7247,6 +8249,88 @@
           {
             "lang": "ru",
             "value": "Лианокладион"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.151639938354492,
+            37.334991455078125
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΛΕΟΝ-Q56398870",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3332789"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q21589891"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΛΕΟΝ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56398870"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Λεοντάρι"
+          },
+          {
+            "lang": "en",
+            "value": "Leontari"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Λεονταρίου"
+          },
+          {
+            "lang": "en",
+            "value": "Leontari Railway Station"
           }
         ]
       },
@@ -8004,6 +9088,88 @@
       "geometry": {
         "coordinates": [
           [
+            22.312410354614258,
+            37.40913009643555
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΜΑΝΑ-Q56398944",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3539555"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q6746963"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΜΑΝΑ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56398944"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Μανάρι"
+          },
+          {
+            "lang": "en",
+            "value": "Manari"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Μάναρη"
+          },
+          {
+            "lang": "en",
+            "value": "Manari Railway Station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             26.470088958740234,
             41.669071197509766
           ]
@@ -8357,6 +9523,86 @@
           {
             "lang": "en",
             "value": "Melissiatika railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.473289489746094,
+            40.79737091064453
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΜΕΣΟ-Q97656966",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΜΕΣΟ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97656966"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Μεσονήσιον"
+          },
+          {
+            "lang": "en",
+            "value": "Mesonision"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Μεσονησίου"
+          },
+          {
+            "lang": "en",
+            "value": "Mesonisi railway station"
+          },
+          {
+            "lang": "mk",
+            "value": "Железничка станица „Лажени“"
+          },
+          {
+            "lang": "mk",
+            "value": "ЖС „Лажени“"
           }
         ]
       },
@@ -9165,11 +10411,11 @@
           },
           {
             "lang": "en",
-            "value": "Mikrohelidou railway station"
+            "value": "Niamata railway station"
           },
           {
             "lang": "en",
-            "value": "Niamata railway station"
+            "value": "Mikrohelidou railway station"
           }
         ]
       },
@@ -9417,7 +10663,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-ΞΑΝΘ-Q18009324",
+      "id": "-ΞΑΝΘ-Q85816444",
       "properties": {
         "P17": [
           {
@@ -9438,17 +10684,9 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6723"
-          },
-          {
-            "value": "Q6760"
-          }
-        ],
         "PWIKI": [
           {
-            "value": "Q18009324"
+            "value": "Q85816444"
           }
         ],
         "info": {
@@ -9468,12 +10706,8 @@
             "value": "Xanthi"
           },
           {
-            "lang": "ru",
-            "value": "Ксанти"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Ξάνθης"
+            "lang": "en",
+            "value": "Xanthi railway station"
           }
         ]
       },
@@ -9699,14 +10933,6 @@
             "value": "Olympia"
           },
           {
-            "lang": "en",
-            "value": "Olympia train station"
-          },
-          {
-            "lang": "el",
-            "value": "Σιδηροδρομικός σταθμός Αρχαίας Ολυμπίας"
-          },
-          {
             "lang": "el",
             "value": "Σιδηροδρομικός σταθμός Ολυμπίας"
           },
@@ -9725,6 +10951,14 @@
           {
             "lang": "ru",
             "value": "Олимбия"
+          },
+          {
+            "lang": "en",
+            "value": "Olympia train station"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός σταθμός Αρχαίας Ολυμπίας"
           }
         ]
       },
@@ -9740,7 +10974,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-ΟΡΕΣ-Q18337772",
+      "id": "-ΟΡΕΣ-Q55627866",
       "properties": {
         "P17": [
           {
@@ -9759,6 +10993,9 @@
         "P31": [
           {
             "value": "Q55488"
+          },
+          {
+            "value": "Q22808404"
           }
         ],
         "P421": [
@@ -9771,7 +11008,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q18337772"
+            "value": "Q55627866"
           }
         ],
         "info": {
@@ -9791,8 +11028,94 @@
             "value": "Orestiada"
           },
           {
+            "lang": "en",
+            "value": "Orestiada railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            26.212129592895508,
+            41.72819900512695
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΟΡΜΕ-Q85791262",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q1786624"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P281": [
+          {
+            "value": "680 07"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΟΡΜΕ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q85791262"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
             "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Ορεστιάδας"
+            "value": "Ορμένιο"
+          },
+          {
+            "lang": "en",
+            "value": "Ormenio"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ορμενίου"
+          },
+          {
+            "lang": "en",
+            "value": "Ormenio railway station"
+          },
+          {
+            "lang": "ja",
+            "value": "オルメニオ駅"
           }
         ]
       },
@@ -9883,6 +11206,95 @@
       "geometry": {
         "coordinates": [
           [
+            23.13694953918457,
+            37.933170318603516
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΑΘΕ-Q55639124",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q2634125"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q393703"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΑΘΕ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q22808404"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q55639124"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Άγ. Θεόδωροι"
+          },
+          {
+            "lang": "en",
+            "value": "Ag. Theodoroi"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός σταθμός Αγίων Θεοδώρων Κορινθίας"
+          },
+          {
+            "lang": "en",
+            "value": "Agioi Theodoroi station"
+          },
+          {
+            "lang": "en",
+            "value": "Agioi Theodoroi railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             23.668190002441406,
             37.9622802734375
           ]
@@ -9940,20 +11352,16 @@
             "value": "Renti (A.I.R.)"
           },
           {
+            "lang": "fr",
+            "value": "Rentis"
+          },
+          {
             "lang": "el",
             "value": "Σιδηροδρομικός Σταθμός Ρέντη"
           },
           {
             "lang": "en",
             "value": "Agios Ioannis Rentis station"
-          },
-          {
-            "lang": "en",
-            "value": "Rentis railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "Rentis"
           },
           {
             "lang": "el",
@@ -9974,6 +11382,10 @@
           {
             "lang": "ru",
             "value": "Рендис"
+          },
+          {
+            "lang": "en",
+            "value": "Rentis railway station"
           },
           {
             "lang": "de",
@@ -10338,6 +11750,170 @@
       "geometry": {
         "coordinates": [
           [
+            22.07476043701172,
+            37.328468322753906
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΑΡΔ-Q56399203",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3332789"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q7134105"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΑΡΔ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56399203"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Παραδείσια"
+          },
+          {
+            "lang": "en",
+            "value": "Paradisia"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Παραδεισίων"
+          },
+          {
+            "lang": "en",
+            "value": "Paradeisia Railway Station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.51618003845215,
+            37.47509002685547
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΑΡΘ-Q56399276",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3539555"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q12883263"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΑΡΘ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56399276"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Παρθένι"
+          },
+          {
+            "lang": "en",
+            "value": "Partheni"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Παρθενίου"
+          },
+          {
+            "lang": "en",
+            "value": "Partheni Railway Station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             23.604230880737305,
             38.081058502197266
           ]
@@ -10426,6 +12002,155 @@
           {
             "lang": "fr",
             "value": "gare d'Aspropyrgos"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.833890914916992,
+            38.02473831176758
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΔΟΥ-Q5302218",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΔΟΥ"
+          },
+          {
+            "value": "DPL"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q928830"
+          },
+          {
+            "value": "Q22808404"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5302218"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Δουκίσσης Πλακεντίας"
+          },
+          {
+            "lang": "en",
+            "value": "Doukissis Plakentias"
+          },
+          {
+            "lang": "el",
+            "value": "Σταθμός \"Δουκίσσης Πλακεντίας\""
+          },
+          {
+            "lang": "el",
+            "value": "Σταθμός Δουκίσσης Πλακεντίας"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Δουκίσσης Πλακεντίας"
+          },
+          {
+            "lang": "en",
+            "value": "Doukissis Plakentias metro station"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Doukissis Plakentias"
+          },
+          {
+            "lang": "es",
+            "value": "Estación de Doukissis Plakentias"
+          },
+          {
+            "lang": "fi",
+            "value": "Doukíssis Plakentías"
+          },
+          {
+            "lang": "fr",
+            "value": "Doukissis Plakentias"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Doukissis Plakentias"
+          },
+          {
+            "lang": "pl",
+            "value": "Doukisis Plakendias"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Doukissis Plakentias"
+          },
+          {
+            "lang": "ru",
+            "value": "Дукисис-Плакендиас"
+          },
+          {
+            "lang": "zh",
+            "value": "愉快公爵夫人站"
+          },
+          {
+            "lang": "zh",
+            "value": "愉悅公爵夫人站"
+          },
+          {
+            "lang": "zh",
+            "value": "皮亚琴察公爵夫人站"
+          },
+          {
+            "lang": "zh",
+            "value": "皮亞琴察公爵夫人站"
+          },
+          {
+            "lang": "zh-cn",
+            "value": "皮亚琴察公爵夫人站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "皮亚琴察公爵夫人站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "皮亞琴察公爵夫人站"
           }
         ]
       },
@@ -10604,6 +12329,78 @@
       "geometry": {
         "coordinates": [
           [
+            26.27511978149414,
+            40.9569206237793
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΕΠΛ-Q85792785",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΕΠΛ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q85792785"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Πέπλος"
+          },
+          {
+            "lang": "en",
+            "value": "Peplos"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Πέπλου"
+          },
+          {
+            "lang": "en",
+            "value": "Peplos railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             26.611080169677734,
             41.339019775390625
           ]
@@ -10663,6 +12460,77 @@
           {
             "lang": "el",
             "value": "σιδηροδρομικός σταθμός Πετράδων"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.805639266967773,
+            37.92594909667969
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΖΕΥ-Q55642756",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΖΕΥ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q22808404"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q55642756"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ζευγολατειό Κορινθίας"
+          },
+          {
+            "lang": "en",
+            "value": "Zevgolateio Korinthias"
+          },
+          {
+            "lang": "en",
+            "value": "Zevgolatio railway station"
           }
         ]
       },
@@ -10739,6 +12607,82 @@
           {
             "lang": "it",
             "value": "stazione di Irakleio"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.803659439086914,
+            38.04206848144531
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΚΗΦ-Q6405881",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΚΗΦ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q6405881"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Κηφισίας"
+          },
+          {
+            "lang": "en",
+            "value": "Kifisias"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Λεωφόρου Κηφισίας"
+          },
+          {
+            "lang": "en",
+            "value": "Kifisias Avenue station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Kifisias"
           }
         ]
       },
@@ -11024,16 +12968,16 @@
             "value": "Koropi"
           },
           {
+            "lang": "pt",
+            "value": "Estação Koropi"
+          },
+          {
             "lang": "el",
             "value": "Σταθμός Κορωπί"
           },
           {
             "lang": "el",
             "value": "Σταθμός Κορωπίου"
-          },
-          {
-            "lang": "pt",
-            "value": "Estação Koropi"
           },
           {
             "lang": "el",
@@ -11456,6 +13400,91 @@
       "geometry": {
         "coordinates": [
           [
+            23.36100959777832,
+            37.99081039428711
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΠΜΕΓ-Q6808823",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q12875720"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q184864"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΠΜΕΓ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q22808404"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q6808823"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Μέγαρα"
+          },
+          {
+            "lang": "en",
+            "value": "Megara"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Μεγάρων"
+          },
+          {
+            "lang": "en",
+            "value": "Megara railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             23.755840301513672,
             38.0601692199707
           ]
@@ -11713,12 +13742,12 @@
             "value": "Nerantzjotisa"
           },
           {
-            "lang": "el",
-            "value": "Σιδηροδρομικός Σταθμός Νερατζιώτισσας"
-          },
-          {
             "lang": "ru",
             "value": "Нерандзиотиса"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός Σταθμός Νερατζιώτισσας"
           },
           {
             "lang": "uk",
@@ -11934,12 +13963,12 @@
             "value": "Palini"
           },
           {
-            "lang": "ru",
-            "value": "Палини"
-          },
-          {
             "lang": "pt",
             "value": "Estação Pallini"
+          },
+          {
+            "lang": "ru",
+            "value": "Палини"
           }
         ]
       },
@@ -12865,6 +14894,152 @@
       "geometry": {
         "coordinates": [
           [
+            22.195560455322266,
+            37.34566116333008
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΡΟΥΤ-Q56399343",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3332789"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q7371629"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΡΟΥΤ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56399343"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ρούτσι"
+          },
+          {
+            "lang": "en",
+            "value": "Routsi"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ρουτσίου"
+          },
+          {
+            "lang": "en",
+            "value": "Routsi Railway Station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.140640258789062,
+            38.21623992919922
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΡΥΖΟ-Q97215845",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΡΥΖΟ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97215845"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ρυζόμυλος"
+          },
+          {
+            "lang": "en",
+            "value": "Ryzomylos"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Ελίκης"
+          },
+          {
+            "lang": "en",
+            "value": "Eliki railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             26.531940460205078,
             41.53900146484375
           ]
@@ -13074,6 +15249,75 @@
           {
             "lang": "en",
             "value": "Sidirokastro"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Σιδηροκάστρου"
+          },
+          {
+            "lang": "en",
+            "value": "Sidirokastro railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.725210189819336,
+            37.288658142089844
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΣΙΔΡ-Q98554034",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q2117544"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΣΙΔΡ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98554034"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": false
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Σιδηρόκαστρο Πελοποννήσου"
+          },
+          {
+            "lang": "en",
+            "value": "Sidirokastro of Peloponnisos"
           },
           {
             "lang": "el",
@@ -13336,6 +15580,99 @@
           {
             "lang": "el",
             "value": "σιδηροδρομικός σταθμός Σκοτούσσας"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.15760040283203,
+            40.76808166503906
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΣΚΥΔ-Q52683124",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3559728"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q1195159"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΣΚΥΔ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q41176"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q52683124"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Σκύδρα"
+          },
+          {
+            "lang": "en",
+            "value": "Skydra"
+          },
+          {
+            "lang": "bg",
+            "value": "Стара Въртокопска гара"
+          },
+          {
+            "lang": "en",
+            "value": "Old Skydra Train Station"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός σταθμός Σκύδρας"
+          },
+          {
+            "lang": "el",
+            "value": "Παλιός σιδηροδρομικός σταθμός Σκύδρας"
           }
         ]
       },
@@ -13755,6 +16092,78 @@
           {
             "lang": "el",
             "value": "σιδηροδρομικός σταθμός  Στυλίδας"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            25.720279693603516,
+            40.97438049316406
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΣΥΚΟ-Q86754546",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΣΥΚΟ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q86754546"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Συκορράχη"
+          },
+          {
+            "lang": "en",
+            "value": "Sykorrachi"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Συκορράχης"
+          },
+          {
+            "lang": "en",
+            "value": "Sykorrachi railway station"
           }
         ]
       },
@@ -14778,6 +17187,66 @@
       "geometry": {
         "coordinates": [
           [
+            26.25349998474121,
+            41.71717834472656
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΦΤΕΛ-Q97172544",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΦΤΕΛ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97172544"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Πτελέα"
+          },
+          {
+            "lang": "en",
+            "value": "Ptelea"
+          },
+          {
+            "lang": "en",
+            "value": "Ftelia railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             26.279359817504883,
             41.052860260009766
           ]
@@ -15769,6 +18238,66 @@
     {
       "geometry": {
         "coordinates": [
+          [
+            26.491899490356445,
+            41.3254508972168
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-ΨΑΘΑ-Q98560210",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q41"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ΨΑΘΑ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q98560210"
+          }
+        ],
+        "info": {
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
+        },
+        "labels": [
+          {
+            "lang": "el",
+            "value": "Ψαθάδες"
+          },
+          {
+            "lang": "en",
+            "value": "Psathades"
+          },
+          {
+            "lang": "en",
+            "value": "Psathades railway station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           22.791189193725586,
           37.805030822753906
         ],
@@ -16300,78 +18829,6 @@
     {
       "geometry": {
         "coordinates": [
-          22.090349197387695,
-          38.25497055053711
-        ],
-        "type": "Point"
-      },
-      "id": "ΑΙΓΙ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΑΙΓΙ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Αίγιο"
-          },
-          {
-            "lang": "en",
-            "value": "Aegion"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.540719985961914,
-          40.511661529541016
-        ],
-        "type": "Point"
-      },
-      "id": "ΑΙΓΝ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΑΙΓΝ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Αιγίνιο"
-          },
-          {
-            "lang": "en",
-            "value": "Aiginio"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.385700225830078,
           37.677860260009766
         ],
@@ -16840,114 +19297,6 @@
     {
       "geometry": {
         "coordinates": [
-          22.614349365234375,
-          37.47629928588867
-        ],
-        "type": "Point"
-      },
-      "id": "ΑΝΔΣ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΑΝΔΣ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ανδρίτσα"
-          },
-          {
-            "lang": "en",
-            "value": "Andritsa"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.208650588989258,
-          37.35783004760742
-        ],
-        "type": "Point"
-      },
-      "id": "ΑΝΕΜ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΑΝΕΜ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ανεμοδούρι"
-          },
-          {
-            "lang": "en",
-            "value": "Anemodouri"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.72425651550293,
-          38.22410202026367
-        ],
-        "type": "Point"
-      },
-      "id": "ΑΝΘΕ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΑΝΘΕ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ανθεία"
-          },
-          {
-            "lang": "en",
-            "value": "Anthia"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           22.135679244995117,
           37.368228912353516
         ],
@@ -17308,42 +19657,6 @@
     {
       "geometry": {
         "coordinates": [
-          21.835050582885742,
-          40.79804992675781
-        ],
-        "type": "Point"
-      },
-      "id": "ΑΡΝΙ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΑΡΝΙ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Άρνισσα"
-          },
-          {
-            "lang": "en",
-            "value": "Arnissa"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           22.413360595703125,
           38.802364349365234
         ],
@@ -17372,42 +19685,6 @@
           {
             "lang": "en",
             "value": "Arpini"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.28240966796875,
-          37.401649475097656
-        ],
-        "type": "Point"
-      },
-      "id": "ΑΣΕΑ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΑΣΕΑ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ασέα"
-          },
-          {
-            "lang": "en",
-            "value": "Asea"
           }
         ]
       },
@@ -19387,42 +21664,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.779029846191406,
-          38.099239349365234
-        ],
-        "type": "Point"
-      },
-      "id": "ΔΕΚΕ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΔΕΚΕ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Δεκέλεια"
-          },
-          {
-            "lang": "en",
-            "value": "Dekelia"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.318870544433594,
           37.74483871459961
         ],
@@ -20032,42 +22273,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.548749923706055,
-          38.04541015625
-        ],
-        "type": "Point"
-      },
-      "id": "ΕΛΕΣ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΕΛΕΣ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ελευσίνα"
-          },
-          {
-            "lang": "en",
-            "value": "Elefsina"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           23.439149856567383,
           38.37485122680664
         ],
@@ -20132,42 +22337,6 @@
           {
             "lang": "en",
             "value": "Elia"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.14463996887207,
-          38.21472930908203
-        ],
-        "type": "Point"
-      },
-      "id": "ΕΛΙΚ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΕΛΙΚ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ελίκη"
-          },
-          {
-            "lang": "en",
-            "value": "Eliki"
           }
         ]
       },
@@ -20816,42 +22985,6 @@
           {
             "lang": "en",
             "value": "Isthmos"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.718454360961914,
-          38.21194839477539
-        ],
-        "type": "Point"
-      },
-      "id": "ΙΤΙΕ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΙΤΙΕ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ιτιές"
-          },
-          {
-            "lang": "en",
-            "value": "Ities"
           }
         ]
       },
@@ -21940,42 +24073,6 @@
     {
       "geometry": {
         "coordinates": [
-          25.797679901123047,
-          40.97557067871094
-        ],
-        "type": "Point"
-      },
-      "id": "ΚΙΡΚ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΚΙΡΚ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Κίρκη"
-          },
-          {
-            "lang": "en",
-            "value": "Kirki"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.632999420166016,
           40.74330139160156
         ],
@@ -22156,42 +24253,6 @@
     {
       "geometry": {
         "coordinates": [
-          21.754650115966797,
-          40.46253967285156
-        ],
-        "type": "Point"
-      },
-      "id": "ΚΟΜΑ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΚΟΜΑ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Κόμανος"
-          },
-          {
-            "lang": "en",
-            "value": "Komanos"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           24.70599937438965,
           41.172908782958984
         ],
@@ -22328,42 +24389,6 @@
           {
             "lang": "en",
             "value": "Korinthos, old station"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          26.301279067993164,
-          41.15768814086914
-        ],
-        "type": "Point"
-      },
-      "id": "ΚΟΡΝ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΚΟΡΝ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Κορνοφωλιά"
-          },
-          {
-            "lang": "en",
-            "value": "Kornofolia"
           }
         ]
       },
@@ -23407,42 +25432,6 @@
     {
       "geometry": {
         "coordinates": [
-          22.151639938354492,
-          37.334991455078125
-        ],
-        "type": "Point"
-      },
-      "id": "ΛΕΟΝ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΛΕΟΝ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Λεοντάρι"
-          },
-          {
-            "lang": "en",
-            "value": "Leontari"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.95701026916504,
           42.99652862548828
         ],
@@ -24019,42 +26008,6 @@
     {
       "geometry": {
         "coordinates": [
-          22.312410354614258,
-          37.40913009643555
-        ],
-        "type": "Point"
-      },
-      "id": "ΜΑΝΑ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΜΑΝΑ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Μανάρι"
-          },
-          {
-            "lang": "en",
-            "value": "Manari"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           26.33296012878418,
           41.26564025878906
         ],
@@ -24371,42 +26324,6 @@
           {
             "lang": "en",
             "value": "Mesi Veroias"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.473289489746094,
-          40.79737091064453
-        ],
-        "type": "Point"
-      },
-      "id": "ΜΕΣΟ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΜΕΣΟ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Μεσονήσιον"
-          },
-          {
-            "lang": "en",
-            "value": "Mesonision"
           }
         ]
       },
@@ -25675,42 +27592,6 @@
     {
       "geometry": {
         "coordinates": [
-          26.212129592895508,
-          41.72819900512695
-        ],
-        "type": "Point"
-      },
-      "id": "ΟΡΜΕ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΟΡΜΕ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ορμένιο"
-          },
-          {
-            "lang": "en",
-            "value": "Ormenio"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.504159927368164,
           40.84392166137695
         ],
@@ -25775,42 +27656,6 @@
           {
             "lang": "en",
             "value": "Athens Airport (AIA)"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.13694953918457,
-          37.933170318603516
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΑΘΕ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΑΘΕ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Άγ. Θεόδωροι"
-          },
-          {
-            "lang": "en",
-            "value": "Ag. Theodoroi"
           }
         ]
       },
@@ -25999,78 +27844,6 @@
     {
       "geometry": {
         "coordinates": [
-          22.07476043701172,
-          37.328468322753906
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΑΡΔ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΑΡΔ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Παραδείσια"
-          },
-          {
-            "lang": "en",
-            "value": "Paradisia"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.51618003845215,
-          37.47509002685547
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΑΡΘ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΑΡΘ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Παρθένι"
-          },
-          {
-            "lang": "en",
-            "value": "Partheni"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           22.650400161743164,
           38.6172981262207
         ],
@@ -26251,42 +28024,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.833890914916992,
-          38.02473831176758
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΔΟΥ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΔΟΥ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Δουκίσσης Πλακεντίας"
-          },
-          {
-            "lang": "en",
-            "value": "Doukissis Plakentias"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.58997917175293,
           37.672149658203125
         ],
@@ -26351,42 +28088,6 @@
           {
             "lang": "en",
             "value": "Pendavryssos"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          26.27511978149414,
-          40.9569206237793
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΕΠΛ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΕΠΛ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Πέπλος"
-          },
-          {
-            "lang": "en",
-            "value": "Peplos"
           }
         ]
       },
@@ -26503,42 +28204,6 @@
     {
       "geometry": {
         "coordinates": [
-          22.805639266967773,
-          37.92594909667969
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΖΕΥ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΖΕΥ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ζευγολατειό Κορινθίας"
-          },
-          {
-            "lang": "en",
-            "value": "Zevgolateio Korinthias"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           22.53856086730957,
           38.104530334472656
         ],
@@ -26567,42 +28232,6 @@
           {
             "lang": "en",
             "value": "Pitsa Patron"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.803659439086914,
-          38.04206848144531
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΚΗΦ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΚΗΦ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Κηφισίας"
-          },
-          {
-            "lang": "en",
-            "value": "Kifisias"
           }
         ]
       },
@@ -26783,42 +28412,6 @@
           {
             "lang": "en",
             "value": "Platanos Olympias"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.36100959777832,
-          37.99081039428711
-        ],
-        "type": "Point"
-      },
-      "id": "ΠΜΕΓ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΠΜΕΓ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Μέγαρα"
-          },
-          {
-            "lang": "en",
-            "value": "Megara"
           }
         ]
       },
@@ -27655,78 +29248,6 @@
     {
       "geometry": {
         "coordinates": [
-          22.195560455322266,
-          37.34566116333008
-        ],
-        "type": "Point"
-      },
-      "id": "ΡΟΥΤ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΡΟΥΤ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ρούτσι"
-          },
-          {
-            "lang": "en",
-            "value": "Routsi"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.140640258789062,
-          38.21623992919922
-        ],
-        "type": "Point"
-      },
-      "id": "ΡΥΖΟ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΡΥΖΟ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ρυζόμυλος"
-          },
-          {
-            "lang": "en",
-            "value": "Ryzomylos"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.80115509033203,
           37.29003143310547
         ],
@@ -28078,42 +29599,6 @@
     {
       "geometry": {
         "coordinates": [
-          21.725210189819336,
-          37.288658142089844
-        ],
-        "type": "Point"
-      },
-      "id": "ΣΙΔΡ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΣΙΔΡ"
-          }
-        ],
-        "info": {
-          "enabled": false
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Σιδηρόκαστρο Πελοποννήσου"
-          },
-          {
-            "lang": "en",
-            "value": "Sidirokastro of Peloponnisos"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.43787956237793,
           43.720741271972656
         ],
@@ -28322,42 +29807,6 @@
           {
             "lang": "en",
             "value": "Skourochori"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.15760040283203,
-          40.76808166503906
-        ],
-        "type": "Point"
-      },
-      "id": "ΣΚΥΔ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΣΚΥΔ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Σκύδρα"
-          },
-          {
-            "lang": "en",
-            "value": "Skydra"
           }
         ]
       },
@@ -28790,42 +30239,6 @@
           {
             "lang": "en",
             "value": "Sykia"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          25.720279693603516,
-          40.97438049316406
-        ],
-        "type": "Point"
-      },
-      "id": "ΣΥΚΟ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΣΥΚΟ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Συκορράχη"
-          },
-          {
-            "lang": "en",
-            "value": "Sykorrachi"
           }
         ]
       },
@@ -29546,42 +30959,6 @@
           {
             "lang": "en",
             "value": "Foyfas"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          26.25349998474121,
-          41.71717834472656
-        ],
-        "type": "Point"
-      },
-      "id": "ΦΤΕΛ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΦΤΕΛ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Πτελέα"
-          },
-          {
-            "lang": "en",
-            "value": "Ptelea"
           }
         ]
       },
@@ -30603,42 +31980,6 @@
           {
             "lang": "en",
             "value": "Nafpigeia Schistou"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          26.491899490356445,
-          41.3254508972168
-        ],
-        "type": "Point"
-      },
-      "id": "ΨΑΘΑ",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q41"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ΨΑΘΑ"
-          }
-        ],
-        "info": {
-          "enabled": true
-        },
-        "labels": [
-          {
-            "lang": "el",
-            "value": "Ψαθάδες"
-          },
-          {
-            "lang": "en",
-            "value": "Psathades"
           }
         ]
       },

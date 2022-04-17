@@ -144,40 +144,12 @@
             "value": "Riga"
           },
           {
-            "lang": "it",
-            "value": "Stazione centrale di Riga"
-          },
-          {
-            "lang": "lv",
-            "value": "Rīga"
-          },
-          {
-            "lang": "lv",
-            "value": "Stacijas laukums"
-          },
-          {
             "lang": "arz",
             "value": "محطة ريجا سينترال"
           },
           {
             "lang": "da",
-            "value": "Riga Hovedbanegård"
-          },
-          {
-            "lang": "de",
-            "value": "Hauptbahnhof Riga"
-          },
-          {
-            "lang": "da",
             "value": "Riga Centralstation"
-          },
-          {
-            "lang": "de",
-            "value": "Riga Pass"
-          },
-          {
-            "lang": "de",
-            "value": "Zentralbahnhof Riga"
           },
           {
             "lang": "de",
@@ -186,10 +158,6 @@
           {
             "lang": "en",
             "value": "Riga Central Station"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Riga"
           },
           {
             "lang": "es",
@@ -210,6 +178,38 @@
           {
             "lang": "fr",
             "value": "gare centrale de Riga"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione centrale di Riga"
+          },
+          {
+            "lang": "lv",
+            "value": "Rīga"
+          },
+          {
+            "lang": "lv",
+            "value": "Stacijas laukums"
+          },
+          {
+            "lang": "da",
+            "value": "Riga Hovedbanegård"
+          },
+          {
+            "lang": "de",
+            "value": "Hauptbahnhof Riga"
+          },
+          {
+            "lang": "de",
+            "value": "Riga Pass"
+          },
+          {
+            "lang": "de",
+            "value": "Zentralbahnhof Riga"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Riga"
           },
           {
             "lang": "ja",
@@ -289,8 +289,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-LV1010100000-Q111304812",
+      "id": "-LV1010100000-Q7920360",
       "properties": {
+        "P131": [
+          {
+            "value": "Q104036"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -300,14 +305,29 @@
             "value": "Q211"
           }
         ],
+        "P2815": [
+          {
+            "value": "098206"
+          }
+        ],
         "P31": [
           {
             "value": "Q55488"
           }
         ],
+        "P6375": [
+          {
+            "value": "Dzelzceļnieku iela 1; Depo iela 11A"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2500375"
+          }
+        ],
         "PWIKI": [
           {
-            "value": "Q111304812"
+            "value": "Q7920360"
           }
         ],
         "labels": [
@@ -315,20 +335,188 @@
             "value": "Ventspils"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Ventspils-Dienvidi"
-          },
-          {
             "lang": "en",
-            "value": "Ventspils-Dienvidi railway station"
+            "value": "Ventspils I Station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Ventspils-Dienvidi"
+            "lang": "lv",
+            "value": "Ventspils (stacija)"
           },
           {
             "lang": "nl",
-            "value": "station Ventspils-Dienvidi"
+            "value": "station Ventspils"
+          },
+          {
+            "lang": "pl",
+            "value": "Ventspils I"
+          },
+          {
+            "lang": "ru",
+            "value": "Вентспилс"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.1154,
+            56.9599
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-LV1020100000-Q6111863",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q636935"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q211"
+          }
+        ],
+        "P2815": [
+          {
+            "value": "097504"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2500256"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q6111863"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Tukums II"
+          },
+          {
+            "lang": "en",
+            "value": "Tukums II Station"
+          },
+          {
+            "lang": "lv",
+            "value": "Tukums 2"
+          },
+          {
+            "lang": "lv",
+            "value": "Tukums II"
+          },
+          {
+            "lang": "pl",
+            "value": "Tukums II"
+          },
+          {
+            "lang": "ru",
+            "value": "Тукумс II"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.7321,
+            56.6407
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-LV1030100000-Q5244309",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q179830"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q211"
+          }
+        ],
+        "P2815": [
+          {
+            "value": "091809"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2500335"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5244309"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Jelgava"
+          },
+          {
+            "lang": "lv",
+            "value": "Jelgava"
+          },
+          {
+            "lang": "pl",
+            "value": "Jelgava"
+          },
+          {
+            "lang": "ru",
+            "value": "Елгава"
+          },
+          {
+            "lang": "en",
+            "value": "Jelgava Station"
+          },
+          {
+            "lang": "et",
+            "value": "Jelgava raudteejaam"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Jelgava"
+          },
+          {
+            "lang": "lt",
+            "value": "Jelgavos GS"
+          },
+          {
+            "lang": "lv",
+            "value": "Jelgava I"
+          },
+          {
+            "lang": "lt",
+            "value": "Jelgavos geležinkelio stotis"
           }
         ]
       },
@@ -533,6 +721,61 @@
           {
             "lang": "ru",
             "value": "Даугавпилс"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            27.5408,
+            55.8763
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-LV1051000000-Q65297719",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q211"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q65297719"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Indra"
+          },
+          {
+            "lang": "en",
+            "value": "Indra railway station"
+          },
+          {
+            "lang": "pl",
+            "value": "Indra (stacja kolejowa)"
+          },
+          {
+            "lang": "lv",
+            "value": "Indra"
+          },
+          {
+            "lang": "ru",
+            "value": "Индра"
           }
         ]
       },
@@ -894,6 +1137,163 @@
       "geometry": {
         "coordinates": [
           [
+            23.4948,
+            56.5998
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-LV1150100000-Q5573710",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q4140206"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q211"
+          }
+        ],
+        "P2815": [
+          {
+            "value": "092801"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2500275"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5573710"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Glūda"
+          },
+          {
+            "lang": "lv",
+            "value": "Glūda"
+          },
+          {
+            "lang": "fr",
+            "value": "Glūda"
+          },
+          {
+            "lang": "en",
+            "value": "Glūda Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Glūda"
+          },
+          {
+            "lang": "ru",
+            "value": "Глуда"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.0172,
+            56.5242
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-LV1151100000-Q5244326",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q167668"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q211"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q494829"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5244326"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Liepāja"
+          },
+          {
+            "lang": "ru",
+            "value": "Лиепая"
+          },
+          {
+            "lang": "en",
+            "value": "Liepāja Station"
+          },
+          {
+            "lang": "et",
+            "value": "Liepāja raudteejaam"
+          },
+          {
+            "lang": "lt",
+            "value": "Liepojos GS"
+          },
+          {
+            "lang": "lv",
+            "value": "Liepājas dzelzceļa stacija"
+          },
+          {
+            "lang": "lt",
+            "value": "Liepojos geležinkelio stotis"
+          },
+          {
+            "lang": "lv",
+            "value": "Liepāja"
+          },
+          {
+            "lang": "pl",
+            "value": "Liepāja"
+          },
+          {
+            "lang": "lv",
+            "value": "Liepājas autoosta"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             24.5094,
             57.0645
           ]
@@ -957,10 +1357,6 @@
             "value": "Krievupe raudteejaam"
           },
           {
-            "lang": "en",
-            "value": "Krievupe"
-          },
-          {
             "lang": "lv",
             "value": "Krievupe (stacija)"
           },
@@ -970,6 +1366,10 @@
           },
           {
             "lang": "pl",
+            "value": "Krievupe"
+          },
+          {
+            "lang": "en",
             "value": "Krievupe"
           }
         ]
@@ -1519,75 +1919,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.1154,
-          56.9599
-        ],
-        "type": "Point"
-      },
-      "id": "LV1020100000",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q211"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Tukums II"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.7321,
-          56.6407
-        ],
-        "type": "Point"
-      },
-      "id": "LV1030100000",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q211"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Jelgava"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          27.5408,
-          55.8763
-        ],
-        "type": "Point"
-      },
-      "id": "LV1051000000",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q211"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Indra"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           26.5366,
           55.9021
         ],
@@ -1603,52 +1934,6 @@
         "labels": [
           {
             "value": "Daugavpils Šķirotava"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.4948,
-          56.5998
-        ],
-        "type": "Point"
-      },
-      "id": "LV1150100000",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q211"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Glūda"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.0172,
-          56.5242
-        ],
-        "type": "Point"
-      },
-      "id": "LV1151100000",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q211"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Liepāja"
           }
         ]
       },
