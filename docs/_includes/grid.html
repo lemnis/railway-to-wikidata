@@ -1,0 +1,158 @@
+<script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.js"></script>
+<div
+  id="myGrid"
+  style="width: 100%; height: 90vh"
+  class="ag-theme-alpine"
+></div>
+
+<script>
+  const valueFormatter = function (params) {
+    return params.value?.map(({ value }) => value).join(", ") || '';
+  };
+
+  class CustomTooltip {
+    init(params) {
+      const eGui = (this.eGui = document.createElement("div"));
+      const color = params.color || "lightgrey";
+      const data = params.api.getDisplayedRowAtIndex(params.rowIndex).data;
+
+      eGui.classList.add("custom-tooltip");
+      //@ts-ignore
+      eGui.style["background-color"] = color;
+      eGui.style.padding = "1em";
+      eGui.innerHTML = params.value
+        .sort((a, b) => a.value.localeCompare(b.value))
+        .map(({ value, lang }) => (lang ? `${value} (${lang})` : value))
+        .join("<br />");
+    }
+
+    getGui() {
+      return this.eGui;
+    }
+  }
+
+  const columnDefs = [
+    {
+      field: "labels",
+      valueFormatter: (params) => {
+        return params.value?.[0]?.value || '';
+      },
+      tooltipField: "labels",
+      tooltipComponent: CustomTooltip,
+    },
+    {
+      headerName: "DB",
+      field: "P8671",
+      cellRenderer: (params) => {
+        var eGui = document.createElement("span");
+        eGui.innerHTML = params.value
+          ?.map(({ value }) => value)
+          .filter(Boolean)
+          .map(
+            (i) =>
+              `<a href="https://iris.noncd.db.de/wbt/js/index.html?bhf=${i}" target="_blank">${i}</a>`
+          ) || '';
+        return eGui;
+      },
+    },
+    {
+      headerName: "IBNR",
+      field: "P954",
+      valueFormatter,
+    },
+    {
+      headerName: "UIC",
+      field: "P722",
+      valueFormatter,
+    },
+    {
+      headerName: "Benerail",
+      field: "P8448",
+      cellRenderer: (params) => {
+        var eGui = document.createElement("span");
+        eGui.innerHTML = params.value
+          ?.map(({ value }) => value)
+          .filter(Boolean)
+          .map(
+            (i) =>
+              `<a href="https://www.b-europe.com/EN/Booking/Tickets?autoactivatestep2=true&origin=${i}" target="_blank">${i}</a>`
+          ) || '';
+        return eGui;
+      },
+    },
+    {
+      headerName: "ATOC",
+      field: "P4755",
+      valueFormatter,
+    },
+    {
+      headerName: "Trainline",
+      field: "P6724",
+      cellRenderer: (params) => {
+        var eGui = document.createElement("span");
+        eGui.innerHTML = params.value
+          ?.map(({ value }) => value)
+          .filter(Boolean)
+          .map(
+            (i) =>
+              `<a href="https://trainline-eu.github.io/stations-studio/#/station/${i}" target="_blank">${i}</a>`
+          ) || '';
+        return eGui;
+      },
+    },
+    {
+      headerName: "SNCF",
+      field: "P8181",
+      valueFormatter,
+    },
+    {
+      headerName: "Wikidata",
+      field: "PWIKI",
+      cellRenderer: (params) => {
+        var eGui = document.createElement("span");
+        eGui.innerHTML = params.value
+          ?.map(({ value }) => value)
+          .filter(Boolean)
+          .map(
+            (i) =>
+              `<a href="https://www.wikidata.org/wiki/${i}" target="_blank">${i}</a>`
+          ) || '';
+        return eGui;
+      },
+    },
+    // {
+    //   headerName: 'IATA',
+    //   field: "P238",
+    //   valueFormatter
+    // },
+    // {
+    //   headerName: 'Gares & Connexions',
+    //   field: "P3104",
+    //   valueFormatter
+    // },
+    // {
+    //   headerName: 'ESR',
+    //   field: "P2815",
+    //   valueFormatter
+    // },
+  ];
+
+  // specify the data
+  const rowData = points.features.map((i) => i.properties);
+
+  // let the grid know which columns and what data to use
+  const gridOptions = {
+    columnDefs,
+    defaultColDef: {
+      flex: 1,
+      minWidth: 120,
+      sortable: true,
+      filter: true,
+    },
+    rowData,
+  };
+
+  // setup the grid after the page has finished loading
+  const gridDiv = document.querySelector("#myGrid");
+  new agGrid.Grid(gridDiv, gridOptions);
+</script>

@@ -3,6 +3,10 @@ layout: "page"
 title: "railway-to-wikidata"
 ---
 
+# Status
+
+Work in progress, it is roughly 90% done. I don't have a direct timeline when and if this project will be finished... For some countries the data is almost fully valid where for other countries a alot can still be improved.
+
 # Goal
 
 The goal of this project to get a complete overview of all **in-use** & **public** railway locations with its corresponding IDs of different systems.
@@ -29,6 +33,7 @@ Often the internal IDs of a data source are based off the UIC code, as such it i
 - Fix locations without a country
 - Improve scoring system by creating a flexible maximum score
 - Ignore [UIC reservation codes](https://www.wikidata.org/wiki/Property_talk:P722#Which_UIC_code?)
+- Add functionality to update wikidata items with gathered data.
 
 ## Resources that can help find new data sources
 
@@ -40,3 +45,9 @@ Often the internal IDs of a data source are based off the UIC code, as such it i
 - [https://github.com/WSDOT-GIS/GTFS-JS/blob/master/agencies.json](https://github.com/WSDOT-GIS/GTFS-JS/blob/master/agencies.json)
 - [https://rail.cc/train-company](https://rail.cc/train-company)
 - [http://www.projectmapping.co.uk/rail_maps_diagrams.html](http://www.projectmapping.co.uk/rail_maps_diagrams.html)
+
+<!-- https://www.sncf-connect.com/app/en-en/home/search?destinationLabel=Deurne&destinationId=RESARAIL_STA_NLDEU -->
+<!-- https://www.sncf-connect.com/app/en-en/home/search?destinationLabel=Malaga&destinationId=RESARAIL_STA_ESAGP -->
+<!-- https://www.sncf-connect.com/app/en-en/home/search?destinationLabel=Fuengirola&destinationId=CITY_ES_2517595 -->
+
+<!-- https://www.michaeldittrich.de/ibnr/index.php -->
