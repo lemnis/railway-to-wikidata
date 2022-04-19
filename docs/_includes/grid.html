@@ -41,6 +41,21 @@
       tooltipComponent: CustomTooltip,
     },
     {
+      headerName: "Station Code",
+      field: "P296",
+      valueFormatter,
+    },
+    {
+      headerName: "UIC",
+      field: "P722",
+      valueFormatter,
+    },
+    {
+      headerName: "IBNR",
+      field: "P954",
+      valueFormatter,
+    },
+    {
       headerName: "DB",
       field: "P8671",
       cellRenderer: (params) => {
@@ -54,16 +69,6 @@
           ) || '';
         return eGui;
       },
-    },
-    {
-      headerName: "IBNR",
-      field: "P954",
-      valueFormatter,
-    },
-    {
-      headerName: "UIC",
-      field: "P722",
-      valueFormatter,
     },
     {
       headerName: "Benerail",
