@@ -1,4 +1,5 @@
 import { Country } from "../../transform/country";
+import { Language } from "../../transform/language";
 import { Location } from "../../types/location";
 import { Property } from "../../types/wikidata";
 import { getGtfsStationsByRailRoute } from "../../utils/gtfs";
@@ -22,7 +23,7 @@ export const getLocations = async () => {
         id: stop_id.toString(),
         geometry: { type: "Point", coordinates: [stop_lon, stop_lat] },
         properties: {
-          labels: [{ value: stop_name }],
+          labels: [{ value: stop_name, lang: Language.Luxembourgish[1] }],
           [Property.Country]: [
             {
               value:

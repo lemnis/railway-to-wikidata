@@ -207,6 +207,10 @@
             "value": "Liège-Guillemins"
           },
           {
+            "lang": "lb",
+            "value": "Liège-Guillemins"
+          },
+          {
             "lang": "nl",
             "value": "Luik"
           },
@@ -293,10 +297,6 @@
           {
             "lang": "lb",
             "value": "Gare Léck-Guillemins"
-          },
-          {
-            "lang": "lb",
-            "value": "Liège-Guillemins"
           },
           {
             "lang": "lb",
@@ -523,6 +523,10 @@
             "value": "Liege-Saint-Lambert"
           },
           {
+            "value": "Liège-Saint-Lambert"
+          },
+          {
+            "lang": "lb",
             "value": "Liège-Saint-Lambert"
           },
           {
@@ -810,6 +814,10 @@
             "value": "Liège-Carré"
           },
           {
+            "lang": "lb",
+            "value": "Liège-Carré"
+          },
+          {
             "lang": "nl",
             "value": "Liège-Carré"
           },
@@ -1065,6 +1073,10 @@
             "value": "Herstal"
           },
           {
+            "lang": "lb",
+            "value": "Herstal"
+          },
+          {
             "lang": "nl",
             "value": "Herstal"
           },
@@ -1280,6 +1292,7 @@
             "value": "Milmort"
           },
           {
+            "lang": "lb",
             "value": "Herstal, Milmort"
           },
           {
@@ -1466,6 +1479,10 @@
         ],
         "labels": [
           {
+            "value": "Liers"
+          },
+          {
+            "lang": "lb",
             "value": "Liers"
           },
           {
@@ -2626,7 +2643,7 @@
           },
           {
             "lang": "cs",
-            "value": "ZYR"
+            "value": "Zyr"
           },
           {
             "lang": "da",
@@ -2678,7 +2695,7 @@
           },
           {
             "lang": "en",
-            "value": "ZYR"
+            "value": "Zyr"
           },
           {
             "lang": "en-gb",
@@ -2706,7 +2723,7 @@
           },
           {
             "lang": "en-gb",
-            "value": "ZYR"
+            "value": "Zyr"
           },
           {
             "lang": "es",
@@ -2754,7 +2771,7 @@
           },
           {
             "lang": "ja",
-            "value": "ZYR"
+            "value": "Zyr"
           },
           {
             "lang": "it",
@@ -6126,290 +6143,6 @@
       "geometry": {
         "coordinates": [
           [
-            4.482785,
-            51.01765
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "-----S8822004-BEFM-MECH-BEMEC-trainline-17742-Q770919",
-      "properties": {
-        "P1103": [
-          {
-            "value": "10"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q162022"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "13"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "FM"
-          },
-          {
-            "qualifiers": {
-              "P518": [
-                {
-                  "value": "Q23076"
-                }
-              ]
-            },
-            "value": "MECH"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "Koning Albertplein, 2800 Mechelen"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
-              }
-            ],
-            "value": "17742"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.9800000000000004
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
-              }
-            ],
-            "value": "8822004"
-          }
-        ],
-        "P8181": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
-              }
-            ],
-            "value": "BEAAH"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
-              }
-            ],
-            "value": "BEMEC"
-          }
-        ],
-        "P856": [
-          {
-            "value": "http://hari.b-holding.be/infsta/InfoStation.aspx?stationId=1000810&Lang=1"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 2.2
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
-              }
-            ],
-            "value": "8800010"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q770919"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Malines"
-          },
-          {
-            "value": "Mechelen"
-          },
-          {
-            "lang": "nl",
-            "value": "Mechelen"
-          },
-          {
-            "lang": "de",
-            "value": "Mecheln"
-          },
-          {
-            "lang": "es",
-            "value": "Malinas"
-          },
-          {
-            "lang": "fr",
-            "value": "Malines"
-          },
-          {
-            "lang": "it",
-            "value": "Malines"
-          },
-          {
-            "lang": "ja",
-            "value": "メヘレン"
-          },
-          {
-            "lang": "ko",
-            "value": "메헬렌"
-          },
-          {
-            "lang": "pt",
-            "value": "Malines"
-          },
-          {
-            "lang": "ru",
-            "value": "Мехелен"
-          },
-          {
-            "lang": "zh",
-            "value": "梅赫伦"
-          },
-          {
-            "lang": "pl",
-            "value": "Mechelen"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة ميتشيلين"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Mechelen"
-          },
-          {
-            "lang": "en",
-            "value": "Mechelen railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Malines"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Mechelen"
-          },
-          {
-            "lang": "ko",
-            "value": "메헬렌 역"
-          },
-          {
-            "lang": "nl",
-            "value": "station Mechelen"
-          },
-          {
-            "lang": "ro",
-            "value": "Gara Mechelen"
-          },
-          {
-            "lang": "zh",
-            "value": "梅赫倫車站"
-          },
-          {
-            "lang": "mr",
-            "value": "मेकेलेन रेल्वे स्थानक"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             4.282701,
             51.07722
           ]
@@ -9235,6 +8968,7 @@
             "value": "Angleur"
           },
           {
+            "lang": "lb",
             "value": "Angleur, Gare"
           },
           {
@@ -9421,6 +9155,10 @@
         ],
         "labels": [
           {
+            "value": "Poulseur"
+          },
+          {
+            "lang": "lb",
             "value": "Poulseur"
           },
           {
@@ -9616,6 +9354,10 @@
             "value": "Rivage"
           },
           {
+            "lang": "lb",
+            "value": "Rivage"
+          },
+          {
             "lang": "en",
             "value": "Rivage railway station"
           },
@@ -9800,6 +9542,10 @@
         ],
         "labels": [
           {
+            "value": "Aywaille"
+          },
+          {
+            "lang": "lb",
             "value": "Aywaille"
           },
           {
@@ -10213,6 +9959,7 @@
             "value": "Gouvy"
           },
           {
+            "lang": "lb",
             "value": "Gouvy, Gare"
           },
           {
@@ -10411,6 +10158,7 @@
             "value": "Vielsalm"
           },
           {
+            "lang": "lb",
             "value": "Vielsalm, Gare"
           },
           {
@@ -10605,6 +10353,10 @@
             "value": "Trois-Ponts"
           },
           {
+            "lang": "lb",
+            "value": "Trois-Ponts"
+          },
+          {
             "lang": "ru",
             "value": "Труа-Пон"
           },
@@ -10773,6 +10525,10 @@
         ],
         "labels": [
           {
+            "value": "Coo"
+          },
+          {
+            "lang": "lb",
             "value": "Coo"
           },
           {
@@ -11191,6 +10947,7 @@
             "value": "Arlon"
           },
           {
+            "lang": "lb",
             "value": "Arlon, Gare"
           },
           {
@@ -24640,182 +24397,6 @@
       "geometry": {
         "coordinates": [
           [
-            4.362001,
-            50.74781
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8814167-BEFGO-BESGR-trainline-18031-Q2780991",
-      "properties": {
-        "P1103": [
-          {
-            "value": "2"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q841597"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "90"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "FGO"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
-              }
-            ],
-            "value": "18031"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
-              }
-            ],
-            "value": "8814167"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
-              }
-            ],
-            "value": "BESGR"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
-              }
-            ],
-            "value": "8800452"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q2780991"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Rhode-Saint-Genese"
-          },
-          {
-            "value": "Sint-Genesius-Rode"
-          },
-          {
-            "lang": "fr",
-            "value": "Rhode-Saint-Genèse"
-          },
-          {
-            "lang": "da",
-            "value": "Sint-Genesius-Rode Station"
-          },
-          {
-            "lang": "en",
-            "value": "Sint-Genesius-Rode railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Rhode-Saint-Genèse"
-          },
-          {
-            "lang": "nl",
-            "value": "station Sint-Genesius-Rode"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             4.370713,
             50.73881
           ]
@@ -25541,14 +25122,11 @@
           },
           {
             "lang": "ru",
-            "value": "Брен-л’Аллё"
+            "value": "Брен-л'Аллё"
           },
           {
             "lang": "zh",
             "value": "布赖恩拉勒"
-          },
-          {
-            "value": "Braine-l’Alleud"
           },
           {
             "lang": "arz",
@@ -27713,187 +27291,6 @@
           {
             "lang": "nl",
             "value": "station Boondaal"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            4.37405,
-            50.79615
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8814464-BEGDI-BEDIE-trainline-18137-Q749343",
-      "properties": {
-        "P1103": [
-          {
-            "value": "2"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q203312"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "75"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "value": "GDI"
-          },
-          {
-            "value": "1000824"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6375": [
-          {
-            "value": "avenue du Prince de Ligne"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
-              }
-            ],
-            "value": "18137"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
-              }
-            ],
-            "value": "8814464"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
-              }
-            ],
-            "value": "BEDIE"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
-              }
-            ],
-            "value": "8814464"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q749343"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Vivier D Oie"
-          },
-          {
-            "value": "Vivier d'Oie | Diesdelle"
-          },
-          {
-            "value": "Diesdelle/Vivier d"
-          },
-          {
-            "lang": "nl",
-            "value": "Diesdelle"
-          },
-          {
-            "value": "Vivier d’Oie"
-          },
-          {
-            "lang": "en",
-            "value": "Vivier d'Oie railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare du Vivier d'Oie"
-          },
-          {
-            "lang": "nl",
-            "value": "station Diesdelle"
           }
         ]
       },
@@ -36367,163 +35764,6 @@
           {
             "lang": "nl",
             "value": "station Sint-Truiden"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            5.25729,
-            51.11731
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8832003-BELBG-BELEO-trainline-17792-Q2459980",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "LBG"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
-              }
-            ],
-            "value": "17792"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
-              }
-            ],
-            "value": "8832003"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
-              }
-            ],
-            "value": "BELEO"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
-              }
-            ],
-            "value": "8800080"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q2459980"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Bourg-Leopold"
-          },
-          {
-            "value": "Leopoldsburg"
-          },
-          {
-            "lang": "fr",
-            "value": "Bourg-Léopold"
-          },
-          {
-            "lang": "en",
-            "value": "Leopoldsburg railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Bourg-Leopold"
-          },
-          {
-            "lang": "nl",
-            "value": "station Leopoldsburg"
           }
         ]
       },
@@ -60695,6 +59935,7 @@
             "value": "Athus"
           },
           {
+            "lang": "lb",
             "value": "Athus, Gare"
           },
           {
@@ -85263,186 +84504,6 @@
       "geometry": {
         "coordinates": [
           [
-            2.652773,
-            51.0792
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8892320-BEMX-BEKOZ-trainline-17789-Q526990",
-      "properties": {
-        "P1103": [
-          {
-            "value": "1"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q506707"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "2"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "MX"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
-              }
-            ],
-            "value": "17789"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
-              }
-            ],
-            "value": "8892320"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
-              }
-            ],
-            "value": "BEKOZ"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
-              }
-            ],
-            "value": "8800075"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q526990"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Coxyde"
-          },
-          {
-            "value": "Koksijde"
-          },
-          {
-            "lang": "fr",
-            "value": "Coxyde"
-          },
-          {
-            "lang": "ru",
-            "value": "Коксейде"
-          },
-          {
-            "lang": "zh",
-            "value": "科克赛德"
-          },
-          {
-            "lang": "en",
-            "value": "Koksijde railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Coxyde"
-          },
-          {
-            "lang": "nl",
-            "value": "station Koksijde"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             2.601966,
             51.0774
           ]
@@ -87188,200 +86249,6 @@
           {
             "lang": "nl",
             "value": "station Anzegem"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            3.60255,
-            50.74251
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8892908-BEFRN-BEREN-trainline-5937-Q2227924",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "42"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "FRN"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
-              }
-            ],
-            "value": "5937"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
-              }
-            ],
-            "value": "8892908"
-          }
-        ],
-        "P8181": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
-              }
-            ],
-            "value": "BEABK"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
-              }
-            ],
-            "value": "BEREN"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
-              }
-            ],
-            "value": "8800165"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q2227924"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Renaix"
-          },
-          {
-            "value": "Ronse"
-          },
-          {
-            "value": "Renaix/Ronse"
-          },
-          {
-            "value": "Ronse / Renaix"
-          },
-          {
-            "lang": "fr",
-            "value": "Renaix"
-          },
-          {
-            "lang": "ru",
-            "value": "Ронсе"
-          },
-          {
-            "lang": "zh",
-            "value": "龙塞"
-          },
-          {
-            "lang": "en",
-            "value": "Ronse railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Renaix"
-          },
-          {
-            "lang": "nl",
-            "value": "station Ronse"
           }
         ]
       },
@@ -93793,186 +92660,6 @@
       "geometry": {
         "coordinates": [
           [
-            3.872326,
-            50.77113
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8895505-BEFGRA-BEGER-trainline-17777-Q2515358",
-      "properties": {
-        "P1103": [
-          {
-            "value": "8"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q499532"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "23"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "FGRA"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
-              }
-            ],
-            "value": "17777"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
-              }
-            ],
-            "value": "8895505"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
-              }
-            ],
-            "value": "BEGER"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
-              }
-            ],
-            "value": "8800059"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q2515358"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Grammont"
-          },
-          {
-            "value": "Geraardsbergen"
-          },
-          {
-            "lang": "fr",
-            "value": "Grammont"
-          },
-          {
-            "lang": "ru",
-            "value": "Гераардсберген"
-          },
-          {
-            "lang": "zh",
-            "value": "赫拉尔兹贝亨"
-          },
-          {
-            "lang": "en",
-            "value": "Geraardsbergen railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Grammont"
-          },
-          {
-            "lang": "nl",
-            "value": "station Geraardsbergen"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             3.826561,
             50.81624
           ]
@@ -94277,178 +92964,6 @@
           {
             "lang": "nl",
             "value": "station Viane-Moerbeke"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            3.965726,
-            50.74392
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8895620-BEFGM-BEGAL-trainline-18025-Q3496495",
-      "properties": {
-        "P1103": [
-          {
-            "value": "2"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q908554"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "35"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "FGM"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
-              }
-            ],
-            "value": "18025"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
-              }
-            ],
-            "value": "8895620"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
-              }
-            ],
-            "value": "BEGAL"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
-              }
-            ],
-            "value": "8800445"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q3496495"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Gammerages"
-          },
-          {
-            "value": "Galmaarden"
-          },
-          {
-            "lang": "fr",
-            "value": "Gammerages"
-          },
-          {
-            "lang": "en",
-            "value": "Galmaarden railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Gammerages"
-          },
-          {
-            "lang": "nl",
-            "value": "station Galmaarden"
           }
         ]
       },
@@ -96907,256 +95422,6 @@
       "geometry": {
         "coordinates": [
           [
-            3.264548,
-            50.8245
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8896008-BELK-BEKOR-trainline-18148-Q2786619",
-      "properties": {
-        "P1103": [
-          {
-            "value": "8"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q12995"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "20"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "LK"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
-              }
-            ],
-            "value": "18148"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
-              }
-            ],
-            "value": "8896008"
-          }
-        ],
-        "P8181": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
-              }
-            ],
-            "value": "BEQKT"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
-              }
-            ],
-            "value": "BEKOR"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
-              }
-            ],
-            "value": "8800077"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q2786619"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Courtrai"
-          },
-          {
-            "value": "Kortrijk"
-          },
-          {
-            "lang": "es",
-            "value": "Courtrai"
-          },
-          {
-            "lang": "fr",
-            "value": "Courtrai"
-          },
-          {
-            "lang": "it",
-            "value": "Courtrai"
-          },
-          {
-            "lang": "ja",
-            "value": "コルトレイク"
-          },
-          {
-            "lang": "ko",
-            "value": "코르트레이크"
-          },
-          {
-            "lang": "pt",
-            "value": "Courtrai"
-          },
-          {
-            "lang": "ru",
-            "value": "Кортрейк"
-          },
-          {
-            "lang": "zh",
-            "value": "科特赖克"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة كورتريچك"
-          },
-          {
-            "lang": "en",
-            "value": "Kortrijk railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Courtrai"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Courtrai"
-          },
-          {
-            "lang": "ja",
-            "value": "コルトレイク駅"
-          },
-          {
-            "lang": "nl",
-            "value": "station Kortrijk"
-          },
-          {
-            "lang": "zh",
-            "value": "科特賴克車站"
-          },
-          {
-            "lang": "vls",
-            "value": "Stoatie van Kortryk"
-          },
-          {
-            "lang": "zh",
-            "value": "库尔特赖站"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "库尔特赖站"
-          },
-          {
-            "lang": "zh-hant",
-            "value": "庫爾特賴站"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             3.314007,
             50.85587
           ]
@@ -98571,228 +96836,6 @@
       "geometry": {
         "coordinates": [
           [
-            2.87659,
-            50.8474
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "----S8896503-BEFI-BEIEP-trainline-17781-Q2098094",
-      "properties": {
-        "P1103": [
-          {
-            "value": "3"
-          }
-        ],
-        "P131": [
-          {
-            "value": "Q102728"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q31"
-          }
-        ],
-        "P2044": [
-          {
-            "value": "21"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.5800000000000001
-                }
-              ],
-              "reliability": 0.5800000000000001
-            },
-            "value": "FI"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
-              }
-            ],
-            "value": "Q5412099"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
-              }
-            ],
-            "value": "17781"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 1.3400000000000003
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
-              }
-            ],
-            "value": "8896503"
-          }
-        ],
-        "P8181": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                }
-              ],
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
-              }
-            ],
-            "value": "BEACH"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
-              }
-            ],
-            "value": "BEIEP"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
-              }
-            ],
-            "value": "8800066"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q2098094"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Ypres"
-          },
-          {
-            "value": "Ieper"
-          },
-          {
-            "lang": "de",
-            "value": "Ypern"
-          },
-          {
-            "lang": "en",
-            "value": "Ypres"
-          },
-          {
-            "lang": "es",
-            "value": "Ypres"
-          },
-          {
-            "lang": "fr",
-            "value": "Ypres"
-          },
-          {
-            "lang": "it",
-            "value": "Ypres"
-          },
-          {
-            "lang": "pl",
-            "value": "Ypres"
-          },
-          {
-            "lang": "ru",
-            "value": "Ипр"
-          },
-          {
-            "lang": "sv",
-            "value": "Ypern"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة ايپير"
-          },
-          {
-            "lang": "en",
-            "value": "Ieper railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Ypres"
-          },
-          {
-            "lang": "nl",
-            "value": "station Ieper"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             2.736345,
             50.85445
           ]
@@ -99859,6 +97902,178 @@
       "geometry": {
         "coordinates": [
           [
+            4.37405,
+            50.79615
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "---S8814464-BEGDI-trainline-18137-Q749343",
+      "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q203312"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "75"
+          }
+        ],
+        "P296": [
+          {
+            "info": {
+              "reliability": 0.5800000000000001
+            },
+            "value": "GDI"
+          },
+          {
+            "value": "1000824"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "avenue du Prince de Ligne"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
+              }
+            ],
+            "value": "18137"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
+              }
+            ],
+            "value": "8814464"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
+              }
+            ],
+            "value": "BEDIE"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18137"
+              }
+            ],
+            "value": "8814464"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q749343"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Vivier D Oie"
+          },
+          {
+            "value": "Vivier d'Oie | Diesdelle"
+          },
+          {
+            "lang": "nl",
+            "value": "Diesdelle"
+          },
+          {
+            "value": "Vivier d'Oie"
+          },
+          {
+            "lang": "en",
+            "value": "Vivier d'Oie railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare du Vivier d'Oie"
+          },
+          {
+            "lang": "nl",
+            "value": "station Diesdelle"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             5.348813,
             50.98956
           ]
@@ -100338,6 +98553,192 @@
       "geometry": {
         "coordinates": [
           [
+            3.60255,
+            50.74251
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "---S8892908-BEREN-trainline-5937-Q2227924",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "42"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FRN"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
+              }
+            ],
+            "value": "5937"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
+              }
+            ],
+            "value": "8892908"
+          }
+        ],
+        "P8181": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
+              }
+            ],
+            "value": "BEABK"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
+              }
+            ],
+            "value": "BEREN"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/5937"
+              }
+            ],
+            "value": "8800165"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2227924"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Renaix"
+          },
+          {
+            "value": "Renaix/Ronse"
+          },
+          {
+            "value": "Ronse / Renaix"
+          },
+          {
+            "lang": "fr",
+            "value": "Renaix"
+          },
+          {
+            "lang": "ru",
+            "value": "Ронсе"
+          },
+          {
+            "lang": "zh",
+            "value": "龙塞"
+          },
+          {
+            "value": "Ronse"
+          },
+          {
+            "lang": "en",
+            "value": "Ronse railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Renaix"
+          },
+          {
+            "lang": "nl",
+            "value": "station Ronse"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             4.221349,
             51.12608
           ]
@@ -100648,6 +99049,1501 @@
           {
             "lang": "nl",
             "value": "station Aalst-Kerrebroek"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            3.264548,
+            50.8245
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "---S8896008-BEKOR-trainline-18148-Q2786619",
+      "properties": {
+        "P1103": [
+          {
+            "value": "8"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q12995"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "20"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LK"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
+              }
+            ],
+            "value": "18148"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
+              }
+            ],
+            "value": "8896008"
+          }
+        ],
+        "P8181": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
+              }
+            ],
+            "value": "BEQKT"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
+              }
+            ],
+            "value": "BEKOR"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18148"
+              }
+            ],
+            "value": "8800077"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2786619"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Courtrai"
+          },
+          {
+            "value": "Kortrijk"
+          },
+          {
+            "lang": "es",
+            "value": "Courtrai"
+          },
+          {
+            "lang": "fr",
+            "value": "Courtrai"
+          },
+          {
+            "lang": "it",
+            "value": "Courtrai"
+          },
+          {
+            "lang": "ja",
+            "value": "コルトレイク"
+          },
+          {
+            "lang": "ko",
+            "value": "코르트레이크"
+          },
+          {
+            "lang": "pt",
+            "value": "Courtrai"
+          },
+          {
+            "lang": "ru",
+            "value": "Кортрейк"
+          },
+          {
+            "lang": "zh",
+            "value": "科特赖克"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة كورتريچك"
+          },
+          {
+            "lang": "en",
+            "value": "Kortrijk railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Courtrai"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Courtrai"
+          },
+          {
+            "lang": "ja",
+            "value": "コルトレイク駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Kortrijk"
+          },
+          {
+            "lang": "zh",
+            "value": "科特賴克車站"
+          },
+          {
+            "lang": "vls",
+            "value": "Stoatie van Kortryk"
+          },
+          {
+            "lang": "zh",
+            "value": "库尔特赖站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "库尔特赖站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "庫爾特賴站"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            4.362001,
+            50.74781
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--S8814167-trainline-18031-Q2780991",
+      "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q841597"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "90"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FGO"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
+              }
+            ],
+            "value": "18031"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
+              }
+            ],
+            "value": "8814167"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
+              }
+            ],
+            "value": "BESGR"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18031"
+              }
+            ],
+            "value": "8800452"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2780991"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Rhode-Saint-Genese"
+          },
+          {
+            "lang": "fr",
+            "value": "Rhode-Saint-Genèse"
+          },
+          {
+            "value": "Sint-Genesius-Rode"
+          },
+          {
+            "lang": "da",
+            "value": "Sint-Genesius-Rode Station"
+          },
+          {
+            "lang": "en",
+            "value": "Sint-Genesius-Rode railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Rhode-Saint-Genèse"
+          },
+          {
+            "lang": "nl",
+            "value": "station Sint-Genesius-Rode"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            4.482785,
+            51.01765
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--S8822004-trainline-17742-Q770919",
+      "properties": {
+        "P1103": [
+          {
+            "value": "10"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q162022"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "13"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FM"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Koning Albertplein, 2800 Mechelen"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
+              }
+            ],
+            "value": "17742"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
+              }
+            ],
+            "value": "8822004"
+          }
+        ],
+        "P8181": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
+              }
+            ],
+            "value": "BEAAH"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
+              }
+            ],
+            "value": "BEMEC"
+          }
+        ],
+        "P856": [
+          {
+            "value": "http://hari.b-holding.be/infsta/InfoStation.aspx?stationId=1000810&Lang=1"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17742"
+              }
+            ],
+            "value": "8800010"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q770919"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Malines"
+          },
+          {
+            "lang": "de",
+            "value": "Mecheln"
+          },
+          {
+            "lang": "es",
+            "value": "Malinas"
+          },
+          {
+            "lang": "fr",
+            "value": "Malines"
+          },
+          {
+            "lang": "it",
+            "value": "Malines"
+          },
+          {
+            "lang": "ja",
+            "value": "メヘレン"
+          },
+          {
+            "lang": "ko",
+            "value": "메헬렌"
+          },
+          {
+            "lang": "pt",
+            "value": "Malines"
+          },
+          {
+            "lang": "ru",
+            "value": "Мехелен"
+          },
+          {
+            "lang": "zh",
+            "value": "梅赫伦"
+          },
+          {
+            "value": "Mechelen"
+          },
+          {
+            "lang": "pl",
+            "value": "Mechelen"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ميتشيلين"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Mechelen"
+          },
+          {
+            "lang": "en",
+            "value": "Mechelen railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Malines"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Mechelen"
+          },
+          {
+            "lang": "ko",
+            "value": "메헬렌 역"
+          },
+          {
+            "lang": "nl",
+            "value": "station Mechelen"
+          },
+          {
+            "lang": "ro",
+            "value": "Gara Mechelen"
+          },
+          {
+            "lang": "zh",
+            "value": "梅赫倫車站"
+          },
+          {
+            "lang": "mr",
+            "value": "मेकेलेन रेल्वे स्थानक"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            5.25729,
+            51.11731
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--S8832003-trainline-17792-Q2459980",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P296": [
+          {
+            "value": "LBG"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
+              }
+            ],
+            "value": "17792"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
+              }
+            ],
+            "value": "8832003"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
+              }
+            ],
+            "value": "BELEO"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17792"
+              }
+            ],
+            "value": "8800080"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2459980"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Bourg-Leopold"
+          },
+          {
+            "lang": "fr",
+            "value": "Bourg-Léopold"
+          },
+          {
+            "value": "Leopoldsburg"
+          },
+          {
+            "lang": "en",
+            "value": "Leopoldsburg railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Bourg-Leopold"
+          },
+          {
+            "lang": "nl",
+            "value": "station Leopoldsburg"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            2.652773,
+            51.0792
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--S8892320-trainline-17789-Q526990",
+      "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q506707"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "2"
+          }
+        ],
+        "P296": [
+          {
+            "value": "MX"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
+              }
+            ],
+            "value": "17789"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
+              }
+            ],
+            "value": "8892320"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
+              }
+            ],
+            "value": "BEKOZ"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17789"
+              }
+            ],
+            "value": "8800075"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q526990"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Coxyde"
+          },
+          {
+            "lang": "fr",
+            "value": "Coxyde"
+          },
+          {
+            "lang": "ru",
+            "value": "Коксейде"
+          },
+          {
+            "lang": "zh",
+            "value": "科克赛德"
+          },
+          {
+            "value": "Koksijde"
+          },
+          {
+            "lang": "en",
+            "value": "Koksijde railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Coxyde"
+          },
+          {
+            "lang": "nl",
+            "value": "station Koksijde"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            3.872326,
+            50.77113
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--S8895505-trainline-17777-Q2515358",
+      "properties": {
+        "P1103": [
+          {
+            "value": "8"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q499532"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "23"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FGRA"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
+              }
+            ],
+            "value": "17777"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
+              }
+            ],
+            "value": "8895505"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
+              }
+            ],
+            "value": "BEGER"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17777"
+              }
+            ],
+            "value": "8800059"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2515358"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Grammont"
+          },
+          {
+            "lang": "fr",
+            "value": "Grammont"
+          },
+          {
+            "lang": "ru",
+            "value": "Гераардсберген"
+          },
+          {
+            "lang": "zh",
+            "value": "赫拉尔兹贝亨"
+          },
+          {
+            "value": "Geraardsbergen"
+          },
+          {
+            "lang": "en",
+            "value": "Geraardsbergen railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Grammont"
+          },
+          {
+            "lang": "nl",
+            "value": "station Geraardsbergen"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            3.965726,
+            50.74392
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--S8895620-trainline-18025-Q3496495",
+      "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q908554"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "35"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FGM"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
+              }
+            ],
+            "value": "18025"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
+              }
+            ],
+            "value": "8895620"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
+              }
+            ],
+            "value": "BEGAL"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/18025"
+              }
+            ],
+            "value": "8800445"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q3496495"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Gammerages"
+          },
+          {
+            "lang": "fr",
+            "value": "Gammerages"
+          },
+          {
+            "value": "Galmaarden"
+          },
+          {
+            "lang": "en",
+            "value": "Galmaarden railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Gammerages"
+          },
+          {
+            "lang": "nl",
+            "value": "station Galmaarden"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            2.87659,
+            50.8474
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--S8896503-trainline-17781-Q2098094",
+      "properties": {
+        "P1103": [
+          {
+            "value": "3"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q102728"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q31"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "21"
+          }
+        ],
+        "P296": [
+          {
+            "value": "FI"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
+              }
+            ],
+            "value": "Q5412099"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
+              }
+            ],
+            "value": "17781"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 1.3400000000000003
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
+              }
+            ],
+            "value": "8896503"
+          }
+        ],
+        "P8181": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
+              }
+            ],
+            "value": "BEACH"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
+              }
+            ],
+            "value": "BEIEP"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17781"
+              }
+            ],
+            "value": "8800066"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2098094"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Ypres"
+          },
+          {
+            "lang": "de",
+            "value": "Ypern"
+          },
+          {
+            "lang": "en",
+            "value": "Ypres"
+          },
+          {
+            "lang": "es",
+            "value": "Ypres"
+          },
+          {
+            "lang": "fr",
+            "value": "Ypres"
+          },
+          {
+            "lang": "it",
+            "value": "Ypres"
+          },
+          {
+            "lang": "pl",
+            "value": "Ypres"
+          },
+          {
+            "lang": "ru",
+            "value": "Ипр"
+          },
+          {
+            "lang": "sv",
+            "value": "Ypern"
+          },
+          {
+            "value": "Ieper"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ايپير"
+          },
+          {
+            "lang": "en",
+            "value": "Ieper railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare d'Ypres"
+          },
+          {
+            "lang": "nl",
+            "value": "station Ieper"
           }
         ]
       },

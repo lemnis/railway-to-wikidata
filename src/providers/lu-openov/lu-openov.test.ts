@@ -13,9 +13,6 @@ const openOvLocations = fs
 const trainline = fs
   .readFile(path + "trainline-stations.geojson", "utf-8")
   .then((data) => JSON.parse(data).features as Location[]);
-const wikidata = fs
-  .readFile(path + "wikidata-railway-stations.geojson", "utf-8")
-  .then((data) => JSON.parse(data).features as Location[]);
 
 test("Luxembourg locations should match expected score", async (t) => {
   const { [Property.Country]: country } =
@@ -24,7 +21,7 @@ test("Luxembourg locations should match expected score", async (t) => {
         await openOvLocations
       ).filter((feature) =>
         feature.properties?.[Property.Country]?.every(
-          ({ value }: any) => value === Country.Luxembourg.wikidata
+          ({ value }) => value === Country.Luxembourg.wikidata
         )
       ),
       await trainline,
@@ -42,7 +39,7 @@ test("Should not have Foreign locations", async (t) => {
         await openOvLocations
       ).filter((feature) =>
         feature.properties?.[Property.Country]?.every(
-          ({ value }: any) => value !== Country.Luxembourg.wikidata
+          ({ value }) => value !== Country.Luxembourg.wikidata
         )
       ),
       await trainline,

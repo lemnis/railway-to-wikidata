@@ -1,5 +1,6 @@
-import { Point, Position } from "geojson";
+import { Position } from "geojson";
 import { isEqual } from "lodash";
+import { normalize } from "station-normalize";
 import { score } from "../../score";
 import { scoreCoordinateLocation } from "../../transform/coordinateLocation";
 import { LocationV4, Location, Claims } from "../../types/location";
@@ -7,6 +8,7 @@ import { ClaimObject, CodeIssuer, Property } from "../../types/wikidata";
 import { logger } from "../../utils/logger";
 import { matchIds } from "../match";
 import { propertyMatch } from "../match/property";
+
 const isLocation = (
   entities: (Location | LocationV4)[]
 ): entities is Location[] => {
@@ -138,10 +140,10 @@ export const merge = async (
     labels.forEach((label) => {
       if (
         !properties.labels.some(
-          (b) => label.value === b.value && label.lang === b.lang
+          (b) => normalize(label.value) === normalize(b.value) && label.lang === b.lang
         )
       ) {
-        properties.labels.push(label);
+        properties.labels.push({ ...label, value: normalize(label.value) });
       }
     });
 
@@ -354,7 +356,7 @@ export async function matchAndMerge(
           )
         )?.sort((a, b) => b[1].percentage - a[1].percentage);
         const [idLoc, scored] = scoredByDistance?.[0];
-        if (scored.percentage >= 1.9) {
+        if (scored.percentage >= 2) {
           await ok?.(a, idLoc);
         } else {
           // console.log(

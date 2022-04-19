@@ -1,5 +1,6 @@
 import { Label } from "../types/location";
 import { distance, closest } from "fastest-levenshtein";
+import { normalize } from "station-normalize";
 
 const { remove: removeAccents, diacriticsMap } = require("diacritics");
 
@@ -80,15 +81,16 @@ export const score = (base: Label[], expansion: Label[]) => {
       }
     }
 
-    const similarity = close ?
-      1 -
-      distance(normalizeName(value), normalizeName(close)) /
-        Math.max(normalizeName(value).length, normalizeName(close).length) : 0;
+    const similarity = close
+      ? 1 -
+        distance(normalizeName(value), normalizeName(close)) /
+          Math.max(normalizeName(value).length, normalizeName(close).length)
+      : 0;
 
     return {
       missing: destinationLabels.length === 0,
       match: !!match,
-      value,
+      value: normalize(value),
       lang,
       origin: close,
       // distance: distance(normalizeName(value), close && normalizeName(close)),
