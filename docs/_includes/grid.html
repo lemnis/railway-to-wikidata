@@ -6,9 +6,39 @@
 ></div>
 
 <script>
-  const valueFormatter = function (params) {
-    return params.value?.map(({ value }) => value).join(", ") || '';
+
+var luhn = (function (arr) {
+  return function (ccNum) {
+    var len = ccNum.length,
+      bit = 1,
+      sum = 0,
+      val;
+
+    while (len) {
+      val = parseInt(ccNum.charAt(--len), 10);
+      sum += (bit ^= 1) ? val : arr[val];
+    }
+
+    return sum % 10 ?  10 - (sum % 10) : 0;
+    // return sum && (1000 - sum) % 10;
   };
+})([0, 2, 4, 6, 8, 1, 3, 5, 7, 9]);
+
+  const valueFormatter = function (params) {
+    return params.value?.map(({ value }) => value).join(", ") || "";
+  };
+
+  const iconLink = (
+    href,
+    logo,
+    title
+  ) => `<a href="${href}" target="_blank" class="btn btn-outline-dark btn-sm">
+    <img src="${
+      logo.startsWith("http")
+        ? logo
+        : "https://upload.wikimedia.org/wikipedia/commons/" + logo
+    }" title="${title}" style="width: 1.2em; width: 1.2em" />
+  </a>`;
 
   class CustomTooltip {
     init(params) {
@@ -35,7 +65,7 @@
     {
       field: "labels",
       valueFormatter: (params) => {
-        return params.value?.[0]?.value || '';
+        return params.value?.[0]?.value || "";
       },
       tooltipField: "labels",
       tooltipComponent: CustomTooltip,
@@ -48,25 +78,149 @@
     {
       headerName: "UIC",
       field: "P722",
-      valueFormatter,
+      minWidth: 160,
+      cellRenderer: (params) => {
+        var div = document.createElement("div");
+        div.innerHTML = params.value
+          ?.map(({ value, info }) => {
+            const countryCode = value.slice(0, 2);
+            const uicStationCode = value.slice(2, 7);
+            const uic8 = luhn(uicStationCode);
+            return `<div
+              style="white-space: nowrap; ${
+                info?.reliability > 1 ? "background-color: lime;" : ""
+              }"
+              title="${info?.reliability}"
+            >
+              ${value}
+              ${
+                countryCode === "54"
+                  ? iconLink(
+                      `https://www.cd.cz/stanice/${value}`,
+                      "d/d1/%C4%8CD_logo.svg",
+                      "CD (CZ)"
+                    )
+                  : ""
+              }
+              ${
+                countryCode === "55"
+                  ? iconLink(
+                      `https://www.kapella2.hu/ehuszfelulet/szolghelyadatok?taf_id=${value}&vizsgalt_idopont=2020-04-29&vizsgalt_idoszak_kezdo=2020-05-04&vizsgalt_idoszak_veg=2020-05-31&infra_id=21943`,
+                      "http://www.hzpp.hr/Themes/CorvusTheme/Content/img/HZPP_logo_color_small.png",
+                      "HZPP (HU)"
+                    )
+                  : ""
+              }
+              ${
+                countryCode === "56"
+                  ? iconLink(
+                      `https://aplikacie.zsr.sk/infotabule/StationDetail.aspx?t=2&id=${uicStationCode}${uic8}`,
+                      "0/04/ZSR-Logo.svg",
+                      "NS (NL)"
+                    )
+                  : ""
+              }
+              ${
+                countryCode === "71"
+                  ? iconLink(
+                      `https://horarios.renfe.com/HIRRenfeWeb/destinos.do?&O=${uicStationCode}&ID=i&DF={{ site.time | date: '%d' }}&MF={{ site.time | date: '%m' }}&AF={{ site.time | date: '%Y' }}`,
+                      "b/b8/Logotipo_de_Renfe_Operadora.svg",
+                      "Renfe (ES)"
+                    )
+                  : ""
+              }
+              ${
+                countryCode === "79"
+                  ? iconLink(
+                      `https://potniski.sz.si/en/plan-your-journey/?action=timetables_search&current-language=en&entry-station=${uicStationCode}`,
+                      "9/92/Slovenske_%C5%BEeleznice_logo.svg",
+                      "SZ (SI)"
+                    )
+                  : ""
+              }
+              ${
+                countryCode === "88"
+                  ? iconLink(
+                      `https://irail.be/stations/NMBS/00${value}`,
+                      "9/9d/LogoBR.svg",
+                      "NMBS (BE)"
+                    )
+                  : ""
+              }
+
+              ${
+                countryCode === "85"
+                  ? iconLink(
+                      `https://lod.opentransportdata.swiss/didok/${value}`,
+                      "2/23/SBB_logo_simplified.svg",
+                      "SBB (CH)"
+                    )
+                  : ""
+              }
+
+              ${iconLink(
+                `https://m.ter.sncf.com/occitanie/se-deplacer/gares/${value}${uic8}`,
+                "9/98/Logo_TER.svg",
+                "Ter (FR)"
+              )}
+              ${iconLink(
+                `https://www.sncf.com/en/stations/fake/OCE${value}${uic8}`,
+                "f/f4/Sncf-logo.svg",
+                "Renfe (FR)"
+              )}
+            </div>`;
+          })
+          .join(" ");
+        return div;
+      },
     },
     {
       headerName: "IBNR",
       field: "P954",
-      valueFormatter,
+      cellRenderer: (params) => {
+        var div = document.createElement("div");
+        div.innerHTML = params.value
+          ?.map(
+            ({ value, info }) => `<div
+              style="white-space: nowrap; ${
+                info?.reliability > 1 ? "background-color: lime;" : ""
+              }"
+              title="${info?.reliability}"
+            >
+              ${value}
+              ${iconLink(
+                `https://tickets.oebb.at/en/ticket?stationOrigEva=${value}`,
+                "5/5e/Logo_%C3%96BB.svg",
+                "Oebb (AT)"
+              )}
+              ${iconLink(
+                `https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=${value}&boardType=dep&time=actual&productsDefault=1111101&start=yes`,
+                "d/d5/Deutsche_Bahn_AG-Logo.svg",
+                "DB (DE)"
+              )}
+            </div>`
+          )
+          .join(" ");
+        return div;
+      },
     },
     {
       headerName: "DB",
       field: "P8671",
       cellRenderer: (params) => {
         var eGui = document.createElement("span");
-        eGui.innerHTML = params.value
-          ?.map(({ value }) => value)
-          .filter(Boolean)
-          .map(
-            (i) =>
-              `<a href="https://iris.noncd.db.de/wbt/js/index.html?bhf=${i}" target="_blank">${i}</a>`
-          ) || '';
+        eGui.innerHTML =
+          params.value?.map(
+            ({ value, info }) =>
+              `<a
+                  style="${
+                    info?.reliability > 1 ? "background-color: lime;" : ""
+                  }"
+                  title="${info?.reliability}"
+                  href="https://iris.noncd.db.de/wbt/js/index.html?bhf=${value}"
+                  target="_blank"
+                >${value}</a>`
+          ) || "";
         return eGui;
       },
     },
@@ -75,13 +229,18 @@
       field: "P8448",
       cellRenderer: (params) => {
         var eGui = document.createElement("span");
-        eGui.innerHTML = params.value
-          ?.map(({ value }) => value)
-          .filter(Boolean)
-          .map(
-            (i) =>
-              `<a href="https://www.b-europe.com/EN/Booking/Tickets?autoactivatestep2=true&origin=${i}" target="_blank">${i}</a>`
-          ) || '';
+        eGui.innerHTML =
+          params.value?.map(
+            ({ value, info }) =>
+              `<a
+                  style="${
+                    info?.reliability > 1 ? "background-color: lime;" : ""
+                  }"
+                  title="${info?.reliability}"
+                  href="https://www.b-europe.com/EN/Booking/Tickets?autoactivatestep2=true&origin=${value}"
+                  target="_blank"
+                >${value}</a>`
+          ) || "";
         return eGui;
       },
     },
@@ -95,13 +254,14 @@
       field: "P6724",
       cellRenderer: (params) => {
         var eGui = document.createElement("span");
-        eGui.innerHTML = params.value
-          ?.map(({ value }) => value)
-          .filter(Boolean)
-          .map(
-            (i) =>
-              `<a href="https://trainline-eu.github.io/stations-studio/#/station/${i}" target="_blank">${i}</a>`
-          ) || '';
+        eGui.innerHTML =
+          params.value
+            ?.map(({ value }) => value)
+            .filter(Boolean)
+            .map(
+              (i) =>
+                `<a href="https://trainline-eu.github.io/stations-studio/#/station/${i}" target="_blank">${i}</a>`
+            ) || "";
         return eGui;
       },
     },
@@ -115,13 +275,16 @@
       field: "PWIKI",
       cellRenderer: (params) => {
         var eGui = document.createElement("span");
-        eGui.innerHTML = params.value
-          ?.map(({ value }) => value)
-          .filter(Boolean)
-          .map(
-            (i) =>
-              `<a href="https://www.wikidata.org/wiki/${i}" target="_blank">${i}</a>`
-          ) || '';
+        eGui.innerHTML =
+          params.value
+            ?.map(({ value }) => value)
+            .filter(Boolean)
+            .map(
+              (i) =>
+                `<a href="https://www.wikidata.org/wiki/${i}"
+                target="_blank"
+                >${i}</a>`
+            ) || "";
         return eGui;
       },
     },
