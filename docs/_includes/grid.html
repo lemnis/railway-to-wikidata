@@ -342,7 +342,7 @@ var luhn = (function (arr) {
     </tr>
   </thead>
   <tbody>
-    {% for feature in site.data.ES.features %}
+    {% for feature in stations.features %}
       <tr>
         <td
           title="{% for label in feature.properties.labels %}{{ label.value | escape }} ({{ label.lang }})&#013;{% endfor %}">
