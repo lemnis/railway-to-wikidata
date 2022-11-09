@@ -5,6 +5,8 @@ import { RenfeStation } from "./renfe.types";
 import { Location } from "../../types/location";
 import { Country } from "../../transform/country";
 import { Language } from "../../transform/language";
+import { RELIABILITY_RENFE_UIC } from "./renfe.constants";
+import { Reliability } from "../../score/reliability";
 
 const StringToCountry = {
   Francia: Country.France,
@@ -41,21 +43,34 @@ export const getLocations = async () => {
   return csv.map<Location>((station: RenfeStation) => ({
     type: "Feature",
     id: station.code,
-    geometry: {type: "Point", coordinates: [
-      parseFloat(station.longitud.replace(",", ".")),
-      parseFloat(station.latitud.replace(",", ".")),
-    ]},
+    geometry: {
+      type: "Point",
+      coordinates: [
+        parseFloat(station.longitud.replace(",", ".")),
+        parseFloat(station.latitud.replace(",", ".")),
+      ],
+    },
     properties: {
       labels: [{ value: station.description, lang: Language.Spanish[1] }],
       ...(station.code
         ? {
             [CodeIssuer.UIC]: [
-              { value: StringToCountry[station.country].UIC[0] + station.code },
+              {
+                value: StringToCountry[station.country].UIC[0] + station.code,
+                info: {
+                  reliability:
+                    station.country === "España"
+                      ? RELIABILITY_RENFE_UIC
+                      : Reliability.START,
+                },
+              },
             ],
             [Property.StationCode]: [{ value: station.code }],
           }
         : {}),
-      [Property.Country]: [{ value: StringToCountry[station.country].wikidata }],
+      [Property.Country]: [
+        { value: StringToCountry[station.country].wikidata },
+      ],
       [Property.PostalCode]: [{ value: station.postalCode }],
       [Property.Location]: [{ value: station.direccion }],
       //   [Property.InAdministrativeTerritory]

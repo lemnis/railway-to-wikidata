@@ -5,6 +5,10 @@ export const createFeatureCollection = (
 ): FeatureCollection => {
   return {
     type: "FeatureCollection",
-    features,
+    features: features.sort((a: any, b: any) => {
+      const aId = a.id?.toString();
+      const bId = b.id?.toString();
+      return aId?.localeCompare?.(bId)
+    })
   };
 };

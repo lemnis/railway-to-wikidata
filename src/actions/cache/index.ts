@@ -9,6 +9,7 @@ import {
 import { db } from "../../utils/database";
 import { getUicLocations } from "../../providers/osm/uic";
 import { filter, mergeMap, of, tap } from "rxjs";
+import sortJson from 'sort-json';
 
 const srcPath = `${__dirname}/../..`;
 const geoJSONPath = `${srcPath}/../geojson`;
@@ -220,7 +221,7 @@ const prompt = inquirer.createPromptModule();
             fs.writeFile(
               `${geoJSONPath}/${name}.geojson`,
               JSON.stringify(
-                createFeatureCollection(await getLocations()),
+                sortJson(createFeatureCollection(await getLocations())),
                 null,
                 2
               )
