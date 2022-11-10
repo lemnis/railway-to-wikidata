@@ -3,16 +3,16 @@ import { Feature, Point } from "geojson";
 import { distanceTo } from "geolocation-utils";
 import { cloneDeep, isMatch } from "lodash";
 import { score, WITHOUT_LOCATION_SCORE_THRESHOLD } from "../score";
-import { LocationV5 } from "../types/location";
+import { Location } from "../types/location";
 import { CodeIssuer, Property } from "../types/wikidata";
 import { inspect } from "util";
-import { matchByNameAndDistance } from "../match";
+import { matchByNameAndDistance } from "../actions/match";
 
 async function getScore(
-  wikipedia: LocationV5[],
-  location: LocationV5,
+  wikipedia: Location[],
+  location: Location,
   result: any,
-  exclude:  (CodeIssuer | Property)[]
+  exclude: (CodeIssuer | Property)[]
 ) {
   const { geometry, properties } = location;
   const { labels, ...claims } = properties;
@@ -20,14 +20,17 @@ async function getScore(
   const close = wikipedia
     .filter((feature) => matchByNameAndDistance(feature, location))
     .sort((a, b) => {
-      const d = distanceTo(
-        a.geometry.coordinates! as [number, number],
-        b.geometry.coordinates! as [number, number]
-      );
+      const aCoordinates: any =
+        typeof a.geometry.coordinates?.[0] === "number"
+          ? a.geometry.coordinates
+          : a.geometry.coordinates?.[0];
+      const bCoordinates: any =
+        typeof b.geometry.coordinates?.[0] === "number"
+          ? b.geometry.coordinates
+          : b.geometry.coordinates?.[0];
+      const d = distanceTo(aCoordinates, bCoordinates);
       return d === 3000 ? 0 : d < 3000 ? -1 : 1;
     });
-
-  // console.log(inspect(close, false, null))
 
   if (!close.length) {
     result.notFound.push(location);
@@ -35,11 +38,9 @@ async function getScore(
   }
 
   const scored = await score(location, close[0]);
-  // await score(location, close[0])
 
   Object.entries(scored.claims.matches).forEach(([key, values]) => {
     result[key] ||= { total: 0, matches: 0, notFound: [], missing: [] };
-
     if (values.missing) {
       result[key].missing.push(scored);
       return;
@@ -58,7 +59,11 @@ async function getScore(
   });
 }
 
-export async function getFullMatchScore(locations: LocationV5[], otherSource: LocationV5[], exclude: (CodeIssuer | Property)[] = []) {
+export async function getFullMatchScore(
+  locations: Location[],
+  otherSource: Location[],
+  exclude: (CodeIssuer | Property)[] = []
+) {
   const result: {
     notFound: any;
     missing: any;
@@ -71,7 +76,7 @@ export async function getFullMatchScore(locations: LocationV5[], otherSource: Lo
   } = { notFound: [] as any, missing: [] as any };
   await Promise.all(
     locations.map((location) => {
-      getScore(otherSource, location, result, exclude);
+      return getScore(otherSource, location, result, exclude);
     })
   );
   return result;

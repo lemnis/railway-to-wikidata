@@ -1,92 +1,92 @@
 import test from "ava";
 import { score } from "./label";
 
-test("Should fully match to duplicate object", ({ deepEqual }) => {
-  deepEqual(
+test("Should fully match to duplicate object", ({ like }) => {
+  like(
     score([{ value: "Foo", lang: "en" }], [{ value: "Foo", lang: "en" }]),
     {
-      matches: [{ match: true, missing: false, value: "Foo", lang: "en" }],
+      matches: [{ match: true, missing: false, value: "Foo", lang: "en", similarity: 1 }],
       percentage: 1,
     }
   );
 });
 
 test("Should have 0 percentage when no matches can be made", ({
-  deepEqual,
+  like,
 }) => {
-  deepEqual(score([], []), { matches: [], percentage: 0 });
+  like(score([], []), { matches: [], percentage: 0 });
 });
 
-test("Should match without source language", ({ deepEqual }) => {
-  deepEqual(score([{ value: "Foo" }], [{ value: "Foo", lang: "en" }]), {
-    matches: [{ match: true, missing: false, value: "Foo", lang: undefined }],
+test("Should match without source language", ({ like }) => {
+  like(score([{ value: "Foo" }], [{ value: "Foo", lang: "en" }]), {
+    matches: [{ match: true, missing: false, value: "Foo", lang: undefined, similarity: 1 }],
     percentage: 1,
   });
 });
 
-test("Should match without destination language", ({ deepEqual }) => {
-  deepEqual(score([{ value: "Foo", lang: "en" }], [{ value: "Foo" }]), {
-    matches: [{ match: true, missing: false, value: "Foo", lang: "en" }],
+test("Should match without destination language", ({ like }) => {
+  like(score([{ value: "Foo", lang: "en" }], [{ value: "Foo" }]), {
+    matches: [{ match: true, missing: false, value: "Foo", lang: "en", similarity: 1 }],
     percentage: 1,
   });
 });
 
-test("Multiple spaces should be ignored", ({ deepEqual }) => {
-  deepEqual(
+test("Multiple spaces should be ignored", ({ like }) => {
+  like(
     score(
       [{ value: "fo   bar", lang: "en" }],
       [{ value: "fo bar", lang: "en" }]
     ),
     {
-      matches: [{ match: true, missing: false, value: "fo   bar", lang: "en" }],
+      matches: [{ match: true, missing: false, value: "fo   bar", lang: "en", similarity: 1 }],
       percentage: 1,
     }
   );
 });
 
-test("Dashes should be ignored", ({ deepEqual }) => {
-  deepEqual(
+test("Dashes should be ignored", ({ like }) => {
+  like(
     score([{ value: "fo-bar", lang: "en" }], [{ value: "fo bar", lang: "en" }]),
     {
-      matches: [{ match: true, missing: false, value: "fo-bar", lang: "en" }],
+      matches: [{ match: true, missing: false, value: "fo-bar", lang: "en", similarity: 1 }],
       percentage: 1,
     }
   );
 });
 
 test("Dash prepended by a space should be combined into a single space", ({
-  deepEqual,
+  like,
 }) => {
-  deepEqual(
+  like(
     score(
       [{ value: "fo -bar", lang: "en" }],
       [{ value: "fo bar", lang: "en" }]
     ),
     {
-      matches: [{ match: true, missing: false, value: "fo -bar", lang: "en" }],
+      matches: [{ match: true, missing: false, value: "fo -bar", lang: "en", similarity: 1 }],
       percentage: 1,
     }
   );
 });
 
-test("Straße should match with strasse", ({ deepEqual }) => {
-  deepEqual(
+test("Straße should match with strasse", ({ like }) => {
+  like(
     score(
       [{ value: "strasse", lang: "en" }],
       [{ value: "Straße", lang: "en" }]
     ),
     {
-      matches: [{ match: true, missing: false, value: "strasse", lang: "en" }],
+      matches: [{ match: true, missing: false, value: "strasse", lang: "en", similarity: 1 }],
       percentage: 1,
     }
   );
 });
 
-test("ÖBB should match with oebb", ({ deepEqual }) => {
-  deepEqual(
+test("ÖBB should match with oebb", ({ like }) => {
+  like(
     score([{ value: "ÖBB", lang: "en" }], [{ value: "oebb", lang: "en" }]),
     {
-      matches: [{ match: true, missing: false, value: "ÖBB", lang: "en" }],
+      matches: [{ match: true, missing: false, value: "ÖBB", lang: "en", similarity: 1 }],
       percentage: 1,
     }
   );
@@ -107,54 +107,8 @@ test("Different values with unknown language should not match", ({ like }) => {
       ]
     ),
     {
-      matches: [{ match: false, missing: false, value: "RP BIRIMIRCI", lang: undefined }],
+      matches: [{ match: false, missing: false, value: "RP BIRIMIRCI", lang: undefined, similarity: 0, }],
       percentage: 0,
-    }
-  );
-});
-
-test("Should match against variants in source", ({ deepEqual }) => {
-  deepEqual(
-    score(
-      [
-        {
-          value: "doesNotExists",
-          variants: ["munchen hauftbahnhof", "anotherFake"],
-          lang: "en",
-        },
-      ],
-      [{ value: "Munchen hbf", lang: "en", variants: ["Munchen Hauftbahnhof"] }]
-    ),
-    {
-      matches: [
-        {
-          match: true,
-          missing: false,
-          value: "doesNotExists",
-          lang: "en",
-        },
-      ],
-      percentage: 1,
-    }
-  );
-});
-
-test("Should match against variants in destination", ({ deepEqual }) => {
-  deepEqual(
-    score(
-      [{ value: "munchen hauftbahnhof", lang: "en" }],
-      [{ value: "Munchen hbf", lang: "en", variants: ["Munchen Hauftbahnhof"] }]
-    ),
-    {
-      matches: [
-        {
-          match: true,
-          missing: false,
-          value: "munchen hauftbahnhof",
-          lang: "en",
-        },
-      ],
-      percentage: 1,
     }
   );
 });

@@ -5,7 +5,10 @@ import { Feature, Point, MultiPoint } from "geojson";
 export interface Label {
   value: string;
   lang?: string;
-  variants?: string[];
+  info?: {
+    variant: boolean,
+    [key: string]: any
+  }
 }
 
 interface Basic {

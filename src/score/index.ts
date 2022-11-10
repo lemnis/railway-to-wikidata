@@ -14,25 +14,21 @@ const isMultiPoint = (
   return Array.isArray(position[0]);
 };
 
-export const score = async (location: Location, wikidata: Location, any?: any[]) => {
-  const { id, info, labels: locationLabels, ...properties } = location.properties;
-  const labels = scoreLabel(
-    locationLabels,
-    wikidata.properties.labels
-  );
+export const score = async (
+  location: Location,
+  wikidata: Location,
+  any?: any[]
+) => {
+  const {
+    id,
+    info,
+    labels: locationLabels,
+    ...properties
+  } = location.properties;
+  const labels = scoreLabel(locationLabels, wikidata.properties.labels);
   const claims = await scoreClaims(properties, wikidata.properties);
 
-  const coordinates = scoreCoordinateLocation(
-    (isMultiPoint(location.geometry.coordinates)
-      ? location.geometry.coordinates
-      : [location.geometry.coordinates]
-    ).map((value) => ({ value: value as any })),
-
-    (isMultiPoint(wikidata.geometry.coordinates)
-      ? wikidata.geometry.coordinates
-      : [wikidata.geometry.coordinates]
-    ).map((value) => ({ value: value as any }))
-  );
+  const coordinates = scoreCoordinateLocation(location, wikidata);
   const closestDistance = coordinates
     .map((i) => i.distance)
     ?.sort((a, b) => a! - b!);
