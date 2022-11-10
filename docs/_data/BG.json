@@ -4,165 +4,6 @@
       "geometry": {
         "coordinates": [
           [
-            23.3212,
-            42.7122
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "---BG16000-BGSOF-trainline-27859-Q97324846",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q219"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
-              }
-            ],
-            "value": "Q28148701"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
-              }
-            ],
-            "value": "27859"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5216000"
-          },
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
-              }
-            ],
-            "value": "5221544"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
-              }
-            ],
-            "value": "BGSOF"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
-              }
-            ],
-            "value": "5200004"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q97324846"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Sofia"
-          },
-          {
-            "lang": "cs",
-            "value": "Sofie"
-          },
-          {
-            "lang": "hu",
-            "value": "Szófia"
-          },
-          {
-            "lang": "ja",
-            "value": "ソフィア"
-          },
-          {
-            "lang": "ko",
-            "value": "소피아"
-          },
-          {
-            "lang": "ru",
-            "value": "София"
-          },
-          {
-            "lang": "tr",
-            "value": "Sofya"
-          },
-          {
-            "lang": "zh",
-            "value": "索菲亞"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара София Север"
-          },
-          {
-            "lang": "en",
-            "value": "Sofia-Sever"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             22.9319,
             42.922
           ]
@@ -275,16 +116,16 @@
             "value": "Dragoman"
           },
           {
+            "lang": "pl",
+            "value": "Dragoman"
+          },
+          {
             "lang": "bg",
             "value": "Железопътна гара Драгоман"
           },
           {
             "lang": "en",
             "value": "Dragoman railway station"
-          },
-          {
-            "lang": "pl",
-            "value": "Dragoman"
           }
         ]
       },
@@ -419,6 +260,10 @@
             "value": "斯維倫格勒"
           },
           {
+            "lang": "pl",
+            "value": "Swilengrad"
+          },
+          {
             "lang": "bg",
             "value": "Железопътна гара Свиленград"
           },
@@ -439,12 +284,149 @@
             "value": "スヴィレングラード駅"
           },
           {
-            "lang": "pl",
-            "value": "Swilengrad"
+            "lang": "tr",
+            "value": "Svilengrad Garı"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.3212,
+            42.7122
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--BG16000-BGSOF-trainline-27859",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
+              }
+            ],
+            "value": "Q28148701"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
+              }
+            ],
+            "value": "27859"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5216000"
+          },
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
+              }
+            ],
+            "value": "5221544"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
+              }
+            ],
+            "value": "BGSOF"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27859"
+              }
+            ],
+            "value": "5200004"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Sofia"
+          },
+          {
+            "lang": "cs",
+            "value": "Sofie"
+          },
+          {
+            "lang": "hu",
+            "value": "Szófia"
+          },
+          {
+            "lang": "ja",
+            "value": "ソフィア"
+          },
+          {
+            "lang": "ko",
+            "value": "소피아"
+          },
+          {
+            "lang": "ru",
+            "value": "София"
           },
           {
             "lang": "tr",
-            "value": "Svilengrad Garı"
+            "value": "Sofya"
+          },
+          {
+            "lang": "zh",
+            "value": "索菲亞"
           }
         ]
       },
@@ -601,6 +583,14 @@
             "value": "普罗夫迪夫"
           },
           {
+            "lang": "uk",
+            "value": "Центральний залізничний вокзал Пловдива"
+          },
+          {
+            "lang": "sk",
+            "value": "Centrálna stanica Plovdiv"
+          },
+          {
             "lang": "bg",
             "value": "Железопътна гара Пловдив"
           },
@@ -614,19 +604,15 @@
           },
           {
             "lang": "fr",
-            "value": "gare centrale de Plovdiv"
+            "value": "gare de Plovdiv"
           },
           {
             "lang": "fr",
-            "value": "gare de Plovdiv"
+            "value": "gare centrale de Plovdiv"
           },
           {
             "lang": "nl",
             "value": "Centraal station Plovdiv"
-          },
-          {
-            "lang": "uk",
-            "value": "Центральний залізничний вокзал Пловдива"
           },
           {
             "lang": "zh",
@@ -763,14 +749,6 @@
           },
           {
             "lang": "bg",
-            "value": "Горна Оряховица"
-          },
-          {
-            "lang": "bg",
-            "value": "железопътна гара Горна Оряховица"
-          },
-          {
-            "lang": "bg",
             "value": "Железопътна гара Горна Оряховица"
           },
           {
@@ -778,20 +756,28 @@
             "value": "жп гара Горна Оряховица"
           },
           {
+            "lang": "bg",
+            "value": "железопътна гара Горна Оряховица"
+          },
+          {
             "lang": "en",
             "value": "Gorna Oryahovitsa Railway Station"
+          },
+          {
+            "lang": "ro",
+            "value": "Gara Gorna Oreahovița"
           },
           {
             "lang": "fr",
             "value": "Gare de Gorna Orjahovica"
           },
           {
-            "lang": "pl",
-            "value": "Gorna Orjachowica"
+            "lang": "bg",
+            "value": "Горна Оряховица"
           },
           {
-            "lang": "ro",
-            "value": "Gara Gorna Oreahovița"
+            "lang": "pl",
+            "value": "Gorna Orjachowica"
           }
         ]
       },
@@ -950,24 +936,16 @@
             "value": "瓦爾納"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Варна"
+            "lang": "en",
+            "value": "Varna railway station"
           },
           {
             "lang": "bg",
             "value": "ЖП гара Варна"
           },
           {
-            "lang": "cs",
-            "value": "Varna"
-          },
-          {
-            "lang": "de",
-            "value": "Varna"
-          },
-          {
-            "lang": "en",
-            "value": "Varna railway station"
+            "lang": "bg",
+            "value": "Железопътна гара Варна"
           },
           {
             "lang": "fr",
@@ -986,16 +964,169 @@
             "value": "Dworzec kolejowy Warna"
           },
           {
-            "lang": "ro",
-            "value": "Varna"
-          },
-          {
             "lang": "uk",
             "value": "Варна (станція)"
           },
           {
             "lang": "zh",
             "value": "瓦爾納車站"
+          },
+          {
+            "lang": "ro",
+            "value": "Varna"
+          },
+          {
+            "lang": "cs",
+            "value": "Varna"
+          },
+          {
+            "lang": "de",
+            "value": "Varna"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            24.805,
+            42.6318
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "--BG32040-trainline-27854-Q97324822",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
+              }
+            ],
+            "value": "Q28148701"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
+              }
+            ],
+            "value": "27854"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.4
+                }
+              ],
+              "reliability": 1.04
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
+              }
+            ],
+            "value": "5232040"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
+              }
+            ],
+            "value": "BGAAF"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
+              }
+            ],
+            "value": "5200010"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324822"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Karlovo"
+          },
+          {
+            "lang": "de",
+            "value": "Karlowo"
+          },
+          {
+            "lang": "ja",
+            "value": "カルロヴォ"
+          },
+          {
+            "lang": "ko",
+            "value": "카를로보"
+          },
+          {
+            "lang": "pl",
+            "value": "Karłowo"
+          },
+          {
+            "lang": "ru",
+            "value": "Карлово"
+          },
+          {
+            "lang": "tr",
+            "value": "Karlıova"
+          },
+          {
+            "lang": "zh",
+            "value": "卡爾洛沃"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Карлово"
+          },
+          {
+            "lang": "en",
+            "value": "Karlovo train station"
           }
         ]
       },
@@ -1133,11 +1264,11 @@
           },
           {
             "lang": "fr",
-            "value": "gare centrale de Roussé"
+            "value": "gare de Roussé"
           },
           {
             "lang": "fr",
-            "value": "gare de Roussé"
+            "value": "gare centrale de Roussé"
           },
           {
             "lang": "hu",
@@ -1305,14 +1436,6 @@
           },
           {
             "lang": "bg",
-            "value": "Бургас"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Бургас"
-          },
-          {
-            "lang": "bg",
             "value": "жп гара Бургас"
           },
           {
@@ -1332,12 +1455,135 @@
             "value": "gare de Bourgas"
           },
           {
+            "lang": "uk",
+            "value": "Бургас (станція)"
+          },
+          {
+            "lang": "bg",
+            "value": "Бургас"
+          },
+          {
             "lang": "pl",
             "value": "Burgas"
           },
           {
-            "lang": "uk",
-            "value": "Бургас (станція)"
+            "lang": "bg",
+            "value": "Железопътна гара Бургас"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.9876,
+            42.8792
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG11010-Q54416028",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q1772152"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5211010"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q54416028"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Aldomirovci"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Алдомировци"
+          },
+          {
+            "lang": "bg",
+            "value": "Алдомировци"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.1511,
+            42.7059
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG11210-Q97324881",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5211210"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324881"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Bankya"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Банкя"
+          },
+          {
+            "lang": "en",
+            "value": "Bankya train station"
           }
         ]
       },
@@ -1466,13 +1712,13 @@
       "geometry": {
         "coordinates": [
           [
-            23.3545,
-            42.698
+            23.5788,
+            42.6282
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-BG16001-Q97324817",
+      "id": "-BG16012-Q97324806",
       "properties": {
         "P17": [
           {
@@ -1493,25 +1739,25 @@
             "info": {
               "reliability": 0.4
             },
-            "value": "5216001"
+            "value": "5216012"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q97324817"
+            "value": "Q97324806"
           }
         ],
         "labels": [
           {
-            "value": "Podujane-Patnicheska"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Подуяне Пътническа"
+            "value": "Elin Pelin"
           },
           {
             "lang": "en",
-            "value": "Podujane Passenger"
+            "value": "Elin Pelin train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Елин Пелин"
           }
         ]
       },
@@ -1637,11 +1883,11 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Септември"
+            "value": "Септември"
           },
           {
             "lang": "bg",
-            "value": "Септември"
+            "value": "Железопътна гара Септември"
           },
           {
             "lang": "en",
@@ -1850,8 +2096,8 @@
             "value": "Асеновград"
           },
           {
-            "lang": "bg",
-            "value": "железопътна гара Асеновград"
+            "lang": "pl",
+            "value": "Asenowgrad"
           },
           {
             "lang": "bg",
@@ -1862,12 +2108,67 @@
             "value": "жп гара Асеновград"
           },
           {
-            "lang": "pl",
-            "value": "Asenowgrad"
+            "lang": "bg",
+            "value": "железопътна гара Асеновград"
           },
           {
             "lang": "ru",
             "value": "Железнодорожный вокзал Асеновграда"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.3885,
+            42.899
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG23006-Q97324943",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5223006"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324943"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Rebrovo"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Реброво"
+          },
+          {
+            "lang": "en",
+            "value": "Rebrovo train station"
           }
         ]
       },
@@ -1946,6 +2247,66 @@
       "geometry": {
         "coordinates": [
           [
+            23.3786,
+            43.0824
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG23015-Q97324874",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q2017393"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5223015"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324874"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Lakatnik"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Лакатник"
+          },
+          {
+            "lang": "en",
+            "value": "Lakatnik train station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             26.578,
             43.2635
           ]
@@ -1991,16 +2352,126 @@
             "value": "Targovishte"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Търговище"
-          },
-          {
             "lang": "en",
             "value": "Targovishte train station"
           },
           {
             "lang": "pl",
             "value": "Tyrgowiszte"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Търговище"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            24.2527,
+            43.3306
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG27014-Q97324960",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5227014"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324960"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Telish"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Телиш"
+          },
+          {
+            "lang": "en",
+            "value": "Telish train station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            24.6145,
+            43.4209
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG27030-Q97324753",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5227030"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324753"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Pleven"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Плевен"
+          },
+          {
+            "lang": "en",
+            "value": "Pleven train station"
           }
         ]
       },
@@ -2056,11 +2527,11 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Ловеч"
+            "value": "Ловеч"
           },
           {
             "lang": "bg",
-            "value": "Ловеч"
+            "value": "Железопътна гара Ловеч"
           },
           {
             "lang": "pl",
@@ -2074,13 +2545,13 @@
       "geometry": {
         "coordinates": [
           [
-            24.805,
-            42.6318
+            25.3372,
+            43.6231
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-BG32040-trainline-27854",
+      "id": "-BG27410-Q97324863",
       "properties": {
         "P17": [
           {
@@ -2091,107 +2562,221 @@
             "value": "Q219"
           }
         ],
-        "P421": [
+        "P31": [
           {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
-              }
-            ],
-            "value": "Q28148701"
-          }
-        ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
-              }
-            ],
-            "value": "27854"
+            "value": "Q55488"
           }
         ],
         "P722": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                },
-                {
-                  "reliability": 0.4
-                }
-              ],
-              "reliability": 1.04
+              "reliability": 0.4
             },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
-              }
-            ],
-            "value": "5232040"
+            "value": "5227410"
           }
         ],
-        "P8448": [
+        "PWIKI": [
           {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
-              }
-            ],
-            "value": "BGAAF"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27854"
-              }
-            ],
-            "value": "5200010"
+            "value": "Q97324863"
           }
         ],
         "labels": [
           {
-            "value": "Karlovo"
+            "value": "Svishtov"
           },
           {
-            "lang": "de",
-            "value": "Karlowo"
+            "lang": "bg",
+            "value": "Железопътна гара Свищов"
           },
           {
-            "lang": "ja",
-            "value": "カルロヴォ"
+            "lang": "en",
+            "value": "Svishtov train station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.8035,
+            42.6898
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG32015-Q97325813",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5232015"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97325813"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Makotsevo"
           },
           {
-            "lang": "ko",
-            "value": "카를로보"
+            "lang": "en",
+            "value": "Makotsevo train station"
           },
           {
-            "lang": "pl",
-            "value": "Karłowo"
+            "lang": "bg",
+            "value": "Железопътна гара Макоцево"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            24.1738,
+            42.7101
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG32021-Q97325223",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5232021"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97325223"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Pirdop"
           },
           {
-            "lang": "ru",
-            "value": "Карлово"
+            "lang": "bg",
+            "value": "Железопътна гара Пирдоп"
           },
           {
-            "lang": "tr",
-            "value": "Karlıova"
+            "lang": "en",
+            "value": "Pirdop train station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            24.3392,
+            42.7001
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG32023-Q97325694",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q251439"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q6435357"
           },
           {
-            "lang": "zh",
-            "value": "卡爾洛沃"
+            "value": "Q12283320"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5232023"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97325694"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Koprivshtitsa"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Копривщица"
+          },
+          {
+            "lang": "bg",
+            "value": "Копривщица (железопътна гара)"
+          },
+          {
+            "lang": "bg",
+            "value": "гара Копривщица"
+          },
+          {
+            "lang": "en",
+            "value": "Koprivshtitsa train station"
           }
         ]
       },
@@ -2242,23 +2827,133 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Зимница"
-          },
-          {
-            "lang": "bg",
             "value": "ЖП гара Зимница"
           },
           {
-            "lang": "en",
-            "value": "Zimnitsa"
+            "lang": "bg",
+            "value": "Железопътна гара Зимница"
           },
           {
             "lang": "en",
             "value": "Zimnitsa station"
           },
           {
+            "lang": "en",
+            "value": "Zimnitsa"
+          },
+          {
             "lang": "pl",
             "value": "Zimnica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            26.8757,
+            42.8021
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG38015-Q97326054",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5238015"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97326054"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Podvis"
+          },
+          {
+            "lang": "en",
+            "value": "Podvis train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Подвис"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            27.3411,
+            43.0481
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG38032-Q97324885",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5238032"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324885"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Dalgopol"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Дългопол"
+          },
+          {
+            "lang": "en",
+            "value": "Dalgopol train station"
           }
         ]
       },
@@ -2317,11 +3012,11 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Долапите"
+            "value": "Жп гара Долапите"
           },
           {
             "lang": "bg",
-            "value": "Жп гара Долапите"
+            "value": "Железопътна гара Долапите"
           },
           {
             "lang": "en",
@@ -2330,6 +3025,61 @@
           {
             "lang": "hu",
             "value": "Dolapite megállóhely"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            25.6294,
+            42.4162
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG48010-Q97324762",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5248010"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324762"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Stara Zagora"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Стара Загора"
+          },
+          {
+            "lang": "en",
+            "value": "Stara Zagora train station"
           }
         ]
       },
@@ -2394,6 +3144,61 @@
       "geometry": {
         "coordinates": [
           [
+            23.1036,
+            42.2603
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG56030-Q97324872",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5256030"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97324872"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Dupnitsa"
+          },
+          {
+            "lang": "en",
+            "value": "Dupnitsa train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Дупница"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             23.0851,
             42.0136
           ]
@@ -2444,19 +3249,81 @@
           },
           {
             "lang": "bg",
-            "value": "железопътна гара Благоевград"
-          },
-          {
-            "lang": "bg",
             "value": "Железопътна гара Благоевград"
           },
           {
             "lang": "bg",
-            "value": "жп гара Благоевград"
+            "value": "железопътна гара Благоевград"
           },
           {
             "lang": "pl",
             "value": "Błagojewgrad"
+          },
+          {
+            "lang": "bg",
+            "value": "жп гара Благоевград"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.3616,
+            41.3914
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG56060-Q97325731",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q1402443"
+          },
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5256060"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97325731"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Kulata"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Кулата"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Kulata"
+          },
+          {
+            "lang": "es",
+            "value": "estación Kulata"
           }
         ]
       },
@@ -2521,15 +3388,15 @@
           },
           {
             "lang": "bg",
-            "value": "железопътна гара Враца"
-          },
-          {
-            "lang": "bg",
             "value": "Железопътна гара Враца"
           },
           {
             "lang": "bg",
             "value": "жп гара Враца"
+          },
+          {
+            "lang": "bg",
+            "value": "железопътна гара Враца"
           },
           {
             "lang": "en",
@@ -2547,98 +3414,13 @@
       "geometry": {
         "coordinates": [
           [
-            22.8752,
-            43.9843
+            24.7368,
+            42.1667
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-BG72050-Q89273235",
-      "properties": {
-        "P131": [
-          {
-            "value": "Q178531"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q219"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5272050"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5200279"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q89273235"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Vidin Patnicheska"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Видин"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Vidin"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Widin"
-          },
-          {
-            "lang": "en",
-            "value": "Vidin railway station"
-          },
-          {
-            "lang": "es",
-            "value": "estación de Vidin"
-          },
-          {
-            "lang": "es",
-            "value": "estación Vidin"
-          },
-          {
-            "lang": "ro",
-            "value": "Gara Vidin"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            25.0459,
-            42.2017
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "-BG81004-Q104802905",
+      "id": "-BG81001-Q56938352",
       "properties": {
         "P131": [
           {
@@ -2654,9 +3436,59 @@
             "value": "Q219"
           }
         ],
-        "P276": [
+        "P31": [
           {
-            "value": "Q816162"
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5281001"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q56938352"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Filipovo"
+          },
+          {
+            "lang": "bg",
+            "value": "Филипово"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Филипово"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            25.3397,
+            42.2036
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG81013-Q97324903",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
           }
         ],
         "P31": [
@@ -2669,25 +3501,149 @@
             "info": {
               "reliability": 0.4
             },
-            "value": "5281004"
+            "value": "5281013"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q104802905"
+            "value": "Q97324903"
           }
         ],
         "labels": [
           {
-            "value": "Belozem"
-          },
-          {
-            "lang": "bg",
-            "value": "Гара Белозем"
+            "value": "Chirpan"
           },
           {
             "lang": "en",
-            "value": "Railway Station, Belozem"
+            "value": "Chirpan train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Чирпан"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            27.2463,
+            42.6947
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG83010-Q54415181",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q275178"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5283010"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q54415181"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Aytos"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Айтос"
+          },
+          {
+            "lang": "bg",
+            "value": "Айтос"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            26.4914,
+            42.4958
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "-BG84020-Q33511009",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q186569"
+          }
+        ],
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5284020"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q33511009"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Jambol"
+          },
+          {
+            "lang": "en",
+            "value": "Yambol train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Ямбол (жп гара)"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Ямбол"
           }
         ]
       },
@@ -2742,20 +3698,20 @@
             "value": "Obraztsov Chiflik"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Образцов чифлик"
+            "lang": "en",
+            "value": "Obraztsov Chiflik railway station"
           },
           {
             "lang": "bg",
             "value": "Образцов чифлик"
           },
           {
-            "lang": "cs",
-            "value": "Obrazcov čiflik"
+            "lang": "bg",
+            "value": "Железопътна гара Образцов чифлик"
           },
           {
-            "lang": "en",
-            "value": "Obraztsov Chiflik railway station"
+            "lang": "cs",
+            "value": "Obrazcov čiflik"
           },
           {
             "lang": "hu",
@@ -2773,19 +3729,14 @@
       "geometry": {
         "coordinates": [
           [
-            26.1255,
-            43.748
+            26.5093,
+            43.5673
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-BG94005-Q56810839",
+      "id": "-BG94013-Q97325085",
       "properties": {
-        "P131": [
-          {
-            "value": "Q160173"
-          }
-        ],
         "P17": [
           {
             "info": {
@@ -2805,25 +3756,25 @@
             "info": {
               "reliability": 0.4
             },
-            "value": "5294005"
+            "value": "5294013"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q56810839"
+            "value": "Q97325085"
           }
         ],
         "labels": [
           {
-            "value": "Jastrebovo"
+            "value": "Razgrad"
+          },
+          {
+            "lang": "en",
+            "value": "Razgrad train station"
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Ястребово"
-          },
-          {
-            "lang": "hu",
-            "value": "Jasztrebovo megállóhely"
+            "value": "Железопътна гара Разград"
           }
         ]
       },
@@ -2886,37 +3837,6 @@
         "labels": [
           {
             "value": "KALOTINA"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          22.9876,
-          42.8792
-        ],
-        "type": "Point"
-      },
-      "id": "BG11010",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5211010"
-          }
-        ],
-        "labels": [
-          {
-            "value": "ALDOMIROVCI"
           }
         ]
       },
@@ -3010,37 +3930,6 @@
         "labels": [
           {
             "value": "KOSTINBROD"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.1511,
-          42.7059
-        ],
-        "type": "Point"
-      },
-      "id": "BG11210",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5211210"
-          }
-        ],
-        "labels": [
-          {
-            "value": "BANKYA"
           }
         ]
       },
@@ -3173,6 +4062,37 @@
     {
       "geometry": {
         "coordinates": [
+          23.3545,
+          42.698
+        ],
+        "type": "Point"
+      },
+      "id": "BG16001",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q219"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5216001"
+          }
+        ],
+        "labels": [
+          {
+            "value": "PODUJANE-PATNICHESKA"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           23.4127,
           42.6646
         ],
@@ -3196,37 +4116,6 @@
         "labels": [
           {
             "value": "ISKAR"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.5788,
-          42.6282
-        ],
-        "type": "Point"
-      },
-      "id": "BG16012",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5216012"
-          }
-        ],
-        "labels": [
-          {
-            "value": "ELIN PELIN"
           }
         ]
       },
@@ -3824,37 +4713,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.3885,
-          42.899
-        ],
-        "type": "Point"
-      },
-      "id": "BG23006",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5223006"
-          }
-        ],
-        "labels": [
-          {
-            "value": "REBROVO"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           23.3516,
           43.0219
         ],
@@ -3878,37 +4736,6 @@
         "labels": [
           {
             "value": "BOV"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.3786,
-          43.0824
-        ],
-        "type": "Point"
-      },
-      "id": "BG23015",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5223015"
-          }
-        ],
-        "labels": [
-          {
-            "value": "LAKATNIK"
           }
         ]
       },
@@ -4413,37 +5240,6 @@
     {
       "geometry": {
         "coordinates": [
-          24.2527,
-          43.3306
-        ],
-        "type": "Point"
-      },
-      "id": "BG27014",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5227014"
-          }
-        ],
-        "labels": [
-          {
-            "value": "TELISH"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           24.3444,
           43.3803
         ],
@@ -4560,37 +5356,6 @@
         "labels": [
           {
             "value": "PLEVEN ZAPAD"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          24.6145,
-          43.4209
-        ],
-        "type": "Point"
-      },
-      "id": "BG27030",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5227030"
-          }
-        ],
-        "labels": [
-          {
-            "value": "PLEVEN"
           }
         ]
       },
@@ -4901,37 +5666,6 @@
         "labels": [
           {
             "value": "ORESH"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          25.3372,
-          43.6231
-        ],
-        "type": "Point"
-      },
-      "id": "BG27410",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5227410"
-          }
-        ],
-        "labels": [
-          {
-            "value": "SVISHTOV"
           }
         ]
       },
@@ -5436,37 +6170,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.8035,
-          42.6898
-        ],
-        "type": "Point"
-      },
-      "id": "BG32015",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5232015"
-          }
-        ],
-        "labels": [
-          {
-            "value": "MAKOTSEVO"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           23.862,
           42.7133
         ],
@@ -5591,37 +6294,6 @@
     {
       "geometry": {
         "coordinates": [
-          24.1738,
-          42.7101
-        ],
-        "type": "Point"
-      },
-      "id": "BG32021",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5232021"
-          }
-        ],
-        "labels": [
-          {
-            "value": "PIRDOP"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           24.2472,
           42.729
         ],
@@ -5645,37 +6317,6 @@
         "labels": [
           {
             "value": "ANTON"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          24.3392,
-          42.7001
-        ],
-        "type": "Point"
-      },
-      "id": "BG32023",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5232023"
-          }
-        ],
-        "labels": [
-          {
-            "value": "KOPRIVSHTITSA"
           }
         ]
       },
@@ -6335,37 +6976,6 @@
     {
       "geometry": {
         "coordinates": [
-          26.8757,
-          42.8021
-        ],
-        "type": "Point"
-      },
-      "id": "BG38015",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5238015"
-          }
-        ],
-        "labels": [
-          {
-            "value": "PODVIS"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           26.9727,
           42.8325
         ],
@@ -6606,37 +7216,6 @@
         "labels": [
           {
             "value": "KOMUNARI"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          27.3411,
-          43.0481
-        ],
-        "type": "Point"
-      },
-      "id": "BG38032",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5238032"
-          }
-        ],
-        "labels": [
-          {
-            "value": "DALGOPOL"
           }
         ]
       },
@@ -7513,37 +8092,6 @@
     {
       "geometry": {
         "coordinates": [
-          25.6294,
-          42.4162
-        ],
-        "type": "Point"
-      },
-      "id": "BG48010",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5248010"
-          }
-        ],
-        "labels": [
-          {
-            "value": "STARA ZAGORA"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           25.5961,
           42.4988
         ],
@@ -7916,37 +8464,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.1036,
-          42.2603
-        ],
-        "type": "Point"
-      },
-      "id": "BG56030",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5256030"
-          }
-        ],
-        "labels": [
-          {
-            "value": "DUPNITSA"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           23.0375,
           42.1584
         ],
@@ -8249,37 +8766,6 @@
         "labels": [
           {
             "value": "GENERAL TODOROV"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.3616,
-          41.3914
-        ],
-        "type": "Point"
-      },
-      "id": "BG56060",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5256060"
-          }
-        ],
-        "labels": [
-          {
-            "value": "KULATA"
           }
         ]
       },
@@ -8815,6 +9301,37 @@
     {
       "geometry": {
         "coordinates": [
+          22.8752,
+          43.9843
+        ],
+        "type": "Point"
+      },
+      "id": "BG72050",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q219"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5272050"
+          }
+        ],
+        "labels": [
+          {
+            "value": "VIDIN PATNICHESKA"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           22.8929,
           44.0165
         ],
@@ -8939,37 +9456,6 @@
     {
       "geometry": {
         "coordinates": [
-          24.7368,
-          42.1667
-        ],
-        "type": "Point"
-      },
-      "id": "BG81001",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5281001"
-          }
-        ],
-        "labels": [
-          {
-            "value": "FILIPOVO"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           24.8512,
           42.1885
         ],
@@ -9032,6 +9518,37 @@
     {
       "geometry": {
         "coordinates": [
+          25.0459,
+          42.2017
+        ],
+        "type": "Point"
+      },
+      "id": "BG81004",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q219"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5281004"
+          }
+        ],
+        "labels": [
+          {
+            "value": "BELOZEM"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           25.1754,
           42.2046
         ],
@@ -9086,37 +9603,6 @@
         "labels": [
           {
             "value": "CHERNA GORA"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          25.3397,
-          42.2036
-        ],
-        "type": "Point"
-      },
-      "id": "BG81013",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5281013"
-          }
-        ],
-        "labels": [
-          {
-            "value": "CHIRPAN"
           }
         ]
       },
@@ -9435,37 +9921,6 @@
     {
       "geometry": {
         "coordinates": [
-          27.2463,
-          42.6947
-        ],
-        "type": "Point"
-      },
-      "id": "BG83010",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5283010"
-          }
-        ],
-        "labels": [
-          {
-            "value": "AYTOS"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           27.3021,
           42.5959
         ],
@@ -9776,37 +10231,6 @@
     {
       "geometry": {
         "coordinates": [
-          26.4914,
-          42.4958
-        ],
-        "type": "Point"
-      },
-      "id": "BG84020",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5284020"
-          }
-        ],
-        "labels": [
-          {
-            "value": "JAMBOL"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           26.5303,
           42.557
         ],
@@ -9962,6 +10386,37 @@
     {
       "geometry": {
         "coordinates": [
+          26.1255,
+          43.748
+        ],
+        "type": "Point"
+      },
+      "id": "BG94005",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q219"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5294005"
+          }
+        ],
+        "labels": [
+          {
+            "value": "JASTREBOVO"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           26.2482,
           43.6946
         ],
@@ -10047,37 +10502,6 @@
         "labels": [
           {
             "value": "PROSTORNO"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          26.5093,
-          43.5673
-        ],
-        "type": "Point"
-      },
-      "id": "BG94013",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q219"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.4
-            },
-            "value": "5294013"
-          }
-        ],
-        "labels": [
-          {
-            "value": "RAZGRAD"
           }
         ]
       },

@@ -105,13 +105,6 @@
               }
             ],
             "value": "2412000"
-          },
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "2400000"
           }
         ],
         "P8448": [
@@ -207,6 +200,10 @@
             "value": "维尔纽斯"
           },
           {
+            "lang": "lt",
+            "value": "Vilniaus geležinkelio stotis"
+          },
+          {
             "lang": "arz",
             "value": "محطة ڤيلنيوس"
           },
@@ -220,11 +217,15 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Vilnius"
+            "value": "Bahnhof Wilna"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Wilna"
+            "value": "Bahnhof Vilnius"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Vilna"
           },
           {
             "lang": "en",
@@ -233,10 +234,6 @@
           {
             "lang": "eo",
             "value": "Vilno (stacidomo)"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion de Vilna"
           },
           {
             "lang": "es",
@@ -256,15 +253,11 @@
           },
           {
             "lang": "ja",
-            "value": "ヴィリニュス中央駅"
-          },
-          {
-            "lang": "ja",
             "value": "ヴィリニュス駅"
           },
           {
-            "lang": "lt",
-            "value": "Vilniaus geležinkelio stotis"
+            "lang": "ja",
+            "value": "ヴィリニュス中央駅"
           },
           {
             "lang": "lv",
@@ -398,6 +391,11 @@
         "P954": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -434,20 +432,20 @@
             "value": "Turmantas train station"
           },
           {
-            "lang": "fi",
-            "value": "Turmantasin rautatieasema"
-          },
-          {
-            "lang": "fr",
-            "value": "Gare de Turmantas"
-          },
-          {
             "lang": "lt",
             "value": "Turmanto geležinkelio stotis"
           },
           {
             "lang": "pl",
             "value": "Turmont"
+          },
+          {
+            "lang": "fi",
+            "value": "Turmantasin rautatieasema"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare de Turmantas"
           }
         ]
       },
@@ -521,12 +519,12 @@
             "value": "Tytuvėnai"
           },
           {
-            "lang": "en",
-            "value": "Tytuvėnai railway station"
-          },
-          {
             "lang": "lt",
             "value": "Tytuvėnai"
+          },
+          {
+            "lang": "en",
+            "value": "Tytuvėnai railway station"
           }
         ]
       },
@@ -598,7 +596,7 @@
               "pregrouped": [],
               "reliability": 0
             },
-            "value": "Q486972"
+            "value": "Q7930989"
           }
         ],
         "P421": [
@@ -641,18 +639,6 @@
             "value": "Pagėgiai"
           },
           {
-            "lang": "ar",
-            "value": "باغيغياي"
-          },
-          {
-            "lang": "arz",
-            "value": "باجيجياى"
-          },
-          {
-            "lang": "be",
-            "value": "Пагегей"
-          },
-          {
             "lang": "be",
             "value": "Пагегі"
           },
@@ -661,16 +647,32 @@
             "value": "Пагегяй"
           },
           {
-            "lang": "be-tarask",
-            "value": "Пагегі"
+            "lang": "ar",
+            "value": "باغيغياي"
           },
           {
-            "lang": "ca",
-            "value": "Pagėgiai"
+            "lang": "arz",
+            "value": "باجيجياى"
           },
           {
             "lang": "ca",
             "value": "Pogegen"
+          },
+          {
+            "lang": "be",
+            "value": "Пагегей"
+          },
+          {
+            "lang": "be-tarask",
+            "value": "Пагегі"
+          },
+          {
+            "lang": "cs",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "ca",
+            "value": "Pagėgiai"
           },
           {
             "lang": "ceb",
@@ -681,16 +683,12 @@
             "value": "Pagėgiai"
           },
           {
-            "lang": "cs",
+            "lang": "de",
             "value": "Pogegen"
           },
           {
             "lang": "de",
             "value": "Pagėgiai"
-          },
-          {
-            "lang": "de",
-            "value": "Pogegen"
           },
           {
             "lang": "diq",
@@ -702,14 +700,10 @@
           },
           {
             "lang": "en",
-            "value": "Pagėgiai"
+            "value": "Pogegen"
           },
           {
             "lang": "en",
-            "value": "Pogegen"
-          },
-          {
-            "lang": "eo",
             "value": "Pagėgiai"
           },
           {
@@ -718,23 +712,31 @@
           },
           {
             "lang": "es",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "eo",
             "value": "Pagėgiai"
+          },
+          {
+            "lang": "et",
+            "value": "Pogegen"
           },
           {
             "lang": "es",
-            "value": "Pogegen"
-          },
-          {
-            "lang": "et",
             "value": "Pagėgiai"
           },
           {
             "lang": "et",
-            "value": "Pogegen"
+            "value": "Pagėgiai"
           },
           {
             "lang": "fa",
             "value": "پاگگیای"
+          },
+          {
+            "lang": "fr",
+            "value": "Pogegen"
           },
           {
             "lang": "fi",
@@ -745,7 +747,11 @@
             "value": "Pagėgiai"
           },
           {
-            "lang": "fr",
+            "lang": "gsw",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "hr",
             "value": "Pogegen"
           },
           {
@@ -753,16 +759,8 @@
             "value": "Pagėgiai"
           },
           {
-            "lang": "gsw",
-            "value": "Pogegen"
-          },
-          {
             "lang": "hr",
             "value": "Pagėgiai"
-          },
-          {
-            "lang": "hr",
-            "value": "Pogegen"
           },
           {
             "lang": "hsb",
@@ -770,10 +768,14 @@
           },
           {
             "lang": "it",
-            "value": "Pagėgiai"
+            "value": "Pogegen"
           },
           {
             "lang": "it",
+            "value": "Pagėgiai"
+          },
+          {
+            "lang": "ksh",
             "value": "Pogegen"
           },
           {
@@ -781,27 +783,27 @@
             "value": "パゲゲイ"
           },
           {
+            "lang": "lt",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "lv",
+            "value": "Pogegen"
+          },
+          {
             "lang": "ksh",
             "value": "Pagėgiai"
           },
           {
-            "lang": "ksh",
-            "value": "Pogegen"
-          },
-          {
             "lang": "lt",
             "value": "Pagėgiai"
-          },
-          {
-            "lang": "lt",
-            "value": "Pogegen"
           },
           {
             "lang": "lv",
             "value": "Paģēģi"
           },
           {
-            "lang": "lv",
+            "lang": "nds",
             "value": "Pogegen"
           },
           {
@@ -809,23 +811,23 @@
             "value": "Пагеѓај"
           },
           {
+            "lang": "nl",
+            "value": "Pogegen"
+          },
+          {
             "lang": "nds",
             "value": "Pagėgiai"
           },
           {
-            "lang": "nds",
-            "value": "Pogegen"
-          },
-          {
             "lang": "nl",
             "value": "Pagėgiai"
-          },
-          {
-            "lang": "nl",
-            "value": "Pogegen"
           },
           {
             "lang": "pl",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "pt",
             "value": "Pogegen"
           },
           {
@@ -841,11 +843,19 @@
             "value": "Pagėgiai"
           },
           {
-            "lang": "pt",
+            "lang": "ru",
             "value": "Pogegen"
           },
           {
-            "lang": "ru",
+            "lang": "sgs",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "sh",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "sk",
             "value": "Pogegen"
           },
           {
@@ -857,32 +867,20 @@
             "value": "Pagiegē"
           },
           {
-            "lang": "sgs",
-            "value": "Pogegen"
-          },
-          {
             "lang": "sh",
             "value": "Pagėgiai"
-          },
-          {
-            "lang": "sh",
-            "value": "Pogegen"
           },
           {
             "lang": "sk",
             "value": "Pagėgiai"
           },
           {
-            "lang": "sk",
+            "lang": "sv",
             "value": "Pogegen"
           },
           {
             "lang": "sv",
             "value": "Pagėgiai"
-          },
-          {
-            "lang": "sv",
-            "value": "Pogegen"
           },
           {
             "lang": "tt",
@@ -954,12 +952,25 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2410720"
           }
         ],
         "P856": [
           {
             "value": "https://cargo.litrail.lt/pavenciu-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400171"
           }
         ],
         "PWIKI": [
@@ -976,12 +987,12 @@
             "value": "Pavenčiai"
           },
           {
-            "lang": "en",
-            "value": "Pavenčiai railway station"
-          },
-          {
             "lang": "lt",
             "value": "Pavenčiai"
+          },
+          {
+            "lang": "en",
+            "value": "Pavenčiai railway station"
           }
         ]
       },
@@ -997,7 +1008,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "---107405-LTTelšiai-Q108551978-Q108551978",
+      "id": "---107405-LTTelšiai-Q109239948-Q109239948",
       "properties": {
         "P131": [
           {
@@ -1006,6 +1017,13 @@
               "reliability": 0
             },
             "value": "Q588916"
+          },
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q2222616"
           }
         ],
         "P17": [
@@ -1033,6 +1051,10 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2410740"
           }
         ],
@@ -1041,18 +1063,39 @@
             "value": "https://cargo.litrail.lt/telsiu-gelezinkelio-stotis"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400173"
+          }
+        ],
         "PWIKI": [
           {
             "info": {
               "pregrouped": [],
               "reliability": 0
             },
-            "value": "Q108551978"
+            "value": "Q109239948"
           }
         ],
         "labels": [
           {
             "value": "Telšiai"
+          },
+          {
+            "lang": "lt",
+            "value": "Telšių geležinkelio stotis"
+          },
+          {
+            "lang": "en",
+            "value": "Telšiai train station"
+          },
+          {
+            "lang": "pl",
+            "value": "Telsze (stacja kolejowa)"
           },
           {
             "lang": "en",
@@ -1082,6 +1125,15 @@
       },
       "id": "---107509-LTPlungė-Q108551668-Q108551668",
       "properties": {
+        "P131": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q404943"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -1107,12 +1159,25 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2410750"
           }
         ],
         "P856": [
           {
             "value": "https://cargo.litrail.lt/plunges-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400175"
           }
         ],
         "PWIKI": [
@@ -1129,12 +1194,12 @@
             "value": "Plungė"
           },
           {
-            "lang": "en",
-            "value": "Plungė railway station"
-          },
-          {
             "lang": "lt",
             "value": "Plungė"
+          },
+          {
+            "lang": "en",
+            "value": "Plungė railway station"
           }
         ]
       },
@@ -1186,12 +1251,25 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2410780"
           }
         ],
         "P856": [
           {
             "value": "https://cargo.litrail.lt/kretingos-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400165"
           }
         ],
         "PWIKI": [
@@ -1208,6 +1286,10 @@
             "value": "Kretinga"
           },
           {
+            "lang": "ru",
+            "value": "Кретинга"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Kretinga"
           },
@@ -1222,10 +1304,6 @@
           {
             "lang": "pl",
             "value": "Kretinga"
-          },
-          {
-            "lang": "ru",
-            "value": "Кретинга"
           },
           {
             "lang": "uk",
@@ -1343,6 +1421,10 @@
             "value": "Klaipėda"
           },
           {
+            "lang": "ru",
+            "value": "Клайпеда"
+          },
+          {
             "lang": "az",
             "value": "Klaypeyda Dəmiryol Stansiyası"
           },
@@ -1352,11 +1434,11 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Klaipėda"
+            "value": "Bahnhof Memel"
           },
           {
             "lang": "de",
-            "value": "Bahnhof Memel"
+            "value": "Bahnhof Klaipėda"
           },
           {
             "lang": "en",
@@ -1380,120 +1462,19 @@
           },
           {
             "lang": "lt",
-            "value": "Klaipėdos geležinkelio stotis"
+            "value": "Klaipėdos traukinių stotis"
           },
           {
             "lang": "lt",
-            "value": "Klaipėdos traukinių stotis"
+            "value": "Klaipėdos geležinkelio stotis"
           },
           {
             "lang": "pl",
             "value": "Klaipeda"
           },
           {
-            "lang": "ru",
-            "value": "Клайпеда"
-          },
-          {
             "lang": "uk",
             "value": "Клайпеда (станція)"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            21.2111732695042,
-            55.6460786122645
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "---108200-LTDraugystė-Q12653266-Q12653266",
-      "properties": {
-        "P131": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q776965"
-          }
-        ],
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q37"
-          }
-        ],
-        "P2815": [
-          {
-            "value": "108200"
-          }
-        ],
-        "P31": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q3984423"
-          },
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "2410820"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://cargo.litrail.lt/draugystes-gelezinkelio-stotis"
-          }
-        ],
-        "PWIKI": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q12653266"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Draugystė"
-          },
-          {
-            "value": "Draugystės st."
-          },
-          {
-            "lang": "de",
-            "value": "Güterbahnhof Draugystė"
-          },
-          {
-            "lang": "en",
-            "value": "Draugystė cargo terminal"
-          },
-          {
-            "lang": "ja",
-            "value": "ドラウギーステ駅"
-          },
-          {
-            "lang": "lt",
-            "value": "Draugystės geležinkelio stotis"
           }
         ]
       },
@@ -1511,6 +1492,15 @@
       },
       "id": "---108408-LTRimkai-Q108550949-Q108550949",
       "properties": {
+        "P131": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q16456513"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -1544,6 +1534,15 @@
             "value": "https://cargo.litrail.lt/rimku-gelezinkelio-stotis"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400451"
+          }
+        ],
         "PWIKI": [
           {
             "info": {
@@ -1558,12 +1557,12 @@
             "value": "Rimkai"
           },
           {
-            "lang": "en",
-            "value": "Rimkai railway station"
-          },
-          {
             "lang": "lt",
             "value": "Rimkai"
+          },
+          {
+            "lang": "en",
+            "value": "Rimkai railway station"
           }
         ]
       },
@@ -1616,11 +1615,27 @@
         "P722": [
           {
             "value": "2410860"
+          },
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400453"
           }
         ],
         "P856": [
           {
             "value": "https://cargo.litrail.lt/vilkyciu-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400053"
           }
         ],
         "PWIKI": [
@@ -1709,6 +1724,15 @@
         "P856": [
           {
             "value": "https://cargo.litrail.lt/silutes-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400052"
           }
         ],
         "PWIKI": [
@@ -1809,6 +1833,15 @@
         "P856": [
           {
             "value": "https://cargo.litrail.lt/naujosios-vilnios-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400300"
           }
         ],
         "PWIKI": [
@@ -1940,28 +1973,28 @@
             "value": "Jašiūnai"
           },
           {
-            "lang": "be",
-            "value": "Яшунай (чыгуначная станцыя)"
-          },
-          {
             "lang": "en",
             "value": "Jašiūnai train station"
           },
           {
-            "lang": "lt",
-            "value": "Jašiūnų GS"
+            "lang": "ru",
+            "value": "Яшунай"
+          },
+          {
+            "lang": "be",
+            "value": "Яшунай (чыгуначная станцыя)"
           },
           {
             "lang": "lt",
             "value": "Jašiūnų GS (gyvenvietė)"
           },
           {
-            "lang": "pl",
-            "value": "Jaszuny (stacja kolejowa)"
+            "lang": "lt",
+            "value": "Jašiūnų GS"
           },
           {
-            "lang": "ru",
-            "value": "Яшунай"
+            "lang": "pl",
+            "value": "Jaszuny (stacja kolejowa)"
           },
           {
             "lang": "sgs",
@@ -2051,11 +2084,11 @@
           },
           {
             "lang": "lt",
-            "value": "Valčiūnų GS"
+            "value": "Valčiūnų GS (gyvenvietė)"
           },
           {
             "lang": "lt",
-            "value": "Valčiūnų GS (gyvenvietė)"
+            "value": "Valčiūnų GS"
           },
           {
             "lang": "nan",
@@ -2067,11 +2100,11 @@
           },
           {
             "lang": "sgs",
-            "value": "Valčiūnu GS"
+            "value": "Valtiūnū GS"
           },
           {
             "lang": "sgs",
-            "value": "Valtiūnū GS"
+            "value": "Valčiūnu GS"
           }
         ]
       },
@@ -2154,6 +2187,10 @@
             "value": "Kirtimai"
           },
           {
+            "lang": "ru",
+            "value": "Киртимай"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Kirtimai"
           },
@@ -2172,10 +2209,6 @@
           {
             "lang": "pl",
             "value": "Porubanek"
-          },
-          {
-            "lang": "ru",
-            "value": "Киртимай"
           }
         ]
       },
@@ -2233,6 +2266,15 @@
         "P856": [
           {
             "value": "https://cargo.litrail.lt/paneriu-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400240"
           }
         ],
         "PWIKI": [
@@ -2326,6 +2368,15 @@
             "value": "https://cargo.litrail.lt/lentvario-gelezinkelio-stotis"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400193"
+          }
+        ],
         "PWIKI": [
           {
             "info": {
@@ -2338,6 +2389,18 @@
         "labels": [
           {
             "value": "Lentvaris"
+          },
+          {
+            "lang": "pl",
+            "value": "Lentvaris"
+          },
+          {
+            "lang": "ru",
+            "value": "Лентварис"
+          },
+          {
+            "lang": "uk",
+            "value": "Лентварис"
           },
           {
             "lang": "de",
@@ -2354,10 +2417,6 @@
           {
             "lang": "lt",
             "value": "Lentvario geležinkelio stotis"
-          },
-          {
-            "lang": "pl",
-            "value": "Lentvaris"
           }
         ]
       },
@@ -2431,6 +2490,10 @@
             "value": "Vaidotai"
           },
           {
+            "lang": "pl",
+            "value": "Wojdaty"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Vaidotai"
           },
@@ -2441,10 +2504,6 @@
           {
             "lang": "lt",
             "value": "Vaidotų geležinkelio stotis"
-          },
-          {
-            "lang": "pl",
-            "value": "Wojdaty"
           }
         ]
       },
@@ -2522,12 +2581,12 @@
             "value": "Varėna train station"
           },
           {
-            "lang": "lt",
-            "value": "Varėnos geležinkelio stotis"
-          },
-          {
             "lang": "pl",
             "value": "Orany (stacja kolejowa)"
+          },
+          {
+            "lang": "lt",
+            "value": "Varėnos geležinkelio stotis"
           }
         ]
       },
@@ -2601,12 +2660,12 @@
             "value": "Matuizos"
           },
           {
-            "lang": "en",
-            "value": "Matuizos railway station"
-          },
-          {
             "lang": "pl",
             "value": "Matujzy"
+          },
+          {
+            "lang": "en",
+            "value": "Matuizos railway station"
           }
         ]
       },
@@ -2680,24 +2739,24 @@
             "value": "Valkininkai"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Naujieji Valkininkai"
+            "lang": "pl",
+            "value": "Olkieniki"
           },
           {
-            "lang": "en",
-            "value": "Naujieji Valkininkai train station"
+            "lang": "de",
+            "value": "Bahnhof Naujieji Valkininkai"
           },
           {
             "lang": "en",
             "value": "Valkininkai railway station"
           },
           {
-            "lang": "lt",
-            "value": "Valkininkų geležinkelio stotis"
+            "lang": "en",
+            "value": "Naujieji Valkininkai train station"
           },
           {
-            "lang": "pl",
-            "value": "Olkieniki"
+            "lang": "lt",
+            "value": "Valkininkų geležinkelio stotis"
           }
         ]
       },
@@ -2843,6 +2902,15 @@
             "value": "https://cargo.litrail.lt/senuju-traku-gelezinkelio-stotis"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400289"
+          }
+        ],
         "PWIKI": [
           {
             "info": {
@@ -2861,11 +2929,11 @@
           },
           {
             "lang": "en",
-            "value": "Senieji Trakai railway station"
+            "value": "Senieji Trakai train station"
           },
           {
             "lang": "en",
-            "value": "Senieji Trakai train station"
+            "value": "Senieji Trakai railway station"
           },
           {
             "lang": "pl",
@@ -2929,6 +2997,15 @@
             "value": "https://cargo.litrail.lt/vievio-gelezinkelio-stotis"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400256"
+          }
+        ],
         "PWIKI": [
           {
             "info": {
@@ -2943,6 +3020,10 @@
             "value": "Vievis"
           },
           {
+            "lang": "pl",
+            "value": "Vievis"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Vievis"
           },
@@ -2953,10 +3034,6 @@
           {
             "lang": "lt",
             "value": "Vievio geležinkelio stotis"
-          },
-          {
-            "lang": "pl",
-            "value": "Vievis"
           }
         ]
       },
@@ -3138,18 +3215,22 @@
               "reliability": 0
             },
             "value": "Q55488"
-          }
-        ],
-        "P722": [
-          {
-            "value": "2412310"
           },
           {
             "info": {
               "pregrouped": [],
               "reliability": 0
             },
-            "value": "8712310"
+            "value": "Q114782406"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2412310"
           }
         ],
         "P856": [
@@ -3178,6 +3259,10 @@
         "labels": [
           {
             "value": "Kaunas"
+          },
+          {
+            "lang": "ru",
+            "value": "Каунас"
           },
           {
             "lang": "arz",
@@ -3745,6 +3830,10 @@
           },
           {
             "lang": "en",
+            "value": "Marijampolė railway station"
+          },
+          {
+            "lang": "en",
             "value": "Marijampolė train station"
           },
           {
@@ -3765,7 +3854,81 @@
           },
           {
             "lang": "ru",
-            "value": "Мариямполе (станция)"
+            "value": "Мариямполе"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            23.1996863454305,
+            54.7263311142789
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "---124104-LTPilviškiai-Q113334560-Q113334560",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q37"
+          }
+        ],
+        "P2815": [
+          {
+            "value": "124104"
+          }
+        ],
+        "P31": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2412410"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://cargo.litrail.lt/pilviskiu-gelezinkelio-stotis"
+          }
+        ],
+        "PWIKI": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q113334560"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Pilviškiai"
+          },
+          {
+            "lang": "en",
+            "value": "Pilviškiai"
+          },
+          {
+            "lang": "lt",
+            "value": "Pilviškiai"
+          },
+          {
+            "lang": "ru",
+            "value": "Пильвишкяй"
           }
         ]
       },
@@ -3843,8 +4006,16 @@
             "value": "Kybartai"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Kybartai"
+            "lang": "pl",
+            "value": "Kybartai"
+          },
+          {
+            "lang": "ru",
+            "value": "Кибартай"
+          },
+          {
+            "lang": "uk",
+            "value": "Кібартай"
           },
           {
             "lang": "de",
@@ -3853,6 +4024,10 @@
           {
             "lang": "de",
             "value": "Bahnhof Werschbolowo"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Kybartai"
           },
           {
             "lang": "de",
@@ -3872,23 +4047,11 @@
           },
           {
             "lang": "lt",
-            "value": "Kybartų geležinkelio stotis"
-          },
-          {
-            "lang": "lt",
             "value": "Kybartų GS"
           },
           {
-            "lang": "pl",
-            "value": "Kybartai"
-          },
-          {
-            "lang": "ru",
-            "value": "Кибартай"
-          },
-          {
-            "lang": "uk",
-            "value": "Кібартай"
+            "lang": "lt",
+            "value": "Kybartų geležinkelio stotis"
           }
         ]
       },
@@ -3959,6 +4122,10 @@
         ],
         "labels": [
           {
+            "value": "Gaižiūnai"
+          },
+          {
+            "lang": "pl",
             "value": "Gaižiūnai"
           },
           {
@@ -4180,6 +4347,10 @@
             "value": "Kėdainiai"
           },
           {
+            "lang": "pl",
+            "value": "Kėdainiai"
+          },
+          {
             "lang": "arz",
             "value": "محطة كيداينياى"
           },
@@ -4198,10 +4369,6 @@
           {
             "lang": "lt",
             "value": "Kėdainių geležinkelio stotis"
-          },
-          {
-            "lang": "pl",
-            "value": "Kėdainiai"
           }
         ]
       },
@@ -4275,6 +4442,10 @@
             "value": "Radviliškis"
           },
           {
+            "lang": "ro",
+            "value": "Radviliškis"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Radviliškis"
           },
@@ -4287,10 +4458,6 @@
             "value": "Radviliškisin rautatieasema"
           },
           {
-            "lang": "fr",
-            "value": "Radviliškis"
-          },
-          {
             "lang": "lt",
             "value": "Radviliškio geležinkelio stotis"
           },
@@ -4299,12 +4466,12 @@
             "value": "Radviliškis"
           },
           {
-            "lang": "ro",
-            "value": "Radviliškis"
-          },
-          {
             "lang": "ru",
             "value": "Радвилишкис"
+          },
+          {
+            "lang": "fr",
+            "value": "Radviliškis"
           }
         ]
       },
@@ -4369,12 +4536,12 @@
             "value": "Šilėnai"
           },
           {
-            "lang": "en",
-            "value": "Šilėnai railway station"
-          },
-          {
             "lang": "lt",
             "value": "Šilėnai"
+          },
+          {
+            "lang": "en",
+            "value": "Šilėnai railway station"
           }
         ]
       },
@@ -4466,6 +4633,10 @@
             "value": "Šiauliai"
           },
           {
+            "lang": "ru",
+            "value": "Шяуляй"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Siauliai"
           },
@@ -4488,10 +4659,6 @@
           {
             "lang": "pl",
             "value": "Šiauliai"
-          },
-          {
-            "lang": "ru",
-            "value": "Шяуляй"
           },
           {
             "lang": "uk",
@@ -4581,6 +4748,10 @@
             "value": "Mažeikių geležinkelio stotis"
           },
           {
+            "lang": "pl",
+            "value": "Możejki"
+          },
+          {
             "lang": "ru",
             "value": "Мажейкяй"
           }
@@ -4656,12 +4827,12 @@
             "value": "Kužiai"
           },
           {
-            "lang": "en",
-            "value": "Kužiai railway station"
-          },
-          {
             "lang": "lt",
             "value": "Kužiai"
+          },
+          {
+            "lang": "en",
+            "value": "Kužiai railway station"
           }
         ]
       },
@@ -4779,6 +4950,13 @@
               "reliability": 0
             },
             "value": "Q55488"
+          },
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q114782406"
           }
         ],
         "P722": [
@@ -5070,6 +5248,10 @@
             "value": "Pabradė"
           },
           {
+            "lang": "pl",
+            "value": "Podbrodzie"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Pabradė"
           },
@@ -5080,10 +5262,6 @@
           {
             "lang": "lt",
             "value": "Pabradės geležinkelio stotis"
-          },
-          {
-            "lang": "pl",
-            "value": "Podbrodzie"
           }
         ]
       },
@@ -5157,6 +5335,10 @@
             "value": "Švenčionėliai"
           },
           {
+            "lang": "pl",
+            "value": "Nowe Święciany"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Švenčionėliai"
           },
@@ -5167,10 +5349,6 @@
           {
             "lang": "lt",
             "value": "Švenčionėlių geležinkelio stotis"
-          },
-          {
-            "lang": "pl",
-            "value": "Nowe Święciany"
           }
         ]
       },
@@ -5266,6 +5444,14 @@
             "value": "Ignalina"
           },
           {
+            "lang": "pl",
+            "value": "Ignalina"
+          },
+          {
+            "lang": "ru",
+            "value": "Игналина"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Ignalina"
           },
@@ -5280,14 +5466,6 @@
           {
             "lang": "lt",
             "value": "Ignalinos geležinkelio stotis"
-          },
-          {
-            "lang": "pl",
-            "value": "Ignalina"
-          },
-          {
-            "lang": "ru",
-            "value": "Игналина"
           }
         ]
       },
@@ -5379,6 +5557,91 @@
           {
             "lang": "lt",
             "value": "Utenos geležinkelio stotis"
+          },
+          {
+            "lang": "pl",
+            "value": "Uciana"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            26.3247655044671,
+            55.5198003876878
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "---128906-LTDūkštas-Q111049150-Q111049150",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q37"
+          }
+        ],
+        "P2815": [
+          {
+            "value": "128906"
+          }
+        ],
+        "P31": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2412890"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://cargo.litrail.lt/duksto-gelezinkelio-stotis"
+          }
+        ],
+        "PWIKI": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q111049150"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Dūkštas"
+          },
+          {
+            "value": "Dukštas"
+          },
+          {
+            "lang": "lt",
+            "value": "Dūkšto geležinkelio stotis"
+          },
+          {
+            "lang": "en",
+            "value": "Dūkštas train station"
+          },
+          {
+            "lang": "pl",
+            "value": "Dukszty"
+          },
+          {
+            "lang": "ru",
+            "value": "Дукштас"
           }
         ]
       },
@@ -5452,6 +5715,10 @@
             "value": "Kena"
           },
           {
+            "lang": "ru",
+            "value": "Кена"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Kena"
           },
@@ -5466,10 +5733,6 @@
           {
             "lang": "lt",
             "value": "Kenos geležinkelio stotis"
-          },
-          {
-            "lang": "ru",
-            "value": "Кена"
           }
         ]
       },
@@ -5611,13 +5874,13 @@
       "geometry": {
         "coordinates": [
           [
-            23.1996863454305,
-            54.7263311142789
+            21.2111732695042,
+            55.6460786122645
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-124104-LTPilviškiai",
+      "id": "-108200-LTDraugystė",
       "properties": {
         "P17": [
           {
@@ -5630,22 +5893,25 @@
         ],
         "P2815": [
           {
-            "value": "124104"
+            "value": "108200"
           }
         ],
         "P722": [
           {
-            "value": "2412410"
+            "value": "2410820"
           }
         ],
         "P856": [
           {
-            "value": "https://cargo.litrail.lt/pilviskiu-gelezinkelio-stotis"
+            "value": "https://cargo.litrail.lt/draugystes-gelezinkelio-stotis"
           }
         ],
         "labels": [
           {
-            "value": "Pilviškiai"
+            "value": "Draugystė"
+          },
+          {
+            "value": "Draugystės st."
           }
         ]
       },
@@ -6042,53 +6308,6 @@
         "labels": [
           {
             "value": "Kupiškis"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            26.3247655044671,
-            55.5198003876878
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "-128906-LTDūkštas",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q37"
-          }
-        ],
-        "P2815": [
-          {
-            "value": "128906"
-          }
-        ],
-        "P722": [
-          {
-            "value": "2412890"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://cargo.litrail.lt/duksto-gelezinkelio-stotis"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Dūkštas"
-          },
-          {
-            "value": "Dukštas"
           }
         ]
       },
