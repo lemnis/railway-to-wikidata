@@ -19,16 +19,13 @@ const wikidata = fs
 test("locations should match expected score", async (t) => {
   const {
     [Property.Country]: country,
-    [Property.LocatedInTimeZone]: locatedInTimeZone,
     [CodeIssuer.UIC]: uic,
   } = await getFullMatchScore(await combiosLocations, await wikidata, [
     CodeIssuer.UIC,
-    Property.LocatedInTimeZone,
     Property.Country,
-  ], 1.5);
+  ]);
 
   t.is(country.matches / country.total, 1);
-  t.is(locatedInTimeZone.total, 0);
   closeTo(t, uic?.matches / uic?.total, ScoreCp[CodeIssuer.UIC]);
   t.assert(uic?.total > LARGE_DATA_SIZE);
 });
