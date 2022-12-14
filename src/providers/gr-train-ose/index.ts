@@ -1,3 +1,5 @@
+import { feature } from "@ideditor/country-coder";
+import { multiPoint, point } from "@turf/turf";
 import fetch from "node-fetch";
 import { Country, findCountryByAlpha3 } from "../../transform/country";
 import { Language } from "../../transform/language";
@@ -20,35 +22,35 @@ export const getLocations = async () => {
   const nodesInUse = json.data.nodes_in_use;
   return nodes
     .filter(({ LAT, LON, STAT }) => nodesInUse.includes(STAT) || LAT || LON)
-    .map<Location>(({ STAT, LON, LAT, LABEL_EL, LABEL_EN, COUNTRY }) => ({
-      type: "Feature",
-      id: STAT,
-      geometry:
-        LAT && LON
-          ? { type: "Point", coordinates: [LON, LAT] }
-          : { type: "MultiPoint", coordinates: [] },
-      properties: {
+    .map<Location>(({ STAT, LON, LAT, LABEL_EL, LABEL_EN, COUNTRY }) => {
+      const hasCoordinates = LON && LAT;
+      const coordinates: [number, number] = [LON, LAT];
+
+      let country;
+      if (hasCoordinates) country = feature(coordinates)?.properties.wikidata;
+      else if (COUNTRY === "SKO") {
+        country = Country.NorthMacedonia.wikidata;
+      } else country = findCountryByAlpha3(COUNTRY)?.wikidata;
+
+      const greekName = LABEL_EL !== "null" ? LABEL_EL : undefined;
+      const englishName = LABEL_EN !== "null" ? LABEL_EN : undefined;
+
+      const properties = {
         labels: [
-          ...(LABEL_EL && LABEL_EL !== "null"
-            ? [{ value: LABEL_EL, lang: Language.Greek[1] }]
+          ...(englishName
+            ? [{ value: englishName, lang: Language.English[1] }]
             : []),
-          ...(LABEL_EN && LABEL_EN !== "null"
-            ? [{ value: LABEL_EN, lang: Language.English[1] }]
+          ...(greekName
+            ? [{ value: greekName, lang: Language.Greek[1] }]
             : []),
         ],
+        ...(country ? { [Property.Country]: [{ value: country }] } : {}),
         [Property.StationCode]: [{ value: STAT }],
-        [Property.Country]: [
-          {
-            value:
-              COUNTRY === "SKO"
-                ? Country.NorthMacedonia.wikidata
-                : findCountryByAlpha3(COUNTRY)?.wikidata ||
-                  Country.Greece.wikidata,
-          },
-        ],
-        info: {
-          enabled: nodesInUse.includes(STAT),
-        },
-      },
-    }));
+        info: { enabled: nodesInUse.includes(STAT) },
+      };
+
+      return hasCoordinates
+        ? point(coordinates, properties, { id: STAT })
+        : multiPoint([], properties, { id: STAT });
+    });
 };
