@@ -65,7 +65,7 @@
    markers.addLayer(geoJsonLayer);
    map.fitBounds(markers.getBounds());
 
-  var layerControl = L.control.layers({}, { "Original": markers, 'Tracks': topoLayer}).addTo(map);
+  var layerControl = L.control.layers({}, { "Original": markers }).addTo(map);
 
   fetch(
     `https://rawcdn.githack.com/lemnis/railway-to-wikidata/master/geojson/_euafr.geojson`
