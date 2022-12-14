@@ -32,7 +32,7 @@ test("Locations in the Slovakia should match expected score", async (t) => {
     locations,
     trainline,
     [CodeIssuer.UIC, CodeIssuer.IBNR, Property.Country],
-    1
+    // 1
   );
 
   closeTo(t, uic?.matches / uic?.total, ScoreZsk[CodeIssuer.UIC]);
@@ -56,7 +56,7 @@ test("Foreign locations should match expected score", async (t) => {
     foreignLocations,
     trainline,
     [CodeIssuer.UIC, CodeIssuer.IBNR, Property.Country],
-    1.5
+    // 1.5
   );
 
   closeTo(t, uic?.matches / uic?.total,  ForeignScore[CodeIssuer.UIC]);
