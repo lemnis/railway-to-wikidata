@@ -1,6 +1,6 @@
 import { ClaimObject, CodeIssuer, Property } from "./wikidata";
 import { score } from "../score";
-import { Feature, Point, MultiPoint } from "geojson";
+import { Feature, Point, MultiPoint } from "@turf/turf";
 
 export interface Label {
   value: string;
@@ -12,10 +12,9 @@ export interface Label {
 }
 
 interface Basic {
-  /** @deprecated */
-  id?: string;
   labels: Label[];
   info?: {
+    enabled?: boolean,
     match?: {
       matched?: ReturnType<typeof score>;
       wikidata?: any;
@@ -33,13 +32,5 @@ interface Basic {
 export type Claims = {
   [key in Property | CodeIssuer]?: ClaimObject<string>[];
 };
-
-export interface LocationV4 extends Basic {
-  claims: {
-    [key in Property | CodeIssuer]?: key extends Property.CoordinateLocation
-      ? ClaimObject<[number, number]>[]
-      : ClaimObject<string>[];
-  };
-}
 
 export type Location = Feature<Point | MultiPoint, Basic & Claims>;
