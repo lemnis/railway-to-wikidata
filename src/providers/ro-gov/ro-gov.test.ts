@@ -23,7 +23,7 @@ test("locations should match expected score", async (t) => {
     await locations,
     await trainline,
     [CodeIssuer.UIC, Property.Country, Property.StationCode],
-    1.5
+    // 1.5
   );
 
   t.is(country.matches / country.total, 1);

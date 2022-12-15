@@ -32,7 +32,7 @@ test("Locations should match expected score", async (t) => {
       litrailStations,
       wikipedia,
       [],
-      2
+      // 2
     );
 
   t.is(country.matches / country.total, 1);

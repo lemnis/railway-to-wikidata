@@ -30,7 +30,7 @@ test("Finnish locations should match expected score", async (t) => {
     ),
     wikipedia,
     [CodeIssuer.UIC, Property.StationCode, Property.Country],
-    1.8
+    // 1.8
   );
 
   t.is(country.matches / country.total, 1);
@@ -63,7 +63,7 @@ test("Foreign locations should match expected score", async (t) => {
     foreignLocations,
     wikipedia,
     [Property.Country, Property.StationCode, CodeIssuer.UIC],
-    1
+    // 1
   );
 
   t.is(country.total, 1);

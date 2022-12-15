@@ -26,7 +26,7 @@ test("Estonian locations should match expected score", async (t) => {
     EstonianLocations,
     wikipedia,
     [Property.Country, CodeIssuer.UIC],
-    1.5
+    // 1.5
   );
 
   t.is(country.matches / country.total, 1);

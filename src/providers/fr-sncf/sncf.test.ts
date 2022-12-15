@@ -2,7 +2,12 @@ import test from "ava";
 import fs from "fs";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { Country } from "../../transform/country";
-import { ReliabilitySncf, ScoreSncf } from "./sncf.constants";
+import {
+  RELIABILITY_SNCF_POSTAL_CODE,
+  RELIABILITY_SNCF_UIC,
+  SCORE_POSTAL_CODE,
+  SCORE_UIC,
+} from "./sncf.constants";
 import { closeTo, getFullMatchScore } from "../../utils/test";
 import { LARGE_DATA_SIZE } from "../../score/reliability";
 import { Location } from "../../types/location";
@@ -34,26 +39,22 @@ test("French locations should match expected score", async (t) => {
       Property.PostalCode,
       Property.InAdministrativeTerritory,
       CodeIssuer.UIC,
-    ],
-    1.8
+    ]
+    // 1.8
   );
 
   t.is(country.matches / country.total, 1);
 
-  closeTo(t, uic?.matches / uic?.total, ScoreSncf[CodeIssuer.UIC]);
+  closeTo(t, uic?.matches / uic?.total, SCORE_UIC);
   t.assert(uic?.total > LARGE_DATA_SIZE);
 
-  closeTo(
-    t,
-    postalCode?.matches / postalCode?.total,
-    ScoreSncf[Property.PostalCode]
-  );
+  closeTo(t, postalCode?.matches / postalCode?.total, SCORE_POSTAL_CODE);
   t.assert(postalCode?.total > LARGE_DATA_SIZE);
 });
 
 test("Calculated reliability score should match", (t) => {
-  t.is(ReliabilitySncf.France[Property.PostalCode].toFixed(1), "0.8");
-  t.is(ReliabilitySncf.France[CodeIssuer.UIC].toFixed(1), "0.8");
+  t.is(RELIABILITY_SNCF_POSTAL_CODE.toFixed(1), "0.8");
+  t.is(RELIABILITY_SNCF_UIC.toFixed(1), "0.8");
 });
 
 test(labelLanguage, sncfLocations, wikipedia);

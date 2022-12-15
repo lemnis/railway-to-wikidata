@@ -33,7 +33,7 @@ test("Locations in the Czech should match expected score", async (t) => {
     locations,
     await wikidata,
     [CodeIssuer.UIC, Property.Country],
-    1.6
+    // 1.6
   );
 
   closeTo(t, country.matches / country.total, 1);
@@ -54,7 +54,7 @@ test("Foreign locations should match expected score", async (t) => {
       foreignLocations,
       await trainline,
       [Property.Country, CodeIssuer.UIC],
-      1.6
+      // 1.6
     );
 
   t.is(country.matches / country.total, 1);

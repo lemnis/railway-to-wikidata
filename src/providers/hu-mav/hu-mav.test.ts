@@ -23,7 +23,7 @@ test("Hungarian locations should match expected score", async (t) => {
     ),
     wikipedia,
     [Property.Country, Property.StationCode],
-    1.4
+    // 1.4
   );
 
   closeTo(t, country.matches / country.total, 1);

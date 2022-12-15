@@ -26,7 +26,7 @@ test("Luxembourg locations should match expected score", async (t) => {
       ),
       await trainline,
       [Property.Country],
-      1.6
+      // 1.6
     );
 
     t.is(country.matches / country.total, 1);
@@ -44,7 +44,7 @@ test("Should not have Foreign locations", async (t) => {
       ),
       await trainline,
       [Property.Country],
-      1.6
+      // 1.6
     );
 
     t.is(country.matches / country.total, 1);

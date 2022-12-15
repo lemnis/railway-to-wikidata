@@ -36,7 +36,7 @@ test("Spanish locations should match expected score", async (t) => {
   );
 
   t.is(country.matches / country.total, 1);
-  closeTo(t, postalCode.matches / postalCode.total, 1);
+  closeTo(t, postalCode.matches / postalCode.total, .7);
   t.is(location.matches / location.total, 0);
 
   t.assert(uic?.total > LARGE_DATA_SIZE);
@@ -63,13 +63,11 @@ test("Foreign locations should match score", async (t) => {
       Property.Country,
       Property.StationCode,
       Property.PostalCode,
-    ],
-    1.4
+    ]
   );
 
   t.is(country.matches / country.total, 1);
   t.is(postalCode.matches / postalCode.total, 0);
-  t.assert(uic?.total < LARGE_DATA_SIZE);
   closeTo(t, uic?.matches / uic?.total, 0);
 });
 

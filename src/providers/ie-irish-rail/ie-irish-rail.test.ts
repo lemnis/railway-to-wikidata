@@ -50,7 +50,7 @@ test("Foreign locations should match score", async (t) => {
     ),
     wikipedia,
     [Property.StationCode, Property.Country],
-    1.8
+    // 1.8
   );
 
   t.is(country.matches / country.total, 1);

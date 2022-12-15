@@ -29,7 +29,7 @@ test("Norway locations should match expected score", async (t) => {
     ),
     wikipedia,
     [CodeIssuer.UIC, Property.Country],
-    1.5
+    // 1.5
   );
 
   t.is(country.matches / country.total, 1);
@@ -50,7 +50,7 @@ test("Foreign locations should match expected score", async (t) => {
     ),
     wikipedia,
     [CodeIssuer.UIC],
-    1.5
+    // 1.5
   );
 
   t.is(country?.matches / country?.total, 1);
