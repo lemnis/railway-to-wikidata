@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
-import { FeatureCollection, Point } from "geojson";
+import { FeatureCollection, Point } from "@turf/turf";
 import { Country } from "../../transform/country";
 
 /**

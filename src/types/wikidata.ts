@@ -52,7 +52,8 @@ export enum Items {
   RailwayStation = 'Q55488',
   MetroStation = 'Q928830',
   No = 'Q1814990',
-  Yes = 'Q6452715'
+  Yes = 'Q6452715',
+  ZSR = 'Q393524'
 }
 
 export enum Constraint {

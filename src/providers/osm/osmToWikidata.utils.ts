@@ -1,4 +1,4 @@
-import { FeatureCollection, Point } from "geojson";
+import { FeatureCollection, Point } from "@turf/turf";
 import { findCountryByAlpha2 } from "../../transform/country";
 import { Claims, Label, Location } from "../../types/location";
 import { ClaimObject, CodeIssuer, Items, Property } from "../../types/wikidata";

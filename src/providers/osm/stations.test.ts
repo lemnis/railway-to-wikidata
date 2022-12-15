@@ -1,6 +1,6 @@
 import test from "ava";
 import fs from "fs";
-import { Feature } from "geojson";
+import { Feature } from "@turf/turf";
 import loki from "@lokidb/loki";
 
 const path = __dirname + "/../../../geojson/stations/";

@@ -113,6 +113,7 @@ export const Country = enforceObjectType({
   },
   Liechtenstein: {
     wikidata: "Q347",
+    UIC: [],
     alpha2: "LI",
   },
   Lithuania: {

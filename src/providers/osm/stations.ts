@@ -1,4 +1,4 @@
-import { FeatureCollection, Point } from "geojson";
+import { FeatureCollection, Point } from "@turf/turf";
 import osmToGeojson from "osmtogeojson";
 import { overpass } from "overpass-ts";
 import { concatMap, delay, from, map, of } from "rxjs";
