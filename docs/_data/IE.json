@@ -10,7 +10,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-1-Q2377845",
+      "id": "1-6000045-trainline-26687-Q2377845",
       "properties": {
         "P1103": [
           {
@@ -55,6 +55,33 @@
             "value": "Q55488"
           }
         ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26687"
+              }
+            ],
+            "value": "DHT"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26687"
+              }
+            ],
+            "value": "26687"
+          }
+        ],
         "P722": [
           {
             "value": "6070040"
@@ -62,6 +89,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6000045"
           }
         ],
@@ -159,7 +190,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-100-Q2543742",
+      "id": "100-6000043-trainline-26686-Q2543742",
       "properties": {
         "P1103": [
           {
@@ -203,6 +234,33 @@
             "value": "Q55488"
           }
         ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26686"
+              }
+            ],
+            "value": "DCL"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26686"
+              }
+            ],
+            "value": "26686"
+          }
+        ],
         "P722": [
           {
             "value": "6070025"
@@ -210,6 +268,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6000043"
           }
         ],
@@ -347,7 +409,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-101-Q3196643",
+      "id": "101-6010034-Q3196643",
       "properties": {
         "P1103": [
           {
@@ -398,6 +460,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6010034"
           }
         ],
@@ -464,7 +530,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-102-Q3127545",
+      "id": "102-6010025-Q3127545",
       "properties": {
         "P1103": [
           {
@@ -515,6 +581,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6010025"
           }
         ],
@@ -581,7 +651,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-103-Q3417567",
+      "id": "103-6010044-Q3417567",
       "properties": {
         "P1103": [
           {
@@ -623,6 +693,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010044"
           }
         ],
         "PWIKI": [
@@ -696,7 +771,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-104-Q2003583",
+      "id": "104-6010028-Q2003583",
       "properties": {
         "P1103": [
           {
@@ -738,6 +813,11 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010028"
           }
         ],
         "PWIKI": [
@@ -815,7 +895,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-105-Q3969804",
+      "id": "105-6010026-Q3969804",
       "properties": {
         "P1103": [
           {
@@ -852,6 +932,11 @@
           },
           {
             "value": "Q55677"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010026"
           }
         ],
         "PWIKI": [
@@ -916,7 +1001,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-106-Q3969012",
+      "id": "106-6010006-Q3969012",
       "properties": {
         "P1103": [
           {
@@ -964,6 +1049,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6010006"
           }
         ],
@@ -1030,7 +1119,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-107-Q3971065",
+      "id": "107-6010055-Q3971065",
       "properties": {
         "P1103": [
           {
@@ -1064,6 +1153,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010055"
           }
         ],
         "PWIKI": [
@@ -1118,6 +1212,37 @@
     {
       "geometry": {
         "coordinates": [
+          -7,
+          53.3353
+        ],
+        "type": "Point"
+      },
+      "id": 1075,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "ADAMS"
+          },
+          {
+            "value": "1075"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Adamstown"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             -6.37868,
             53.334
@@ -1125,7 +1250,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-1076-Q3969396",
+      "id": "1076-Q3969396",
       "properties": {
         "P1103": [
           {
@@ -1226,7 +1351,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-1077-Q3969438",
+      "id": "1077-6010009-Q3969438",
       "properties": {
         "P1103": [
           {
@@ -1264,6 +1389,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010009"
           }
         ],
         "PWIKI": [
@@ -1306,13 +1436,58 @@
       "geometry": {
         "coordinates": [
           [
+            -6.52356,
+            53.3223
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "1078-6010027",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "HAZES"
+          },
+          {
+            "value": "1078"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010027"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Hazelhatch"
+          },
+          {
+            "value": "Celbridge (Hazelhatch )"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -6.07401,
             53.3891
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-108-Q3969798",
+      "id": "108-6010024-Q3969798",
       "properties": {
         "P1103": [
           {
@@ -1353,6 +1528,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010024"
           }
         ],
         "PWIKI": [
@@ -1410,7 +1590,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-109-Q2979578",
+      "id": "109-6010013-Q2979578",
       "properties": {
         "P1103": [
           {
@@ -1449,6 +1629,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010013"
           }
         ],
         "PWIKI": [
@@ -1514,7 +1699,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-11-Q3968958",
+      "id": "11-6000010-trainline-26629-Q3968958",
       "properties": {
         "P1103": [
           {
@@ -1549,6 +1734,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26629"
+              }
+            ],
+            "value": "BBY"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26629"
+              }
+            ],
+            "value": "26629"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000010"
           }
         ],
         "PWIKI": [
@@ -1598,7 +1815,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-110-Q3113542",
+      "id": "110-6010004-Q3113542",
       "properties": {
         "P1103": [
           {
@@ -1642,6 +1859,11 @@
             "value": "Q55488"
           }
         ],
+        "P954": [
+          {
+            "value": "6010004"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q3113542"
@@ -1650,6 +1872,9 @@
         "labels": [
           {
             "value": "Grand Canal Dock"
+          },
+          {
+            "value": "Dublin Grand Canal Dock"
           },
           {
             "lang": "arz",
@@ -1701,7 +1926,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-111-Q3970569",
+      "id": "111-6010043-Q3970569",
       "properties": {
         "P1103": [
           {
@@ -1749,6 +1974,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6010043"
           }
         ],
@@ -1811,7 +2040,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-112-Q2459346",
+      "id": "112-6000067-Q2459346",
       "properties": {
         "P1103": [
           {
@@ -1850,6 +2079,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000067"
           }
         ],
         "PWIKI": [
@@ -1923,7 +2157,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-113-Q3969543",
+      "id": "113-6010015-Q3969543",
       "properties": {
         "P1103": [
           {
@@ -1962,6 +2196,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010015"
           }
         ],
         "PWIKI": [
@@ -2023,7 +2262,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-114-Q3970750",
+      "id": "114-6010046-Q3970750",
       "properties": {
         "P1103": [
           {
@@ -2074,6 +2313,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6010046"
           }
         ],
@@ -2132,7 +2375,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-115-Q3971011",
+      "id": "115-6000086-Q3971011",
       "properties": {
         "P1103": [
           {
@@ -2171,6 +2414,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000086"
           }
         ],
         "PWIKI": [
@@ -2228,7 +2476,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-116-Q941586",
+      "id": "116-6000007-Q941586",
       "properties": {
         "P1103": [
           {
@@ -2267,6 +2515,11 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000007"
           }
         ],
         "PWIKI": [
@@ -2328,7 +2581,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-117-Q3969744",
+      "id": "117-6010058-Q3969744",
       "properties": {
         "P1103": [
           {
@@ -2372,6 +2625,11 @@
         "P421": [
           {
             "value": "Q25989"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010058"
           }
         ],
         "PWIKI": [
@@ -2441,7 +2699,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-119-Q3969937",
+      "id": "119-6010038-Q3969937",
       "properties": {
         "P1103": [
           {
@@ -2480,6 +2738,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010038"
           }
         ],
         "PWIKI": [
@@ -2541,7 +2804,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-12-Q928449",
+      "id": "12-6000088-trainline-26672-Q928449",
       "properties": {
         "P1103": [
           {
@@ -2576,6 +2839,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26672"
+              }
+            ],
+            "value": "TEM"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26672"
+              }
+            ],
+            "value": "26672"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000088"
           }
         ],
         "PWIKI": [
@@ -2625,7 +2920,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-120-Q3969549",
+      "id": "120-6000039-trainline-26643-Q3969549",
       "properties": {
         "P1103": [
           {
@@ -2664,6 +2959,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26643"
+              }
+            ],
+            "value": "DRA"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26643"
+              }
+            ],
+            "value": "26643"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000039"
           }
         ],
         "PWIKI": [
@@ -2737,7 +3064,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-123-Q664711",
+      "id": "123-6000048-trainline-26645-Q664711",
       "properties": {
         "P1103": [
           {
@@ -2776,6 +3103,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26645"
+              }
+            ],
+            "value": "DUK"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26645"
+              }
+            ],
+            "value": "26645"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000048"
           }
         ],
         "PWIKI": [
@@ -2845,7 +3204,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-124-Q2004945",
+      "id": "124-Q2004945",
       "properties": {
         "P1103": [
           {
@@ -2969,7 +3328,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-125-Q2003842",
+      "id": "125-6010036-Q2003842",
       "properties": {
         "P1103": [
           {
@@ -3013,6 +3372,11 @@
         "P5595": [
           {
             "value": "2"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010036"
           }
         ],
         "PWIKI": [
@@ -3074,7 +3438,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-126-Q2397711",
+      "id": "126-6010051-Q2397711",
       "properties": {
         "P1103": [
           {
@@ -3113,6 +3477,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010051"
           }
         ],
         "PWIKI": [
@@ -3158,7 +3527,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-127-Q3969079",
+      "id": "127-6010005-Q3969079",
       "properties": {
         "P1103": [
           {
@@ -3197,6 +3566,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010005"
           }
         ],
         "PWIKI": [
@@ -3254,7 +3628,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-128-Q3969060",
+      "id": "128-6010003-Q3969060",
       "properties": {
         "P1103": [
           {
@@ -3293,6 +3667,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010003"
           }
         ],
         "PWIKI": [
@@ -3350,7 +3729,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-129-Q3970937",
+      "id": "129-6010049-Q3970937",
       "properties": {
         "P1103": [
           {
@@ -3384,6 +3763,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010049"
           }
         ],
         "PWIKI": [
@@ -3429,7 +3813,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-13-Q3971114",
+      "id": "13-6000090-trainline-26674-Q3971114",
       "properties": {
         "P1103": [
           {
@@ -3464,6 +3848,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26674"
+              }
+            ],
+            "value": "TUS"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26674"
+              }
+            ],
+            "value": "26674"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000090"
           }
         ],
         "PWIKI": [
@@ -3513,7 +3929,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-130-Q3970774",
+      "id": "130-Q3970774",
       "properties": {
         "P1103": [
           {
@@ -3604,7 +4020,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-131-Q3969552",
+      "id": "131-6000047-Q3969552",
       "properties": {
         "P1103": [
           {
@@ -3646,6 +4062,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000047"
           }
         ],
         "PWIKI": [
@@ -3713,13 +4134,58 @@
       "geometry": {
         "coordinates": [
           [
+            -6.12712,
+            53.2878
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "132-6010048",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SCOVE"
+          },
+          {
+            "value": "132"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010048"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Sandycove"
+          },
+          {
+            "value": "Glasthule (Sandycove )"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -6.12289,
             53.2812
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-133-Q3969737",
+      "id": "133-6010021-Q3969737",
       "properties": {
         "P1103": [
           {
@@ -3758,6 +4224,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010021"
           }
         ],
         "PWIKI": [
@@ -3819,7 +4290,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-134-Q3969514",
+      "id": "134-6010017-Q3969514",
       "properties": {
         "P1103": [
           {
@@ -3858,6 +4329,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010017"
           }
         ],
         "PWIKI": [
@@ -3915,7 +4391,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-135-Q3969866",
+      "id": "135-6010032-Q3969866",
       "properties": {
         "P1103": [
           {
@@ -3954,6 +4430,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010032"
           }
         ],
         "PWIKI": [
@@ -4011,7 +4492,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-136-Q252906",
+      "id": "136-6010052-Q252906",
       "properties": {
         "P1103": [
           {
@@ -4050,6 +4531,11 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010052"
           }
         ],
         "PWIKI": [
@@ -4099,7 +4585,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-139-Q3969862",
+      "id": "139-6000059-Q3969862",
       "properties": {
         "P1103": [
           {
@@ -4138,6 +4624,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000059"
           }
         ],
         "PWIKI": [
@@ -4185,13 +4676,55 @@
       "geometry": {
         "coordinates": [
           [
+            -6.10046,
+            53.2043
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "140-6000017",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BRAY"
+          },
+          {
+            "value": "140"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000017"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Bray"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -6.06085,
             53.1442
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-141-Q1991212",
+      "id": "141-6000058-trainline-26652-Q1991212",
       "properties": {
         "P1103": [
           {
@@ -4233,6 +4766,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26652"
+              }
+            ],
+            "value": "GSO"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26652"
+              }
+            ],
+            "value": "26652"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000058"
           }
         ],
         "PWIKI": [
@@ -4306,7 +4871,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-142-Q3971362",
+      "id": "142-6000099-trainline-26681-Q3971362",
       "properties": {
         "P1103": [
           {
@@ -4350,6 +4915,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26681"
+              }
+            ],
+            "value": "WKL"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26681"
+              }
+            ],
+            "value": "26681"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000099"
           }
         ],
         "PWIKI": [
@@ -4403,7 +5000,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-143-Q3970643",
+      "id": "143-6000079-trainline-26665-Q3970643",
       "properties": {
         "P1103": [
           {
@@ -4442,6 +5039,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26665"
+              }
+            ],
+            "value": "RDU"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26665"
+              }
+            ],
+            "value": "26665"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000079"
           }
         ],
         "PWIKI": [
@@ -4495,7 +5124,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-144-Q3968908",
+      "id": "144-6000002-trainline-26623-Q3968908",
       "properties": {
         "P1103": [
           {
@@ -4534,6 +5163,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26623"
+              }
+            ],
+            "value": "ARW"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26623"
+              }
+            ],
+            "value": "26623"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000002"
           }
         ],
         "PWIKI": [
@@ -4591,7 +5252,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-145-Q3969740",
+      "id": "145-6000056-trainline-26651-Q3969740",
       "properties": {
         "P1103": [
           {
@@ -4630,6 +5291,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26651"
+              }
+            ],
+            "value": "GOY"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26651"
+              }
+            ],
+            "value": "26651"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000056"
           }
         ],
         "PWIKI": [
@@ -4683,7 +5376,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-147-Q3969570",
+      "id": "147-6000051-trainline-26647-Q3969570",
       "properties": {
         "P1103": [
           {
@@ -4722,6 +5415,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26647"
+              }
+            ],
+            "value": "ENS"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26647"
+              }
+            ],
+            "value": "26647"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000051"
           }
         ],
         "PWIKI": [
@@ -4783,7 +5508,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-148-Q3971361",
+      "id": "148-trainline-26680-Q3971361",
       "properties": {
         "P1103": [
           {
@@ -4822,6 +5547,33 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26680"
+              }
+            ],
+            "value": "WXF"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26680"
+              }
+            ],
+            "value": "26680"
           }
         ],
         "PWIKI": [
@@ -4879,7 +5631,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-150-Q2658249",
+      "id": "150-6000102-Q2658249",
       "properties": {
         "P1103": [
           {
@@ -4923,6 +5675,11 @@
         "P5595": [
           {
             "value": "2"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000102"
           }
         ],
         "PWIKI": [
@@ -5039,7 +5796,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-1520-Q85792690",
+      "id": "1520-6090868-Q85792690",
       "properties": {
         "P17": [
           {
@@ -5061,6 +5818,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6090868"
           }
         ],
         "PWIKI": [
@@ -5090,7 +5852,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-153-Q3970250",
+      "id": "153-6000075-trainline-26662-Q3970250",
       "properties": {
         "P1103": [
           {
@@ -5129,6 +5891,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26662"
+              }
+            ],
+            "value": "MUL"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26662"
+              }
+            ],
+            "value": "26662"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000075"
           }
         ],
         "PWIKI": [
@@ -5186,7 +5980,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-156-Q3968929",
+      "id": "156-6000004-trainline-26625-Q3968929",
       "properties": {
         "P1103": [
           {
@@ -5225,6 +6019,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26625"
+              }
+            ],
+            "value": "ATO"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26625"
+              }
+            ],
+            "value": "26625"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000004"
           }
         ],
         "PWIKI": [
@@ -5278,7 +6104,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-157-Q3968957",
+      "id": "157-6000009-trainline-26628-Q3968957",
       "properties": {
         "P1103": [
           {
@@ -5317,6 +6143,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26628"
+              }
+            ],
+            "value": "BSG"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26628"
+              }
+            ],
+            "value": "26628"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000009"
           }
         ],
         "PWIKI": [
@@ -5366,7 +6224,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-158-Q3971364",
+      "id": "158-6000100-trainline-26682-Q3971364",
       "properties": {
         "P1103": [
           {
@@ -5401,6 +6259,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26682"
+              }
+            ],
+            "value": "WLA"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26682"
+              }
+            ],
+            "value": "26682"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000100"
           }
         ],
         "PWIKI": [
@@ -5454,7 +6344,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-159-Q3968932",
+      "id": "159-6000006-trainline-26691-Q3968932",
       "properties": {
         "P1103": [
           {
@@ -5491,6 +6381,33 @@
             "value": "Q55488"
           }
         ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26691"
+              }
+            ],
+            "value": "ATM"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26691"
+              }
+            ],
+            "value": "26691"
+          }
+        ],
         "P722": [
           {
             "value": "6070002"
@@ -5498,6 +6415,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "6000006"
           }
         ],
@@ -5548,7 +6469,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-16-Q2059829",
+      "id": "16-6000064-trainline-26657-Q2059829",
       "properties": {
         "P1103": [
           {
@@ -5592,6 +6513,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26657"
+              }
+            ],
+            "value": "LJN"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26657"
+              }
+            ],
+            "value": "26657"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000064"
           }
         ],
         "PWIKI": [
@@ -5673,7 +6626,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-161-Q7099891",
+      "id": "161-6010067-Q7099891",
       "properties": {
         "P1103": [
           {
@@ -5715,6 +6668,11 @@
             "value": "Q55488"
           }
         ],
+        "P954": [
+          {
+            "value": "6010067"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q7099891"
@@ -5754,7 +6712,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-162-Q967355",
+      "id": "162-6000003-trainline-26624-Q967355",
       "properties": {
         "P1103": [
           {
@@ -5793,6 +6751,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26624"
+              }
+            ],
+            "value": "ATR"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26624"
+              }
+            ],
+            "value": "26624"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000003"
           }
         ],
         "PWIKI": [
@@ -5846,7 +6836,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-163-Q3970723",
+      "id": "163-6000081-trainline-26667-Q3970723",
       "properties": {
         "P1103": [
           {
@@ -5881,6 +6871,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26667"
+              }
+            ],
+            "value": "RCM"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26667"
+              }
+            ],
+            "value": "26667"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000081"
           }
         ],
         "PWIKI": [
@@ -5930,7 +6952,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-164-Q3969331",
+      "id": "164-6000027-trainline-26637-Q3969331",
       "properties": {
         "P1103": [
           {
@@ -5965,6 +6987,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26637"
+              }
+            ],
+            "value": "CSE"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26637"
+              }
+            ],
+            "value": "26637"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000027"
           }
         ],
         "PWIKI": [
@@ -6014,7 +7068,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-165-Q3968961",
+      "id": "165-6000012-trainline-26630-Q3968961",
       "properties": {
         "P1103": [
           {
@@ -6049,6 +7103,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26630"
+              }
+            ],
+            "value": "BHN"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26630"
+              }
+            ],
+            "value": "26630"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000012"
           }
         ],
         "PWIKI": [
@@ -6106,7 +7192,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-166-Q3969436",
+      "id": "166-6000030-trainline-26640-Q3969436",
       "properties": {
         "P1103": [
           {
@@ -6138,6 +7224,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26640"
+              }
+            ],
+            "value": "CMI"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26640"
+              }
+            ],
+            "value": "26640"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000030"
           }
         ],
         "PWIKI": [
@@ -6191,7 +7309,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-167-Q2060415",
+      "id": "167-6000008-trainline-26627-Q2060415",
       "properties": {
         "P1103": [
           {
@@ -6221,6 +7339,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26627"
+              }
+            ],
+            "value": "BAX"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26627"
+              }
+            ],
+            "value": "26627"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000008"
           }
         ],
         "PWIKI": [
@@ -6270,7 +7420,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-168-Q2059129",
+      "id": "168-6000025-trainline-26636-Q2059129",
       "properties": {
         "P1103": [
           {
@@ -6302,6 +7452,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26636"
+              }
+            ],
+            "value": "CLB"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26636"
+              }
+            ],
+            "value": "26636"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000025"
           }
         ],
         "PWIKI": [
@@ -6355,7 +7537,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-169-Q3971356",
+      "id": "169-6000097-trainline-26679-Q3971356",
       "properties": {
         "P1103": [
           {
@@ -6387,6 +7569,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26679"
+              }
+            ],
+            "value": "WPT"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26679"
+              }
+            ],
+            "value": "26679"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000097"
           }
         ],
         "PWIKI": [
@@ -6446,13 +7660,77 @@
       "geometry": {
         "coordinates": [
           [
+            -9.04696,
+            53.2736
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "170-trainline-26650",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "GALWY"
+          },
+          {
+            "value": "170"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26650"
+              }
+            ],
+            "value": "GWY"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26650"
+              }
+            ],
+            "value": "26650"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Galway"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -7.60299,
             53.6888
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-171-Q3969559",
+      "id": "171-6010019-Q3969559",
       "properties": {
         "P1103": [
           {
@@ -6491,6 +7769,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010019"
           }
         ],
         "PWIKI": [
@@ -6544,7 +7827,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-172-Q2090385",
+      "id": "172-6000066-trainline-26658-Q2090385",
       "properties": {
         "P1103": [
           {
@@ -6583,6 +7866,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26658"
+              }
+            ],
+            "value": "LFO"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26658"
+              }
+            ],
+            "value": "26658"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000066"
           }
         ],
         "PWIKI": [
@@ -6636,7 +7951,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-173-Q3969548",
+      "id": "173-6000042-trainline-26644-Q3969548",
       "properties": {
         "P1103": [
           {
@@ -6675,6 +7990,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26644"
+              }
+            ],
+            "value": "DMD"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26644"
+              }
+            ],
+            "value": "26644"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000042"
           }
         ],
         "PWIKI": [
@@ -6720,7 +8067,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-174-Q579503",
+      "id": "174-6000022-trainline-26683-Q579503",
       "properties": {
         "P1103": [
           {
@@ -6757,6 +8104,38 @@
             "value": "Q22808404"
           }
         ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26683"
+              }
+            ],
+            "value": "CKA"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26683"
+              }
+            ],
+            "value": "26683"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000022"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q579503"
@@ -6765,6 +8144,12 @@
         "labels": [
           {
             "value": "Carrick on Shannon"
+          },
+          {
+            "value": "Carrick-on-Shannon"
+          },
+          {
+            "value": "Carrick-On-Shannon"
           },
           {
             "lang": "arz",
@@ -6804,7 +8189,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-175-Q3969113",
+      "id": "175-6000016-trainline-26634-Q3969113",
       "properties": {
         "P1103": [
           {
@@ -6843,6 +8228,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26634"
+              }
+            ],
+            "value": "BOQ"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26634"
+              }
+            ],
+            "value": "26634"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000016"
           }
         ],
         "PWIKI": [
@@ -6892,7 +8309,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-176-Q3968966",
+      "id": "176-6000013-trainline-26631-Q3968966",
       "properties": {
         "P1103": [
           {
@@ -6931,6 +8348,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26631"
+              }
+            ],
+            "value": "BAO"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26631"
+              }
+            ],
+            "value": "26631"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000013"
           }
         ],
         "PWIKI": [
@@ -6992,7 +8441,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-177-Q3969465",
+      "id": "177-6000036-trainline-26642-Q3969465",
       "properties": {
         "P1103": [
           {
@@ -7031,6 +8480,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26642"
+              }
+            ],
+            "value": "COU"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26642"
+              }
+            ],
+            "value": "26642"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000036"
           }
         ],
         "PWIKI": [
@@ -7078,13 +8559,82 @@
       "geometry": {
         "coordinates": [
           [
+            -8.48249,
+            54.2723
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "180-6000087-trainline-26671",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SLIGO"
+          },
+          {
+            "value": "180"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26671"
+              }
+            ],
+            "value": "SLI"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26671"
+              }
+            ],
+            "value": "26671"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000087"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Sligo"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -8.97491,
             52.8386
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-181-Q3969565",
+      "id": "181-6000050-trainline-26646-Q3969565",
       "properties": {
         "P1103": [
           {
@@ -7128,6 +8678,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26646"
+              }
+            ],
+            "value": "ENN"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26646"
+              }
+            ],
+            "value": "26646"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000050"
           }
         ],
         "PWIKI": [
@@ -7185,7 +8767,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-182-Q3969741",
+      "id": "182-6000057-Q3969741",
       "properties": {
         "P1103": [
           {
@@ -7217,6 +8799,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000057"
           }
         ],
         "PWIKI": [
@@ -7262,7 +8849,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-183-Q3968900",
+      "id": "183-6000001-Q3968900",
       "properties": {
         "P1103": [
           {
@@ -7306,6 +8893,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000001"
           }
         ],
         "PWIKI": [
@@ -7359,7 +8951,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-184-Q3969502",
+      "id": "184-6092312-Q3969502",
       "properties": {
         "P1103": [
           {
@@ -7391,6 +8983,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092312"
           }
         ],
         "PWIKI": [
@@ -7436,7 +9033,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-185-Q3971009",
+      "id": "185-6092315-Q3971009",
       "properties": {
         "P1103": [
           {
@@ -7468,6 +9065,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092315"
           }
         ],
         "PWIKI": [
@@ -7517,7 +9119,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-187-Q3969439",
+      "id": "187-6092316-Q3969439",
       "properties": {
         "P1103": [
           {
@@ -7556,6 +9158,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092316"
           }
         ],
         "PWIKI": [
@@ -7617,7 +9224,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-188-Q3970859",
+      "id": "188-6010054-Q3970859",
       "properties": {
         "P1103": [
           {
@@ -7656,6 +9263,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010054"
           }
         ],
         "PWIKI": [
@@ -7705,7 +9317,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-19-Q3969394",
+      "id": "19-6000028-trainline-26638-Q3969394",
       "properties": {
         "P1103": [
           {
@@ -7737,6 +9349,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26638"
+              }
+            ],
+            "value": "CHJ"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26638"
+              }
+            ],
+            "value": "26638"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000028"
           }
         ],
         "PWIKI": [
@@ -7786,7 +9430,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-193-Q3969652",
+      "id": "193-6000054-trainline-26649-Q3969652",
       "properties": {
         "P1103": [
           {
@@ -7816,6 +9460,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26649"
+              }
+            ],
+            "value": "FXF"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26649"
+              }
+            ],
+            "value": "26649"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000054"
           }
         ],
         "PWIKI": [
@@ -7861,7 +9537,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-194-Q2595462",
+      "id": "194-6000069-trainline-26689-Q2595462",
       "properties": {
         "P1103": [
           {
@@ -7893,6 +9569,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26689"
+              }
+            ],
+            "value": "MAJ"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26689"
+              }
+            ],
+            "value": "26689"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000069"
           }
         ],
         "PWIKI": [
@@ -7946,7 +9654,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-21-Q3970020",
+      "id": "21-6000068-trainline-26659-Q3970020",
       "properties": {
         "P1103": [
           {
@@ -7978,6 +9686,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26659"
+              }
+            ],
+            "value": "MAW"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26659"
+              }
+            ],
+            "value": "26659"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000068"
           }
         ],
         "PWIKI": [
@@ -8039,7 +9779,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-23-Q3968971",
+      "id": "23-6000014-trainline-26632-Q3968971",
       "properties": {
         "P1103": [
           {
@@ -8071,6 +9811,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26632"
+              }
+            ],
+            "value": "BNU"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26632"
+              }
+            ],
+            "value": "26632"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000014"
           }
         ],
         "PWIKI": [
@@ -8120,7 +9892,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-24-Q6860056",
+      "id": "24-6000071-trainline-26660-Q6860056",
       "properties": {
         "P1103": [
           {
@@ -8152,6 +9924,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26660"
+              }
+            ],
+            "value": "MIE"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26660"
+              }
+            ],
+            "value": "26660"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000071"
           }
         ],
         "PWIKI": [
@@ -8205,7 +10009,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-25-Q3970647",
+      "id": "25-6000080-trainline-26666-Q3970647",
       "properties": {
         "P1103": [
           {
@@ -8237,6 +10041,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26666"
+              }
+            ],
+            "value": "RMR"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26666"
+              }
+            ],
+            "value": "26666"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000080"
           }
         ],
         "PWIKI": [
@@ -8286,7 +10122,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-26-Q3969865",
+      "id": "26-6000062-trainline-26655-Q3969865",
       "properties": {
         "P1103": [
           {
@@ -8321,6 +10157,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26655"
+              }
+            ],
+            "value": "KLL"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26655"
+              }
+            ],
+            "value": "26655"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000062"
           }
         ],
         "PWIKI": [
@@ -8386,7 +10254,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-27-Q3969587",
+      "id": "27-6000052-trainline-26648-Q3969587",
       "properties": {
         "P1103": [
           {
@@ -8418,6 +10286,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26648"
+              }
+            ],
+            "value": "FAR"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26648"
+              }
+            ],
+            "value": "26648"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000052"
           }
         ],
         "PWIKI": [
@@ -8467,7 +10367,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-28-Q546313",
+      "id": "28-6000092-trainline-26676-Q546313",
       "properties": {
         "P1103": [
           {
@@ -8502,6 +10402,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26676"
+              }
+            ],
+            "value": "TRL"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26676"
+              }
+            ],
+            "value": "26676"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000092"
           }
         ],
         "PWIKI": [
@@ -8553,13 +10485,82 @@
       "geometry": {
         "coordinates": [
           [
+            -8.4582,
+            51.9018
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "30-6000037-trainline-26688",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "CORK"
+          },
+          {
+            "value": "30"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26688"
+              }
+            ],
+            "value": "COK"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26688"
+              }
+            ],
+            "value": "26688"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000037"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Cork"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -7.7941,
             52.9607
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-31-Q3970722",
+      "id": "31-6000082-trainline-26668-Q3970722",
       "properties": {
         "P1103": [
           {
@@ -8591,6 +10592,38 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26668"
+              }
+            ],
+            "value": "RCR"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26668"
+              }
+            ],
+            "value": "26668"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000082"
           }
         ],
         "PWIKI": [
@@ -8640,7 +10673,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-32-Q3969445",
+      "id": "32-6000032-trainline-26693-Q3969445",
       "properties": {
         "P1103": [
           {
@@ -8675,6 +10708,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26693"
+              }
+            ],
+            "value": "CLZ"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26693"
+              }
+            ],
+            "value": "26693"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000032"
           }
         ],
         "PWIKI": [
@@ -8724,7 +10789,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-33-Q3970290",
+      "id": "33-6000076-trainline-26663-Q3970290",
       "properties": {
         "P1103": [
           {
@@ -8759,6 +10824,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26663"
+              }
+            ],
+            "value": "NEN"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26663"
+              }
+            ],
+            "value": "26663"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000076"
           }
         ],
         "PWIKI": [
@@ -8804,7 +10901,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-34-Q3969048",
+      "id": "34-6000015-trainline-26633-Q3969048",
       "properties": {
         "P1103": [
           {
@@ -8839,6 +10936,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26633"
+              }
+            ],
+            "value": "BIH"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26633"
+              }
+            ],
+            "value": "26633"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000015"
           }
         ],
         "PWIKI": [
@@ -8892,7 +11021,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-35-Q3969335",
+      "id": "35-6000026-trainline-26685-Q3969335",
       "properties": {
         "P1103": [
           {
@@ -8926,6 +11055,38 @@
             "value": "Q55488"
           }
         ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26685"
+              }
+            ],
+            "value": "CCN"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26685"
+              }
+            ],
+            "value": "26685"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000026"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q3969335"
@@ -8934,6 +11095,9 @@
         "labels": [
           {
             "value": "Castleconnell"
+          },
+          {
+            "value": "Castle Connell"
           },
           {
             "lang": "arz",
@@ -8981,7 +11145,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-380-Q6679189",
+      "id": "380-6010020-Q6679189",
       "properties": {
         "P1103": [
           {
@@ -9010,6 +11174,11 @@
             "value": "Q55488"
           }
         ],
+        "P954": [
+          {
+            "value": "6010020"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q6679189"
@@ -9018,6 +11187,9 @@
         "labels": [
           {
             "value": "Glounthaune"
+          },
+          {
+            "value": "Glounthane"
           },
           {
             "lang": "fr",
@@ -9057,7 +11229,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-4-Q3970293",
+      "id": "4-6000101-Q3970293",
       "properties": {
         "P1103": [
           {
@@ -9096,6 +11268,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000101"
           }
         ],
         "PWIKI": [
@@ -9153,7 +11330,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-40-Q3969965",
+      "id": "40-6000063-trainline-26656-Q3969965",
       "properties": {
         "P1103": [
           {
@@ -9197,6 +11374,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26656"
+              }
+            ],
+            "value": "LRK"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26656"
+              }
+            ],
+            "value": "26656"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000063"
           }
         ],
         "PWIKI": [
@@ -9278,7 +11487,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-41-Q3971116",
+      "id": "41-6000091-trainline-26675-Q3971116",
       "properties": {
         "P1103": [
           {
@@ -9313,6 +11522,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26675"
+              }
+            ],
+            "value": "TPY"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26675"
+              }
+            ],
+            "value": "26675"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000091"
           }
         ],
         "PWIKI": [
@@ -9366,7 +11607,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-42-Q3969154",
+      "id": "42-6000019-trainline-26692-Q3969154",
       "properties": {
         "P1103": [
           {
@@ -9401,6 +11642,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26692"
+              }
+            ],
+            "value": "CAH"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26692"
+              }
+            ],
+            "value": "26692"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000019"
           }
         ],
         "PWIKI": [
@@ -9458,7 +11731,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-43-Q1124923",
+      "id": "43-6000031-trainline-26641-Q1124923",
       "properties": {
         "P1103": [
           {
@@ -9497,6 +11770,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26641"
+              }
+            ],
+            "value": "CLX"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26641"
+              }
+            ],
+            "value": "26641"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000031"
           }
         ],
         "PWIKI": [
@@ -9554,7 +11859,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-44-Q3969246",
+      "id": "44-6000023-trainline-26684-Q3969246",
       "properties": {
         "P1103": [
           {
@@ -9595,6 +11900,38 @@
             "value": "Q55488"
           }
         ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26684"
+              }
+            ],
+            "value": "CKU"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26684"
+              }
+            ],
+            "value": "26684"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000023"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q3969246"
@@ -9603,6 +11940,12 @@
         "labels": [
           {
             "value": "Carrick on Suir"
+          },
+          {
+            "value": "Carrick-on-Suir"
+          },
+          {
+            "value": "Carrick-On-Suir"
           },
           {
             "lang": "arz",
@@ -9654,7 +11997,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-45-Q3968931",
+      "id": "45-6000005-trainline-26626-Q3968931",
       "properties": {
         "P1103": [
           {
@@ -9694,9 +12037,41 @@
             "value": "Q55488"
           }
         ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26626"
+              }
+            ],
+            "value": "ATY"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26626"
+              }
+            ],
+            "value": "26626"
+          }
+        ],
         "P722": [
           {
             "value": "6080606"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000005"
           }
         ],
         "PWIKI": [
@@ -9754,7 +12129,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-46-Q3969232",
+      "id": "46-6000021-trainline-26635-Q3969232",
       "properties": {
         "P1103": [
           {
@@ -9793,6 +12168,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26635"
+              }
+            ],
+            "value": "CAW"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26635"
+              }
+            ],
+            "value": "26635"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000021"
           }
         ],
         "PWIKI": [
@@ -9846,7 +12253,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-47-Q13583310",
+      "id": "47-6000074-trainline-26602-Q13583310",
       "properties": {
         "P1103": [
           {
@@ -9885,6 +12292,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26602"
+              }
+            ],
+            "value": "MBH"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26602"
+              }
+            ],
+            "value": "26602"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000074"
           }
         ],
         "PWIKI": [
@@ -9937,7 +12376,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-48-Q2058784",
+      "id": "48-6000061-trainline-26654-Q2058784",
       "properties": {
         "P1103": [
           {
@@ -9976,6 +12415,38 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26654"
+              }
+            ],
+            "value": "KNY"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26654"
+              }
+            ],
+            "value": "26654"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000061"
           }
         ],
         "PWIKI": [
@@ -10041,7 +12512,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-49-Q3971112",
+      "id": "49-6000089-trainline-26673-Q3971112",
       "properties": {
         "P1103": [
           {
@@ -10080,6 +12551,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26673"
+              }
+            ],
+            "value": "THM"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26673"
+              }
+            ],
+            "value": "26673"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000089"
           }
         ],
         "PWIKI": [
@@ -10122,6 +12625,37 @@
     {
       "geometry": {
         "coordinates": [
+          -6.86245,
+          53.1725
+        ],
+        "type": "Point"
+      },
+      "id": 5,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "CURAH"
+          },
+          {
+            "value": "5"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Curragh"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             -7.1183,
             52.2667
@@ -10129,7 +12663,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-50-Q3971355",
+      "id": "50-6000095-trainline-26678-Q3971355",
       "properties": {
         "P1103": [
           {
@@ -10173,6 +12707,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26678"
+              }
+            ],
+            "value": "WFD"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26678"
+              }
+            ],
+            "value": "26678"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000095"
           }
         ],
         "PWIKI": [
@@ -10242,7 +12808,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-52-Q4211689",
+      "id": "52-Q4211689",
       "properties": {
         "P1103": [
           {
@@ -10330,7 +12896,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-53-Q4076750",
+      "id": "53-Q4076750",
       "properties": {
         "P1103": [
           {
@@ -10417,7 +12983,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-54-Q4106924",
+      "id": "54-Q4106924",
       "properties": {
         "P1103": [
           {
@@ -10501,7 +13067,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-56-Q4096467",
+      "id": "56-Q4096467",
       "properties": {
         "P1103": [
           {
@@ -10589,7 +13155,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-58-Q3970730",
+      "id": "58-6000084-trainline-26670-Q3970730",
       "properties": {
         "P1103": [
           {
@@ -10628,6 +13194,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26670"
+              }
+            ],
+            "value": "RSS"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26670"
+              }
+            ],
+            "value": "26670"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000084"
           }
         ],
         "PWIKI": [
@@ -10681,7 +13279,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-6-Q3969864",
+      "id": "6-6000060-trainline-26653-Q3969864",
       "properties": {
         "P1103": [
           {
@@ -10720,6 +13318,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26653"
+              }
+            ],
+            "value": "KDR"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26653"
+              }
+            ],
+            "value": "26653"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000060"
           }
         ],
         "PWIKI": [
@@ -10773,7 +13403,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-60-trainline-26669",
+      "id": "60-6001001-trainline-26669",
       "properties": {
         "P17": [
           {
@@ -10792,19 +13422,10 @@
             "value": "60"
           }
         ],
-        "P421": [
-          {
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26669"
-              }
-            ],
-            "value": "Q28145974"
-          }
-        ],
         "P4755": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10828,10 +13449,11 @@
             "value": "26669"
           }
         ],
-        "P954": [
+        "P8671": [
           {
+            "enabled": "6000083",
             "info": {
-              "reliability": 0.7000000000000001
+              "reliability": 0.5800000000000001
             },
             "references": [
               {
@@ -10839,6 +13461,11 @@
               }
             ],
             "value": "6000083"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6001001"
           }
         ],
         "labels": [
@@ -10862,7 +13489,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-61-Q3969972",
+      "id": "61-6000065-Q3969972",
       "properties": {
         "P1103": [
           {
@@ -10889,6 +13516,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000065"
           }
         ],
         "PWIKI": [
@@ -10937,7 +13569,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-63-Q3969651",
+      "id": "63-6000053-Q3969651",
       "properties": {
         "P1103": [
           {
@@ -10967,6 +13599,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000053"
           }
         ],
         "PWIKI": [
@@ -11012,7 +13649,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-64-Q3969247",
+      "id": "64-6000024-Q3969247",
       "properties": {
         "P1103": [
           {
@@ -11047,6 +13684,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000024"
           }
         ],
         "PWIKI": [
@@ -11096,7 +13738,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-65-Q3970751",
+      "id": "65-6000085-Q3970751",
       "properties": {
         "P1103": [
           {
@@ -11126,6 +13768,11 @@
         "P31": [
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000085"
           }
         ],
         "PWIKI": [
@@ -11161,13 +13808,55 @@
       "geometry": {
         "coordinates": [
           [
+            -8.29956,
+            51.8491
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "66-6000033",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "COBH"
+          },
+          {
+            "value": "66"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000033"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Cobh"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -8.26323,
             51.9163
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-67-Q3969250",
+      "id": "67-6092318-Q3969250",
       "properties": {
         "P1103": [
           {
@@ -11205,6 +13894,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092318"
           }
         ],
         "PWIKI": [
@@ -11258,7 +13952,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-68-Q3970107",
+      "id": "68-6092317-Q3970107",
       "properties": {
         "P1103": [
           {
@@ -11297,6 +13991,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092317"
           }
         ],
         "PWIKI": [
@@ -11346,7 +14045,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-7-Q4301386",
+      "id": "7-6010060-Q4301386",
       "properties": {
         "P1103": [
           {
@@ -11381,6 +14080,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010060"
           }
         ],
         "PWIKI": [
@@ -11422,7 +14126,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-72-Q3971209",
+      "id": "72-6000094-trainline-26677-Q3971209",
       "properties": {
         "P1103": [
           {
@@ -11457,6 +14161,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26677"
+              }
+            ],
+            "value": "TUM"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26677"
+              }
+            ],
+            "value": "26677"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000094"
           }
         ],
         "PWIKI": [
@@ -11510,7 +14246,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-73-Q3969435",
+      "id": "73-6000029-trainline-26639-Q3969435",
       "properties": {
         "P1103": [
           {
@@ -11545,6 +14281,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26639"
+              }
+            ],
+            "value": "CLQ"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26639"
+              }
+            ],
+            "value": "26639"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000029"
           }
         ],
         "PWIKI": [
@@ -11590,7 +14358,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-75-Q3968830",
+      "id": "75-6092307-Q3968830",
       "properties": {
         "P1103": [
           {
@@ -11625,6 +14393,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092307"
           }
         ],
         "PWIKI": [
@@ -11674,7 +14447,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-76-Q3969396",
+      "id": "76-Q3969396",
       "properties": {
         "P1103": [
           {
@@ -11775,7 +14548,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-77-Q3969438",
+      "id": "77-6010009-Q3969438",
       "properties": {
         "P1103": [
           {
@@ -11814,6 +14587,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010009"
           }
         ],
         "PWIKI": [
@@ -11856,13 +14634,100 @@
       "geometry": {
         "coordinates": [
           [
+            -6.52356,
+            53.3223
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "78-6010027",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "HZLCH"
+          },
+          {
+            "value": "78"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010027"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Hazelhatch"
+          },
+          {
+            "value": "Celbridge (Hazelhatch )"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -6.66386,
+            53.2469
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "79-6010047",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "SALNS"
+          },
+          {
+            "value": "79"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010047"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Sallins"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -7.18055,
             53.146
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-8-Q3970565",
+      "id": "8-6000077-trainline-26697-Q3970565",
       "properties": {
         "P1103": [
           {
@@ -11901,6 +14766,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26697"
+              }
+            ],
+            "value": "PRO"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26697"
+              }
+            ],
+            "value": "26697"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000077"
           }
         ],
         "PWIKI": [
@@ -11950,7 +14847,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-801-Q85848056",
+      "id": "801-Q85848056",
       "properties": {
         "P17": [
           {
@@ -12001,7 +14898,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-83-Q3969562",
+      "id": "83-6000049-trainline-26695-Q3969562",
       "properties": {
         "P1103": [
           {
@@ -12040,6 +14937,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26695"
+              }
+            ],
+            "value": "EFD"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26695"
+              }
+            ],
+            "value": "26695"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000049"
           }
         ],
         "PWIKI": [
@@ -12081,7 +15010,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-84-Q3968799",
+      "id": "84-Q3968799",
       "properties": {
         "P1103": [
           {
@@ -12165,7 +15094,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-85-Q3969551",
+      "id": "85-6092309-Q3969551",
       "properties": {
         "P1103": [
           {
@@ -12211,6 +15140,11 @@
             "value": "Q55488"
           }
         ],
+        "P954": [
+          {
+            "value": "6092309"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q3969551"
@@ -12254,7 +15188,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-86-Q3970000",
+      "id": "86-Q3970000",
       "properties": {
         "P1103": [
           {
@@ -12330,7 +15264,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-87-Q3969773",
+      "id": "87-6092310-Q3969773",
       "properties": {
         "P1103": [
           {
@@ -12369,6 +15303,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092310"
           }
         ],
         "PWIKI": [
@@ -12414,7 +15353,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-89-Q3970288",
+      "id": "89-6092311-Q3970288",
       "properties": {
         "P1103": [
           {
@@ -12453,6 +15392,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092311"
           }
         ],
         "PWIKI": [
@@ -12505,7 +15449,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-9-Q3970567",
+      "id": "9-6000078-trainline-26664-Q3970567",
       "properties": {
         "P1103": [
           {
@@ -12540,6 +15484,38 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P4755": [
+          {
+            "info": {
+              "enabled": true,
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26664"
+              }
+            ],
+            "value": "PTO"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26664"
+              }
+            ],
+            "value": "26664"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000078"
           }
         ],
         "PWIKI": [
@@ -12593,7 +15569,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-90-Q3969863",
+      "id": "90-6010029-Q3969863",
       "properties": {
         "P1103": [
           {
@@ -12632,6 +15608,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010029"
           }
         ],
         "PWIKI": [
@@ -12681,7 +15662,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-91-Q3970077",
+      "id": "91-6000070-Q3970077",
       "properties": {
         "P1103": [
           {
@@ -12720,6 +15701,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6000070"
           }
         ],
         "PWIKI": [
@@ -12777,7 +15763,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-92-Q3969943",
+      "id": "92-6010041-Q3969943",
       "properties": {
         "P1103": [
           {
@@ -12818,6 +15804,11 @@
             "value": "Q55488"
           }
         ],
+        "P954": [
+          {
+            "value": "6010041"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q3969943"
@@ -12826,6 +15817,9 @@
         "labels": [
           {
             "value": "Leixlip (Louisa Bridge)"
+          },
+          {
+            "value": "Leixlip Louisa Bridge"
           },
           {
             "lang": "arz",
@@ -12869,7 +15863,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-93-Q3969941",
+      "id": "93-6010040-Q3969941",
       "properties": {
         "P1103": [
           {
@@ -12908,6 +15902,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010040"
           }
         ],
         "PWIKI": [
@@ -12961,7 +15960,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-94-Q3969440",
+      "id": "94-6010010-Q3969440",
       "properties": {
         "P1103": [
           {
@@ -13000,6 +15999,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010010"
           }
         ],
         "PWIKI": [
@@ -13041,7 +16045,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-95-Q3969479",
+      "id": "95-6010011-Q3969479",
       "properties": {
         "P1103": [
           {
@@ -13080,6 +16084,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010011"
           }
         ],
         "PWIKI": [
@@ -13133,7 +16142,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-96-Q3969330",
+      "id": "96-6010012-Q3969330",
       "properties": {
         "P1103": [
           {
@@ -13172,6 +16181,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010012"
           }
         ],
         "PWIKI": [
@@ -13221,7 +16235,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-97-Q3968919",
+      "id": "97-6010059-Q3968919",
       "properties": {
         "P1103": [
           {
@@ -13260,6 +16274,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010059"
           }
         ],
         "PWIKI": [
@@ -13309,7 +16328,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-975-Q3968830",
+      "id": "975-6092307-Q3968830",
       "properties": {
         "P1103": [
           {
@@ -13344,6 +16363,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6092307"
           }
         ],
         "PWIKI": [
@@ -13393,7 +16417,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-976-Q3969396",
+      "id": "976-Q3969396",
       "properties": {
         "P1103": [
           {
@@ -13494,7 +16518,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "-977-Q3969438",
+      "id": "977-6010009-Q3969438",
       "properties": {
         "P1103": [
           {
@@ -13532,6 +16556,11 @@
           },
           {
             "value": "Q55488"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010009"
           }
         ],
         "PWIKI": [
@@ -13574,13 +16603,100 @@
       "geometry": {
         "coordinates": [
           [
+            -6.52356,
+            53.3223
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "978-6010027",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "HAZEF"
+          },
+          {
+            "value": "978"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010027"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Hazelhatch"
+          },
+          {
+            "value": "Celbridge (Hazelhatch )"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            -6.29869,
+            53.3725
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "98-6010001",
+      "properties": {
+        "P17": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q27"
+          }
+        ],
+        "P296": [
+          {
+            "value": "BBRDG"
+          },
+          {
+            "value": "98"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010001"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Broombridge"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             -6.25908,
             53.3632
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "-99-Q634947",
+      "id": "99-6010016-Q634947",
       "properties": {
         "P1103": [
           {
@@ -13619,6 +16735,11 @@
           },
           {
             "value": "Q22808404"
+          }
+        ],
+        "P954": [
+          {
+            "value": "6010016"
           }
         ],
         "PWIKI": [
@@ -13673,421 +16794,6 @@
           {
             "lang": "zh-hant",
             "value": "德拉姆科德拉火車站"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -7,
-          53.3353
-        ],
-        "type": "Point"
-      },
-      "id": 1075,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "ADAMS"
-          },
-          {
-            "value": "1075"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Adamstown"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.52356,
-          53.3223
-        ],
-        "type": "Point"
-      },
-      "id": 1078,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "HAZES"
-          },
-          {
-            "value": "1078"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Hazelhatch"
-          },
-          {
-            "value": "Celbridge (Hazelhatch )"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.12712,
-          53.2878
-        ],
-        "type": "Point"
-      },
-      "id": 132,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "SCOVE"
-          },
-          {
-            "value": "132"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Sandycove"
-          },
-          {
-            "value": "Glasthule (Sandycove )"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.10046,
-          53.2043
-        ],
-        "type": "Point"
-      },
-      "id": 140,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "BRAY"
-          },
-          {
-            "value": "140"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Bray"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -9.04696,
-          53.2736
-        ],
-        "type": "Point"
-      },
-      "id": 170,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "GALWY"
-          },
-          {
-            "value": "170"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Galway"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -8.48249,
-          54.2723
-        ],
-        "type": "Point"
-      },
-      "id": 180,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "SLIGO"
-          },
-          {
-            "value": "180"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Sligo"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -8.4582,
-          51.9018
-        ],
-        "type": "Point"
-      },
-      "id": 30,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "CORK"
-          },
-          {
-            "value": "30"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Cork"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.86245,
-          53.1725
-        ],
-        "type": "Point"
-      },
-      "id": 5,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "CURAH"
-          },
-          {
-            "value": "5"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Curragh"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -8.29956,
-          51.8491
-        ],
-        "type": "Point"
-      },
-      "id": 66,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "COBH"
-          },
-          {
-            "value": "66"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Cobh"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.52356,
-          53.3223
-        ],
-        "type": "Point"
-      },
-      "id": 78,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "HZLCH"
-          },
-          {
-            "value": "78"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Hazelhatch"
-          },
-          {
-            "value": "Celbridge (Hazelhatch )"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.66386,
-          53.2469
-        ],
-        "type": "Point"
-      },
-      "id": 79,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "SALNS"
-          },
-          {
-            "value": "79"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Sallins"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.52356,
-          53.3223
-        ],
-        "type": "Point"
-      },
-      "id": 978,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "HAZEF"
-          },
-          {
-            "value": "978"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Hazelhatch"
-          },
-          {
-            "value": "Celbridge (Hazelhatch )"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -6.29869,
-          53.3725
-        ],
-        "type": "Point"
-      },
-      "id": 98,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q27"
-          }
-        ],
-        "P296": [
-          {
-            "value": "BBRDG"
-          },
-          {
-            "value": "98"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Broombridge"
           }
         ]
       },

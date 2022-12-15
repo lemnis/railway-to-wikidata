@@ -1,10 +1,12 @@
 import { Country, CountryInfo } from "../../transform/country";
-import { Property } from "../../types/wikidata";
+import { CodeIssuer, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
 import { promises as fs } from "fs";
 import { matchAndMerge, merge } from ".";
 import { createFeatureCollection } from "../cache/geojson";
 import sortJson from "sort-json";
+import { FeatureCollection, Point, point } from "@turf/turf";
+import { feature } from "@ideditor/country-coder";
 
 console.log("Starting...");
 
@@ -20,7 +22,49 @@ const filter = (country: CountryInfo) => (feature: Location) =>
 
 const GeoJSONPath = __dirname + "/../../../geojson";
 
+const folder = __dirname + "/../../../hafas-full";
+const getStations = (geojson: FeatureCollection<Point>) =>
+  geojson.features
+    .filter(
+      (i) =>
+        i.properties?.products.nationalExpress ||
+        i.properties?.products.national ||
+        i.properties?.products.regionalExp ||
+        i.properties?.products.regional ||
+        i.properties?.products.suburban
+    )
+    .map((i) =>
+      point(
+        i.geometry.coordinates,
+        {
+          [CodeIssuer.IBNR]: [{ value: i.properties?.id }],
+          [Property.Country]: [
+            {
+              value: feature(i.geometry.coordinates as any)?.properties
+                .wikidata,
+            },
+          ],
+          labels: [{ value: i.properties?.name }],
+        },
+        { id: i.properties?.id }
+      )
+    );
+
 (async () => {
+  const fullHafas = (
+    await Promise.all(
+      await fs.readdir(folder).then((files) => {
+        return files
+          .filter((file) => file.endsWith(".geojson"))
+          .map((file) =>
+            fs
+              .readFile(folder + "/" + file, "utf-8")
+              .then((i) => getStations(JSON.parse(i)))
+          );
+      })
+    )
+  ).flat(2);
+
   const nsInternational = await importLocations(
     `${GeoJSONPath}/nl-ns-international.geojson`
   );
@@ -98,12 +142,15 @@ const GeoJSONPath = __dirname + "/../../../geojson";
     const orignalSize = base.filter(filter(country))?.length;
     const euafrSize = euafr.filter(filter(country))?.length;
     const irisSize = iris.filter(filter(country))?.length;
+    const hafasSize = fullHafas.filter(filter(country))?.length;
     const trainlineSize = trainline.filter(filter(country))?.length;
     console.log(`Original size ${orignalSize}`);
     // if (others.includes(euafr) && euafrSize > orignalSize)
     console.log(`Euafr size ${euafrSize}`);
     if (others.includes(iris) && irisSize > orignalSize)
       console.log(`Iris size ${irisSize}`);
+    if (others.includes(fullHafas) && hafasSize > orignalSize)
+      console.log(`Hafas size ${hafasSize}`);
     if (others.includes(trainline) && trainlineSize > orignalSize)
       console.log(`Trainline size ${trainlineSize}`);
 
@@ -112,56 +159,69 @@ const GeoJSONPath = __dirname + "/../../../geojson";
 
   await generate(
     irail,
-    [euafr, regiojet, openov, ns, nsInternational, trainline, wikidata],
+    [
+      fullHafas,
+      euafr,
+      regiojet,
+      openov,
+      ns,
+      nsInternational,
+      trainline,
+      wikidata,
+    ],
     Country.Belgium
   );
   await generate(
     euafr,
-    [nsInternational, trainline, wikidata],
+    [fullHafas, nsInternational, trainline, wikidata],
     Country.Bulgaria
   );
-  await generate(peatus, [nsInternational, euafr, wikidata], Country.Estonia);
+  await generate(
+    peatus,
+    [fullHafas, nsInternational, euafr, wikidata],
+    Country.Estonia
+  );
   await generate(
     renfe,
-    [euafr, cp, trainline, nsInternational, wikidata],
+    [fullHafas, euafr, cp, trainline, nsInternational, wikidata],
     Country.Spain
   );
   await generate(
     trainOse,
-    [trainline, nsInternational, wikidata],
+    [fullHafas, trainline, nsInternational, wikidata],
     Country.Greece
   );
   await generate(
     zsr,
-    [nsInternational, oebb, euafr, iris, trainline, wikidata],
+    [nsInternational, oebb, euafr, fullHafas, iris, trainline, wikidata],
     Country.Slovakia
   );
 
   await generate(
     trenitalia,
-    [nsInternational, sbb, oebb, euafr, iris, trainline, wikidata],
+    [nsInternational, sbb, oebb, euafr, fullHafas, iris, trainline, wikidata],
     Country.Italy
   );
   await generate(
     litrail,
-    [nsInternational, euafr, trainline, wikidata, wikidata],
+    [fullHafas, nsInternational, euafr, trainline, wikidata, wikidata],
     Country.Lithuania
   );
   // TODO: has wikidata currently
   await generate(
     ns,
-    [nsInternational, euafr, iris, trainline, wikidata],
+    [nsInternational, euafr, fullHafas, iris, trainline, wikidata],
     Country.Netherlands
   );
   await generate(cp, [euafr, renfe, trainline, wikidata], Country.Portugal);
   await generate(
     gov,
-    [nsInternational, euafr, oebb, iris, trainline, wikidata],
+    [nsInternational, euafr, oebb, fullHafas, iris, trainline, wikidata],
     Country.Romania
   );
   await generate(
     trafiklab,
-    [entur, euafr, iris, nsInternational, trainline, wikidata],
+    [entur, euafr, fullHafas, iris, nsInternational, trainline, wikidata],
     Country.Sweden
   );
   await generate(
@@ -173,6 +233,7 @@ const GeoJSONPath = __dirname + "/../../../geojson";
       nsInternational,
       pkp,
       zsr,
+      fullHafas,
       iris,
       regiojet,
       wikidata,
@@ -181,44 +242,74 @@ const GeoJSONPath = __dirname + "/../../../geojson";
   );
   await generate(
     hzpp,
-    [euafr, iris, oebb, trainline, wikidata],
+    [euafr, fullHafas, iris, oebb, trainline, wikidata],
     Country.Croatia
   );
   await generate(
     euafr,
-    [iris, nsInternational, trafiklab, trainline, wikidata],
+    [fullHafas, iris, nsInternational, trafiklab, trainline, wikidata],
     Country.Denmark
   );
   await generate(
     digitraffic,
-    [nsInternational, euafr, wikidata],
+    [fullHafas, fullHafas, nsInternational, euafr, wikidata],
     Country.Finland
   );
   await generate(
     sncf,
-    [euafr, iris, renfe, openov, nsInternational, ns, trainline, wikidata],
+    [
+      euafr,
+      fullHafas,
+      iris,
+      renfe,
+      openov,
+      nsInternational,
+      ns,
+      trainline,
+      wikidata,
+    ],
     Country.France
   );
-  await generate(irishRail, [trainline, wikidata], Country.Ireland);
+  await generate(irishRail, [fullHafas, trainline, wikidata], Country.Ireland);
   await generate(
     sbb,
-    [euafr, iris, oebb, nsInternational, ns, zsr, trainline, wikidata],
+    [
+      euafr,
+      fullHafas,
+      iris,
+      oebb,
+      nsInternational,
+      ns,
+      zsr,
+      trainline,
+      wikidata,
+    ],
     Country.Switzerland
   );
   await generate(
     atoc,
-    [ns, nsInternational, irishRail, trainline, euafr, wikidata],
+    [fullHafas, ns, nsInternational, irishRail, trainline, euafr, wikidata],
     Country.UnitedKingdom
   );
   await generate(
     euafr,
-    [iris, oebb, regiojet, nsInternational, zsr, trainline, wikidata],
+    [
+      fullHafas,
+      iris,
+      oebb,
+      regiojet,
+      nsInternational,
+      zsr,
+      trainline,
+      wikidata,
+    ],
     Country.Slovenia
   );
   await generate(
     pkp,
     [
       euafr,
+      fullHafas,
       iris,
       oebb,
       leoExpress,
@@ -232,19 +323,24 @@ const GeoJSONPath = __dirname + "/../../../geojson";
   );
   await generate(
     entur,
-    [euafr, nsInternational, trafiklab, trainline, wikidata],
+    [fullHafas, euafr, nsInternational, trafiklab, trainline, wikidata],
     Country.Norway
   );
   await generate(
     openov,
-    [euafr, iris, regiojet, nsInternational, trainline, wikidata],
+    [euafr, fullHafas, iris, regiojet, nsInternational, trainline, wikidata],
     Country.Luxembourg
   );
-  await generate(euafr, [nsInternational, trainline, wikidata], Country.Latvia);
+  await generate(
+    euafr,
+    [fullHafas, nsInternational, trainline, wikidata],
+    Country.Latvia
+  );
   await generate(
     mav,
     [
       euafr,
+      fullHafas,
       iris,
       oebb,
       regiojet,
@@ -260,6 +356,7 @@ const GeoJSONPath = __dirname + "/../../../geojson";
     db,
     [
       euafr,
+      fullHafas,
       iris,
       oebb,
       sbb,
@@ -279,6 +376,7 @@ const GeoJSONPath = __dirname + "/../../../geojson";
     oebb,
     [
       euafr,
+      fullHafas,
       iris,
       sbb,
       leoExpress,

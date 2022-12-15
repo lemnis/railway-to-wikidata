@@ -10,7 +10,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΑΒΑΣ-Q17842597",
+      "id": "ΑΒΑΣ-7301187-Q17842597",
       "properties": {
         "P131": [
           {
@@ -56,6 +56,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7301187"
           }
         ],
@@ -66,9 +70,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -79,6 +81,9 @@
           {
             "lang": "el",
             "value": "Άγ. Βασίλειος"
+          },
+          {
+            "value": "Agios Vassileios"
           },
           {
             "lang": "en",
@@ -238,7 +243,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΑΘΗΝ-trainline-28218-GRATH-Q3560693",
+      "id": "ΑΘΗΝ-7300001-trainline-28218-GRATH-Q3560693",
       "properties": {
         "P1103": [
           {
@@ -873,7 +878,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΑΛΕΛ-Q18335627",
+      "id": "ΑΛΕΛ-7300264-Q18335627",
       "properties": {
         "P131": [
           {
@@ -918,6 +923,11 @@
             "value": "7300858"
           }
         ],
+        "P954": [
+          {
+            "value": "7300264"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q18335627"
@@ -925,9 +935,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -938,6 +946,9 @@
           {
             "lang": "el",
             "value": "Αλεξανδρούπολη Λιμάνι"
+          },
+          {
+            "value": "Alexandroupolis Port"
           },
           {
             "lang": "el",
@@ -1705,15 +1716,21 @@
     {
       "geometry": {
         "coordinates": [
-          23.053789138793945,
-          39.325531005859375
+          [
+            23.053789138793945,
+            39.325531005859375
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΑΝΛΕ",
+      "id": "ΑΝΛΕ-7300331",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
@@ -1722,8 +1739,17 @@
             "value": "ΑΝΛΕ"
           }
         ],
+        "P954": [
+          {
+            "value": "7300331"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
@@ -1733,6 +1759,9 @@
           {
             "lang": "el",
             "value": "Άνω Λεχώνια"
+          },
+          {
+            "value": "Ano Lekhonia"
           }
         ]
       },
@@ -1979,7 +2008,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΑΣΤΕ-Q4692669",
+      "id": "ΑΣΤΕ-7300126-Q4692669",
       "properties": {
         "P131": [
           {
@@ -2021,6 +2050,11 @@
             "value": "7300118"
           }
         ],
+        "P954": [
+          {
+            "value": "7300126"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q4692669"
@@ -2028,9 +2062,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -2041,6 +2073,9 @@
           {
             "lang": "el",
             "value": "Άγ. Στέφανος"
+          },
+          {
+            "value": "Ag. Stefanos"
           },
           {
             "lang": "el",
@@ -2389,7 +2424,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΑΧΑΡ-Q12884441",
+      "id": "ΑΧΑΡ-7300124-Q12884441",
       "properties": {
         "P17": [
           {
@@ -2418,6 +2453,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300124"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q12884441"
@@ -2425,9 +2465,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -2438,6 +2476,9 @@
           {
             "lang": "el",
             "value": "Αχαρναί"
+          },
+          {
+            "value": "Acharne"
           },
           {
             "lang": "el",
@@ -2800,7 +2841,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΒΟΛΟ-trainline-28211-Q17843621",
+      "id": "ΒΟΛΟ-7300035-trainline-28211-Q17843621",
       "properties": {
         "P131": [
           {
@@ -2901,6 +2942,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7300035"
           }
         ],
@@ -3377,7 +3422,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΔΙΑΚ-Q18009299",
+      "id": "ΔΙΑΚ-7300019-Q18009299",
       "properties": {
         "P131": [
           {
@@ -3416,6 +3461,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300019"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q18009299"
@@ -3423,9 +3473,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -3436,6 +3484,9 @@
           {
             "lang": "el",
             "value": "Διακοπτό"
+          },
+          {
+            "value": "Diakofto"
           },
           {
             "lang": "fr",
@@ -3945,7 +3996,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΔΡΑΜ-trainline-28215-Q106350067",
+      "id": "ΔΡΑΜ-7300012-trainline-28215-Q106350067",
       "properties": {
         "P131": [
           {
@@ -4032,6 +4083,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7300012"
           }
         ],
@@ -4075,7 +4130,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΕΔΕΣ-Q18009303",
+      "id": "ΕΔΕΣ-7300020-Q18009303",
       "properties": {
         "P17": [
           {
@@ -4107,6 +4162,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300020"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q18009303"
@@ -4114,9 +4174,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -4127,6 +4185,9 @@
           {
             "lang": "el",
             "value": "Έδεσσα"
+          },
+          {
+            "value": "Edessa"
           },
           {
             "lang": "el",
@@ -4516,7 +4577,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΘΕΣΣ-trainline-28212-GRAAE-Q15116556",
+      "id": "ΘΕΣΣ-7300008-trainline-28212-GRAAE-Q15116556",
       "properties": {
         "P1103": [
           {
@@ -4631,6 +4692,11 @@
         "P954": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
               "reliability": 0.7999999999999999
             },
             "value": "7300008"
@@ -4737,15 +4803,21 @@
     {
       "geometry": {
         "coordinates": [
-          23.3187198638916,
-          38.32973861694336
+          [
+            23.3187198638916,
+            38.32973861694336
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΘΗΒΑ",
+      "id": "ΘΗΒΑ-7300030",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
@@ -4754,8 +4826,17 @@
             "value": "ΘΗΒΑ"
           }
         ],
+        "P954": [
+          {
+            "value": "7300030"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
@@ -4765,6 +4846,9 @@
           {
             "lang": "el",
             "value": "Θήβα"
+          },
+          {
+            "value": "Thive"
           }
         ]
       },
@@ -5102,7 +5186,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΚΑΛΒ-Q18335603",
+      "id": "ΚΑΛΒ-7300024-Q18335603",
       "properties": {
         "P131": [
           {
@@ -5144,6 +5228,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300024"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q18335603"
@@ -5151,9 +5240,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -5164,6 +5251,9 @@
           {
             "lang": "el",
             "value": "Καλάβρυτα"
+          },
+          {
+            "value": "Kalavrita"
           },
           {
             "lang": "el",
@@ -5308,7 +5398,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΚΑΡΔ-Q18009311",
+      "id": "ΚΑΡΔ-7300026-Q18009311",
       "properties": {
         "P17": [
           {
@@ -5344,6 +5434,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7300026"
           }
         ],
@@ -5354,9 +5448,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -5367,6 +5459,9 @@
           {
             "lang": "el",
             "value": "Καρδίτσα"
+          },
+          {
+            "value": "Karditsa"
           },
           {
             "lang": "ru",
@@ -5636,7 +5731,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΚΑΤΕ-trainline-28222-Q15116561",
+      "id": "ΚΑΤΕ-7300007-trainline-28222-Q15116561",
       "properties": {
         "P131": [
           {
@@ -5724,6 +5819,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28222"
               }
             ],
+            "value": "7300007"
+          }
+        ],
+        "P954": [
+          {
             "value": "7300007"
           }
         ],
@@ -6021,7 +6121,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΚΙΛΚ-Q18009312",
+      "id": "ΚΙΛΚ-7300063-Q18009312",
       "properties": {
         "P17": [
           {
@@ -6050,6 +6150,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300063"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q18009312"
@@ -6057,9 +6162,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -6070,6 +6173,9 @@
           {
             "lang": "el",
             "value": "Κιλκίς"
+          },
+          {
+            "value": "Kilkis"
           },
           {
             "lang": "ru",
@@ -6670,7 +6776,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΛΑΜΙ-trainline-28223-Q17449588",
+      "id": "ΛΑΜΙ-7300071-trainline-28223-Q17449588",
       "properties": {
         "P131": [
           {
@@ -6770,6 +6876,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7300071"
           }
         ],
@@ -6857,7 +6967,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΛΑΡΙ-trainline-28210-Q14771486",
+      "id": "ΛΑΡΙ-7300006-trainline-28210-Q14771486",
       "properties": {
         "P131": [
           {
@@ -6951,6 +7061,11 @@
             "value": "7300006"
           }
         ],
+        "P954": [
+          {
+            "value": "7300006"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q14771486"
@@ -7003,7 +7118,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΛΕΒΑ-Q12884448",
+      "id": "ΛΕΒΑ-7300003-Q12884448",
       "properties": {
         "P131": [
           {
@@ -7044,6 +7159,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7300003"
           }
         ],
@@ -7054,9 +7173,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -7067,6 +7184,9 @@
           {
             "lang": "el",
             "value": "Λεβαδειά"
+          },
+          {
+            "value": "Levadia"
           },
           {
             "lang": "el",
@@ -7098,7 +7218,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΛΕΙΑ-Q15242217",
+      "id": "ΛΕΙΑ-7300005-Q15242217",
       "properties": {
         "P131": [
           {
@@ -7140,6 +7260,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300005"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q15242217"
@@ -7147,9 +7272,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -7160,6 +7283,9 @@
           {
             "lang": "el",
             "value": "Λειανοκλάδι"
+          },
+          {
+            "value": "Lianokladion"
           },
           {
             "lang": "el",
@@ -8241,15 +8367,21 @@
     {
       "geometry": {
         "coordinates": [
-          23.144670486450195,
-          39.326751708984375
+          [
+            23.144670486450195,
+            39.326751708984375
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΜΗΛΕ",
+      "id": "ΜΗΛΕ-7300435",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
@@ -8258,8 +8390,17 @@
             "value": "ΜΗΛΕ"
           }
         ],
+        "P954": [
+          {
+            "value": "7300435"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
@@ -8269,6 +8410,9 @@
           {
             "lang": "el",
             "value": "Μηλιές"
+          },
+          {
+            "value": "Milee"
           }
         ]
       },
@@ -8610,15 +8754,21 @@
     {
       "geometry": {
         "coordinates": [
-          22.133970260620117,
-          40.621299743652344
+          [
+            22.133970260620117,
+            40.621299743652344
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΝΑΟΥ",
+      "id": "ΝΑΟΥ-7300094",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
@@ -8627,8 +8777,17 @@
             "value": "ΝΑΟΥ"
           }
         ],
+        "P954": [
+          {
+            "value": "7300094"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
@@ -8638,6 +8797,9 @@
           {
             "lang": "el",
             "value": "Νάουσα"
+          },
+          {
+            "value": "Naousa"
           }
         ]
       },
@@ -8949,7 +9111,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΝΠΟΡ-Q15116599",
+      "id": "ΝΠΟΡ-7300326-Q15116599",
       "properties": {
         "P17": [
           {
@@ -8978,6 +9140,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300326"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q15116599"
@@ -8985,9 +9152,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -8998,6 +9163,9 @@
           {
             "lang": "el",
             "value": "Νέοι Πόροι"
+          },
+          {
+            "value": "Neoi Poroi"
           },
           {
             "lang": "de",
@@ -9305,7 +9473,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΟΙΝΟ-trainline-28221-Q14769813",
+      "id": "ΟΙΝΟ-7300002-trainline-28221-Q14769813",
       "properties": {
         "P131": [
           {
@@ -9393,6 +9561,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28221"
               }
             ],
+            "value": "7300002"
+          }
+        ],
+        "P954": [
+          {
             "value": "7300002"
           }
         ],
@@ -10697,7 +10870,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΠΑΤΡ-Q17842658",
+      "id": "ΠΑΤΡ-7300052-Q17842658",
       "properties": {
         "P131": [
           {
@@ -10751,6 +10924,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7300052"
           }
         ],
@@ -10761,9 +10938,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -10774,6 +10949,9 @@
           {
             "lang": "el",
             "value": "Πάτρα"
+          },
+          {
+            "value": "Patras"
           },
           {
             "lang": "el",
@@ -11383,7 +11561,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΠΚΙΑ-Q12060995",
+      "id": "ΠΚΙΑ-7300104-Q12060995",
       "properties": {
         "P131": [
           {
@@ -11427,6 +11605,10 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7300104"
           }
         ],
@@ -11437,9 +11619,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -11450,6 +11630,9 @@
           {
             "lang": "el",
             "value": "Κιάτο"
+          },
+          {
+            "value": "Kiato"
           },
           {
             "lang": "de",
@@ -11600,25 +11783,72 @@
     {
       "geometry": {
         "coordinates": [
-          22.932220458984375,
-          37.92082977294922
+          [
+            22.932220458984375,
+            37.92082977294922
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΠΚΟΡ",
+      "id": "ΠΚΟΡ-7302032-Q5170674",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3042287"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
         "P296": [
           {
             "value": "ΠΚΟΡ"
+          },
+          {
+            "value": "KOR"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          },
+          {
+            "value": "Q22808404"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7302032"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7302032"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q5170674"
           }
         ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {}
+          ]
         },
         "labels": [
           {
@@ -11628,6 +11858,41 @@
           {
             "lang": "el",
             "value": "Κόρινθος"
+          },
+          {
+            "value": "Korinthos"
+          },
+          {
+            "lang": "ru",
+            "value": "Коринф"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Kórinthos (neu)"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Κορίνθου"
+          },
+          {
+            "lang": "en",
+            "value": "Corinth railway station"
+          },
+          {
+            "lang": "es",
+            "value": "estación Kórinthos (nueva)"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Corinthe"
+          },
+          {
+            "lang": "ja",
+            "value": "コリントス駅"
+          },
+          {
+            "lang": "fr",
+            "value": "Corinthe"
           }
         ]
       },
@@ -11946,7 +12211,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΠΛΤΥ-Q14771535",
+      "id": "ΠΛΤΥ-7300051-Q14771535",
       "properties": {
         "P131": [
           {
@@ -11988,6 +12253,11 @@
             "value": "7300400"
           }
         ],
+        "P954": [
+          {
+            "value": "7300051"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q14771535"
@@ -11995,9 +12265,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -12008,6 +12276,9 @@
           {
             "lang": "el",
             "value": "Πλατύ"
+          },
+          {
+            "value": "Plati"
           },
           {
             "lang": "el",
@@ -12323,15 +12594,26 @@
     {
       "geometry": {
         "coordinates": [
-          23.793010711669922,
-          38.04515838623047
+          [
+            23.793010711669922,
+            38.04515838623047
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΠΝΕΡ",
+      "id": "ΠΝΕΡ-7302008-Q111971085",
       "properties": {
+        "P131": [
+          {
+            "value": "Q992348"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
@@ -12340,8 +12622,33 @@
             "value": "ΠΝΕΡ"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P421": [
+          {
+            "value": "Q6723"
+          },
+          {
+            "value": "Q6760"
+          }
+        ],
+        "P954": [
+          {
+            "value": "7302008"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q111971085"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {}
+          ]
         },
         "labels": [
           {
@@ -12351,6 +12658,17 @@
           {
             "lang": "el",
             "value": "Νερατζίωτισσα"
+          },
+          {
+            "value": "Neratziotissa"
+          },
+          {
+            "lang": "fr",
+            "value": "Neratziótissa"
+          },
+          {
+            "lang": "el",
+            "value": "Νερατζιώτισσα"
           }
         ]
       },
@@ -13192,7 +13510,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΡΑΨΑ-Q15116600",
+      "id": "ΡΑΨΑ-7300206-Q15116600",
       "properties": {
         "P17": [
           {
@@ -13221,6 +13539,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300206"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q15116600"
@@ -13228,9 +13551,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -13241,6 +13562,9 @@
           {
             "lang": "el",
             "value": "Ραψάνη"
+          },
+          {
+            "value": "Rapsani"
           },
           {
             "lang": "el",
@@ -13572,7 +13896,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΣΕΡΡ-Q18009328",
+      "id": "ΣΕΡΡ-7300048-Q18009328",
       "properties": {
         "P131": [
           {
@@ -13611,6 +13935,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300048"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q18009328"
@@ -13618,9 +13947,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -13631,6 +13958,9 @@
           {
             "lang": "el",
             "value": "Σέρρες"
+          },
+          {
+            "value": "Serres"
           },
           {
             "lang": "pl",
@@ -13819,15 +14149,21 @@
     {
       "geometry": {
         "coordinates": [
-          23.737529754638672,
-          38.06835174560547
+          [
+            23.737529754638672,
+            38.06835174560547
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΣΚΑΧ",
+      "id": "ΣΚΑΧ-7302012",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
@@ -13836,17 +14172,29 @@
             "value": "ΣΚΑΧ"
           }
         ],
+        "P954": [
+          {
+            "value": "7302012"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
             "lang": "en",
-            "value": "SKA (Rail center of Acharnai)"
+            "value": "Ska (Rail Center Of Acharnai)"
           },
           {
             "lang": "el",
-            "value": "ΣΚΑ (Κέντρο Αχαρναί)"
+            "value": "Σκα (κέντρο αχαρναί)"
+          },
+          {
+            "value": "Ska (Rail Center of Acharnes)"
           }
         ]
       },
@@ -14769,7 +15117,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΤΡΙΚ-Q18009340",
+      "id": "ΤΡΙΚ-7300032-Q18009340",
       "properties": {
         "P131": [
           {
@@ -14814,6 +15162,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300032"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q18009340"
@@ -14821,9 +15174,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -14834,6 +15185,9 @@
           {
             "lang": "el",
             "value": "Τρίκαλα"
+          },
+          {
+            "value": "Trikala"
           },
           {
             "lang": "ru",
@@ -15205,7 +15559,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΦΛΩΡ-trainline-28214-Q18342734",
+      "id": "ΦΛΩΡ-7300010-trainline-28214-Q18342734",
       "properties": {
         "P131": [
           {
@@ -15300,6 +15654,11 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28214"
               }
             ],
+            "value": "7300010"
+          }
+        ],
+        "P954": [
+          {
             "value": "7300010"
           }
         ],
@@ -15519,7 +15878,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΧΑΛΚ-Q15208868",
+      "id": "ΧΑΛΚ-7300072-Q15208868",
       "properties": {
         "P131": [
           {
@@ -15564,6 +15923,11 @@
             "value": "Q6760"
           }
         ],
+        "P954": [
+          {
+            "value": "7300072"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q15208868"
@@ -15571,9 +15935,7 @@
         ],
         "info": {
           "pregrouped": [
-            {
-              "enabled": true
-            }
+            {}
           ]
         },
         "labels": [
@@ -15584,6 +15946,9 @@
           {
             "lang": "el",
             "value": "Χαλκίδα"
+          },
+          {
+            "value": "Chalkis"
           },
           {
             "lang": "fr",
