@@ -7,9 +7,10 @@ import {
 } from "../../transform/country";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { promises as fs } from "fs";
 import { Language, LanguageInfo } from "../../transform/language";
 import { getReliabilityScore } from "./euafr.constants";
+import { feature } from "@ideditor/country-coder";
+import { point } from "@turf/turf";
 
 const API_BASE_URL = "https://rinf.era.europa.eu/api";
 
@@ -30,7 +31,7 @@ export const token = fetch(`${API_BASE_URL}/token`, {
 const mapping: Record<
   string,
   {
-    getCode?: (id: string, name: string) => string;
+    getCode?: (id: string, name: string) => string | undefined;
     filter?: (id: string, name: string) => boolean;
     getName?: (name: string) => string;
     property?: CodeIssuer | Property | undefined;
@@ -80,13 +81,15 @@ const mapping: Record<
     country: Country.UnitedKingdom,
     language: Language.English,
     property: CodeIssuer.ATOC,
-    getCode: (id, name) => {
-      const s = name.split("_");
-      if (s[0] !== "Station" || s.length < 3) {
-        console.log(name);
+    getCode: (o, fullName) => {
+      // Commonly the name is constructed as 'Station_${ID}_${name}'
+      const [f, id] = fullName.split("_");
+
+      if (!id?.match(/^[A-Z]{3}/)?.[0]) {
+        return undefined;
       }
 
-      return s[1];
+      return id;
     },
     getName: (name) => name.split("_")[2],
   },
@@ -99,16 +102,9 @@ const mapping: Record<
     getCode: (id) => {
       if (id === "BEDSPA1" || (id.startsWith("BEFND") && id.length === 7))
         return "FNND";
-      if (id === "BEFSR14") return "FSR";
-      if (id === "BEFL4") return "FL";
-      if (id === "BEFO926") return "FO";
 
-      if (!id.match(/^[A-Z]*$/)) {
-        console.log("Belgium", id);
-      }
-
-      // Remove country code
-      return id.slice(2);
+      // Remove country code and numbers used as suffix
+      return id.slice(2).match(/^[A-Z]+/)?.[0]!;
     },
   },
   Germany: {
@@ -144,8 +140,14 @@ const mapping: Record<
 };
 
 export const getLocations = async () => {
+  const response = await fetch(`${API_BASE_URL}/OperationalPoints`, {
+    headers: {
+      Authorization: `Bearer ${await token}`,
+    },
+  });
+
   const {
-    value,
+    value: locations,
   }: {
     value: {
       ID: number;
@@ -159,61 +161,66 @@ export const getLocations = async () => {
       OPTypeGaugeChangeover: string;
       TafTAPCodes: any;
     }[];
-  } = await fetch(`${API_BASE_URL}/OperationalPoints`, {
-    headers: {
-      Authorization: `Bearer ${await token}`,
-    },
-  }).then((response) => response.json());
+  } = await response.json();
 
-  const stations = value.filter((point) =>
-    [
-      "station",
-      "small station",
-      "passenger stop",
-      "passenger terminal",
-    ].includes(point.Type)
-  );
-
-  return stations
+  return locations
+    .filter(({ Type }) =>
+      [
+        "station",
+        "small station",
+        "passenger stop",
+        "passenger terminal",
+      ].includes(Type)
+    )
     .filter(({ Name, Country, UOPID }) => {
       const type = mapping[Country as keyof typeof mapping];
       return type?.filter ? type?.filter(UOPID, Name) : true;
     })
-    .map<Location>(({ Name, Country, Longitude, Latitude, UOPID }) => {
+    .map<Location>(({ Name, Country, Longitude, Latitude, UOPID: id }) => {
       const type = mapping[Country as keyof typeof mapping];
-      const k = type?.filter?.(UOPID, Name);
-      if (type?.filter) console.log(Name, UOPID, k);
-      const isNumericCode = UOPID.match(endsWith5Numbers);
+      const isNumericCode = id.match(endsWith5Numbers);
+      const country = findCountryByAlpha2(
+        feature(Country)?.properties.iso1A2 || id.slice(0, 2).toUpperCase()
+      );
+      let property = type?.property;
       const stationCode =
-        type?.getCode?.(UOPID, Name) ||
-        (isNumericCode ? UOPID.slice(-5) : UOPID.slice(2));
-      const country = type?.country || findCountryByAlpha2(UOPID.slice(0, 2));
+        type?.getCode?.(id, Name) ||
+        (isNumericCode ? id.slice(-5) : id.slice(2));
 
+      if (!country) {
+        console.error(`ERROR: Could not parse ${Country} as country`);
+      }
       if (
-        [CodeIssuer.UIC, CodeIssuer.IBNR].includes(type?.property as any) &&
+        [CodeIssuer.UIC, CodeIssuer.IBNR].includes(property as any) &&
         !isNumericCode
       ) {
-        console.log(Country, Name, UOPID, stationCode);
+        console.warn(
+          `WARN:
+  Expected numeric id, but got "${id}", removing id from result.
+  https://www.openstreetmap.org/#map=17/${Latitude}/${Longitude} (${Name})`
+        );
+        property = undefined;
       }
 
-      return {
-        type: "Feature",
-        id: UOPID,
-        geometry: { type: "Point", coordinates: [Longitude, Latitude] },
-        properties: {
+      return point(
+        [Longitude, Latitude],
+        {
           labels: [
-            { value: type?.getName?.(Name) || Name, lang: type?.language?.[1] },
+            {
+              value: type?.getName?.(Name) || Name,
+              lang: type?.language?.[1],
+            },
           ],
-          ...(type?.property
+          ...((property && stationCode)
             ? {
-                [type.property]: [
+                [property]: [
                   {
                     value: isNumericCode
                       ? country?.UIC?.[0] + stationCode
                       : stationCode,
                     info: {
                       reliability:
-                        country && getReliabilityScore(country)[type.property],
+                        country && getReliabilityScore(country)[property],
                     },
                   },
                 ],
@@ -221,6 +228,7 @@ export const getLocations = async () => {
             : {}),
           [Property.Country]: [{ value: country?.wikidata }],
         },
-      };
+        { id }
+      );
     });
 };
