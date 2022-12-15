@@ -1,4 +1,4 @@
-import { FeatureCollection, Point } from "geojson";
+import { FeatureCollection, Point } from "@turf/turf";
 import fetch from "node-fetch";
 import { GOLEMIO_API_KEY } from "../../../environment";
 import { Country } from "../../transform/country";

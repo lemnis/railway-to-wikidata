@@ -5,7 +5,7 @@ import { Options } from "csv-parse";
 import { parse } from "csv-parse/sync";
 import { progressBar } from "./logger";
 import { GtfsShape, GtfsStops } from "../types/gtfs";
-import { Feature, LineString } from "geojson";
+import { Feature, LineString } from "@turf/turf";
 
 const dir = __dirname + "/../../.cache";
 

@@ -80,8 +80,9 @@
     layer.bindPopup(popupContent);
   }
 
+  const points = {{ stations | jsonify }};
   const markers = L.markerClusterGroup();
-  const orignal = L.geoJson({{ stations | jsonify }}, { onEachFeature });
+  const orignal = L.geoJson(points, { onEachFeature });
   markers.addLayer(orignal);
 
   const layerControl = L.control.layers({}, { Original: orignal }).addTo(map);

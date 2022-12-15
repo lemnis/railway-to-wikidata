@@ -2,11 +2,11 @@ import { removeUri } from "../transform/simplify";
 import { editLabel } from "./label";
 import { editClaim } from "./claim";
 import { score as Foo } from "../score";
-import { LocationV4 } from "../types/location";
+import { Location } from "../types/location";
 import { EntityEdit } from "../types/wikidata";
 
 export const edit = (
-  location: LocationV4,
+  location: Location,
   // TODO: Create score interface
   score: ReturnType<typeof Foo>
 ): EntityEdit => ({

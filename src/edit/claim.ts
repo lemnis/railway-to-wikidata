@@ -1,4 +1,3 @@
-import { removeUri } from "../transform/simplify";
 import { Match } from "../score/property";
 import {
   ClaimObject,
@@ -8,11 +7,12 @@ import {
   CodeIssuer,
 } from "../types/wikidata";
 import { logger } from "../utils/logger";
-import { LocationV4 } from "../types/location";
+import { Location } from "../types/location";
+import { removeUri } from "../providers/wikidata/clean-up";
 
 export const editClaim = (
   matches: Record<string, { matches: Match[]; missing: boolean }>,
-  destination: LocationV4
+  destination: Location
 ) => {
   const result: Record<string, ClaimObject[]> = {};
 
@@ -21,7 +21,7 @@ export const editClaim = (
       continue;
     }
 
-    if(key === Property.DBStationCategory) console.log(key, matches[key], destination.claims[key]);
+    if(key === Property.DBStationCategory) console.log(key, matches[key], destination.properties[key]);
 
     const values = matches[key].matches
       .filter(({ match }) => !match)
@@ -36,7 +36,7 @@ export const editClaim = (
         );
 
         if (singleValueConstraint && !match.missing) {
-          const destinationPropertyClaims = destination.claims?.[key as Property | CodeIssuer]!;
+          const destinationPropertyClaims = destination.properties?.[key as Property | CodeIssuer]!;
           if ((destinationPropertyClaims?.length || -1) > 1) {
             logger.warn(
               destinationPropertyClaims,
