@@ -1,7 +1,8 @@
+import { featureCollection, multiPoint } from "@turf/turf";
 import { findCountryByAlpha2 } from "../../transform/country";
-import { getTimeZonesByName } from "../../transform/locatedInTimeZone/utils/collection";
 import { Location } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
+import { getCoords } from "../../utils/turf";
 import { ReliabilityTrainline } from "./trainline.constants";
 import { TrainlineStation } from "./trainline.types";
 
@@ -11,135 +12,120 @@ export const trainlineArrayToLocation = async (
   const url = `https://trainline-eu.github.io/stations-studio/#/station/${stations[0].id}`;
   const references = [{ [Property.ReferenceURL]: url }];
 
-  const location: Location = {
-    type: "Feature",
-    id: `trainline-${stations.map(({ id }) => id).join("-")}`,
-    geometry: {
-      type: "MultiPoint",
-      coordinates:
-        stations
-          .filter(
-            ({ coordinates }) => coordinates?.filter(Boolean).length === 2
-          )
-          ?.map(({ coordinates }) => [coordinates[1], coordinates[0]]) || [],
-    },
-    properties: {
-      labels: [
-        ...stations
-          .map((station) =>
-            Object.entries(station)
-              .filter(([key]) => key.startsWith("info:"))
-              ?.map(([key, value]) => ({
-                value: value as string,
-                lang: key.slice(key.indexOf(":") + 1),
-              }))
-          )
-          .flat(2)
-          .filter(Boolean),
-        ...(stations.map(({ name }) => name)?.length
-          ? stations
-              ?.map((station) => ({
-                value: station.name,
-                lang: findCountryByAlpha2(station.country)?.language?.[1],
-              }))
-              .flat()
-          : []),
-      ],
-    },
-  };
+  const labels = stations
+    .map((station) => {
+      const result = [];
 
-  if (stations?.filter(({ uic }) => uic).length) {
-    location.properties[CodeIssuer.UIC] = stations
-      ?.filter(({ uic }) => uic)
-      .map(({ uic }) => ({
-        value: uic,
+      if (station.properties.name) {
+        result.push({
+          value: station.properties.name,
+          lang:
+            station.properties.country &&
+            findCountryByAlpha2(station.properties.country)?.language?.[1],
+        });
+      }
+
+      Object.entries(station)
+        .filter(([key]) => key.startsWith("info:"))
+        ?.forEach(([key, value]) =>
+          result.push({
+            value: value as string,
+            lang: key.slice(key.indexOf(":") + 1),
+          })
+        );
+
+      return result;
+    })
+    .flat();
+
+  const properties: Location["properties"] = { labels };
+
+  if (stations?.filter(({ properties }) => properties.uic).length) {
+    properties[CodeIssuer.UIC] = stations
+      ?.filter(({ properties }) => properties.uic)
+      .map(({ properties }) => ({
+        value: properties.uic,
         references,
         info: { reliability: ReliabilityTrainline[CodeIssuer.UIC] },
       }));
   }
 
   const countries = stations
-    .map(({ country }) => findCountryByAlpha2(country)?.wikidata)
+    .map(({ properties }) => findCountryByAlpha2(properties.country!)?.wikidata)
     ?.map((value) => ({ value }));
-  if (countries.length) location.properties[Property.Country] = countries;
+  if (countries.length) properties[Property.Country] = countries;
 
-  if (stations?.filter(({ benerail_id }) => benerail_id).length) {
-    location.properties[CodeIssuer.Benerail] = stations
-      ?.filter(({ benerail_id }) => benerail_id)
-      .map(({ benerail_id }) => ({
-        value: benerail_id,
+  stations.forEach((station) => {
+    if (station.properties.benerail_id) {
+      properties[CodeIssuer.Benerail] ||= [];
+      properties[CodeIssuer.Benerail]?.push({
+        value: station.properties.benerail_id,
         references,
-        info: { reliability: ReliabilityTrainline[CodeIssuer.Benerail] },
-      }));
-  }
+        info: {
+          reliability: ReliabilityTrainline[CodeIssuer.Benerail],
+          enabled: station.properties.benerail_is_enabled,
+        },
+      });
+    }
 
-  if (stations?.filter(({ atoc_id }) => atoc_id).length) {
-    location.properties[CodeIssuer.ATOC] = stations
-      ?.filter(({ atoc_id }) => atoc_id)
-      .map(({ atoc_id }) => ({
-        value: atoc_id,
+    if (station.properties.atoc_id) {
+      properties[CodeIssuer.ATOC] ||= [];
+      properties[CodeIssuer.ATOC]?.push({
+        value: station.properties.atoc_id,
         references,
-        info: { reliability: ReliabilityTrainline[CodeIssuer.ATOC] },
-      }));
-  }
+        info: {
+          reliability: ReliabilityTrainline[CodeIssuer.ATOC],
+          enabled: station.properties.atoc_is_enabled,
+        },
+      });
+    }
 
-  if (stations?.filter(({ sncf_id }) => sncf_id).length) {
-    location.properties[CodeIssuer.SNCF] = stations
-      ?.filter(({ sncf_id }) => sncf_id)
-      .map(({ sncf_id }) => ({
-        value: sncf_id,
+    if (station.properties.sncf_id) {
+      properties[CodeIssuer.SNCF] ||= [];
+      properties[CodeIssuer.SNCF]?.push({
+        value: station.properties.sncf_id,
         references,
-        info: { reliability: ReliabilityTrainline[CodeIssuer.SNCF] },
-      }));
-  }
+        info: {
+          reliability: ReliabilityTrainline[CodeIssuer.SNCF],
+          enabled: station.properties.sncf_is_enabled,
+        },
+      });
+    }
 
-  if (stations?.filter(({ id }) => id).length) {
-    location.properties[CodeIssuer.Trainline] = stations
-      ?.filter(({ id }) => id)
-      .map(({ id }) => ({
-        value: id,
+    if (station.id) {
+      properties[CodeIssuer.Trainline] ||= [];
+      properties[CodeIssuer.Trainline]?.push({
+        value: station.id.toString(),
         references,
         info: { reliability: ReliabilityTrainline[CodeIssuer.Trainline] },
-      }));
-  }
+      });
+    }
 
-  const timeZones = await Promise.all(
-    [...new Set(stations?.map(({ time_zone }) => time_zone))]
-      .filter(Boolean)
-      .map(async (time_zone) => ({
-        value: (await getTimeZonesByName(time_zone))?.[0]?.id,
-        references,
-      }))
-  );
-  if (timeZones.length)
-    location.properties[Property.LocatedInTimeZone] = timeZones;
-
-  if (stations?.filter(({ iata_airport_code }) => iata_airport_code).length) {
-    location.properties[CodeIssuer.IATA] = stations
-      ?.filter(({ iata_airport_code }) => iata_airport_code)
-      .map(({ iata_airport_code }) => ({
-        value: iata_airport_code,
-        references,
-      }));
-  }
-
-  const ibnr = Array.from(
-    new Set(
-      stations
-        .map(({ cff_id, db_id, obb_id }) => [cff_id, db_id, obb_id])
-        .flat(2)
-        .filter(Boolean)
-    )
-  );
-  if (ibnr.length) {
-    location.properties[CodeIssuer.IBNR] = ibnr
-      ?.filter(Boolean)
-      .map((value) => ({
-        value,
+    [
+      station.properties.cff_id,
+      station.properties.db_id,
+      station.properties.obb_id,
+    ].forEach((id) => {
+      if (!id || properties[CodeIssuer.IBNR]?.find(({ value }) => value === id))
+        return;
+      properties[CodeIssuer.IBNR] ||= [];
+      properties[CodeIssuer.IBNR]?.push({
+        value: id,
         references,
         info: { reliability: ReliabilityTrainline[CodeIssuer.IBNR] },
-      }));
-  }
+        enabled:
+          station.properties.db_is_enabled ||
+          station.properties.cff_is_enabled ||
+          station.properties.obb_is_enabled,
+      });
+    });
+  });
+
+  const location: Location = multiPoint(
+    getCoords(featureCollection(stations)),
+    properties,
+    { id: `trainline-${stations.map(({ id }) => id).join("-")}` }
+  );
 
   return location;
 };

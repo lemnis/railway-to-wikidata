@@ -1,6 +1,6 @@
 import ProgressBar from "progress";
 import { TrainlineStation } from "./trainline.types";
-import { getBusIds, getTrainIds } from "./trainline.utils";
+import { getAirportIds, getBusIds, getTrainIds } from "./trainline.utils";
 import { getStations } from "./getStations";
 import { trainlineArrayToLocation } from "./trainlineArrayToLocation";
 import { mergeAlias } from "./group";
@@ -25,61 +25,83 @@ export const getLocations = async () =>
  * const locations = await Promise.all(trainStations.map(trainlineArrayToLocation))
  * ```
  */
-export const getGroupedTrainlineLocations = async () => {
+export const getGroupedLocations = async () => {
   const stations = await getStations();
-  const mapped = mergeAlias(stations);
+  const aliased = mergeAlias(stations);
 
   const groupProgressBar = new ProgressBar(
-    "Group by cities, bus stops & train stations [:bar] :current/:total :percent :elapseds",
-    { total: mapped.length }
+    "Group by cities, bus stops, airports & train stations [:bar] :current/:total :percent :elapseds",
+    { total: aliased.length }
   );
 
   // Group by cities, bus stops & train stations
   // (Cities are only classified if they have multiple children)
-  return mapped.reduce<{
-    cities: TrainlineStation[][];
-    busStops: TrainlineStation[][];
-    trainStations: TrainlineStation[][];
+  const result = aliased.reduce<{
+    cities: Set<TrainlineStation[]>;
+    busStops: Set<TrainlineStation[]>;
+    trainStations: Set<TrainlineStation[]>;
+    airports: Set<TrainlineStation[]>;
+    others: Set<TrainlineStation[]>;
   }>(
-    (places, station, index, stationList) => {
+    (groupResult, stationGroup, index, stationList) => {
       groupProgressBar.tick();
 
-      if (station.map((i) => i.is_city)?.every(Boolean)) {
+      if (
+        stationGroup.map(({ properties }) => properties.is_city)?.every(Boolean)
+      ) {
         const children = stationList.filter((child) =>
           child
-            .map((i) => i.parent_station_id)
-            ?.some((id) => id && station.map((i) => i.id).includes(id))
+            .map(({ properties }) => properties.parent_station_id)
+            ?.some((id) => id && stationGroup.map((i) => i.id).includes(id))
         );
         const hasMainStation = children.some((child) =>
-          child.map((i) => i.is_main_station)
+          child.map(({ properties }) => properties.is_main_station)
         );
 
         if (children.length > 0 && hasMainStation) {
-          if (!places.cities.includes(station)) places.cities.push(station);
-          return places;
+          if (
+            !children.some((i) => i.some((j) => j.properties.uic)) &&
+            stationGroup.some((i) => i.properties.uic)
+          ) {
+            // console.log(stationGroup)
+          }
+          groupResult.cities.add(stationGroup);
+          return groupResult;
         }
       }
 
-      const trainIds = getTrainIds(station);
-      const busIds = getBusIds(station);
+      const trainIds = getTrainIds(stationGroup);
+      const busIds = getBusIds(stationGroup);
+      const airportIds = getAirportIds(stationGroup);
 
-      if (trainIds.size < 2 && busIds.size > 0) {
-        if (!places.busStops.includes(station)) places.busStops.push(station);
-      } else if (trainIds.size === 0 && busIds.size === 0) {
-        // is empty ignore
-      } else if (trainIds.size >= 2) {
-        if (!places.trainStations.includes(station))
-          places.trainStations.push(station);
+      if (trainIds.size > 0) {
+        groupResult.trainStations.add(stationGroup);
+      } else if (airportIds.size > 0) {
+        groupResult.airports.add(stationGroup);
+      } else if (busIds.size > 0) {
+        groupResult.busStops.add(stationGroup);
+      } else {
+        groupResult.others.add(stationGroup);
       }
 
-      return places;
+      return groupResult;
     },
     {
-      cities: [],
-      busStops: [],
-      trainStations: [],
+      cities: new Set(),
+      busStops: new Set(),
+      trainStations: new Set(),
+      airports: new Set(),
+      others: new Set(),
     }
   );
+
+  return {
+    cities: Array.from(result.cities.values()),
+    busStops: Array.from(result.busStops.values()),
+    trainStations: Array.from(result.trainStations.values()),
+    airports: Array.from(result.airports.values()),
+    others: Array.from(result.airports.values()),
+  };
 };
 
 export { trainlineArrayToLocation };

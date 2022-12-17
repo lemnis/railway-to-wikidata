@@ -1,13 +1,13 @@
+import { Feature, Point, MultiPoint } from "@turf/turf";
 
-export interface TrainlineStation {
+export interface TrainlineStationProperties {
   id: string;
   name: string;
   slug: string;
   uic?: string;
   uic8_sncf?: string;
-  coordinates: [number, number];
-  // latitude: number;
-  // longitude: number;
+  latitude: string;
+  longitude: string;
   parent_station_id?: string;
   country: string;
   time_zone: string;
@@ -97,3 +97,14 @@ export interface TrainlineStation {
   normalised_code: string;
   iata_airport_code?: string;
 }
+
+export type TrainlineStation = Feature<
+  Point | MultiPoint,
+  Partial<TrainlineStationProperties>
+>;
+
+export type RawTrainlineStation = {
+  [P in keyof TrainlineStationProperties]: TrainlineStationProperties[P] extends boolean
+    ? "f" | "t"
+    : TrainlineStationProperties[P];
+};
