@@ -40,42 +40,52 @@ export const getLocations = async () => {
     from: 2,
   });
 
-  return csv.map<Location>((station: RenfeStation) => ({
-    type: "Feature",
-    id: station.code,
-    geometry: {
-      type: "Point",
-      coordinates: [
-        parseFloat(station.longitud.replace(",", ".")),
-        parseFloat(station.latitud.replace(",", ".")),
-      ],
-    },
-    properties: {
-      labels: [{ value: station.description, lang: Language.Spanish[1] }],
-      ...(station.code
-        ? {
-            [CodeIssuer.UIC]: [
-              {
-                value: StringToCountry[station.country].UIC[0] + station.code,
-                info: {
-                  reliability:
-                    station.country === "España"
-                      ? RELIABILITY_RENFE_UIC
-                      : Reliability.START,
+  return csv.map<Location>(
+    ({
+      direccion,
+      code,
+      longitud,
+      latitud,
+      description,
+      country,
+      postalCode,
+    }: RenfeStation) => ({
+      type: "Feature",
+      id: code,
+      geometry: {
+        type: "Point",
+        coordinates: [
+          parseFloat(longitud.replace(",", ".")),
+          parseFloat(latitud.replace(",", ".")),
+        ],
+      },
+      properties: {
+        labels: [{ value: description, lang: Language.Spanish[1] }],
+        ...(code
+          ? {
+              [CodeIssuer.UIC]: [
+                {
+                  value: StringToCountry[country].UIC[0] + code,
+                  info: {
+                    reliability:
+                      country === "España"
+                        ? RELIABILITY_RENFE_UIC
+                        : Reliability.START,
+                  },
                 },
-              },
-            ],
-            [Property.StationCode]: [{ value: station.code }],
-          }
-        : {}),
-      [Property.Country]: [
-        { value: StringToCountry[station.country].wikidata },
-      ],
-      [Property.PostalCode]: [{ value: station.postalCode }],
-      [Property.Location]: [{ value: station.direccion }],
-      //   [Property.InAdministrativeTerritory]
-      // province
-      // operated by -> feve, cercanias
-    },
-  }));
+              ],
+              [Property.StationCode]: [{ value: code }],
+            }
+          : {}),
+        [Property.Country]: [{ value: StringToCountry[country].wikidata }],
+        ...(postalCode
+          ? { [Property.PostalCode]: [{ value: postalCode }] }
+          : {}),
+        ...(direccion ? { [Property.Location]: [{ value: direccion }] } : {}),
+        //   [Property.InAdministrativeTerritory]
+        // province
+        // operated by -> feve, cercanias
+      },
+    })
+  );
 };
