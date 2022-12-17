@@ -83,13 +83,10 @@ const mapping: Record<
     property: CodeIssuer.ATOC,
     getCode: (o, fullName) => {
       // Commonly the name is constructed as 'Station_${ID}_${name}'
-      const [f, id] = fullName.split("_");
+      const [f, id, n] = fullName.split("_");
 
-      if (!id?.match(/^[A-Z]{3}/)?.[0]) {
-        return undefined;
-      }
-
-      return id;
+      const cleanId = id?.match(/^[A-Z]{3}/)?.[0];
+      return cleanId || undefined;
     },
     getName: (name) => name.split("_")[2],
   },
