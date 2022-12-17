@@ -23,7 +23,7 @@ export const getLocations = async () => {
       geometry,
       properties: {
         id: properties.station_id,
-        labels: [{ value: properties.name }],
+        labels: properties.name ? [{ value: properties.name }] : [],
         [Property.Country]: [{ value: country.wikidata }],
         ...(country === Country.Romania
           ? {
