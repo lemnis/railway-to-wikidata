@@ -187,10 +187,10 @@ const prompt = inquirer.createPromptModule();
       if (name === "_trainline") {
         await import("../../providers/_trainline").then(
           async ({
-            getGroupedTrainlineLocations,
+            getGroupedLocations: getGroupedTrainlineLocations,
             trainlineArrayToLocation,
           }) => {
-            const { trainStations, cities } =
+            const { trainStations, cities, airports } =
               await getGroupedTrainlineLocations();
 
             fs.writeFile(
@@ -208,6 +208,16 @@ const prompt = inquirer.createPromptModule();
               JSON.stringify(
                 createFeatureCollection(
                   await Promise.all(cities.map(trainlineArrayToLocation))
+                ),
+                null,
+                2
+              )
+            );
+            fs.writeFile(
+              `${geoJSONPath}/trainline-airports.geojson`,
+              JSON.stringify(
+                createFeatureCollection(
+                  await Promise.all(airports.map(trainlineArrayToLocation))
                 ),
                 null,
                 2

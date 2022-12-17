@@ -1,34 +1,13 @@
-import { Position } from "geojson";
+import { coordEach, multiPoint } from "@turf/turf";
 import { isEqual } from "lodash";
-import { normalize } from "station-normalize";
+import { normalize } from "station-name-diff";
 import { score } from "../../score";
 import { scoreCoordinateLocation } from "../../transform/coordinateLocation";
-import { LocationV4, Location, Claims } from "../../types/location";
+import { Location, Claims } from "../../types/location";
 import { ClaimObject, CodeIssuer, Property } from "../../types/wikidata";
 import { logger } from "../../utils/logger";
 import { matchIds } from "../match";
 import { propertyMatch } from "../match/property";
-
-const isLocation = (
-  entities: (Location | LocationV4)[]
-): entities is Location[] => {
-  return (entities?.[0] as Location).type === "Feature";
-};
-const isMultiPoint = (
-  position: Position[] | Position
-): position is Position[] => {
-  return Array.isArray(position[0]);
-};
-
-const isNotLocation = (
-  entities: (Location | LocationV4)[]
-): entities is LocationV4[] => {
-  return !isLocation(entities);
-};
-
-const containsPoint = (coordinate: Position, multiPoint: Position[]) => {
-  return multiPoint.some((p) => isEqual(coordinate, p));
-};
 
 const mergeProperty = async (properties: ClaimObject<any>[]) => {
   const result: ClaimObject<any> = { info: { pregrouped: [], reliability: 0 } };
@@ -102,16 +81,6 @@ const mergeProperties = async (accumulated: Claims, properties: Claims) => {
       } else {
         accumulated[propertiesKey]!.push(value);
       }
-      if (
-        accumulated[propertiesKey]!.length >
-        new Set(accumulated[propertiesKey]!.map(({ value }) => value)).size
-      ) {
-        // logger.warn({
-        //   propertiesKey,
-        //   accumalated: accumulated[propertiesKey],
-        //   value,
-        // }, 'Some clasing values');
-      }
     }
   }
   return accumulated;
@@ -121,170 +90,57 @@ export const merge = async (
   locations: Location[],
   skipCoordinates?: boolean
 ): Promise<Location> => {
-  let id: string | undefined = "";
-  const geometry: Location["geometry"] = {
-    type: "MultiPoint",
-    coordinates: [],
-  };
-  const properties: Location["properties"] = {
-    labels: [],
-  };
+  let feature = multiPoint<Location["properties"]>([], { labels: [] });
 
-  for await (const { id: i, geometry: g, ...entity } of locations) {
-    const { id: noop, info, labels, ...p } = entity.properties;
+  for await (const location of locations) {
+    const { id: locationId, ...entity } = location;
+    const { info, labels, ...p } = entity.properties;
 
-    // Id
-    id = id === undefined ? i?.toString() : id.toString() + "-" + i;
+    // Id,
+    feature.id =
+      feature.id === undefined
+        ? locationId?.toString()
+        : feature.id.toString() + "-" + locationId;
 
-    // Labels
+    // Labels, push unique labels
     labels.forEach((label) => {
       if (
-        !properties.labels.some(
-          (b) => normalize(label.value) === normalize(b.value) && label.lang === b.lang
+        !feature.properties.labels.some(
+          (b) =>
+            normalize(label.value) === normalize(b.value) &&
+            label.lang === b.lang
         )
       ) {
-        properties.labels.push({ ...label, value: normalize(label.value) });
+        feature.properties.labels.push({
+          ...label,
+          value: normalize(label.value),
+        });
       }
     });
 
     // Coordinates, skipping it only returns the first coordinats
-    if (!skipCoordinates || geometry.coordinates.length === 0) {
-      const coordinates = g.coordinates;
-      if (isMultiPoint(coordinates)) {
-        coordinates.forEach(
-          (c) =>
-            !containsPoint(c, geometry.coordinates) &&
-            geometry.coordinates.push(c)
-        );
-      } else if (!containsPoint(coordinates, geometry.coordinates))
-        geometry.coordinates.push(coordinates);
+    if (!skipCoordinates || feature.geometry.coordinates.length === 0) {
+      coordEach(location, (coord) => {
+        feature.geometry.coordinates.push(coord);
+      });
     }
 
     // Info
     if (info) {
       const { pregrouped, ...clone } = info;
-      properties.info ||= {};
-      properties.info!.pregrouped ||= [];
-      properties.info!.pregrouped.push(clone);
+      feature.properties.info ||= {};
+      feature.properties.info!.pregrouped ||= [];
+      feature.properties.info!.pregrouped.push(clone);
     }
 
     // Properties
-    Object.assign(properties, await mergeProperties(properties, p));
-  }
-
-  return {
-    type: "Feature",
-    id,
-    geometry,
-    properties,
-  };
-};
-
-export const mergeMultipleEntities = (
-  entities: (LocationV4 | Location)[],
-  skipCoordinates?: boolean
-): LocationV4 | Location => {
-  if (isLocation(entities)) {
-    return entities.reduce<Location>(
-      (result, entity) => {
-        let claimsKey: CodeIssuer | Property;
-        const { id, info, labels, ...properties } = entity.properties;
-        for (claimsKey in properties) {
-          if (
-            Object.prototype.hasOwnProperty.call(entity.properties, claimsKey)
-          ) {
-            const values = entity.properties[claimsKey];
-            if (!values?.length) continue;
-            values.forEach((value: any) => {
-              if (value === undefined) return;
-              result.properties[claimsKey] ||= [];
-              if (
-                !result.properties[claimsKey]?.some((a) => isEqual(a, value))
-              ) {
-                result.properties[claimsKey]!.push(value);
-              }
-            });
-          }
-        }
-
-        entity.properties.labels.forEach((label) => {
-          if (
-            !result.properties.labels.some(
-              (b) => label.value === b.value && label.lang === b.lang
-            )
-          ) {
-            result.properties.labels.push(label);
-          }
-        });
-
-        if (!skipCoordinates || result.geometry.coordinates.length === 0) {
-          const coordinates = entity.geometry.coordinates;
-          if (Array.isArray(coordinates[0])) {
-            coordinates.forEach((c) =>
-              result.geometry.coordinates.push(c as any)
-            );
-          } else [result.geometry.coordinates.push(coordinates as any)];
-        }
-
-        if (entity.properties.info) {
-          const { pregrouped, ...clone } = entity.properties.info;
-          result.properties.info ||= {};
-          result.properties.info!.pregrouped ||= [];
-          result.properties.info!.pregrouped.push(clone);
-        }
-
-        return result;
-      },
-      {
-        type: "Feature",
-        geometry: { type: "MultiPoint", coordinates: [] },
-        properties: {
-          labels: [],
-        },
-        id: entities[0].id?.toString()!,
-      }
-    );
-  } else if (isNotLocation(entities)) {
-    return entities.reduce<LocationV4>(
-      (result, entity) => {
-        let claimsKey: keyof LocationV4["claims"];
-        for (claimsKey in entity.claims) {
-          if (Object.prototype.hasOwnProperty.call(entity.claims, claimsKey)) {
-            const values = entity.claims[claimsKey];
-            if (!values?.length) continue;
-            values.forEach((value: any) => {
-              if (value === undefined) return;
-              result.claims[claimsKey] ||= [];
-              if (!result.claims[claimsKey]!.includes(value)) {
-                result.claims[claimsKey]!.push(value);
-              }
-            });
-          }
-        }
-
-        entity.labels.forEach((label) => {
-          if (
-            !result.labels.some(
-              (b) => label.value === b.value && label.lang === b.lang
-            )
-          ) {
-            result.labels.push(label);
-          }
-        });
-
-        if (entity.info) {
-          const { pregrouped, ...clone } = entity.info;
-          result.info ||= {};
-          result.info!.pregrouped ||= [];
-          result.info!.pregrouped.push(clone);
-        }
-        return result;
-      },
-      { labels: [], claims: {}, id: entities[0].id?.toString()! }
+    Object.assign(
+      feature.properties,
+      await mergeProperties(feature.properties, p)
     );
   }
 
-  throw new Error("failed");
+  return feature;
 };
 
 export async function matchAndMerge(
@@ -297,83 +153,80 @@ export async function matchAndMerge(
       const matchByIds = to.filter((b) => matchIds(b, a));
 
       if (matchByIds.length === 1) {
-        const [idLoc, scored] = (
+        const [idLoc, scored, b] = (
           await Promise.all(
             matchByIds.map(
               async (idLoc) =>
-                [idLoc, await score(idLoc, a)] as [
+                [idLoc, await score(idLoc, a), a] as [
                   Location,
-                  Awaited<ReturnType<typeof score>>
+                  Awaited<ReturnType<typeof score>>,
+                  Location
                 ]
             )
           )
         ).sort((a, b) => b[1].percentage - a[1].percentage)?.[0];
 
-        if (scored.percentage >= 2) {
+        if (
+          scored.percentage >= 1.9 ||
+          (scored.labels.percentage !== 1 &&
+            scored.coordinates.percentage > 0.99 &&
+            scored.percentage > 1.49)
+        ) {
           await ok?.(a, idLoc);
           return;
-        } else {
-          // console.log(
-          //   "id",
-          //   require("util").inspect(
-          //     {
-          //       matchByIds,
-          //       a,
-          //       idLoc,
-          //       scored,
-          //       aLabel: a.properties.labels,
-          //       idLocLabels: idLoc.properties.labels,
-          //     },
-          //     undefined,
-          //     6,
-          //     true
-          //   )
-          // );
-        }
+        } else if (
+          scored.percentage < 2 &&
+          scored.coordinates.percentage > 0.997
+        )
+          console.log(
+            [
+              `${idLoc?.id} vs ${b.id}`,
+              scored.percentage,
+              scored.labels.percentage,
+              scored.claims.percentage,
+            ],
+            idLoc.properties,
+            b.properties
+          );
       }
 
       const matchedByDistance = to.filter((b) => {
-        return scoreCoordinateLocation(
-          (isMultiPoint(a.geometry.coordinates)
-            ? a.geometry.coordinates
-            : [a.geometry.coordinates]
-          ).map((value) => ({ value: value as any })),
-
-          (isMultiPoint(b.geometry.coordinates)
-            ? b.geometry.coordinates
-            : [b.geometry.coordinates]
-          ).map((value) => ({ value: value as any })),
-
-          { maxDistance: 8000 }
-        ).some((i) => i.match);
+        return scoreCoordinateLocation(a, b, {
+          maxDistance: 8000,
+        }).some((i) => i.match);
       });
       if (matchedByDistance.length) {
         const scoredByDistance = (
           await Promise.all(
             matchedByDistance.map(
-              async (b) => [b, await score(a, b)] as [Location, any]
+              async (b) =>
+                [b, await score(a, b), a] as [Location, any, Location]
             )
           )
         )?.sort((a, b) => b[1].percentage - a[1].percentage);
-        const [idLoc, scored] = scoredByDistance?.[0];
-        if (scored.percentage >= 2) {
+        const [idLoc, scored, b] = scoredByDistance?.[0];
+
+        if (
+          scored.percentage >= 1.9 ||
+          (scored.labels.percentage !== 1 &&
+            scored.coordinates.percentage > 0.99 &&
+            scored.percentage > 1.49)
+        ) {
           await ok?.(a, idLoc);
-        } else {
-          // console.log(
-          //   require("util").inspect(
-          //     {
-          //       scoredByDistance: scoredByDistance.map((l) => l[1].percentage),
-          //       scored: idLoc.properties.labels,
-          //       scoredId: idLoc.id,
-          //       a: a.properties.labels,
-          //       aId: a.id,
-          //     },
-          //     false,
-          //     5,
-          //     true
-          //   )
-          // );
-        }
+        } else if (
+          scored.percentage < 2 &&
+          scored.coordinates.percentage > 0.997
+        )
+          console.log(
+            [
+              `${idLoc?.id} vs ${b.id}`,
+              scored.percentage,
+              scored.labels.percentage,
+              scored.claims.percentage,
+            ],
+            idLoc.properties,
+            b.properties
+          );
       }
     })
   );

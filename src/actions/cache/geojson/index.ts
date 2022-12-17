@@ -1,14 +1,10 @@
-import { Feature, FeatureCollection } from "geojson";
+import { featureCollection, Feature, FeatureCollection } from "@turf/turf";
 
 export const createFeatureCollection = (
   features: Feature[]
-): FeatureCollection => {
-  return {
-    type: "FeatureCollection",
-    features: features.sort((a: any, b: any) => {
-      const aId = a.id?.toString();
-      const bId = b.id?.toString();
-      return aId?.localeCompare?.(bId)
-    })
-  };
-};
+): FeatureCollection =>
+  featureCollection(
+    features.sort((a: any, b: any) =>
+      a.id?.toString()?.localeCompare?.(b.id?.toString())
+    )
+  );

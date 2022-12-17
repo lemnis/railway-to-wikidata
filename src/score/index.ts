@@ -2,29 +2,17 @@ import { score as scoreLabel } from "./label";
 import { score as scoreClaims } from "./property";
 import { Location } from "../types/location";
 import { Property } from "../types/wikidata";
-import { Position } from "geojson";
 import { scoreCoordinateLocation } from "../transform/coordinateLocation";
 
 export const SCORE_THRESHOLD = 2.3;
 export const WITHOUT_LOCATION_SCORE_THRESHOLD = 1.3;
-
-const isMultiPoint = (
-  position: Position[] | Position
-): position is Position[] => {
-  return Array.isArray(position[0]);
-};
 
 export const score = async (
   location: Location,
   wikidata: Location,
   any?: any[]
 ) => {
-  const {
-    id,
-    info,
-    labels: locationLabels,
-    ...properties
-  } = location.properties;
+  const { info, labels: locationLabels, ...properties } = location.properties;
   const labels = scoreLabel(locationLabels, wikidata.properties.labels);
   const claims = await scoreClaims(properties, wikidata.properties);
 
@@ -37,10 +25,33 @@ export const score = async (
       ? 1 - closestDistance[0]! / 3000
       : 0;
 
+  let maxScore = 0;
+  if (locationLabels.length && wikidata.properties.labels?.length) maxScore++;
+  if (location.geometry.coordinates?.length) maxScore++;
+  const propertiesSize = Object.values(properties)?.filter(
+    (i) => i?.length
+  ).length;
+  const maxPropertiesScore = propertiesSize >= 5 ? 1 : propertiesSize * 0.2;
+  if (
+    propertiesSize &&
+    Object.values(wikidata.properties)?.filter((i) => i?.length).length
+  )
+    maxScore = maxScore + maxPropertiesScore;
+
+  const newPercentage =
+    (1 / maxScore) *
+    (labels.percentage +
+      distanceInPercentage +
+      maxPropertiesScore * claims.percentage);
+
   return {
-    id: location.id || ":(",
+    id: location.id,
     labels,
     claims,
+    maxScore,
+    debug: {
+      newPercentage,
+    },
     coordinates: {
       matches: coordinates,
       percentage: distanceInPercentage,

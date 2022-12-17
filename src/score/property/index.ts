@@ -8,10 +8,7 @@ export interface Match {
   [key: string]: any;
 }
 
-export const score = async (
-  proposed: Claims,
-  current: Claims
-) => {
+export const score = async (proposed: Claims, current: Claims) => {
   const result: Record<string, { matches: Match[]; missing: boolean }> = {};
 
   await Promise.all(
@@ -39,11 +36,9 @@ export const score = async (
 
   const existing = Object.values(result)
     .filter(({ missing }) => !missing)
-    .map(({ matches }) => matches)
-    .flat();
+    .map(({ matches }) => matches.some((i) => i.match));
 
-  const percentage =
-    existing.filter(({ match }) => match).length / existing.length;
+  const percentage = existing.filter((match) => match).length / existing.length;
 
   return {
     matches: result,

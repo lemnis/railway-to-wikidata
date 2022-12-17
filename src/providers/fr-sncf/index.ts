@@ -6,7 +6,7 @@ import { CodeIssuer, Property } from "../../types/wikidata";
 import { merge } from "../../actions/merge";
 import { logger } from "../../utils/logger";
 import { SncfRawLocation } from "./sncf.types";
-import { RELIABILITY_UIC_SNCF } from "./sncf.constants";
+import { RELIABILITY_SNCF_UIC } from "./sncf.constants";
 
 /**
  * Looks like complete list of (mostly) france stations,
@@ -61,7 +61,7 @@ export const getLocations = async () => {
               .map((value) => ({ value, lang: Language.French[1] })),
             ...{
               [CodeIssuer.UIC]: [
-                { value: uic, info: { reliability: RELIABILITY_UIC_SNCF } },
+                { value: uic, info: { reliability: RELIABILITY_SNCF_UIC } },
               ],
               [Property.Country]: [
                 {

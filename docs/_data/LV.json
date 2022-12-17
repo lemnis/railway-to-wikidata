@@ -388,6 +388,10 @@
             "value": "Daugavpils Station"
           },
           {
+            "lang": "ru",
+            "value": "Даугавпилс"
+          },
+          {
             "lang": "en",
             "value": "Daugavpils Station"
           },
@@ -442,10 +446,6 @@
           {
             "lang": "uk",
             "value": "Даугавпілс (станція)"
-          },
-          {
-            "lang": "ru",
-            "value": "Даугавпилс"
           }
         ]
       },
@@ -521,7 +521,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "LV1060100000-Q2660080",
+      "id": "LV1060100000-LVRIX-trainline-28296-Q2660080",
       "properties": {
         "P1103": [
           {
@@ -552,14 +552,82 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28296"
+              }
+            ],
+            "value": "28296"
+          }
+        ],
         "P722": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28296"
+              }
+            ],
+            "value": "2509501"
+          },
           {
             "value": "2500001"
           }
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28296"
+              }
+            ],
             "value": "LVRIX"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28296"
+              }
+            ],
+            "value": "2500009"
+          },
+          {
+            "info": {
+              "reliability": 0.7999999999999999
+            },
+            "value": "2509501"
           }
         ],
         "PWIKI": [
@@ -570,6 +638,36 @@
         "labels": [
           {
             "value": "Rīga Pasažieru"
+          },
+          {
+            "value": "Riga-Passajirskaia"
+          },
+          {
+            "value": "Riga"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ريجا سينترال"
+          },
+          {
+            "lang": "da",
+            "value": "Riga Centralstation"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Rīga Pasažieru"
+          },
+          {
+            "lang": "en",
+            "value": "Riga Central Station"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Central de Riga"
+          },
+          {
+            "lang": "et",
+            "value": "Riia keskraudteejaam"
           },
           {
             "lang": "it",
@@ -584,20 +682,12 @@
             "value": "Stacijas laukums"
           },
           {
-            "lang": "arz",
-            "value": "محطة ريجا سينترال"
-          },
-          {
             "lang": "da",
             "value": "Riga Hovedbanegård"
           },
           {
             "lang": "de",
             "value": "Hauptbahnhof Riga"
-          },
-          {
-            "lang": "da",
-            "value": "Riga Centralstation"
           },
           {
             "lang": "de",
@@ -608,24 +698,8 @@
             "value": "Zentralbahnhof Riga"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Rīga Pasažieru"
-          },
-          {
-            "lang": "en",
-            "value": "Riga Central Station"
-          },
-          {
             "lang": "es",
             "value": "Estacion Central de Riga"
-          },
-          {
-            "lang": "es",
-            "value": "Estación Central de Riga"
-          },
-          {
-            "lang": "et",
-            "value": "Riia keskraudteejaam"
           },
           {
             "lang": "fa",
@@ -648,6 +722,22 @@
             "value": "Rygos GS"
           },
           {
+            "lang": "lv",
+            "value": "Rīgas centrālā dzelzceļa stacija"
+          },
+          {
+            "lang": "lv",
+            "value": "Rīgas Centrālā dzelzsceļa stacija"
+          },
+          {
+            "lang": "lv",
+            "value": "Rīgas Centrālās dzelzceļa pasažieru stacijas komplekss"
+          },
+          {
+            "lang": "lv",
+            "value": "Rīgas Dzelzceļa stacija"
+          },
+          {
             "lang": "lt",
             "value": "Rygos geležinkelio stotis"
           },
@@ -665,6 +755,14 @@
           },
           {
             "lang": "ru",
+            "value": "Рига-Пасажиеру"
+          },
+          {
+            "lang": "ru",
+            "value": "Рижский железнодорожный вокзал"
+          },
+          {
+            "lang": "ru",
             "value": "Рига-Пассажирская"
           },
           {
@@ -678,30 +776,6 @@
           {
             "lang": "zh",
             "value": "里加中央車站"
-          },
-          {
-            "lang": "lv",
-            "value": "Rīgas centrālā dzelzceļa stacija"
-          },
-          {
-            "lang": "lv",
-            "value": "Rīgas Centrālā dzelzsceļa stacija"
-          },
-          {
-            "lang": "lv",
-            "value": "Rīgas Centrālās dzelzceļa pasažieru stacijas komplekss"
-          },
-          {
-            "lang": "lv",
-            "value": "Rīgas Dzelzceļa stacija"
-          },
-          {
-            "lang": "ru",
-            "value": "Рига-Пасажиеру"
-          },
-          {
-            "lang": "ru",
-            "value": "Рижский железнодорожный вокзал"
           }
         ]
       },
@@ -980,6 +1054,10 @@
             "value": "Krāce"
           },
           {
+            "lang": "en",
+            "value": "Krāce"
+          },
+          {
             "lang": "lv",
             "value": "Krāce (stacija)"
           },
@@ -990,10 +1068,6 @@
           {
             "lang": "pl",
             "value": "Krāce (przystanek kolejowy)"
-          },
-          {
-            "lang": "en",
-            "value": "Krāce"
           }
         ]
       },
@@ -1040,6 +1114,10 @@
             "value": "Aglona"
           },
           {
+            "lang": "en",
+            "value": "Aglona railway station"
+          },
+          {
             "lang": "lv",
             "value": "Aglona (stacija)"
           },
@@ -1054,10 +1132,6 @@
           {
             "lang": "ru",
             "value": "Аглона"
-          },
-          {
-            "lang": "en",
-            "value": "Aglona railway station"
           }
         ]
       },
@@ -1104,12 +1178,12 @@
             "value": "Daugavpils Šķirotava"
           },
           {
-            "lang": "pl",
-            "value": "Dyneburg Šķirošanas"
-          },
-          {
             "lang": "ru",
             "value": "Даугавпилс-Шкирошанас"
+          },
+          {
+            "lang": "pl",
+            "value": "Dyneburg Šķirošanas"
           }
         ]
       },

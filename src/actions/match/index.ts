@@ -1,4 +1,4 @@
-import { Position } from "geojson";
+import { Position } from "@turf/turf";
 import { insideCircle, LatLon } from "geolocation-utils";
 import { score } from "../../score/label";
 import { Location } from "../../types/location";

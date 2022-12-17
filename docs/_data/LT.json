@@ -280,15 +280,6 @@
             "value": "Q7930989"
           }
         ],
-        "P421": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q6723"
-          }
-        ],
         "P722": [
           {
             "value": "2410700"
@@ -318,6 +309,18 @@
         "labels": [
           {
             "value": "Pagėgiai"
+          },
+          {
+            "lang": "sh",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "sk",
+            "value": "Pogegen"
+          },
+          {
+            "lang": "sv",
+            "value": "Pogegen"
           },
           {
             "lang": "be",
@@ -532,14 +535,6 @@
             "value": "Pogegen"
           },
           {
-            "lang": "sh",
-            "value": "Pogegen"
-          },
-          {
-            "lang": "sk",
-            "value": "Pogegen"
-          },
-          {
             "lang": "ru",
             "value": "Пагегяй"
           },
@@ -554,10 +549,6 @@
           {
             "lang": "sk",
             "value": "Pagėgiai"
-          },
-          {
-            "lang": "sv",
-            "value": "Pogegen"
           },
           {
             "lang": "sv",
@@ -1640,16 +1631,11 @@
         ],
         "P8671": [
           {
-            "enabled": "2400008",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [],
+              "reliability": 0
             },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28293"
-              }
-            ],
-            "value": "2400008"
+            "value": "ZLV"
           }
         ],
         "P954": [
@@ -1657,11 +1643,19 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28293"
+              }
+            ],
             "value": "2400008"
           }
         ],
@@ -1856,18 +1850,6 @@
             "value": "Naujoji Vilnia"
           },
           {
-            "lang": "arz",
-            "value": "محطة ناوچوچى ڤيلنيا"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Naujoji Vilnia"
-          },
-          {
-            "lang": "en",
-            "value": "Naujoji Vilnia"
-          },
-          {
             "lang": "fi",
             "value": "Naujoji Vilnian rautatieasema"
           },
@@ -1898,6 +1880,18 @@
           {
             "lang": "uk",
             "value": "Науйої-Вільня"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ناوچوچى ڤيلنيا"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Naujoji Vilnia"
+          },
+          {
+            "lang": "en",
+            "value": "Naujoji Vilnia"
           }
         ]
       },
@@ -1979,20 +1973,8 @@
             "value": "Jasiunai"
           },
           {
-            "lang": "en",
-            "value": "Jašiūnai train station"
-          },
-          {
-            "lang": "ru",
-            "value": "Яшунай"
-          },
-          {
             "lang": "be",
             "value": "Яшунай (чыгуначная станцыя)"
-          },
-          {
-            "lang": "lt",
-            "value": "Jašiūnų GS (gyvenvietė)"
           },
           {
             "lang": "lt",
@@ -2005,6 +1987,18 @@
           {
             "lang": "sgs",
             "value": "Jašiūnu GS"
+          },
+          {
+            "lang": "en",
+            "value": "Jašiūnai train station"
+          },
+          {
+            "lang": "ru",
+            "value": "Яшунай"
+          },
+          {
+            "lang": "lt",
+            "value": "Jašiūnų GS (gyvenvietė)"
           }
         ]
       },
@@ -2265,6 +2259,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "120804"
           }
         ],
@@ -2365,6 +2363,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "120908"
           }
         ],
@@ -2560,6 +2562,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "121608"
           }
         ],
@@ -2582,8 +2588,21 @@
             "value": "https://cargo.litrail.lt/varenos-gelezinkelio-stotis"
           }
         ],
+        "P8671": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "ZLVA"
+          }
+        ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2400133"
           }
         ],
@@ -2651,6 +2670,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "122208"
           }
         ],
@@ -2735,6 +2758,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "122301"
           }
         ],
@@ -2831,6 +2858,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "122405"
           }
         ],
@@ -2925,6 +2956,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "122509"
           }
         ],
@@ -3253,6 +3288,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "123107"
           }
         ],
@@ -3477,7 +3516,7 @@
               "pregrouped": [],
               "reliability": 0
             },
-            "value": "Q5620309"
+            "value": "Q16446692"
           }
         ],
         "P17": [
@@ -3491,6 +3530,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "123304"
           }
         ],
@@ -3501,6 +3544,13 @@
               "reliability": 0
             },
             "value": "Q55488"
+          },
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q114782406"
           }
         ],
         "P722": [
@@ -3515,6 +3565,15 @@
         "P856": [
           {
             "value": "https://cargo.litrail.lt/mockavos-gelezinkelio-stotis"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "2400120"
           }
         ],
         "PWIKI": [
@@ -3749,8 +3808,17 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "123802-LTŠeštokai-Q15782145-Q15782145",
+      "id": "123802-LTŠeštokai-Q11903353-Q11903353",
       "properties": {
+        "P131": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q16478059"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -3762,6 +3830,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "123802"
           }
         ],
@@ -3794,12 +3866,20 @@
               "pregrouped": [],
               "reliability": 0
             },
-            "value": "Q15782145"
+            "value": "Q11903353"
           }
         ],
         "labels": [
           {
             "value": "Šeštokai"
+          },
+          {
+            "lang": "ru",
+            "value": "Шештокай"
+          },
+          {
+            "lang": "fi",
+            "value": "Šeštokain rautatieasema"
           },
           {
             "lang": "de",
@@ -3812,10 +3892,6 @@
           {
             "lang": "fr",
             "value": "Gare de Šeštokai"
-          },
-          {
-            "lang": "ru",
-            "value": "Шештокай"
           }
         ]
       },
@@ -3873,6 +3949,15 @@
         "P856": [
           {
             "value": "https://cargo.litrail.lt/marijampoles-gelezinkelio-stotis"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "ZLMJ"
           }
         ],
         "P954": [
@@ -4108,6 +4193,13 @@
               "reliability": 0
             },
             "value": "Q55488"
+          },
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q1402443"
           }
         ],
         "P722": [
@@ -4122,6 +4214,15 @@
         "P856": [
           {
             "value": "https://cargo.litrail.lt/kybartu-gelezinkelio-stotis"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "ZLKI"
           }
         ],
         "P954": [
@@ -4275,11 +4376,11 @@
           },
           {
             "lang": "lt",
-            "value": "Gaižiūnų geležinkelio stotis"
+            "value": "Gaižiūnų GS"
           },
           {
             "lang": "lt",
-            "value": "Gaižiūnų GS"
+            "value": "Gaižiūnų geležinkelio stotis"
           }
         ]
       },
@@ -4639,10 +4740,6 @@
             "value": "Radviliskis"
           },
           {
-            "lang": "ro",
-            "value": "Radviliškis"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Radviliškis"
           },
@@ -4665,6 +4762,10 @@
           {
             "lang": "ru",
             "value": "Радвилишкис"
+          },
+          {
+            "lang": "ro",
+            "value": "Radviliškis"
           },
           {
             "lang": "fr",
@@ -4793,6 +4894,10 @@
         ],
         "P2815": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "125704"
           }
         ],
@@ -4930,8 +5035,17 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "126001-LTJoniškis",
+      "id": "126001-LTJoniškis-Q115611140-Q115611140",
       "properties": {
+        "P131": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q847715"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -4944,6 +5058,29 @@
         "P2815": [
           {
             "value": "126001"
+          },
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "126105"
+          }
+        ],
+        "P31": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q55488"
+          },
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q55493"
           }
         ],
         "P722": [
@@ -4956,9 +5093,30 @@
             "value": "https://cargo.litrail.lt/joniskio-gelezinkelio-stotis"
           }
         ],
+        "PWIKI": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "Q115611140"
+          }
+        ],
         "labels": [
           {
             "value": "Joniškis"
+          },
+          {
+            "lang": "pl",
+            "value": "Janiszki (stacja kolejowa)"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Joniškis"
+          },
+          {
+            "lang": "en",
+            "value": "Joniškis railway station"
           }
         ]
       },
@@ -5213,8 +5371,21 @@
             "value": "https://cargo.litrail.lt/kuziu-gelezinkelio-stotis"
           }
         ],
+        "P8671": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "ZLKZ"
+          }
+        ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2400243"
           }
         ],
@@ -5671,6 +5842,10 @@
             "value": "Rokiškio geležinkelio stotis"
           },
           {
+            "lang": "pl",
+            "value": "Rakiszki"
+          },
+          {
             "lang": "ru",
             "value": "Рокишкис"
           }
@@ -5824,8 +5999,21 @@
             "value": "https://cargo.litrail.lt/pabrades-gelezinkelio-stotis"
           }
         ],
+        "P8671": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "ZLPA"
+          }
+        ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "2400065"
           }
         ],
@@ -6025,6 +6213,15 @@
         "P856": [
           {
             "value": "https://cargo.litrail.lt/ignalinos-gelezinkelio-stotis"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "ZLI"
           }
         ],
         "P954": [
@@ -6359,24 +6556,28 @@
         ],
         "P8671": [
           {
-            "enabled": "2400117",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [],
+              "reliability": 0
+            },
+            "value": "ZLT"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28292"
               }
             ],
-            "value": "2400117"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "2400117"
           }
         ],

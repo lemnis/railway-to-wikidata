@@ -334,18 +334,6 @@
               }
             ],
             "value": "XRBJ"
-          },
-          {
-            "enabled": "7800010",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38974"
-              }
-            ],
-            "value": "7800010"
           }
         ],
         "P954": [
@@ -353,12 +341,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38974"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -429,22 +423,21 @@
             "value": "7874403"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800207",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38987"
               }
             ],
-            "value": "7800207"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800207"
           }
         ],
@@ -538,11 +531,6 @@
             "value": "Q1402443"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -569,22 +557,21 @@
             "value": "7871705"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800117",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33364"
               }
             ],
-            "value": "7800117"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800117"
           }
         ],
@@ -655,11 +642,11 @@
             "value": "7876308"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800050",
+            "enabled": false,
             "info": {
-              "reliability": 0.5800000000000001
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -1230,22 +1217,21 @@
             "value": "7873014"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800598",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39021"
               }
             ],
-            "value": "7800598"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800598"
           }
         ],
@@ -1557,11 +1543,11 @@
             "value": "7871202"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800228",
+            "enabled": false,
             "info": {
-              "reliability": 0.5800000000000001
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -1780,22 +1766,21 @@
             "value": "7874409"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800232",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38988"
               }
             ],
-            "value": "7800232"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800232"
           }
         ],
@@ -2354,26 +2339,21 @@
             "value": "7874860"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800054",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29649"
               }
             ],
-            "value": "7800054"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "7800054"
           }
         ],
@@ -2538,22 +2518,21 @@
             "value": "7871704"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800247",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38990"
               }
             ],
-            "value": "7800247"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800247"
           }
         ],
@@ -2610,22 +2589,21 @@
             "value": "7871802"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800248",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35659"
               }
             ],
-            "value": "7800248"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800248"
           }
         ],
@@ -2769,22 +2747,21 @@
             "value": "7871403"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800239",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38989"
               }
             ],
-            "value": "7800239"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800239"
           }
         ],
@@ -3307,22 +3284,21 @@
             "value": "7871703"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800253",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38991"
               }
             ],
-            "value": "7800253"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800253"
           }
         ],
@@ -3376,22 +3352,21 @@
             "value": "7873708"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800055",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35424"
               }
             ],
-            "value": "7800055"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800055"
           }
         ],
@@ -3569,22 +3544,21 @@
             "value": "7875412"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800023",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29574"
               }
             ],
-            "value": "7800023"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800023"
           }
         ],
@@ -4446,22 +4420,21 @@
             "value": "7876405"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800056",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34202"
               }
             ],
-            "value": "7800056"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800056"
           }
         ],
@@ -4573,22 +4546,21 @@
             "value": "7875102"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800279",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35430"
               }
             ],
-            "value": "7800279"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800279"
           }
         ],
@@ -4662,18 +4634,6 @@
               }
             ],
             "value": "XRDS"
-          },
-          {
-            "enabled": "7800024",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38976"
-              }
-            ],
-            "value": "7800024"
           }
         ],
         "P954": [
@@ -4681,12 +4641,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38976"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -4786,22 +4752,21 @@
             "value": "7873703"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800258",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38992"
               }
             ],
-            "value": "7800258"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800258"
           }
         ],
@@ -5132,7 +5097,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Frigis - Osijek-7800282-Q110184455",
+      "id": "Frigis - Osijek-HR71912-7800282-Q110184455",
       "properties": {
         "P131": [
           {
@@ -5153,6 +5118,14 @@
             "value": "Q55488"
           }
         ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.42000000000000004
+            },
+            "value": "7871912"
+          }
+        ],
         "P954": [
           {
             "value": "7800282"
@@ -5166,6 +5139,9 @@
         "labels": [
           {
             "value": "Frigis - Osijek"
+          },
+          {
+            "value": "Frigis"
           },
           {
             "value": "Frigis (Osijek)"
@@ -5220,22 +5196,21 @@
             "value": "7875415"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800045",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35597"
               }
             ],
-            "value": "7800045"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800045"
           }
         ],
@@ -5292,22 +5267,21 @@
             "value": "7871502"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7871502",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39022"
               }
             ],
-            "value": "7871502"
-          }
-        ],
-        "P954": [
-          {
             "value": "7871502"
           }
         ],
@@ -5406,22 +5380,21 @@
             "value": "7877416"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800284",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29579"
               }
             ],
-            "value": "7800284"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800284"
           }
         ],
@@ -5520,22 +5493,21 @@
             "value": "7872804"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800088",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35636"
               }
             ],
-            "value": "7800088"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800088"
           }
         ],
@@ -5601,22 +5573,21 @@
             "value": "7875106"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800286",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35491"
               }
             ],
-            "value": "7800286"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800286"
           }
         ],
@@ -5704,22 +5675,21 @@
             "value": "7875404"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800288",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38993"
               }
             ],
-            "value": "7800288"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800288"
           }
         ],
@@ -5902,22 +5872,21 @@
             "value": "7876108"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800025",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29581"
               }
             ],
-            "value": "7800025"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800025"
           }
         ],
@@ -6019,22 +5988,21 @@
             "value": "7876117"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800026",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34165"
               }
             ],
-            "value": "7800026"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800026"
           }
         ],
@@ -6059,7 +6027,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Gradec -HR73109",
+      "id": "Gradec -HR73109-7800293",
       "properties": {
         "P17": [
           {
@@ -6078,9 +6046,17 @@
             "value": "7873109"
           }
         ],
+        "P954": [
+          {
+            "value": "7800293"
+          }
+        ],
         "labels": [
           {
             "value": "Gradec"
+          },
+          {
+            "value": "Gradec stajaliste"
           }
         ]
       },
@@ -6165,22 +6141,21 @@
             "value": "7871404"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800294",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29582"
               }
             ],
-            "value": "7800294"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800294"
           }
         ],
@@ -6449,7 +6424,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Heki stajalište-HR77407",
+      "id": "Heki stajalište-HR77407-7800301",
       "properties": {
         "P17": [
           {
@@ -6468,9 +6443,17 @@
             "value": "7877407"
           }
         ],
+        "P954": [
+          {
+            "value": "7800301"
+          }
+        ],
         "labels": [
           {
             "value": "Heki stajalište"
+          },
+          {
+            "value": "Heki"
           }
         ]
       },
@@ -6897,22 +6880,21 @@
             "value": "7875002"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800307",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38994"
               }
             ],
-            "value": "7800307"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800307"
           }
         ],
@@ -7208,18 +7190,6 @@
               }
             ],
             "value": "XRIG"
-          },
-          {
-            "enabled": "7800032",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/35347"
-              }
-            ],
-            "value": "7800032"
           }
         ],
         "P954": [
@@ -7227,12 +7197,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/35347"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -7298,22 +7274,21 @@
             "value": "7871101"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800091",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38984"
               }
             ],
-            "value": "7800091"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800091"
           }
         ],
@@ -7463,22 +7438,21 @@
             "value": "7875006"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800315",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29585"
               }
             ],
-            "value": "7800315"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800315"
           }
         ],
@@ -7574,22 +7548,21 @@
             "value": "7876002"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800317",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35427"
               }
             ],
-            "value": "7800317"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800317"
           }
         ],
@@ -7920,22 +7893,21 @@
             "value": "7875305"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800103",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38985"
               }
             ],
-            "value": "7800103"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800103"
           }
         ],
@@ -8093,26 +8065,21 @@
             "value": "7875060"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800048",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29587"
               }
             ],
-            "value": "7800048"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "7800048"
           }
         ],
@@ -8480,22 +8447,21 @@
             "value": "7873008"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800328",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38995"
               }
             ],
-            "value": "7800328"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800328"
           }
         ],
@@ -8634,22 +8600,21 @@
             "value": "HRADC"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800006",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28225"
               }
             ],
-            "value": "7800006"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800006"
           }
         ],
@@ -8761,22 +8726,21 @@
             "value": "7874407"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800330",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38996"
               }
             ],
-            "value": "7800330"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800330"
           }
         ],
@@ -8860,22 +8824,21 @@
             "value": "HRADD"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800007",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/26844"
               }
             ],
-            "value": "7800007"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800007"
           }
         ],
@@ -9106,22 +9069,21 @@
             "value": "7876402"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800334",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38997"
               }
             ],
-            "value": "7800334"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800334"
           }
         ],
@@ -9202,22 +9164,21 @@
             "value": "HRADX"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800057",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28228"
               }
             ],
-            "value": "7800057"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800057"
           }
         ],
@@ -9350,22 +9311,21 @@
             "value": "7874604"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800338",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34130"
               }
             ],
-            "value": "7800338"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800338"
           }
         ],
@@ -9419,22 +9379,21 @@
             "value": "7873107"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800028",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38977"
               }
             ],
-            "value": "7800028"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800028"
           }
         ],
@@ -10018,18 +9977,6 @@
               }
             ],
             "value": "XRKU"
-          },
-          {
-            "enabled": "7800034",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29592"
-              }
-            ],
-            "value": "7800034"
           }
         ],
         "P954": [
@@ -10037,12 +9984,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29592"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -10109,22 +10062,21 @@
             "value": "7876506"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800349",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38998"
               }
             ],
-            "value": "7800349"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800349"
           }
         ],
@@ -10223,22 +10175,21 @@
             "value": "7871504"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7871504",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39023"
               }
             ],
-            "value": "7871504"
-          }
-        ],
-        "P954": [
-          {
             "value": "7871504"
           }
         ],
@@ -10463,22 +10414,21 @@
             "value": "7873103"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800356",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38999"
               }
             ],
-            "value": "7800356"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800356"
           }
         ],
@@ -10701,22 +10651,21 @@
             "value": "7876103"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800360",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39000"
               }
             ],
-            "value": "7800360"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800360"
           }
         ],
@@ -10773,22 +10722,21 @@
             "value": "7873714"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800361",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35630"
               }
             ],
-            "value": "7800361"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800361"
           }
         ],
@@ -10889,22 +10837,21 @@
             "value": "7872502"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800363",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39001"
               }
             ],
-            "value": "7800363"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800363"
           }
         ],
@@ -11041,22 +10988,21 @@
             "value": "7875413"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800366",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35436"
               }
             ],
-            "value": "7800366"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800366"
           }
         ],
@@ -11147,22 +11093,21 @@
             "value": "7876113"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800368",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39002"
               }
             ],
-            "value": "7800368"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800368"
           }
         ],
@@ -11250,22 +11195,21 @@
             "value": "7873804"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800369",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29595"
               }
             ],
-            "value": "7800369"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800369"
           }
         ],
@@ -11622,22 +11566,21 @@
             "value": "7875301"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800374",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39003"
               }
             ],
-            "value": "7800374"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800374"
           }
         ],
@@ -11820,22 +11763,21 @@
             "value": "7874804"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800378",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35107"
               }
             ],
-            "value": "7800378"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800378"
           }
         ],
@@ -12055,22 +11997,21 @@
             "value": "7873705"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800382",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39004"
               }
             ],
-            "value": "7800382"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800382"
           }
         ],
@@ -12567,22 +12508,21 @@
             "value": "7875406"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800043",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38979"
               }
             ],
-            "value": "7800043"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800043"
           }
         ],
@@ -12790,22 +12730,21 @@
             "value": "7873101"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800394",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39005"
               }
             ],
-            "value": "7800394"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800394"
           }
         ],
@@ -12872,26 +12811,21 @@
             "value": "7874904"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800106",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38986"
               }
             ],
-            "value": "7800106"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "7800106"
           }
         ],
@@ -13051,22 +12985,21 @@
             "value": "7873901"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800039",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32349"
               }
             ],
-            "value": "7800039"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800039"
           }
         ],
@@ -13315,18 +13248,6 @@
               }
             ],
             "value": "XRNG"
-          },
-          {
-            "enabled": "7800008",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29604"
-              }
-            ],
-            "value": "7800008"
           }
         ],
         "P954": [
@@ -13334,12 +13255,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29604"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -13389,7 +13316,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Nova Kapela-Batrina-HR72708-Q38251845",
+      "id": "Nova Kapela-Batrina-HR72708-7800046-XRNK-trainline-38980-Q38251845",
       "properties": {
         "P17": [
           {
@@ -13405,12 +13332,62 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38980"
+              }
+            ],
+            "value": "38980"
+          }
+        ],
         "P722": [
           {
             "info": {
               "reliability": 0.42000000000000004
             },
             "value": "7872708"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "XRNK"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38980"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "7800046"
           }
         ],
         "PWIKI": [
@@ -13424,6 +13401,9 @@
           },
           {
             "value": "Nova Kapela Batrina"
+          },
+          {
+            "value": "Nova Kapela"
           },
           {
             "lang": "en",
@@ -13569,8 +13549,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Novi Jankovci-HR91009-7891009",
+      "id": "Novi Jankovci-HR91009-7891009-Q30626806",
       "properties": {
+        "P131": [
+          {
+            "value": "Q1293848"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -13578,6 +13563,11 @@
               "reliability": 0
             },
             "value": "Q224"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -13593,9 +13583,18 @@
             "value": "7891009"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q30626806"
+          }
+        ],
         "labels": [
           {
             "value": "Novi Jankovci"
+          },
+          {
+            "lang": "en",
+            "value": "Jankovci railway station"
           }
         ]
       },
@@ -13643,22 +13642,21 @@
             "value": "7874412"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800404",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29605"
               }
             ],
-            "value": "7800404"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800404"
           }
         ],
@@ -13869,22 +13867,21 @@
             "value": "7872511"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800407",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39006"
               }
             ],
-            "value": "7800407"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800407"
           }
         ],
@@ -13959,18 +13956,6 @@
               }
             ],
             "value": "XRNV"
-          },
-          {
-            "enabled": "7800009",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29607"
-              }
-            ],
-            "value": "7800009"
           }
         ],
         "P954": [
@@ -13978,12 +13963,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29607"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -14080,7 +14071,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Nuštar Stajalište-7800409",
+      "id": "Nuštar Stajalište-HR71201-7800409",
       "properties": {
         "P17": [
           {
@@ -14091,6 +14082,14 @@
             "value": "Q224"
           }
         ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.42000000000000004
+            },
+            "value": "7871201"
+          }
+        ],
         "P954": [
           {
             "value": "7800409"
@@ -14099,6 +14098,9 @@
         "labels": [
           {
             "value": "Nuštar Stajalište"
+          },
+          {
+            "value": "Nuštar"
           },
           {
             "value": "Nustar Stajaliste"
@@ -14196,22 +14198,21 @@
             "value": "7875460"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800040",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35517"
               }
             ],
-            "value": "7800040"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800040"
           }
         ],
@@ -14329,22 +14330,21 @@
             "value": "7872606"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800036",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34148"
               }
             ],
-            "value": "7800036"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800036"
           }
         ],
@@ -14491,22 +14491,21 @@
             "value": "YUABY"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800002",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28229"
               }
             ],
-            "value": "7800002"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800002"
           }
         ],
@@ -14642,22 +14641,21 @@
             "value": "7872706"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800087",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38982"
               }
             ],
-            "value": "7800087"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800087"
           }
         ],
@@ -15026,26 +15024,21 @@
             "value": "HROSI"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800011",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/26850"
               }
             ],
-            "value": "7800011"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "7800011"
           }
         ],
@@ -15340,22 +15333,21 @@
             "value": "7875303"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800422",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39007"
               }
             ],
-            "value": "7800422"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800422"
           }
         ],
@@ -15451,22 +15443,21 @@
             "value": "7873712"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800423",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35616"
               }
             ],
-            "value": "7800423"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800423"
           }
         ],
@@ -15617,22 +15608,21 @@
             "value": "7877405"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800044",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29612"
               }
             ],
-            "value": "7800044"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800044"
           }
         ],
@@ -15667,7 +15657,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Pčelić-HR73001-7800427",
+      "id": "Pčelić-HR73001-7800427-trainline-68108",
       "properties": {
         "P17": [
           {
@@ -15676,6 +15666,19 @@
               "reliability": 0
             },
             "value": "Q224"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68108"
+              }
+            ],
+            "value": "68108"
           }
         ],
         "P722": [
@@ -15688,6 +15691,19 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68108"
+              }
+            ],
             "value": "7800427"
           }
         ],
@@ -15833,22 +15849,21 @@
             "value": "7876412"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800012",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38975"
               }
             ],
-            "value": "7800012"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800012"
           }
         ],
@@ -15960,11 +15975,11 @@
             "value": "7876106"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800431",
+            "enabled": false,
             "info": {
-              "reliability": 0.5800000000000001
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -16130,22 +16145,21 @@
             "value": "7873007"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800434",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29614"
               }
             ],
-            "value": "7800434"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800434"
           }
         ],
@@ -16328,22 +16342,21 @@
             "value": "7876005"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800437",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39008"
               }
             ],
-            "value": "7800437"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800437"
           }
         ],
@@ -16400,22 +16413,21 @@
             "value": "7873601"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800439",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39009"
               }
             ],
-            "value": "7800439"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800439"
           }
         ],
@@ -16724,22 +16736,21 @@
             "value": "7872509"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800446",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35329"
               }
             ],
-            "value": "7800446"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800446"
           }
         ],
@@ -17386,11 +17397,15 @@
             "value": "YUACB"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800003",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -17400,9 +17415,9 @@
             "value": "7800003"
           },
           {
-            "enabled": "7244417",
+            "enabled": false,
             "info": {
-              "reliability": 0.5800000000000001
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -17410,11 +17425,6 @@
               }
             ],
             "value": "7244417"
-          }
-        ],
-        "P954": [
-          {
-            "value": "7800003"
           }
         ],
         "PWIKI": [
@@ -17439,6 +17449,10 @@
             "value": "gare de Pula"
           },
           {
+            "lang": "pl",
+            "value": "Pula"
+          },
+          {
             "lang": "hr",
             "value": "Željeznički kolodvor u Puli"
           },
@@ -17461,10 +17475,6 @@
           {
             "lang": "sv",
             "value": "Pulas järnvägsstation"
-          },
-          {
-            "lang": "pl",
-            "value": "Pula"
           }
         ]
       },
@@ -17976,22 +17986,21 @@
             "value": "HRRJK"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800013",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28231"
               }
             ],
-            "value": "7800013"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800013"
           }
         ],
@@ -18002,6 +18011,10 @@
         ],
         "labels": [
           {
+            "value": "Rijeka"
+          },
+          {
+            "lang": "fr",
             "value": "Rijeka"
           },
           {
@@ -18490,26 +18503,21 @@
             "value": "7875605"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800067",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35607"
               }
             ],
-            "value": "7800067"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "7800067"
           }
         ],
@@ -18532,6 +18540,14 @@
           {
             "lang": "en",
             "value": "Šapjane railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Šapjane"
+          },
+          {
+            "lang": "fr",
+            "value": "Šapjane"
           }
         ]
       },
@@ -18724,22 +18740,21 @@
             "value": "7874102"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800084",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38981"
               }
             ],
-            "value": "7800084"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800084"
           }
         ],
@@ -18867,22 +18882,21 @@
             "value": "7872402"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800086",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34127"
               }
             ],
-            "value": "7800086"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800086"
           }
         ],
@@ -19018,22 +19032,21 @@
             "value": "HRADN"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800017",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28227"
               }
             ],
-            "value": "7800017"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800017"
           }
         ],
@@ -19121,22 +19134,21 @@
             "value": "7872702"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800483",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39010"
               }
             ],
-            "value": "7800483"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800483"
           }
         ],
@@ -19171,7 +19183,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Šidski Banovci-7800097-Q96416184",
+      "id": "Šidski Banovci-HR71003-7800097-Q96416184",
       "properties": {
         "P17": [
           {
@@ -19187,6 +19199,14 @@
             "value": "Q55488"
           }
         ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.42000000000000004
+            },
+            "value": "7871003"
+          }
+        ],
         "P954": [
           {
             "value": "7800097"
@@ -19200,6 +19220,9 @@
         "labels": [
           {
             "value": "Šidski Banovci"
+          },
+          {
+            "value": "Banovci"
           },
           {
             "value": "Sidski Banovci"
@@ -19283,7 +19306,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Sirač-7800485",
+      "id": "Sirač-7800485-trainline-68136",
       "properties": {
         "P17": [
           {
@@ -19294,8 +19317,34 @@
             "value": "Q224"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68136"
+              }
+            ],
+            "value": "68136"
+          }
+        ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68136"
+              }
+            ],
             "value": "7800485"
           }
         ],
@@ -19365,7 +19414,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Sirova Katalena-HR73327",
+      "id": "Sirova Katalena-HR73327-7800486",
       "properties": {
         "P17": [
           {
@@ -19384,9 +19433,17 @@
             "value": "7873327"
           }
         ],
+        "P954": [
+          {
+            "value": "7800486"
+          }
+        ],
         "labels": [
           {
             "value": "Sirova Katalena"
+          },
+          {
+            "value": "Sirova"
           }
         ]
       },
@@ -19503,22 +19560,21 @@
             "value": "HRADK"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800014",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28226"
               }
             ],
-            "value": "7800014"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800014"
           }
         ],
@@ -19699,22 +19755,21 @@
             "value": "7875409"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800488",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39011"
               }
             ],
-            "value": "7800488"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800488"
           }
         ],
@@ -19956,7 +20011,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Slatina-HR73909-7800083",
+      "id": "Slatina-HR73909-7800083-trainline-26847",
       "properties": {
         "P17": [
           {
@@ -19965,6 +20020,19 @@
               "reliability": 0
             },
             "value": "Q224"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26847"
+              }
+            ],
+            "value": "26847"
           }
         ],
         "P722": [
@@ -19977,12 +20045,28 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26847"
+              }
+            ],
             "value": "7800083"
           }
         ],
         "labels": [
           {
             "value": "Slatina"
+          },
+          {
+            "value": "Slatina Autobusni Kolodvor"
           }
         ]
       },
@@ -20051,18 +20135,6 @@
               }
             ],
             "value": "XRSL"
-          },
-          {
-            "enabled": "7800015",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29631"
-              }
-            ],
-            "value": "7800015"
           }
         ],
         "P954": [
@@ -20070,12 +20142,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/29631"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -20240,8 +20318,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Solin-HR76510-7800493",
+      "id": "Solin-HR76510-7800493-Q98801414",
       "properties": {
+        "P131": [
+          {
+            "value": "Q642828"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -20249,6 +20332,11 @@
               "reliability": 0
             },
             "value": "Q224"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -20264,9 +20352,34 @@
             "value": "7800493"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q98801414"
+          }
+        ],
         "labels": [
           {
             "value": "Solin"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin železnička postaja"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin železniční zastávka"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin željeznički kolodvor"
+          },
+          {
+            "lang": "cs",
+            "value": "Železnička stanica Solin"
+          },
+          {
+            "lang": "cs",
+            "value": "Solin železniční stanice"
           }
         ]
       },
@@ -20501,22 +20614,21 @@
             "value": "7876661"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800495",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/67317"
               }
             ],
-            "value": "7800495"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800495"
           }
         ],
@@ -20967,22 +21079,21 @@
             "value": "7871103"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800090",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38983"
               }
             ],
-            "value": "7800090"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800090"
           }
         ],
@@ -21013,7 +21124,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Stari Slatnik-HR72703",
+      "id": "Stari Slatnik-HR72703-7800499",
       "properties": {
         "P17": [
           {
@@ -21032,9 +21143,17 @@
             "value": "7872703"
           }
         ],
+        "P954": [
+          {
+            "value": "7800499"
+          }
+        ],
         "labels": [
           {
             "value": "Stari Slatnik"
+          },
+          {
+            "value": "Stari Slatinik oa"
           }
         ]
       },
@@ -21087,22 +21206,21 @@
             "value": "7872602"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800500",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39012"
               }
             ],
-            "value": "7800500"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800500"
           }
         ],
@@ -21902,22 +22020,21 @@
             "value": "7873303"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800511",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39013"
               }
             ],
-            "value": "7800511"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800511"
           }
         ],
@@ -22252,11 +22369,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -22341,22 +22453,21 @@
             "value": "7874414"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800526",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29641"
               }
             ],
-            "value": "7800526"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800526"
           }
         ],
@@ -22455,22 +22566,21 @@
             "value": "7876409"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800528",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39014"
               }
             ],
-            "value": "7800528"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800528"
           }
         ],
@@ -22682,22 +22792,21 @@
             "value": "7873505"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800530",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39015"
               }
             ],
-            "value": "7800530"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800530"
           }
         ],
@@ -23100,18 +23209,6 @@
               }
             ],
             "value": "XRVI"
-          },
-          {
-            "enabled": "7800018",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26852"
-              }
-            ],
-            "value": "7800018"
           }
         ],
         "P954": [
@@ -23119,12 +23216,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/26852"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -23218,22 +23321,21 @@
             "value": "7873011"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800537",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39016"
               }
             ],
-            "value": "7800537"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800537"
           }
         ],
@@ -23573,22 +23675,21 @@
             "value": "7871803"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800543",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39017"
               }
             ],
-            "value": "7800543"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800543"
           }
         ],
@@ -23655,7 +23756,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Vodnjan stajalište-HR77421",
+      "id": "Vodnjan stajalište-HR77421-7851335",
       "properties": {
         "P17": [
           {
@@ -23674,9 +23775,17 @@
             "value": "7877421"
           }
         ],
+        "P954": [
+          {
+            "value": "7851335"
+          }
+        ],
         "labels": [
           {
             "value": "Vodnjan stajalište"
+          },
+          {
+            "value": "Vodnjan Mjesto"
           }
         ]
       },
@@ -23724,22 +23833,21 @@
             "value": "7877415"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800085",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29646"
               }
             ],
-            "value": "7800085"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800085"
           }
         ],
@@ -24192,22 +24300,21 @@
             "value": "7871305"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800551",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39018"
               }
             ],
-            "value": "7800551"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800551"
           }
         ],
@@ -24303,22 +24410,21 @@
             "value": "7873110"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800060",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35860"
               }
             ],
-            "value": "7800060"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800060"
           }
         ],
@@ -24372,22 +24478,21 @@
             "value": "7875405"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800553",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35540"
               }
             ],
-            "value": "7800553"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800553"
           }
         ],
@@ -24409,7 +24514,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Vrhovine-HR76011",
+      "id": "Vrhovine-HR76011-7800031-trainline-38978",
       "properties": {
         "P17": [
           {
@@ -24420,6 +24525,19 @@
             "value": "Q224"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38978"
+              }
+            ],
+            "value": "38978"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -24428,9 +24546,30 @@
             "value": "7876011"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38978"
+              }
+            ],
+            "value": "7800031"
+          }
+        ],
         "labels": [
           {
             "value": "Vrhovine"
+          },
+          {
+            "value": "Vrhovi-Plitvi Jezera"
           }
         ]
       },
@@ -24579,22 +24718,21 @@
             "value": "7871452"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800073",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29648"
               }
             ],
-            "value": "7800073"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800073"
           }
         ],
@@ -24838,11 +24976,11 @@
             "value": "HRZAD"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800019",
+            "enabled": false,
             "info": {
-              "reliability": 0.5800000000000001
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -24912,7 +25050,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Zagreb Glavni kolodvor-7800020-XRZ-7800020-trainline-67316-Q140377",
+      "id": "Zagreb Glavni kolodvor-HR72480-7800020-XRZ-7800020-trainline-67316-Q140377",
       "properties": {
         "P1103": [
           {
@@ -24943,11 +25081,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -24963,6 +25096,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.42000000000000004
+                }
+              ],
+              "reliability": 0.42000000000000004
+            },
             "value": "7872480"
           }
         ],
@@ -24982,18 +25123,6 @@
               }
             ],
             "value": "XRZ"
-          },
-          {
-            "enabled": "7800020",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/67316"
-              }
-            ],
-            "value": "7800020"
           }
         ],
         "P954": [
@@ -25004,12 +25133,18 @@
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.5
+              "reliability": 2.2
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/67316"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -25027,6 +25162,9 @@
             "value": "Zagreb Glavni kolodvor"
           },
           {
+            "value": "Zagreb GK"
+          },
+          {
             "lang": "de",
             "value": "Zagreb Glavni kolodvor"
           },
@@ -25040,43 +25178,11 @@
           },
           {
             "lang": "cs",
-            "value": "Zagreb hlavní nádraží"
-          },
-          {
-            "lang": "cs",
-            "value": "Záhřeb hlavní nádraží"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zagreb gl. k."
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Zagreb Hbf"
-          },
-          {
-            "lang": "cs",
             "value": "Zagreb Glavni kolodvor"
           },
           {
             "lang": "de",
             "value": "Zagreb Hauptbahnhof"
-          },
-          {
-            "lang": "en",
-            "value": "Zagreb Central Station"
-          },
-          {
-            "lang": "en",
-            "value": "Zagreb Glavni kolodvor"
-          },
-          {
-            "lang": "en",
-            "value": "Zagreb Glavni railway station"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Zagreb"
           },
           {
             "lang": "en",
@@ -25096,15 +25202,7 @@
           },
           {
             "lang": "fr",
-            "value": "gare de Zagreb Central"
-          },
-          {
-            "lang": "fr",
             "value": "gare centrale de Zagreb"
-          },
-          {
-            "lang": "hr",
-            "value": "Zagreb Glavni Kolodvor"
           },
           {
             "lang": "hr",
@@ -25139,16 +25237,52 @@
             "value": "Главный вокзал Загреба"
           },
           {
-            "lang": "sl",
-            "value": "Glavni kolodvor"
-          },
-          {
             "lang": "sh",
             "value": "Zagrebački Glavni kolodvor"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Zagreb"
+          },
+          {
+            "lang": "cs",
+            "value": "Zagreb hlavní nádraží"
+          },
+          {
+            "lang": "cs",
+            "value": "Záhřeb hlavní nádraží"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Zagreb gl. k."
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Zagreb Hbf"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Central Station"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Glavni kolodvor"
+          },
+          {
+            "lang": "en",
+            "value": "Zagreb Glavni railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Zagreb"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Zagreb Central"
+          },
+          {
+            "lang": "sl",
+            "value": "Glavni kolodvor"
           },
           {
             "lang": "sv",
@@ -25168,6 +25302,14 @@
           },
           {
             "lang": "fr",
+            "value": "Zagreb Glavni kolodvor"
+          },
+          {
+            "lang": "hr",
+            "value": "Glavni željeznički kolodvor"
+          },
+          {
+            "lang": "hr",
             "value": "Zagreb Glavni kolodvor"
           }
         ]
@@ -25226,7 +25368,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "Zagreb Zapadni Kolodvor-7800065-trainline-67316-Q12645488",
+      "id": "Zagreb Zapadni Kolodvor-HR74060-7800065-Q12645488",
       "properties": {
         "P131": [
           {
@@ -25247,37 +25389,15 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
-        "P6724": [
+        "P722": [
           {
             "info": {
-              "reliability": 0.6400000000000001
+              "reliability": 0.42000000000000004
             },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/67316"
-              }
-            ],
-            "value": "67316"
+            "value": "7874060"
           }
         ],
         "P8671": [
-          {
-            "enabled": "7800020",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/67316"
-              }
-            ],
-            "value": "7800020"
-          },
           {
             "value": "XRZZ"
           }
@@ -25301,10 +25421,10 @@
             "value": "Zagreb Zapadni Kolodvor"
           },
           {
-            "value": "Zagreb Zapadni kolodvor"
+            "value": "Zagreb ZK"
           },
           {
-            "value": "Zagreb Glavni kolodvor"
+            "value": "Zagreb Zapadni kolodvor"
           },
           {
             "lang": "de",
@@ -25581,22 +25701,21 @@
             "value": "7874004"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800061",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/35398"
               }
             ],
-            "value": "7800061"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800061"
           }
         ],
@@ -25811,22 +25930,21 @@
             "value": "7875004"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800568",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39019"
               }
             ],
-            "value": "7800568"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800568"
           }
         ],
@@ -26055,22 +26173,21 @@
             "value": "7874405"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800571",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/39020"
               }
             ],
-            "value": "7800571"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800571"
           }
         ],
@@ -26166,22 +26283,21 @@
             "value": "7877409"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7800580",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29650"
               }
             ],
-            "value": "7800580"
-          }
-        ],
-        "P954": [
-          {
             "value": "7800580"
           }
         ],
@@ -26362,22 +26478,21 @@
             "value": "7871405"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "7889050",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29651"
               }
             ],
-            "value": "7889050"
-          }
-        ],
-        "P954": [
-          {
             "value": "7889050"
           }
         ],

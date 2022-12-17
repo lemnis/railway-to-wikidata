@@ -314,18 +314,6 @@
               }
             ],
             "value": "XYKU"
-          },
-          {
-            "enabled": "5600081",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19101"
-              }
-            ],
-            "value": "5600081"
           }
         ],
         "P954": [
@@ -333,12 +321,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19101"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -364,22 +358,6 @@
             "value": "Kuty"
           },
           {
-            "lang": "cs",
-            "value": "Kúty"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Kúty"
-          },
-          {
-            "lang": "es",
-            "value": "Kúty"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Kúty"
-          },
-          {
             "lang": "en",
             "value": "Kúty railway station"
           },
@@ -388,12 +366,28 @@
             "value": "station Kúty"
           },
           {
+            "lang": "cs",
+            "value": "Kúty"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Kúty"
+          },
+          {
             "lang": "en",
             "value": "Railway station Kuty"
           },
           {
             "lang": "es",
             "value": "Kuty"
+          },
+          {
+            "lang": "es",
+            "value": "Kúty"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Kúty"
           },
           {
             "lang": "hu",
@@ -502,20 +496,20 @@
             "value": "Stankovany railway station"
           },
           {
-            "lang": "cs",
-            "value": "Stankovany"
-          },
-          {
-            "lang": "pl",
-            "value": "Stankovany"
-          },
-          {
             "lang": "fr",
             "value": "gare de Stankovany"
           },
           {
             "lang": "nl",
             "value": "station Stankovany"
+          },
+          {
+            "lang": "cs",
+            "value": "Stankovany"
+          },
+          {
+            "lang": "pl",
+            "value": "Stankovany"
           }
         ]
       },
@@ -789,7 +783,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "130336-SK130336-Q111703208",
+      "id": "130336-SK130336-5602539-Q111703208",
       "properties": {
         "P17": [
           {
@@ -830,6 +824,11 @@
             "value": "5613033"
           }
         ],
+        "P954": [
+          {
+            "value": "5602539"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q111703208"
@@ -839,6 +838,9 @@
           {
             "lang": "sk",
             "value": "Príbovce-Rakovo"
+          },
+          {
+            "value": "Pribovce"
           },
           {
             "lang": "de",
@@ -992,26 +994,21 @@
             "value": "5613041"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600185",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29307"
               }
             ],
-            "value": "5600185"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5600185"
           }
         ],
@@ -1163,7 +1160,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "130468-SK130468-5602787-Q22807285",
+      "id": "130468-SK130468-5602787-trainline-68133-Q22807285",
       "properties": {
         "P131": [
           {
@@ -1196,6 +1193,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68133"
+              }
+            ],
+            "value": "68133"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -1211,6 +1221,19 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68133"
+              }
+            ],
             "value": "5602787"
           }
         ],
@@ -1460,7 +1483,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "130567-SK130567",
+      "id": "130567-SK130567-5602056-trainline-68097",
       "properties": {
         "P17": [
           {
@@ -1483,6 +1506,19 @@
             "value": "130567"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68097"
+              }
+            ],
+            "value": "68097"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -1496,10 +1532,35 @@
             "value": "5613056"
           }
         ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68097"
+              }
+            ],
+            "value": "5602056"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Moravský Svätý Ján"
+          },
+          {
+            "value": "Moravsky Jan"
+          },
+          {
+            "lang": "sk",
+            "value": "Moravsky Jan"
           }
         ]
       },
@@ -1765,22 +1826,21 @@
             "value": "5613066"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5603331",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38915"
               }
             ],
-            "value": "5603331"
-          }
-        ],
-        "P954": [
-          {
             "value": "5603331"
           }
         ],
@@ -2139,22 +2199,21 @@
             "value": "5613083"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5603214",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34709"
               }
             ],
-            "value": "5603214"
-          }
-        ],
-        "P954": [
-          {
             "value": "5603214"
           }
         ],
@@ -2260,22 +2319,21 @@
             "value": "5613086"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601900",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38908"
               }
             ],
-            "value": "5601900"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601900"
           }
         ],
@@ -2293,6 +2351,10 @@
             "value": "Malacky"
           },
           {
+            "lang": "en",
+            "value": "Malacky railway station"
+          },
+          {
             "lang": "cs",
             "value": "Malacky"
           },
@@ -2307,10 +2369,6 @@
           {
             "lang": "sk",
             "value": "Železničná stanica Malacky"
-          },
-          {
-            "lang": "en",
-            "value": "Malacky railway station"
           }
         ]
       },
@@ -2319,15 +2377,21 @@
     {
       "geometry": {
         "coordinates": [
-          19.3537,
-          49.08743
+          [
+            19.3537,
+            49.08743
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "130914",
+      "id": "130914-SK130914-5601780",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -2345,13 +2409,33 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613091"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5601780"
           }
         ],
         "labels": [
           {
             "lang": "sk",
             "value": "Lisková zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Lisková zastávka"
+          },
+          {
+            "value": "Liskova"
           }
         ]
       },
@@ -2400,11 +2484,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -2431,22 +2510,21 @@
             "value": "5613093"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600257",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38902"
               }
             ],
-            "value": "5600257"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600257"
           }
         ],
@@ -2468,6 +2546,10 @@
             "value": "Horna Stubna"
           },
           {
+            "lang": "cs",
+            "value": "Horná Štubňa"
+          },
+          {
             "lang": "fr",
             "value": "gare de Horná Štubňa"
           },
@@ -2486,10 +2568,6 @@
           {
             "lang": "nl",
             "value": "station Horná Štubňa"
-          },
-          {
-            "lang": "cs",
-            "value": "Horná Štubňa"
           }
         ]
       },
@@ -2692,22 +2770,21 @@
             "value": "SKLTM"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600214",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28648"
               }
             ],
-            "value": "5600214"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600214"
           }
         ],
@@ -2754,7 +2831,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "131037-5601101",
+      "id": "131037-SK131037-5601101",
       "properties": {
         "P17": [
           {
@@ -2779,6 +2856,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613103"
           }
         ],
@@ -2791,6 +2876,10 @@
           {
             "lang": "sk",
             "value": "Horná Štubňa zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Horná Štubňa zastávka"
           },
           {
             "value": "Horna Stubna zast."
@@ -2858,22 +2947,21 @@
             "value": "5613106"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602376",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38911"
               }
             ],
-            "value": "5602376"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602376"
           }
         ],
@@ -3265,15 +3353,26 @@
     {
       "geometry": {
         "coordinates": [
-          16.97701,
-          48.21902
+          [
+            16.97701,
+            48.21902
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "131367",
+      "id": "131367-SK131367-5600193-XYDN-trainline-38901-Q12781947",
       "properties": {
+        "P131": [
+          {
+            "value": "Q1780"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -3289,15 +3388,138 @@
             "value": "131367"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38901"
+              }
+            ],
+            "value": "38901"
+          }
+        ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613136"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "XYDN"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38901"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "5600193"
+          },
+          {
+            "enabled": true,
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38901"
+              }
+            ],
+            "value": "5695603"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12781947"
           }
         ],
         "labels": [
           {
             "lang": "sk",
             "value": "Devínska N.Ves"
+          },
+          {
+            "lang": "sk",
+            "value": "Devínska Nová Ves"
+          },
+          {
+            "value": "Devinska Nova Ves"
+          },
+          {
+            "lang": "sk",
+            "value": "Devinska Nova Ves"
+          },
+          {
+            "lang": "br",
+            "value": "porzh-houarn Devínska Nová Ves"
+          },
+          {
+            "lang": "cs",
+            "value": "Devínska Nová Ves"
+          },
+          {
+            "lang": "en",
+            "value": "Devínska Nová Ves railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Devínska Nová Ves"
+          },
+          {
+            "lang": "hu",
+            "value": "Dévényújfalu vasútállomás"
+          },
+          {
+            "lang": "pl",
+            "value": "Devínska Nová Ves"
+          },
+          {
+            "lang": "sk",
+            "value": "ŽST Devínska Nová Ves"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Devínska Nová Ves"
           }
         ]
       },
@@ -4059,7 +4281,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "131763-SK131763",
+      "id": "131763-SK131763-5600586",
       "properties": {
         "P17": [
           {
@@ -4095,10 +4317,18 @@
             "value": "5613176"
           }
         ],
+        "P954": [
+          {
+            "value": "5600586"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Bratislava-Železná studienka"
+          },
+          {
+            "value": "Bratislava-Zel.stud."
           }
         ]
       },
@@ -4271,22 +4501,21 @@
             "value": "5613183"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600064",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38894"
               }
             ],
-            "value": "5600064"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600064"
           }
         ],
@@ -4308,12 +4537,12 @@
             "value": "Hronska Dubrava"
           },
           {
-            "lang": "en",
-            "value": "Hronská Dúbrava railway station"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Hronská Dúbrava"
+          },
+          {
+            "lang": "en",
+            "value": "Hronská Dúbrava railway station"
           },
           {
             "lang": "nl",
@@ -4513,22 +4742,21 @@
             "value": "5613200"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600092",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29308"
               }
             ],
-            "value": "5600092"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600092"
           }
         ],
@@ -4587,7 +4815,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "132068-SK132068-Q899662",
+      "id": "132068-SKABI-5600207-SK132068-5600207-XYB-trainline-17495-Q899662",
       "properties": {
         "P1103": [
           {
@@ -4636,36 +4864,126 @@
             "value": "Q1339195"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17495"
+              }
+            ],
+            "value": "17495"
+          }
+        ],
         "P722": [
           {
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.38
                 }
               ],
-              "reliability": 0.38
+              "reliability": 1.02
             },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17495"
+              }
+            ],
             "value": "5613206"
           }
         ],
         "P8181": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17495"
+              }
+            ],
             "value": "SKABI"
           }
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17495"
+              }
+            ],
             "value": "SKABI"
           }
         ],
         "P8671": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
             "value": "XYB"
           }
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 3
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17495"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
             "value": "5600207"
           }
         ],
@@ -4678,6 +4996,20 @@
           {
             "lang": "sk",
             "value": "Bratislava hlavná stanica"
+          },
+          {
+            "value": "Bratislava hl.st."
+          },
+          {
+            "value": "Bratislava Central"
+          },
+          {
+            "lang": "de",
+            "value": "Bratislava hl.st."
+          },
+          {
+            "lang": "sk",
+            "value": "Bratislava hl.st."
           },
           {
             "lang": "arz",
@@ -4694,10 +5026,6 @@
           {
             "lang": "cs",
             "value": "Bratislava hlavná stanica"
-          },
-          {
-            "lang": "de",
-            "value": "Bratislava hl.st."
           },
           {
             "lang": "de",
@@ -5017,7 +5345,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "132209-5603069",
+      "id": "132209-SK132209-5603069",
       "properties": {
         "P17": [
           {
@@ -5042,6 +5370,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613220"
           }
         ],
@@ -5054,6 +5390,10 @@
           {
             "lang": "sk",
             "value": "Štrba zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Štrba zastávka"
           },
           {
             "value": "Strba zast."
@@ -5272,8 +5612,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "132332-SK132332",
+      "id": "132332-SK132332-5600301-Q47254726",
       "properties": {
+        "P131": [
+          {
+            "value": "Q11874"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -5295,6 +5640,11 @@
             "value": "132332"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55493"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -5308,10 +5658,39 @@
             "value": "5613233"
           }
         ],
+        "P954": [
+          {
+            "value": "5600301"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q47254726"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Zvolen nákladná stanica"
+          },
+          {
+            "value": "Zvolen nakl. st."
+          },
+          {
+            "lang": "en",
+            "value": "Zvolen nákladná stanica"
+          },
+          {
+            "lang": "cs",
+            "value": "Zvolen nákladná stanica"
+          },
+          {
+            "lang": "en",
+            "value": "Zvolen railway station (former)"
+          },
+          {
+            "lang": "hu",
+            "value": "Zólyom-régi vasútállomás"
           }
         ]
       },
@@ -5581,26 +5960,21 @@
             "value": "SKPOP"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600013",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28649"
               }
             ],
-            "value": "5600013"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5600013"
           }
         ],
@@ -6138,7 +6512,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "132761-SK132761-5602797-Q111694195",
+      "id": "132761-SK132761-5602797-trainline-68134-Q111694195",
       "properties": {
         "P17": [
           {
@@ -6166,6 +6540,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68134"
+              }
+            ],
+            "value": "68134"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -6181,6 +6568,19 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68134"
+              }
+            ],
             "value": "5602797"
           }
         ],
@@ -6947,26 +7347,21 @@
             "value": "SKAEI"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600053",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28641"
               }
             ],
-            "value": "5600053"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5600053"
           }
         ],
@@ -7593,22 +7988,21 @@
             "value": "5613360"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600087",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29309"
               }
             ],
-            "value": "5600087"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600087"
           }
         ],
@@ -7739,22 +8133,21 @@
             "value": "5613363"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600179",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32192"
               }
             ],
-            "value": "5600179"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600179"
           }
         ],
@@ -7881,12 +8274,12 @@
             "value": "Teplicka nad Hornado"
           },
           {
-            "lang": "en",
-            "value": "Teplička nad Hornádom railway station"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Teplička nad Hornádom"
+          },
+          {
+            "lang": "en",
+            "value": "Teplička nad Hornádom railway station"
           },
           {
             "lang": "fr",
@@ -7996,6 +8389,10 @@
           },
           {
             "lang": "pl",
+            "value": "Banská Bystrica mesto"
+          },
+          {
+            "lang": "cs",
             "value": "Banská Bystrica mesto"
           }
         ]
@@ -8369,6 +8766,10 @@
             "value": "Jatov"
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Jatov"
+          },
+          {
             "lang": "en",
             "value": "Jatov railway station"
           },
@@ -8379,10 +8780,6 @@
           {
             "lang": "nl",
             "value": "station Jatov"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Jatov"
           }
         ]
       },
@@ -9234,18 +9631,6 @@
               }
             ],
             "value": "XYNZ"
-          },
-          {
-            "enabled": "5600025",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38889"
-              }
-            ],
-            "value": "5600025"
           }
         ],
         "P954": [
@@ -9253,12 +9638,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38889"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -10582,22 +10973,21 @@
             "value": "5613490"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600137",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34688"
               }
             ],
-            "value": "5600137"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600137"
           }
         ],
@@ -10819,7 +11209,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "135004-5601925",
+      "id": "135004-SK135004-5601925",
       "properties": {
         "P17": [
           {
@@ -10844,6 +11234,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613500"
           }
         ],
@@ -10856,6 +11254,10 @@
           {
             "lang": "sk",
             "value": "Margecany zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Margecany zastávka"
           },
           {
             "value": "Margecany zast."
@@ -11347,18 +11749,6 @@
               }
             ],
             "value": "XYST"
-          },
-          {
-            "enabled": "5603745",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38916"
-              }
-            ],
-            "value": "5603745"
           }
         ],
         "P954": [
@@ -11366,12 +11756,18 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38916"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -11655,20 +12051,20 @@
             "value": "Ruzin"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Ružín"
-          },
-          {
-            "lang": "en",
-            "value": "Ružín railway station"
-          },
-          {
             "lang": "fr",
             "value": "gare de Ružín"
           },
           {
             "lang": "nl",
             "value": "station Ružín"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Ružín"
+          },
+          {
+            "lang": "en",
+            "value": "Ružín railway station"
           }
         ]
       },
@@ -11959,26 +12355,21 @@
             "value": "5613560"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600135",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29311"
               }
             ],
-            "value": "5600135"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5600135"
           }
         ],
@@ -12302,11 +12693,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -12376,8 +12762,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "135830-SK135830",
+      "id": "135830-SK135830-5601839-Q31093606",
       "properties": {
+        "P131": [
+          {
+            "value": "Q261390"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -12399,6 +12790,11 @@
             "value": "135830"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -12412,10 +12808,35 @@
             "value": "5613583"
           }
         ],
+        "P954": [
+          {
+            "value": "5601839"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q31093606"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Lovinobaňa zastávka"
+          },
+          {
+            "value": "Lovinobana zast."
+          },
+          {
+            "lang": "cs",
+            "value": "Lovinobaňa"
+          },
+          {
+            "lang": "en",
+            "value": "Lovinobaňa railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Lónyabánya vasútállomás"
           }
         ]
       },
@@ -12565,22 +12986,21 @@
             "value": "SKBTV"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600585",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28645"
               }
             ],
-            "value": "5600585"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600585"
           }
         ],
@@ -12729,22 +13149,21 @@
             "value": "https://stanicakosice.sk/"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600007",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28647"
               }
             ],
-            "value": "5600007"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600007"
           }
         ],
@@ -13167,11 +13586,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -13198,22 +13612,21 @@
             "value": "5613613"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600177",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32561"
               }
             ],
-            "value": "5600177"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600177"
           }
         ],
@@ -13499,7 +13912,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "136267-5602356-Q56389876",
+      "id": "136267-5602356-trainline-68111-Q56389876",
       "properties": {
         "P131": [
           {
@@ -13532,6 +13945,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68111"
+              }
+            ],
+            "value": "68111"
+          }
+        ],
         "P722": [
           {
             "value": "5613626"
@@ -13539,6 +13965,19 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68111"
+              }
+            ],
             "value": "5602356"
           }
         ],
@@ -13585,7 +14024,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "136366-5602357",
+      "id": "136366-SK136366-5602357",
       "properties": {
         "P17": [
           {
@@ -13610,6 +14049,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613636"
           }
         ],
@@ -13622,6 +14069,10 @@
           {
             "lang": "sk",
             "value": "Pezinok zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Pezinok zastávka"
           },
           {
             "value": "Pezinok zast."
@@ -13692,16 +14143,16 @@
             "value": "Senkvice"
           },
           {
-            "lang": "cs",
-            "value": "Šenkvice"
-          },
-          {
             "lang": "hu",
             "value": "Senkőc vasútállomás"
           },
           {
             "lang": "sk",
             "value": "Železničná stanica Šenkvice"
+          },
+          {
+            "lang": "cs",
+            "value": "Šenkvice"
           }
         ]
       },
@@ -14000,11 +14451,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P722": [
           {
             "value": "5613666"
@@ -14121,22 +14567,21 @@
             "value": "5613676"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600195",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32567"
               }
             ],
-            "value": "5600195"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600195"
           }
         ],
@@ -14288,7 +14733,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "136861-Q111686217",
+      "id": "136861-SK136861-5603164-Q111686217",
       "properties": {
         "P17": [
           {
@@ -14318,7 +14763,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613686"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5603164"
           }
         ],
         "PWIKI": [
@@ -14330,6 +14788,13 @@
           {
             "lang": "sk",
             "value": "Trnava predm."
+          },
+          {
+            "lang": "sk",
+            "value": "Trnava predmestie"
+          },
+          {
+            "value": "Trnava predmestie"
           },
           {
             "lang": "de",
@@ -14346,6 +14811,10 @@
           {
             "lang": "nl",
             "value": "station Trnava predmestie"
+          },
+          {
+            "lang": "cs",
+            "value": "Trnava predmestie"
           }
         ]
       },
@@ -14483,11 +14952,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -14514,22 +14978,21 @@
             "value": "5613693"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600052",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38893"
               }
             ],
-            "value": "5600052"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600052"
           }
         ],
@@ -14732,7 +15195,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "137034-5600957",
+      "id": "137034-SK137034-5600957",
       "properties": {
         "P17": [
           {
@@ -14757,6 +15220,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613703"
           }
         ],
@@ -14769,6 +15240,10 @@
           {
             "lang": "sk",
             "value": "Fiľakovo zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Fiľakovo zastávka"
           },
           {
             "value": "Filakovo zast."
@@ -15008,26 +15483,21 @@
             "value": "5613716"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600082",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38898"
               }
             ],
-            "value": "5600082"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5600082"
           }
         ],
@@ -15391,11 +15861,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -15414,22 +15879,21 @@
             "value": "5613746"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600162",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32564"
               }
             ],
-            "value": "5600162"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600162"
           }
         ],
@@ -15542,22 +16006,21 @@
             "value": "5613750"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601971",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38910"
               }
             ],
-            "value": "5601971"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601971"
           }
         ],
@@ -16321,11 +16784,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -16352,22 +16810,21 @@
             "value": "5613803"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600069",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38895"
               }
             ],
-            "value": "5600069"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600069"
           }
         ],
@@ -16608,11 +17065,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P5595": [
           {
             "value": "4"
@@ -16644,22 +17096,21 @@
             "value": "5613816"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600148",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33353"
               }
             ],
-            "value": "5600148"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600148"
           }
         ],
@@ -16777,7 +17228,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "138230-5601368",
+      "id": "138230-SK138230-5601368",
       "properties": {
         "P17": [
           {
@@ -16802,6 +17253,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613823"
           }
         ],
@@ -16814,6 +17273,10 @@
           {
             "lang": "sk",
             "value": "Jesenské zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Jesenské zastávka"
           },
           {
             "value": "Jesenske zast."
@@ -17093,15 +17556,21 @@
     {
       "geometry": {
         "coordinates": [
-          18.02246,
-          48.90036
+          [
+            18.02246,
+            48.90036
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "138461",
+      "id": "138461-5603578-Q61951468",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -17117,14 +17586,56 @@
             "value": "138461"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P722": [
           {
             "value": "5613846"
           }
         ],
+        "P954": [
+          {
+            "value": "5603578"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q61951468"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
+            "value": "Trenčín-Zlatovce"
+          },
+          {
+            "value": "Zlatovce"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Trenčín-Zlatovce"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Trenčín-Zlatovce"
+          },
+          {
+            "lang": "en",
+            "value": "Trenčín-Zlatovce railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Trenčín-Zlatovce"
+          },
+          {
+            "lang": "nl",
+            "value": "station Trenčín-Zlatovce"
+          },
+          {
+            "lang": "cs",
             "value": "Trenčín-Zlatovce"
           }
         ]
@@ -17357,6 +17868,12 @@
         ],
         "P31": [
           {
+            "value": "Q1402443"
+          },
+          {
+            "value": "Q114782406"
+          },
+          {
             "value": "Q55488"
           }
         ],
@@ -17413,26 +17930,21 @@
             "value": "SKABM"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600124",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28640"
               }
             ],
-            "value": "5600124"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5600124"
           }
         ],
@@ -17625,22 +18137,21 @@
             "value": "5613866"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600105",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32253"
               }
             ],
-            "value": "5600105"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600105"
           }
         ],
@@ -17691,7 +18202,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "138701-SK138701-Q111702750",
+      "id": "138701-SK138701-5600825-Q111702750",
       "properties": {
         "P17": [
           {
@@ -17732,6 +18243,11 @@
             "value": "5613870"
           }
         ],
+        "P954": [
+          {
+            "value": "5600825"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q111702750"
@@ -17741,6 +18257,9 @@
           {
             "lang": "sk",
             "value": "Dobrá"
+          },
+          {
+            "value": "Dobra pri Ciernej n.T."
           },
           {
             "lang": "de",
@@ -17772,7 +18291,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "138768-Q111686240",
+      "id": "138768-SK138768-5603158-Q111686240",
       "properties": {
         "P17": [
           {
@@ -17802,7 +18321,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613876"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5603158"
           }
         ],
         "PWIKI": [
@@ -17814,6 +18346,13 @@
           {
             "lang": "sk",
             "value": "Trenčín predm."
+          },
+          {
+            "lang": "sk",
+            "value": "Trenčín predmestie"
+          },
+          {
+            "value": "Trencin predmestie"
           },
           {
             "lang": "de",
@@ -17997,22 +18536,21 @@
             "value": "5613886"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600032",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38891"
               }
             ],
-            "value": "5600032"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600032"
           }
         ],
@@ -18056,15 +18594,21 @@
     {
       "geometry": {
         "coordinates": [
-          22.07065,
-          48.41648
+          [
+            22.07065,
+            48.41648
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "138909",
+      "id": "138909-SK138909-5600757",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -18082,13 +18626,33 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5613890"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5600757"
           }
         ],
         "labels": [
           {
             "lang": "sk",
             "value": "Čierna n.Tisou z."
+          },
+          {
+            "lang": "sk",
+            "value": "Čierna nad Tisou zastávka"
+          },
+          {
+            "value": "Cierna nad Tis. zast"
           }
         ]
       },
@@ -18104,7 +18668,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "138966-SK138966-Q111686238",
+      "id": "138966-SK138966-5602253-Q111686238",
       "properties": {
         "P17": [
           {
@@ -18145,6 +18709,11 @@
             "value": "5613896"
           }
         ],
+        "P954": [
+          {
+            "value": "5602253"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q111686238"
@@ -18154,6 +18723,9 @@
           {
             "lang": "sk",
             "value": "Trenčín-Opatová"
+          },
+          {
+            "value": "Opatova nad Vahom"
           },
           {
             "lang": "de",
@@ -18227,11 +18799,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -18272,12 +18839,12 @@
             "value": "Tornalja vasútállomás"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Tornaľa"
-          },
-          {
             "lang": "en",
             "value": "Tornaľa railway station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Tornaľa"
           },
           {
             "lang": "fr",
@@ -18727,16 +19294,16 @@
             "value": "Štrbské Pleso"
           },
           {
-            "lang": "cs",
-            "value": "železniční stanice Štrbské Pleso"
-          },
-          {
             "lang": "en",
             "value": "Štrbské Pleso railway station"
           },
           {
             "lang": "fr",
             "value": "gare de Štrbské Pleso"
+          },
+          {
+            "lang": "cs",
+            "value": "železniční stanice Štrbské Pleso"
           },
           {
             "lang": "sk",
@@ -19083,22 +19650,21 @@
             "value": "5614050"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600273",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
               }
             ],
-            "value": "5600273"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600273"
           }
         ],
@@ -19353,11 +19919,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q6655"
           }
         ],
         "P722": [
@@ -20172,6 +20733,10 @@
             "value": "Sastin-Straze"
           },
           {
+            "lang": "cs",
+            "value": "Šaštín-Stráže"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Šaštín-Stráže"
           },
@@ -20184,12 +20749,12 @@
             "value": "gare de Šaštín-Stráže"
           },
           {
-            "lang": "sk",
-            "value": "Železničná stanica Šaštín-Stráže"
-          },
-          {
             "lang": "nl",
             "value": "station Šaštín-Stráže"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Šaštín-Stráže"
           }
         ]
       },
@@ -20254,11 +20819,14 @@
             "value": "5614120"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600273",
+            "value": "5602208"
+          },
+          {
+            "enabled": false,
             "info": {
-              "reliability": 0.5800000000000001
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -20266,11 +20834,6 @@
               }
             ],
             "value": "5600273"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5602208"
           }
         ],
         "labels": [
@@ -20394,22 +20957,21 @@
             "value": "5614123"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600120",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33359"
               }
             ],
-            "value": "5600120"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600120"
           }
         ],
@@ -20452,7 +21014,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "141267-SK141267-5600551-trainline-38903-Q111701917",
+      "id": "141267-SK141267-5600551-trainline-38903",
       "properties": {
         "P17": [
           {
@@ -20473,11 +21035,6 @@
               ]
             },
             "value": "141267"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -20506,11 +21063,15 @@
             "value": "5614126"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600551",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -20518,16 +21079,6 @@
               }
             ],
             "value": "5600551"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5600551"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q111701917"
           }
         ],
         "labels": [
@@ -20541,22 +21092,6 @@
           {
             "lang": "sk",
             "value": "Borsky Mikulas"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Borský Mikuláš"
-          },
-          {
-            "lang": "en",
-            "value": "Borský Mikuláš railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Borský Mikuláš"
-          },
-          {
-            "lang": "nl",
-            "value": "station Borský Mikuláš"
           }
         ]
       },
@@ -20572,7 +21107,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "141309-SK141309-5600897-trainline-33358",
+      "id": "141309-SK141309-5600897",
       "properties": {
         "P17": [
           {
@@ -20595,19 +21130,6 @@
             "value": "141309"
           }
         ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
-              }
-            ],
-            "value": "33358"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -20619,20 +21141,6 @@
               "reliability": 0.38
             },
             "value": "5614130"
-          }
-        ],
-        "P8671": [
-          {
-            "enabled": "5600273",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
-              }
-            ],
-            "value": "5600273"
           }
         ],
         "P954": [
@@ -20647,10 +21155,6 @@
           },
           {
             "value": "Dolny Smokovec"
-          },
-          {
-            "lang": "sk",
-            "value": "Starý Smokovec"
           }
         ]
       },
@@ -20707,7 +21211,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "141366-Q111694193",
+      "id": "141366-5602798-trainline-38913-Q111694193",
       "properties": {
         "P17": [
           {
@@ -20735,9 +21239,40 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38913"
+              }
+            ],
+            "value": "38913"
+          }
+        ],
         "P722": [
           {
             "value": "5614136"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38913"
+              }
+            ],
+            "value": "5602798"
           }
         ],
         "PWIKI": [
@@ -20749,6 +21284,13 @@
           {
             "lang": "sk",
             "value": "Senica"
+          },
+          {
+            "value": "Senica nad Myjavou"
+          },
+          {
+            "lang": "sk",
+            "value": "Senica nad Myjavou"
           },
           {
             "lang": "de",
@@ -20955,7 +21497,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "141465-SK141465-5603025-Q111693831",
+      "id": "141465-SK141465-5603025",
       "properties": {
         "P17": [
           {
@@ -20978,11 +21520,6 @@
             "value": "141465"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -21001,11 +21538,6 @@
             "value": "5603025"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q111693831"
-          }
-        ],
         "labels": [
           {
             "lang": "sk",
@@ -21013,22 +21545,6 @@
           },
           {
             "value": "Sajdikove Humence"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Šajdíkove Humence"
-          },
-          {
-            "lang": "en",
-            "value": "Šajdíkove Humence railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Šajdíkove Humence"
-          },
-          {
-            "lang": "nl",
-            "value": "station Šajdíkove Humence"
           }
         ]
       },
@@ -21196,7 +21712,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "141606-SK141606-5601139-trainline-33358",
+      "id": "141606-SK141606-5601139",
       "properties": {
         "P17": [
           {
@@ -21219,19 +21735,6 @@
             "value": "141606"
           }
         ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
-              }
-            ],
-            "value": "33358"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -21243,20 +21746,6 @@
               "reliability": 0.38
             },
             "value": "5614160"
-          }
-        ],
-        "P8671": [
-          {
-            "enabled": "5600273",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33358"
-              }
-            ],
-            "value": "5600273"
           }
         ],
         "P954": [
@@ -21271,10 +21760,6 @@
           },
           {
             "value": "Horny Smokovec"
-          },
-          {
-            "lang": "sk",
-            "value": "Starý Smokovec"
           }
         ]
       },
@@ -21323,11 +21808,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -21357,6 +21837,10 @@
             "value": "Jablonica"
           },
           {
+            "value": "Jablonica"
+          },
+          {
+            "lang": "cs",
             "value": "Jablonica"
           },
           {
@@ -21467,6 +21951,10 @@
           {
             "lang": "nl",
             "value": "station Cerová-Lieskové"
+          },
+          {
+            "lang": "cs",
+            "value": "Cerová-Lieskové"
           }
         ]
       },
@@ -21730,11 +22218,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -21777,6 +22260,10 @@
           {
             "lang": "sk",
             "value": "Železničná stanica Slovenská Ľupča"
+          },
+          {
+            "lang": "cs",
+            "value": "Slovenská Ľupča"
           }
         ]
       },
@@ -22050,6 +22537,10 @@
           {
             "lang": "nl",
             "value": "station Smolenice"
+          },
+          {
+            "lang": "cs",
+            "value": "Smolenice"
           }
         ]
       },
@@ -22318,22 +22809,21 @@
             "value": "5614230"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601464",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33352"
               }
             ],
-            "value": "5601464"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601464"
           }
         ],
@@ -22478,7 +22968,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "142364-SK142364-5600647-Q111703090",
+      "id": "142364-SK142364-5600647",
       "properties": {
         "P17": [
           {
@@ -22501,11 +22991,6 @@
             "value": "142364"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -22524,11 +23009,6 @@
             "value": "5600647"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q111703090"
-          }
-        ],
         "labels": [
           {
             "lang": "sk",
@@ -22536,22 +23016,6 @@
           },
           {
             "value": "Bukova"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Buková"
-          },
-          {
-            "lang": "en",
-            "value": "Buková railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Buková"
-          },
-          {
-            "lang": "nl",
-            "value": "station Buková"
           }
         ]
       },
@@ -22715,6 +23179,10 @@
           },
           {
             "value": "Boleraz"
+          },
+          {
+            "lang": "cs",
+            "value": "Boleráz"
           },
           {
             "lang": "de",
@@ -22890,7 +23358,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "142562-SK142562-5600482-Q111701933",
+      "id": "142562-SK142562-5600482",
       "properties": {
         "P17": [
           {
@@ -22913,11 +23381,6 @@
             "value": "142562"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -22936,11 +23399,6 @@
             "value": "5600482"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q111701933"
-          }
-        ],
         "labels": [
           {
             "lang": "sk",
@@ -22948,22 +23406,6 @@
           },
           {
             "value": "Binovce"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Bíňovce"
-          },
-          {
-            "lang": "en",
-            "value": "Bíňovce railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Bíňovce"
-          },
-          {
-            "lang": "nl",
-            "value": "station Bíňovce"
           }
         ]
       },
@@ -22979,7 +23421,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "142604-SK142604-Q86675073",
+      "id": "142604-SK142604-5602950-Q86675073",
       "properties": {
         "P131": [
           {
@@ -23025,6 +23467,11 @@
             "value": "5614260"
           }
         ],
+        "P954": [
+          {
+            "value": "5602950"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q86675073"
@@ -23034,6 +23481,9 @@
           {
             "lang": "sk",
             "value": "Kežmarok-Pradiareň"
+          },
+          {
+            "value": "Strazky"
           },
           {
             "lang": "de",
@@ -23167,7 +23617,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "142661-SK142661-5601479-Q111701694",
+      "id": "142661-SK142661-5601479",
       "properties": {
         "P17": [
           {
@@ -23190,11 +23640,6 @@
             "value": "142661"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -23213,11 +23658,6 @@
             "value": "5601479"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q111701694"
-          }
-        ],
         "labels": [
           {
             "lang": "sk",
@@ -23225,22 +23665,6 @@
           },
           {
             "value": "Klcovany"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Klčovany"
-          },
-          {
-            "lang": "en",
-            "value": "Klčovany railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Klčovany"
-          },
-          {
-            "lang": "nl",
-            "value": "station Klčovany"
           }
         ]
       },
@@ -23256,7 +23680,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "142703-SK142703",
+      "id": "142703-SK142703-5602951",
       "properties": {
         "P17": [
           {
@@ -23292,10 +23716,18 @@
             "value": "5614270"
           }
         ],
+        "P954": [
+          {
+            "value": "5602951"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Strážky zastávka"
+          },
+          {
+            "value": "Strazky zast."
           }
         ]
       },
@@ -23452,6 +23884,10 @@
             "value": "Selpice"
           },
           {
+            "lang": "cs",
+            "value": "Šelpice"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Šelpice"
           },
@@ -23481,7 +23917,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "142802-5602896",
+      "id": "142802-SK142802-5602896",
       "properties": {
         "P17": [
           {
@@ -23506,6 +23942,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614280"
           }
         ],
@@ -23518,6 +23962,10 @@
           {
             "lang": "sk",
             "value": "Spišská Belá zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Spišská Belá zastávka"
           },
           {
             "value": "Spisska Bela zast."
@@ -24084,22 +24532,21 @@
             "value": "5614306"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600976",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38904"
               }
             ],
-            "value": "5600976"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600976"
           }
         ],
@@ -24240,7 +24687,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "143164-5600977",
+      "id": "143164-SK143164-5600977",
       "properties": {
         "P17": [
           {
@@ -24265,6 +24712,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614316"
           }
         ],
@@ -24277,6 +24732,10 @@
           {
             "lang": "sk",
             "value": "Gbely zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Gbely zastávka"
           },
           {
             "value": "Gbely zast."
@@ -24550,22 +25009,21 @@
             "value": "5614326"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601084",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38905"
               }
             ],
-            "value": "5601084"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601084"
           }
         ],
@@ -24812,7 +25270,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "143362-SK143362-5603756-Q111699555",
+      "id": "143362-SK143362-5603756",
       "properties": {
         "P17": [
           {
@@ -24835,11 +25293,6 @@
             "value": "143362"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -24858,11 +25311,6 @@
             "value": "5603756"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q111699555"
-          }
-        ],
         "labels": [
           {
             "lang": "sk",
@@ -24870,22 +25318,6 @@
           },
           {
             "value": "Kopcany"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Kopčany"
-          },
-          {
-            "lang": "en",
-            "value": "Kopčany railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Kopčany"
-          },
-          {
-            "lang": "nl",
-            "value": "station Kopčany"
           }
         ]
       },
@@ -24999,7 +25431,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "143461-SK143461-5603757-Q111701713",
+      "id": "143461-SK143461-5603757",
       "properties": {
         "P17": [
           {
@@ -25022,11 +25454,6 @@
             "value": "143461"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -25045,11 +25472,6 @@
             "value": "5603757"
           }
         ],
-        "PWIKI": [
-          {
-            "value": "Q111701713"
-          }
-        ],
         "labels": [
           {
             "lang": "sk",
@@ -25057,22 +25479,6 @@
           },
           {
             "value": "Katov"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Kátov"
-          },
-          {
-            "lang": "en",
-            "value": "Kátov railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Kátov"
-          },
-          {
-            "lang": "nl",
-            "value": "station Kátov"
           }
         ]
       },
@@ -25245,22 +25651,21 @@
             "value": "5614353"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600039",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38892"
               }
             ],
-            "value": "5600039"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600039"
           }
         ],
@@ -25570,22 +25975,21 @@
             "value": "5614366"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602811",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38914"
               }
             ],
-            "value": "5602811"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602811"
           }
         ],
@@ -26254,22 +26658,21 @@
             "value": "SKAMY"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602377",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28642"
               }
             ],
-            "value": "5602377"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602377"
           }
         ],
@@ -26320,7 +26723,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "143933-5600645",
+      "id": "143933-SK143933-5600645",
       "properties": {
         "P17": [
           {
@@ -26345,6 +26748,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614393"
           }
         ],
@@ -26357,6 +26768,10 @@
           {
             "lang": "sk",
             "value": "Bujakovo zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Bujakovo zastávka"
           },
           {
             "value": "Bujakovo zast."
@@ -26819,16 +27234,16 @@
             "value": "Bacúch railway station"
           },
           {
+            "lang": "pl",
+            "value": "Bacúch"
+          },
+          {
             "lang": "fr",
             "value": "gare de Bacúch"
           },
           {
             "lang": "nl",
             "value": "station Bacúch"
-          },
-          {
-            "lang": "pl",
-            "value": "Bacúch"
           }
         ]
       },
@@ -27003,6 +27418,10 @@
             "value": "station Polomka"
           },
           {
+            "lang": "sk",
+            "value": "Železničná stanica Polomka"
+          },
+          {
             "lang": "pl",
             "value": "Polomka"
           }
@@ -27119,11 +27538,6 @@
         "P31": [
           {
             "value": "Q55488"
-          }
-        ],
-        "P421": [
-          {
-            "value": "Q25989"
           }
         ],
         "P722": [
@@ -27826,15 +28240,26 @@
     {
       "geometry": {
         "coordinates": [
-          17.13373,
-          48.18463
+          [
+            17.13373,
+            48.18463
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "145169",
+      "id": "145169-SK145169-5600578-trainline-28644-Q9179063",
       "properties": {
+        "P131": [
+          {
+            "value": "Q1780"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -27850,15 +28275,134 @@
             "value": "145169"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28644"
+              }
+            ],
+            "value": "28644"
+          }
+        ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 1.02
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28644"
+              }
+            ],
             "value": "5614516"
+          }
+        ],
+        "P8448": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28644"
+              }
+            ],
+            "value": "SKBTS"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28644"
+              }
+            ],
+            "value": "5600578"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q9179063"
           }
         ],
         "labels": [
           {
             "lang": "sk",
             "value": "Bratislava predm."
+          },
+          {
+            "lang": "sk",
+            "value": "Bratislava predmestie"
+          },
+          {
+            "value": "Bratislava predmesti"
+          },
+          {
+            "lang": "sk",
+            "value": "Bratislava Predmestie"
+          },
+          {
+            "lang": "en",
+            "value": "Bratislava predmestie railway station"
+          },
+          {
+            "lang": "pl",
+            "value": "Bratislava Predmestie"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Bratislava predmestie"
+          },
+          {
+            "lang": "pl",
+            "value": "Bratislava predmestie"
+          },
+          {
+            "lang": "sk",
+            "value": "Bratislava-Predmestie"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Bratislava-Predmestie"
+          },
+          {
+            "lang": "sk",
+            "value": "ŽST Bratislava-Predmestie"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Bratislava predmestie"
           }
         ]
       },
@@ -28103,11 +28647,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -28173,7 +28712,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "145508-5600049-Q111702704",
+      "id": "145508-SK145508-5600049-Q111702704",
       "properties": {
         "P17": [
           {
@@ -28203,6 +28742,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614550"
           }
         ],
@@ -28220,6 +28767,10 @@
           {
             "lang": "sk",
             "value": "Dobšinská Ľadová Jas."
+          },
+          {
+            "lang": "sk",
+            "value": "Dobšinská Ľadová Jaskyňa"
           },
           {
             "value": "Dobsinska Ladova Ja."
@@ -28441,7 +28992,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "145763-SK145763-5600582-XYBZ-Q800563",
+      "id": "145763-5600582-SK145763-5600582-XYBZ-Q800563",
       "properties": {
         "P1103": [
           {
@@ -28480,6 +29031,9 @@
         "P31": [
           {
             "value": "Q55488"
+          },
+          {
+            "value": "Q1402443"
           }
         ],
         "P722": [
@@ -28514,9 +29068,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
             "references": [
               {
@@ -28535,6 +29092,10 @@
           {
             "lang": "sk",
             "value": "Bratislava-Petržalka"
+          },
+          {
+            "lang": "de",
+            "value": "Bratislava-Petrzalka"
           },
           {
             "value": "Bratislava-Petrzalka"
@@ -28723,7 +29284,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "145862-SK145862-5600217-Q9324128",
+      "id": "145862-SK145862-5600217-trainline-68130-Q9324128",
       "properties": {
         "P131": [
           {
@@ -28761,6 +29322,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68130"
+              }
+            ],
+            "value": "68130"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -28776,6 +29350,19 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68130"
+              }
+            ],
             "value": "5600217"
           }
         ],
@@ -29246,7 +29833,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "146167-Q3490099",
+      "id": "146167-SK146167-5600209-XYBN-trainline-28643-Q3490099",
       "properties": {
         "P131": [
           {
@@ -29279,27 +29866,98 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28643"
+              }
+            ],
+            "value": "28643"
+          }
+        ],
         "P722": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 1.02
             },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28643"
+              }
+            ],
             "value": "5614616"
           }
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28643"
+              }
+            ],
             "value": "SKBNM"
           }
         ],
         "P8671": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
             "value": "XYBN"
           }
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
+              "reliability": 1.5
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28643"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
             "value": "5600209"
           }
         ],
@@ -29312,6 +29970,17 @@
           {
             "lang": "sk",
             "value": "Bratislava-N.Mesto"
+          },
+          {
+            "lang": "sk",
+            "value": "Bratislava-Nové Mesto"
+          },
+          {
+            "value": "Bratislava Nove Mesto"
+          },
+          {
+            "lang": "sk",
+            "value": "Bratislava Nove Mesto"
           },
           {
             "lang": "cs",
@@ -30276,7 +30945,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "146688-SK146688",
+      "id": "146688-SK146688-5663127",
       "properties": {
         "P17": [
           {
@@ -30312,10 +30981,18 @@
             "value": "5614668"
           }
         ],
+        "P954": [
+          {
+            "value": "5663127"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Kvetoslavov zastávka"
+          },
+          {
+            "value": "Kvetoslavov zast."
           }
         ]
       },
@@ -31291,7 +31968,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "147330-Q97209297",
+      "id": "147330-SK147330-5614733-Q97209297",
       "properties": {
         "P17": [
           {
@@ -31321,6 +31998,19 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
+            "value": "5614733"
+          }
+        ],
+        "P954": [
+          {
             "value": "5614733"
           }
         ],
@@ -31335,6 +32025,13 @@
             "value": "Krupina predm."
           },
           {
+            "lang": "sk",
+            "value": "Krupina predmestie"
+          },
+          {
+            "value": "Krupina predmestie"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Krupina predmestie"
           },
@@ -31343,16 +32040,16 @@
             "value": "Krupina predmestie railway station"
           },
           {
+            "lang": "sk",
+            "value": "Železničná zastávka Krupina predmestie"
+          },
+          {
             "lang": "fr",
             "value": "gare de Krupina predmestie"
           },
           {
             "lang": "nl",
             "value": "station Krupina predmestie"
-          },
-          {
-            "lang": "sk",
-            "value": "Železničná zastávka Krupina predmestie"
           }
         ]
       },
@@ -32059,15 +32756,26 @@
     {
       "geometry": {
         "coordinates": [
-          19.1011196,
-          48.4783146
+          [
+            19.1011196,
+            48.4783146
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "147835",
+      "id": "147835-5614773-Q97209262",
       "properties": {
+        "P131": [
+          {
+            "value": "Q383852"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -32083,15 +32791,41 @@
             "value": "147835"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P722": [
           {
             "value": "5614783"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5614773"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97209262"
           }
         ],
         "labels": [
           {
             "lang": "sk",
             "value": "Dobrá Niva zast."
+          },
+          {
+            "value": "Dobra Niva"
+          },
+          {
+            "lang": "en",
+            "value": "Dobrá Niva railway station"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Dobrá Niva"
           }
         ]
       },
@@ -33951,12 +34685,12 @@
             "value": "gare de Helcmanovce"
           },
           {
-            "lang": "pl",
-            "value": "Helcmanovce"
-          },
-          {
             "lang": "nl",
             "value": "station Helcmanovce"
+          },
+          {
+            "lang": "pl",
+            "value": "Helcmanovce"
           }
         ]
       },
@@ -34209,22 +34943,21 @@
             "value": "5614906"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600023",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38888"
               }
             ],
-            "value": "5600023"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600023"
           }
         ],
@@ -34470,7 +35203,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "149401-SK149401",
+      "id": "149401-SK149401-5602525",
       "properties": {
         "P17": [
           {
@@ -34506,10 +35239,18 @@
             "value": "5614940"
           }
         ],
+        "P954": [
+          {
+            "value": "5602525"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Prakovce zastávka"
+          },
+          {
+            "value": "Prakovce zast."
           }
         ]
       },
@@ -34835,6 +35576,10 @@
             "value": "Gelnica mesto"
           },
           {
+            "lang": "pl",
+            "value": "Gelnica mesto"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Gelnica mesto"
           },
@@ -34849,10 +35594,6 @@
           {
             "lang": "nl",
             "value": "station Gelnica mesto"
-          },
-          {
-            "lang": "pl",
-            "value": "Gelnica mesto"
           }
         ]
       },
@@ -34868,7 +35609,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "149633-5601506-Q111699592",
+      "id": "149633-SK149633-5601506-Q111699592",
       "properties": {
         "P17": [
           {
@@ -34898,6 +35639,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5614963"
           }
         ],
@@ -34915,6 +35664,10 @@
           {
             "lang": "sk",
             "value": "Kokava n.Rim.-Liešnica"
+          },
+          {
+            "lang": "sk",
+            "value": "Kokava nad Rimavicou-Liešnica"
           },
           {
             "value": "Kokava n.R.-Liesnica"
@@ -35626,22 +36379,21 @@
             "value": "5615033"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602650",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32565"
               }
             ],
-            "value": "5602650"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602650"
           }
         ],
@@ -35925,22 +36677,21 @@
             "value": "5615060"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600184",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32566"
               }
             ],
-            "value": "5600184"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600184"
           }
         ],
@@ -37024,22 +37775,21 @@
             "value": "5615146"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600408",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33351"
               }
             ],
-            "value": "5600408"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600408"
           }
         ],
@@ -37408,7 +38158,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "151704-SK151704-5600143",
+      "id": "151704-SK151704-5600143-Q56389849",
       "properties": {
         "P17": [
           {
@@ -37431,6 +38181,11 @@
             "value": "151704"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -37449,6 +38204,11 @@
             "value": "5600143"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q56389849"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
@@ -37460,6 +38220,26 @@
           },
           {
             "value": "Moldava nad Bodvou"
+          },
+          {
+            "lang": "hu",
+            "value": "Makranc megállóhely"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Mokrance"
+          },
+          {
+            "lang": "en",
+            "value": "Mokrance railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Mokrance"
+          },
+          {
+            "lang": "nl",
+            "value": "station Mokrance"
           }
         ]
       },
@@ -37626,10 +38406,6 @@
           {
             "lang": "fr",
             "value": "gare de Dolné Naštice"
-          },
-          {
-            "lang": "nl",
-            "value": "station Dolné Naštice"
           }
         ]
       },
@@ -38064,22 +38840,21 @@
             "value": "5615196"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601307",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38906"
               }
             ],
-            "value": "5601307"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601307"
           }
         ],
@@ -38274,8 +39049,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "152066-SK152066-5600096-trainline-38899",
+      "id": "152066-SK152066-5600096-trainline-38899-Q55281188",
       "properties": {
+        "P131": [
+          {
+            "value": "Q392704"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -38295,6 +39075,11 @@
               ]
             },
             "value": "152066"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -38323,11 +39108,15 @@
             "value": "5615206"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600096",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -38337,9 +39126,9 @@
             "value": "5600096"
           }
         ],
-        "P954": [
+        "PWIKI": [
           {
-            "value": "5600096"
+            "value": "Q55281188"
           }
         ],
         "labels": [
@@ -38353,6 +39142,14 @@
           {
             "lang": "sk",
             "value": "Surany"
+          },
+          {
+            "lang": "hu",
+            "value": "Nagysurány vasútállomás"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Šurany"
           }
         ]
       },
@@ -38724,7 +39521,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "152264-5603075",
+      "id": "152264-SK152264-5603075",
       "properties": {
         "P17": [
           {
@@ -38749,6 +39546,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615226"
           }
         ],
@@ -38761,6 +39566,10 @@
           {
             "lang": "sk",
             "value": "Šurany zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Šurany zastávka"
           },
           {
             "value": "Surany zast."
@@ -39402,7 +40211,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "152637-5601064",
+      "id": "152637-SK152637-5601064",
       "properties": {
         "P17": [
           {
@@ -39427,6 +40236,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615263"
           }
         ],
@@ -39439,6 +40256,10 @@
           {
             "lang": "sk",
             "value": "Hnúšťa zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Hnúšťa zastávka"
           },
           {
             "value": "Hnusta zast."
@@ -40484,22 +41305,21 @@
             "value": "5615306"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602139",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32563"
               }
             ],
-            "value": "5602139"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602139"
           }
         ],
@@ -40639,7 +41459,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "153163-SK153163",
+      "id": "153163-SK153163-5602140",
       "properties": {
         "P17": [
           {
@@ -40675,10 +41495,18 @@
             "value": "5615316"
           }
         ],
+        "P954": [
+          {
+            "value": "5602140"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Nitra zastávka"
+          },
+          {
+            "value": "Nitra zast."
           }
         ]
       },
@@ -40926,22 +41754,21 @@
             "value": "5615336"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600178",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38900"
               }
             ],
-            "value": "5600178"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600178"
           }
         ],
@@ -41760,6 +42587,10 @@
             "value": "Slatina"
           },
           {
+            "lang": "en",
+            "value": "Slatina railway station"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Slatina"
           },
@@ -41770,10 +42601,6 @@
           {
             "lang": "nl",
             "value": "station Slatina"
-          },
-          {
-            "lang": "en",
-            "value": "Slatina railway station"
           }
         ]
       },
@@ -41789,7 +42616,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "154468-5602534",
+      "id": "154468-SK154468-5602534",
       "properties": {
         "P17": [
           {
@@ -41814,6 +42641,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615446"
           }
         ],
@@ -41826,6 +42661,10 @@
           {
             "lang": "sk",
             "value": "Preseľany n.Nitrou z."
+          },
+          {
+            "lang": "sk",
+            "value": "Preseľany nad Nitrou zastávka"
           },
           {
             "value": "Preselany n.Nitrou z"
@@ -42233,22 +43072,21 @@
             "value": "5615506"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5603142",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33356"
               }
             ],
-            "value": "5603142"
-          }
-        ],
-        "P954": [
-          {
             "value": "5603142"
           }
         ],
@@ -42469,7 +43307,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "155366-SK155366-5603604",
+      "id": "155366-SK155366-5603604-Q99482687",
       "properties": {
         "P17": [
           {
@@ -42492,6 +43330,11 @@
             "value": "155366"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -42510,6 +43353,11 @@
             "value": "5603604"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q99482687"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
@@ -42521,6 +43369,10 @@
           },
           {
             "value": "Zabokreky nad Nitrou"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Žabokreky nad Nitrou"
           }
         ]
       },
@@ -42733,22 +43585,21 @@
             "value": "5615556"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602321",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33354"
               }
             ],
-            "value": "5602321"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602321"
           }
         ],
@@ -42774,7 +43625,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "155663-5602322",
+      "id": "155663-SK155663-5602322",
       "properties": {
         "P17": [
           {
@@ -42799,6 +43650,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615566"
           }
         ],
@@ -42811,6 +43670,10 @@
           {
             "lang": "sk",
             "value": "Partizánske zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Partizánske zastávka"
           },
           {
             "value": "Partizanske zast."
@@ -43159,12 +44022,12 @@
             "value": "Hul"
           },
           {
-            "lang": "sk",
-            "value": "Železničná stanica Hul"
-          },
-          {
             "lang": "en",
             "value": "Hul railway station"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Hul"
           }
         ]
       },
@@ -43239,22 +44102,21 @@
             "value": "5615626"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602407",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38912"
               }
             ],
-            "value": "5602407"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602407"
           }
         ],
@@ -43850,11 +44712,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -43985,16 +44842,16 @@
             "value": "Drienovská Nová Ves railway station"
           },
           {
+            "lang": "pl",
+            "value": "Drienovská Nová Ves"
+          },
+          {
             "lang": "fr",
             "value": "gare de Drienovská Nová Ves"
           },
           {
             "lang": "nl",
             "value": "station Drienovská Nová Ves"
-          },
-          {
-            "lang": "pl",
-            "value": "Drienovská Nová Ves"
           }
         ]
       },
@@ -44010,7 +44867,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "157164-SK157164-5600024-Q30531413",
+      "id": "157164-SK157164-5600024-trainline-68090-Q30531413",
       "properties": {
         "P131": [
           {
@@ -44043,6 +44900,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68090"
+              }
+            ],
+            "value": "68090"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -44058,6 +44928,19 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68090"
+              }
+            ],
             "value": "5600024"
           }
         ],
@@ -44206,8 +45089,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "157263-SK157263-5603330",
+      "id": "157263-SK157263-5603330-Q98554284",
       "properties": {
+        "P131": [
+          {
+            "value": "Q1044667"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -44229,6 +45117,11 @@
             "value": "157263"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -44247,6 +45140,11 @@
             "value": "5603330"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q98554284"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
@@ -44254,6 +45152,14 @@
           },
           {
             "value": "Velke Kozmalovce"
+          },
+          {
+            "lang": "en",
+            "value": "Railway station Veľké Kozmálovce"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Veľké Kozmálovce"
           }
         ]
       },
@@ -44702,22 +45608,21 @@
             "value": "5615750"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602535",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29310"
               }
             ],
-            "value": "5602535"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602535"
           }
         ],
@@ -44822,22 +45727,21 @@
             "value": "5615756"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600077",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38896"
               }
             ],
-            "value": "5600077"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600077"
           }
         ],
@@ -45250,22 +46154,21 @@
             "value": "5615800"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601440",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38907"
               }
             ],
-            "value": "5601440"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601440"
           }
         ],
@@ -45943,7 +46846,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "158600-SK158600-Q111698556",
+      "id": "158600-SK158600-5602114-Q111698556",
       "properties": {
         "P17": [
           {
@@ -45984,6 +46887,11 @@
             "value": "5615860"
           }
         ],
+        "P954": [
+          {
+            "value": "5602114"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q111698556"
@@ -45993,6 +46901,9 @@
           {
             "lang": "sk",
             "value": "Lipníky"
+          },
+          {
+            "value": "Nemcovce"
           },
           {
             "lang": "de",
@@ -46574,7 +47485,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "159160-5601710",
+      "id": "159160-SK159160-5601710",
       "properties": {
         "P17": [
           {
@@ -46599,6 +47510,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5615916"
           }
         ],
@@ -46611,6 +47530,10 @@
           {
             "lang": "sk",
             "value": "Leopoldov zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Leopoldov zastávka"
           },
           {
             "value": "Leopoldov zast."
@@ -47052,6 +47975,10 @@
           },
           {
             "value": "Vranov nad Toplou"
+          },
+          {
+            "lang": "cs",
+            "value": "Vranov nad Topľou"
           },
           {
             "lang": "en",
@@ -47668,22 +48595,21 @@
             "value": "5616010"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602953",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34696"
               }
             ],
-            "value": "5602953"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602953"
           }
         ],
@@ -47967,22 +48893,21 @@
             "value": "5616040"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601226",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34714"
               }
             ],
-            "value": "5601226"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601226"
           }
         ],
@@ -48757,7 +49682,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "161208-SK161208-Q111702751",
+      "id": "161208-SK161208-5603689-Q111702751",
       "properties": {
         "P17": [
           {
@@ -48798,6 +49723,11 @@
             "value": "5616120"
           }
         ],
+        "P954": [
+          {
+            "value": "5603689"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q111702751"
@@ -48811,6 +49741,9 @@
           {
             "lang": "sk",
             "value": "Dlhé nad Cirochou obec"
+          },
+          {
+            "value": "Dlhe nad Cirochou o."
           },
           {
             "lang": "de",
@@ -50430,22 +51363,21 @@
             "value": "5616220"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601947",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38909"
               }
             ],
-            "value": "5601947"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601947"
           }
         ],
@@ -50463,20 +51395,20 @@
             "value": "Medzilaborce"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Medzilaborce"
-          },
-          {
             "lang": "en",
             "value": "Medzilaborce railway station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Medzilaborce"
-          },
-          {
             "lang": "nl",
             "value": "station Medzilaborce"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Medzilaborce"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Medzilaborce"
           },
           {
             "lang": "pl",
@@ -50920,20 +51852,20 @@
             "value": "Slepcany"
           },
           {
-            "lang": "fr",
-            "value": "gare de Slepčany"
-          },
-          {
-            "lang": "nl",
-            "value": "station Slepčany"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Slepčany"
           },
           {
             "lang": "en",
             "value": "Slepčany railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Slepčany"
+          },
+          {
+            "lang": "nl",
+            "value": "station Slepčany"
           }
         ]
       },
@@ -51604,22 +52536,21 @@
             "value": "5616300"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602877",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34698"
               }
             ],
-            "value": "5602877"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602877"
           }
         ],
@@ -51933,7 +52864,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "163204-Q111693935",
+      "id": "163204-SK163204-5603699-Q111693935",
       "properties": {
         "P17": [
           {
@@ -51963,7 +52894,20 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5616320"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5603699"
           }
         ],
         "PWIKI": [
@@ -51975,6 +52919,13 @@
           {
             "lang": "sk",
             "value": "Snina predm."
+          },
+          {
+            "lang": "sk",
+            "value": "Snina predmestie"
+          },
+          {
+            "value": "Snina predmestie"
           },
           {
             "lang": "de",
@@ -52095,7 +53046,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "163303-SK163303-Q111693937",
+      "id": "163303-SK163303-5602878-Q111693937",
       "properties": {
         "P17": [
           {
@@ -52136,6 +53087,11 @@
             "value": "5616330"
           }
         ],
+        "P954": [
+          {
+            "value": "5602878"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q111693937"
@@ -52145,6 +53101,9 @@
           {
             "lang": "sk",
             "value": "Snina mesto"
+          },
+          {
+            "value": "Snina zast."
           },
           {
             "lang": "de",
@@ -53831,7 +54790,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "164467-SK164467",
+      "id": "164467-SK164467-5603466",
       "properties": {
         "P17": [
           {
@@ -53867,10 +54826,18 @@
             "value": "5616446"
           }
         ],
+        "P954": [
+          {
+            "value": "5603466"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Vrbovce zastávka"
+          },
+          {
+            "value": "Vrbovce zast."
           }
         ]
       },
@@ -55138,22 +56105,21 @@
             "value": "5616640"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5603149",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/34707"
               }
             ],
-            "value": "5603149"
-          }
-        ],
-        "P954": [
-          {
             "value": "5603149"
           }
         ],
@@ -55442,22 +56408,21 @@
             "value": "5616730"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601973",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32562"
               }
             ],
-            "value": "5601973"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601973"
           }
         ],
@@ -55479,12 +56444,12 @@
             "value": "Michalovce railway station"
           },
           {
-            "lang": "sk",
-            "value": "Železničná stanica Michalovce"
-          },
-          {
             "lang": "cs",
             "value": "Michalovce"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Michalovce"
           }
         ]
       },
@@ -55500,7 +56465,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "167403-5601974",
+      "id": "167403-SK167403-5601974",
       "properties": {
         "P17": [
           {
@@ -55525,6 +56490,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5616740"
           }
         ],
@@ -55537,6 +56510,10 @@
           {
             "lang": "sk",
             "value": "Michalovce zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Michalovce zastávka"
           },
           {
             "value": "Michalovce zast."
@@ -55648,7 +56625,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "169607-SK169607-Q111702657",
+      "id": "169607-SK169607-5603741-Q111702657",
       "properties": {
         "P17": [
           {
@@ -55689,6 +56666,11 @@
             "value": "5616960"
           }
         ],
+        "P954": [
+          {
+            "value": "5603741"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q111702657"
@@ -55698,6 +56680,9 @@
           {
             "lang": "sk",
             "value": "Drienovská Nová Ves obec"
+          },
+          {
+            "value": "Drienovska Nova V.o."
           },
           {
             "lang": "de",
@@ -56297,11 +57282,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q6655"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -56332,6 +57312,10 @@
           },
           {
             "value": "Bystricany"
+          },
+          {
+            "lang": "cs",
+            "value": "Bystričany"
           },
           {
             "lang": "en",
@@ -56505,14 +57489,6 @@
             "value": "Novaky"
           },
           {
-            "lang": "cs",
-            "value": "Nováky"
-          },
-          {
-            "lang": "sk",
-            "value": "Železničná stanica Nováky"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Nováky"
           },
@@ -56527,6 +57503,14 @@
           {
             "lang": "nl",
             "value": "station Nováky"
+          },
+          {
+            "lang": "cs",
+            "value": "Nováky"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Nováky"
           }
         ]
       },
@@ -56690,22 +57674,21 @@
             "value": "5617255"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602541",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29317"
               }
             ],
-            "value": "5602541"
-          }
-        ],
-        "P954": [
-          {
             "value": "5602541"
           }
         ],
@@ -56911,22 +57894,21 @@
             "value": "5617315"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5603735",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/33357"
               }
             ],
-            "value": "5603735"
-          }
-        ],
-        "P954": [
-          {
             "value": "5603735"
           }
         ],
@@ -57833,22 +58815,21 @@
             "value": "5617425"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600895",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32200"
               }
             ],
-            "value": "5600895"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600895"
           }
         ],
@@ -57895,7 +58876,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "174359-5600896",
+      "id": "174359-SK174359-5600896",
       "properties": {
         "P17": [
           {
@@ -57920,6 +58901,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5617435"
           }
         ],
@@ -57932,6 +58921,10 @@
           {
             "lang": "sk",
             "value": "Dolný Kubín zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Dolný Kubín zastávka"
           },
           {
             "value": "Dolny Kubin zast."
@@ -58303,22 +59296,21 @@
             "value": "5617475"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600078",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38897"
               }
             ],
-            "value": "5600078"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600078"
           }
         ],
@@ -58369,7 +59361,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "174854-SK174854-Q65192770",
+      "id": "174854-SK174854-5603077-Q65192770",
       "properties": {
         "P131": [
           {
@@ -58415,6 +59407,11 @@
             "value": "5617485"
           }
         ],
+        "P954": [
+          {
+            "value": "5603077"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q65192770"
@@ -58424,6 +59421,9 @@
           {
             "lang": "sk",
             "value": "Šútovo-Ratkovo"
+          },
+          {
+            "value": "Sutovo"
           },
           {
             "lang": "de",
@@ -58463,7 +59463,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "174953-5601585",
+      "id": "174953-SK174953-5601585",
       "properties": {
         "P17": [
           {
@@ -58488,6 +59488,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5617495"
           }
         ],
@@ -58500,6 +59508,10 @@
           {
             "lang": "sk",
             "value": "Kraľovany zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Kraľovany zastávka"
           },
           {
             "value": "Kralovany zast."
@@ -59031,6 +60043,10 @@
             "value": "Dohnany"
           },
           {
+            "lang": "cs",
+            "value": "Dohňany"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Dohňany"
           },
@@ -59045,10 +60061,6 @@
           {
             "lang": "nl",
             "value": "station Dohňany"
-          },
-          {
-            "lang": "cs",
-            "value": "Dohňany"
           }
         ]
       },
@@ -59064,7 +60076,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "175653-5602584",
+      "id": "175653-SK175653-5602584",
       "properties": {
         "P17": [
           {
@@ -59089,6 +60101,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5617565"
           }
         ],
@@ -59101,6 +60121,10 @@
           {
             "lang": "sk",
             "value": "Púchov zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Púchov zastávka"
           },
           {
             "value": "Puchov zast."
@@ -60255,22 +61279,21 @@
             "value": "5617695"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600170",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/32233"
               }
             ],
-            "value": "5600170"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600170"
           }
         ],
@@ -60473,22 +61496,21 @@
             "value": "5617725"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600030",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/38890"
               }
             ],
-            "value": "5600030"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600030"
           }
         ],
@@ -61568,10 +62590,6 @@
             "value": "Varin"
           },
           {
-            "lang": "sk",
-            "value": "Železničná stanica Varín"
-          },
-          {
             "lang": "cs",
             "value": "Varín"
           },
@@ -61582,6 +62600,10 @@
           {
             "lang": "pl",
             "value": "Varín"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Varín"
           }
         ]
       },
@@ -61597,7 +62619,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "178756-SK178756-Q49203972",
+      "id": "178756-SK178756-5602954-Q49203972",
       "properties": {
         "P17": [
           {
@@ -61641,6 +62663,11 @@
             "value": "5617875"
           }
         ],
+        "P954": [
+          {
+            "value": "5602954"
+          }
+        ],
         "PWIKI": [
           {
             "value": "Q49203972"
@@ -61650,6 +62677,9 @@
           {
             "lang": "sk",
             "value": "Nezbudská Lúčka-Strečno"
+          },
+          {
+            "value": "Strecno"
           },
           {
             "lang": "cs",
@@ -61760,22 +62790,21 @@
             "value": "5617895"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600114",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29306"
               }
             ],
-            "value": "5600114"
-          }
-        ],
-        "P954": [
-          {
             "value": "5600114"
           }
         ],
@@ -61860,11 +62889,6 @@
             "value": "Q55488"
           }
         ],
-        "P421": [
-          {
-            "value": "Q25989"
-          }
-        ],
         "P6724": [
           {
             "info": {
@@ -61920,27 +62944,24 @@
         ],
         "P8671": [
           {
-            "enabled": "5600020",
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28646"
-              }
-            ],
-            "value": "5600020"
-          },
-          {
             "value": "XYZ"
           }
         ],
         "P954": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/28646"
+              }
+            ],
             "value": "5600020"
           }
         ],
@@ -62250,15 +63271,21 @@
     {
       "geometry": {
         "coordinates": [
-          18.144608,
-          49.184015
+          [
+            18.144608,
+            49.184015
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "179853",
+      "id": "179853-5602957-Q111693851",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -62274,15 +63301,53 @@
             "value": "179853"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P722": [
           {
             "value": "5617985"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5602957"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q111693851"
           }
         ],
         "labels": [
           {
             "lang": "sk",
             "value": "Lysá p.Makytou"
+          },
+          {
+            "value": "Strelenka"
+          },
+          {
+            "lang": "cs",
+            "value": "Strelenka"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Strelenka"
+          },
+          {
+            "lang": "en",
+            "value": "Strelenka railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Strelenka"
+          },
+          {
+            "lang": "nl",
+            "value": "station Strelenka"
           }
         ]
       },
@@ -62432,8 +63497,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "181156-SK181156-5600041-trainline-29305",
+      "id": "181156-SK181156-5600041-trainline-29305-Q3037886",
       "properties": {
+        "P131": [
+          {
+            "value": "Q337478"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -62441,6 +63511,11 @@
               "reliability": 0
             },
             "value": "Q214"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "414"
           }
         ],
         "P296": [
@@ -62453,6 +63528,11 @@
               ]
             },
             "value": "181156"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -62479,13 +63559,20 @@
               "reliability": 0.38
             },
             "value": "5618115"
+          },
+          {
+            "value": "5617115"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600041",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -62495,9 +63582,9 @@
             "value": "5600041"
           }
         ],
-        "P954": [
+        "PWIKI": [
           {
-            "value": "5600041"
+            "value": "Q3037886"
           }
         ],
         "labels": [
@@ -62507,6 +63594,38 @@
           },
           {
             "value": "Cadca"
+          },
+          {
+            "lang": "cs",
+            "value": "Čadca"
+          },
+          {
+            "lang": "pl",
+            "value": "Czadca"
+          },
+          {
+            "lang": "en",
+            "value": "Čadca railway station"
+          },
+          {
+            "lang": "pl",
+            "value": "Čadca"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Čadca"
+          },
+          {
+            "lang": "hu",
+            "value": "Csaca Vasútállomás"
+          },
+          {
+            "lang": "sk",
+            "value": "Železničná stanica Čadca"
+          },
+          {
+            "lang": "vi",
+            "value": "Nhà ga Čadca"
           }
         ]
       },
@@ -62585,7 +63704,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "181354-5600693",
+      "id": "181354-SK181354-5600693",
       "properties": {
         "P17": [
           {
@@ -62610,6 +63729,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618135"
           }
         ],
@@ -62622,6 +63749,10 @@
           {
             "lang": "sk",
             "value": "Čadca zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Čadca zastávka"
           },
           {
             "value": "Cadca zast."
@@ -62856,7 +63987,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "181750-5603018",
+      "id": "181750-SK181750-5603018",
       "properties": {
         "P17": [
           {
@@ -62881,6 +64012,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618175"
           }
         ],
@@ -62893,6 +64032,10 @@
           {
             "lang": "sk",
             "value": "Svrčinovec zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Svrčinovec zastávka"
           },
           {
             "value": "Svrcinovec zast."
@@ -62911,7 +64054,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "181859-5602931",
+      "id": "181859-SK181859-5602931",
       "properties": {
         "P17": [
           {
@@ -62936,6 +64079,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618185"
           }
         ],
@@ -62948,6 +64099,10 @@
           {
             "lang": "sk",
             "value": "Staškov zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Staškov zastávka"
           },
           {
             "value": "Staskov zast."
@@ -63114,22 +64269,21 @@
             "value": "5618215"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601602",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/67918"
               }
             ],
-            "value": "5601602"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601602"
           }
         ],
@@ -63255,13 +64409,8 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "182352-SK182352-5602221-trainline-67920-Q11795647",
+      "id": "182352-SK182352-5602221-trainline-67920",
       "properties": {
-        "P131": [
-          {
-            "value": "Q389065"
-          }
-        ],
         "P17": [
           {
             "info": {
@@ -63281,11 +64430,6 @@
               ]
             },
             "value": "182352"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -63314,11 +64458,15 @@
             "value": "5618235"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5602221",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -63328,16 +64476,6 @@
             "value": "5602221"
           }
         ],
-        "P954": [
-          {
-            "value": "5602221"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q11795647"
-          }
-        ],
         "labels": [
           {
             "lang": "sk",
@@ -63345,26 +64483,6 @@
           },
           {
             "value": "Ochodnica"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Ochodnica"
-          },
-          {
-            "lang": "en",
-            "value": "Ochodnica railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Ochodnica"
-          },
-          {
-            "lang": "nl",
-            "value": "station Ochodnica"
-          },
-          {
-            "lang": "pl",
-            "value": "Ochodnica (przystanek kolejowy)"
           }
         ]
       },
@@ -63439,22 +64557,21 @@
             "value": "5618245"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5601682",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/67919"
               }
             ],
-            "value": "5601682"
-          }
-        ],
-        "P954": [
-          {
             "value": "5601682"
           }
         ],
@@ -63890,7 +65007,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "183053-SK183053-5602814-Q9337543",
+      "id": "183053-SK183053-5602814-trainline-68137-Q9337543",
       "properties": {
         "P131": [
           {
@@ -63923,6 +65040,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68137"
+              }
+            ],
+            "value": "68137"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -63938,6 +65068,19 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68137"
+              }
+            ],
             "value": "5602814"
           }
         ],
@@ -63952,6 +65095,10 @@
             "value": "Skalité"
           },
           {
+            "value": "Skalite"
+          },
+          {
+            "lang": "sk",
             "value": "Skalite"
           },
           {
@@ -63984,7 +65131,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "183152-5600760",
+      "id": "183152-SK183152-5600760",
       "properties": {
         "P17": [
           {
@@ -64009,6 +65156,14 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618315"
           }
         ],
@@ -64021,6 +65176,10 @@
           {
             "lang": "sk",
             "value": "Čierne pri Čadci z."
+          },
+          {
+            "lang": "sk",
+            "value": "Čierne pri Čadci zastávka"
           },
           {
             "value": "Cierne pri Cadci z."
@@ -64432,7 +65591,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "183756-5603218",
+      "id": "183756-SK183756",
       "properties": {
         "P17": [
           {
@@ -64457,12 +65616,15 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618375"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5603218"
           }
         ],
         "labels": [
@@ -64471,7 +65633,8 @@
             "value": "Turzovka zast."
           },
           {
-            "value": "Turzovka zast."
+            "lang": "sk",
+            "value": "Turzovka zastávka"
           }
         ]
       },
@@ -64781,15 +65944,21 @@
     {
       "geometry": {
         "coordinates": [
-          18.94663,
-          49.10906
+          [
+            18.94663,
+            49.10906
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "188953",
+      "id": "188953-5618895",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -64810,10 +65979,18 @@
             "value": "5618895"
           }
         ],
+        "P954": [
+          {
+            "value": "5618895"
+          }
+        ],
         "labels": [
           {
             "lang": "sk",
             "value": "Vrútky nákl.st."
+          },
+          {
+            "value": "Vrutky Nakladna Stanica"
           }
         ]
       },
@@ -64822,15 +65999,21 @@
     {
       "geometry": {
         "coordinates": [
-          19.37766,
-          49.26269
+          [
+            19.37766,
+            49.26269
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "189456",
+      "id": "189456-SK189456-5603742",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q214"
           }
         ],
@@ -64848,13 +66031,33 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.38
+                }
+              ],
+              "reliability": 0.38
+            },
             "value": "5618945"
+          }
+        ],
+        "P954": [
+          {
+            "value": "5603742"
           }
         ],
         "labels": [
           {
             "lang": "sk",
             "value": "Oravský Podzámok zast."
+          },
+          {
+            "lang": "sk",
+            "value": "Oravský Podzámok zastávka"
+          },
+          {
+            "value": "Oravsky Podzamok zastavka"
           }
         ]
       },
@@ -64870,8 +66073,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "190116-5600272-trainline-33355",
+      "id": "190116-5600272-trainline-33355-Q7688242",
       "properties": {
+        "P131": [
+          {
+            "value": "Q612516"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -64893,6 +66101,11 @@
             "value": "190116"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
         "P6724": [
           {
             "info": {
@@ -64909,13 +66122,20 @@
         "P722": [
           {
             "value": "5619011"
+          },
+          {
+            "value": "5614170"
           }
         ],
-        "P8671": [
+        "P954": [
           {
-            "enabled": "5600272",
             "info": {
-              "reliability": 0.5800000000000001
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -64925,9 +66145,9 @@
             "value": "5600272"
           }
         ],
-        "P954": [
+        "PWIKI": [
           {
-            "value": "5600272"
+            "value": "Q7688242"
           }
         ],
         "labels": [
@@ -64937,6 +66157,38 @@
           },
           {
             "value": "Tatranska Lomnica"
+          },
+          {
+            "lang": "cs",
+            "value": "Tatranská Lomnica"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Tatranská Lomnica"
+          },
+          {
+            "lang": "en",
+            "value": "Tatranska Lomnica railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Tatranská Lomnica railway station"
+          },
+          {
+            "lang": "es",
+            "value": "estación Tatranská Lomnica"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Tatranská Lomnica"
+          },
+          {
+            "lang": "pl",
+            "value": "Tatranská Lomnica"
+          },
+          {
+            "lang": "sk",
+            "value": "železničná stanica Tatranská Lomnica"
           }
         ]
       },
