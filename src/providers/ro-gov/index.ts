@@ -1,8 +1,9 @@
 import fetch from "node-fetch";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { Location } from "../../types/location";
-import { FeatureCollection, Point } from "@turf/turf";
-import { Country } from "../../transform/country";
+import { Basic, Claims, Location } from "../../types/location";
+import { feature, FeatureCollection, point, Point } from "@turf/turf";
+import { Country, findCountryByAlpha2 } from "../../transform/country";
+import { feature as c } from "@ideditor/country-coder";
 
 /**
  * @see https://github.com/vasile/data.gov.ro-gtfs-exporter
@@ -14,25 +15,26 @@ export const getLocations = async () => {
     ).then((response) => response.json());
 
   return data.features.map<Location>(({ properties, geometry }) => {
-    const country = ["09422", "09461"].includes(properties.station_id)
-      ? Country.Hungary
-      : Country.Romania;
+    const country = c(geometry.coordinates as any)?.properties;
 
-    return {
-      type: "Feature",
+    return feature<Point, Claims & Basic>(
       geometry,
-      properties: {
-        id: properties.station_id,
+      {
         labels: properties.name ? [{ value: properties.name }] : [],
-        [Property.Country]: [{ value: country.wikidata }],
-        ...(country === Country.Romania
+        [Property.Country]: [{ value: country?.wikidata }],
+        ...(country?.iso1A2 === Country.Romania.alpha2
           ? {
               [CodeIssuer.UIC]: [
-                { value: country.UIC?.[0] + properties.station_id },
+                {
+                  value:
+                    findCountryByAlpha2(country?.iso1A2)?.UIC?.[0] +
+                    properties.station_id,
+                },
               ],
             }
           : {}),
       },
-    };
+      { id: properties.station_id }
+    );
   });
 };

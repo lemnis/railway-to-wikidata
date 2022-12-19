@@ -85355,7 +85355,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "YPB-NLDHY-PNAAO-trainline-18855-Q2295597",
+      "id": "YPB-NLDHY-NLYPB-PNAAO-trainline-18855-Q2295597",
       "properties": {
         "P1103": [
           {
@@ -85393,8 +85393,12 @@
         "P296": [
           {
             "info": {
-              "pregrouped": [],
-              "reliability": 0
+              "pregrouped": [
+                {
+                  "reliability": 0.67
+                }
+              ],
+              "reliability": 0.67
             },
             "qualifiers": {
               "P518": [
@@ -85543,6 +85547,10 @@
           },
           {
             "value": "Den Haag Ypenburg"
+          },
+          {
+            "lang": "nl",
+            "value": "Ypenburg (Den Haag)"
           },
           {
             "lang": "arz",

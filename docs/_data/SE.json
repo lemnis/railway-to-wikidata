@@ -45608,7 +45608,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "740001441-SEMud",
+      "id": "740001441-SEMud-7400998",
       "properties": {
         "P17": [
           {
@@ -45632,6 +45632,11 @@
             "value": "7401441"
           }
         ],
+        "P954": [
+          {
+            "value": "7400998"
+          }
+        ],
         "labels": [
           {
             "lang": "sv",
@@ -45640,6 +45645,9 @@
           {
             "lang": "sv",
             "value": "Mosselund"
+          },
+          {
+            "value": "Ballingslov Station"
           }
         ]
       },
@@ -49386,7 +49394,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "740001603-SEBån-Q10438632",
+      "id": "740001603-SEBån-7400041-trainline-19113-Q10438632",
       "properties": {
         "P131": [
           {
@@ -49425,6 +49433,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19113"
+              }
+            ],
+            "value": "19113"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -49432,11 +49453,54 @@
               "reliability": 0
             },
             "value": "7401603"
+          },
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19113"
+              }
+            ],
+            "value": "7400563"
           }
         ],
         "P8448": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19113"
+              }
+            ],
             "value": "SEABU"
+          }
+        ],
+        "P954": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19113"
+              }
+            ],
+            "value": "7400041"
           }
         ],
         "PWIKI": [
@@ -49452,6 +49516,9 @@
           {
             "lang": "sv",
             "value": "Båstad norra"
+          },
+          {
+            "value": "Baastad station"
           },
           {
             "lang": "da",

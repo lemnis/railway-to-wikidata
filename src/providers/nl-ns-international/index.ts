@@ -1,3 +1,9 @@
+import {
+  feature,
+  featuresContaining,
+  wikidataQIDs,
+} from "@ideditor/country-coder";
+import { multiPoint, point } from "@turf/turf";
 import fetch from "node-fetch";
 import {
   findCountryByAlpha2,
@@ -27,20 +33,28 @@ export const getLocations = async () => {
   }[] = await response.json();
 
   return data.map<Location>(
-    ({ beneCode, name, aliases, hafasCodes, location }) => ({
-      type: "Feature",
-      id: beneCode,
-      geometry: location.coordinates[0]
-        ? location
-        : { type: "MultiPoint", coordinates: [] },
-      properties: {
+    ({ beneCode: id, name, aliases, hafasCodes, location }) => {
+      let country: { wikidata: string } | undefined = location.coordinates?.[0]
+        ? feature(location.coordinates)?.properties
+        : undefined;
+      if (country === feature("Kingdom of Denmark")?.properties) {
+        country = feature("Denmark")?.properties;
+      }
+      if (country === feature("Kingdom of the Netherlands")?.properties) {
+        country = feature("Netherlands")?.properties;
+      }
+      if (!country) {
+        country = findCountryByAlpha2(id.slice(0, 2));
+      }
+
+      const properties = {
         labels: [
           { value: name },
           ...(aliases ? aliases.map((value) => ({ value })) : []),
         ],
         [CodeIssuer.Benerail]: [
           {
-            value: beneCode,
+            value: id,
             info: { reliability: RELIABILITY_BENERAIL_NS_INTERNATIONAL },
           },
         ],
@@ -48,18 +62,12 @@ export const getLocations = async () => {
           value: value.toString(),
           info: { reliability: RELIABILITY_IBNR_NS_INTERNATIONAL },
         })),
-        [Property.Country]: [
-          {
-            value:
-              hafasCodes
-                ?.map((i) =>
-                  findCountryByIBNR(parseInt(i.toString().slice(0, 2)))
-                )
-                .filter(Boolean)?.[0]?.wikidata ||
-              findCountryByAlpha2(beneCode.slice(0, 2))?.wikidata,
-          },
-        ],
-      },
-    })
+        [Property.Country]: [{ value: country?.wikidata }],
+      };
+
+      return location.coordinates?.[0]
+        ? point(location.coordinates, properties, { id })
+        : multiPoint([], properties, { id });
+    }
   );
 };

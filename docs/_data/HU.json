@@ -4493,7 +4493,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "152459-HU82/4/0-5518810-Q21877080",
+      "id": "152459-HU82/4/0-5518810-trainline-38823-Q21877080",
       "properties": {
         "P131": [
           {
@@ -4519,6 +4519,19 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38823"
+              }
+            ],
+            "value": "38823"
+          }
+        ],
         "P722": [
           {
             "value": "5518572"
@@ -4529,6 +4542,19 @@
             "value": "5518810"
           },
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38823"
+              }
+            ],
             "value": "5500124"
           }
         ],
@@ -4546,6 +4572,9 @@
           },
           {
             "value": "Hodmezövasarhely vasutallomas"
+          },
+          {
+            "value": "Hodmezövasarhely"
           },
           {
             "lang": "en",
@@ -12218,7 +12247,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "1743-5500074-XMBH-undefined-trainline-28267-Q21877073",
+      "id": "1743-5500074-XMBH-09422-trainline-28267-Q21877073",
       "properties": {
         "P131": [
           {
@@ -12337,14 +12366,6 @@
         "PWIKI": [
           {
             "value": "Q21877073"
-          }
-        ],
-        "id": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            }
           }
         ],
         "labels": [
@@ -13072,8 +13093,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "1758-5500434",
+      "id": "1758-5500434-Q22002094",
       "properties": {
+        "P131": [
+          {
+            "value": "Q937317"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -13083,14 +13109,42 @@
             "value": "Q28"
           }
         ],
+        "P296": [
+          {
+            "value": "DZ"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5506171"
+          }
+        ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "5500434"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22002094"
           }
         ],
         "labels": [
           {
             "value": "Döbrököz"
+          },
+          {
+            "lang": "hu",
+            "value": "Döbrököz vasútállomás"
           }
         ]
       },
@@ -26600,7 +26654,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "2591-HU69//8-5500957-Q22076766",
+      "id": "2591-HU69//8-5500957-09410-Q22076766",
       "properties": {
         "P131": [
           {
@@ -29269,7 +29323,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "2702-HU66//d",
+      "id": "2702-HU66//d-5501655",
       "properties": {
         "P17": [
           {
@@ -29280,12 +29334,20 @@
             "value": "Q28"
           }
         ],
+        "P954": [
+          {
+            "value": "5501655"
+          }
+        ],
         "labels": [
           {
             "value": "Előhát"
           },
           {
             "value": "Előhát mh."
+          },
+          {
+            "value": "Elöhat"
           }
         ]
       },
@@ -47000,8 +47062,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "3901-HU87/1/3-5501155",
+      "id": "3901-HU87/1/3-5501155-Q22046612",
       "properties": {
+        "P131": [
+          {
+            "value": "Q188247"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -47011,14 +47078,42 @@
             "value": "Q28"
           }
         ],
+        "P296": [
+          {
+            "value": "SA"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5518739"
+          }
+        ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "5501155"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22046612"
           }
         ],
         "labels": [
           {
             "value": "Sarkad"
+          },
+          {
+            "lang": "hu",
+            "value": "Sarkad vasútállomás"
           }
         ]
       },
@@ -47034,7 +47129,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "3902-HU80/3/4-5500737-Q22046613",
+      "id": "3902-HU80/3/4-5500737-09446-Q22046613",
       "properties": {
         "P131": [
           {
@@ -47088,6 +47183,9 @@
           },
           {
             "value": "Kötegyan"
+          },
+          {
+            "value": "Kotegyan"
           },
           {
             "lang": "en",
@@ -49874,7 +49972,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "452-HU73//3-5501329",
+      "id": "452-HU73//3-5501329-09408",
       "properties": {
         "P17": [
           {
@@ -63110,7 +63208,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "7219-5500110-XMLO-undefined-trainline-28236-Q21923135",
+      "id": "7219-5500110-XMLO-09461-trainline-28236-Q21923135",
       "properties": {
         "P131": [
           {
@@ -63234,14 +63332,6 @@
         "PWIKI": [
           {
             "value": "Q21923135"
-          }
-        ],
-        "id": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            }
           }
         ],
         "labels": [
@@ -69363,8 +69453,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "854-HU5e//a-5501252",
+      "id": "854-HU5e//a-5501252-Q22073979",
       "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q590583"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -69374,9 +69474,33 @@
             "value": "Q28"
           }
         ],
+        "P296": [
+          {
+            "value": "SZE"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5512963"
+          }
+        ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "5501252"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q22073979"
           }
         ],
         "labels": [
@@ -69385,6 +69509,10 @@
           },
           {
             "value": "Szendrö"
+          },
+          {
+            "lang": "hu",
+            "value": "Szendrő vasútállomás"
           }
         ]
       },

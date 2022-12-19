@@ -10288,7 +10288,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "S8813003-8800003-BEFBCL-BEBCE-trainline-17737",
+      "id": "S8813003-8800003-BEFBCL-BRUSC-BEBCE-trainline-17737",
       "properties": {
         "P17": [
           {
@@ -10305,6 +10305,16 @@
               "reliability": 0.5800000000000001
             },
             "value": "FBCL"
+          },
+          {
+            "qualifiers": {
+              "P518": [
+                {
+                  "value": "Q23076"
+                }
+              ]
+            },
+            "value": "BRUSC"
           }
         ],
         "P6724": [
@@ -10328,10 +10338,13 @@
                   "reliability": 0.6400000000000001
                 },
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 1.9800000000000004
             },
             "references": [
               {
@@ -10386,9 +10399,12 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 1.5
+              "reliability": 2.2
             },
             "references": [
               {
@@ -10410,6 +10426,10 @@
           },
           {
             "value": "Bruxelles-Central | Brussel-Centraal"
+          },
+          {
+            "lang": "nl",
+            "value": "Brussel-Centraal"
           },
           {
             "value": "Brussel Centraal"
@@ -10802,7 +10822,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "S8814001-8800004-BEFBMZ-BEBMI-trainline-5893-17538-Q800587",
+      "id": "S8814001-8800004-BEFBMZ-BRUSZ-BEBMI-trainline-5893-17538-Q800587",
       "properties": {
         "P1103": [
           {
@@ -10844,6 +10864,16 @@
               "reliability": 0.5800000000000001
             },
             "value": "FBMZ"
+          },
+          {
+            "qualifiers": {
+              "P518": [
+                {
+                  "value": "Q23076"
+                }
+              ]
+            },
+            "value": "BRUSZ"
           },
           {
             "value": "BEFBMZ"
@@ -10894,10 +10924,13 @@
                   "reliability": 0.6400000000000001
                 },
                 {
+                  "reliability": 0.6400000000000001
+                },
+                {
                   "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 1.3400000000000003
+              "reliability": 1.9800000000000004
             },
             "references": [
               {
@@ -10962,9 +10995,12 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7000000000000001
                 }
               ],
-              "reliability": 1.5
+              "reliability": 2.2
             },
             "references": [
               {
@@ -11007,6 +11043,10 @@
           },
           {
             "value": "Bruxelles-Midi | Brussel-Zuid"
+          },
+          {
+            "lang": "nl",
+            "value": "Brussel-Zuid Midi"
           },
           {
             "value": "Brussel Zuid - Midi"
@@ -72020,7 +72060,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "S8885753-BEFXS-BEHER-trainline-5988-Q2530450",
+      "id": "S8885753-BEFXS-trainline-5988-Q2530450",
       "properties": {
         "P131": [
           {
@@ -72122,12 +72162,9 @@
                 {
                   "enabled": true,
                   "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.5
+              "reliability": 0.7000000000000001
             },
             "references": [
               {
@@ -72143,12 +72180,9 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.5
+              "reliability": 0.7000000000000001
             },
             "references": [
               {

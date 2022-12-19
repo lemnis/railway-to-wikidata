@@ -2373,7 +2373,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8100012-ATAms-8100012-XAAS-60341-ATATT-trainline-17540-Q800385",
+      "id": "8100012-ATAms-8100012-XAAS-60341-AMST-ATATT-trainline-17540-Q800385",
       "properties": {
         "P1103": [
           {
@@ -2405,6 +2405,16 @@
               "reliability": 0.5800000000000001
             },
             "value": "Ams"
+          },
+          {
+            "qualifiers": {
+              "P518": [
+                {
+                  "value": "Q23076"
+                }
+              ]
+            },
+            "value": "AMST"
           }
         ],
         "P31": [
@@ -2437,9 +2447,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
+                },
+                {
+                  "reliability": 0.6400000000000001
                 }
               ],
-              "reliability": 0.6400000000000001
+              "reliability": 1.2800000000000002
             },
             "references": [
               {
@@ -2495,13 +2508,16 @@
                   "reliability": 0.7999999999999999
                 },
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 3.1
+              "reliability": 3.8
             },
             "references": [
               {
@@ -2529,6 +2545,10 @@
             "value": "Amstetten (in Ams)"
           },
           {
+            "value": "Amstetten NÖ"
+          },
+          {
+            "lang": "nl",
             "value": "Amstetten NÖ"
           },
           {
@@ -13822,7 +13842,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8100080-ATPow-8100080-XAPW-ATADZ-trainline-17630-Q56875459",
+      "id": "8100080-ATPow-8100080-XAPW-ATADZ-trainline-17630-Q111167761",
       "properties": {
         "P131": [
           {
@@ -13867,11 +13887,6 @@
         "P722": [
           {
             "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.6400000000000001
-                }
-              ],
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13949,7 +13964,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q56875459"
+            "value": "Q111167761"
           }
         ],
         "labels": [
@@ -13969,23 +13984,7 @@
           },
           {
             "lang": "de",
-            "value": "Bahnhof Pörtschach am Wörthersee"
-          },
-          {
-            "lang": "de-at",
-            "value": "Bahnhof Pörtschach am Wörthersee"
-          },
-          {
-            "lang": "en",
-            "value": "Pörtschach am Wörthersee train station"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "韦尔特湖畔珀查赫车站"
-          },
-          {
-            "lang": "zh-hant",
-            "value": "韋爾特湖畔珀查赫車站"
+            "value": "Bahnhof Pörtschach/Wörther See"
           }
         ]
       },
@@ -32063,7 +32062,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8100204-ATAbf H1-8100204-OAAB-Q37904306",
+      "id": "8100204-ATAbf H1-8100204-OAAB-trainline-34382-Q37904306",
       "properties": {
         "P131": [
           {
@@ -32100,6 +32099,19 @@
             "value": "Abfaltersbach 71"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/34382"
+              }
+            ],
+            "value": "34382"
+          }
+        ],
         "P8671": [
           {
             "info": {
@@ -32118,15 +32130,21 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 },
                 {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.5999999999999999
+              "reliability": 2.3
             },
             "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/34382"
+              },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
@@ -32150,6 +32168,9 @@
           },
           {
             "value": "Abfaltersbach"
+          },
+          {
+            "value": "Abfaltersbach/Drau Bahnhof"
           },
           {
             "lang": "de",
@@ -39235,7 +39256,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8100305-ATVs H2-trainline-34514-Q111167793",
+      "id": "8100305-ATVs H2-8100305-trainline-34514-Q111167793",
       "properties": {
         "P131": [
           {
@@ -39311,6 +39332,9 @@
           {
             "lang": "de",
             "value": "Liebenfels Haltestelle"
+          },
+          {
+            "value": "Liebenfels"
           },
           {
             "value": "Liebenfels Bahnhof"
@@ -41208,7 +41232,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8100333-ATMho K1-8100333-XAUDH-trainline-33680-Q111267118",
+      "id": "8100333-ATMho H2-8100333-XAUDH-trainline-33680-Q111267118",
       "properties": {
         "P131": [
           {
@@ -47365,7 +47389,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8100418-Q111267125",
+      "id": "8100418-8100418-trainline-34448-Q111267125",
       "properties": {
         "P131": [
           {
@@ -47386,16 +47410,37 @@
             "value": "Q55488"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/34448"
+              }
+            ],
+            "value": "34448"
+          }
+        ],
         "P954": [
           {
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/34448"
+              }
+            ],
             "value": "8100418"
           }
         ],
@@ -47408,6 +47453,12 @@
           {
             "lang": "de",
             "value": "Mittlern Bahnhst"
+          },
+          {
+            "value": "Mittlern"
+          },
+          {
+            "value": "Mittlern Bahnhof"
           },
           {
             "lang": "de",
@@ -51505,7 +51556,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8100470-ATKt H3A-8100470-trainline-67397-Q37812769",
+      "id": "8100470-ATMrn-8100470-trainline-67397-Q37812769",
       "properties": {
         "P131": [
           {
@@ -51526,7 +51577,7 @@
             "info": {
               "reliability": 0.5800000000000001
             },
-            "value": "Kt"
+            "value": "Mrn"
           }
         ],
         "P31": [
@@ -91278,7 +91329,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8101262-ATNd-XAND-ATNDN",
+      "id": "8101262-ATNd-XAND",
       "properties": {
         "P17": [
           {
@@ -91295,14 +91346,6 @@
               "reliability": 0.5800000000000001
             },
             "value": "Nd"
-          }
-        ],
-        "P8448": [
-          {
-            "info": {
-              "reliability": 0.7999999999999999
-            },
-            "value": "ATNDN"
           }
         ],
         "P8671": [
@@ -91327,12 +91370,9 @@
                 },
                 {
                   "reliability": 0.7999999999999999
-                },
-                {
-                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 2.4
+              "reliability": 1.5999999999999999
             },
             "references": [
               {
@@ -99840,7 +99880,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8101404-ATUp H1-8101404-trainline-67496-Q111172318",
+      "id": "8101404-8101404-trainline-67496-Q111172318",
       "properties": {
         "P131": [
           {
@@ -99854,14 +99894,6 @@
               "reliability": 0
             },
             "value": "Q40"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "value": "Up"
           }
         ],
         "P31": [
@@ -99912,10 +99944,6 @@
           {
             "lang": "de",
             "value": "Purkersdorf b.Wien Zentrum Bahnhst"
-          },
-          {
-            "lang": "de",
-            "value": "Purkersdorf Zentrum"
           },
           {
             "value": "Purkersdorf b.Wien Zentrum"
@@ -104838,7 +104866,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8101514-ATSpw H2-8101514-ATSTH-trainline-39244-Q111171364",
+      "id": "8101514-ATSpw H2-8101514-ATSTH-trainline-67514-Q111171364",
       "properties": {
         "P131": [
           {
@@ -104874,10 +104902,10 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/39244"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/67514"
               }
             ],
-            "value": "39244"
+            "value": "67514"
           }
         ],
         "P8448": [
@@ -104906,7 +104934,7 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/39244"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/67514"
               }
             ],
             "value": "8101514"
@@ -104928,6 +104956,9 @@
           },
           {
             "value": "Stadt Haag"
+          },
+          {
+            "value": "Stadt Haag Bahnhst"
           },
           {
             "lang": "de",
@@ -110777,7 +110808,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8101629-ATSs-8101629-XASCH-ATADL-trainline-33510-Q56909525",
+      "id": "8101629-ATSs-8101629-XASCH-ATADL-trainline-23546-Q56909525",
       "properties": {
         "P131": [
           {
@@ -110813,10 +110844,23 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33510"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23546"
               }
             ],
-            "value": "33510"
+            "value": "23546"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23546"
+              }
+            ],
+            "value": "8101210"
           }
         ],
         "P8448": [
@@ -110861,7 +110905,7 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/33510"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23546"
               },
               {
                 "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
@@ -110889,9 +110933,6 @@
           },
           {
             "value": "Schoenwies"
-          },
-          {
-            "value": "Schönwies bei Imst Bahnhof"
           },
           {
             "lang": "de",
@@ -114090,8 +114131,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8101692-ATTus-8101692",
+      "id": "8101692-ATTus-8101692-trainline-23577-Q37894498",
       "properties": {
+        "P131": [
+          {
+            "value": "Q489810"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -114107,6 +114153,50 @@
               "reliability": 0.5800000000000001
             },
             "value": "Tus"
+          },
+          {
+            "value": "Tu"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Bahnhofstraße 67-71"
+          }
+        ],
+        "P6724": [
+          {
+            "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23577"
+              }
+            ],
+            "value": "23577"
+          }
+        ],
+        "P722": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23577"
+              }
+            ],
+            "value": "8102419"
           }
         ],
         "P954": [
@@ -114114,12 +114204,41 @@
             "info": {
               "pregrouped": [
                 {
+                  "reliability": 0.7000000000000001
+                },
+                {
                   "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7999999999999999
+              "reliability": 1.5
             },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23577"
+              }
+            ],
             "value": "8101692"
+          },
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23577"
+              }
+            ],
+            "value": "8100203"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q37894498"
           }
         ],
         "labels": [
@@ -114133,6 +114252,33 @@
           },
           {
             "value": "Tulln/Donau Stadt"
+          },
+          {
+            "value": "Tulln"
+          },
+          {
+            "lang": "pl",
+            "value": "Tulln"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Tulln/Donau"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Tulln"
+          },
+          {
+            "lang": "de-at",
+            "value": "Bahnhof Tulln"
+          },
+          {
+            "lang": "en",
+            "value": "Tulln/Donau station"
+          },
+          {
+            "lang": "hu",
+            "value": "Bahnhof Tulln"
           }
         ]
       },
@@ -114841,7 +114987,7 @@
           },
           {
             "lang": "de",
-            "value": "Unter Kritzendorf"
+            "value": "Unterkritzendorf"
           },
           {
             "value": "Unterkritzendorf"
@@ -115175,7 +115321,7 @@
           },
           {
             "lang": "de",
-            "value": "Unter Purkersdorf"
+            "value": "Unter Purkersdorf (in Up)"
           },
           {
             "value": "Unter Purkersdorf"
@@ -122549,7 +122695,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8101935-ATWm H2-8101935-trainline-34541-Q111267571",
+      "id": "8101935-8101935-trainline-34541-Q111267571",
       "properties": {
         "P131": [
           {
@@ -122563,14 +122709,6 @@
               "reliability": 0
             },
             "value": "Q40"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "reliability": 0.5800000000000001
-            },
-            "value": "Wm"
           }
         ],
         "P31": [
@@ -122621,10 +122759,6 @@
           {
             "lang": "de",
             "value": "Hart-Wörth Bahnhof"
-          },
-          {
-            "lang": "de",
-            "value": "Hart-Wörth"
           },
           {
             "value": "Hart-Wörth"
@@ -127417,7 +127551,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "8103490-ATG H1-8103490-PALVO-trainline-67960-Q56876696",
+      "id": "8103490-ATGdb-8103490-PALVO-trainline-67960-Q56876696",
       "properties": {
         "P131": [
           {
@@ -127443,7 +127577,7 @@
             "info": {
               "reliability": 0.5800000000000001
             },
-            "value": "G"
+            "value": "Gdb"
           }
         ],
         "P31": [
