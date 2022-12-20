@@ -9,6 +9,7 @@ import {
   EMPTY,
   map,
   tap,
+  throwError,
 } from "rxjs";
 import { labelKeys, labelQuery } from "./label";
 import { query as queryProperties, querySingleProperty } from "./property";
@@ -23,15 +24,16 @@ export const getAllRailwayStations = async () => {
   // TODO: Exclude closed station, but  include stations who got reopened (e.g. veendam)
   const k = simplify(
     await run(`SELECT DISTINCT ?item ?${Property.Country} WHERE {
-    ?item (p:P31/(p:P279*)) ?instance.
-    ?instance ps:P31 wd:Q55488.
-    ?item wdt:P625 ?P625.
-    ?item wdt:${Property.Country} ?${Property.Country}
+      ?item p:P31 ?instance.
+      ?instance (ps:P31/(wdt:P279*)) wd:Q55488.
+      ?item wdt:P625 ?P625.
+      ?item wdt:${Property.Country} ?${Property.Country}
   }
   ORDER BY ?item`),
     [{ property: Property.Country }]
-  )
-  const ids = k.filter(({ properties }) =>
+  );
+  const ids = k
+    .filter(({ properties }) =>
       properties[Property.Country]?.some(({ value }) =>
         Object.values(Country)
           .map((i) => i.wikidata)
@@ -44,8 +46,8 @@ export const getAllRailwayStations = async () => {
 
   const properties = [...Object.values(CodeIssuer), ...Object.values(Property)];
 
-  const getLocations = (ids: string[]) =>
-    from(
+  const getLocations = (ids: string[]) => {
+    return from(
       run(
         `SELECT DISTINCT * WHERE {
           VALUES ?item {
@@ -62,15 +64,20 @@ export const getAllRailwayStations = async () => {
             ?item ?key ?value
           }
         }`
-      )
+      ).catch((res) => catchError(res))
     ).pipe(
-      map((response) =>
-        simplifyByKeyValue(
+      concatMap((response) => {
+        if(typeof response === 'function') {
+          return throwError(() => JSON.stringify(response));
+        }
+
+        return from([simplifyByKeyValue(
           response,
           properties.map((property) => ({ property }))
-        )
-      )
+        )]);
+      })
     );
+  };
 
   const splitter = (ids: string[]): Observable<Location[]> => {
     if (ids.length < 1) EMPTY;

@@ -11,6 +11,7 @@ import { feature } from "@ideditor/country-coder";
 console.log("Starting...");
 
 async function importLocations(file: string) {
+  console.log("Import", file);
   const data = await fs.readFile(file, "utf8");
   return JSON.parse(data).features as Location[];
 }
@@ -72,9 +73,13 @@ const getStations = (geojson: FeatureCollection<Point>) =>
   const trainline = await importLocations(
     `${GeoJSONPath}/trainline-stations.geojson`
   );
-  const wikidata = await importLocations(
-    `${GeoJSONPath}/wikidata-railway-stations.geojson`
-  );
+  const wikidata = await Promise.all(
+    (
+      await fs.readdir(`${GeoJSONPath}`)
+    ).map((file) => {
+      return importLocations(`${GeoJSONPath}/wikidata/${file}`);
+    })
+  ).then((items) => items.flat());
   const irail = await importLocations(`${GeoJSONPath}/be-irail.geojson`);
   const ns = await importLocations(`${GeoJSONPath}/nl-ns.geojson`);
   const openov = await importLocations(`${GeoJSONPath}/lu-openov.geojson`);

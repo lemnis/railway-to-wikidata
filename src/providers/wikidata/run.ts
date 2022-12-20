@@ -27,7 +27,6 @@ export const run = async (query: string) => {
     try {
       return JSON.parse(text);
     } catch (error) {
-      console.log(error);
       throw new Error(error as any);
     }
   } else {

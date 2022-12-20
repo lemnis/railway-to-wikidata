@@ -230,11 +230,11 @@
           },
           {
             "lang": "es",
-            "value": "Estacion de Schaerbeek"
+            "value": "Estación de Schaerbeek"
           },
           {
             "lang": "es",
-            "value": "Estación de Schaerbeek"
+            "value": "Estacion de Schaerbeek"
           },
           {
             "lang": "fa",
@@ -2913,10 +2913,10 @@
         ],
         "P31": [
           {
-            "value": "Q1793804"
+            "value": "Q55488"
           },
           {
-            "value": "Q55488"
+            "value": "Q1793804"
           }
         ],
         "P6724": [
@@ -3006,16 +3006,16 @@
             "value": "Herent"
           },
           {
-            "lang": "en",
-            "value": "Herent railway station"
-          },
-          {
             "lang": "fr",
             "value": "gare de Herent"
           },
           {
             "lang": "nl",
             "value": "station Herent"
+          },
+          {
+            "lang": "en",
+            "value": "Herent railway station"
           }
         ]
       },
@@ -5527,7 +5527,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "S8811718-BEFBRG-trainline-18067-Q1854489",
+      "id": "S8811718-8800499-BEFBRG-BEBIE-trainline-18067-Q1854489",
       "properties": {
         "P1103": [
           {
@@ -5632,9 +5632,12 @@
                 {
                   "enabled": true,
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "references": [
               {
@@ -5650,9 +5653,12 @@
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "references": [
               {
@@ -5670,6 +5676,9 @@
         "labels": [
           {
             "value": "Bierges-Walibi"
+          },
+          {
+            "value": "Bierges"
           },
           {
             "lang": "fr",
@@ -7611,24 +7620,12 @@
             "value": "Brussel Noord"
           },
           {
-            "lang": "fr",
-            "value": "gare du Nord"
-          },
-          {
-            "lang": "nl",
-            "value": "Noordstation"
-          },
-          {
             "lang": "arz",
             "value": "محطة بروسيلس نورث"
           },
           {
             "lang": "ca",
             "value": "Estació Bruxel·les-Nord"
-          },
-          {
-            "lang": "de",
-            "value": "Brüsseler Nordbahnhof"
           },
           {
             "lang": "cs",
@@ -7649,6 +7646,18 @@
           {
             "lang": "eu",
             "value": "Brusela Iparraldeko geltokia"
+          },
+          {
+            "lang": "fr",
+            "value": "gare du Nord"
+          },
+          {
+            "lang": "nl",
+            "value": "Noordstation"
+          },
+          {
+            "lang": "de",
+            "value": "Brüsseler Nordbahnhof"
           },
           {
             "lang": "fa",
@@ -7732,7 +7741,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "S8812013-8812013-BESIM-trainline-18136-Q3097746",
+      "id": "S8812013-8812013-BESIM-BESIM-trainline-18136-Q3097746",
       "properties": {
         "P131": [
           {
@@ -7759,6 +7768,12 @@
           }
         ],
         "P296": [
+          {
+            "info": {
+              "reliability": 0.5800000000000001
+            },
+            "value": "SIM"
+          },
           {
             "value": "FKRG"
           }
@@ -7853,6 +7868,9 @@
         "labels": [
           {
             "value": "Simonis"
+          },
+          {
+            "value": "Simonis | Simonis"
           },
           {
             "lang": "en",
@@ -8213,10 +8231,6 @@
             "value": "Jette | Jette"
           },
           {
-            "lang": "ro",
-            "value": "gara Jette"
-          },
-          {
             "lang": "arz",
             "value": "محطة چيت"
           },
@@ -8227,6 +8241,10 @@
           {
             "lang": "fr",
             "value": "gare de Jette"
+          },
+          {
+            "lang": "ro",
+            "value": "gara Jette"
           },
           {
             "lang": "nl",
@@ -10288,8 +10306,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "S8813003-8800003-BEFBCL-BRUSC-BEBCE-trainline-17737",
+      "id": "S8813003-8800003-BEFBCL-BRUSC-BEBCE-trainline-17737-Q800588",
       "properties": {
+        "P1103": [
+          {
+            "value": "6"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q239"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -10299,9 +10327,19 @@
             "value": "Q31"
           }
         ],
+        "P276": [
+          {
+            "value": "Q18435290"
+          }
+        ],
         "P296": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.5800000000000001
+                }
+              ],
               "reliability": 0.5800000000000001
             },
             "value": "FBCL"
@@ -10315,6 +10353,29 @@
               ]
             },
             "value": "BRUSC"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q18543139"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "3"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Cantersteen, Boulevard de l'Impératrice"
+          },
+          {
+            "value": "Kantersteen, Keizerinlaan, Brussel"
+          }
+        ],
+        "P669": [
+          {
+            "value": "Q23779124"
           }
         ],
         "P6724": [
@@ -10357,7 +10418,12 @@
         "P8181": [
           {
             "info": {
-              "enabled": false,
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                }
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10420,6 +10486,11 @@
             "value": "8889003"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q800588"
+          }
+        ],
         "labels": [
           {
             "value": "Bruxelles-Central"
@@ -10433,6 +10504,162 @@
           },
           {
             "value": "Brussel Centraal"
+          },
+          {
+            "lang": "ar",
+            "value": "محطة بروكسل المركزية"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة بروكسل المركزيه"
+          },
+          {
+            "lang": "bar",
+            "value": "Bauhnhof Bruxelles-Central/Brussel-Centraal"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Brüssel Hauptbahnhof"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Brüssel-Central"
+          },
+          {
+            "lang": "cs",
+            "value": "Stanice Bruxelles-Central"
+          },
+          {
+            "lang": "da",
+            "value": "Bruxelles-Central"
+          },
+          {
+            "lang": "de",
+            "value": "Brussel-Centraal"
+          },
+          {
+            "lang": "de",
+            "value": "Bruxelles-Central"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Bruxelles-Central/Brussel-Centraal"
+          },
+          {
+            "lang": "en",
+            "value": "Brussels Central Station"
+          },
+          {
+            "lang": "en",
+            "value": "Brussels-Central railway station"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Bruselas"
+          },
+          {
+            "lang": "eo",
+            "value": "Stacidomo Bruselo Cenra"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Central de Bruselas"
+          },
+          {
+            "lang": "eu",
+            "value": "Bruselako geltoki zentrala"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare centrale (Bruxelles)"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare Centrale (Bruxelles)"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare centrale de Bruxelles"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare de bruxelles-central"
+          },
+          {
+            "lang": "fr",
+            "value": "Gare De Bruxelles-Central"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Bruxelles-Central"
+          },
+          {
+            "lang": "hu",
+            "value": "Brussel-Centraal"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Bruxelles Centrale"
+          },
+          {
+            "lang": "ja",
+            "value": "ブリュッセル中央駅"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Bréissel-Centrale"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Bruxelles-Central"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Centrale vu Bréissel"
+          },
+          {
+            "lang": "ko",
+            "value": "브뤼셀 센트랄역"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Bréissel-Central"
+          },
+          {
+            "lang": "nl",
+            "value": "Brussel Centraal"
+          },
+          {
+            "lang": "nl",
+            "value": "Centraal Station (Brussel)"
+          },
+          {
+            "lang": "nl",
+            "value": "Centraal Station van Brussel"
+          },
+          {
+            "lang": "nl",
+            "value": "station Brussel-Centraal"
+          },
+          {
+            "lang": "pl",
+            "value": "Brussel-Centraal"
+          },
+          {
+            "lang": "pt",
+            "value": "Gare Centrale (Metro de Bruxelas)"
+          },
+          {
+            "lang": "pl",
+            "value": "Bruxelles Central"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Central de Bruxelas"
+          },
+          {
+            "lang": "zh",
+            "value": "布鲁塞尔中央车站"
           }
         ]
       },
@@ -11151,6 +11378,26 @@
           },
           {
             "lang": "en-gb",
+            "value": "Midi/Zuidstation"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Zyr"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Bruselas-Sur"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Bruselas-Sur"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Bruselas Sur"
+          },
+          {
+            "lang": "en-gb",
             "value": "Brussels-South railway station"
           },
           {
@@ -11170,8 +11417,32 @@
             "value": "ایستگاه راهآهن بروکسل جنوبی"
           },
           {
+            "lang": "fr",
+            "value": "gare de Bruxelles-Midi"
+          },
+          {
+            "lang": "hu",
+            "value": "Brussel-Zuid"
+          },
+          {
+            "lang": "hu",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "ja",
+            "value": "Zyr"
+          },
+          {
             "lang": "it",
             "value": "stazione di Bruxelles-Midi"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare Bruxelles-Midi"
+          },
+          {
+            "lang": "lb",
+            "value": "Gare du Midi vu Bréissel"
           },
           {
             "lang": "ja",
@@ -11195,7 +11466,27 @@
           },
           {
             "lang": "pl",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "pl",
+            "value": "Garde du Midi"
+          },
+          {
+            "lang": "pl",
             "value": "Bruxelles Midi"
+          },
+          {
+            "lang": "ro",
+            "value": "Bruxelles-Midi"
+          },
+          {
+            "lang": "ro",
+            "value": "Gara Bruxelles-Midi"
+          },
+          {
+            "lang": "ro",
+            "value": "Gara bruxelles-sud"
           },
           {
             "lang": "ro",
@@ -11220,70 +11511,6 @@
           {
             "lang": "fr",
             "value": "Bruxelles-Midi"
-          },
-          {
-            "lang": "en-gb",
-            "value": "Midi/Zuidstation"
-          },
-          {
-            "lang": "en-gb",
-            "value": "Zyr"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Bruselas-Sur"
-          },
-          {
-            "lang": "es",
-            "value": "Estación Bruselas-Sur"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion de Bruselas Sur"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Bruxelles-Midi"
-          },
-          {
-            "lang": "hu",
-            "value": "Brussel-Zuid"
-          },
-          {
-            "lang": "hu",
-            "value": "Bruxelles-Midi"
-          },
-          {
-            "lang": "ja",
-            "value": "Zyr"
-          },
-          {
-            "lang": "lb",
-            "value": "Gare Bruxelles-Midi"
-          },
-          {
-            "lang": "lb",
-            "value": "Gare du Midi vu Bréissel"
-          },
-          {
-            "lang": "pl",
-            "value": "Bruxelles-Midi"
-          },
-          {
-            "lang": "pl",
-            "value": "Garde du Midi"
-          },
-          {
-            "lang": "ro",
-            "value": "Bruxelles-Midi"
-          },
-          {
-            "lang": "ro",
-            "value": "Gara Bruxelles-Midi"
-          },
-          {
-            "lang": "ro",
-            "value": "Gara bruxelles-sud"
           }
         ]
       },
@@ -12616,6 +12843,14 @@
         "labels": [
           {
             "value": "Nivelles"
+          },
+          {
+            "lang": "fr",
+            "value": "Nivelles"
+          },
+          {
+            "lang": "fr",
+            "value": "Nijvel"
           },
           {
             "lang": "arz",
@@ -16200,23 +16435,11 @@
           },
           {
             "lang": "fr",
-            "value": "gare Centrale d'Anvers"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Anvers"
-          },
-          {
-            "lang": "fr",
             "value": "gare d'Anvers-Central"
           },
           {
             "lang": "hu",
             "value": "Antwerpen-Centraal"
-          },
-          {
-            "lang": "ja",
-            "value": "アントワープ中央駅"
           },
           {
             "lang": "it",
@@ -16240,31 +16463,7 @@
           },
           {
             "lang": "nl",
-            "value": "Antwerpen centraal"
-          },
-          {
-            "lang": "nl",
-            "value": "Antwerpen Centraal"
-          },
-          {
-            "lang": "nl",
-            "value": "Middenstatie"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Antwerpen Centraal"
-          },
-          {
-            "lang": "nl",
             "value": "station Antwerpen-Centraal"
-          },
-          {
-            "lang": "pl",
-            "value": "dworzec centralny w Antwerpii"
-          },
-          {
-            "lang": "pl",
-            "value": "dworzec w Antwerpii"
           },
           {
             "lang": "pl",
@@ -16305,6 +16504,42 @@
           {
             "lang": "cy",
             "value": "Gorsaf reilffordd Antwerpen-Centraal"
+          },
+          {
+            "lang": "fr",
+            "value": "gare Centrale d'Anvers"
+          },
+          {
+            "lang": "fr",
+            "value": "gare d'Anvers"
+          },
+          {
+            "lang": "ja",
+            "value": "アントワープ中央駅"
+          },
+          {
+            "lang": "nl",
+            "value": "Antwerpen centraal"
+          },
+          {
+            "lang": "nl",
+            "value": "Antwerpen Centraal"
+          },
+          {
+            "lang": "nl",
+            "value": "Middenstatie"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Antwerpen Centraal"
+          },
+          {
+            "lang": "pl",
+            "value": "dworzec centralny w Antwerpii"
+          },
+          {
+            "lang": "pl",
+            "value": "dworzec w Antwerpii"
           },
           {
             "lang": "nl",
@@ -18742,16 +18977,16 @@
             "value": "Essen"
           },
           {
-            "lang": "ja",
-            "value": "エセン駅"
-          },
-          {
             "lang": "es",
             "value": "Essen"
           },
           {
             "lang": "pl",
             "value": "Essen"
+          },
+          {
+            "lang": "ja",
+            "value": "エセン駅"
           },
           {
             "lang": "en",
@@ -19517,6 +19752,10 @@
             "value": "محطة هيد"
           },
           {
+            "lang": "fr",
+            "value": "gare d'Heide"
+          },
+          {
             "lang": "es",
             "value": "Heide"
           },
@@ -19531,10 +19770,6 @@
           {
             "lang": "nl",
             "value": "station Heide"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Heide"
           }
         ]
       },
@@ -21030,20 +21265,20 @@
             "value": "Bouwel"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Bouwel"
-          },
-          {
-            "lang": "bar",
-            "value": "Bauhnhof Bouwel"
-          },
-          {
             "lang": "en",
             "value": "Bouwel railway station"
           },
           {
             "lang": "es",
             "value": "Bouwel"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Bouwel"
+          },
+          {
+            "lang": "bar",
+            "value": "Bauhnhof Bouwel"
           },
           {
             "lang": "fr",
@@ -22344,6 +22579,14 @@
           {
             "lang": "nl",
             "value": "Mechelen"
+          },
+          {
+            "lang": "fr",
+            "value": "Mechelen"
+          },
+          {
+            "lang": "fr",
+            "value": "Malines"
           },
           {
             "lang": "pl",
@@ -33014,6 +33257,10 @@
             "value": "Landen"
           },
           {
+            "lang": "fr",
+            "value": "Landen"
+          },
+          {
             "lang": "arz",
             "value": "محطة لاندين"
           },
@@ -35067,6 +35314,10 @@
           },
           {
             "lang": "en",
+            "value": "Liege-Palais railway station"
+          },
+          {
+            "lang": "en",
             "value": "Liège-Saint-Lambert railway station"
           },
           {
@@ -35075,23 +35326,11 @@
           },
           {
             "lang": "fr",
-            "value": "gare de Liège-Saint-Lambert"
-          },
-          {
-            "lang": "ja",
-            "value": "リエージュ＝パレ駅"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Luik-Sint-Lambertus"
-          },
-          {
-            "lang": "en",
-            "value": "Liege-Palais railway station"
+            "value": "gare de Liège-Palais"
           },
           {
             "lang": "fr",
-            "value": "gare de Liège-Palais"
+            "value": "gare de Liège-Saint-Lambert"
           },
           {
             "lang": "ja",
@@ -35100,6 +35339,10 @@
           {
             "lang": "ja",
             "value": "リエージュ・パレ駅"
+          },
+          {
+            "lang": "ja",
+            "value": "リエージュ＝パレ駅"
           },
           {
             "lang": "nl",
@@ -35112,6 +35355,10 @@
           {
             "lang": "nl",
             "value": "station Luik-Palais"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Luik-Sint-Lambertus"
           },
           {
             "lang": "nl",
@@ -39085,10 +39332,6 @@
           },
           {
             "lang": "en",
-            "value": "Ougree railway station"
-          },
-          {
-            "lang": "en",
             "value": "Ougrée railway station"
           },
           {
@@ -39098,6 +39341,10 @@
           {
             "lang": "fr",
             "value": "gare d'Ougrée"
+          },
+          {
+            "lang": "en",
+            "value": "Ougree railway station"
           },
           {
             "lang": "nl",
@@ -55575,11 +55822,11 @@
           },
           {
             "lang": "lb",
-            "value": "Gare Attem"
+            "value": "Gare Athus"
           },
           {
             "lang": "lb",
-            "value": "Gare Athus"
+            "value": "Gare Attem"
           },
           {
             "lang": "nl",
@@ -59863,16 +60110,16 @@
             "value": "Charleroi-Sud"
           },
           {
-            "lang": "en",
-            "value": "Charleroi-Central railway station"
-          },
-          {
             "lang": "nl",
             "value": "station Charleroi-Centraal"
           },
           {
             "lang": "de",
             "value": "Bahnhof Charleroi Central"
+          },
+          {
+            "lang": "en",
+            "value": "Charleroi-Central railway station"
           },
           {
             "lang": "fr",
@@ -60071,11 +60318,11 @@
           },
           {
             "lang": "en",
-            "value": "Charleroi-Ouest railway station"
+            "value": "Charleroi-West railway station"
           },
           {
             "lang": "en",
-            "value": "Charleroi-West railway station"
+            "value": "Charleroi-Ouest railway station"
           },
           {
             "lang": "es",
@@ -66489,11 +66736,11 @@
           },
           {
             "lang": "nl",
-            "value": "Station La Louviere-Centrum"
+            "value": "station La Louvière-Centrum"
           },
           {
             "lang": "nl",
-            "value": "station La Louvière-Centrum"
+            "value": "Station La Louviere-Centrum"
           }
         ]
       },
@@ -69793,15 +70040,15 @@
           },
           {
             "lang": "en",
-            "value": "Quievrain railway station"
-          },
-          {
-            "lang": "en",
             "value": "Quiévrain railway station"
           },
           {
             "lang": "fr",
             "value": "gare de Quiévrain"
+          },
+          {
+            "lang": "en",
+            "value": "Quievrain railway station"
           },
           {
             "lang": "ja",
@@ -70943,10 +71190,6 @@
           },
           {
             "lang": "nl",
-            "value": "Station Peruwelz"
-          },
-          {
-            "lang": "nl",
             "value": "station Péruwelz"
           },
           {
@@ -70956,6 +71199,10 @@
           {
             "lang": "zh-hans",
             "value": "佩尔威站"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Peruwelz"
           },
           {
             "lang": "zh-hant",
@@ -77273,6 +77520,10 @@
           {
             "lang": "zh",
             "value": "根特-圣彼得车站"
+          },
+          {
+            "lang": "fr",
+            "value": "Gand-Saint-Pierre"
           }
         ]
       },
@@ -80527,6 +80778,14 @@
           {
             "lang": "nl",
             "value": "station Ronse"
+          },
+          {
+            "lang": "fr",
+            "value": "Renaix"
+          },
+          {
+            "lang": "fr",
+            "value": "Ronse"
           }
         ]
       },
@@ -83798,6 +84057,10 @@
             "value": "Eeklo"
           },
           {
+            "lang": "fr",
+            "value": "Eeklo"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Eeklo"
           },
@@ -84356,6 +84619,10 @@
           {
             "lang": "pl",
             "value": "Lokeren (stacja kolejowa)"
+          },
+          {
+            "lang": "fr",
+            "value": "Lokeren"
           }
         ]
       },
@@ -88461,6 +88728,14 @@
           {
             "lang": "nl",
             "value": "station Geraardsbergen"
+          },
+          {
+            "lang": "fr",
+            "value": "Geraardsbergen"
+          },
+          {
+            "lang": "fr",
+            "value": "Grammont"
           }
         ]
       },
@@ -90483,6 +90758,10 @@
           {
             "lang": "zh",
             "value": "登德爾萊烏車站"
+          },
+          {
+            "lang": "fr",
+            "value": "Denderleeuw"
           },
           {
             "lang": "pl",

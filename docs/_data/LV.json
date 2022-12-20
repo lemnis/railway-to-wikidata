@@ -64,16 +64,16 @@
             "value": "Ventspils (stacija)"
           },
           {
+            "lang": "ru",
+            "value": "Вентспилс"
+          },
+          {
             "lang": "nl",
             "value": "station Ventspils"
           },
           {
             "lang": "pl",
             "value": "Ventspils I"
-          },
-          {
-            "lang": "ru",
-            "value": "Вентспилс"
           }
         ]
       },
@@ -388,10 +388,6 @@
             "value": "Daugavpils Station"
           },
           {
-            "lang": "ru",
-            "value": "Даугавпилс"
-          },
-          {
             "lang": "en",
             "value": "Daugavpils Station"
           },
@@ -446,6 +442,10 @@
           {
             "lang": "uk",
             "value": "Даугавпілс (станція)"
+          },
+          {
+            "lang": "ru",
+            "value": "Даугавпилс"
           }
         ]
       },
@@ -646,30 +646,6 @@
             "value": "Riga"
           },
           {
-            "lang": "arz",
-            "value": "محطة ريجا سينترال"
-          },
-          {
-            "lang": "da",
-            "value": "Riga Centralstation"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Rīga Pasažieru"
-          },
-          {
-            "lang": "en",
-            "value": "Riga Central Station"
-          },
-          {
-            "lang": "es",
-            "value": "Estación Central de Riga"
-          },
-          {
-            "lang": "et",
-            "value": "Riia keskraudteejaam"
-          },
-          {
             "lang": "it",
             "value": "Stazione centrale di Riga"
           },
@@ -682,12 +658,20 @@
             "value": "Stacijas laukums"
           },
           {
+            "lang": "arz",
+            "value": "محطة ريجا سينترال"
+          },
+          {
             "lang": "da",
             "value": "Riga Hovedbanegård"
           },
           {
             "lang": "de",
             "value": "Hauptbahnhof Riga"
+          },
+          {
+            "lang": "da",
+            "value": "Riga Centralstation"
           },
           {
             "lang": "de",
@@ -698,8 +682,24 @@
             "value": "Zentralbahnhof Riga"
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Rīga Pasažieru"
+          },
+          {
+            "lang": "en",
+            "value": "Riga Central Station"
+          },
+          {
             "lang": "es",
             "value": "Estacion Central de Riga"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Central de Riga"
+          },
+          {
+            "lang": "et",
+            "value": "Riia keskraudteejaam"
           },
           {
             "lang": "fa",
@@ -915,11 +915,23 @@
           },
           {
             "lang": "fi",
-            "value": "Rēzekne II rautatieasema"
+            "value": "Rēzekne-2"
+          },
+          {
+            "lang": "lv",
+            "value": "Rēzekne II"
+          },
+          {
+            "lang": "pl",
+            "value": "Rēzekne II"
+          },
+          {
+            "lang": "ru",
+            "value": "Резекне II"
           },
           {
             "lang": "fi",
-            "value": "Rēzekne-2"
+            "value": "Rēzekne II rautatieasema"
           },
           {
             "lang": "lv",
@@ -936,18 +948,6 @@
           {
             "lang": "lv",
             "value": "Rēzekne-II"
-          },
-          {
-            "lang": "lv",
-            "value": "Rēzekne II"
-          },
-          {
-            "lang": "pl",
-            "value": "Rēzekne II"
-          },
-          {
-            "lang": "ru",
-            "value": "Резекне II"
           }
         ]
       },
@@ -1758,20 +1758,94 @@
     {
       "geometry": {
         "coordinates": [
-          25.3399,
-          57.3439
+          [
+            25.3399,
+            57.3439
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "LV1171300000",
+      "id": "LV1171300000-Q4538406",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3801254"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q211"
+          }
+        ],
+        "P2815": [
+          {
+            "value": "111114"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          },
+          {
+            "value": "Q336764"
+          }
+        ],
+        "P722": [
+          {
+            "value": "2500355"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q4538406"
           }
         ],
         "labels": [
           {
+            "value": "Jāņamuiža"
+          },
+          {
+            "lang": "ru",
+            "value": "Янямуйжа"
+          },
+          {
+            "lang": "en",
+            "value": "Jāņamuiža"
+          },
+          {
+            "lang": "et",
+            "value": "Jāņamuiža raudteepeatus"
+          },
+          {
+            "lang": "lv",
+            "value": "Jāņamuiža (stacija)"
+          },
+          {
+            "lang": "lv",
+            "value": "Jāņmuiža (stacija)"
+          },
+          {
+            "lang": "lv",
+            "value": "Jāņamuiža"
+          },
+          {
+            "lang": "ru",
+            "value": "Бушлея"
+          },
+          {
+            "lang": "ru",
+            "value": "Приецены"
+          },
+          {
+            "lang": "ru",
+            "value": "разъезд 98‑го км"
+          },
+          {
+            "lang": "pl",
             "value": "Jāņamuiža"
           }
         ]

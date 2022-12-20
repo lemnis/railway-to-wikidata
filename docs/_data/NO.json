@@ -376,8 +376,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "NSR:StopPlace:144-7600244",
+      "id": "NSR:StopPlace:144-7600244-Q723277",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1324436"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -387,14 +397,33 @@
             "value": "Q20"
           }
         ],
+        "P2044": [
+          {
+            "value": "5"
+          }
+        ],
         "P296": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "SKS"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
               "reliability": 0.7999999999999999
             },
             "value": "7601125"
@@ -402,7 +431,16 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7600244"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q723277"
           }
         ],
         "labels": [
@@ -412,6 +450,42 @@
           },
           {
             "value": "Skansen"
+          },
+          {
+            "lang": "pl",
+            "value": "Skansen"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة سكانسين"
+          },
+          {
+            "lang": "da",
+            "value": "Skansen Station"
+          },
+          {
+            "lang": "en",
+            "value": "Skansen Station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Skansen"
+          },
+          {
+            "lang": "nb",
+            "value": "Skansen holdeplass"
+          },
+          {
+            "lang": "nb",
+            "value": "Skansen stasjon"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Skansen"
+          },
+          {
+            "lang": "nn",
+            "value": "Skansen stasjon"
           }
         ]
       },
@@ -6085,11 +6159,11 @@
           },
           {
             "lang": "nl",
-            "value": "Station Bjørgeseter"
+            "value": "Station Bjorgeseter"
           },
           {
             "lang": "nl",
-            "value": "Station Bjorgeseter"
+            "value": "Station Bjørgeseter"
           }
         ]
       },
@@ -7658,15 +7732,15 @@
           },
           {
             "lang": "en",
+            "value": "Sandnes Station"
+          },
+          {
+            "lang": "en",
             "value": "Skeiane Station"
           },
           {
             "lang": "fr",
             "value": "gare de Sandnes"
-          },
-          {
-            "lang": "en",
-            "value": "Sandnes Station"
           },
           {
             "lang": "nb",

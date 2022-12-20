@@ -9,7 +9,9 @@ import {
 import { db } from "../../utils/database";
 import { getUicLocations } from "../../providers/osm/uic";
 import { filter, mergeMap, of, tap } from "rxjs";
-import sortJson from 'sort-json';
+import sortJson from "sort-json";
+import { Property } from "../../types/wikidata";
+import { Location } from "../../types/location";
 
 const srcPath = `${__dirname}/../..`;
 const geoJSONPath = `${srcPath}/../geojson`;
@@ -110,21 +112,34 @@ const prompt = inquirer.createPromptModule();
 
   if (database) await refreshDatabase();
   if (wikidata) {
-    let d: any[] = [];
+    let d: Record<string, Location[]> = {};
     (await getAllRailwayStations()).subscribe((i) => {
-      d = [...d, ...i];
-      console.log(d.length);
-      fs.writeFile(
-        `${geoJSONPath}/wikidata-railway-stations.geojson`,
-        JSON.stringify(createFeatureCollection(d), null, 2)
-      );
+      // d = [...d, ...i];
+      i.forEach((item) => {
+        item.properties[Property.Country]?.forEach((c) => {
+          d[c.value!] ||= [];
+          d[c.value!].push(item);
+          fs.writeFile(
+            `${geoJSONPath}/wikidata/${c.value}.geojson`,
+            JSON.stringify(
+              sortJson(createFeatureCollection(d[c.value!])),
+              null,
+              2
+            )
+          );
+        });
+      });
+      // fs.writeFile(
+      //   `${geoJSONPath}/wikidata-railway-stations.geojson`,
+      //   JSON.stringify(sortJson(createFeatureCollection(d)), null, 2)
+      // );
       console.log("Updated wikidata");
     });
-    const { data: uic } = await getUICRailwayStations();
-    fs.writeFile(
-      `${geoJSONPath}/uic/wikidata.geojson`,
-      JSON.stringify(createFeatureCollection(uic), null, 2)
-    );
+    // const { data: uic } = await getUICRailwayStations();
+    // fs.writeFile(
+    //   `${geoJSONPath}/uic/wikidata.geojson`,
+    //   JSON.stringify(createFeatureCollection(uic), null, 2)
+    // );
   }
 
   if (osmUic) {

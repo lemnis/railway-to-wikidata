@@ -40,6 +40,7 @@ export const simplifyByKeyValue = (
   keys: { property: string; qualifiers?: string[] }[],
   extra?: string[]
 ) => {
+  console.log(response);
   const groupedWikidataItems = (response.results.bindings as any[]).reduce<
     any[]
   >((acc, k) => {

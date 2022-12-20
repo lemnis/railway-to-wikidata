@@ -205,20 +205,8 @@
             "value": "محطة كوپينهاجين سينترال"
           },
           {
-            "lang": "da",
-            "value": "Hovedbanegården"
-          },
-          {
-            "lang": "da",
-            "value": "København H"
-          },
-          {
             "lang": "cs",
             "value": "København H"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Høbenhavn H"
           },
           {
             "lang": "da",
@@ -227,10 +215,6 @@
           {
             "lang": "de",
             "value": "Bahnhof København H"
-          },
-          {
-            "lang": "de",
-            "value": "Københavns Hovedbanegård"
           },
           {
             "lang": "en",
@@ -273,6 +257,30 @@
             "value": "stazione di Copenaghen Centrale"
           },
           {
+            "lang": "da",
+            "value": "Hovedbanegården"
+          },
+          {
+            "lang": "da",
+            "value": "København H"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Høbenhavn H"
+          },
+          {
+            "lang": "de",
+            "value": "Københavns Hovedbanegård"
+          },
+          {
+            "lang": "de",
+            "value": "Kopenhagen Hauptbahnhof"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Copenhague"
+          },
+          {
             "lang": "ja",
             "value": "コペンハーゲン中央駅"
           },
@@ -283,6 +291,10 @@
           {
             "lang": "nb",
             "value": "Københavns hovedbanegård"
+          },
+          {
+            "lang": "nl",
+            "value": "Kobenhavns Hovedbanegard"
           },
           {
             "lang": "nl",
@@ -306,31 +318,11 @@
           },
           {
             "lang": "zh",
-            "value": "哥本哈根火车总站"
-          },
-          {
-            "lang": "uk",
-            "value": "Копенгаген-Центральний (станція)"
-          },
-          {
-            "lang": "tr",
-            "value": "Kopenhag Garı"
-          },
-          {
-            "lang": "de",
-            "value": "Kopenhagen Hauptbahnhof"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Copenhague"
-          },
-          {
-            "lang": "nl",
-            "value": "Kobenhavns Hovedbanegard"
+            "value": "哥本哈根中央车站"
           },
           {
             "lang": "zh",
-            "value": "哥本哈根中央车站"
+            "value": "哥本哈根火车总站"
           },
           {
             "lang": "sv",
@@ -339,6 +331,14 @@
           {
             "lang": "fr",
             "value": "gare de Copenhague"
+          },
+          {
+            "lang": "uk",
+            "value": "Копенгаген-Центральний (станція)"
+          },
+          {
+            "lang": "tr",
+            "value": "Kopenhag Garı"
           }
         ]
       },
@@ -2423,19 +2423,19 @@
           },
           {
             "lang": "zh",
-            "value": "斯劳厄尔瑟站"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "斯拉厄尔瑟站"
-          },
-          {
-            "lang": "zh",
             "value": "斯拉厄尔瑟站"
           },
           {
             "lang": "zh-hant",
             "value": "斯勞厄爾瑟站"
+          },
+          {
+            "lang": "zh",
+            "value": "斯劳厄尔瑟站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "斯拉厄尔瑟站"
           },
           {
             "lang": "zh-hant",
@@ -4117,21 +4117,128 @@
     {
       "geometry": {
         "coordinates": [
-          11.9253,
-          54.5791
+          [
+            11.9253,
+            54.5791
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00077",
+      "id": "DK00077-Q2686559",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q510997"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q634481"
+          }
+        ],
+        "P281": [
+          {
+            "value": "4874"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Ge"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q1567913"
+          },
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Stationsvej 1, 4874 Gedser"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8600830"
+          }
+        ],
+        "P8671": [
+          {
+            "value": "XDG"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q2686559"
           }
         ],
         "labels": [
           {
             "value": "Gedser"
+          },
+          {
+            "lang": "da",
+            "value": "Gedser Station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Gedser"
+          },
+          {
+            "lang": "de",
+            "value": "Gedser Station"
+          },
+          {
+            "lang": "de",
+            "value": "Station Gedser"
+          },
+          {
+            "lang": "en",
+            "value": "Gedser Station"
+          },
+          {
+            "lang": "en",
+            "value": "Gedser railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "Gedser Station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Gedser"
+          },
+          {
+            "lang": "pl",
+            "value": "Gedser"
+          },
+          {
+            "lang": "zh",
+            "value": "盖瑟站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "盖瑟站"
+          },
+          {
+            "lang": "zh-hant",
+            "value": "蓋瑟站"
           }
         ]
       },
@@ -4625,26 +4732,6 @@
             "value": "Lille Skensved St."
           },
           {
-            "lang": "da",
-            "value": "Lille Skensved station"
-          },
-          {
-            "lang": "da",
-            "value": "Lille Skensved Station"
-          },
-          {
-            "lang": "en",
-            "value": "Lille Skensved Station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare Lille Skensved"
-          },
-          {
-            "lang": "zh",
-            "value": "小斯肯斯沃站"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Lille Skensved"
           },
@@ -4663,6 +4750,26 @@
           {
             "lang": "es",
             "value": "Lille Skensved"
+          },
+          {
+            "lang": "da",
+            "value": "Lille Skensved station"
+          },
+          {
+            "lang": "da",
+            "value": "Lille Skensved Station"
+          },
+          {
+            "lang": "en",
+            "value": "Lille Skensved Station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare Lille Skensved"
+          },
+          {
+            "lang": "zh",
+            "value": "小斯肯斯沃站"
           }
         ]
       },
@@ -4806,6 +4913,22 @@
             "value": "Ølby St."
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Ølby"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Ølby"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Ølby"
+          },
+          {
+            "lang": "nb",
+            "value": "Ølby stasjon"
+          },
+          {
             "lang": "arz",
             "value": "محطة اولبى"
           },
@@ -4823,31 +4946,15 @@
           },
           {
             "lang": "nl",
+            "value": "Station Olby"
+          },
+          {
+            "lang": "nl",
             "value": "station Ølby"
           },
           {
             "lang": "zh",
             "value": "啤酒镇站"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Ølby"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Ølby"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Ølby"
-          },
-          {
-            "lang": "nb",
-            "value": "Ølby stasjon"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Olby"
           }
         ]
       },
@@ -5976,6 +6083,26 @@
             "value": "Lejre St."
           },
           {
+            "lang": "da",
+            "value": "Lejre Station"
+          },
+          {
+            "lang": "en",
+            "value": "Lejre Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Lejre"
+          },
+          {
+            "lang": "zh",
+            "value": "莱尔站"
+          },
+          {
+            "lang": "zh-hans",
+            "value": "莱尔站"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Lejre"
           },
@@ -5998,26 +6125,6 @@
           {
             "lang": "sv",
             "value": "Lejre Station"
-          },
-          {
-            "lang": "da",
-            "value": "Lejre Station"
-          },
-          {
-            "lang": "en",
-            "value": "Lejre Station"
-          },
-          {
-            "lang": "pl",
-            "value": "Lejre"
-          },
-          {
-            "lang": "zh",
-            "value": "莱尔站"
-          },
-          {
-            "lang": "zh-hans",
-            "value": "莱尔站"
           },
           {
             "lang": "zh-hant",
@@ -7059,6 +7166,10 @@
             "value": "Bahnhof Knabstrup"
           },
           {
+            "lang": "pl",
+            "value": "Knabstrup"
+          },
+          {
             "lang": "fr",
             "value": "gare de Knabstrup"
           },
@@ -7073,10 +7184,6 @@
           {
             "lang": "nb",
             "value": "Knabstrup stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Knabstrup"
           }
         ]
       },
@@ -8106,10 +8213,6 @@
             "value": "Fredensborg St."
           },
           {
-            "lang": "pl",
-            "value": "Fredensborg"
-          },
-          {
             "lang": "arz",
             "value": "محطة فريدينسبورج"
           },
@@ -8148,6 +8251,10 @@
           {
             "lang": "nb",
             "value": "Fredensborg stasjon"
+          },
+          {
+            "lang": "pl",
+            "value": "Fredensborg"
           }
         ]
       },
@@ -8834,20 +8941,8 @@
             "value": "محطة كوپينهاجين سينترال"
           },
           {
-            "lang": "da",
-            "value": "Hovedbanegården"
-          },
-          {
-            "lang": "da",
-            "value": "København H"
-          },
-          {
             "lang": "cs",
             "value": "København H"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Høbenhavn H"
           },
           {
             "lang": "da",
@@ -8856,10 +8951,6 @@
           {
             "lang": "de",
             "value": "Bahnhof København H"
-          },
-          {
-            "lang": "de",
-            "value": "Københavns Hovedbanegård"
           },
           {
             "lang": "en",
@@ -8902,6 +8993,30 @@
             "value": "stazione di Copenaghen Centrale"
           },
           {
+            "lang": "da",
+            "value": "Hovedbanegården"
+          },
+          {
+            "lang": "da",
+            "value": "København H"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Høbenhavn H"
+          },
+          {
+            "lang": "de",
+            "value": "Københavns Hovedbanegård"
+          },
+          {
+            "lang": "de",
+            "value": "Kopenhagen Hauptbahnhof"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Copenhague"
+          },
+          {
             "lang": "ja",
             "value": "コペンハーゲン中央駅"
           },
@@ -8912,6 +9027,10 @@
           {
             "lang": "nb",
             "value": "Københavns hovedbanegård"
+          },
+          {
+            "lang": "nl",
+            "value": "Kobenhavns Hovedbanegard"
           },
           {
             "lang": "nl",
@@ -8935,31 +9054,11 @@
           },
           {
             "lang": "zh",
-            "value": "哥本哈根火车总站"
-          },
-          {
-            "lang": "uk",
-            "value": "Копенгаген-Центральний (станція)"
-          },
-          {
-            "lang": "tr",
-            "value": "Kopenhag Garı"
-          },
-          {
-            "lang": "de",
-            "value": "Kopenhagen Hauptbahnhof"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Copenhague"
-          },
-          {
-            "lang": "nl",
-            "value": "Kobenhavns Hovedbanegard"
+            "value": "哥本哈根中央车站"
           },
           {
             "lang": "zh",
-            "value": "哥本哈根中央车站"
+            "value": "哥本哈根火车总站"
           },
           {
             "lang": "sv",
@@ -8968,6 +9067,14 @@
           {
             "lang": "fr",
             "value": "gare de Copenhague"
+          },
+          {
+            "lang": "uk",
+            "value": "Копенгаген-Центральний (станція)"
+          },
+          {
+            "lang": "tr",
+            "value": "Kopenhag Garı"
           }
         ]
       },
@@ -9404,20 +9511,8 @@
             "value": "Nørreport stasjon"
           },
           {
-            "lang": "da",
-            "value": "Nørreport St."
-          },
-          {
-            "lang": "da",
-            "value": "Nørreport station"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Nørreport"
-          },
-          {
-            "lang": "de",
-            "value": "Nørreport Station"
           },
           {
             "lang": "fi",
@@ -9438,6 +9533,30 @@
           {
             "lang": "ja",
             "value": "Nørreport 駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Nørreport"
+          },
+          {
+            "lang": "pl",
+            "value": "Kopenhaga Nørreport"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Nørreport"
+          },
+          {
+            "lang": "da",
+            "value": "Nørreport St."
+          },
+          {
+            "lang": "da",
+            "value": "Nørreport station"
+          },
+          {
+            "lang": "de",
+            "value": "Nørreport Station"
           },
           {
             "lang": "nb",
@@ -9464,24 +9583,12 @@
             "value": "Station Norreport"
           },
           {
-            "lang": "nl",
-            "value": "station Nørreport"
-          },
-          {
             "lang": "pt",
             "value": "Nørreport (metro de copenhaga)"
           },
           {
             "lang": "pt",
             "value": "Nørreport (Metro de Copenhaga)"
-          },
-          {
-            "lang": "pl",
-            "value": "Kopenhaga Nørreport"
-          },
-          {
-            "lang": "pt",
-            "value": "Estação Nørreport"
           },
           {
             "lang": "ru",
@@ -9658,10 +9765,6 @@
             "value": "محطة هيليروپ"
           },
           {
-            "lang": "de",
-            "value": "Station Hellerup"
-          },
-          {
             "lang": "da",
             "value": "Hellerup Station"
           },
@@ -9686,10 +9789,6 @@
             "value": "Hellerup Station"
           },
           {
-            "lang": "pl",
-            "value": "Hellerup Station"
-          },
-          {
             "lang": "nl",
             "value": "station Hellerup"
           },
@@ -9699,6 +9798,18 @@
           },
           {
             "lang": "sv",
+            "value": "Hellerup Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Hellerup"
+          },
+          {
+            "lang": "de",
+            "value": "Station Hellerup"
+          },
+          {
+            "lang": "pl",
             "value": "Hellerup Station"
           },
           {
@@ -9720,10 +9831,6 @@
           {
             "lang": "nb",
             "value": "Hellerup stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Hellerup"
           }
         ]
       },
@@ -11634,12 +11741,12 @@
             "value": "Helsingør St."
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Helsingør"
-          },
-          {
             "lang": "pl",
             "value": "Helsingør"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Helsingør"
           },
           {
             "lang": "arz",
@@ -12162,7 +12269,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "DK00175-XDKHL-DKCPH-trainline-34297-Q2431774",
+      "id": "DK00175-XDKHL-DKCPH-860000858-trainline-34297-Q2431774",
       "properties": {
         "P1103": [
           {
@@ -12232,6 +12339,10 @@
         ],
         "P722": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "8600858"
           }
         ],
@@ -12302,6 +12413,10 @@
           },
           {
             "value": "Copenhagen Airport Kastrup"
+          },
+          {
+            "lang": "sv",
+            "value": "Copenhagen Airport"
           },
           {
             "value": "København Lufthavn"
@@ -12886,20 +13001,8 @@
             "value": "stazione di Højby"
           },
           {
-            "lang": "nb",
-            "value": "Højby stasjon"
-          },
-          {
-            "lang": "en",
-            "value": "Højby (Fyn) railway station"
-          },
-          {
             "lang": "da",
             "value": "Højby Station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Hojby (Fyn)"
           },
           {
             "lang": "nl",
@@ -12908,6 +13011,18 @@
           {
             "lang": "pl",
             "value": "Højby"
+          },
+          {
+            "lang": "nb",
+            "value": "Højby stasjon"
+          },
+          {
+            "lang": "en",
+            "value": "Højby (Fyn) railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Hojby (Fyn)"
           }
         ]
       },
@@ -14579,6 +14694,10 @@
             "value": "Langeskov"
           },
           {
+            "lang": "da",
+            "value": "Langeskov Station"
+          },
+          {
             "lang": "en",
             "value": "Langeskov Station"
           },
@@ -14601,10 +14720,6 @@
           {
             "lang": "nb",
             "value": "Langeskov stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Langeskov Station"
           }
         ]
       },
@@ -16253,11 +16368,11 @@
           },
           {
             "lang": "da",
-            "value": "Nørre Åby Station"
+            "value": "Nørre Aaby Station"
           },
           {
             "lang": "da",
-            "value": "Nørre Aaby Station"
+            "value": "Nørre Åby Station"
           },
           {
             "lang": "en",
@@ -16860,10 +16975,6 @@
             "value": "Fredericia St."
           },
           {
-            "lang": "fr",
-            "value": "Fredericia"
-          },
-          {
             "lang": "da",
             "value": "Fredericia Station"
           },
@@ -16910,6 +17021,10 @@
           {
             "lang": "fr",
             "value": "gare de Fredericia"
+          },
+          {
+            "lang": "fr",
+            "value": "Fredericia"
           },
           {
             "lang": "pl",
@@ -18923,16 +19038,16 @@
             "value": "gare de Hinnerup"
           },
           {
+            "lang": "pl",
+            "value": "Hinnerup"
+          },
+          {
             "lang": "it",
             "value": "stazione di Hinnerup"
           },
           {
             "lang": "nb",
             "value": "Hinnerup stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Hinnerup"
           }
         ]
       },
@@ -21137,22 +21252,6 @@
             "value": "Lindholm St."
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Lindholm"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Lindholm"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Lindholm"
-          },
-          {
-            "lang": "nb",
-            "value": "Lindholm stasjon"
-          },
-          {
             "lang": "arz",
             "value": "محطة ليندهولم"
           },
@@ -21171,6 +21270,22 @@
           {
             "lang": "nl",
             "value": "station Lindholm"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Lindholm"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Lindholm"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Lindholm"
+          },
+          {
+            "lang": "nb",
+            "value": "Lindholm stasjon"
           }
         ]
       },
@@ -21319,22 +21434,6 @@
             "value": "Brønderslev St."
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Brønderslev"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Brønderslev"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Brønderslev"
-          },
-          {
-            "lang": "nb",
-            "value": "Brønderslev stasjon"
-          },
-          {
             "lang": "arz",
             "value": "محطة برونديرسليڤ"
           },
@@ -21352,11 +21451,27 @@
           },
           {
             "lang": "nl",
-            "value": "Station Bronderslev"
+            "value": "station Brønderslev"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Brønderslev"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Brønderslev"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Brønderslev"
+          },
+          {
+            "lang": "nb",
+            "value": "Brønderslev stasjon"
           },
           {
             "lang": "nl",
-            "value": "station Brønderslev"
+            "value": "Station Bronderslev"
           },
           {
             "lang": "pl",
@@ -21542,6 +21657,10 @@
           },
           {
             "lang": "nl",
+            "value": "Station Vra"
+          },
+          {
+            "lang": "nl",
             "value": "station Vrå"
           },
           {
@@ -21561,20 +21680,16 @@
             "value": "gare de Vrå"
           },
           {
-            "lang": "pl",
-            "value": "Vrå"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Vra"
-          },
-          {
             "lang": "it",
             "value": "stazione di Vrå"
           },
           {
             "lang": "nb",
             "value": "Vrå stasjon"
+          },
+          {
+            "lang": "pl",
+            "value": "Vrå"
           }
         ]
       },
@@ -25286,6 +25401,10 @@
             "value": "Holsted St."
           },
           {
+            "lang": "pl",
+            "value": "Holsted"
+          },
+          {
             "lang": "da",
             "value": "Holsted Station"
           },
@@ -25312,10 +25431,6 @@
           {
             "lang": "nb",
             "value": "Holsted stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Holsted"
           }
         ]
       },
@@ -29658,6 +29773,14 @@
             "value": "Varde St."
           },
           {
+            "lang": "da",
+            "value": "Varde Station"
+          },
+          {
+            "lang": "en",
+            "value": "Varde Station"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Varde"
           },
@@ -29672,14 +29795,6 @@
           {
             "lang": "nb",
             "value": "Varde stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Varde Station"
-          },
-          {
-            "lang": "en",
-            "value": "Varde Station"
           },
           {
             "lang": "nl",
@@ -29827,18 +29942,6 @@
             "value": "Bahnhof Varde Nord"
           },
           {
-            "lang": "da",
-            "value": "Varde Nord Station"
-          },
-          {
-            "lang": "en",
-            "value": "Varde Nord station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Varde Nord"
-          },
-          {
             "lang": "fr",
             "value": "gare de Varde Nord"
           },
@@ -29849,6 +29952,18 @@
           {
             "lang": "nb",
             "value": "Varde Nord stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Varde Nord Station"
+          },
+          {
+            "lang": "en",
+            "value": "Varde Nord station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Varde Nord"
           }
         ]
       },
@@ -30527,6 +30642,10 @@
             "value": "Ølgod St."
           },
           {
+            "lang": "da",
+            "value": "Ølgod Station"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Ølgod"
           },
@@ -30541,10 +30660,6 @@
           {
             "lang": "nb",
             "value": "Ølgod stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Ølgod Station"
           },
           {
             "lang": "en",
@@ -32502,6 +32617,18 @@
             "value": "Bahnhof Hjerm"
           },
           {
+            "lang": "fr",
+            "value": "gare de Hjerm"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Hjerm"
+          },
+          {
+            "lang": "nb",
+            "value": "Hjerm stasjon"
+          },
+          {
             "lang": "arz",
             "value": "محطة هچيرم"
           },
@@ -32520,18 +32647,6 @@
           {
             "lang": "nl",
             "value": "Station Hjerm"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Hjerm"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Hjerm"
-          },
-          {
-            "lang": "nb",
-            "value": "Hjerm stasjon"
           }
         ]
       },
@@ -34177,22 +34292,6 @@
             "value": "Vinderup St."
           },
           {
-            "lang": "arz",
-            "value": "محطة ڤينديروپ"
-          },
-          {
-            "lang": "da",
-            "value": "Vinderup Station"
-          },
-          {
-            "lang": "en",
-            "value": "Vinderup station"
-          },
-          {
-            "lang": "hu",
-            "value": "Vinderup vasútállomás"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Vinderup"
           },
@@ -34207,6 +34306,22 @@
           {
             "lang": "nb",
             "value": "Vinderup stasjon"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ڤينديروپ"
+          },
+          {
+            "lang": "da",
+            "value": "Vinderup Station"
+          },
+          {
+            "lang": "en",
+            "value": "Vinderup station"
+          },
+          {
+            "lang": "hu",
+            "value": "Vinderup vasútállomás"
           },
           {
             "lang": "nl",
@@ -36293,6 +36408,18 @@
             "value": "Hvidbjerg St."
           },
           {
+            "lang": "arz",
+            "value": "محطة هڤيدبچيرج"
+          },
+          {
+            "lang": "da",
+            "value": "Hvidbjerg Station"
+          },
+          {
+            "lang": "en",
+            "value": "Hvidbjerg station"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Hvidbjerg"
           },
@@ -36307,18 +36434,6 @@
           {
             "lang": "nb",
             "value": "Hvidbjerg stasjon"
-          },
-          {
-            "lang": "arz",
-            "value": "محطة هڤيدبچيرج"
-          },
-          {
-            "lang": "da",
-            "value": "Hvidbjerg Station"
-          },
-          {
-            "lang": "en",
-            "value": "Hvidbjerg station"
           },
           {
             "lang": "hu",
@@ -38141,6 +38256,18 @@
             "value": "Ry St."
           },
           {
+            "lang": "da",
+            "value": "Ry Station"
+          },
+          {
+            "lang": "en",
+            "value": "Ry station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Ry"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Ry"
           },
@@ -38155,18 +38282,6 @@
           {
             "lang": "nb",
             "value": "Ry stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Ry Station"
-          },
-          {
-            "lang": "en",
-            "value": "Ry station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Ry"
           }
         ]
       },
@@ -41773,21 +41888,55 @@
     {
       "geometry": {
         "coordinates": [
-          10.2312,
-          56.1772
+          [
+            10.2312,
+            56.1772
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00512",
+      "id": "DK00512-Q12308090",
       "properties": {
+        "P131": [
+          {
+            "value": "Q240262"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Per"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12308090"
           }
         ],
         "labels": [
           {
             "value": "Den Permanente"
+          },
+          {
+            "lang": "da",
+            "value": "Den Permanente Trinbræt"
+          },
+          {
+            "lang": "da",
+            "value": "Den Permanente Station"
           }
         ]
       },
@@ -43076,16 +43225,16 @@
             "value": "station Nørgaardsvej"
           },
           {
-            "lang": "nb",
-            "value": "Nørgaardsvej stasjon"
-          },
-          {
             "lang": "da",
             "value": "Nørgaardsvej Station"
           },
           {
             "lang": "en",
             "value": "Nørgaardsvej Station"
+          },
+          {
+            "lang": "nb",
+            "value": "Nørgaardsvej stasjon"
           }
         ]
       },
@@ -44661,22 +44810,6 @@
             "value": "Hundested"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Hundested"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Hundested"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Hundested"
-          },
-          {
-            "lang": "nb",
-            "value": "Hundested stasjon"
-          },
-          {
             "lang": "da",
             "value": "Hundested Station"
           },
@@ -44691,6 +44824,22 @@
           {
             "lang": "pl",
             "value": "Hundested"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Hundested"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Hundested"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Hundested"
+          },
+          {
+            "lang": "nb",
+            "value": "Hundested stasjon"
           },
           {
             "lang": "sv",
@@ -45203,6 +45352,18 @@
             "value": "Bahnhof Hellebæk"
           },
           {
+            "lang": "fr",
+            "value": "gare de Hellebæk"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Hellebæk"
+          },
+          {
+            "lang": "nb",
+            "value": "Hellebæk stasjon"
+          },
+          {
             "lang": "da",
             "value": "Hellebæk Station"
           },
@@ -45221,18 +45382,6 @@
           {
             "lang": "pl",
             "value": "Hellebæk"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Hellebæk"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Hellebæk"
-          },
-          {
-            "lang": "nb",
-            "value": "Hellebæk stasjon"
           }
         ]
       },
@@ -45483,22 +45632,6 @@
             "value": "Saunte St."
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Saunte"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Saunte"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Saunte"
-          },
-          {
-            "lang": "nb",
-            "value": "Saunte stasjon"
-          },
-          {
             "lang": "da",
             "value": "Saunte Station"
           },
@@ -45513,6 +45646,22 @@
           {
             "lang": "nl",
             "value": "station Saunte"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Saunte"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Saunte"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Saunte"
+          },
+          {
+            "lang": "nb",
+            "value": "Saunte stasjon"
           },
           {
             "lang": "pl",
@@ -46037,11 +46186,15 @@
           },
           {
             "lang": "da",
-            "value": "Marienlyst (Sankt Mariæ Sogn)"
+            "value": "Marienlyst Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Marienlyst"
           },
           {
             "lang": "da",
-            "value": "Marienlyst Station"
+            "value": "Marienlyst (Sankt Mariæ Sogn)"
           },
           {
             "lang": "en",
@@ -46070,10 +46223,6 @@
           {
             "lang": "nb",
             "value": "Marienlyst stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Marienlyst"
           }
         ]
       },
@@ -46319,14 +46468,6 @@
             "value": "Karinebæk St."
           },
           {
-            "lang": "da",
-            "value": "Karinebæk Station"
-          },
-          {
-            "lang": "en",
-            "value": "Karinebæk halt"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Karinebæk"
           },
@@ -46341,6 +46482,14 @@
           {
             "lang": "nb",
             "value": "Karinebæk stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Karinebæk Station"
+          },
+          {
+            "lang": "en",
+            "value": "Karinebæk halt"
           },
           {
             "lang": "hu",
@@ -48114,21 +48263,97 @@
     {
       "geometry": {
         "coordinates": [
-          12.1828,
-          56.0393
+          [
+            12.1828,
+            56.0393
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00599",
+      "id": "DK00599-Q12324002",
       "properties": {
+        "P131": [
+          {
+            "value": "Q494827"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q54092828"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Løg"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "P954": [
+          {
+            "value": "8601414"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12324002"
           }
         ],
         "labels": [
           {
             "value": "Laugø"
+          },
+          {
+            "lang": "da",
+            "value": "Laugø Station"
+          },
+          {
+            "lang": "en",
+            "value": "Laugø Station"
+          },
+          {
+            "lang": "et",
+            "value": "Laugø Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Laugø"
+          },
+          {
+            "lang": "sv",
+            "value": "Laugø Station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Laugø"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Laugø"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Laugø"
+          },
+          {
+            "lang": "nl",
+            "value": "station Laugø"
+          },
+          {
+            "lang": "nb",
+            "value": "Laugø stasjon"
           }
         ]
       },
@@ -48677,6 +48902,10 @@
           },
           {
             "lang": "da",
+            "value": "Mårsø Station (Nedlagt)"
+          },
+          {
+            "lang": "da",
             "value": "Mårsø Station"
           },
           {
@@ -48690,10 +48919,6 @@
           {
             "lang": "fr",
             "value": "gare de Mårsø"
-          },
-          {
-            "lang": "da",
-            "value": "Mårsø Station (Nedlagt)"
           },
           {
             "lang": "it",
@@ -48775,14 +49000,6 @@
             "value": "gare de Ny Hagested"
           },
           {
-            "lang": "da",
-            "value": "Ny Hagested Station"
-          },
-          {
-            "lang": "en",
-            "value": "Ny Hagested Station"
-          },
-          {
             "lang": "it",
             "value": "stazione di Ny Hagested"
           },
@@ -48793,6 +49010,14 @@
           {
             "lang": "nb",
             "value": "Ny Hagested stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Ny Hagested Station"
+          },
+          {
+            "lang": "en",
+            "value": "Ny Hagested Station"
           }
         ]
       },
@@ -49495,6 +49720,14 @@
             "value": "stazione di Nr. Asmindrup"
           },
           {
+            "lang": "da",
+            "value": "Nr. Asmindrup Station"
+          },
+          {
+            "lang": "en",
+            "value": "Nr. Asmindrup Station"
+          },
+          {
             "lang": "nl",
             "value": "station Nr. Asmindrup"
           },
@@ -49505,14 +49738,6 @@
           {
             "lang": "da",
             "value": "Nørre Asmindrup Station"
-          },
-          {
-            "lang": "da",
-            "value": "Nr. Asmindrup Station"
-          },
-          {
-            "lang": "en",
-            "value": "Nr. Asmindrup Station"
           }
         ]
       },
@@ -49911,21 +50136,55 @@
     {
       "geometry": {
         "coordinates": [
-          11.3078,
-          55.451
+          [
+            11.3078,
+            55.451
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00633",
+      "id": "DK00633-Q12315861",
       "properties": {
+        "P131": [
+          {
+            "value": "Q29927"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Heb"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12315861"
           }
         ],
         "labels": [
           {
             "value": "Havrebjerg"
+          },
+          {
+            "lang": "da",
+            "value": "Havrebjerg Station"
+          },
+          {
+            "lang": "en",
+            "value": "Havrebjerg Station"
           }
         ]
       },
@@ -51507,14 +51766,6 @@
             "value": "Tokkerup"
           },
           {
-            "lang": "da",
-            "value": "Tokkerup Station"
-          },
-          {
-            "lang": "en",
-            "value": "Tokkerup Station"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Tokkerup"
           },
@@ -51533,6 +51784,14 @@
           {
             "lang": "nb",
             "value": "Tokkerup stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Tokkerup Station"
+          },
+          {
+            "lang": "en",
+            "value": "Tokkerup Station"
           }
         ]
       },
@@ -51897,6 +52156,10 @@
           },
           {
             "lang": "da",
+            "value": "St. Heddinge Station"
+          },
+          {
+            "lang": "da",
             "value": "Store Heddinge Station"
           },
           {
@@ -51918,10 +52181,6 @@
           {
             "lang": "nl",
             "value": "station Store Heddinge"
-          },
-          {
-            "lang": "da",
-            "value": "St. Heddinge Station"
           },
           {
             "lang": "nb",
@@ -53244,6 +53503,14 @@
             "value": "Billum st"
           },
           {
+            "lang": "da",
+            "value": "Billum Station"
+          },
+          {
+            "lang": "en",
+            "value": "Billum railway station"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Billum"
           },
@@ -53260,14 +53527,6 @@
             "value": "Billum stasjon"
           },
           {
-            "lang": "da",
-            "value": "Billum Station"
-          },
-          {
-            "lang": "en",
-            "value": "Billum railway station"
-          },
-          {
             "lang": "nl",
             "value": "Station Billum"
           }
@@ -53278,21 +53537,64 @@
     {
       "geometry": {
         "coordinates": [
-          8.295,
-          55.619
+          [
+            8.295,
+            55.619
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00696",
+      "id": "DK00696-Q12316717",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q21142"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Hs"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12316717"
           }
         ],
         "labels": [
           {
             "value": "Hesselmed"
+          },
+          {
+            "lang": "da",
+            "value": "Hesselmed Station"
+          },
+          {
+            "lang": "en",
+            "value": "Hesselmed Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Hesselmed"
           }
         ]
       },
@@ -53822,21 +54124,55 @@
     {
       "geometry": {
         "coordinates": [
-          8.3043,
-          55.684
+          [
+            8.3043,
+            55.684
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00703",
+      "id": "DK00703-Q12342884",
       "properties": {
+        "P131": [
+          {
+            "value": "Q21142"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Sø"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12342884"
           }
         ],
         "labels": [
           {
             "value": "Søvig Sund"
+          },
+          {
+            "lang": "da",
+            "value": "Søvig Sund Station"
+          },
+          {
+            "lang": "sv",
+            "value": "Søvig"
           }
         ]
       },
@@ -54063,6 +54399,10 @@
             "value": "Outrup st"
           },
           {
+            "lang": "da",
+            "value": "Outrup Station"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Outrup"
           },
@@ -54077,10 +54417,6 @@
           {
             "lang": "nb",
             "value": "Outrup stasjon"
-          },
-          {
-            "lang": "da",
-            "value": "Outrup Station"
           },
           {
             "lang": "en",
@@ -54586,10 +54922,6 @@
             "value": "stazione di Frisvadvej"
           },
           {
-            "lang": "nb",
-            "value": "Frisvadvej stasjon"
-          },
-          {
             "lang": "da",
             "value": "Frisvadvej Station"
           },
@@ -54600,6 +54932,10 @@
           {
             "lang": "nl",
             "value": "Station Frisvadvej"
+          },
+          {
+            "lang": "nb",
+            "value": "Frisvadvej stasjon"
           }
         ]
       },
@@ -54695,18 +55031,6 @@
             "value": "Dyreby st"
           },
           {
-            "lang": "da",
-            "value": "Dyreby Station"
-          },
-          {
-            "lang": "en",
-            "value": "Dyreby railway station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Dyreby"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Dyreby"
           },
@@ -54721,6 +55045,18 @@
           {
             "lang": "nb",
             "value": "Dyreby stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Dyreby Station"
+          },
+          {
+            "lang": "en",
+            "value": "Dyreby railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Dyreby"
           }
         ]
       },
@@ -54855,21 +55191,68 @@
     {
       "geometry": {
         "coordinates": [
-          8.4258,
-          55.6262
+          [
+            8.4258,
+            55.6262
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00714",
+      "id": "DK00714-Q12309786",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q21142"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P296": [
+          {
+            "value": "El"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12309786"
           }
         ],
         "labels": [
           {
             "value": "Elkærdam"
+          },
+          {
+            "lang": "da",
+            "value": "Elkærdam Station"
+          },
+          {
+            "lang": "en",
+            "value": "Elkærdam Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Elkaerdam"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Elkærdam"
           }
         ]
       },
@@ -55717,18 +56100,6 @@
             "value": "Rude Havvej"
           },
           {
-            "lang": "da",
-            "value": "Rude Havvej Station"
-          },
-          {
-            "lang": "en",
-            "value": "Rude Havvej railway station"
-          },
-          {
-            "lang": "nl",
-            "value": "station Rude Havvej"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Rude Havvej"
           },
@@ -55743,6 +56114,18 @@
           {
             "lang": "nb",
             "value": "Rude Havvej stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Rude Havvej Station"
+          },
+          {
+            "lang": "en",
+            "value": "Rude Havvej railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Rude Havvej"
           }
         ]
       },
@@ -56175,22 +56558,6 @@
             "value": "Gunnar Clausensvej"
           },
           {
-            "lang": "da",
-            "value": "Gunnar Clausens Vej Station"
-          },
-          {
-            "lang": "da",
-            "value": "Gunnar Clausensvej Station"
-          },
-          {
-            "lang": "en",
-            "value": "Gunnar Clausens Vej Station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Gunnar Clausensvej"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Gunnar Clausensvej"
           },
@@ -56205,6 +56572,22 @@
           {
             "lang": "nb",
             "value": "Gunnar Clausensvej stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Gunnar Clausens Vej Station"
+          },
+          {
+            "lang": "da",
+            "value": "Gunnar Clausensvej Station"
+          },
+          {
+            "lang": "en",
+            "value": "Gunnar Clausens Vej Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Gunnar Clausensvej"
           }
         ]
       },
@@ -57482,14 +57865,6 @@
             "value": "Bækmarksbro"
           },
           {
-            "lang": "da",
-            "value": "Bækmarksbro Station"
-          },
-          {
-            "lang": "en",
-            "value": "Bækmarksbro Station"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Bækmarksbro"
           },
@@ -57508,6 +57883,14 @@
           {
             "lang": "nb",
             "value": "Bækmarksbro stasjon"
+          },
+          {
+            "lang": "da",
+            "value": "Bækmarksbro Station"
+          },
+          {
+            "lang": "en",
+            "value": "Bækmarksbro Station"
           }
         ]
       },
@@ -58346,18 +58729,6 @@
             "value": "Kvægtorvet"
           },
           {
-            "lang": "arz",
-            "value": "محطة كڤايجتورڤيت هالت"
-          },
-          {
-            "lang": "da",
-            "value": "Kvægtorvet Station"
-          },
-          {
-            "lang": "en",
-            "value": "Kvægtorvet halt"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Kvægtorvet"
           },
@@ -58374,8 +58745,20 @@
             "value": "Kvægtorvet stasjon"
           },
           {
+            "lang": "arz",
+            "value": "محطة كڤايجتورڤيت هالت"
+          },
+          {
             "lang": "da",
             "value": "Kvægtorvet Trinbræt"
+          },
+          {
+            "lang": "da",
+            "value": "Kvægtorvet Station"
+          },
+          {
+            "lang": "en",
+            "value": "Kvægtorvet halt"
           },
           {
             "lang": "hu",
@@ -59124,21 +59507,90 @@
     {
       "geometry": {
         "coordinates": [
-          9.951,
-          57.524
+          [
+            9.951,
+            57.524
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "DK00777",
+      "id": "DK00777-Q12338419",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q511214"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q35"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q2096919"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Søn"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q4663385"
+          }
+        ],
+        "P954": [
+          {
+            "value": "8602333"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12338419"
           }
         ],
         "labels": [
           {
             "value": "Sønderby"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة سونديربى هالت"
+          },
+          {
+            "lang": "da",
+            "value": "Sønderby Trinbræt"
+          },
+          {
+            "lang": "da",
+            "value": "Sønderby Station"
+          },
+          {
+            "lang": "en",
+            "value": "Sønderby halt"
+          },
+          {
+            "lang": "hu",
+            "value": "Sønderby vasúti megálló"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Sonderby"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Sønderby"
           }
         ]
       },
@@ -59205,22 +59657,6 @@
             "value": "Horne"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Horne"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Horne"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Horne"
-          },
-          {
-            "lang": "nb",
-            "value": "Horne stasjon"
-          },
-          {
             "lang": "arz",
             "value": "محطة هورن"
           },
@@ -59239,6 +59675,22 @@
           {
             "lang": "nl",
             "value": "station Horne"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Horne"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Horne"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Horne"
+          },
+          {
+            "lang": "nb",
+            "value": "Horne stasjon"
           }
         ]
       },
@@ -59409,14 +59861,6 @@
             "value": "Lilleheden"
           },
           {
-            "lang": "da",
-            "value": "Lilleheden Trinbræt"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Lilleheden"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Lilleheden"
           },
@@ -59438,6 +59882,10 @@
           },
           {
             "lang": "da",
+            "value": "Lilleheden Trinbræt"
+          },
+          {
+            "lang": "da",
             "value": "Lilleheden Station"
           },
           {
@@ -59447,6 +59895,10 @@
           {
             "lang": "hu",
             "value": "Lilleheden vasúti megálló"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Lilleheden"
           },
           {
             "lang": "nl",
@@ -59565,22 +60017,6 @@
             "value": "Strandby St. (Frederikshavn)"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Strandby"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Strandby"
-          },
-          {
-            "lang": "nb",
-            "value": "Strandby stasjon"
-          },
-          {
-            "lang": "sv",
-            "value": "Strandby Station"
-          },
-          {
             "lang": "arz",
             "value": "محطة ستراندبى"
           },
@@ -59603,6 +60039,22 @@
           {
             "lang": "nl",
             "value": "station Strandby"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Strandby"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Strandby"
+          },
+          {
+            "lang": "nb",
+            "value": "Strandby stasjon"
+          },
+          {
+            "lang": "sv",
+            "value": "Strandby Station"
           }
         ]
       },
@@ -59712,6 +60164,18 @@
             "value": "Rimmen St."
           },
           {
+            "lang": "arz",
+            "value": "محطة ريمين هالت"
+          },
+          {
+            "lang": "da",
+            "value": "Rimmen Station"
+          },
+          {
+            "lang": "en",
+            "value": "Rimmen halt"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Rimmen"
           },
@@ -59728,24 +60192,12 @@
             "value": "Rimmen stasjon"
           },
           {
-            "lang": "arz",
-            "value": "محطة ريمين هالت"
-          },
-          {
             "lang": "da",
             "value": "Rimmen Trinbræt"
           },
           {
-            "lang": "da",
-            "value": "Rimmen Station"
-          },
-          {
             "lang": "en",
             "value": "Rimmen railway halt"
-          },
-          {
-            "lang": "en",
-            "value": "Rimmen halt"
           },
           {
             "lang": "hu",
@@ -60137,10 +60589,6 @@
           },
           {
             "lang": "da",
-            "value": "Aalbæk Station"
-          },
-          {
-            "lang": "da",
             "value": "Ålbæk Station"
           },
           {
@@ -60153,15 +60601,19 @@
           },
           {
             "lang": "nl",
-            "value": "Station Aalbaek"
-          },
-          {
-            "lang": "nl",
             "value": "station Aalbæk"
           },
           {
             "lang": "de",
             "value": "Bahnhof Ålbæk"
+          },
+          {
+            "lang": "da",
+            "value": "Aalbæk Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Aalbaek"
           },
           {
             "lang": "fr",
@@ -60288,10 +60740,6 @@
           },
           {
             "lang": "da",
-            "value": "Bunken Trinbræt"
-          },
-          {
-            "lang": "da",
             "value": "Bunken Station"
           },
           {
@@ -60304,15 +60752,19 @@
           },
           {
             "lang": "nl",
-            "value": "Station Bunken"
-          },
-          {
-            "lang": "nl",
             "value": "halte Bunken"
           },
           {
             "lang": "de",
             "value": "Bahnhof Bunken"
+          },
+          {
+            "lang": "da",
+            "value": "Bunken Trinbræt"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Bunken"
           },
           {
             "lang": "fr",
@@ -61002,20 +61454,8 @@
             "value": "محطة كوپينهاجين سينترال"
           },
           {
-            "lang": "da",
-            "value": "Hovedbanegården"
-          },
-          {
-            "lang": "da",
-            "value": "København H"
-          },
-          {
             "lang": "cs",
             "value": "København H"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Høbenhavn H"
           },
           {
             "lang": "da",
@@ -61024,10 +61464,6 @@
           {
             "lang": "de",
             "value": "Bahnhof København H"
-          },
-          {
-            "lang": "de",
-            "value": "Københavns Hovedbanegård"
           },
           {
             "lang": "en",
@@ -61070,6 +61506,30 @@
             "value": "stazione di Copenaghen Centrale"
           },
           {
+            "lang": "da",
+            "value": "Hovedbanegården"
+          },
+          {
+            "lang": "da",
+            "value": "København H"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Høbenhavn H"
+          },
+          {
+            "lang": "de",
+            "value": "Københavns Hovedbanegård"
+          },
+          {
+            "lang": "de",
+            "value": "Kopenhagen Hauptbahnhof"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Copenhague"
+          },
+          {
             "lang": "ja",
             "value": "コペンハーゲン中央駅"
           },
@@ -61080,6 +61540,10 @@
           {
             "lang": "nb",
             "value": "Københavns hovedbanegård"
+          },
+          {
+            "lang": "nl",
+            "value": "Kobenhavns Hovedbanegard"
           },
           {
             "lang": "nl",
@@ -61103,31 +61567,11 @@
           },
           {
             "lang": "zh",
-            "value": "哥本哈根火车总站"
-          },
-          {
-            "lang": "uk",
-            "value": "Копенгаген-Центральний (станція)"
-          },
-          {
-            "lang": "tr",
-            "value": "Kopenhag Garı"
-          },
-          {
-            "lang": "de",
-            "value": "Kopenhagen Hauptbahnhof"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Copenhague"
-          },
-          {
-            "lang": "nl",
-            "value": "Kobenhavns Hovedbanegard"
+            "value": "哥本哈根中央车站"
           },
           {
             "lang": "zh",
-            "value": "哥本哈根中央车站"
+            "value": "哥本哈根火车总站"
           },
           {
             "lang": "sv",
@@ -61136,6 +61580,14 @@
           {
             "lang": "fr",
             "value": "gare de Copenhague"
+          },
+          {
+            "lang": "uk",
+            "value": "Копенгаген-Центральний (станція)"
+          },
+          {
+            "lang": "tr",
+            "value": "Kopenhag Garı"
           }
         ]
       },
@@ -61403,6 +61855,22 @@
             "value": "Carlsberg"
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Carlsberg"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Carlsberg"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Carlsberg"
+          },
+          {
+            "lang": "nb",
+            "value": "Carlsberg stasjon"
+          },
+          {
             "lang": "da",
             "value": "Carlsberg Station"
           },
@@ -61421,22 +61889,6 @@
           {
             "lang": "zh",
             "value": "嘉士伯站"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Carlsberg"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Carlsberg"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Carlsberg"
-          },
-          {
-            "lang": "nb",
-            "value": "Carlsberg stasjon"
           }
         ]
       },
@@ -63319,20 +63771,8 @@
             "value": "محطة كوپينهاجين سينترال"
           },
           {
-            "lang": "da",
-            "value": "Hovedbanegården"
-          },
-          {
-            "lang": "da",
-            "value": "København H"
-          },
-          {
             "lang": "cs",
             "value": "København H"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Høbenhavn H"
           },
           {
             "lang": "da",
@@ -63341,10 +63781,6 @@
           {
             "lang": "de",
             "value": "Bahnhof København H"
-          },
-          {
-            "lang": "de",
-            "value": "Københavns Hovedbanegård"
           },
           {
             "lang": "en",
@@ -63387,6 +63823,30 @@
             "value": "stazione di Copenaghen Centrale"
           },
           {
+            "lang": "da",
+            "value": "Hovedbanegården"
+          },
+          {
+            "lang": "da",
+            "value": "København H"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Høbenhavn H"
+          },
+          {
+            "lang": "de",
+            "value": "Københavns Hovedbanegård"
+          },
+          {
+            "lang": "de",
+            "value": "Kopenhagen Hauptbahnhof"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Copenhague"
+          },
+          {
             "lang": "ja",
             "value": "コペンハーゲン中央駅"
           },
@@ -63397,6 +63857,10 @@
           {
             "lang": "nb",
             "value": "Københavns hovedbanegård"
+          },
+          {
+            "lang": "nl",
+            "value": "Kobenhavns Hovedbanegard"
           },
           {
             "lang": "nl",
@@ -63420,31 +63884,11 @@
           },
           {
             "lang": "zh",
-            "value": "哥本哈根火车总站"
-          },
-          {
-            "lang": "uk",
-            "value": "Копенгаген-Центральний (станція)"
-          },
-          {
-            "lang": "tr",
-            "value": "Kopenhag Garı"
-          },
-          {
-            "lang": "de",
-            "value": "Kopenhagen Hauptbahnhof"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Copenhague"
-          },
-          {
-            "lang": "nl",
-            "value": "Kobenhavns Hovedbanegard"
+            "value": "哥本哈根中央车站"
           },
           {
             "lang": "zh",
-            "value": "哥本哈根中央车站"
+            "value": "哥本哈根火车总站"
           },
           {
             "lang": "sv",
@@ -63453,6 +63897,14 @@
           {
             "lang": "fr",
             "value": "gare de Copenhague"
+          },
+          {
+            "lang": "uk",
+            "value": "Копенгаген-Центральний (станція)"
+          },
+          {
+            "lang": "tr",
+            "value": "Kopenhag Garı"
           }
         ]
       },
@@ -63730,11 +64182,11 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "DK00819-DKVPT-860000650-trainline-27840-Q2039347",
+      "id": "DK00819-XDKH-DKKHX-860000626-trainline-17515-Q1495052",
       "properties": {
         "P1103": [
           {
-            "value": "2"
+            "value": "13"
           }
         ],
         "P131": [
@@ -63751,27 +64203,34 @@
             "value": "Q35"
           }
         ],
+        "P2044": [
+          {
+            "value": "3"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q521187"
+          }
+        ],
         "P281": [
           {
-            "value": "1612"
+            "value": "1651"
           }
         ],
         "P296": [
           {
-            "value": "Vpt"
+            "value": "Kh"
           }
         ],
         "P31": [
           {
             "value": "Q55488"
-          },
-          {
-            "value": "Q22808403"
           }
         ],
-        "P6375": [
+        "P669": [
           {
-            "value": "Ved Vesterport, 1612 København V"
+            "value": "Q21855562"
           }
         ],
         "P6724": [
@@ -63781,18 +64240,47 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27840"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17515"
               }
             ],
-            "value": "27840"
+            "value": "17515"
           }
         ],
         "P722": [
           {
-            "value": "8600650"
-          },
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.6400000000000001
+                }
+              ],
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17515"
+              }
+            ],
+            "value": "8600626"
+          }
+        ],
+        "P8181": [
           {
-            "value": "8600645"
+            "info": {
+              "pregrouped": [
+                {
+                  "enabled": false,
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17515"
+              }
+            ],
+            "value": "DKCPH"
           }
         ],
         "P8448": [
@@ -63811,10 +64299,28 @@
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27840"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17515"
               }
             ],
-            "value": "DKVPT"
+            "value": "DKKHX"
+          }
+        ],
+        "P8671": [
+          {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+              }
+            ],
+            "value": "XDKH"
           }
         ],
         "P954": [
@@ -63826,21 +64332,27 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "reliability": 0.7999999999999999
                 }
               ],
-              "reliability": 1.5
+              "reliability": 2.3
             },
             "references": [
               {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/27840"
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/17515"
+              },
+              {
+                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
               }
             ],
-            "value": "8602817"
+            "value": "8601309"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q2039347"
+            "value": "Q1495052"
           }
         ],
         "labels": [
@@ -63848,63 +64360,160 @@
             "value": "Vesterport"
           },
           {
+            "value": "Koebenhavn H"
+          },
+          {
+            "value": "København H"
+          },
+          {
+            "value": "Copenhagen Central"
+          },
+          {
             "lang": "sv",
-            "value": "Østerport"
+            "value": "København H"
           },
           {
-            "value": "Vesterport St."
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Vesterport"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Vesterport"
+            "value": "København"
           },
           {
             "lang": "arz",
-            "value": "محطة ڤيستيرپورت"
+            "value": "محطة كوپينهاجين سينترال"
+          },
+          {
+            "lang": "cs",
+            "value": "København H"
           },
           {
             "lang": "da",
-            "value": "Vesterport Station"
+            "value": "Københavns Hovedbanegård"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof København H"
           },
           {
             "lang": "en",
-            "value": "Vesterport Station"
+            "value": "Copenhagen Central Station"
+          },
+          {
+            "lang": "eo",
+            "value": "Kopenhaga Ĉefstacidomo"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Central de Copenhague"
+          },
+          {
+            "lang": "fa",
+            "value": "ایستگاه مرکزی کپنهاگ"
+          },
+          {
+            "lang": "fi",
+            "value": "Kööpenhaminan päärautatieasema"
+          },
+          {
+            "lang": "fo",
+            "value": "Keypmannahavnar Høvuðsjarnbreytarstøð"
           },
           {
             "lang": "fr",
-            "value": "gare de Vesterport"
+            "value": "gare centrale de Copenhague"
           },
           {
             "lang": "hu",
-            "value": "Vesterport vasútállomás"
+            "value": "Koppenhága főpályaudvar"
+          },
+          {
+            "lang": "is",
+            "value": "Aðaljárnbrautarstöðin í Kaupmannahöfn"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Copenaghen Centrale"
+          },
+          {
+            "lang": "da",
+            "value": "Hovedbanegården"
+          },
+          {
+            "lang": "da",
+            "value": "København H"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Høbenhavn H"
+          },
+          {
+            "lang": "de",
+            "value": "Københavns Hovedbanegård"
+          },
+          {
+            "lang": "de",
+            "value": "Kopenhagen Hauptbahnhof"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Copenhague"
+          },
+          {
+            "lang": "ja",
+            "value": "コペンハーゲン中央駅"
+          },
+          {
+            "lang": "la",
+            "value": "Statio Media Hafniensis"
           },
           {
             "lang": "nb",
-            "value": "Vesterport stasjon"
+            "value": "Københavns hovedbanegård"
           },
           {
             "lang": "nl",
-            "value": "station Vesterport"
+            "value": "Kobenhavns Hovedbanegard"
+          },
+          {
+            "lang": "nl",
+            "value": "Københavns Hovedbanegård"
           },
           {
             "lang": "pl",
-            "value": "Kopenhaga Vesterport"
+            "value": "Københavns Hovedbanegård"
           },
           {
             "lang": "ru",
-            "value": "Вестерпорт"
+            "value": "Центральный вокзал Копенгагена"
           },
           {
             "lang": "sv",
-            "value": "Vesterport station"
+            "value": "Københavns Hovedbanegård"
+          },
+          {
+            "lang": "tt",
+            "value": "Копенһаген үзәк вокзалы"
           },
           {
             "lang": "zh",
-            "value": "西门站 (哥本哈根)"
+            "value": "哥本哈根中央车站"
+          },
+          {
+            "lang": "zh",
+            "value": "哥本哈根火车总站"
+          },
+          {
+            "lang": "sv",
+            "value": "Köbenhavn H"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Copenhague"
+          },
+          {
+            "lang": "uk",
+            "value": "Копенгаген-Центральний (станція)"
+          },
+          {
+            "lang": "tr",
+            "value": "Kopenhag Garı"
           }
         ]
       },
@@ -64079,20 +64688,8 @@
             "value": "Nørreport stasjon"
           },
           {
-            "lang": "da",
-            "value": "Nørreport St."
-          },
-          {
-            "lang": "da",
-            "value": "Nørreport station"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Nørreport"
-          },
-          {
-            "lang": "de",
-            "value": "Nørreport Station"
           },
           {
             "lang": "fi",
@@ -64113,6 +64710,30 @@
           {
             "lang": "ja",
             "value": "Nørreport 駅"
+          },
+          {
+            "lang": "nl",
+            "value": "station Nørreport"
+          },
+          {
+            "lang": "pl",
+            "value": "Kopenhaga Nørreport"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Nørreport"
+          },
+          {
+            "lang": "da",
+            "value": "Nørreport St."
+          },
+          {
+            "lang": "da",
+            "value": "Nørreport station"
+          },
+          {
+            "lang": "de",
+            "value": "Nørreport Station"
           },
           {
             "lang": "nb",
@@ -64139,24 +64760,12 @@
             "value": "Station Norreport"
           },
           {
-            "lang": "nl",
-            "value": "station Nørreport"
-          },
-          {
             "lang": "pt",
             "value": "Nørreport (metro de copenhaga)"
           },
           {
             "lang": "pt",
             "value": "Nørreport (Metro de Copenhaga)"
-          },
-          {
-            "lang": "pl",
-            "value": "Kopenhaga Nørreport"
-          },
-          {
-            "lang": "pt",
-            "value": "Estação Nørreport"
           },
           {
             "lang": "ru",
@@ -64534,10 +65143,6 @@
           },
           {
             "lang": "nl",
-            "value": "Station Svanemollen"
-          },
-          {
-            "lang": "nl",
             "value": "station Svanemøllen"
           },
           {
@@ -64559,6 +65164,10 @@
           {
             "lang": "nb",
             "value": "Svanemøllen stasjon"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Svanemollen"
           }
         ]
       },
@@ -64707,10 +65316,6 @@
             "value": "محطة هيليروپ"
           },
           {
-            "lang": "de",
-            "value": "Station Hellerup"
-          },
-          {
             "lang": "da",
             "value": "Hellerup Station"
           },
@@ -64735,10 +65340,6 @@
             "value": "Hellerup Station"
           },
           {
-            "lang": "pl",
-            "value": "Hellerup Station"
-          },
-          {
             "lang": "nl",
             "value": "station Hellerup"
           },
@@ -64748,6 +65349,18 @@
           },
           {
             "lang": "sv",
+            "value": "Hellerup Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Hellerup"
+          },
+          {
+            "lang": "de",
+            "value": "Station Hellerup"
+          },
+          {
+            "lang": "pl",
             "value": "Hellerup Station"
           },
           {
@@ -64769,10 +65382,6 @@
           {
             "lang": "nb",
             "value": "Hellerup stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Hellerup"
           }
         ]
       },
@@ -65654,15 +66263,15 @@
           },
           {
             "lang": "nl",
-            "value": "Station Allerod"
-          },
-          {
-            "lang": "nl",
             "value": "station Allerød"
           },
           {
             "lang": "ru",
             "value": "Аллерёд (станция)"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Allerod"
           },
           {
             "lang": "zh",
@@ -67030,8 +67639,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "DK00845-DKFLX-trainline-27744-Q111546134",
+      "id": "DK00845-DKFLX-trainline-27744-Q800765",
       "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
         "P131": [
           {
             "value": "Q2488464"
@@ -67051,12 +67665,14 @@
             "value": "2000"
           }
         ],
+        "P296": [
+          {
+            "value": "Fl"
+          }
+        ],
         "P31": [
           {
-            "value": "Q22808404"
-          },
-          {
-            "value": "Q55488"
+            "value": "Q928830"
           }
         ],
         "P6375": [
@@ -67075,6 +67691,11 @@
               }
             ],
             "value": "27744"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8603302"
           }
         ],
         "P8448": [
@@ -67118,11 +67739,14 @@
               }
             ],
             "value": "8613638"
+          },
+          {
+            "value": "8613497"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q111546134"
+            "value": "Q800765"
           }
         ],
         "labels": [
@@ -67136,16 +67760,160 @@
             "value": "Flintholm St."
           },
           {
+            "lang": "nl",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "fr",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "sv",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "it",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "bar",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة فلينثولم"
+          },
+          {
+            "lang": "bar",
+            "value": "Bahnhof Flintholm"
+          },
+          {
             "lang": "da",
             "value": "Flintholm Station"
+          },
+          {
+            "lang": "de",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Flintholm"
+          },
+          {
+            "lang": "de-ch",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "de-ch",
+            "value": "Bahnhof Flintholm"
           },
           {
             "lang": "en",
             "value": "Flintholm Station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Flintholm"
+            "lang": "en-ca",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "fi",
+            "value": "Flintholmin asema"
+          },
+          {
+            "lang": "hu",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "hu",
+            "value": "Flintholm vasútállomás"
+          },
+          {
+            "lang": "it",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm (metrostasjon)"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm metrostasjon"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm stasjon"
+          },
+          {
+            "lang": "nl",
+            "value": "station Flintholm"
+          },
+          {
+            "lang": "pl",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "pt",
+            "value": "Flintholm (Metro de Copenhaga)"
+          },
+          {
+            "lang": "pt",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "pt-br",
+            "value": "Flintholm (Metro de Copenhaga)"
+          },
+          {
+            "lang": "pt-br",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Flintholm"
+          },
+          {
+            "lang": "ru",
+            "value": "Флинтхольм (станция)"
+          },
+          {
+            "lang": "pt-br",
+            "value": "Estação Flintholm"
+          },
+          {
+            "lang": "ru",
+            "value": "Флинтхольм"
+          },
+          {
+            "lang": "sv",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "sv",
+            "value": "Flintholms station"
+          },
+          {
+            "lang": "zh",
+            "value": "弗林特地站"
+          },
+          {
+            "lang": "lmo",
+            "value": "Flintholm (metropolitana de Copenhagen)"
           }
         ]
       },
@@ -67161,7 +67929,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "DK00846-DKVAN-trainline-27835-Q111546117",
+      "id": "DK00846-DKVAN-trainline-27835-Q801554",
       "properties": {
         "P131": [
           {
@@ -67187,9 +67955,17 @@
             "value": "2720"
           }
         ],
+        "P296": [
+          {
+            "value": "Van"
+          }
+        ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q928830"
+          },
+          {
+            "value": "Q11670533"
           }
         ],
         "P6375": [
@@ -67217,7 +67993,7 @@
         ],
         "P722": [
           {
-            "value": "8600703"
+            "value": "8603301"
           }
         ],
         "P8448": [
@@ -67242,6 +68018,11 @@
             "value": "DKVAN"
           }
         ],
+        "P856": [
+          {
+            "value": "http://m.dk/#!/stations/stationer/vanloese"
+          }
+        ],
         "P954": [
           {
             "info": {
@@ -67261,11 +68042,14 @@
               }
             ],
             "value": "8602728"
+          },
+          {
+            "value": "8672475"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q111546117"
+            "value": "Q801554"
           }
         ],
         "labels": [
@@ -67280,12 +68064,96 @@
             "value": "Vanløse Station"
           },
           {
+            "lang": "de",
+            "value": "Vanløse Station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Vanløse"
+          },
+          {
             "lang": "en",
             "value": "Vanløse Station"
           },
           {
+            "lang": "fi",
+            "value": "Vanløsen asema"
+          },
+          {
             "lang": "fr",
-            "value": "gare de Vanløse"
+            "value": "Vanløse"
+          },
+          {
+            "lang": "hu",
+            "value": "Vanløse vasútállomás"
+          },
+          {
+            "lang": "it",
+            "value": "Vanløse"
+          },
+          {
+            "lang": "nb",
+            "value": "Vanløse (metro stasjon)"
+          },
+          {
+            "lang": "nb",
+            "value": "Vanløse (metrostasjon)"
+          },
+          {
+            "lang": "nb",
+            "value": "Vanløse metrostasjon"
+          },
+          {
+            "lang": "nb",
+            "value": "Vanløse stasjon"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Vanlose"
+          },
+          {
+            "lang": "nl",
+            "value": "Vanlose Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Vanløse Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Vanløse"
+          },
+          {
+            "lang": "pt",
+            "value": "Vanløse (Metro de Copenhaga)"
+          },
+          {
+            "lang": "pl",
+            "value": "Vanløse"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Vanløse"
+          },
+          {
+            "lang": "ru",
+            "value": "Ванлёзе"
+          },
+          {
+            "lang": "ru",
+            "value": "Ванлёсе"
+          },
+          {
+            "lang": "sv",
+            "value": "Vanløse station"
+          },
+          {
+            "lang": "zh",
+            "value": "万洛瑟站"
+          },
+          {
+            "lang": "lmo",
+            "value": "Vanløse (metropolitana de Copenhagen)"
           }
         ]
       },
@@ -68441,10 +69309,6 @@
           },
           {
             "lang": "es",
-            "value": "Estacion de Ballerup"
-          },
-          {
-            "lang": "es",
             "value": "Estación de Ballerup"
           },
           {
@@ -68458,6 +69322,10 @@
           {
             "lang": "zh",
             "value": "巴勒鲁普站"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion de Ballerup"
           },
           {
             "lang": "de",
@@ -69104,6 +69972,22 @@
             "value": "Stenløse St."
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Stenløse"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Stenløse"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Stenløse"
+          },
+          {
+            "lang": "nb",
+            "value": "Stenløse stasjon"
+          },
+          {
             "lang": "arz",
             "value": "محطة ستينلوس"
           },
@@ -69121,31 +70005,15 @@
           },
           {
             "lang": "nl",
+            "value": "Station Stenlose"
+          },
+          {
+            "lang": "nl",
             "value": "station Stenløse"
           },
           {
             "lang": "zh",
             "value": "斯滕勒瑟站"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Stenløse"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Stenløse"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Stenløse"
-          },
-          {
-            "lang": "nb",
-            "value": "Stenløse stasjon"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Stenlose"
           }
         ]
       },
@@ -69281,7 +70149,19 @@
           },
           {
             "lang": "da",
+            "value": "Gammel Toftegård Station"
+          },
+          {
+            "lang": "da",
+            "value": "Gl. Toftegård Station"
+          },
+          {
+            "lang": "da",
             "value": "Egedal Station"
+          },
+          {
+            "lang": "en",
+            "value": "Gammel Toftegård station"
           },
           {
             "lang": "en",
@@ -69290,6 +70170,18 @@
           {
             "lang": "hu",
             "value": "Egedal vasútállomás"
+          },
+          {
+            "lang": "nb",
+            "value": "Gammel Toftegård Station"
+          },
+          {
+            "lang": "nb",
+            "value": "Gl. Toftegård Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Egedal"
           },
           {
             "lang": "nl",
@@ -69318,30 +70210,6 @@
           {
             "lang": "it",
             "value": "stazione di Egedal"
-          },
-          {
-            "lang": "da",
-            "value": "Gammel Toftegård Station"
-          },
-          {
-            "lang": "da",
-            "value": "Gl. Toftegård Station"
-          },
-          {
-            "lang": "en",
-            "value": "Gammel Toftegård station"
-          },
-          {
-            "lang": "nb",
-            "value": "Gammel Toftegård Station"
-          },
-          {
-            "lang": "nb",
-            "value": "Gl. Toftegård Station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Egedal"
           },
           {
             "lang": "nb",
@@ -69838,14 +70706,6 @@
             "value": "Dyssegård St."
           },
           {
-            "lang": "arz",
-            "value": "محطة ديسيجورد"
-          },
-          {
-            "lang": "da",
-            "value": "Dyssegård Station"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Dyssegård"
           },
@@ -69860,6 +70720,14 @@
           {
             "lang": "nb",
             "value": "Dyssegård stasjon"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ديسيجورد"
+          },
+          {
+            "lang": "da",
+            "value": "Dyssegård Station"
           },
           {
             "lang": "en",
@@ -70868,10 +71736,6 @@
             "value": "Kildebakke St."
           },
           {
-            "lang": "arz",
-            "value": "محطة كيلديباك"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Kildebakke"
           },
@@ -70886,6 +71750,10 @@
           {
             "lang": "nb",
             "value": "Kildebakke stasjon"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة كيلديباك"
           },
           {
             "lang": "da",
@@ -71045,18 +71913,6 @@
             "value": "Bahnhof Stengården"
           },
           {
-            "lang": "fr",
-            "value": "gare de Stengården"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Stengården"
-          },
-          {
-            "lang": "nb",
-            "value": "Stengården stasjon"
-          },
-          {
             "lang": "arz",
             "value": "محطة ستينجوردين"
           },
@@ -71074,15 +71930,27 @@
           },
           {
             "lang": "nl",
-            "value": "Station Stengarden"
-          },
-          {
-            "lang": "nl",
             "value": "station Stengården"
           },
           {
             "lang": "zh",
             "value": "石场站 (丹麦)"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Stengården"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Stengården"
+          },
+          {
+            "lang": "nb",
+            "value": "Stengården stasjon"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Stengarden"
           }
         ]
       },
@@ -72256,6 +73124,10 @@
             "value": "Sydhavn St."
           },
           {
+            "lang": "pl",
+            "value": "Sydhavn"
+          },
+          {
             "lang": "de",
             "value": "Bahnhof Sydhavn"
           },
@@ -72270,10 +73142,6 @@
           {
             "lang": "nb",
             "value": "Sydhavn stasjon"
-          },
-          {
-            "lang": "pl",
-            "value": "Sydhavn"
           },
           {
             "lang": "arz",
@@ -72445,6 +73313,10 @@
             "value": "stazione di Sjælør"
           },
           {
+            "lang": "nb",
+            "value": "Sjælør stasjon"
+          },
+          {
             "lang": "arz",
             "value": "محطة سچايلور"
           },
@@ -72462,6 +73334,10 @@
           },
           {
             "lang": "nl",
+            "value": "Station Sjaelor"
+          },
+          {
+            "lang": "nl",
             "value": "station Sjælør"
           },
           {
@@ -72471,14 +73347,6 @@
           {
             "lang": "zh",
             "value": "西勒尔站"
-          },
-          {
-            "lang": "nb",
-            "value": "Sjælør stasjon"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Sjaelor"
           }
         ]
       },
@@ -74347,6 +75215,22 @@
             "value": "Ølby St."
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Ølby"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Ølby"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Ølby"
+          },
+          {
+            "lang": "nb",
+            "value": "Ølby stasjon"
+          },
+          {
             "lang": "arz",
             "value": "محطة اولبى"
           },
@@ -74364,31 +75248,15 @@
           },
           {
             "lang": "nl",
+            "value": "Station Olby"
+          },
+          {
+            "lang": "nl",
             "value": "station Ølby"
           },
           {
             "lang": "zh",
             "value": "啤酒镇站"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Ølby"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Ølby"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Ølby"
-          },
-          {
-            "lang": "nb",
-            "value": "Ølby stasjon"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Olby"
           }
         ]
       },
@@ -75455,12 +76323,20 @@
             "value": "stazione di Vigerslev Allé"
           },
           {
+            "lang": "nb",
+            "value": "Vigerslev Allé stasjon"
+          },
+          {
             "lang": "arz",
             "value": "محطة ڤيجيرسليڤ ال"
           },
           {
             "lang": "da",
             "value": "Vigerslev Allé Station"
+          },
+          {
+            "lang": "en",
+            "value": "Vigerslev Alle station"
           },
           {
             "lang": "en",
@@ -75472,23 +76348,15 @@
           },
           {
             "lang": "nl",
+            "value": "Station Vigerslev Alle"
+          },
+          {
+            "lang": "nl",
             "value": "station Vigerslev Allé"
           },
           {
             "lang": "zh",
             "value": "小海湾庄街站"
-          },
-          {
-            "lang": "nb",
-            "value": "Vigerslev Allé stasjon"
-          },
-          {
-            "lang": "en",
-            "value": "Vigerslev Alle station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Vigerslev Alle"
           }
         ]
       },
@@ -76036,8 +76904,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "DK00920-DKFLX-trainline-27744-Q111546134",
+      "id": "DK00920-DKFLX-trainline-27744-Q800765",
       "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
         "P131": [
           {
             "value": "Q2488464"
@@ -76057,12 +76930,14 @@
             "value": "2000"
           }
         ],
+        "P296": [
+          {
+            "value": "Fl"
+          }
+        ],
         "P31": [
           {
-            "value": "Q22808404"
-          },
-          {
-            "value": "Q55488"
+            "value": "Q928830"
           }
         ],
         "P6375": [
@@ -76081,6 +76956,11 @@
               }
             ],
             "value": "27744"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8603302"
           }
         ],
         "P8448": [
@@ -76124,11 +77004,14 @@
               }
             ],
             "value": "8613638"
+          },
+          {
+            "value": "8613497"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q111546134"
+            "value": "Q800765"
           }
         ],
         "labels": [
@@ -76142,16 +77025,160 @@
             "value": "Flintholm St."
           },
           {
+            "lang": "nl",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "fr",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "sv",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "it",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "bar",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة فلينثولم"
+          },
+          {
+            "lang": "bar",
+            "value": "Bahnhof Flintholm"
+          },
+          {
             "lang": "da",
             "value": "Flintholm Station"
+          },
+          {
+            "lang": "de",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Flintholm"
+          },
+          {
+            "lang": "de-ch",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "de-ch",
+            "value": "Bahnhof Flintholm"
           },
           {
             "lang": "en",
             "value": "Flintholm Station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Flintholm"
+            "lang": "en-ca",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "fi",
+            "value": "Flintholmin asema"
+          },
+          {
+            "lang": "hu",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "hu",
+            "value": "Flintholm vasútállomás"
+          },
+          {
+            "lang": "it",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm (metrostasjon)"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm metrostasjon"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "nb",
+            "value": "Flintholm stasjon"
+          },
+          {
+            "lang": "nl",
+            "value": "station Flintholm"
+          },
+          {
+            "lang": "pl",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "pt",
+            "value": "Flintholm (Metro de Copenhaga)"
+          },
+          {
+            "lang": "pt",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Flintholm"
+          },
+          {
+            "lang": "pt-br",
+            "value": "Flintholm (Metro de Copenhaga)"
+          },
+          {
+            "lang": "pt-br",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação Flintholm"
+          },
+          {
+            "lang": "ru",
+            "value": "Флинтхольм (станция)"
+          },
+          {
+            "lang": "pt-br",
+            "value": "Estação Flintholm"
+          },
+          {
+            "lang": "ru",
+            "value": "Флинтхольм"
+          },
+          {
+            "lang": "sv",
+            "value": "Flintholm Station"
+          },
+          {
+            "lang": "sv",
+            "value": "Flintholms station"
+          },
+          {
+            "lang": "zh",
+            "value": "弗林特地站"
+          },
+          {
+            "lang": "lmo",
+            "value": "Flintholm (metropolitana de Copenhagen)"
           }
         ]
       },
@@ -76470,6 +77497,22 @@
             "value": "Fuglebakken St. (Frederiksberg)"
           },
           {
+            "lang": "de",
+            "value": "Bahnhof Fuglebakken"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Fuglebakken"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Fuglebakken"
+          },
+          {
+            "lang": "nb",
+            "value": "Fuglebakken stasjon"
+          },
+          {
             "lang": "arz",
             "value": "محطة فوجليباكين"
           },
@@ -76488,22 +77531,6 @@
           {
             "lang": "nl",
             "value": "station Fuglebakken"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Fuglebakken"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Fuglebakken"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Fuglebakken"
-          },
-          {
-            "lang": "nb",
-            "value": "Fuglebakken stasjon"
           },
           {
             "lang": "zh",
@@ -76641,6 +77668,22 @@
             "value": "Nørrebro St."
           },
           {
+            "lang": "lmo",
+            "value": "Nørrebro (metropolitana de Copenhagen)"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Nørrebro"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Nørrebro"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Nørrebro"
+          },
+          {
             "lang": "da",
             "value": "Nørrebro Station"
           },
@@ -76671,22 +77714,6 @@
           {
             "lang": "nb",
             "value": "Nørrebro stasjon"
-          },
-          {
-            "lang": "lmo",
-            "value": "Nørrebro (metropolitana de Copenhagen)"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Nørrebro"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Nørrebro"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Nørrebro"
           },
           {
             "lang": "nl",
@@ -78193,8 +79220,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "DK00954-DKABL",
+      "id": "DK00954-DKABL-Q21817221",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q300856"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -78202,6 +79239,41 @@
               "reliability": 0
             },
             "value": "Q35"
+          }
+        ],
+        "P2044": [
+          {
+            "value": "3.3"
+          }
+        ],
+        "P281": [
+          {
+            "value": "DK-9400"
+          }
+        ],
+        "P296": [
+          {
+            "value": "Abl"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q1335652"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "1"
+          }
+        ],
+        "P6375": [
+          {
+            "value": "Ny Lufthavnsvej"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8600115"
           }
         ],
         "P8448": [
@@ -78212,12 +79284,27 @@
             "value": "DKABL"
           }
         ],
+        "P856": [
+          {
+            "value": "https://www.dsb.dk/kundeservice/stationer/aalborg-lufthavn-station/"
+          }
+        ],
         "P954": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                }
+              ],
               "reliability": 0.7999999999999999
             },
             "value": "8600115"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q21817221"
           }
         ],
         "labels": [
@@ -78229,6 +79316,22 @@
           },
           {
             "value": "Aalborg Airport"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de l'aéroport d'Aalborg"
+          },
+          {
+            "lang": "da",
+            "value": "Aalborg Lufthavn Station"
+          },
+          {
+            "lang": "en",
+            "value": "Aalborg Airport Station"
+          },
+          {
+            "lang": "zh",
+            "value": "奥尔堡机场站"
           }
         ]
       },

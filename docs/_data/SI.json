@@ -316,7 +316,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42003-7900138",
+      "id": "SI42003-7900138-Q12807590",
       "properties": {
         "P17": [
           {
@@ -325,6 +325,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -340,6 +345,11 @@
             "value": "7900138"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807590"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -347,6 +357,18 @@
           },
           {
             "value": "Libna"
+          },
+          {
+            "lang": "en",
+            "value": "Libna train halt"
+          },
+          {
+            "lang": "pl",
+            "value": "Libna"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Libna"
           }
         ]
       },
@@ -953,8 +975,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42103-7900197",
+      "id": "SI42103-7900197-Q12807622",
       "properties": {
+        "P131": [
+          {
+            "value": "Q13377986"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -962,6 +989,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -977,6 +1009,11 @@
             "value": "7900197"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807622"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -984,6 +1021,30 @@
           },
           {
             "value": "Radece"
+          },
+          {
+            "lang": "pl",
+            "value": "Radeče"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Radeče"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Radeče"
+          },
+          {
+            "lang": "de",
+            "value": "Hp Radeče"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Radeče"
+          },
+          {
+            "lang": "es",
+            "value": "apeadero Radeče"
           }
         ]
       },
@@ -1155,6 +1216,10 @@
             "value": "estación Zidani Most"
           },
           {
+            "lang": "fr",
+            "value": "Zidani Most"
+          },
+          {
             "lang": "ja",
             "value": "チダニモスト駅"
           },
@@ -1173,10 +1238,6 @@
           {
             "lang": "de",
             "value": "Bahnhof Steinbrück"
-          },
-          {
-            "lang": "fr",
-            "value": "Zidani Most"
           }
         ]
       },
@@ -2072,8 +2133,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42212-7900142",
+      "id": "SI42212-7900142-Q12807592",
       "properties": {
+        "P131": [
+          {
+            "value": "Q437"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -2081,6 +2147,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -2096,6 +2167,11 @@
             "value": "7900142"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807592"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -2103,6 +2179,58 @@
           },
           {
             "value": "Ljubljana Polje"
+          },
+          {
+            "lang": "en",
+            "value": "Ljubljana Polje railway station"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Ljubljana Polje"
+          },
+          {
+            "lang": "it",
+            "value": "Lubiana Polje"
+          },
+          {
+            "lang": "ja",
+            "value": "リュブリャナ・ポリエ駅"
+          },
+          {
+            "lang": "pl",
+            "value": "Ljubljana Polje"
+          },
+          {
+            "lang": "ru",
+            "value": "Любляна-Поле"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ljubljana Polje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana - Polje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana-Polje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Polje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana Polje"
+          },
+          {
+            "lang": "da",
+            "value": "Ljubljana-Polje banegård"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Ljubljana Polje"
           }
         ]
       },
@@ -2369,16 +2497,32 @@
     {
       "geometry": {
         "coordinates": [
-          14.5001171,
-          46.0659913
+          [
+            14.5001171,
+            46.0659913
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "SI42301",
+      "id": "SI42301-Q12807502",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3434113"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -2389,10 +2533,59 @@
             "value": "7942301"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807502"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
             "value": "Ljubljana Šiška"
+          },
+          {
+            "lang": "en",
+            "value": "Ljubljana-Šiška railway station"
+          },
+          {
+            "lang": "it",
+            "value": "Železniška postaja Ljubljana Šiška"
+          },
+          {
+            "lang": "it",
+            "value": "Lubiana Šiška"
+          },
+          {
+            "lang": "ja",
+            "value": "リュブリャナ・シスカ駅"
+          },
+          {
+            "lang": "sl",
+            "value": "Postajno poslopje železniške postaje Ljubljana-Šiška"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ljubljana - Šiška"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ljubljana-Šiška"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Šiška"
+          },
+          {
+            "lang": "ru",
+            "value": "Любляна-Шишка"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ljubljana Šiška"
+          },
+          {
+            "lang": "da",
+            "value": "Ljubljana-Šiška jernbanestation"
           }
         ]
       },
@@ -2408,7 +2601,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42303-7900269",
+      "id": "SI42303-7900269-Q19938367",
       "properties": {
         "P17": [
           {
@@ -2417,6 +2610,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -2432,6 +2630,11 @@
             "value": "7900269"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938367"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -2439,6 +2642,18 @@
           },
           {
             "value": "Medno"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Medno"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Medno"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Medno"
           }
         ]
       },
@@ -2518,8 +2733,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42305-7900201",
+      "id": "SI42305-7900201-Q19938388",
       "properties": {
+        "P131": [
+          {
+            "value": "Q2318898"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -2527,6 +2747,16 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3438001"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -2542,6 +2772,11 @@
             "value": "7900201"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938388"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -2549,6 +2784,22 @@
           },
           {
             "value": "Retece"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Reteče"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Reteče"
+          },
+          {
+            "lang": "en",
+            "value": "Reteče railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Reteče"
           }
         ]
       },
@@ -2842,8 +3093,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42309-7900049",
+      "id": "SI42309-7900049-Q12807612",
       "properties": {
+        "P131": [
+          {
+            "value": "Q2271628"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -2851,6 +3107,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -2866,6 +3127,11 @@
             "value": "7900049"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807612"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -2873,6 +3139,22 @@
           },
           {
             "value": "Podnart"
+          },
+          {
+            "lang": "en",
+            "value": "Podnart railway station"
+          },
+          {
+            "lang": "en-gb",
+            "value": "Podnart railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Podnart"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Podnart"
           }
         ]
       },
@@ -2888,8 +3170,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42310-7900050",
+      "id": "SI42310-7900050-Q19938373",
       "properties": {
+        "P131": [
+          {
+            "value": "Q2355234"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -2897,6 +3184,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -2912,6 +3204,11 @@
             "value": "7900050"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938373"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -2919,6 +3216,10 @@
           },
           {
             "value": "Otoce"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Otoče"
           }
         ]
       },
@@ -2934,7 +3235,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42311-7900104",
+      "id": "SI42311-7900104-Q19938345",
       "properties": {
         "P17": [
           {
@@ -2943,6 +3244,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -2958,6 +3264,11 @@
             "value": "7900104"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938345"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -2965,6 +3276,14 @@
           },
           {
             "value": "Globoko"
+          },
+          {
+            "lang": "pl",
+            "value": "Globoko"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Globoko"
           }
         ]
       },
@@ -3219,7 +3538,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42314-7900046",
+      "id": "SI42314-7900046-Q12807641",
       "properties": {
         "P17": [
           {
@@ -3228,6 +3547,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -3243,6 +3567,11 @@
             "value": "7900046"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807641"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -3250,6 +3579,22 @@
           },
           {
             "value": "Zirovnica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Žirovnica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Žirovnica"
+          },
+          {
+            "lang": "en",
+            "value": "Žirovnica railway halt"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Žirovnica"
           }
         ]
       },
@@ -3265,8 +3610,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42315-7900051",
+      "id": "SI42315-7900051-Q19938396",
       "properties": {
+        "P131": [
+          {
+            "value": "Q15881"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -3274,6 +3624,16 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q771710"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -3289,6 +3649,11 @@
             "value": "7900051"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938396"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -3296,6 +3661,18 @@
           },
           {
             "value": "Slovenski Javornik"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Slovenski Javornik"
+          },
+          {
+            "lang": "en",
+            "value": "Slovenski Javornik railway halt"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Slovenski Javornik"
           }
         ]
       },
@@ -3311,7 +3688,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42316-7900141",
+      "id": "SI42316-7900141-Q12807595",
       "properties": {
         "P17": [
           {
@@ -3320,6 +3697,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -3335,6 +3717,11 @@
             "value": "7900141"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807595"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -3342,6 +3729,22 @@
           },
           {
             "value": "Ljubljana Litostroj"
+          },
+          {
+            "lang": "en",
+            "value": "Litostroj railway station"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Litostroj"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Litostroj"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Litostroj"
           }
         ]
       },
@@ -3357,8 +3760,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42317-7900266",
+      "id": "SI42317-7900266-Q12807598",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3434113"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -3366,6 +3774,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -3381,6 +3794,11 @@
             "value": "7900266"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807598"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -3388,6 +3806,30 @@
           },
           {
             "value": "Ljubljana Stegne"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Ljubljana Stegne"
+          },
+          {
+            "lang": "it",
+            "value": "Lubiana Stegne"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana - Stegne"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana-Stegne"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Stegne"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana Stegne"
           }
         ]
       },
@@ -3735,8 +4177,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42355-7900124",
+      "id": "SI42355-7900124-Q18562670",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3503153"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -3746,9 +4193,19 @@
             "value": "Q215"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "P722": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.52
+                }
+              ],
               "reliability": 0.52
             },
             "value": "7942355"
@@ -3756,7 +4213,16 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7900124"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q18562670"
           }
         ],
         "labels": [
@@ -3766,6 +4232,18 @@
           },
           {
             "value": "Kamnik mesto"
+          },
+          {
+            "lang": "en",
+            "value": "Kamnik mesto railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Kamnik-Mesto"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Kamnik mesto"
           }
         ]
       },
@@ -3870,7 +4348,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42358-7900238",
+      "id": "SI42358-7900238-Q12807629",
       "properties": {
         "P17": [
           {
@@ -3879,6 +4357,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -3894,6 +4377,11 @@
             "value": "7900238"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807629"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -3901,6 +4389,22 @@
           },
           {
             "value": "Trzin Mlake"
+          },
+          {
+            "lang": "en",
+            "value": "Trzin Mlake railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Trzin - Mlake"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Trzin-Mlake"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Trzin Mlake"
           }
         ]
       },
@@ -3916,7 +4420,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42359-7900237",
+      "id": "SI42359-7900237-Q19938400",
       "properties": {
         "P17": [
           {
@@ -3925,6 +4429,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -3940,6 +4449,11 @@
             "value": "7900237"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938400"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -3947,6 +4461,14 @@
           },
           {
             "value": "Trzin"
+          },
+          {
+            "lang": "en",
+            "value": "Trzin railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Trzin"
           }
         ]
       },
@@ -3962,7 +4484,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42360-7900203",
+      "id": "SI42360-7900203-Q19938390",
       "properties": {
         "P17": [
           {
@@ -3971,6 +4493,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -3986,6 +4513,11 @@
             "value": "7900203"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938390"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -3993,6 +4525,14 @@
           },
           {
             "value": "Rodica"
+          },
+          {
+            "lang": "en",
+            "value": "Rodica train station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Rodica"
           }
         ]
       },
@@ -4008,7 +4548,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42361-7900270",
+      "id": "SI42361-7900270-Q19938348",
       "properties": {
         "P17": [
           {
@@ -4017,6 +4557,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4032,6 +4577,11 @@
             "value": "7900270"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938348"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4039,6 +4589,14 @@
           },
           {
             "value": "Homec"
+          },
+          {
+            "lang": "en",
+            "value": "Homec pri Kamniku railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Homec pri Kamniku"
           }
         ]
       },
@@ -4054,7 +4612,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42362-7900224",
+      "id": "SI42362-7900224-Q19938406",
       "properties": {
         "P17": [
           {
@@ -4063,6 +4621,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4078,6 +4641,11 @@
             "value": "7900224"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938406"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4085,6 +4653,14 @@
           },
           {
             "value": "Smarca"
+          },
+          {
+            "lang": "en",
+            "value": "Šmarca railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šmarca"
           }
         ]
       },
@@ -4100,7 +4676,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42363-7900268",
+      "id": "SI42363-7900268-Q12807583",
       "properties": {
         "P17": [
           {
@@ -4109,6 +4685,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4124,6 +4705,11 @@
             "value": "7900268"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807583"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4131,6 +4717,22 @@
           },
           {
             "value": "Duplica-Bakovnik"
+          },
+          {
+            "lang": "en",
+            "value": "Duplica-Bakovnik railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Duplica - Bakovnik"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Duplica Bakovnik"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Duplica-Bakovnik"
           }
         ]
       },
@@ -4235,7 +4837,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42366-7900278",
+      "id": "SI42366-7900278-Q19938401",
       "properties": {
         "P17": [
           {
@@ -4244,6 +4846,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4259,6 +4866,11 @@
             "value": "7900278"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938401"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4266,6 +4878,14 @@
           },
           {
             "value": "Trzin ind. cona"
+          },
+          {
+            "lang": "en",
+            "value": "Trzin industrijska cona railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Trzin industrijska cona"
           }
         ]
       },
@@ -4491,7 +5111,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42501-7900205",
+      "id": "SI42501-7900205-Q19938392",
       "properties": {
         "P17": [
           {
@@ -4500,6 +5120,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4515,6 +5140,11 @@
             "value": "7900205"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938392"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4522,6 +5152,14 @@
           },
           {
             "value": "Rosalnice"
+          },
+          {
+            "lang": "en",
+            "value": "Rosalnice railway stop"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Rosalnice"
           }
         ]
       },
@@ -4658,7 +5296,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42503-7900093",
+      "id": "SI42503-7900093-Q12807576",
       "properties": {
         "P17": [
           {
@@ -4667,6 +5305,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4682,6 +5325,11 @@
             "value": "7900093"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807576"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4689,6 +5337,14 @@
           },
           {
             "value": "Dobravice"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dobravice"
+          },
+          {
+            "lang": "en",
+            "value": "Dobravice railway stop"
           }
         ]
       },
@@ -4704,7 +5360,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42504-7900107",
+      "id": "SI42504-7900107-Q12807585",
       "properties": {
         "P17": [
           {
@@ -4713,6 +5369,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4728,6 +5389,11 @@
             "value": "7900107"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807585"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4735,6 +5401,10 @@
           },
           {
             "value": "Gradac"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Gradac"
           }
         ]
       },
@@ -4822,7 +5492,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42506-7900166",
+      "id": "SI42506-7900166-Q12807610",
       "properties": {
         "P17": [
           {
@@ -4831,6 +5501,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4846,6 +5521,11 @@
             "value": "7900166"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807610"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4853,6 +5533,10 @@
           },
           {
             "value": "Otovec"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Otovec"
           }
         ]
       },
@@ -4928,7 +5612,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42508-7900206",
+      "id": "SI42508-7900206-Q12807625",
       "properties": {
         "P17": [
           {
@@ -4937,6 +5621,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -4952,6 +5641,11 @@
             "value": "7900206"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807625"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -4959,6 +5653,10 @@
           },
           {
             "value": "Rozni Dol"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Rožni Dol"
           }
         ]
       },
@@ -5051,7 +5749,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42510-7900076",
+      "id": "SI42510-7900076-Q19938321",
       "properties": {
         "P17": [
           {
@@ -5060,6 +5758,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5075,6 +5778,11 @@
             "value": "7900076"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938321"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5082,6 +5790,10 @@
           },
           {
             "value": "Bircna vas"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Birčna vas"
           }
         ]
       },
@@ -5097,8 +5809,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42511-7900271",
+      "id": "SI42511-7900271-Q12807611",
       "properties": {
+        "P131": [
+          {
+            "value": "Q398116"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -5106,6 +5823,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5121,6 +5843,11 @@
             "value": "7900271"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807611"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5128,6 +5855,38 @@
           },
           {
             "value": "Novo mesto Kandija"
+          },
+          {
+            "lang": "en",
+            "value": "Novo Mesto Kandija train station"
+          },
+          {
+            "lang": "sl",
+            "value": "Postajališče Novo mesto Kandija"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Kandija"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Novo mesto Kandija"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Kandija"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto - Kandija"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto-Kandija"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto Kandija"
           }
         ]
       },
@@ -5143,7 +5902,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42512-7900160",
+      "id": "SI42512-7900160-Q12807609",
       "properties": {
         "P17": [
           {
@@ -5152,6 +5911,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5167,6 +5931,11 @@
             "value": "7900160"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807609"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5174,6 +5943,26 @@
           },
           {
             "value": "Novo mesto center"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Novo mesto Center"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto - Center"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto center"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto-Center"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto Center"
           }
         ]
       },
@@ -5189,8 +5978,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42514-7942514",
+      "id": "SI42514-7942514-Q56153204",
       "properties": {
+        "P131": [
+          {
+            "value": "Q8082836"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -5198,6 +5992,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5213,6 +6012,11 @@
             "value": "7942514"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q56153204"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5220,6 +6024,10 @@
           },
           {
             "value": "Novo Mesto Smihel"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Novo mesto Šmihel"
           }
         ]
       },
@@ -5401,7 +6209,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42602-7900189",
+      "id": "SI42602-7900189-Q12807618",
       "properties": {
         "P17": [
           {
@@ -5410,6 +6218,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5425,6 +6238,11 @@
             "value": "7900189"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807618"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5432,6 +6250,10 @@
           },
           {
             "value": "Ponikve na Dolenjsk."
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ponikve na Dolenjskem"
           }
         ]
       },
@@ -5447,7 +6269,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42603-7900117",
+      "id": "SI42603-7900117-Q19938350",
       "properties": {
         "P17": [
           {
@@ -5456,6 +6278,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5471,6 +6298,11 @@
             "value": "7900117"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938350"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5478,6 +6310,10 @@
           },
           {
             "value": "Hudo"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Hudo"
           }
         ]
       },
@@ -5566,7 +6402,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42701-7900230",
+      "id": "SI42701-7900230-Q12807637",
       "properties": {
         "P17": [
           {
@@ -5575,6 +6411,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5590,6 +6431,11 @@
             "value": "7900230"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807637"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5597,6 +6443,10 @@
           },
           {
             "value": "Stefan"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Štefan"
           }
         ]
       },
@@ -5612,7 +6462,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42702-7900241",
+      "id": "SI42702-7900241-Q12807632",
       "properties": {
         "P17": [
           {
@@ -5621,6 +6471,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5636,6 +6491,11 @@
             "value": "7900241"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807632"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5643,6 +6503,10 @@
           },
           {
             "value": "Velika Loka"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Velika Loka"
           }
         ]
       },
@@ -5658,7 +6522,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42703-7900217",
+      "id": "SI42703-7900217-Q19938403",
       "properties": {
         "P17": [
           {
@@ -5667,6 +6531,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5682,6 +6551,11 @@
             "value": "7900217"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938403"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5689,6 +6563,10 @@
           },
           {
             "value": "Sentlovrenc"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šentlovrenc"
           }
         ]
       },
@@ -5704,7 +6582,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42704-7900103",
+      "id": "SI42704-7900103-Q19938343",
       "properties": {
         "P17": [
           {
@@ -5713,6 +6591,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5728,6 +6611,11 @@
             "value": "7900103"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938343"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5735,6 +6623,10 @@
           },
           {
             "value": "Gaber"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Gaber"
           }
         ]
       },
@@ -5810,7 +6702,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42706-7900221",
+      "id": "SI42706-7900221-Q19938405",
       "properties": {
         "P17": [
           {
@@ -5819,6 +6711,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5834,6 +6731,11 @@
             "value": "7900221"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938405"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5841,6 +6743,10 @@
           },
           {
             "value": "Sentvid pri Sticni"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šentvid pri Stični"
           }
         ]
       },
@@ -5916,7 +6822,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42708-7900187",
+      "id": "SI42708-7900187-Q12807615",
       "properties": {
         "P17": [
           {
@@ -5925,6 +6831,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -5940,6 +6851,11 @@
             "value": "7900187"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807615"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -5947,6 +6863,10 @@
           },
           {
             "value": "Polzevo"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Polževo"
           }
         ]
       },
@@ -6026,7 +6946,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42710-7900256",
+      "id": "SI42710-7900256-Q12807640",
       "properties": {
         "P17": [
           {
@@ -6035,6 +6955,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -6050,6 +6975,11 @@
             "value": "7900256"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807640"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6057,6 +6987,10 @@
           },
           {
             "value": "Zalna"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Žalna"
           }
         ]
       },
@@ -6072,7 +7006,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42711-7900154",
+      "id": "SI42711-7900154-Q19938369",
       "properties": {
         "P17": [
           {
@@ -6081,6 +7015,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -6096,6 +7035,11 @@
             "value": "7900154"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938369"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6103,6 +7047,14 @@
           },
           {
             "value": "Mlacevo"
+          },
+          {
+            "lang": "en",
+            "value": "Mlačevo railway stop"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Mlačevo"
           }
         ]
       },
@@ -6191,7 +7143,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42801-7900226",
+      "id": "SI42801-7900226-Q12807638",
       "properties": {
         "P17": [
           {
@@ -6200,6 +7152,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -6215,6 +7172,11 @@
             "value": "7900226"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807638"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6222,6 +7184,34 @@
           },
           {
             "value": "Smarje-Sap"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šmarje Sap"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šmarje-Sap"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šmarje - Sap"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Šmarje-Sap"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Šmarje-Sap"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Šmarje-Sap"
+          },
+          {
+            "lang": "en",
+            "value": "Šmarje-Sap railway halt"
           }
         ]
       },
@@ -6297,7 +7287,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42803-7942803",
+      "id": "SI42803-7942803-Q61360272",
       "properties": {
         "P17": [
           {
@@ -6306,6 +7296,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -6321,6 +7316,11 @@
             "value": "7942803"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q61360272"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6328,6 +7328,10 @@
           },
           {
             "value": "Lavrica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Lavrica"
           }
         ]
       },
@@ -6601,7 +7605,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42852-7942852",
+      "id": "SI42852-7942852-Q111722936",
       "properties": {
         "P17": [
           {
@@ -6610,6 +7614,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -6625,6 +7634,11 @@
             "value": "7942852"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722936"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6632,6 +7646,22 @@
           },
           {
             "value": "Velike Lasce"
+          },
+          {
+            "lang": "en",
+            "value": "Velike Lašče railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Velike Lašče"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Velike Lašče"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Velike Lašče"
           }
         ]
       },
@@ -6690,12 +7720,12 @@
             "value": "Ortnek"
           },
           {
-            "lang": "en",
-            "value": "Ortnek railway station"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Ortnek"
+          },
+          {
+            "lang": "en",
+            "value": "Ortnek railway station"
           }
         ]
       },
@@ -6779,7 +7809,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42855-7942855",
+      "id": "SI42855-7942855-Q111722694",
       "properties": {
         "P17": [
           {
@@ -6788,6 +7818,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -6803,6 +7838,11 @@
             "value": "7942855"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722694"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6810,6 +7850,22 @@
           },
           {
             "value": "Stara Cerkev"
+          },
+          {
+            "lang": "en",
+            "value": "Stara Cerkev railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Stara Cerkev"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Stara Cerkev"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Stara Cerkev"
           }
         ]
       },
@@ -6889,7 +7945,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42857-7942857",
+      "id": "SI42857-7942857-Q111722666",
       "properties": {
         "P17": [
           {
@@ -6898,6 +7954,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -6913,6 +7974,11 @@
             "value": "7942857"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722666"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6920,6 +7986,30 @@
           },
           {
             "value": "Spodnja Slivnica"
+          },
+          {
+            "lang": "en",
+            "value": "Spodnje Slivnice railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Spodnje Slivnice"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Spodnje Slivnice"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Spodnje Slivnice"
+          },
+          {
+            "lang": "en",
+            "value": "Slivnica railway halt"
+          },
+          {
+            "lang": "en",
+            "value": "Spodnja Slivnica railway halt"
           }
         ]
       },
@@ -6935,7 +8025,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42859-7942859",
+      "id": "SI42859-7942859-Q111722498",
       "properties": {
         "P17": [
           {
@@ -6944,6 +8034,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -6959,6 +8054,11 @@
             "value": "7942859"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722498"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -6966,6 +8066,22 @@
           },
           {
             "value": "Cusperk"
+          },
+          {
+            "lang": "en",
+            "value": "Čušperk railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Čušperk"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Čušperk"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Čušperk"
           }
         ]
       },
@@ -6981,7 +8097,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42860-7942860",
+      "id": "SI42860-7942860-Q111723133",
       "properties": {
         "P17": [
           {
@@ -6990,6 +8106,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7005,6 +8126,11 @@
             "value": "7942860"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111723133"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7012,6 +8138,22 @@
           },
           {
             "value": "Zlebic"
+          },
+          {
+            "lang": "en",
+            "value": "Žlebič railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Žlebič"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Žlebič"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Žlebič"
           }
         ]
       },
@@ -7027,7 +8169,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42901-7900081",
+      "id": "SI42901-7900081-Q19938325",
       "properties": {
         "P17": [
           {
@@ -7036,6 +8178,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7051,6 +8198,11 @@
             "value": "7900081"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938325"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7058,6 +8210,10 @@
           },
           {
             "value": "Bostanj"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Boštanj"
           }
         ]
       },
@@ -7073,7 +8229,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42902-7900121",
+      "id": "SI42902-7900121-Q12807588",
       "properties": {
         "P17": [
           {
@@ -7082,6 +8238,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7097,6 +8258,11 @@
             "value": "7900121"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807588"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7104,6 +8270,10 @@
           },
           {
             "value": "Jelovec"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Jelovec"
           }
         ]
       },
@@ -7179,7 +8349,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42904-7900173",
+      "id": "SI42904-7900173-Q19938378",
       "properties": {
         "P17": [
           {
@@ -7188,6 +8358,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7203,6 +8378,11 @@
             "value": "7900173"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938378"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7210,6 +8390,10 @@
           },
           {
             "value": "Pijavice"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Pijavice"
           }
         ]
       },
@@ -7289,7 +8473,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42906-7900219",
+      "id": "SI42906-7900219-Q19938404",
       "properties": {
         "P17": [
           {
@@ -7298,6 +8482,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7313,6 +8502,11 @@
             "value": "7900219"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938404"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7320,6 +8514,10 @@
           },
           {
             "value": "Sentrupert"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šentrupert"
           }
         ]
       },
@@ -7395,7 +8593,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42908-7900105",
+      "id": "SI42908-7900105-Q19938346",
       "properties": {
         "P17": [
           {
@@ -7404,6 +8602,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7419,6 +8622,11 @@
             "value": "7900105"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938346"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7426,6 +8634,10 @@
           },
           {
             "value": "Gomila"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Gomila"
           }
         ]
       },
@@ -7441,7 +8653,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI42909-7900123",
+      "id": "SI42909-7900123-Q19938399",
       "properties": {
         "P17": [
           {
@@ -7450,6 +8662,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7465,6 +8682,11 @@
             "value": "7900123"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938399"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7472,6 +8694,10 @@
           },
           {
             "value": "Trebnje Kamna Gora"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Trebnje Kamna Gora"
           }
         ]
       },
@@ -7883,7 +9109,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43101-7900231",
+      "id": "SI43101-7900231-Q12807639",
       "properties": {
         "P17": [
           {
@@ -7892,6 +9118,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -7907,6 +9138,11 @@
             "value": "7900231"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807639"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -7914,6 +9150,14 @@
           },
           {
             "value": "Store"
+          },
+          {
+            "lang": "en",
+            "value": "Štore Railway Station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Štore"
           }
         ]
       },
@@ -8190,7 +9434,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43202-7900096",
+      "id": "SI43202-7900096-Q12807581",
       "properties": {
         "P17": [
           {
@@ -8199,6 +9443,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -8214,6 +9463,11 @@
             "value": "7900096"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807581"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -8221,6 +9475,18 @@
           },
           {
             "value": "Dolga Gora"
+          },
+          {
+            "lang": "en",
+            "value": "Railway stop Dolga Gora"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Dolga Gora"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dolga Gora"
           }
         ]
       },
@@ -8394,7 +9660,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43205-7900165",
+      "id": "SI43205-7900165-Q12807607",
       "properties": {
         "P17": [
           {
@@ -8403,6 +9669,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -8418,6 +9689,11 @@
             "value": "7900165"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807607"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -8425,6 +9701,10 @@
           },
           {
             "value": "Ostrozno"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ostrožno"
           }
         ]
       },
@@ -8440,7 +9720,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43251-7900275",
+      "id": "SI43251-7900275-Q12807636",
       "properties": {
         "P17": [
           {
@@ -8449,6 +9729,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -8464,6 +9749,11 @@
             "value": "7900275"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807636"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -8471,6 +9761,14 @@
           },
           {
             "value": "Sentvid pri Grobelnem"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šentvid pri Grobelnem"
+          },
+          {
+            "lang": "en",
+            "value": "Šentvid pri Grobelnem railway stop"
           }
         ]
       },
@@ -8759,7 +10057,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43302-7900258",
+      "id": "SI43302-7900258-Q12807608",
       "properties": {
         "P17": [
           {
@@ -8768,6 +10066,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -8783,6 +10086,11 @@
             "value": "7900258"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807608"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -8790,6 +10098,10 @@
           },
           {
             "value": "Orehova vas"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Orehova vas"
           }
         ]
       },
@@ -8865,7 +10177,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43351-7900088",
+      "id": "SI43351-7900088-Q12807580",
       "properties": {
         "P17": [
           {
@@ -8874,6 +10186,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -8889,6 +10206,11 @@
             "value": "7900088"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807580"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -8896,6 +10218,14 @@
           },
           {
             "value": "Cirkovce"
+          },
+          {
+            "lang": "en",
+            "value": "Cirkovce railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Cirkovce"
           }
         ]
       },
@@ -9892,7 +11222,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43402-7900139",
+      "id": "SI43402-7900139-Q12807591",
       "properties": {
         "P17": [
           {
@@ -9901,6 +11231,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -9916,6 +11251,11 @@
             "value": "7900139"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807591"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -9923,6 +11263,10 @@
           },
           {
             "value": "Limbus"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Limbuš"
           }
         ]
       },
@@ -9938,8 +11282,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43403-7900077",
+      "id": "SI43403-7900077-Q18562668",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3346841"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -9947,6 +11296,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -9962,6 +11316,11 @@
             "value": "7900077"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q18562668"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -9969,6 +11328,18 @@
           },
           {
             "value": "Bistrica ob Dravi"
+          },
+          {
+            "lang": "en",
+            "value": "Bistrica ob Dravi railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Stavba železniške postaje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Bistrica ob Dravi"
           }
         ]
       },
@@ -10048,7 +11419,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43405-7900100",
+      "id": "SI43405-7900100-Q19938336",
       "properties": {
         "P17": [
           {
@@ -10057,6 +11428,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10072,6 +11448,11 @@
             "value": "7900100"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938336"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10079,6 +11460,14 @@
           },
           {
             "value": "Fala"
+          },
+          {
+            "lang": "en",
+            "value": "Fala railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Fala"
           }
         ]
       },
@@ -10291,7 +11680,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43409-7900250",
+      "id": "SI43409-7900250-Q111722953",
       "properties": {
         "P17": [
           {
@@ -10300,6 +11689,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10315,6 +11709,11 @@
             "value": "7900250"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722953"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10322,6 +11721,22 @@
           },
           {
             "value": "Vuhred elektrarna"
+          },
+          {
+            "lang": "en",
+            "value": "Vuhred elektrarna railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Vuhred elektrarna"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Vuhred elektrarna"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Vuhred elektrarna"
           }
         ]
       },
@@ -10461,7 +11876,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43412-7900235",
+      "id": "SI43412-7900235-Q111722904",
       "properties": {
         "P17": [
           {
@@ -10470,6 +11885,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10485,6 +11905,11 @@
             "value": "7900235"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722904"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10492,6 +11917,22 @@
           },
           {
             "value": "Trbonje"
+          },
+          {
+            "lang": "en",
+            "value": "Trbonje railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Trbonje"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Trbonje"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Trbonje"
           }
         ]
       },
@@ -10507,7 +11948,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43413-7900233",
+      "id": "SI43413-7900233-Q12807601",
       "properties": {
         "P17": [
           {
@@ -10516,6 +11957,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10531,6 +11977,11 @@
             "value": "7900233"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807601"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10538,6 +11989,18 @@
           },
           {
             "value": "Maribor Tabor"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Maribor - Tabor"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Maribor-Tabor"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Maribor Tabor"
           }
         ]
       },
@@ -10553,7 +12016,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43414-7900149",
+      "id": "SI43414-7900149-Q12807602",
       "properties": {
         "P17": [
           {
@@ -10562,6 +12025,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10577,6 +12045,11 @@
             "value": "7900149"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807602"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10584,6 +12057,10 @@
           },
           {
             "value": "Marles"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Marles"
           }
         ]
       },
@@ -10599,7 +12076,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43415-7900260",
+      "id": "SI43415-7900260-Q19938395",
       "properties": {
         "P17": [
           {
@@ -10608,6 +12085,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10623,6 +12105,11 @@
             "value": "7900260"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938395"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10630,6 +12117,14 @@
           },
           {
             "value": "Ruse tovarna"
+          },
+          {
+            "lang": "en",
+            "value": "Ruše tovarna railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ruše tovarna"
           }
         ]
       },
@@ -10645,7 +12140,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43416-7900236",
+      "id": "SI43416-7900236-Q111722921",
       "properties": {
         "P17": [
           {
@@ -10654,6 +12149,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10669,6 +12169,11 @@
             "value": "7900236"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722921"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10676,6 +12181,22 @@
           },
           {
             "value": "Trbonjsko jezero"
+          },
+          {
+            "lang": "en",
+            "value": "Trbonjsko jezero railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Trbonjsko jezero"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Trbonjsko jezero"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Trbonjsko jezero"
           }
         ]
       },
@@ -10691,7 +12212,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43417-7900091",
+      "id": "SI43417-7900091-Q111722721",
       "properties": {
         "P17": [
           {
@@ -10700,6 +12221,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10715,6 +12241,11 @@
             "value": "7900091"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722721"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10722,6 +12253,22 @@
           },
           {
             "value": "Sveti Danijel"
+          },
+          {
+            "lang": "en",
+            "value": "Sveti Danijel railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Sveti Danijel"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Sveti Danijel"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Sveti Danijel"
           }
         ]
       },
@@ -10737,7 +12284,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43418-7900213",
+      "id": "SI43418-7900213-Q111722900",
       "properties": {
         "P17": [
           {
@@ -10746,6 +12293,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10761,6 +12313,11 @@
             "value": "7900213"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722900"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10768,6 +12325,22 @@
           },
           {
             "value": "Sveti Vid"
+          },
+          {
+            "lang": "en",
+            "value": "Sveti Vid railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Sveti Vid"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Sveti Vid"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Sveti Vid"
           }
         ]
       },
@@ -10783,7 +12356,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43420-7900111",
+      "id": "SI43420-7900111-Q12807596",
       "properties": {
         "P17": [
           {
@@ -10792,6 +12365,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10807,6 +12385,11 @@
             "value": "7900111"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807596"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10814,6 +12397,18 @@
           },
           {
             "value": "Maribor Sokolska"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Maribor - Sokolska"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Maribor-Sokolska"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Maribor Sokolska"
           }
         ]
       },
@@ -10915,7 +12510,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43452-7900087-OJCIR",
+      "id": "SI43452-7900087-OJCIR-Q12807578",
       "properties": {
         "P17": [
           {
@@ -10924,6 +12519,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -10965,6 +12565,11 @@
             "value": "7900087"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807578"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -10972,6 +12577,14 @@
           },
           {
             "value": "Cirknica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Cirknica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Cirknica"
           }
         ]
       },
@@ -11219,7 +12832,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43501-7900200-trainline-68129",
+      "id": "SI43501-7900200-trainline-68129-Q12807623",
       "properties": {
         "P17": [
           {
@@ -11228,6 +12841,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P6724": [
@@ -11269,6 +12887,11 @@
             "value": "7900200"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807623"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -11280,6 +12903,14 @@
           {
             "lang": "sl",
             "value": "Ravne na Koroskem"
+          },
+          {
+            "lang": "en",
+            "value": "Ravne na Koroškem railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ravne na Koroškem"
           }
         ]
       },
@@ -11467,7 +13098,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43505-7900181",
+      "id": "SI43505-7900181-Q111722613",
       "properties": {
         "P17": [
           {
@@ -11476,6 +13107,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -11491,6 +13127,11 @@
             "value": "7900181"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722613"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -11498,6 +13139,22 @@
           },
           {
             "value": "Podklanec"
+          },
+          {
+            "lang": "en",
+            "value": "Podklanc railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Podklanc"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Podklanc"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Podklanc"
           }
         ]
       },
@@ -11513,7 +13170,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43506-7900095",
+      "id": "SI43506-7900095-Q12807579",
       "properties": {
         "P17": [
           {
@@ -11522,6 +13179,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -11537,6 +13199,11 @@
             "value": "7900095"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807579"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -11544,6 +13211,18 @@
           },
           {
             "value": "Dobrije"
+          },
+          {
+            "lang": "en",
+            "value": "Dobrije railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Dobrije"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dobrije"
           }
         ]
       },
@@ -11729,7 +13408,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43602-7900169",
+      "id": "SI43602-7900169-Q111722604",
       "properties": {
         "P17": [
           {
@@ -11738,6 +13417,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -11753,6 +13437,11 @@
             "value": "7900169"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722604"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -11760,6 +13449,22 @@
           },
           {
             "value": "Pavlovci"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Pavlovci"
+          },
+          {
+            "lang": "en",
+            "value": "Pavlovci railway halt"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Pavlovci"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Pavlovci"
           }
         ]
       },
@@ -12120,7 +13825,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43653-7900102",
+      "id": "SI43653-7900102-Q19938341",
       "properties": {
         "P17": [
           {
@@ -12129,6 +13834,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -12144,6 +13854,11 @@
             "value": "7900102"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938341"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -12151,6 +13866,10 @@
           },
           {
             "value": "Frankovci"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Frankovci"
           }
         ]
       },
@@ -12712,7 +14431,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43771-7900281",
+      "id": "SI43771-7900281-Q111722643",
       "properties": {
         "P17": [
           {
@@ -12721,6 +14440,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -12736,6 +14460,11 @@
             "value": "7900281"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722643"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -12743,6 +14472,22 @@
           },
           {
             "value": "Puconci"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Puconci"
+          },
+          {
+            "lang": "en",
+            "value": "Puconci railway halt"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Puconci"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Puconci"
           }
         ]
       },
@@ -12758,7 +14503,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43773-7943774-Q12807486",
+      "id": "SI43773-7943774-Q111722573",
       "properties": {
         "P17": [
           {
@@ -12771,7 +14516,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -12789,7 +14534,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q12807486"
+            "value": "Q111722573"
           }
         ],
         "labels": [
@@ -12801,8 +14546,20 @@
             "value": "Maekovci"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Dankovci"
+            "lang": "en",
+            "value": "Mačkovci railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Mačkovci"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Mačkovci"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Mačkovci"
           }
         ]
       },
@@ -12818,7 +14575,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43774-7943774",
+      "id": "SI43774-7943774-Q111722573",
       "properties": {
         "P17": [
           {
@@ -12827,6 +14584,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -12842,6 +14604,11 @@
             "value": "7943774"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722573"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -12849,6 +14616,22 @@
           },
           {
             "value": "Maekovci"
+          },
+          {
+            "lang": "en",
+            "value": "Mačkovci railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Mačkovci"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Mačkovci"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Mačkovci"
           }
         ]
       },
@@ -12864,7 +14647,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43775-7943775",
+      "id": "SI43775-7943775-Q20523837",
       "properties": {
         "P17": [
           {
@@ -12873,6 +14656,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -12888,6 +14676,11 @@
             "value": "7943775"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q20523837"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -12895,6 +14688,18 @@
           },
           {
             "value": "Gornji Petrovci"
+          },
+          {
+            "lang": "hu",
+            "value": "Gornji Petrovci"
+          },
+          {
+            "lang": "hu",
+            "value": "Péterhegy megállóhely"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Gornji Petrovci"
           }
         ]
       },
@@ -12910,7 +14715,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43776-7943776-Q22116016",
+      "id": "SI43776-7943776-Q56345753",
       "properties": {
         "P17": [
           {
@@ -12923,7 +14728,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q11424045"
           }
         ],
         "P722": [
@@ -12941,7 +14746,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q22116016"
+            "value": "Q56345753"
           }
         ],
         "labels": [
@@ -12953,12 +14758,8 @@
             "value": "Salovci"
           },
           {
-            "lang": "hu",
-            "value": "Sal megállóhely"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniško postajališče Šalovci"
+            "lang": "ja",
+            "value": "シャロヴツィ駅"
           }
         ]
       },
@@ -13164,7 +14965,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43801-7900151",
+      "id": "SI43801-7900151-Q12807603",
       "properties": {
         "P17": [
           {
@@ -13173,6 +14974,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13188,6 +14994,11 @@
             "value": "7900151"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807603"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13195,6 +15006,14 @@
           },
           {
             "value": "Mestinje"
+          },
+          {
+            "lang": "en",
+            "value": "Mestinje railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Mestinje"
           }
         ]
       },
@@ -13210,7 +15029,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43802-7900183",
+      "id": "SI43802-7900183-Q19938384",
       "properties": {
         "P17": [
           {
@@ -13219,6 +15038,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13234,6 +15058,11 @@
             "value": "7900183"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938384"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13241,6 +15070,14 @@
           },
           {
             "value": "Podplat"
+          },
+          {
+            "lang": "en",
+            "value": "Podplat railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Podplat"
           }
         ]
       },
@@ -13419,7 +15256,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43805-7900092",
+      "id": "SI43805-7900092-Q19938331",
       "properties": {
         "P17": [
           {
@@ -13428,6 +15265,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13443,6 +15285,11 @@
             "value": "7900092"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938331"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13450,6 +15297,14 @@
           },
           {
             "value": "Dobovec"
+          },
+          {
+            "lang": "en",
+            "value": "Dobovec pri Rogatcu Railway Stop"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dobovec"
           }
         ]
       },
@@ -13465,7 +15320,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43806-7900214",
+      "id": "SI43806-7900214-Q19938397",
       "properties": {
         "P17": [
           {
@@ -13474,6 +15329,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13489,6 +15349,11 @@
             "value": "7900214"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938397"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13496,6 +15361,14 @@
           },
           {
             "value": "Sveti Rok ob Sotli"
+          },
+          {
+            "lang": "en",
+            "value": "Sveti Rok ob Sotli Railway Station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Sveti Rok ob Sotli"
           }
         ]
       },
@@ -13511,7 +15384,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43807-7900232",
+      "id": "SI43807-7900232-Q19938398",
       "properties": {
         "P17": [
           {
@@ -13520,6 +15393,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13535,6 +15413,11 @@
             "value": "7900232"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938398"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13542,6 +15425,14 @@
           },
           {
             "value": "Tekacevo"
+          },
+          {
+            "lang": "en",
+            "value": "Tekačevo railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Tekačevo"
           }
         ]
       },
@@ -13557,7 +15448,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43808-7900202",
+      "id": "SI43808-7900202-Q12807624",
       "properties": {
         "P17": [
           {
@@ -13566,6 +15457,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13581,6 +15477,11 @@
             "value": "7900202"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807624"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13588,6 +15489,14 @@
           },
           {
             "value": "Rjavica"
+          },
+          {
+            "lang": "en",
+            "value": "Rjavica railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Rjavica"
           }
         ]
       },
@@ -13635,7 +15544,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43851-7900194",
+      "id": "SI43851-7900194-Q19938386",
       "properties": {
         "P17": [
           {
@@ -13644,6 +15553,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13659,6 +15573,11 @@
             "value": "7900194"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938386"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13666,6 +15585,10 @@
           },
           {
             "value": "Pristava"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Pristava"
           }
         ]
       },
@@ -13681,7 +15604,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43852-7900209",
+      "id": "SI43852-7900209-Q12807627",
       "properties": {
         "P17": [
           {
@@ -13690,6 +15613,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13705,6 +15633,11 @@
             "value": "7900209"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807627"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13712,6 +15645,10 @@
           },
           {
             "value": "Sodna vas"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Sodna vas"
           }
         ]
       },
@@ -13727,7 +15664,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43853-7900177",
+      "id": "SI43853-7900177-Q12807617",
       "properties": {
         "P17": [
           {
@@ -13736,6 +15673,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13751,6 +15693,11 @@
             "value": "7900177"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807617"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13758,6 +15705,10 @@
           },
           {
             "value": "Podcetrtek"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Podčetrtek"
           }
         ]
       },
@@ -13842,8 +15793,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43855-7900178",
+      "id": "SI43855-7900178-Q12807619",
       "properties": {
+        "P131": [
+          {
+            "value": "Q2265297"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -13853,17 +15809,34 @@
             "value": "Q215"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "P722": [
           {
             "info": {
               "reliability": 0.52
             },
             "value": "7943855"
+          },
+          {
+            "value": "7943853"
           }
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7900178"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12807619"
           }
         ],
         "labels": [
@@ -13873,6 +15846,14 @@
           },
           {
             "value": "Podcetrtek Toplice"
+          },
+          {
+            "lang": "en",
+            "value": "Podčetrtek Toplice railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Podčetrtek Toplice"
           }
         ]
       },
@@ -13888,7 +15869,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43856-7900072",
+      "id": "SI43856-7900072-Q12807572",
       "properties": {
         "P17": [
           {
@@ -13897,6 +15878,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13912,6 +15898,11 @@
             "value": "7900072"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807572"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13919,6 +15910,22 @@
           },
           {
             "value": "Atomske Toplice hot."
+          },
+          {
+            "lang": "en",
+            "value": "Atomske Toplice hotel railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Atomske Toplice - hotel"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Atomske Toplice-hotel"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Atomske Toplice hotel"
           }
         ]
       },
@@ -13934,7 +15941,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43901-7900172",
+      "id": "SI43901-7900172-Q12807620",
       "properties": {
         "P17": [
           {
@@ -13943,6 +15950,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -13958,6 +15970,11 @@
             "value": "7900172"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807620"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -13965,6 +15982,10 @@
           },
           {
             "value": "Petrovce"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Petrovče"
           }
         ]
       },
@@ -14044,7 +16065,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43903-7900215",
+      "id": "SI43903-7900215-Q12807635",
       "properties": {
         "P17": [
           {
@@ -14053,6 +16074,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -14068,6 +16094,11 @@
             "value": "7900215"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807635"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -14075,6 +16106,14 @@
           },
           {
             "value": "Sempeter v Sav.dolni"
+          },
+          {
+            "lang": "en",
+            "value": "Šempeter v Savinjski dolini railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šempeter v Savinjski dolini"
           }
         ]
       },
@@ -14214,7 +16253,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43906-7900168",
+      "id": "SI43906-7900168-Q19938375",
       "properties": {
         "P17": [
           {
@@ -14223,6 +16262,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -14238,6 +16282,11 @@
             "value": "7900168"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938375"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -14245,6 +16294,10 @@
           },
           {
             "value": "Paska vas"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Paška vas"
           }
         ]
       },
@@ -14341,7 +16394,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43909-7900274",
+      "id": "SI43909-7900274-Q19938402",
       "properties": {
         "P17": [
           {
@@ -14350,6 +16403,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -14365,6 +16423,11 @@
             "value": "7900274"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938402"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -14372,6 +16435,10 @@
           },
           {
             "value": "Velenje Pesje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Velenje Pesje"
           }
         ]
       },
@@ -14473,7 +16540,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43911-7900273",
+      "id": "SI43911-7900273-Q12807575",
       "properties": {
         "P17": [
           {
@@ -14482,6 +16549,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -14497,6 +16569,11 @@
             "value": "7900273"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807575"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -14504,6 +16581,18 @@
           },
           {
             "value": "Celje Lava"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Celje - Lava"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Celje-Lava"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Celje Lava"
           }
         ]
       },
@@ -14519,7 +16608,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI43912-7900101",
+      "id": "SI43912-7900101-Q19938338",
       "properties": {
         "P17": [
           {
@@ -14528,6 +16617,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -14543,6 +16637,11 @@
             "value": "7900101"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938338"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -14550,6 +16649,10 @@
           },
           {
             "value": "Florjan"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Florjan"
           }
         ]
       },
@@ -14648,7 +16751,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44002-7900159",
+      "id": "SI44002-7900159-Q12807604",
       "properties": {
         "P17": [
           {
@@ -14657,6 +16760,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -14672,6 +16780,11 @@
             "value": "7900159"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807604"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -14679,6 +16792,18 @@
           },
           {
             "value": "Notranje Gorice"
+          },
+          {
+            "lang": "en",
+            "value": "Notranje Gorice railway halt"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Notranje gorice"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Notranje Gorice"
           }
         ]
       },
@@ -15009,7 +17134,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44007-7900174",
+      "id": "SI44007-7900174-Q12807614",
       "properties": {
         "P17": [
           {
@@ -15018,6 +17143,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -15033,6 +17163,11 @@
             "value": "7900174"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807614"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -15040,6 +17175,18 @@
           },
           {
             "value": "Planina"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Planina"
+          },
+          {
+            "lang": "en",
+            "value": "Planina railway stop"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Planina"
           }
         ]
       },
@@ -15392,8 +17539,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44011-7900283",
+      "id": "SI44011-7900283-Q12807597",
       "properties": {
+        "P131": [
+          {
+            "value": "Q3434113"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -15401,6 +17553,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -15416,6 +17573,11 @@
             "value": "7900283"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807597"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -15423,6 +17585,46 @@
           },
           {
             "value": "Ljubljana Tivoli"
+          },
+          {
+            "lang": "da",
+            "value": "Ljubljana-Tivoli banegård"
+          },
+          {
+            "lang": "en",
+            "value": "Lubiana Tivoli railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Lubiana Tivoli"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Ljubljana Tivoli"
+          },
+          {
+            "lang": "ja",
+            "value": "リュブリャナ・ティヴォリ駅"
+          },
+          {
+            "lang": "ru",
+            "value": "Любляна-Тиволи"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana - Tivoli"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana-Tivoli"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Tivoli"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana Tivoli"
           }
         ]
       },
@@ -15438,7 +17640,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44012-7944012",
+      "id": "SI44012-7944012-Q111722556",
       "properties": {
         "P17": [
           {
@@ -15447,6 +17649,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -15462,6 +17669,11 @@
             "value": "7944012"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722556"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -15469,6 +17681,22 @@
           },
           {
             "value": "Ljubljana Dolgi Most"
+          },
+          {
+            "lang": "en",
+            "value": "Ljubljana Dolgi most railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Ljubljana Dolgi most"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Ljubljana Dolgi most"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Ljubljana Dolgi most"
           }
         ]
       },
@@ -15626,8 +17854,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44101-7900133",
+      "id": "SI44101-7900133-Q19938363",
       "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -15635,6 +17868,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -15650,6 +17888,11 @@
             "value": "7900133"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938363"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -15657,6 +17900,14 @@
           },
           {
             "value": "Kosana"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Cossana"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Košana"
           }
         ]
       },
@@ -16110,8 +18361,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44251-7900190",
+      "id": "SI44251-7900190-Q12807616",
       "properties": {
+        "P131": [
+          {
+            "value": "Q554854"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -16119,6 +18375,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -16134,6 +18395,11 @@
             "value": "7900190"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807616"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -16141,6 +18407,22 @@
           },
           {
             "value": "Povir"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Poverio"
+          },
+          {
+            "lang": "ja",
+            "value": "ポヴィル駅"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Povir"
+          },
+          {
+            "lang": "en",
+            "value": "Povir railway stop"
           }
         ]
       },
@@ -16316,8 +18598,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44303-7900041",
+      "id": "SI44303-7900041-Q16868398",
       "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1618590"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -16325,6 +18617,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -16340,6 +18637,11 @@
             "value": "7900041"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q16868398"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -16347,6 +18649,22 @@
           },
           {
             "value": "Rakitovec"
+          },
+          {
+            "lang": "en",
+            "value": "Rakitovec train station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Acquaviva"
+          },
+          {
+            "lang": "ja",
+            "value": "ラキトヴェツ駅"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Rakitovec"
           }
         ]
       },
@@ -16912,7 +19230,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44502-7900131",
+      "id": "SI44502-7900131-Q111722504",
       "properties": {
         "P17": [
           {
@@ -16921,6 +19239,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -16936,6 +19259,11 @@
             "value": "7900131"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q111722504"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -16943,6 +19271,22 @@
           },
           {
             "value": "Kopriva"
+          },
+          {
+            "lang": "en",
+            "value": "Kopriva railway halt"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Kopriva"
+          },
+          {
+            "lang": "fr",
+            "value": "halte de Kopriva"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Kopriva"
           }
         ]
       },
@@ -17183,8 +19527,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44506-7900097",
+      "id": "SI44506-7900097-Q19938334",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q580578"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -17192,6 +19546,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -17207,6 +19566,11 @@
             "value": "7900097"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938334"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -17214,6 +19578,18 @@
           },
           {
             "value": "Dornberk"
+          },
+          {
+            "lang": "en",
+            "value": "Dornberk railway stop"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Montespino"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dornberk"
           }
         ]
       },
@@ -17307,8 +19683,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44601-7900162",
+      "id": "SI44601-7900162-Q12807606",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -17316,6 +19697,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -17331,6 +19717,11 @@
             "value": "7900162"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807606"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -17338,6 +19729,18 @@
           },
           {
             "value": "Okroglica"
+          },
+          {
+            "lang": "en",
+            "value": "Okroglica railway station"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Stanzia Bartolomei"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Okroglica"
           }
         ]
       },
@@ -17502,16 +19905,37 @@
     {
       "geometry": {
         "coordinates": [
-          13.7697683,
-          45.8872935
+          [
+            13.7697683,
+            45.8872935
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "SI44651",
+      "id": "SI44651-Q19938319",
       "properties": {
+        "P1103": [
+          {
+            "value": "2"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1979734"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -17522,10 +19946,27 @@
             "value": "7944651"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938319"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
             "value": "Batuje"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Batuje"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Battuglia"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Batuje"
           }
         ]
       },
@@ -17534,16 +19975,37 @@
     {
       "geometry": {
         "coordinates": [
-          13.7361047,
-          45.8899509
+          [
+            13.7361047,
+            45.8899509
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "SI44653",
+      "id": "SI44653-7900097-Q19938334",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q580578"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -17554,10 +20016,35 @@
             "value": "7944653"
           }
         ],
+        "P954": [
+          {
+            "value": "7900097"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q19938334"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
             "value": "Dornberk vas"
+          },
+          {
+            "value": "Dornberk"
+          },
+          {
+            "lang": "en",
+            "value": "Dornberk railway stop"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Montespino"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dornberk"
           }
         ]
       },
@@ -17566,16 +20053,37 @@
     {
       "geometry": {
         "coordinates": [
-          13.8169787,
-          45.8771022
+          [
+            13.8169787,
+            45.8771022
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "SI44654",
+      "id": "SI44654-Q19938352",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q372981"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -17586,10 +20094,23 @@
             "value": "7944654"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938352"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
             "value": "Kamnje"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Camigna"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Kamnje"
           }
         ]
       },
@@ -17598,16 +20119,37 @@
     {
       "geometry": {
         "coordinates": [
-          13.8443803,
-          45.8823394
+          [
+            13.8443803,
+            45.8823394
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "SI44655",
+      "id": "SI44655-Q12807577",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q2333551"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -17618,10 +20160,23 @@
             "value": "7944655"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807577"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
             "value": "Dobravlje"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Dobraule"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dobravlje"
           }
         ]
       },
@@ -17630,16 +20185,37 @@
     {
       "geometry": {
         "coordinates": [
-          13.8639139,
-          45.8869396
+          [
+            13.8639139,
+            45.8869396
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "SI44656",
+      "id": "SI44656-Q12807573",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q2482257"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -17650,10 +20226,23 @@
             "value": "7944656"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807573"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
             "value": "Cesta"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Strada"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Cesta"
           }
         ]
       },
@@ -18150,8 +20739,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44706-7900073",
+      "id": "SI44706-7900073-Q19938317",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q2612711"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -18159,6 +20758,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18174,6 +20778,11 @@
             "value": "7900073"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938317"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18181,6 +20790,22 @@
           },
           {
             "value": "Avce"
+          },
+          {
+            "lang": "en",
+            "value": "Auzza railway halt"
+          },
+          {
+            "lang": "en",
+            "value": "Avče railway halt"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Auzza"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Avče"
           }
         ]
       },
@@ -18311,8 +20936,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44708-7900182",
+      "id": "SI44708-7900182-Q19938382",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q1934850"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -18320,6 +20955,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18335,6 +20975,11 @@
             "value": "7900182"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938382"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18342,6 +20987,38 @@
           },
           {
             "value": "Podmelec"
+          },
+          {
+            "lang": "en",
+            "value": "Piedimelze railway halt"
+          },
+          {
+            "lang": "en",
+            "value": "Piedimelze railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Piedimelze train station"
+          },
+          {
+            "lang": "en",
+            "value": "Podmelec railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Podmelec train station"
+          },
+          {
+            "lang": "en",
+            "value": "Podmelec railway halt"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Piedimelze"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Podmelec"
           }
         ]
       },
@@ -18439,8 +21116,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44710-7900116",
+      "id": "SI44710-7900116-Q12807586",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q15924"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -18448,6 +21135,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18463,6 +21155,11 @@
             "value": "7900116"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807586"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18470,6 +21167,22 @@
           },
           {
             "value": "Hudajuzna"
+          },
+          {
+            "lang": "en",
+            "value": "Hudajužna railway halt"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Oblocca-Iusina"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Hudajužna"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Hudajužna"
           }
         ]
       },
@@ -18672,7 +21385,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44713-7900158",
+      "id": "SI44713-7900158-Q12807605",
       "properties": {
         "P17": [
           {
@@ -18681,6 +21394,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18696,6 +21414,11 @@
             "value": "7900158"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807605"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18703,6 +21426,10 @@
           },
           {
             "value": "Nomenj"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Nomenj"
           }
         ]
       },
@@ -18718,7 +21445,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44715-7900079",
+      "id": "SI44715-7900079-Q12807574",
       "properties": {
         "P17": [
           {
@@ -18727,6 +21454,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18742,6 +21474,11 @@
             "value": "7900079"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807574"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18749,6 +21486,10 @@
           },
           {
             "value": "Bohinjska Bela"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Bohinjska Bela"
           }
         ]
       },
@@ -18854,7 +21595,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44717-7900180",
+      "id": "SI44717-7900180-Q19938380",
       "properties": {
         "P17": [
           {
@@ -18863,6 +21604,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18878,6 +21624,11 @@
             "value": "7900180"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938380"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18885,6 +21636,10 @@
           },
           {
             "value": "Podhom"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Podhom"
           }
         ]
       },
@@ -18900,8 +21655,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44718-7900246",
+      "id": "SI44718-7900246-Q12807633",
       "properties": {
+        "P131": [
+          {
+            "value": "Q15881"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -18909,6 +21669,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18924,6 +21689,11 @@
             "value": "7900246"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q12807633"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18931,6 +21701,18 @@
           },
           {
             "value": "Vintgar"
+          },
+          {
+            "lang": "en",
+            "value": "Vintgar railway halt"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Blejska Dobrava"
+          },
+          {
+            "lang": "sl",
+            "value": "železniško postajališče Vintgar"
           }
         ]
       },
@@ -18946,7 +21728,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44719-7900130",
+      "id": "SI44719-7900130-Q19938361",
       "properties": {
         "P17": [
           {
@@ -18955,6 +21737,11 @@
               "reliability": 0
             },
             "value": "Q215"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
           }
         ],
         "P722": [
@@ -18970,6 +21757,11 @@
             "value": "7900130"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q19938361"
+          }
+        ],
         "labels": [
           {
             "lang": "sl",
@@ -18977,6 +21769,18 @@
           },
           {
             "value": "Kocna"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Kočna"
+          },
+          {
+            "lang": "en",
+            "value": "Kočna railway halt"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Kočna"
           }
         ]
       },
@@ -19057,8 +21861,18 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "SI44800-7900099",
+      "id": "SI44800-7900099-Q12807582",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
+        "P131": [
+          {
+            "value": "Q554908"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -19068,9 +21882,19 @@
             "value": "Q215"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
         "P722": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.52
+                }
+              ],
               "reliability": 0.52
             },
             "value": "7944800"
@@ -19078,7 +21902,16 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "7900099"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q12807582"
           }
         ],
         "labels": [
@@ -19088,6 +21921,18 @@
           },
           {
             "value": "Dutovlje"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Duttogliano"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dutovlje"
+          },
+          {
+            "lang": "en",
+            "value": "Dutovlje railway halt"
           }
         ]
       },

@@ -1141,8 +1141,40 @@
             "value": "Sofia"
           },
           {
+            "lang": "it",
+            "value": "Stazione di Sofia Centrale"
+          },
+          {
+            "lang": "de",
+            "value": "Bahnhof Sofia Hbf"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Sofia Hbf"
+          },
+          {
+            "lang": "bg",
+            "value": "Централна железопътна гара"
+          },
+          {
             "lang": "ru",
             "value": "Центральный вокзал"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара София"
+          },
+          {
+            "lang": "bg",
+            "value": "Жп гара София"
+          },
+          {
+            "lang": "bg",
+            "value": "Централна железопътна гара София"
+          },
+          {
+            "lang": "bg",
+            "value": "Централната гара София"
           },
           {
             "lang": "bg",
@@ -1150,7 +1182,15 @@
           },
           {
             "lang": "de",
+            "value": "Hauptbahnhof Sofia"
+          },
+          {
+            "lang": "de",
             "value": "Sofia Hauptbahnhof"
+          },
+          {
+            "lang": "es",
+            "value": "Estacion Central de Sofia"
           },
           {
             "lang": "en",
@@ -1163,6 +1203,10 @@
           {
             "lang": "fa",
             "value": "ایستگاه مرکزی صوفیه"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Sofia"
           },
           {
             "lang": "fr",
@@ -1203,50 +1247,6 @@
           {
             "lang": "zh-hans",
             "value": "索菲亚中央车站"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Sofia Centrale"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Sofia Hbf"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Sofia Hbf"
-          },
-          {
-            "lang": "bg",
-            "value": "Централна железопътна гара"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара София"
-          },
-          {
-            "lang": "bg",
-            "value": "Жп гара София"
-          },
-          {
-            "lang": "bg",
-            "value": "Централна железопътна гара София"
-          },
-          {
-            "lang": "bg",
-            "value": "Централната гара София"
-          },
-          {
-            "lang": "de",
-            "value": "Hauptbahnhof Sofia"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Sofia"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Sofia"
           },
           {
             "lang": "zh-hant",
@@ -1313,10 +1313,6 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Подуяне"
-          },
-          {
-            "lang": "bg",
             "value": "Железопътна гара \"Подуяне\""
           },
           {
@@ -1330,6 +1326,10 @@
           {
             "lang": "bg",
             "value": "Подуяне (гара)"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Подуяне"
           },
           {
             "lang": "en",
@@ -5733,18 +5733,6 @@
             "value": "Varna"
           },
           {
-            "lang": "ro",
-            "value": "Varna"
-          },
-          {
-            "lang": "pl",
-            "value": "Warna"
-          },
-          {
-            "lang": "cs",
-            "value": "Varna"
-          },
-          {
             "lang": "en",
             "value": "Varna railway station"
           },
@@ -5769,10 +5757,6 @@
             "value": "ヴァルナ駅"
           },
           {
-            "lang": "pl",
-            "value": "Dworzec kolejowy Warna"
-          },
-          {
             "lang": "uk",
             "value": "Варна (станція)"
           },
@@ -5781,8 +5765,24 @@
             "value": "瓦爾納車站"
           },
           {
+            "lang": "ro",
+            "value": "Varna"
+          },
+          {
+            "lang": "pl",
+            "value": "Warna"
+          },
+          {
+            "lang": "cs",
+            "value": "Varna"
+          },
+          {
             "lang": "de",
             "value": "Varna"
+          },
+          {
+            "lang": "pl",
+            "value": "Dworzec kolejowy Warna"
           }
         ]
       },
@@ -10634,10 +10634,6 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътен възел Русе"
-          },
-          {
-            "lang": "bg",
             "value": "Железопътна гара Русе"
           },
           {
@@ -10646,11 +10642,15 @@
           },
           {
             "lang": "fr",
-            "value": "gare de Roussé"
+            "value": "gare centrale de Roussé"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътен възел Русе"
           },
           {
             "lang": "fr",
-            "value": "gare centrale de Roussé"
+            "value": "gare de Roussé"
           },
           {
             "lang": "hu",
@@ -10796,8 +10796,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "BG51002-5200121-Q97324794",
+      "id": "BG51002-5200121-Q106763448",
       "properties": {
+        "P131": [
+          {
+            "value": "Q472"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -10809,7 +10814,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q928830"
           }
         ],
         "P722": [
@@ -10827,7 +10832,7 @@
         ],
         "PWIKI": [
           {
-            "value": "Q97324794"
+            "value": "Q106763448"
           }
         ],
         "labels": [
@@ -10839,7 +10844,35 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Горна баня"
+            "value": "Метростанция „Горна Баня“"
+          },
+          {
+            "lang": "en",
+            "value": "Gorna Banya Metro Station"
+          },
+          {
+            "lang": "bg",
+            "value": "Горна баня"
+          },
+          {
+            "lang": "en",
+            "value": "Gorna banya"
+          },
+          {
+            "lang": "en",
+            "value": "Горна баня"
+          },
+          {
+            "lang": "fr",
+            "value": "Горна баня"
+          },
+          {
+            "lang": "fr",
+            "value": "Gorna banïa"
+          },
+          {
+            "lang": "ru",
+            "value": "Горна баня (станция метро)"
           }
         ]
       },
@@ -14752,7 +14785,15 @@
           },
           {
             "lang": "bg",
+            "value": "жп гара Бургас"
+          },
+          {
+            "lang": "bg",
             "value": "централна гара Бургас"
+          },
+          {
+            "lang": "en",
+            "value": "Burgas Central railway station"
           },
           {
             "lang": "en",
@@ -14777,14 +14818,6 @@
           {
             "lang": "bg",
             "value": "Железопътна гара Бургас"
-          },
-          {
-            "lang": "bg",
-            "value": "жп гара Бургас"
-          },
-          {
-            "lang": "en",
-            "value": "Burgas Central railway station"
           }
         ]
       },
