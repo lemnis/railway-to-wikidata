@@ -27,90 +27,111 @@
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 
 <script>
-  const Icon = (hue = 205) => L.divIcon({
-  html: /*svg*/ `<svg viewBox="0 0 500 820" xmlns="http://www.w3.org/2000/svg"  style="fill-rule:evenodd;">
-    <defs>
-      <linearGradient x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90 478.7 62.3) scale(37.566)" id="a">
-        <stop offset="0" stop-color="hsl(${hue + 5},83%,42%)"/>
-        <stop offset="1" stop-color="hsl(${hue},59%,56%)"/>
-      </linearGradient>
-      <linearGradient x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90 468.5 54) scale(19.053)" id="b">
-        <stop offset="0" stop-color="hsl(${hue},53%,39%)"/>
-        <stop offset="1" stop-color="hsl(${hue},53%,47%)"/>
-      </linearGradient>
-    </defs>
-    <path d="M416.5 503.6c-6.5 0-12 5.7-12 11.9 0 2.8 1.6 6.3 2.7 8.7l9.3 17.9 9.3-17.9c1-2.4 2.7-5.8 2.7-8.7 0-6.2-5.4-11.9-12-11.9Zm0 7.2c2.6 0 4.7 2 4.7 4.7a4.7 4.7 0 1 1-4.7-4.7Z" stroke-width="1.1" fill="url(#a)" stroke="url(#b)" transform="translate(-7889.1 -9807.4) scale(19.5417)"/>
-  </svg>`,
-  className: "",
-  iconSize: [36, 60],
-  iconAnchor: [18, 60],
-});
-
-
-  L.TopoJSON = L.GeoJSON.extend({
-    addData: function (jsonData) {
-      if (jsonData.type === "Topology") {
-        for (key in jsonData.objects) {
-          geojson = topojson.feature(jsonData, jsonData.objects[key]);
-          L.GeoJSON.prototype.addData.call(this, geojson);
-        }
-      } else {
-        L.GeoJSON.prototype.addData.call(this, jsonData);
-      }
-    },
+    const Icon = (hue = 205) => L.divIcon({
+    html: /*svg*/ `<svg viewBox="0 0 500 820" xmlns="http://www.w3.org/2000/svg"  style="fill-rule:evenodd;">
+      <defs>
+        <linearGradient x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90 478.7 62.3) scale(37.566)" id="a">
+          <stop offset="0" stop-color="hsl(${hue + 5},83%,42%)"/>
+          <stop offset="1" stop-color="hsl(${hue},59%,56%)"/>
+        </linearGradient>
+        <linearGradient x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90 468.5 54) scale(19.053)" id="b">
+          <stop offset="0" stop-color="hsl(${hue},53%,39%)"/>
+          <stop offset="1" stop-color="hsl(${hue},53%,47%)"/>
+        </linearGradient>
+      </defs>
+      <path d="M416.5 503.6c-6.5 0-12 5.7-12 11.9 0 2.8 1.6 6.3 2.7 8.7l9.3 17.9 9.3-17.9c1-2.4 2.7-5.8 2.7-8.7 0-6.2-5.4-11.9-12-11.9Zm0 7.2c2.6 0 4.7 2 4.7 4.7a4.7 4.7 0 1 1-4.7-4.7Z" stroke-width="1.1" fill="url(#a)" stroke="url(#b)" transform="translate(-7889.1 -9807.4) scale(19.5417)"/>
+    </svg>`,
+    className: "",
+    iconSize: [36, 60],
+    iconAnchor: [18, 60],
   });
-  // Copyright (c) 2013 Ryan Clark
 
-  const map = L.map("map");
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    subdomains: ["a", "b", "c"],
-  }).addTo(map);
+    L.TopoJSON = L.GeoJSON.extend({
+      addData: function (jsonData) {
+        if (jsonData.type === "Topology") {
+          for (key in jsonData.objects) {
+            geojson = topojson.feature(jsonData, jsonData.objects[key]);
+            L.GeoJSON.prototype.addData.call(this, geojson);
+          }
+        } else {
+          L.GeoJSON.prototype.addData.call(this, jsonData);
+        }
+      },
+    });
+    // Copyright (c) 2013 Ryan Clark
 
-  function onEachFeature(feature, layer) {
-    const popupContent = `
-      ${feature.properties.labels?.[0]?.value} <br />
-      <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br />
-      <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br />
-      <b>Station code</b> ${feature.properties.P296?.[0]?.value}
-    `;
+    const map = L.map("map");
 
-    layer.bindPopup(popupContent);
-  }
+    const base = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      subdomains: ["a", "b", "c"],
+    }).addTo(map);
 
-  const points = {{ stations | jsonify }};
-  const markers = L.markerClusterGroup();
-  const orignal = L.geoJson(points, { onEachFeature });
-  markers.addLayer(orignal);
+    function onEachFeature(feature, layer) {
+      const popupContent = `
+        ${feature.properties.labels?.[0]?.value} <br />
+        <b>UIC</b> ${feature.properties.P722?.[0]?.value} <br />
+        <b>IBNR</b> ${feature.properties.P954?.[0]?.value} <br />
+        <b>Station code</b> ${feature.properties.P296?.[0]?.value}
+      `;
 
-  const layerControl = L.control.layers({}, { Original: orignal }).addTo(map);
+      layer.bindPopup(popupContent);
+    }
 
-  map.fitBounds(markers.getBounds());
+    const points = {{ stations | jsonify }};
+    const markers = L.markerClusterGroup();
+    const original = L.geoJson(points, { onEachFeature });
+    markers.addLayer(original);
 
-  fetch(
-    `https://rawcdn.githack.com/lemnis/railway-to-wikidata/master/geojson/_euafr.geojson`
-  )
-    .then((t) => t.json())
-    .then((json) => {
-      const euafr = L.markerClusterGroup();
-      euafr.addLayer(L.geoJSON(json, {
-        onEachFeature,
-        pointToLayer: (feature, coordinates) => L.marker(coordinates, { icon: Icon(0) })
-      }));
-      layerControl.addOverlay(euafr, "Euafr");
+    const OpenRailwayMap = L.tileLayer('https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Map style: &copy; <a href="https://www.OpenRailwayMap.org">OpenRailwayMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
     });
 
-  {% if tracks %}
+    const Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+    });
+
+    const Stamen_Terrain = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+      attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      subdomains: 'abcd',
+      minZoom: 0,
+      maxZoom: 18,
+      ext: 'png'
+    });
+
+    var OpenStreetMap_DE = L.tileLayer('https://{s}.tile.openstreetmap.de/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    });
+
+    const layerControl = L.control.layers({ base, Esri_WorldStreetMap, Stamen_Terrain, OpenStreetMap_DE }, { Original: original, OpenRailwayMap }).addTo(map);
+
+    map.fitBounds(markers.getBounds());
+
     fetch(
-      "https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/{{ tracks }}.geojson"
+      `https://rawcdn.githack.com/lemnis/railway-to-wikidata/master/geojson/_euafr.geojson`
     )
-      .then((data) => data.json())
-      .then((data) => {
-        const topoLayer = new L.TopoJSON();
-        topoLayer.addData(data);
-        layerControl.addOverlay(topoLayer, "Tracks");
-      }, () => console.error('The track seems broken.'));
-  {% endif %}
+      .then((t) => t.json())
+      .then((json) => {
+        const euafr = L.geoJSON(json, {
+          onEachFeature,
+          pointToLayer: (feature, coordinates) => L.marker(coordinates, { icon: Icon(0) })
+        });
+        layerControl.addOverlay(euafr, "Euafr");
+      });
+
+    {% if tracks %}
+      fetch(
+        "https://raw.githubusercontent.com/lemnis/railway-to-wikidata/master/geojson/tracks/{{ tracks }}.geojson"
+      )
+        .then((data) => data.json())
+        .then((data) => {
+          const topoLayer = new L.TopoJSON();
+          topoLayer.addData(data);
+          layerControl.addOverlay(topoLayer, "Tracks");
+        }, () => console.error('The track seems broken.'));
+    {% endif %}
 </script>
