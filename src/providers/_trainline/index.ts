@@ -74,7 +74,15 @@ export const getGroupedLocations = async () => {
       const busIds = getBusIds(stationGroup);
       const airportIds = getAirportIds(stationGroup);
 
-      if (trainIds.size > 0) {
+      // For Swiss, require extra ID (e.g. UIC besides CFF id)
+      if (
+        trainIds.size === 1 &&
+        stationGroup.some(
+          ({ properties }) => properties.cff_id && properties.country === "CH"
+        )
+      ) {
+        groupResult.busStops.add(stationGroup);
+      } else if (trainIds.size > 0) {
         groupResult.trainStations.add(stationGroup);
       } else if (airportIds.size > 0) {
         groupResult.airports.add(stationGroup);
