@@ -114,27 +114,27 @@ const prompt = inquirer.createPromptModule();
   if (wikidata) {
     let d: Record<string, Location[]> = {};
     (await getAllRailwayStations()).subscribe((i) => {
-      // d = [...d, ...i];
+      const countries = new Set<string>()
       i.forEach((item) => {
         item.properties[Property.Country]?.forEach((c) => {
           d[c.value!] ||= [];
           d[c.value!].push(item);
-          fs.writeFile(
-            `${geoJSONPath}/wikidata/${c.value}.geojson`,
-            JSON.stringify(
-              sortJson(createFeatureCollection(d[c.value!])),
-              null,
-              2
-            )
-          );
+          countries.add(c.value!);
         });
       });
-      // fs.writeFile(
-      //   `${geoJSONPath}/wikidata-railway-stations.geojson`,
-      //   JSON.stringify(sortJson(createFeatureCollection(d)), null, 2)
-      // );
+
+      countries.forEach(c => {
+        fs.writeFile(
+          `${geoJSONPath}/wikidata/${c}.geojson`,
+          JSON.stringify(
+            sortJson(createFeatureCollection(d[c])),
+            null,
+            2
+          )
+        );
+      });
       console.log("Updated wikidata");
-    });
+    })
     // const { data: uic } = await getUICRailwayStations();
     // fs.writeFile(
     //   `${geoJSONPath}/uic/wikidata.geojson`,
