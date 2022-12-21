@@ -23,14 +23,14 @@ import { Country } from "../../transform/country";
 export const getAllRailwayStations = async () => {
   // TODO: Exclude closed station, but  include stations who got reopened (e.g. veendam)
   const k = simplify(
-    await run(`SELECT DISTINCT ?item ?${Property.Country} WHERE {
-      ?item p:P31 ?instance.
-      ?instance (ps:P31/(wdt:P279*)) wd:Q55488.
-      ?item wdt:P625 ?P625.
-      ?item wdt:${Property.Country} ?${Property.Country}
+    await run(`SELECT DISTINCT ?item ?${Property.InstanceOf} ?${Property.Country} WHERE {
+      ?item p:${Property.InstanceOf} ?instance.
+      ?instance (ps:${Property.InstanceOf}/(wdt:P279*)) wd:Q55488.
+      ?item wdt:${Property.InstanceOf} ?${Property.InstanceOf}.
+      ?item wdt:${Property.Country} ?${Property.Country}.
   }
   ORDER BY ?item`),
-    [{ property: Property.Country }]
+    [{ property: Property.Country }, { property: Property.InstanceOf}]
   );
   const ids = k
     .filter(({ properties }) =>
@@ -41,8 +41,23 @@ export const getAllRailwayStations = async () => {
       )
     )
     .map(({ id }) => id);
-
-  console.log("Found ", ids.length, "wikidata articles");
+  console.log("total ids", ids.length);
+  const filtered = ids.filter(
+    (id) =>
+      !k.some(
+        (j) =>
+          j.id === id &&
+          j.properties[Property.InstanceOf]?.some(
+            ({ value }) =>
+              value && ["Q4663385", "Q65464941", "Q106772341"].includes(value)
+          )
+      )
+  );
+  console.log(
+    "Found ",
+    filtered.length,
+    "wikidata articles"
+  );
 
   const properties = [...Object.values(CodeIssuer), ...Object.values(Property)];
 
@@ -67,14 +82,16 @@ export const getAllRailwayStations = async () => {
       ).catch((res) => catchError(res))
     ).pipe(
       concatMap((response) => {
-        if(typeof response === 'function') {
+        if (typeof response === "function") {
           return throwError(() => JSON.stringify(response));
         }
 
-        return from([simplifyByKeyValue(
-          response,
-          properties.map((property) => ({ property }))
-        )]);
+        return from([
+          simplifyByKeyValue(
+            response,
+            properties.map((property) => ({ property }))
+          ),
+        ]);
       })
     );
   };
@@ -94,7 +111,7 @@ export const getAllRailwayStations = async () => {
     );
   };
 
-  return splitter(ids as string[]);
+  return splitter(filtered as string[]);
 };
 
 export const getUICRailwayStations = async () => {
