@@ -121,6 +121,6 @@
           const topoLayer = new L.TopoJSON();
           topoLayer.addData(data);
           layerControl.addOverlay(topoLayer, "Tracks");
-        }, () => console.error('The track seems broken.'));
+        }, () => console.error('The track seems broken.');
     {% endif %}
 </script>
