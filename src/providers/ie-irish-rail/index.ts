@@ -51,6 +51,7 @@ export const getLocations = async () => {
           number,
           number
         ];
+        const country = feature(coordinates)?.properties.wikidata;
 
         return point(
           coordinates,
@@ -63,11 +64,7 @@ export const getLocations = async () => {
               { value: StationCode },
               { value: id.toString() },
             ],
-            [Property.Country]: [
-              {
-                value: feature(coordinates)?.properties.wikidata,
-              },
-            ],
+            [Property.Country]: [{ value: country }],
           },
           { id }
         );
@@ -99,7 +96,7 @@ export const getLocations = async () => {
 
   return await Promise.all(
     groupedStations.map((stations) =>
-      stations.length > 1 ? merge(stations, false, true) : stations[0]
+      stations.length > 1 ? merge(stations, false, false) : stations[0]
     )
   );
 };

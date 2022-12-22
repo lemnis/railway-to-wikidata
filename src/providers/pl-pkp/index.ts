@@ -1,8 +1,11 @@
-import { Country } from "../../transform/country";
-import { GtfsStops } from "../../types/gtfs";
-import { LocationV4 } from "../../types/location";
+import { feature } from "@ideditor/country-coder";
+import { point } from "@turf/turf";
+import { merge } from "../../actions/merge";
+import { score } from "../../score";
+import { Country, findCountryByAlpha2 } from "../../transform/country";
+import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { getGtfsStations, getGtfsStationsByRailRoute } from "../../utils/gtfs";
+import { getGtfsStationsByRailRoute } from "../../utils/gtfs";
 import { logger } from "../../utils/logger";
 
 const foreignLocations = {
@@ -12,19 +15,19 @@ const foreignLocations = {
 };
 
 const feeds = [
-  [
-    "http://komunikacja.bialystok.pl/cms/File/download/gtfs/google_transit.zip",
-    "pl-bialystok",
-  ],
-  [
-    "https://www.wroclaw.pl/open-data/dataset/rozkladjazdytransportupublicznegoplik_data/resource/62b3f371-2375-4979-874c-05c6bbb9b09e",
-    "pl-wroclaw",
-  ],
+  // [
+  //   "http://komunikacja.bialystok.pl/cms/File/download/gtfs/google_transit.zip",
+  //   "pl-bialystok",
+  // ],
+  // [
+  //   "https://www.wroclaw.pl/open-data/87b09b32-f076-4475-8ec9-6020ed1f9ac0/OtwartyWroclaw_rozklad_jazdy_GTFS.zip",
+  //   "pl-wroclaw",
+  // ],
   ["https://mkuran.pl/gtfs/warsaw.zip", "pl-warsaw"],
   ["https://mkuran.pl/gtfs/polregio.zip", "pl-polregio"],
   ["https://mkuran.pl/gtfs/kolejemazowieckie.zip", "pl-kolejemazowieckie"],
   ["https://mkuran.pl/gtfs/wkd.zip", "pl-wkd"],
-  ["https://mkuran.pl/gtfs/tristar.zip", "pl-tristar"],
+  // ["https://mkuran.pl/gtfs/tristar.zip", "pl-tristar"],
 ];
 
 /**
@@ -34,28 +37,32 @@ const feeds = [
 const getPkp = async () => {
   const stations = await getGtfsStationsByRailRoute(
     "https://mkuran.pl/gtfs/pkpic.zip",
-    "pkp"
+    "pl-pkp"
   );
 
-  return stations.map<LocationV4>(
-    ({ stop_lat, stop_lon, stop_name, stop_id }) => {
-      const country =
-        (foreignLocations as any)[stop_id as any] ||
-        Country.Poland;
+  return stations.map<Location>(
+    ({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
+      const coordinates: [number, number] = [stop_lon, stop_lat];
+      const country = findCountryByAlpha2(
+        feature(coordinates)?.properties.iso1A2!
+      )!;
 
-      return {
-        id: stop_id as any,
-        labels: [{ value: stop_name }],
-        claims: {
+      return point(
+        coordinates,
+        {
+          labels: [{ value: stop_name }],
           [CodeIssuer.UIC]: [
             {
-              value: (country.UIC?.[0] * 100000 + Math.floor(stop_id / 10)).toString(),
+              value: (
+                country.UIC?.[0]! * 100000 +
+                Math.floor((id as any) / 10)
+              ).toString(),
             },
           ],
           [Property.Country]: [{ value: country.wikidata }],
-          [Property.CoordinateLocation]: [{ value: [stop_lat, stop_lon] }],
         },
-      };
+        { id }
+      );
     }
   );
 };
@@ -68,26 +75,66 @@ export const getLocations = async () => {
         return [];
       })
     )
-  ).then((i) => {
-    return i
+  ).then((stationsNested) =>
+    stationsNested
       .flat()
-      .map<LocationV4>(({ stop_lat, stop_lon, stop_name, stop_id }) => ({
-        id: stop_id as any,
-        labels: [{ value: stop_name }],
-        claims: {
-          [CodeIssuer.UIC]: [
-            {
-              value: (
-                Country.Poland.UIC?.[0] * 100000 +
-                Math.floor(stop_id / 10)
-              ).toString(),
-            },
-          ],
-          [Property.Country]: [{ value: Country.Poland.wikidata }],
-          [Property.CoordinateLocation]: [{ value: [stop_lat, stop_lon] }],
-        },
-      }));
-  });
+      .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
+        const stationCode =
+          typeof id === "number" ? id : id?.match(/^[0-9]{5}/)?.[0];
 
-  return [await normals, await getPkp()].flat();
+        return point(
+          [stop_lon, stop_lat],
+          {
+            labels: [{ value: stop_name }],
+            ...(stationCode
+              ? {
+                  [CodeIssuer.UIC]: [
+                    {
+                      value: (
+                        Country.Poland.UIC?.[0] * 100000 +
+                        parseFloat(stationCode.toString())
+                      ).toString(),
+                    },
+                  ],
+                }
+              : {}),
+            [Property.Country]: [
+              { value: feature([stop_lon, stop_lat])?.properties.wikidata },
+            ],
+          },
+          { id }
+        );
+      })
+  );
+
+  const ungroupedStations = [await normals, await getPkp()].flat();
+
+  const groupedStations: Location[][] = [];
+
+  for await (const station of ungroupedStations) {
+    const [index, highestMatch] =
+      (await Promise.all(
+        groupedStations.map((r, index) =>
+          Promise.all(r.map((b) => score(station, b)))
+            .then((r) => r.sort((a, b) => b.percentage - a.percentage)?.[0])
+            .then(
+              (r) => [index, r] as [number, Awaited<ReturnType<typeof score>>]
+            )
+        )
+      ).then(
+        (r) => r.sort((a, b) => b[1].percentage - a[1].percentage)?.[0]
+      )) || [];
+
+    if (highestMatch?.percentage >= 2) {
+      groupedStations[index].push(station);
+    } else {
+      groupedStations.push([station]);
+    }
+  }
+
+  return await Promise.all(
+    groupedStations.map((stations) =>
+      stations.length > 1 ? merge(stations, false, false) : stations[0]
+    )
+  );
 };
