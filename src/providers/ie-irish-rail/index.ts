@@ -3,6 +3,10 @@ import { Property } from "../../types/wikidata";
 import fetch from "node-fetch";
 import { XMLParser, XMLValidator } from "fast-xml-parser";
 import { Country } from "../../transform/country";
+import { point } from "@turf/turf";
+import { score } from "../../score";
+import { merge } from "../../actions/merge";
+import { feature } from "@ideditor/country-coder";
 
 const NorthIrelandIds = [228, 238, 241, 242, 260];
 
@@ -29,7 +33,7 @@ export const getLocations = async () => {
     };
   } = parser.parse(xml);
 
-  return ArrayOfObjStation.objStation
+  const ungroupedStations = ArrayOfObjStation.objStation
     .filter(
       ({ StationLatitude, StationLongitude }) =>
         StationLatitude && StationLongitude
@@ -39,33 +43,63 @@ export const getLocations = async () => {
         StationAlias,
         StationCode,
         StationDesc,
-        StationId,
+        StationId: id,
         StationLatitude,
         StationLongitude,
-      }) => ({
-        type: "Feature",
-        id: StationId,
-        geometry: {
-          type: "Point",
-          coordinates: [StationLongitude, StationLatitude],
-        },
-        properties: {
-          labels: [
-            { value: StationDesc },
-            ...(StationAlias ? [{ value: StationAlias }] : []),
-          ],
-          [Property.StationCode]: [
-            { value: StationCode },
-            { value: StationId.toString() },
-          ],
-          [Property.Country]: [
-            {
-              value: NorthIrelandIds.includes(StationId)
-                ? Country.UnitedKingdom.wikidata
-                : Country.Ireland.wikidata,
-            },
-          ],
-        },
-      })
+      }) => {
+        const coordinates = [StationLongitude, StationLatitude] as [
+          number,
+          number
+        ];
+
+        return point(
+          coordinates,
+          {
+            labels: [
+              { value: StationDesc },
+              ...(StationAlias ? [{ value: StationAlias }] : []),
+            ],
+            [Property.StationCode]: [
+              { value: StationCode },
+              { value: id.toString() },
+            ],
+            [Property.Country]: [
+              {
+                value: feature(coordinates)?.properties.wikidata,
+              },
+            ],
+          },
+          { id }
+        );
+      }
     );
+
+  const groupedStations: Location[][] = [];
+
+  for await (const station of ungroupedStations) {
+    const [index, highestMatch] =
+      (await Promise.all(
+        groupedStations.map((r, index) =>
+          Promise.all(r.map((b) => score(station, b)))
+            .then((r) => r.sort((a, b) => b.percentage - a.percentage)?.[0])
+            .then(
+              (r) => [index, r] as [number, Awaited<ReturnType<typeof score>>]
+            )
+        )
+      ).then(
+        (r) => r.sort((a, b) => b[1].percentage - a[1].percentage)?.[0]
+      )) || [];
+
+    if (highestMatch?.percentage >= 2) {
+      groupedStations[index].push(station);
+    } else {
+      groupedStations.push([station]);
+    }
+  }
+
+  return await Promise.all(
+    groupedStations.map((stations) =>
+      stations.length > 1 ? merge(stations, false, true) : stations[0]
+    )
+  );
 };
