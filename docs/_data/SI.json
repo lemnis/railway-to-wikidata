@@ -28,10 +28,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q1402443"
           },
           {
-            "value": "Q1402443"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -61,6 +61,17 @@
         "P722": [
           {
             "info": {
+              "reliability": 0.6400000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
+              }
+            ],
+            "value": "7942000"
+          },
+          {
+            "info": {
               "pregrouped": [
                 {
                   "reliability": 0.6400000000000001
@@ -77,17 +88,6 @@
               }
             ],
             "value": "7942001"
-          },
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19100"
-              }
-            ],
-            "value": "7942000"
           }
         ],
         "P8448": [
@@ -153,6 +153,10 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Dobova"
+          },
+          {
             "lang": "sl",
             "value": "Dobova"
           },
@@ -160,36 +164,28 @@
             "value": "Dobova"
           },
           {
-            "lang": "sk",
-            "value": "Dobova"
-          },
-          {
             "lang": "pl",
             "value": "Dobova"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Dobova"
+            "lang": "sk",
+            "value": "Dobova"
           },
           {
             "lang": "en",
             "value": "Dobova railway station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Dobova"
+            "lang": "hu",
+            "value": "Dobova vasútállomás"
           },
           {
             "lang": "gl",
             "value": "Estación de tren de Dobova"
           },
           {
-            "lang": "hu",
-            "value": "Dobova vasútállomás"
-          },
-          {
-            "lang": "ja",
-            "value": "ドボヴァ駅"
+            "lang": "fr",
+            "value": "gare de Dobova"
           },
           {
             "lang": "nl",
@@ -198,6 +194,10 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Dobova"
+          },
+          {
+            "lang": "ja",
+            "value": "ドボヴァ駅"
           }
         ]
       },
@@ -280,11 +280,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
+            "value": "Brezice"
+          },
+          {
+            "lang": "pl",
             "value": "Brežice"
           },
           {
-            "value": "Brezice"
+            "lang": "sl",
+            "value": "Brežice"
           },
           {
             "lang": "en",
@@ -293,10 +297,6 @@
           {
             "lang": "nl",
             "value": "station Brežice"
-          },
-          {
-            "lang": "pl",
-            "value": "Brežice"
           },
           {
             "lang": "sl",
@@ -332,6 +332,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -359,12 +364,12 @@
             "value": "Libna"
           },
           {
-            "lang": "en",
-            "value": "Libna train halt"
-          },
-          {
             "lang": "pl",
             "value": "Libna"
+          },
+          {
+            "lang": "en",
+            "value": "Libna train halt"
           },
           {
             "lang": "sl",
@@ -470,10 +475,6 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Krško"
-          },
-          {
             "value": "Krsko"
           },
           {
@@ -482,6 +483,10 @@
           },
           {
             "lang": "pl",
+            "value": "Krško"
+          },
+          {
+            "lang": "sl",
             "value": "Krško"
           },
           {
@@ -550,24 +555,24 @@
             "value": "Brestanica"
           },
           {
+            "lang": "pl",
+            "value": "Brestanica"
+          },
+          {
             "lang": "en",
             "value": "Brestanica railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Brestanica"
           },
           {
             "lang": "nl",
             "value": "station Brestanica"
           },
           {
-            "lang": "pl",
-            "value": "Brestanica"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Brestanica"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Brestanica"
           }
         ]
       },
@@ -746,10 +751,30 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Sevnica"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Sevnica"
+          },
+          {
+            "lang": "es",
+            "value": "estación Sevnica"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Sevnica"
+          },
+          {
             "lang": "sl",
             "value": "Sevnica"
           },
           {
+            "value": "Sevnica"
+          },
+          {
+            "lang": "pl",
             "value": "Sevnica"
           },
           {
@@ -761,32 +786,12 @@
             "value": "Sevnica train station"
           },
           {
-            "lang": "ja",
-            "value": "セヴニツァ駅"
-          },
-          {
-            "lang": "pl",
-            "value": "Sevnica"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Sevnica"
           },
           {
-            "lang": "fr",
-            "value": "gare de Sevnica"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Sevnica"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Sevnica"
-          },
-          {
-            "lang": "es",
-            "value": "estación Sevnica"
+            "lang": "ja",
+            "value": "セヴニツァ駅"
           }
         ]
       },
@@ -838,6 +843,18 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Breg"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Breg"
+          },
+          {
+            "lang": "pl",
+            "value": "Breg"
+          },
+          {
             "lang": "sl",
             "value": "Breg"
           },
@@ -845,12 +862,16 @@
             "value": "Breg"
           },
           {
-            "lang": "pl",
-            "value": "Breg"
-          },
-          {
             "lang": "en",
             "value": "Breg railway station"
+          },
+          {
+            "lang": "es",
+            "value": "estación Breg"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Breg"
           },
           {
             "lang": "nl",
@@ -859,22 +880,6 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Breg"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Breg"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Breg"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Breg"
-          },
-          {
-            "lang": "es",
-            "value": "estación Breg"
           }
         ]
       },
@@ -931,11 +936,8 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Loka"
-          },
-          {
-            "value": "Loka"
+            "lang": "es",
+            "value": "apeadero Loka"
           },
           {
             "lang": "fr",
@@ -943,15 +945,18 @@
           },
           {
             "lang": "de",
-            "value": "Hp Loka"
-          },
-          {
-            "lang": "de",
             "value": "Haltepunkt Loka"
           },
           {
-            "lang": "es",
-            "value": "apeadero Loka"
+            "lang": "de",
+            "value": "Hp Loka"
+          },
+          {
+            "lang": "sl",
+            "value": "Loka"
+          },
+          {
+            "value": "Loka"
           },
           {
             "lang": "pl",
@@ -996,6 +1001,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -1016,8 +1026,20 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Radeče"
+            "lang": "es",
+            "value": "apeadero Radeče"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Radeče"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Radeče"
+          },
+          {
+            "lang": "de",
+            "value": "Hp Radeče"
           },
           {
             "value": "Radece"
@@ -1028,23 +1050,11 @@
           },
           {
             "lang": "sl",
+            "value": "Radeče"
+          },
+          {
+            "lang": "sl",
             "value": "Železniško postajališče Radeče"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Radeče"
-          },
-          {
-            "lang": "de",
-            "value": "Hp Radeče"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Radeče"
-          },
-          {
-            "lang": "es",
-            "value": "apeadero Radeče"
           }
         ]
       },
@@ -1193,23 +1203,12 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Zidani Most"
-          },
-          {
-            "value": "Zidani Most"
-          },
-          {
-            "lang": "pl",
-            "value": "Zidani Most"
+            "lang": "de",
+            "value": "Bahnhof Steinbrück"
           },
           {
             "lang": "de",
             "value": "Bahnhof Zidani Most"
-          },
-          {
-            "lang": "en",
-            "value": "Zidani Most railway station"
           },
           {
             "lang": "es",
@@ -1217,11 +1216,7 @@
           },
           {
             "lang": "fr",
-            "value": "Zidani Most"
-          },
-          {
-            "lang": "ja",
-            "value": "チダニモスト駅"
+            "value": "gare de Zidani Most"
           },
           {
             "lang": "nl",
@@ -1233,11 +1228,26 @@
           },
           {
             "lang": "fr",
-            "value": "gare de Zidani Most"
+            "value": "Zidani Most"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Steinbrück"
+            "lang": "pl",
+            "value": "Zidani Most"
+          },
+          {
+            "lang": "sl",
+            "value": "Zidani Most"
+          },
+          {
+            "value": "Zidani Most"
+          },
+          {
+            "lang": "en",
+            "value": "Zidani Most railway station"
+          },
+          {
+            "lang": "ja",
+            "value": "チダニモスト駅"
           }
         ]
       },
@@ -1320,6 +1330,22 @@
         ],
         "labels": [
           {
+            "lang": "es",
+            "value": "apeadero Hrastnik"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Hrastnik"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Hrastnik"
+          },
+          {
+            "lang": "de",
+            "value": "Hp Hrastnik"
+          },
+          {
             "lang": "sl",
             "value": "Hrastnik"
           },
@@ -1333,22 +1359,6 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Hrastnik"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Hrastnik"
-          },
-          {
-            "lang": "de",
-            "value": "Hp Hrastnik"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Hrastnik"
-          },
-          {
-            "lang": "es",
-            "value": "apeadero Hrastnik"
           }
         ]
       },
@@ -1382,10 +1392,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q18564289"
           },
           {
-            "value": "Q18564289"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -1453,27 +1463,8 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Trbovlje"
-          },
-          {
-            "value": "Trbovlje"
-          },
-          {
-            "lang": "en",
-            "value": "Železniška postaja Trbovlje"
-          },
-          {
-            "lang": "en",
-            "value": "Trbovlje railway station"
-          },
-          {
-            "lang": "pl",
-            "value": "Trbovlje"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja Trbovlje"
+            "lang": "es",
+            "value": "apeadero Trbovlje"
           },
           {
             "lang": "fr",
@@ -1481,15 +1472,34 @@
           },
           {
             "lang": "de",
-            "value": "Hp Trbovlje"
-          },
-          {
-            "lang": "de",
             "value": "Haltepunkt Trbovlje"
           },
           {
-            "lang": "es",
-            "value": "apeadero Trbovlje"
+            "lang": "de",
+            "value": "Hp Trbovlje"
+          },
+          {
+            "lang": "sl",
+            "value": "Trbovlje"
+          },
+          {
+            "value": "Trbovlje"
+          },
+          {
+            "lang": "pl",
+            "value": "Trbovlje"
+          },
+          {
+            "lang": "en",
+            "value": "Trbovlje railway station"
+          },
+          {
+            "lang": "en",
+            "value": "Železniška postaja Trbovlje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Trbovlje"
           }
         ]
       },
@@ -1596,6 +1606,22 @@
         ],
         "labels": [
           {
+            "lang": "es",
+            "value": "apeadero Zagorje"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Zagorje"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Zagorje"
+          },
+          {
+            "lang": "de",
+            "value": "Hp Zagorje"
+          },
+          {
             "lang": "sl",
             "value": "Zagorje"
           },
@@ -1603,28 +1629,12 @@
             "value": "Zagorje"
           },
           {
-            "lang": "fr",
-            "value": "gare de Zagorje"
+            "lang": "pl",
+            "value": "Zagorje"
           },
           {
             "lang": "en",
             "value": "Zagorje Railway Station"
-          },
-          {
-            "lang": "de",
-            "value": "Hp Zagorje"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Zagorje"
-          },
-          {
-            "lang": "es",
-            "value": "apeadero Zagorje"
-          },
-          {
-            "lang": "pl",
-            "value": "Zagorje"
           },
           {
             "lang": "sl",
@@ -1680,11 +1690,8 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Sava"
-          },
-          {
-            "value": "Sava"
+            "lang": "es",
+            "value": "apeadero Sava"
           },
           {
             "lang": "fr",
@@ -1692,15 +1699,18 @@
           },
           {
             "lang": "de",
-            "value": "Hp Sava"
-          },
-          {
-            "lang": "de",
             "value": "Haltepunkt Sava"
           },
           {
-            "lang": "es",
-            "value": "apeadero Sava"
+            "lang": "de",
+            "value": "Hp Sava"
+          },
+          {
+            "lang": "sl",
+            "value": "Sava"
+          },
+          {
+            "value": "Sava"
           },
           {
             "lang": "pl",
@@ -1810,6 +1820,22 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Litija"
+          },
+          {
+            "lang": "de",
+            "value": "Bf Litija"
+          },
+          {
+            "lang": "es",
+            "value": "estación Litija"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Litija"
+          },
+          {
             "lang": "sl",
             "value": "Litija"
           },
@@ -1817,28 +1843,12 @@
             "value": "Litija"
           },
           {
-            "lang": "fr",
-            "value": "gare de Litija"
-          },
-          {
-            "lang": "de",
-            "value": "Bf Litija"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Litija"
-          },
-          {
-            "lang": "es",
-            "value": "estación Litija"
+            "lang": "pl",
+            "value": "Litija (stacja kolejowa)"
           },
           {
             "lang": "en",
             "value": "Litija train station"
-          },
-          {
-            "lang": "pl",
-            "value": "Litija (stacja kolejowa)"
           },
           {
             "lang": "sl",
@@ -1899,27 +1909,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Kresnice"
-          },
-          {
-            "value": "Kresnice"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Kresnice"
+            "lang": "de",
+            "value": "Bahnhof Kresnice"
           },
           {
             "lang": "de",
             "value": "Bf Kresnice"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Kresnice"
-          },
-          {
             "lang": "es",
             "value": "estación Kresnice"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Kresnice"
+          },
+          {
+            "lang": "sl",
+            "value": "Kresnice"
+          },
+          {
+            "value": "Kresnice"
           },
           {
             "lang": "pl",
@@ -1988,6 +1998,22 @@
         ],
         "labels": [
           {
+            "lang": "es",
+            "value": "apeadero Jevnica"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Jevnica"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Jevnica"
+          },
+          {
+            "lang": "de",
+            "value": "Hp Jevnica"
+          },
+          {
             "lang": "sl",
             "value": "Jevnica"
           },
@@ -1999,10 +2025,6 @@
             "value": "Jevnica"
           },
           {
-            "lang": "ru",
-            "value": "Евница"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Jevnica"
           },
@@ -2011,20 +2033,8 @@
             "value": "Železniško postajališče Jevnica"
           },
           {
-            "lang": "fr",
-            "value": "gare de Jevnica"
-          },
-          {
-            "lang": "de",
-            "value": "Hp Jevnica"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Jevnica"
-          },
-          {
-            "lang": "es",
-            "value": "apeadero Jevnica"
+            "lang": "ru",
+            "value": "Евница"
           }
         ]
       },
@@ -2081,27 +2091,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Laze"
-          },
-          {
-            "value": "Laze"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Laze"
+            "lang": "de",
+            "value": "Bahnhof Laze"
           },
           {
             "lang": "de",
             "value": "Bf Laze"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Laze"
-          },
-          {
             "lang": "es",
             "value": "estación Laze"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Laze"
+          },
+          {
+            "lang": "sl",
+            "value": "Laze"
+          },
+          {
+            "value": "Laze"
           },
           {
             "lang": "pl",
@@ -2112,12 +2122,12 @@
             "value": "Laze railway station"
           },
           {
-            "lang": "ru",
-            "value": "Лазе"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Laze"
+          },
+          {
+            "lang": "ru",
+            "value": "Лазе"
           }
         ]
       },
@@ -2154,6 +2164,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -2174,6 +2189,14 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "gare de Ljubljana Polje"
+          },
+          {
+            "lang": "pl",
+            "value": "Ljubljana Polje"
+          },
+          {
             "lang": "sl",
             "value": "Ljubljana Polje"
           },
@@ -2185,24 +2208,12 @@
             "value": "Ljubljana Polje railway station"
           },
           {
-            "lang": "it",
-            "value": "Železniško postajališče Ljubljana Polje"
+            "lang": "da",
+            "value": "Ljubljana-Polje banegård"
           },
           {
             "lang": "it",
             "value": "Lubiana Polje"
-          },
-          {
-            "lang": "ja",
-            "value": "リュブリャナ・ポリエ駅"
-          },
-          {
-            "lang": "pl",
-            "value": "Ljubljana Polje"
-          },
-          {
-            "lang": "ru",
-            "value": "Любляна-Поле"
           },
           {
             "lang": "sl",
@@ -2213,6 +2224,14 @@
             "value": "Železniško postajališče Ljubljana - Polje"
           },
           {
+            "lang": "it",
+            "value": "Železniško postajališče Ljubljana Polje"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana Polje"
+          },
+          {
             "lang": "sl",
             "value": "Železniško postajališče Ljubljana-Polje"
           },
@@ -2221,16 +2240,12 @@
             "value": "Železniško postajališče Polje"
           },
           {
-            "lang": "sl",
-            "value": "Železniško postajališče Ljubljana Polje"
+            "lang": "ru",
+            "value": "Любляна-Поле"
           },
           {
-            "lang": "da",
-            "value": "Ljubljana-Polje banegård"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Ljubljana Polje"
+            "lang": "ja",
+            "value": "リュブリャナ・ポリエ駅"
           }
         ]
       },
@@ -2269,10 +2284,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q18564289"
           },
           {
-            "value": "Q18564289"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -2384,6 +2399,22 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Ljubljana"
+          },
+          {
+            "lang": "gl",
+            "value": "Estación de Liubliana"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Ljubljana"
+          },
+          {
+            "lang": "fr",
+            "value": "Ljubljana"
+          },
+          {
             "lang": "sl",
             "value": "Ljubljana"
           },
@@ -2395,28 +2426,20 @@
             "value": "Ljubljana"
           },
           {
+            "lang": "pl",
+            "value": "Ljubljana"
+          },
+          {
             "lang": "da",
             "value": "Ljubljana banegård"
           },
           {
-            "lang": "ru",
-            "value": "Любляна"
-          },
-          {
-            "lang": "fr",
-            "value": "Ljubljana"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Ljubljana"
+            "lang": "hu",
+            "value": "Ljubljana főpályaudvar"
           },
           {
             "lang": "de",
             "value": "Ljubljana Hauptbahnhof"
-          },
-          {
-            "lang": "de",
-            "value": "Železniška postaja Ljubljana"
           },
           {
             "lang": "en",
@@ -2427,47 +2450,31 @@
             "value": "Ljubljana raudteejaam"
           },
           {
-            "lang": "fr",
-            "value": "gare de Ljubljana"
-          },
-          {
-            "lang": "fa",
-            "value": "ایستگاه راهآهن لیوبلیانا"
-          },
-          {
-            "lang": "gl",
-            "value": "Estación de Liubliana"
-          },
-          {
-            "lang": "hu",
-            "value": "Ljubljana főpályaudvar"
-          },
-          {
-            "lang": "it",
-            "value": "železniška postaja Ljubljana"
+            "lang": "nl",
+            "value": "station Ljubljana"
           },
           {
             "lang": "it",
             "value": "Stazione di Lubiana"
           },
           {
-            "lang": "ja",
-            "value": "リュブリャナ駅"
+            "lang": "sr-el",
+            "value": "Železnička stanica Ljubljana"
           },
           {
-            "lang": "nl",
-            "value": "station Ljubljana"
+            "lang": "it",
+            "value": "železniška postaja Ljubljana"
           },
           {
-            "lang": "pl",
-            "value": "Ljubljana"
-          },
-          {
-            "lang": "sr",
+            "lang": "de",
             "value": "Železniška postaja Ljubljana"
           },
           {
             "lang": "sl",
+            "value": "Železniška postaja Ljubljana"
+          },
+          {
+            "lang": "sr",
             "value": "Železniška postaja Ljubljana"
           },
           {
@@ -2479,12 +2486,20 @@
             "value": "Железничка станица Љубљана"
           },
           {
-            "lang": "sr-el",
-            "value": "Železnička stanica Ljubljana"
+            "lang": "ru",
+            "value": "Любляна"
           },
           {
             "lang": "uk",
             "value": "Люблянський залізничний вокзал"
+          },
+          {
+            "lang": "fa",
+            "value": "ایستگاه راهآهن لیوبلیانا"
+          },
+          {
+            "lang": "ja",
+            "value": "リュブリャナ駅"
           },
           {
             "lang": "zh",
@@ -2544,20 +2559,16 @@
             "value": "Ljubljana Šiška"
           },
           {
+            "lang": "da",
+            "value": "Ljubljana-Šiška jernbanestation"
+          },
+          {
             "lang": "en",
             "value": "Ljubljana-Šiška railway station"
           },
           {
             "lang": "it",
-            "value": "Železniška postaja Ljubljana Šiška"
-          },
-          {
-            "lang": "it",
             "value": "Lubiana Šiška"
-          },
-          {
-            "lang": "ja",
-            "value": "リュブリャナ・シスカ駅"
           },
           {
             "lang": "sl",
@@ -2566,6 +2577,14 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Ljubljana - Šiška"
+          },
+          {
+            "lang": "it",
+            "value": "Železniška postaja Ljubljana Šiška"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ljubljana Šiška"
           },
           {
             "lang": "sl",
@@ -2580,12 +2599,8 @@
             "value": "Любляна-Шишка"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Ljubljana Šiška"
-          },
-          {
-            "lang": "da",
-            "value": "Ljubljana-Šiška jernbanestation"
+            "lang": "ja",
+            "value": "リュブリャナ・シスカ駅"
           }
         ]
       },
@@ -2617,6 +2632,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -2645,11 +2665,11 @@
           },
           {
             "lang": "it",
-            "value": "Železniško postajališče Medno"
+            "value": "Stazione di Medno"
           },
           {
             "lang": "it",
-            "value": "Stazione di Medno"
+            "value": "Železniško postajališče Medno"
           },
           {
             "lang": "sl",
@@ -2759,6 +2779,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -2779,23 +2804,23 @@
         ],
         "labels": [
           {
+            "value": "Retece"
+          },
+          {
             "lang": "sl",
             "value": "Reteče"
           },
           {
-            "value": "Retece"
-          },
-          {
-            "lang": "it",
-            "value": "Železniško postajališče Reteče"
+            "lang": "en",
+            "value": "Reteče railway station"
           },
           {
             "lang": "it",
             "value": "Stazione di Reteče"
           },
           {
-            "lang": "en",
-            "value": "Reteče railway station"
+            "lang": "it",
+            "value": "Železniško postajališče Reteče"
           },
           {
             "lang": "sl",
@@ -2904,10 +2929,6 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Škofja Loka"
-          },
-          {
             "value": "Skofja Loka"
           },
           {
@@ -2916,6 +2937,10 @@
           },
           {
             "lang": "pl",
+            "value": "Škofja Loka"
+          },
+          {
+            "lang": "sl",
             "value": "Škofja Loka"
           },
           {
@@ -3056,20 +3081,16 @@
             "value": "Kranj"
           },
           {
+            "lang": "pl",
+            "value": "Kranj (stacja kolejowa)"
+          },
+          {
             "lang": "en",
             "value": "Kranj railway station"
           },
           {
-            "lang": "ja",
-            "value": "クラーニ駅"
-          },
-          {
             "lang": "nl",
             "value": "station Kranj"
-          },
-          {
-            "lang": "pl",
-            "value": "Kranj (stacja kolejowa)"
           },
           {
             "lang": "sl",
@@ -3078,6 +3099,10 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Kranj"
+          },
+          {
+            "lang": "ja",
+            "value": "クラーニ駅"
           }
         ]
       },
@@ -3112,6 +3137,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -3191,6 +3221,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -3211,11 +3246,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Otoče"
+            "value": "Otoce"
           },
           {
-            "value": "Otoce"
+            "lang": "sl",
+            "value": "Otoče"
           },
           {
             "lang": "sl",
@@ -3249,6 +3284,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -3347,20 +3387,20 @@
             "value": "Radovljica"
           },
           {
-            "lang": "en",
-            "value": "Radovljica train station"
-          },
-          {
             "lang": "pl",
             "value": "Radovljica (stacja kolejowa)"
           },
           {
-            "lang": "sl",
-            "value": "Železniško postajališče Radovljica"
+            "lang": "en",
+            "value": "Radovljica train station"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Radovljica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Radovljica"
           }
         ]
       },
@@ -3494,17 +3534,6 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Lesce-Bled"
-          },
-          {
-            "value": "Lesce-Bled"
-          },
-          {
-            "lang": "sl",
-            "value": "Lesce Bled"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Lesce Bled"
           },
@@ -3513,8 +3542,15 @@
             "value": "Lesce - Bled train station"
           },
           {
-            "lang": "ja",
-            "value": "レスツェブレッド駅"
+            "lang": "sl",
+            "value": "Lesce Bled"
+          },
+          {
+            "lang": "sl",
+            "value": "Lesce-Bled"
+          },
+          {
+            "value": "Lesce-Bled"
           },
           {
             "lang": "pl",
@@ -3523,6 +3559,10 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Lesce Bled"
+          },
+          {
+            "lang": "ja",
+            "value": "レスツェブレッド駅"
           }
         ]
       },
@@ -3554,6 +3594,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -3574,11 +3619,8 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Žirovnica"
-          },
-          {
-            "value": "Zirovnica"
+            "lang": "it",
+            "value": "Stazione di Žirovnica"
           },
           {
             "lang": "sl",
@@ -3589,12 +3631,15 @@
             "value": "Železniško postajališče Žirovnica"
           },
           {
-            "lang": "en",
-            "value": "Žirovnica railway halt"
+            "value": "Zirovnica"
           },
           {
-            "lang": "it",
-            "value": "Stazione di Žirovnica"
+            "lang": "sl",
+            "value": "Žirovnica"
+          },
+          {
+            "lang": "en",
+            "value": "Žirovnica railway halt"
           }
         ]
       },
@@ -3636,6 +3681,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -3663,12 +3713,12 @@
             "value": "Slovenski Javornik"
           },
           {
-            "lang": "it",
-            "value": "Stazione di Slovenski Javornik"
-          },
-          {
             "lang": "en",
             "value": "Slovenski Javornik railway halt"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Slovenski Javornik"
           },
           {
             "lang": "sl",
@@ -3704,6 +3754,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -3724,6 +3779,10 @@
         ],
         "labels": [
           {
+            "lang": "en",
+            "value": "Litostroj railway station"
+          },
+          {
             "lang": "sl",
             "value": "Ljubljana Litostroj"
           },
@@ -3731,16 +3790,12 @@
             "value": "Ljubljana Litostroj"
           },
           {
-            "lang": "en",
-            "value": "Litostroj railway station"
+            "lang": "it",
+            "value": "Stazione di Litostroj"
           },
           {
             "lang": "it",
             "value": "Železniško postajališče Litostroj"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Litostroj"
           },
           {
             "lang": "sl",
@@ -3781,6 +3836,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -3809,15 +3869,19 @@
           },
           {
             "lang": "it",
-            "value": "Železniško postajališče Ljubljana Stegne"
-          },
-          {
-            "lang": "it",
             "value": "Lubiana Stegne"
           },
           {
             "lang": "sl",
             "value": "Železniško postajališče Ljubljana - Stegne"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Ljubljana Stegne"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana Stegne"
           },
           {
             "lang": "sl",
@@ -3826,10 +3890,6 @@
           {
             "lang": "sl",
             "value": "Železniško postajališče Stegne"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniško postajališče Ljubljana Stegne"
           }
         ]
       },
@@ -3871,6 +3931,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -3891,19 +3956,15 @@
         ],
         "labels": [
           {
+            "value": "Ljubljana Crnuce"
+          },
+          {
             "lang": "sl",
             "value": "Ljubljana Črnuče"
           },
           {
-            "value": "Ljubljana Crnuce"
-          },
-          {
             "lang": "en",
             "value": "Ljubljana Črnuče train station"
-          },
-          {
-            "lang": "it",
-            "value": "Železniška postaja Ljubljana Črnuče"
           },
           {
             "lang": "it",
@@ -3918,12 +3979,16 @@
             "value": "Železniška postaja Ljubljana - Črnuče"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Ljubljana-Črnuče"
+            "lang": "it",
+            "value": "Železniška postaja Ljubljana Črnuče"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Ljubljana Črnuče"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ljubljana-Črnuče"
           }
         ]
       },
@@ -3980,11 +4045,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
+            "value": "Domzale"
+          },
+          {
+            "lang": "pl",
             "value": "Domžale"
           },
           {
-            "value": "Domzale"
+            "lang": "sl",
+            "value": "Domžale"
           },
           {
             "lang": "en",
@@ -3993,10 +4062,6 @@
           {
             "lang": "nl",
             "value": "station Domžale"
-          },
-          {
-            "lang": "pl",
-            "value": "Domžale"
           },
           {
             "lang": "sl",
@@ -4076,11 +4141,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja Mengeš"
+            "value": "Železniška postaja Jarše-Mengeš"
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja Jarše-Mengeš"
+            "value": "Železniška postaja Mengeš"
           }
         ]
       },
@@ -4198,6 +4263,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -4280,6 +4350,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -4312,10 +4387,6 @@
           },
           {
             "lang": "it",
-            "value": "Železniško postajališče Ljubljana Brinje)"
-          },
-          {
-            "lang": "it",
             "value": "Lubiana Brinje"
           },
           {
@@ -4328,11 +4399,15 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Ljubljana-Brinje"
+            "value": "Železniško postajališče Ljubljana Brinje"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Ljubljana Brinje)"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Ljubljana Brinje"
+            "value": "Železniško postajališče Ljubljana-Brinje"
           }
         ]
       },
@@ -4362,6 +4437,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -4400,11 +4480,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Trzin-Mlake"
+            "value": "Železniško postajališče Trzin Mlake"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Trzin Mlake"
+            "value": "Železniško postajališče Trzin-Mlake"
           }
         ]
       },
@@ -4434,6 +4514,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -4500,6 +4585,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -4562,6 +4652,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -4628,6 +4723,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -4648,11 +4748,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šmarca"
+            "value": "Smarca"
           },
           {
-            "value": "Smarca"
+            "lang": "sl",
+            "value": "Šmarca"
           },
           {
             "lang": "en",
@@ -4690,6 +4790,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -4769,6 +4874,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -4789,19 +4899,15 @@
         ],
         "labels": [
           {
+            "value": "Ljubljana Jezica"
+          },
+          {
             "lang": "sl",
             "value": "Ljubljana Ježica"
           },
           {
-            "value": "Ljubljana Jezica"
-          },
-          {
             "lang": "en",
             "value": "Ljubljana Ježica railway station"
-          },
-          {
-            "lang": "it",
-            "value": "Železniško postajališče Ljubljana Ježica"
           },
           {
             "lang": "it",
@@ -4816,12 +4922,16 @@
             "value": "Železniško postajališče Ljubljana - Ježica"
           },
           {
-            "lang": "sl",
-            "value": "Železniško postajališče Ljubljana-Ježica"
+            "lang": "it",
+            "value": "Železniško postajališče Ljubljana Ježica"
           },
           {
             "lang": "sl",
             "value": "Železniško postajališče Ljubljana Ježica"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana-Ježica"
           }
         ]
       },
@@ -4853,6 +4963,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -4873,11 +4988,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Trzin industrijska cona"
+            "value": "Trzin ind. cona"
           },
           {
-            "value": "Trzin ind. cona"
+            "lang": "sl",
+            "value": "Trzin industrijska cona"
           },
           {
             "lang": "en",
@@ -5015,6 +5130,18 @@
         ],
         "P954": [
           {
+            "enabled": true,
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
+              }
+            ],
+            "value": "5403723"
+          },
+          {
             "info": {
               "pregrouped": [
                 {
@@ -5038,18 +5165,6 @@
               }
             ],
             "value": "7900001"
-          },
-          {
-            "enabled": true,
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/19092"
-              }
-            ],
-            "value": "5403723"
           }
         ],
         "PWIKI": [
@@ -5074,28 +5189,28 @@
             "value": "Jesenice"
           },
           {
-            "lang": "arz",
-            "value": "محطة چيسينيس"
-          },
-          {
             "lang": "en",
             "value": "Jesenice railway station"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Jesenice"
-          },
-          {
-            "lang": "ja",
-            "value": "イェセニツェ駅"
           },
           {
             "lang": "nl",
             "value": "station Jesenice"
           },
           {
+            "lang": "it",
+            "value": "stazione di Jesenice"
+          },
+          {
             "lang": "sl",
             "value": "Železniška postaja Jesenice"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة چيسينيس"
+          },
+          {
+            "lang": "ja",
+            "value": "イェセニツェ駅"
           }
         ]
       },
@@ -5125,6 +5240,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -5312,6 +5432,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -5339,12 +5464,12 @@
             "value": "Dobravice"
           },
           {
-            "lang": "sl",
-            "value": "Železniško postajališče Dobravice"
-          },
-          {
             "lang": "en",
             "value": "Dobravice railway stop"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Dobravice"
           }
         ]
       },
@@ -5374,6 +5499,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -5456,23 +5586,23 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Črnomelj"
+            "lang": "de",
+            "value": "Bahnhof Črnomelj"
           },
           {
             "value": "Crnomelj"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Črnomelj"
-          },
-          {
-            "lang": "en",
-            "value": "Črnomelj train station"
+            "lang": "sl",
+            "value": "Črnomelj"
           },
           {
             "lang": "pl",
             "value": "Črnomelj (stacja kolejowa)"
+          },
+          {
+            "lang": "en",
+            "value": "Črnomelj train station"
           },
           {
             "lang": "sl",
@@ -5506,6 +5636,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -5588,11 +5723,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Semič"
+            "value": "Semic"
           },
           {
-            "value": "Semic"
+            "lang": "sl",
+            "value": "Semič"
           },
           {
             "lang": "sl",
@@ -5628,6 +5763,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -5648,11 +5788,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Rožni Dol"
+            "value": "Rozni Dol"
           },
           {
-            "value": "Rozni Dol"
+            "lang": "sl",
+            "value": "Rožni Dol"
           },
           {
             "lang": "sl",
@@ -5713,27 +5853,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Uršna Sela"
+            "lang": "nl",
+            "value": "station Uršna sela"
           },
           {
             "value": "Ursna sela"
+          },
+          {
+            "lang": "sl",
+            "value": "Uršna Sela"
           },
           {
             "lang": "en",
             "value": "Uršna sela railway station"
           },
           {
-            "lang": "nl",
-            "value": "station Uršna sela"
+            "lang": "sl",
+            "value": "Železniška postaja"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Uršna sela"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja"
           }
         ]
       },
@@ -5765,6 +5905,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -5785,11 +5930,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Birčna vas"
+            "value": "Bircna vas"
           },
           {
-            "value": "Bircna vas"
+            "lang": "sl",
+            "value": "Birčna vas"
           },
           {
             "lang": "sl",
@@ -5828,6 +5973,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -5882,11 +6032,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Novo mesto-Kandija"
+            "value": "Železniško postajališče Novo mesto Kandija"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Novo mesto Kandija"
+            "value": "Železniško postajališče Novo mesto-Kandija"
           }
         ]
       },
@@ -5916,6 +6066,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -5958,11 +6113,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Novo mesto-Center"
+            "value": "Železniško postajališče Novo mesto Center"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Novo mesto Center"
+            "value": "Železniško postajališče Novo mesto-Center"
           }
         ]
       },
@@ -5999,6 +6154,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -6019,11 +6179,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Novo mesto Šmihel"
+            "value": "Novo Mesto Smihel"
           },
           {
-            "value": "Novo Mesto Smihel"
+            "lang": "sl",
+            "value": "Novo mesto Šmihel"
           },
           {
             "lang": "sl",
@@ -6116,20 +6276,20 @@
             "value": "Novo Mesto"
           },
           {
-            "lang": "ja",
-            "value": "ノヴォ・メスト駅"
+            "lang": "pl",
+            "value": "Novo Mesto (stacja kolejowa)"
           },
           {
             "lang": "en",
             "value": "Novo Mesto train station"
           },
           {
-            "lang": "pl",
-            "value": "Novo Mesto (stacja kolejowa)"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Novo mesto"
+          },
+          {
+            "lang": "ja",
+            "value": "ノヴォ・メスト駅"
           }
         ]
       },
@@ -6181,11 +6341,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Mirna Peč"
+            "value": "Mirna Pec"
           },
           {
-            "value": "Mirna Pec"
+            "lang": "sl",
+            "value": "Mirna Peč"
           },
           {
             "lang": "sl",
@@ -6223,6 +6383,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -6283,6 +6448,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -6377,12 +6547,12 @@
             "value": "Trebnje"
           },
           {
-            "lang": "en",
-            "value": "Trebnje train station"
-          },
-          {
             "lang": "pl",
             "value": "Trebnje (stacja kolejowa)"
+          },
+          {
+            "lang": "en",
+            "value": "Trebnje train station"
           },
           {
             "lang": "sl",
@@ -6418,6 +6588,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -6438,11 +6613,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Štefan"
+            "value": "Stefan"
           },
           {
-            "value": "Stefan"
+            "lang": "sl",
+            "value": "Štefan"
           },
           {
             "lang": "sl",
@@ -6476,6 +6651,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -6538,6 +6718,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -6558,11 +6743,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šentlovrenc"
+            "value": "Sentlovrenc"
           },
           {
-            "value": "Sentlovrenc"
+            "lang": "sl",
+            "value": "Šentlovrenc"
           },
           {
             "lang": "sl",
@@ -6596,6 +6781,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -6718,6 +6908,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -6738,11 +6933,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šentvid pri Stični"
+            "value": "Sentvid pri Sticni"
           },
           {
-            "value": "Sentvid pri Sticni"
+            "lang": "sl",
+            "value": "Šentvid pri Stični"
           },
           {
             "lang": "sl",
@@ -6798,11 +6993,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Ivančna Gorica"
+            "value": "Ivancna Gorica"
           },
           {
-            "value": "Ivancna Gorica"
+            "lang": "sl",
+            "value": "Ivančna Gorica"
           },
           {
             "lang": "sl",
@@ -6838,6 +7033,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -6858,11 +7058,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Polževo"
+            "value": "Polzevo"
           },
           {
-            "value": "Polzevo"
+            "lang": "sl",
+            "value": "Polževo"
           },
           {
             "lang": "sl",
@@ -6918,11 +7118,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Višnja Gora"
+            "value": "Visnja Gora"
           },
           {
-            "value": "Visnja Gora"
+            "lang": "sl",
+            "value": "Višnja Gora"
           },
           {
             "lang": "en",
@@ -6962,6 +7162,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -6982,11 +7187,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Žalna"
+            "value": "Zalna"
           },
           {
-            "value": "Zalna"
+            "lang": "sl",
+            "value": "Žalna"
           },
           {
             "lang": "sl",
@@ -7022,6 +7227,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7042,11 +7252,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Mlačevo"
+            "value": "Mlacevo"
           },
           {
-            "value": "Mlacevo"
+            "lang": "sl",
+            "value": "Mlačevo"
           },
           {
             "lang": "en",
@@ -7159,6 +7369,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7179,29 +7394,6 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šmarje-Sap"
-          },
-          {
-            "value": "Smarje-Sap"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniško postajališče Šmarje Sap"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniško postajališče Šmarje-Sap"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniško postajališče Šmarje - Sap"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Šmarje-Sap"
-          },
-          {
             "lang": "fr",
             "value": "halte de Šmarje-Sap"
           },
@@ -7210,8 +7402,31 @@
             "value": "halte Šmarje-Sap"
           },
           {
+            "lang": "de",
+            "value": "Haltepunkt Šmarje-Sap"
+          },
+          {
+            "value": "Smarje-Sap"
+          },
+          {
+            "lang": "sl",
+            "value": "Šmarje-Sap"
+          },
+          {
             "lang": "en",
             "value": "Šmarje-Sap railway halt"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šmarje - Sap"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šmarje Sap"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šmarje-Sap"
           }
         ]
       },
@@ -7263,11 +7478,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Škofljica"
+            "value": "Skofljica"
           },
           {
-            "value": "Skofljica"
+            "lang": "sl",
+            "value": "Škofljica"
           },
           {
             "lang": "sl",
@@ -7368,6 +7583,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7396,15 +7616,19 @@
           },
           {
             "lang": "it",
-            "value": "Železniška postaja Ljubljana Rakovnik"
-          },
-          {
-            "lang": "it",
             "value": "Lubiana Rakovnik"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Ljubljana - Rakovnik"
+          },
+          {
+            "lang": "it",
+            "value": "Železniška postaja Ljubljana Rakovnik"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ljubljana Rakovnik"
           },
           {
             "lang": "sl",
@@ -7417,10 +7641,6 @@
           {
             "lang": "ru",
             "value": "Любляна-Раковник"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja Ljubljana Rakovnik"
           }
         ]
       },
@@ -7457,6 +7677,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7489,10 +7714,6 @@
           },
           {
             "lang": "en",
-            "value": "Železniško postajališče Ljubljana Vodmat"
-          },
-          {
-            "lang": "en",
             "value": "Lubiana Vodmat"
           },
           {
@@ -7500,16 +7721,16 @@
             "value": "Stazione di Lubiana Vodmat"
           },
           {
-            "lang": "ja",
-            "value": "リュブリャナ・ヴォドマット駅"
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana - Vodmat"
           },
           {
-            "lang": "ru",
-            "value": "Любляна-Водмат"
+            "lang": "en",
+            "value": "Železniško postajališče Ljubljana Vodmat"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Ljubljana - Vodmat"
+            "value": "Železniško postajališče Ljubljana Vodmat"
           },
           {
             "lang": "sl",
@@ -7520,8 +7741,12 @@
             "value": "Železniško postajališče Vodmat"
           },
           {
-            "lang": "sl",
-            "value": "Železniško postajališče Ljubljana Vodmat"
+            "lang": "ru",
+            "value": "Любляна-Водмат"
+          },
+          {
+            "lang": "ja",
+            "value": "リュブリャナ・ヴォドマット駅"
           }
         ]
       },
@@ -7621,6 +7846,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7641,27 +7871,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Velike Lašče"
-          },
-          {
-            "value": "Velike Lasce"
-          },
-          {
-            "lang": "en",
-            "value": "Velike Lašče railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Velike Lašče"
-          },
-          {
             "lang": "fr",
             "value": "halte de Velike Lašče"
           },
           {
             "lang": "nl",
             "value": "halte Velike Lašče"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Velike Lašče"
+          },
+          {
+            "value": "Velike Lasce"
+          },
+          {
+            "lang": "sl",
+            "value": "Velike Lašče"
+          },
+          {
+            "lang": "en",
+            "value": "Velike Lašče railway halt"
           }
         ]
       },
@@ -7720,12 +7950,12 @@
             "value": "Ortnek"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Ortnek"
-          },
-          {
             "lang": "en",
             "value": "Ortnek railway station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Ortnek"
           }
         ]
       },
@@ -7825,6 +8055,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7845,6 +8080,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Stara Cerkev"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Stara Cerkev"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Stara Cerkev"
+          },
+          {
             "lang": "sl",
             "value": "Stara Cerkev"
           },
@@ -7854,18 +8101,6 @@
           {
             "lang": "en",
             "value": "Stara Cerkev railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Stara Cerkev"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Stara Cerkev"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Stara Cerkev"
           }
         ]
       },
@@ -7917,11 +8152,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Kočevje"
+            "value": "Kocevje"
           },
           {
-            "value": "Kocevje"
+            "lang": "sl",
+            "value": "Kočevje"
           },
           {
             "lang": "en",
@@ -7961,6 +8196,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7981,21 +8221,6 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Spodnja Slivnica"
-          },
-          {
-            "value": "Spodnja Slivnica"
-          },
-          {
-            "lang": "en",
-            "value": "Spodnje Slivnice railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Spodnje Slivnice"
-          },
-          {
             "lang": "fr",
             "value": "halte de Spodnje Slivnice"
           },
@@ -8004,12 +8229,27 @@
             "value": "halte Spodnje Slivnice"
           },
           {
+            "lang": "de",
+            "value": "Haltepunkt Spodnje Slivnice"
+          },
+          {
             "lang": "en",
             "value": "Slivnica railway halt"
           },
           {
+            "lang": "sl",
+            "value": "Spodnja Slivnica"
+          },
+          {
+            "value": "Spodnja Slivnica"
+          },
+          {
             "lang": "en",
             "value": "Spodnja Slivnica railway halt"
+          },
+          {
+            "lang": "en",
+            "value": "Spodnje Slivnice railway halt"
           }
         ]
       },
@@ -8041,6 +8281,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -8061,27 +8306,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Čušperk"
+            "value": "Cusperk"
           },
           {
-            "value": "Cusperk"
+            "lang": "sl",
+            "value": "Čušperk"
           },
           {
             "lang": "en",
             "value": "Čušperk railway halt"
           },
           {
-            "lang": "de",
-            "value": "Haltepunkt Čušperk"
+            "lang": "nl",
+            "value": "halte Čušperk"
           },
           {
             "lang": "fr",
             "value": "halte de Čušperk"
           },
           {
-            "lang": "nl",
-            "value": "halte Čušperk"
+            "lang": "de",
+            "value": "Haltepunkt Čušperk"
           }
         ]
       },
@@ -8113,6 +8358,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -8133,27 +8383,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Žlebič"
-          },
-          {
-            "value": "Zlebic"
-          },
-          {
-            "lang": "en",
-            "value": "Žlebič railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Žlebič"
-          },
-          {
             "lang": "fr",
             "value": "halte de Žlebič"
           },
           {
             "lang": "nl",
             "value": "halte Žlebič"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Žlebič"
+          },
+          {
+            "value": "Zlebic"
+          },
+          {
+            "lang": "sl",
+            "value": "Žlebič"
+          },
+          {
+            "lang": "en",
+            "value": "Žlebič railway halt"
           }
         ]
       },
@@ -8185,6 +8435,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -8205,11 +8460,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Boštanj"
+            "value": "Bostanj"
           },
           {
-            "value": "Bostanj"
+            "lang": "sl",
+            "value": "Boštanj"
           },
           {
             "lang": "sl",
@@ -8243,6 +8498,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -8325,11 +8585,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Tržišče"
+            "value": "Trzisce"
           },
           {
-            "value": "Trzisce"
+            "lang": "sl",
+            "value": "Tržišče"
           },
           {
             "lang": "sl",
@@ -8363,6 +8623,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -8489,6 +8754,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -8509,11 +8779,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šentrupert"
+            "value": "Sentrupert"
           },
           {
-            "value": "Sentrupert"
+            "lang": "sl",
+            "value": "Šentrupert"
           },
           {
             "lang": "sl",
@@ -8609,6 +8879,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -8667,6 +8942,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -8893,15 +9173,15 @@
         ],
         "labels": [
           {
+            "value": "Lasko"
+          },
+          {
+            "lang": "sl",
+            "value": "Lasko"
+          },
+          {
             "lang": "sl",
             "value": "Laško"
-          },
-          {
-            "value": "Lasko"
-          },
-          {
-            "lang": "sl",
-            "value": "Lasko"
           },
           {
             "lang": "en",
@@ -8943,10 +9223,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q18564289"
           },
           {
-            "value": "Q18564289"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -9041,6 +9321,22 @@
         ],
         "labels": [
           {
+            "lang": "en",
+            "value": "Celerina"
+          },
+          {
+            "lang": "nl",
+            "value": "Celerina"
+          },
+          {
+            "lang": "fr",
+            "value": "Celje"
+          },
+          {
+            "lang": "pl",
+            "value": "Celje"
+          },
+          {
             "lang": "sl",
             "value": "Celje"
           },
@@ -9053,23 +9349,15 @@
           },
           {
             "lang": "en",
-            "value": "Celerina"
-          },
-          {
-            "lang": "nl",
-            "value": "Celerina"
-          },
-          {
-            "lang": "en",
             "value": "Celje railway station"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Celje"
           },
           {
             "lang": "nl",
             "value": "station Celje"
-          },
-          {
-            "lang": "pl",
-            "value": "Celje"
           },
           {
             "lang": "sl",
@@ -9080,20 +9368,12 @@
             "value": "สถานีรถไฟเซเลีย"
           },
           {
-            "lang": "zh",
-            "value": "采列車站"
-          },
-          {
-            "lang": "fr",
-            "value": "Celje"
-          },
-          {
             "lang": "th",
             "value": "สถานีรถไฟแซลิแย"
           },
           {
-            "lang": "fr",
-            "value": "gare de Celje"
+            "lang": "zh",
+            "value": "采列車站"
           }
         ]
       },
@@ -9125,6 +9405,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -9145,11 +9430,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Štore"
+            "value": "Store"
           },
           {
-            "value": "Store"
+            "lang": "sl",
+            "value": "Štore"
           },
           {
             "lang": "en",
@@ -9214,19 +9499,19 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šentjur"
-          },
-          {
             "value": "Sentjur"
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja"
+            "value": "Šentjur"
           },
           {
             "lang": "en",
             "value": "Šentjur train station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja"
           },
           {
             "lang": "sl",
@@ -9278,12 +9563,6 @@
         "P722": [
           {
             "info": {
-              "reliability": 0.52
-            },
-            "value": "7943200"
-          },
-          {
-            "info": {
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9292,6 +9571,12 @@
               }
             ],
             "value": "7243200"
+          },
+          {
+            "info": {
+              "reliability": 0.52
+            },
+            "value": "7943200"
           }
         ],
         "P8448": [
@@ -9450,6 +9735,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -9564,15 +9854,15 @@
         ],
         "labels": [
           {
+            "value": "Poljcane"
+          },
+          {
+            "lang": "sl",
+            "value": "Poljcane"
+          },
+          {
             "lang": "sl",
             "value": "Poljčane"
-          },
-          {
-            "value": "Poljcane"
-          },
-          {
-            "lang": "sl",
-            "value": "Poljcane"
           },
           {
             "lang": "sl",
@@ -9628,15 +9918,15 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Slovenska Bistrica"
+          },
+          {
             "lang": "sl",
             "value": "Slovenska Bistrica"
           },
           {
             "value": "Slovenska Bistrica"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Slovenska Bistrica"
           },
           {
             "lang": "en",
@@ -9676,6 +9966,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -9696,11 +9991,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Ostrožno"
+            "value": "Ostrozno"
           },
           {
-            "value": "Ostrozno"
+            "lang": "sl",
+            "value": "Ostrožno"
           },
           {
             "lang": "sl",
@@ -9736,6 +10031,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -9756,19 +10056,19 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šentvid pri Grobelnem"
-          },
-          {
             "value": "Sentvid pri Grobelnem"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Šentvid pri Grobelnem"
+            "value": "Šentvid pri Grobelnem"
           },
           {
             "lang": "en",
             "value": "Šentvid pri Grobelnem railway stop"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Šentvid pri Grobelnem"
           }
         ]
       },
@@ -9820,11 +10120,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šmarje pri Jelšah"
+            "value": "Smarje pri Jelsah"
           },
           {
-            "value": "Smarje pri Jelsah"
+            "lang": "sl",
+            "value": "Šmarje pri Jelšah"
           },
           {
             "lang": "en",
@@ -10029,11 +10329,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Rače"
+            "value": "Race"
           },
           {
-            "value": "Race"
+            "lang": "sl",
+            "value": "Rače"
           },
           {
             "lang": "en",
@@ -10071,6 +10371,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -10153,11 +10458,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Hoče"
+            "value": "Hoce"
           },
           {
-            "value": "Hoce"
+            "lang": "sl",
+            "value": "Hoče"
           },
           {
             "lang": "sl",
@@ -10191,6 +10496,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -10281,15 +10591,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Strnišče"
-          },
-          {
             "value": "Strnisce"
           },
           {
             "lang": "de",
             "value": "Strnisce"
+          },
+          {
+            "lang": "sl",
+            "value": "Strnišče"
           },
           {
             "lang": "en",
@@ -10345,14 +10655,14 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Kidričevo"
-          },
-          {
             "value": "Kidricevo"
           },
           {
             "lang": "de",
+            "value": "Kidričevo"
+          },
+          {
+            "lang": "sl",
             "value": "Kidričevo"
           },
           {
@@ -10420,16 +10730,16 @@
             "value": "Hajdina"
           },
           {
+            "lang": "de",
+            "value": "Hajdina"
+          },
+          {
             "lang": "en",
             "value": "Hajdina railway station"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Hajdina"
-          },
-          {
-            "lang": "de",
-            "value": "Hajdina"
           }
         ]
       },
@@ -10519,6 +10829,10 @@
             "value": "Ptuj"
           },
           {
+            "lang": "pl",
+            "value": "Ptuj (stacja kolejowa)"
+          },
+          {
             "lang": "sl",
             "value": "Ptuj Avtobusna Postaja"
           },
@@ -10527,16 +10841,12 @@
             "value": "Ptuj railway station"
           },
           {
-            "lang": "ja",
-            "value": "プトゥイ駅"
-          },
-          {
-            "lang": "pl",
-            "value": "Ptuj (stacja kolejowa)"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Ptuj"
+          },
+          {
+            "lang": "ja",
+            "value": "プトゥイ駅"
           }
         ]
       },
@@ -10588,11 +10898,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Moškanjci"
+            "value": "Moskanjci"
           },
           {
-            "value": "Moskanjci"
+            "lang": "sl",
+            "value": "Moškanjci"
           },
           {
             "lang": "sl",
@@ -10652,15 +10962,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Osluševci"
-          },
-          {
             "value": "Oslusevci"
           },
           {
             "lang": "de",
             "value": "Oslusevci"
+          },
+          {
+            "lang": "sl",
+            "value": "Osluševci"
           },
           {
             "lang": "en",
@@ -10732,12 +11042,12 @@
             "value": "Velika Nedelja"
           },
           {
-            "lang": "en",
-            "value": "Velika Nedelja railway station"
-          },
-          {
             "lang": "de",
             "value": "Velika Nedelja"
+          },
+          {
+            "lang": "en",
+            "value": "Velika Nedelja railway station"
           }
         ]
       },
@@ -10793,15 +11103,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Zamušani"
-          },
-          {
             "value": "Zamusani"
           },
           {
             "lang": "de",
             "value": "Zamusani"
+          },
+          {
+            "lang": "sl",
+            "value": "Zamušani"
           },
           {
             "lang": "en",
@@ -10861,15 +11171,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šikole"
-          },
-          {
             "value": "Sikole"
           },
           {
             "lang": "de",
             "value": "Sikole"
+          },
+          {
+            "lang": "sl",
+            "value": "Šikole"
           },
           {
             "lang": "en",
@@ -11072,6 +11382,14 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "gare de Maribor"
+          },
+          {
+            "lang": "sl",
+            "value": "Kolodvor Maribor"
+          },
+          {
             "lang": "sl",
             "value": "Maribor"
           },
@@ -11083,6 +11401,14 @@
             "value": "Maribor"
           },
           {
+            "lang": "fr",
+            "value": "Maribor"
+          },
+          {
+            "lang": "pl",
+            "value": "Maribor"
+          },
+          {
             "lang": "sk",
             "value": "Maribor"
           },
@@ -11091,44 +11417,28 @@
             "value": "Maribor railway station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Maribor"
-          },
-          {
             "lang": "et",
             "value": "Maribori raudteejaam"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione ferroviaria di Maribor"
-          },
-          {
-            "lang": "ja",
-            "value": "マリボル駅"
           },
           {
             "lang": "nl",
             "value": "station Maribor"
           },
           {
-            "lang": "sl",
-            "value": "Kolodvor Maribor"
+            "lang": "it",
+            "value": "Stazione ferroviaria di Maribor"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Maribor"
           },
           {
+            "lang": "ja",
+            "value": "マリボル駅"
+          },
+          {
             "lang": "zh",
             "value": "馬里博爾車站"
-          },
-          {
-            "lang": "fr",
-            "value": "Maribor"
-          },
-          {
-            "lang": "pl",
-            "value": "Maribor"
           }
         ]
       },
@@ -11238,6 +11548,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -11258,11 +11573,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Limbuš"
+            "value": "Limbus"
           },
           {
-            "value": "Limbus"
+            "lang": "sl",
+            "value": "Limbuš"
           },
           {
             "lang": "sl",
@@ -11301,6 +11616,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -11391,11 +11711,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Ruše"
+            "value": "Ruse"
           },
           {
-            "value": "Ruse"
+            "lang": "sl",
+            "value": "Ruše"
           },
           {
             "lang": "en",
@@ -11433,6 +11753,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -11583,11 +11908,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Ožbalt"
+            "value": "Ozbalt"
           },
           {
-            "value": "Ozbalt"
+            "lang": "sl",
+            "value": "Ožbalt"
           },
           {
             "lang": "en",
@@ -11696,6 +12021,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -11716,6 +12046,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Vuhred elektrarna"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Vuhred elektrarna"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Vuhred elektrarna"
+          },
+          {
             "lang": "sl",
             "value": "Vuhred elektrarna"
           },
@@ -11725,18 +12067,6 @@
           {
             "lang": "en",
             "value": "Vuhred elektrarna railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Vuhred elektrarna"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Vuhred elektrarna"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Vuhred elektrarna"
           }
         ]
       },
@@ -11892,6 +12222,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -11912,6 +12247,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Trbonje"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Trbonje"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Trbonje"
+          },
+          {
             "lang": "sl",
             "value": "Trbonje"
           },
@@ -11921,18 +12268,6 @@
           {
             "lang": "en",
             "value": "Trbonje railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Trbonje"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Trbonje"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Trbonje"
           }
         ]
       },
@@ -11962,6 +12297,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -11996,11 +12336,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Maribor-Tabor"
+            "value": "Železniško postajališče Maribor Tabor"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Maribor Tabor"
+            "value": "Železniško postajališče Maribor-Tabor"
           }
         ]
       },
@@ -12030,6 +12370,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -12092,6 +12437,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -12112,11 +12462,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Ruše tovarna"
+            "value": "Ruse tovarna"
           },
           {
-            "value": "Ruse tovarna"
+            "lang": "sl",
+            "value": "Ruše tovarna"
           },
           {
             "lang": "en",
@@ -12156,6 +12506,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -12176,27 +12531,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Trbonjsko Jezero"
-          },
-          {
-            "value": "Trbonjsko jezero"
-          },
-          {
-            "lang": "en",
-            "value": "Trbonjsko jezero railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Trbonjsko jezero"
-          },
-          {
             "lang": "fr",
             "value": "halte de Trbonjsko jezero"
           },
           {
             "lang": "nl",
             "value": "halte Trbonjsko jezero"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Trbonjsko jezero"
+          },
+          {
+            "value": "Trbonjsko jezero"
+          },
+          {
+            "lang": "sl",
+            "value": "Trbonjsko Jezero"
+          },
+          {
+            "lang": "en",
+            "value": "Trbonjsko jezero railway halt"
           }
         ]
       },
@@ -12228,6 +12583,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -12248,6 +12608,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Sveti Danijel"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Sveti Danijel"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Sveti Danijel"
+          },
+          {
             "lang": "sl",
             "value": "Sveti Danijel"
           },
@@ -12257,18 +12629,6 @@
           {
             "lang": "en",
             "value": "Sveti Danijel railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Sveti Danijel"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Sveti Danijel"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Sveti Danijel"
           }
         ]
       },
@@ -12300,6 +12660,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -12320,6 +12685,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Sveti Vid"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Sveti Vid"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Sveti Vid"
+          },
+          {
             "lang": "sl",
             "value": "Sveti Vid"
           },
@@ -12329,18 +12706,6 @@
           {
             "lang": "en",
             "value": "Sveti Vid railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Sveti Vid"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Sveti Vid"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Sveti Vid"
           }
         ]
       },
@@ -12370,6 +12735,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -12404,11 +12774,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Maribor-Sokolska"
+            "value": "Železniško postajališče Maribor Sokolska"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Maribor Sokolska"
+            "value": "Železniško postajališče Maribor-Sokolska"
           }
         ]
       },
@@ -12524,6 +12894,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -12686,21 +13061,6 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šentilj"
-          },
-          {
-            "value": "Sentilj"
-          },
-          {
-            "lang": "sl",
-            "value": "Sentilj"
-          },
-          {
-            "lang": "fr",
-            "value": "Šentilj"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Šentilj"
           },
@@ -12709,20 +13069,35 @@
             "value": "Bahnhof Šentilj"
           },
           {
-            "lang": "ja",
-            "value": "シェンティリ駅"
+            "lang": "fr",
+            "value": "gare de Šentilj"
+          },
+          {
+            "value": "Sentilj"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Šentilj"
+            "value": "Sentilj"
+          },
+          {
+            "lang": "fr",
+            "value": "Šentilj"
+          },
+          {
+            "lang": "sl",
+            "value": "Šentilj"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Šentilj"
           },
           {
-            "lang": "fr",
-            "value": "gare de Šentilj"
+            "lang": "sl",
+            "value": "Železniško postajališče Šentilj"
+          },
+          {
+            "lang": "ja",
+            "value": "シェンティリ駅"
           }
         ]
       },
@@ -12848,6 +13223,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P6724": [
           {
             "info": {
@@ -12894,15 +13274,15 @@
         ],
         "labels": [
           {
+            "value": "Ravne na Koroskem"
+          },
+          {
+            "lang": "sl",
+            "value": "Ravne na Koroskem"
+          },
+          {
             "lang": "sl",
             "value": "Ravne na Koroškem"
-          },
-          {
-            "value": "Ravne na Koroskem"
-          },
-          {
-            "lang": "sl",
-            "value": "Ravne na Koroskem"
           },
           {
             "lang": "en",
@@ -13000,12 +13380,12 @@
             "value": "Prevalje"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja"
-          },
-          {
             "lang": "en",
             "value": "Prevalje train station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja"
           },
           {
             "lang": "sl",
@@ -13066,15 +13446,15 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Haltestelle Holmec"
+          },
+          {
             "lang": "sl",
             "value": "Holmec"
           },
           {
             "value": "Holmec"
-          },
-          {
-            "lang": "de",
-            "value": "Haltestelle Holmec"
           },
           {
             "lang": "en",
@@ -13114,6 +13494,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -13134,27 +13519,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Podklanc"
-          },
-          {
-            "value": "Podklanec"
-          },
-          {
-            "lang": "en",
-            "value": "Podklanc railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Podklanc"
-          },
-          {
             "lang": "fr",
             "value": "halte de Podklanc"
           },
           {
             "lang": "nl",
             "value": "halte Podklanc"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Podklanc"
+          },
+          {
+            "lang": "sl",
+            "value": "Podklanc"
+          },
+          {
+            "lang": "en",
+            "value": "Podklanc railway halt"
+          },
+          {
+            "value": "Podklanec"
           }
         ]
       },
@@ -13184,6 +13569,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -13300,15 +13690,15 @@
         ],
         "labels": [
           {
+            "value": "Ormoz"
+          },
+          {
+            "lang": "sl",
+            "value": "Ormoz"
+          },
+          {
             "lang": "sl",
             "value": "Ormož"
-          },
-          {
-            "value": "Ormoz"
-          },
-          {
-            "lang": "sl",
-            "value": "Ormoz"
           },
           {
             "lang": "en",
@@ -13380,15 +13770,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Pušenci"
-          },
-          {
             "value": "Pusenci"
           },
           {
             "lang": "de",
             "value": "Pusenci"
+          },
+          {
+            "lang": "sl",
+            "value": "Pušenci"
           },
           {
             "lang": "en",
@@ -13424,6 +13814,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -13444,6 +13839,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Pavlovci"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Pavlovci"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Pavlovci"
+          },
+          {
             "lang": "sl",
             "value": "Pavlovci"
           },
@@ -13451,20 +13858,8 @@
             "value": "Pavlovci"
           },
           {
-            "lang": "de",
-            "value": "Haltepunkt Pavlovci"
-          },
-          {
             "lang": "en",
             "value": "Pavlovci railway halt"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Pavlovci"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Pavlovci"
           }
         ]
       },
@@ -13673,11 +14068,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Ljutomer-mesto"
+            "value": "Železniško postajališče Ljutomer mesto"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Ljutomer mesto"
+            "value": "Železniško postajališče Ljutomer-mesto"
           }
         ]
       },
@@ -13733,14 +14128,14 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Obrež"
-          },
-          {
             "value": "Obrez"
           },
           {
             "lang": "de",
+            "value": "Obrež"
+          },
+          {
+            "lang": "sl",
             "value": "Obrež"
           },
           {
@@ -13797,11 +14192,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Središče"
+            "value": "Sredisce"
           },
           {
-            "value": "Sredisce"
+            "lang": "sl",
+            "value": "Središče"
           },
           {
             "lang": "en",
@@ -13839,6 +14234,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -13952,6 +14352,14 @@
         ],
         "labels": [
           {
+            "lang": "hu",
+            "value": "Alsólendva vasútállomás"
+          },
+          {
+            "lang": "pl",
+            "value": "Lendava"
+          },
+          {
             "lang": "sl",
             "value": "Lendava"
           },
@@ -13960,20 +14368,12 @@
             "value": "Lendava train station"
           },
           {
-            "lang": "hu",
-            "value": "Alsólendva vasútállomás"
+            "lang": "sl",
+            "value": "Železniška postaja Lendava"
           },
           {
             "lang": "ja",
             "value": "レンダヴァ駅"
-          },
-          {
-            "lang": "pl",
-            "value": "Lendava"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja Lendava"
           }
         ]
       },
@@ -14123,15 +14523,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Veržej"
-          },
-          {
             "value": "Verzej"
           },
           {
             "lang": "de",
             "value": "Verzej"
+          },
+          {
+            "lang": "sl",
+            "value": "Veržej"
           },
           {
             "lang": "en",
@@ -14387,15 +14787,23 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Murska Sobota"
+          },
+          {
+            "lang": "pt",
+            "value": "Estação ferroviária de Murska Sobota"
+          },
+          {
+            "lang": "pl",
+            "value": "Murska Sobota"
+          },
+          {
             "lang": "sl",
             "value": "Murska Sobota"
           },
           {
             "value": "Murska Sobota"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Murska Sobota"
           },
           {
             "lang": "en",
@@ -14404,14 +14812,6 @@
           {
             "lang": "nl",
             "value": "station Murska Sobota"
-          },
-          {
-            "lang": "pl",
-            "value": "Murska Sobota"
-          },
-          {
-            "lang": "pt",
-            "value": "Estação ferroviária de Murska Sobota"
           },
           {
             "lang": "sl",
@@ -14447,6 +14847,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -14467,6 +14872,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Puconci"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Puconci"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Puconci"
+          },
+          {
             "lang": "sl",
             "value": "Puconci"
           },
@@ -14474,20 +14891,8 @@
             "value": "Puconci"
           },
           {
-            "lang": "de",
-            "value": "Haltepunkt Puconci"
-          },
-          {
             "lang": "en",
             "value": "Puconci railway halt"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Puconci"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Puconci"
           }
         ]
       },
@@ -14519,6 +14924,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -14543,23 +14953,23 @@
             "value": "Dankovci"
           },
           {
-            "value": "Maekovci"
-          },
-          {
-            "lang": "en",
-            "value": "Mačkovci railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Mačkovci"
-          },
-          {
             "lang": "fr",
             "value": "halte de Mačkovci"
           },
           {
             "lang": "nl",
             "value": "halte Mačkovci"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Mačkovci"
+          },
+          {
+            "lang": "en",
+            "value": "Mačkovci railway halt"
+          },
+          {
+            "value": "Maekovci"
           }
         ]
       },
@@ -14591,6 +15001,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -14611,27 +15026,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Mačkovci"
-          },
-          {
-            "value": "Maekovci"
-          },
-          {
-            "lang": "en",
-            "value": "Mačkovci railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Mačkovci"
-          },
-          {
             "lang": "fr",
             "value": "halte de Mačkovci"
           },
           {
             "lang": "nl",
             "value": "halte Mačkovci"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Mačkovci"
+          },
+          {
+            "lang": "sl",
+            "value": "Mačkovci"
+          },
+          {
+            "lang": "en",
+            "value": "Mačkovci railway halt"
+          },
+          {
+            "value": "Maekovci"
           }
         ]
       },
@@ -14661,6 +15076,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -14751,11 +15171,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šalovci"
+            "value": "Salovci"
           },
           {
-            "value": "Salovci"
+            "lang": "sl",
+            "value": "Šalovci"
           },
           {
             "lang": "ja",
@@ -14793,10 +15213,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q1402443"
           },
           {
-            "value": "Q1402443"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -14845,15 +15265,19 @@
         ],
         "labels": [
           {
+            "value": "Hodos"
+          },
+          {
             "lang": "sl",
+            "value": "Hodos"
+          },
+          {
+            "lang": "hu",
             "value": "Hodoš"
           },
           {
-            "value": "Hodos"
-          },
-          {
             "lang": "sl",
-            "value": "Hodos"
+            "value": "Hodoš"
           },
           {
             "lang": "en",
@@ -14861,15 +15285,7 @@
           },
           {
             "lang": "hu",
-            "value": "Hodoš"
-          },
-          {
-            "lang": "hu",
             "value": "Őrihodos vasútállomás"
-          },
-          {
-            "lang": "ja",
-            "value": "ホドシ駅"
           },
           {
             "lang": "nl",
@@ -14878,6 +15294,10 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Hodoš"
+          },
+          {
+            "lang": "ja",
+            "value": "ホドシ駅"
           }
         ]
       },
@@ -14929,6 +15349,14 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Stranje"
+          },
+          {
+            "lang": "es",
+            "value": "estación Stranje"
+          },
+          {
             "lang": "sl",
             "value": "Stranje"
           },
@@ -14936,16 +15364,8 @@
             "value": "Stranje"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Stranje"
-          },
-          {
             "lang": "en",
             "value": "Stranje train station"
-          },
-          {
-            "lang": "es",
-            "value": "estación Stranje"
           },
           {
             "lang": "sl",
@@ -14979,6 +15399,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -15043,6 +15468,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -15160,15 +15590,15 @@
         ],
         "labels": [
           {
+            "value": "Rogaska Slatina"
+          },
+          {
+            "lang": "sl",
+            "value": "Rogaska Slatina"
+          },
+          {
             "lang": "sl",
             "value": "Rogaška Slatina"
-          },
-          {
-            "value": "Rogaska Slatina"
-          },
-          {
-            "lang": "sl",
-            "value": "Rogaska Slatina"
           },
           {
             "lang": "en",
@@ -15235,12 +15665,12 @@
             "value": "Rogatec"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Rogatec"
-          },
-          {
             "lang": "en",
             "value": "Rogatec Railway Station"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Rogatec"
           }
         ]
       },
@@ -15270,6 +15700,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -15336,6 +15771,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -15400,6 +15840,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -15420,11 +15865,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Tekačevo"
+            "value": "Tekacevo"
           },
           {
-            "value": "Tekacevo"
+            "lang": "sl",
+            "value": "Tekačevo"
           },
           {
             "lang": "en",
@@ -15462,6 +15907,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -15560,6 +16010,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -15618,6 +16073,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -15680,6 +16140,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -15700,11 +16165,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Podčetrtek"
+            "value": "Podcetrtek"
           },
           {
-            "value": "Podcetrtek"
+            "lang": "sl",
+            "value": "Podčetrtek"
           },
           {
             "lang": "sl",
@@ -15765,15 +16230,15 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "gare d'Imeno"
+          },
+          {
             "lang": "sl",
             "value": "Imeno"
           },
           {
             "value": "Imeno"
-          },
-          {
-            "lang": "fr",
-            "value": "gare d'Imeno"
           },
           {
             "lang": "sl",
@@ -15814,15 +16279,20 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
+          {
+            "value": "7943853"
+          },
           {
             "info": {
               "reliability": 0.52
             },
             "value": "7943855"
-          },
-          {
-            "value": "7943853"
           }
         ],
         "P954": [
@@ -15841,11 +16311,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Podčetrtek Toplice"
+            "value": "Podcetrtek Toplice"
           },
           {
-            "value": "Podcetrtek Toplice"
+            "lang": "sl",
+            "value": "Podčetrtek Toplice"
           },
           {
             "lang": "en",
@@ -15885,6 +16355,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -15905,11 +16380,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Atomske Toplice hotel"
+            "value": "Atomske Toplice hot."
           },
           {
-            "value": "Atomske Toplice hot."
+            "lang": "sl",
+            "value": "Atomske Toplice hotel"
           },
           {
             "lang": "en",
@@ -15921,11 +16396,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Atomske Toplice-hotel"
+            "value": "Železniško postajališče Atomske Toplice hotel"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Atomske Toplice hotel"
+            "value": "Železniško postajališče Atomske Toplice-hotel"
           }
         ]
       },
@@ -15957,6 +16432,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -15977,11 +16457,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Petrovče"
+            "value": "Petrovce"
           },
           {
-            "value": "Petrovce"
+            "lang": "sl",
+            "value": "Petrovče"
           },
           {
             "lang": "sl",
@@ -16037,11 +16517,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Žalec"
+            "value": "Zalec"
           },
           {
-            "value": "Zalec"
+            "lang": "sl",
+            "value": "Žalec"
           },
           {
             "lang": "en",
@@ -16081,6 +16561,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -16101,11 +16586,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šempeter v Savinjski dolini"
+            "value": "Sempeter v Sav.dolni"
           },
           {
-            "value": "Sempeter v Sav.dolni"
+            "lang": "sl",
+            "value": "Šempeter v Savinjski dolini"
           },
           {
             "lang": "en",
@@ -16229,11 +16714,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šmartno ob Paki"
+            "value": "Smartno ob Paki"
           },
           {
-            "value": "Smartno ob Paki"
+            "lang": "sl",
+            "value": "Šmartno ob Paki"
           },
           {
             "lang": "sl",
@@ -16269,6 +16754,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -16289,11 +16779,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Paška vas"
+            "value": "Paska vas"
           },
           {
-            "value": "Paska vas"
+            "lang": "sl",
+            "value": "Paška vas"
           },
           {
             "lang": "sl",
@@ -16354,27 +16844,27 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Šoštanj"
-          },
-          {
             "value": "Sostanj"
-          },
-          {
-            "lang": "en",
-            "value": "Šoštanj"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja Šoštanj"
           },
           {
             "lang": "de",
             "value": "Šoštanj"
           },
           {
+            "lang": "en",
+            "value": "Šoštanj"
+          },
+          {
             "lang": "fr",
             "value": "Šoštanj"
+          },
+          {
+            "lang": "sl",
+            "value": "Šoštanj"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Šoštanj"
           },
           {
             "lang": "ru",
@@ -16408,6 +16898,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -16556,6 +17051,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -16588,11 +17088,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Celje-Lava"
+            "value": "Železniško postajališče Celje Lava"
           },
           {
             "lang": "sl",
-            "value": "Železniško postajališče Celje Lava"
+            "value": "Železniško postajališče Celje-Lava"
           }
         ]
       },
@@ -16622,6 +17122,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -16681,10 +17186,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q18564289"
           },
           {
-            "value": "Q18564289"
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -16714,28 +17219,28 @@
             "value": "Brezovica"
           },
           {
-            "lang": "ru",
-            "value": "Брезовица"
-          },
-          {
             "lang": "en",
             "value": "Brezovica railway station"
-          },
-          {
-            "lang": "it",
-            "value": "Železniško postajališče Brezovica"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Brezovica"
           },
           {
             "lang": "nl",
             "value": "station Brezovica"
           },
           {
+            "lang": "it",
+            "value": "Stazione di Brezovica"
+          },
+          {
             "lang": "sl",
             "value": "Železniška postaja Brezovica"
+          },
+          {
+            "lang": "it",
+            "value": "Železniško postajališče Brezovica"
+          },
+          {
+            "lang": "ru",
+            "value": "Брезовица"
           }
         ]
       },
@@ -16765,6 +17270,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -16895,10 +17405,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q18564289"
           },
           {
-            "value": "Q18564289"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -17113,12 +17623,12 @@
             "value": "Logatec train station"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Logatec"
-          },
-          {
             "lang": "it",
             "value": "stazione di Longatico"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Logatec"
           }
         ]
       },
@@ -17150,6 +17660,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -17177,16 +17692,16 @@
             "value": "Planina"
           },
           {
-            "lang": "sl",
-            "value": "Železniško postajališče Planina"
-          },
-          {
             "lang": "en",
             "value": "Planina railway stop"
           },
           {
             "lang": "it",
             "value": "stazione di Planina"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniško postajališče Planina"
           }
         ]
       },
@@ -17284,12 +17799,12 @@
             "value": "Rakek train station"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Rakek"
-          },
-          {
             "lang": "it",
             "value": "stazione di Rakek"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Rakek"
           }
         ]
       },
@@ -17409,43 +17924,43 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Postojna"
-          },
-          {
-            "value": "Postojna"
+            "lang": "de",
+            "value": "Bahnhof Postojna"
           },
           {
             "lang": "pl",
             "value": "Postojna"
           },
           {
-            "lang": "arz",
-            "value": "محطة پوستوچنا"
+            "lang": "sl",
+            "value": "Postojna"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Postojna"
+            "value": "Postojna"
           },
           {
             "lang": "en",
             "value": "Postojna railway station"
           },
           {
-            "lang": "it",
-            "value": "Stazione di Postumia Grotte"
+            "lang": "nl",
+            "value": "station Postojna"
           },
           {
             "lang": "it",
             "value": "stazione di Postumia"
           },
           {
-            "lang": "nl",
-            "value": "station Postojna"
+            "lang": "it",
+            "value": "Stazione di Postumia Grotte"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Postojna"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة پوستوچنا"
           }
         ]
       },
@@ -17514,16 +18029,16 @@
             "value": "Prestranek"
           },
           {
+            "lang": "en",
+            "value": "Prestranek railway station"
+          },
+          {
             "lang": "it",
             "value": "stazione di Prestrane"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Prestranek"
-          },
-          {
-            "lang": "en",
-            "value": "Prestranek railway station"
           }
         ]
       },
@@ -17558,6 +18073,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -17599,20 +18119,16 @@
             "value": "stazione di Lubiana Tivoli"
           },
           {
+            "lang": "sl",
+            "value": "Železniško postajališče Ljubljana - Tivoli"
+          },
+          {
             "lang": "it",
             "value": "Železniško postajališče Ljubljana Tivoli"
           },
           {
-            "lang": "ja",
-            "value": "リュブリャナ・ティヴォリ駅"
-          },
-          {
-            "lang": "ru",
-            "value": "Любляна-Тиволи"
-          },
-          {
             "lang": "sl",
-            "value": "Železniško postajališče Ljubljana - Tivoli"
+            "value": "Železniško postajališče Ljubljana Tivoli"
           },
           {
             "lang": "sl",
@@ -17623,8 +18139,12 @@
             "value": "Železniško postajališče Tivoli"
           },
           {
-            "lang": "sl",
-            "value": "Železniško postajališče Ljubljana Tivoli"
+            "lang": "ru",
+            "value": "Любляна-Тиволи"
+          },
+          {
+            "lang": "ja",
+            "value": "リュブリャナ・ティヴォリ駅"
           }
         ]
       },
@@ -17656,6 +18176,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -17676,6 +18201,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Ljubljana Dolgi most"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Ljubljana Dolgi most"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Ljubljana Dolgi most"
+          },
+          {
             "lang": "sl",
             "value": "Ljubljana Dolgi Most"
           },
@@ -17685,18 +18222,6 @@
           {
             "lang": "en",
             "value": "Ljubljana Dolgi most railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Ljubljana Dolgi most"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Ljubljana Dolgi most"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Ljubljana Dolgi most"
           }
         ]
       },
@@ -17806,6 +18331,14 @@
         ],
         "labels": [
           {
+            "lang": "de",
+            "value": "Bahnhof Pivka"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Pivka"
+          },
+          {
             "lang": "sl",
             "value": "Pivka"
           },
@@ -17813,28 +18346,20 @@
             "value": "Pivka"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Pivka"
+            "lang": "pl",
+            "value": "Pivka (stacja kolejowa)"
           },
           {
             "lang": "en",
             "value": "Pivka railway station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Pivka"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di San Pietro del Carso"
-          },
-          {
             "lang": "nl",
             "value": "station Pivka"
           },
           {
-            "lang": "pl",
-            "value": "Pivka (stacja kolejowa)"
+            "lang": "it",
+            "value": "stazione di San Pietro del Carso"
           },
           {
             "lang": "sl",
@@ -17875,6 +18400,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -17895,11 +18425,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Košana"
+            "value": "Kosana"
           },
           {
-            "value": "Kosana"
+            "lang": "sl",
+            "value": "Košana"
           },
           {
             "lang": "it",
@@ -17969,11 +18499,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Gornje Ležeče"
+            "value": "Gornje Lezece"
           },
           {
-            "value": "Gornje Lezece"
+            "lang": "sl",
+            "value": "Gornje Ležeče"
           },
           {
             "lang": "it",
@@ -18091,19 +18621,19 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Divača"
-          },
-          {
-            "value": "Divaca"
-          },
-          {
-            "lang": "sl",
-            "value": "Divaca"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Divača"
+          },
+          {
+            "value": "Divaca"
+          },
+          {
+            "lang": "sl",
+            "value": "Divaca"
+          },
+          {
+            "lang": "sl",
+            "value": "Divača"
           },
           {
             "lang": "en",
@@ -18114,24 +18644,24 @@
             "value": "Divača vasútállomás"
           },
           {
-            "lang": "it",
-            "value": "Stazione di Divaccia-San Canziano"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Divaccia"
+            "lang": "fr",
+            "value": "gare de Divača"
           },
           {
             "lang": "nl",
             "value": "station Divača"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Divača"
+            "lang": "it",
+            "value": "stazione di Divaccia"
           },
           {
-            "lang": "fr",
-            "value": "gare de Divača"
+            "lang": "it",
+            "value": "Stazione di Divaccia-San Canziano"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Divača"
           },
           {
             "lang": "zh",
@@ -18312,20 +18842,16 @@
             "value": "Hrpelje-Kozina"
           },
           {
-            "lang": "arz",
-            "value": "محطة هرپيلچ كوزينا"
-          },
-          {
             "lang": "en",
             "value": "Hrpelje-Kozina railway station"
           },
           {
-            "lang": "it",
-            "value": "stazione di Erpelle-Cosina"
-          },
-          {
             "lang": "nl",
             "value": "station Hrpelje-Kozina"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Erpelle-Cosina"
           },
           {
             "lang": "sl",
@@ -18341,11 +18867,15 @@
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja Kozina"
+            "value": "Železniška postaja Hrpelje-Kozina"
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja Hrpelje-Kozina"
+            "value": "Železniška postaja Kozina"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة هرپيلچ كوزينا"
           }
         ]
       },
@@ -18382,6 +18912,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -18409,20 +18944,20 @@
             "value": "Povir"
           },
           {
-            "lang": "it",
-            "value": "stazione di Poverio"
+            "lang": "en",
+            "value": "Povir railway stop"
           },
           {
-            "lang": "ja",
-            "value": "ポヴィル駅"
+            "lang": "it",
+            "value": "stazione di Poverio"
           },
           {
             "lang": "sl",
             "value": "Železniško postajališče Povir"
           },
           {
-            "lang": "en",
-            "value": "Povir railway stop"
+            "lang": "ja",
+            "value": "ポヴィル駅"
           }
         ]
       },
@@ -18484,14 +19019,14 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Prešnica"
-          },
-          {
             "value": "Presnica"
           },
           {
             "lang": "cs",
+            "value": "Prešnica"
+          },
+          {
+            "lang": "sl",
             "value": "Prešnica"
           },
           {
@@ -18624,6 +19159,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -18659,12 +19199,12 @@
             "value": "stazione di Acquaviva"
           },
           {
-            "lang": "ja",
-            "value": "ラキトヴェツ駅"
-          },
-          {
             "lang": "sl",
             "value": "Železniško postajališče Rakitovec"
+          },
+          {
+            "lang": "ja",
+            "value": "ラキトヴェツ駅"
           }
         ]
       },
@@ -18765,10 +19305,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Koper"
+            "lang": "fr",
+            "value": "gare de Koper"
           },
           {
+            "lang": "fr",
             "value": "Koper"
           },
           {
@@ -18776,36 +19317,35 @@
             "value": "Koper"
           },
           {
-            "lang": "arz",
-            "value": "محطة كوپير"
+            "lang": "sl",
+            "value": "Koper"
+          },
+          {
+            "value": "Koper"
           },
           {
             "lang": "en",
             "value": "Koper railway station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Koper"
+            "lang": "nl",
+            "value": "station Koper"
           },
           {
             "lang": "it",
             "value": "stazione di Capodistria"
           },
           {
-            "lang": "nl",
-            "value": "station Koper"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Koper"
           },
           {
-            "lang": "zh",
-            "value": "科佩爾車站"
+            "lang": "arz",
+            "value": "محطة كوپير"
           },
           {
-            "lang": "fr",
-            "value": "Koper"
+            "lang": "zh",
+            "value": "科佩爾車站"
           }
         ]
       },
@@ -18867,11 +19407,15 @@
         ],
         "labels": [
           {
+            "value": "Crnotice"
+          },
+          {
             "lang": "sl",
             "value": "Črnotiče"
           },
           {
-            "value": "Crnotice"
+            "lang": "en",
+            "value": "Črnotiče railway station"
           },
           {
             "lang": "it",
@@ -18880,10 +19424,6 @@
           {
             "lang": "sl",
             "value": "Železniška postaja Črnotiče"
-          },
-          {
-            "lang": "en",
-            "value": "Črnotiče railway station"
           }
         ]
       },
@@ -18952,16 +19492,16 @@
             "value": "Hrastovlje"
           },
           {
+            "lang": "en",
+            "value": "Hrastovlje railway station"
+          },
+          {
             "lang": "it",
             "value": "stazione di Cristoglie"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Hrastovlje"
-          },
-          {
-            "lang": "en",
-            "value": "Hrastovlje railway station"
           }
         ]
       },
@@ -19022,12 +19562,12 @@
             "value": "Rižana"
           },
           {
-            "lang": "it",
-            "value": "stazione di Risano"
-          },
-          {
             "lang": "en",
             "value": "Rižana railway station"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Risano"
           },
           {
             "lang": "sl",
@@ -19178,35 +19718,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Sežana"
-          },
-          {
             "value": "Sezana"
           },
           {
             "lang": "sl",
             "value": "Sezana"
-          },
-          {
-            "lang": "en",
-            "value": "Sežana railway station"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Sežana"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Sesana"
-          },
-          {
-            "lang": "ja",
-            "value": "セジャーナ駅"
-          },
-          {
-            "lang": "nl",
-            "value": "station Sežana"
           },
           {
             "lang": "pl",
@@ -19214,7 +19730,31 @@
           },
           {
             "lang": "sl",
+            "value": "Sežana"
+          },
+          {
+            "lang": "en",
+            "value": "Sežana railway station"
+          },
+          {
+            "lang": "nl",
+            "value": "station Sežana"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Sesana"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Sežana"
+          },
+          {
+            "lang": "sl",
             "value": "Železniška postaja Sežana"
+          },
+          {
+            "lang": "ja",
+            "value": "セジャーナ駅"
           }
         ]
       },
@@ -19246,6 +19786,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -19266,6 +19811,18 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "halte de Kopriva"
+          },
+          {
+            "lang": "nl",
+            "value": "halte Kopriva"
+          },
+          {
+            "lang": "de",
+            "value": "Haltepunkt Kopriva"
+          },
+          {
             "lang": "sl",
             "value": "Kopriva"
           },
@@ -19275,18 +19832,6 @@
           {
             "lang": "en",
             "value": "Kopriva railway halt"
-          },
-          {
-            "lang": "de",
-            "value": "Haltepunkt Kopriva"
-          },
-          {
-            "lang": "fr",
-            "value": "halte de Kopriva"
-          },
-          {
-            "lang": "nl",
-            "value": "halte Kopriva"
           }
         ]
       },
@@ -19348,11 +19893,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Štanjel"
+            "value": "Stanjel"
           },
           {
-            "value": "Stanjel"
+            "lang": "sl",
+            "value": "Štanjel"
           },
           {
             "lang": "en",
@@ -19479,6 +20024,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -19499,6 +20049,10 @@
         ],
         "labels": [
           {
+            "lang": "it",
+            "value": "stazione di Stesche"
+          },
+          {
             "lang": "sl",
             "value": "Steske"
           },
@@ -19506,8 +20060,8 @@
             "value": "Steske"
           },
           {
-            "lang": "it",
-            "value": "stazione di Stesche"
+            "lang": "en",
+            "value": "Steske railway halt"
           },
           {
             "lang": "sl",
@@ -19651,11 +20205,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Prvačina"
+            "value": "Prvacina"
           },
           {
-            "value": "Prvacina"
+            "lang": "sl",
+            "value": "Prvačina"
           },
           {
             "lang": "en",
@@ -19702,6 +20256,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -19782,6 +20341,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -19802,19 +20366,19 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Volčja Draga"
+            "lang": "it",
+            "value": "stazione di Valvolciana"
           },
           {
             "value": "Volcja Draga"
           },
           {
-            "lang": "en",
-            "value": "Volčja Draga railway station"
+            "lang": "sl",
+            "value": "Volčja Draga"
           },
           {
-            "lang": "it",
-            "value": "stazione di Valvolciana"
+            "lang": "en",
+            "value": "Volčja Draga railway station"
           },
           {
             "lang": "sl",
@@ -19880,19 +20444,19 @@
         ],
         "labels": [
           {
+            "value": "Sempeter pri Gorici"
+          },
+          {
             "lang": "sl",
             "value": "Šempeter pri Gorici"
           },
           {
-            "value": "Sempeter pri Gorici"
+            "lang": "en",
+            "value": "Šempeter pri Gorici railway station"
           },
           {
             "lang": "it",
             "value": "stazione di San Pietro"
-          },
-          {
-            "lang": "en",
-            "value": "Šempeter pri Gorici railway station"
           },
           {
             "lang": "sl",
@@ -19936,6 +20500,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -20028,15 +20597,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Dornberk vas"
-          },
-          {
             "value": "Dornberk"
           },
           {
             "lang": "en",
             "value": "Dornberk railway stop"
+          },
+          {
+            "lang": "sl",
+            "value": "Dornberk vas"
           },
           {
             "lang": "it",
@@ -20084,6 +20653,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -20152,6 +20726,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -20216,6 +20795,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -20335,6 +20919,10 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "gare de Nova Gorica"
+          },
+          {
             "lang": "sl",
             "value": "Nova Gorica"
           },
@@ -20342,20 +20930,16 @@
             "value": "Nova Gorica"
           },
           {
-            "lang": "arz",
-            "value": "محطة نوڤا جوريكا"
-          },
-          {
             "lang": "en",
             "value": "Nova Gorica railway station"
           },
           {
-            "lang": "fr",
-            "value": "gare de Nova Gorica"
-          },
-          {
             "lang": "id",
             "value": "Stasiun kereta api Nova Gorica"
+          },
+          {
+            "lang": "nl",
+            "value": "station Nova Gorica"
           },
           {
             "lang": "it",
@@ -20374,12 +20958,12 @@
             "value": "stazione di Nova Gorica"
           },
           {
-            "lang": "nl",
-            "value": "station Nova Gorica"
-          },
-          {
             "lang": "sl",
             "value": "Železniška postaja Nova Gorica"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة نوڤا جوريكا"
           },
           {
             "lang": "zh",
@@ -20460,12 +21044,12 @@
             "value": "stazione di Salcano"
           },
           {
-            "lang": "ja",
-            "value": "ソルカン駅"
-          },
-          {
             "lang": "sl",
             "value": "Železniško postajališče Solkan"
+          },
+          {
+            "lang": "ja",
+            "value": "ソルカン駅"
           }
         ]
       },
@@ -20534,20 +21118,20 @@
             "value": "Plave"
           },
           {
-            "lang": "it",
-            "value": "stazione di Plava"
+            "lang": "en",
+            "value": "Plave railway station"
           },
           {
-            "lang": "ja",
-            "value": "プラヴェ駅"
+            "lang": "it",
+            "value": "stazione di Plava"
           },
           {
             "lang": "sl",
             "value": "Železniško postajališče Plave"
           },
           {
-            "lang": "en",
-            "value": "Plave railway station"
+            "lang": "ja",
+            "value": "プラヴェ駅"
           }
         ]
       },
@@ -20616,28 +21200,12 @@
             "value": "Anhovo"
           },
           {
-            "lang": "arz",
-            "value": "محطة انهوڤو"
-          },
-          {
             "lang": "en",
             "value": "Anhovo railway station"
           },
           {
-            "lang": "it",
-            "value": "stazione di Anicova Corada"
-          },
-          {
-            "lang": "ja",
-            "value": "アンホヴォ駅"
-          },
-          {
             "lang": "nl",
             "value": "station Anhovo"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja Anhovo"
           },
           {
             "lang": "it",
@@ -20645,7 +21213,23 @@
           },
           {
             "lang": "it",
+            "value": "stazione di Anicova Corada"
+          },
+          {
+            "lang": "it",
             "value": "stazione di Salona d'Isonzo"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Anhovo"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة انهوڤو"
+          },
+          {
+            "lang": "ja",
+            "value": "アンホヴォ駅"
           }
         ]
       },
@@ -20785,15 +21369,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Avče"
+            "lang": "en",
+            "value": "Auzza railway halt"
           },
           {
             "value": "Avce"
           },
           {
-            "lang": "en",
-            "value": "Auzza railway halt"
+            "lang": "sl",
+            "value": "Avče"
           },
           {
             "lang": "en",
@@ -20888,15 +21472,15 @@
         ],
         "labels": [
           {
+            "value": "Most na Soci"
+          },
+          {
+            "lang": "sl",
+            "value": "Most na Soci"
+          },
+          {
             "lang": "sl",
             "value": "Most na Soči"
-          },
-          {
-            "value": "Most na Soci"
-          },
-          {
-            "lang": "sl",
-            "value": "Most na Soci"
           },
           {
             "lang": "en",
@@ -20904,11 +21488,7 @@
           },
           {
             "lang": "it",
-            "value": "Stazione di Santa Lucia d'Isonzo"
-          },
-          {
-            "lang": "sl",
-            "value": "Železniška postaja Most na Soči"
+            "value": "Santa Lucia d'Isonzo-Tolmino"
           },
           {
             "lang": "it",
@@ -20916,11 +21496,15 @@
           },
           {
             "lang": "it",
-            "value": "Santa Lucia d'Isonzo-Tolmino"
+            "value": "Stazione di Santa Lucia d'Isonzo"
           },
           {
             "lang": "it",
             "value": "Stazione di Santa Lucia-Tolmino"
+          },
+          {
+            "lang": "sl",
+            "value": "Železniška postaja Most na Soči"
           }
         ]
       },
@@ -20962,6 +21546,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -20982,13 +21571,6 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Podmelec"
-          },
-          {
-            "value": "Podmelec"
-          },
-          {
             "lang": "en",
             "value": "Piedimelze railway halt"
           },
@@ -21001,16 +21583,23 @@
             "value": "Piedimelze train station"
           },
           {
+            "lang": "sl",
+            "value": "Podmelec"
+          },
+          {
+            "value": "Podmelec"
+          },
+          {
+            "lang": "en",
+            "value": "Podmelec railway halt"
+          },
+          {
             "lang": "en",
             "value": "Podmelec railway station"
           },
           {
             "lang": "en",
             "value": "Podmelec train station"
-          },
-          {
-            "lang": "en",
-            "value": "Podmelec railway halt"
           },
           {
             "lang": "it",
@@ -21092,15 +21681,15 @@
           },
           {
             "lang": "it",
+            "value": "stazione di Gracova"
+          },
+          {
+            "lang": "it",
             "value": "Stazione di Gracova Serravalle"
           },
           {
             "lang": "sl",
             "value": "Železniška postaja Grahovo"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Gracova"
           }
         ]
       },
@@ -21142,6 +21731,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -21162,15 +21756,19 @@
         ],
         "labels": [
           {
+            "value": "Hudajuzna"
+          },
+          {
             "lang": "sl",
             "value": "Hudajužna"
           },
           {
-            "value": "Hudajuzna"
-          },
-          {
             "lang": "en",
             "value": "Hudajužna railway halt"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Hudajužna"
           },
           {
             "lang": "it",
@@ -21179,10 +21777,6 @@
           {
             "lang": "sl",
             "value": "Železniško postajališče Hudajužna"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Hudajužna"
           }
         ]
       },
@@ -21251,28 +21845,28 @@
             "value": "Podbrdo"
           },
           {
-            "lang": "arz",
-            "value": "محطة پودبردو"
-          },
-          {
             "lang": "en",
             "value": "Podbrdo railway station"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Podbrdo"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Piedicolle"
           },
           {
             "lang": "nl",
             "value": "station Podbrdo"
           },
           {
+            "lang": "it",
+            "value": "stazione di Piedicolle"
+          },
+          {
+            "lang": "it",
+            "value": "stazione di Podbrdo"
+          },
+          {
             "lang": "sl",
             "value": "Železniška postaja Podbrdo"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة پودبردو"
           }
         ]
       },
@@ -21301,10 +21895,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q18564289"
           },
           {
-            "value": "Q18564289"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -21401,6 +21995,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -21459,6 +22058,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -21575,11 +22179,11 @@
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja Bled-Jezero"
+            "value": "Železniška postaja Bled Jezero"
           },
           {
             "lang": "sl",
-            "value": "Železniška postaja Bled Jezero"
+            "value": "Železniška postaja Bled-Jezero"
           }
         ]
       },
@@ -21609,6 +22213,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -21674,6 +22283,11 @@
         "P31": [
           {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P722": [
@@ -21744,6 +22358,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -21764,19 +22383,19 @@
         ],
         "labels": [
           {
+            "value": "Kocna"
+          },
+          {
             "lang": "sl",
             "value": "Kočna"
           },
           {
-            "value": "Kocna"
+            "lang": "en",
+            "value": "Kočna railway halt"
           },
           {
             "lang": "it",
             "value": "Stazione di Kočna"
-          },
-          {
-            "lang": "en",
-            "value": "Kočna railway halt"
           },
           {
             "lang": "sl",
@@ -21832,16 +22451,16 @@
         ],
         "labels": [
           {
+            "lang": "it",
+            "value": "stazione di Vertoiba"
+          },
+          {
             "lang": "sl",
             "value": "Vrtojba"
           },
           {
             "lang": "en",
             "value": "Vrtojba railway station"
-          },
-          {
-            "lang": "it",
-            "value": "stazione di Vertoiba"
           },
           {
             "lang": "sl",
@@ -21923,16 +22542,16 @@
             "value": "Dutovlje"
           },
           {
+            "lang": "en",
+            "value": "Dutovlje railway halt"
+          },
+          {
             "lang": "it",
             "value": "stazione di Duttogliano"
           },
           {
             "lang": "sl",
             "value": "Železniško postajališče Dutovlje"
-          },
-          {
-            "lang": "en",
-            "value": "Dutovlje railway halt"
           }
         ]
       },
@@ -22083,11 +22702,11 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Kilovče"
+            "value": "Kilovce"
           },
           {
-            "value": "Kilovce"
+            "lang": "sl",
+            "value": "Kilovče"
           },
           {
             "lang": "en",
@@ -22141,6 +22760,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P6724": [
           {
             "info": {
@@ -22192,15 +22816,16 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Ilirska Bistrica"
-          },
-          {
-            "value": "Ilirska Bistrica"
+            "lang": "de",
+            "value": "Bahnhof Ilirska Bistrica"
           },
           {
             "lang": "de",
             "value": "Bahnhof Illyrisch Feistritz"
+          },
+          {
+            "lang": "en",
+            "value": "Bisterza railway station"
           },
           {
             "lang": "es",
@@ -22208,47 +22833,46 @@
           },
           {
             "lang": "es",
-            "value": "estación Illyrisch Feistritz"
-          },
-          {
-            "lang": "de",
-            "value": "Bahnhof Ilirska Bistrica"
-          },
-          {
-            "lang": "es",
             "value": "estación Ilirska Bistrica"
           },
           {
-            "lang": "arz",
-            "value": "محطة ايليرسكا بيستريكا"
+            "lang": "es",
+            "value": "estación Illyrisch Feistritz"
+          },
+          {
+            "lang": "sl",
+            "value": "Ilirska Bistrica"
+          },
+          {
+            "value": "Ilirska Bistrica"
           },
           {
             "lang": "en",
             "value": "Ilirska Bistrica railway station"
           },
           {
-            "lang": "it",
-            "value": "stazione di Bisterza"
-          },
-          {
             "lang": "nl",
             "value": "station Ilirska Bistrica"
           },
           {
-            "lang": "sl",
-            "value": "Železniška postaja Ilirska Bistrica"
+            "lang": "it",
+            "value": "stazione di Bisterza"
           },
           {
-            "lang": "en",
-            "value": "Bisterza railway station"
+            "lang": "it",
+            "value": "stazione di Villa del Nevoso"
           },
           {
             "lang": "en",
             "value": "Villa del Nevoso railway station"
           },
           {
-            "lang": "it",
-            "value": "stazione di Villa del Nevoso"
+            "lang": "sl",
+            "value": "Železniška postaja Ilirska Bistrica"
+          },
+          {
+            "lang": "arz",
+            "value": "محطة ايليرسكا بيستريكا"
           }
         ]
       },
@@ -22306,15 +22930,15 @@
         ],
         "labels": [
           {
-            "lang": "sl",
-            "value": "Maribor Tezno postajališče"
+            "lang": "de",
+            "value": "Bahnhof Maribor Tezno"
           },
           {
             "value": "Maribor Tezno"
           },
           {
-            "lang": "de",
-            "value": "Bahnhof Maribor Tezno"
+            "lang": "sl",
+            "value": "Maribor Tezno postajališče"
           },
           {
             "lang": "en",

@@ -32,6 +32,11 @@
         "P722": [
           {
             "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.4
+                }
+              ],
               "reliability": 0.4
             },
             "value": "5211001"
@@ -47,12 +52,16 @@
             "value": "Kalotina-Zapad"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Калотина-Запад"
-          },
-          {
             "lang": "cs",
             "value": "Kalotina-Zapad"
+          },
+          {
+            "lang": "en",
+            "value": "Kalotina-Zapad railway station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Калотина-Запад"
           }
         ]
       },
@@ -61,16 +70,27 @@
     {
       "geometry": {
         "coordinates": [
-          22.8516,
-          42.9802
+          [
+            22.8516,
+            42.9802
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "BG11002",
+      "id": "BG11002-Q115790411",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -81,9 +101,18 @@
             "value": "5211002"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q115790411"
+          }
+        ],
         "labels": [
           {
-            "value": "KALOTINA"
+            "value": "Kalotina"
+          },
+          {
+            "lang": "en",
+            "value": "Kalotina railway station"
           }
         ]
       },
@@ -205,12 +234,12 @@
             "value": "Dragoman"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Драгоман"
-          },
-          {
             "lang": "en",
             "value": "Dragoman railway station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Драгоман"
           }
         ]
       },
@@ -271,11 +300,11 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Алдомировци"
+            "value": "Алдомировци"
           },
           {
             "lang": "bg",
-            "value": "Алдомировци"
+            "value": "Железопътна гара Алдомировци"
           }
         ]
       },
@@ -383,10 +412,10 @@
         ],
         "labels": [
           {
-            "value": "Petarch"
+            "value": "Petarc"
           },
           {
-            "value": "Petarc"
+            "value": "Petarch"
           },
           {
             "lang": "bg",
@@ -498,18 +527,18 @@
         ],
         "labels": [
           {
-            "value": "Bankya"
-          },
-          {
             "value": "Bankja"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Банкя"
+            "value": "Bankya"
           },
           {
             "lang": "en",
             "value": "Bankya train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Банкя"
           }
         ]
       },
@@ -729,10 +758,10 @@
         ],
         "labels": [
           {
-            "value": "Simeonovgrad"
+            "value": "Simenovgrad"
           },
           {
-            "value": "Simenovgrad"
+            "value": "Simeonovgrad"
           },
           {
             "lang": "bg",
@@ -882,13 +911,13 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
-          },
-          {
             "value": "Q1402443"
           },
           {
             "value": "Q22808404"
+          },
+          {
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -907,12 +936,6 @@
         "P722": [
           {
             "info": {
-              "reliability": 0.4
-            },
-            "value": "5214020"
-          },
-          {
-            "info": {
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -921,6 +944,12 @@
               }
             ],
             "value": "5214016"
+          },
+          {
+            "info": {
+              "reliability": 0.4
+            },
+            "value": "5214020"
           }
         ],
         "P8448": [
@@ -967,7 +996,23 @@
         ],
         "labels": [
           {
+            "lang": "fr",
+            "value": "gare de Svilengrad"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Svilengrad"
+          },
+          {
             "value": "Svilengrad"
+          },
+          {
+            "lang": "tr",
+            "value": "Svilengrad Garı"
+          },
+          {
+            "lang": "en",
+            "value": "Svilengrad railway station"
           },
           {
             "lang": "pl",
@@ -978,24 +1023,8 @@
             "value": "Железопътна гара Свиленград"
           },
           {
-            "lang": "en",
-            "value": "Svilengrad railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Svilengrad"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Svilengrad"
-          },
-          {
             "lang": "ja",
             "value": "スヴィレングラード駅"
-          },
-          {
-            "lang": "tr",
-            "value": "Svilengrad Garı"
           }
         ]
       },
@@ -1047,10 +1076,10 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q22808404"
           },
           {
-            "value": "Q22808404"
+            "value": "Q55488"
           }
         ],
         "P6724": [
@@ -1068,6 +1097,9 @@
         ],
         "P722": [
           {
+            "value": "5200500"
+          },
+          {
             "info": {
               "reliability": 0.4
             },
@@ -1083,9 +1115,6 @@
               }
             ],
             "value": "5221544"
-          },
-          {
-            "value": "5200500"
           }
         ],
         "P8448": [
@@ -1138,13 +1167,6 @@
         ],
         "labels": [
           {
-            "value": "Sofia"
-          },
-          {
-            "lang": "it",
-            "value": "Stazione di Sofia Centrale"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Sofia Hbf"
           },
@@ -1153,12 +1175,59 @@
             "value": "Bf Sofia Hbf"
           },
           {
-            "lang": "bg",
-            "value": "Централна железопътна гара"
+            "lang": "nl",
+            "value": "Centraal station van Sofia"
           },
           {
-            "lang": "ru",
-            "value": "Центральный вокзал"
+            "lang": "es",
+            "value": "Estacion Central de Sofia"
+          },
+          {
+            "lang": "es",
+            "value": "Estación Central de Sofía"
+          },
+          {
+            "lang": "ro",
+            "value": "gara Centrală din Sofia"
+          },
+          {
+            "lang": "fr",
+            "value": "gare centrale de Sofia"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Sofia"
+          },
+          {
+            "lang": "de",
+            "value": "Hauptbahnhof Sofia"
+          },
+          {
+            "value": "Sofia"
+          },
+          {
+            "lang": "en",
+            "value": "Sofia Central Station"
+          },
+          {
+            "lang": "pl",
+            "value": "Sofia Centralna"
+          },
+          {
+            "lang": "de",
+            "value": "Sofia Hauptbahnhof"
+          },
+          {
+            "lang": "tr",
+            "value": "Sofya Merkez Garı"
+          },
+          {
+            "lang": "it",
+            "value": "Stazione di Sofia Centrale"
+          },
+          {
+            "lang": "hu",
+            "value": "Szófia központi pályaudvar"
           },
           {
             "lang": "bg",
@@ -1169,6 +1238,18 @@
             "value": "Жп гара София"
           },
           {
+            "lang": "uk",
+            "value": "Софія-Центральна"
+          },
+          {
+            "lang": "bg",
+            "value": "Централна гара София"
+          },
+          {
+            "lang": "bg",
+            "value": "Централна железопътна гара"
+          },
+          {
             "lang": "bg",
             "value": "Централна железопътна гара София"
           },
@@ -1177,68 +1258,16 @@
             "value": "Централната гара София"
           },
           {
-            "lang": "bg",
-            "value": "Централна гара София"
-          },
-          {
-            "lang": "de",
-            "value": "Hauptbahnhof Sofia"
-          },
-          {
-            "lang": "de",
-            "value": "Sofia Hauptbahnhof"
-          },
-          {
-            "lang": "es",
-            "value": "Estacion Central de Sofia"
-          },
-          {
-            "lang": "en",
-            "value": "Sofia Central Station"
-          },
-          {
-            "lang": "es",
-            "value": "Estación Central de Sofía"
+            "lang": "ru",
+            "value": "Центральный вокзал"
           },
           {
             "lang": "fa",
             "value": "ایستگاه مرکزی صوفیه"
           },
           {
-            "lang": "fr",
-            "value": "gare de Sofia"
-          },
-          {
-            "lang": "fr",
-            "value": "gare centrale de Sofia"
-          },
-          {
-            "lang": "hu",
-            "value": "Szófia központi pályaudvar"
-          },
-          {
             "lang": "ja",
             "value": "ソフィア中央駅"
-          },
-          {
-            "lang": "nl",
-            "value": "Centraal station van Sofia"
-          },
-          {
-            "lang": "pl",
-            "value": "Sofia Centralna"
-          },
-          {
-            "lang": "ro",
-            "value": "gara Centrală din Sofia"
-          },
-          {
-            "lang": "tr",
-            "value": "Sofya Merkez Garı"
-          },
-          {
-            "lang": "uk",
-            "value": "Софія-Центральна"
           },
           {
             "lang": "zh",
@@ -1306,10 +1335,18 @@
         ],
         "labels": [
           {
+            "value": "Podujane"
+          },
+          {
             "value": "Podujane-Patnicheska"
           },
           {
-            "value": "Podujane"
+            "lang": "en",
+            "value": "Poduyane train station"
+          },
+          {
+            "lang": "ja",
+            "value": "Poduyane駅"
           },
           {
             "lang": "bg",
@@ -1321,6 +1358,10 @@
           },
           {
             "lang": "bg",
+            "value": "Железопътна гара Подуяне"
+          },
+          {
+            "lang": "bg",
             "value": "Жп гара „Подуяне“"
           },
           {
@@ -1328,20 +1369,8 @@
             "value": "Подуяне (гара)"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Подуяне"
-          },
-          {
-            "lang": "en",
-            "value": "Poduyane train station"
-          },
-          {
             "lang": "ja",
             "value": "ポドゥヤネ駅"
-          },
-          {
-            "lang": "ja",
-            "value": "Poduyane駅"
           }
         ]
       },
@@ -1750,12 +1779,12 @@
             "value": "Belovo"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Белово"
-          },
-          {
             "lang": "en",
             "value": "Belovo railway station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Белово"
           }
         ]
       },
@@ -1820,16 +1849,16 @@
             "value": "Septemvri"
           },
           {
-            "lang": "bg",
-            "value": "Септември"
+            "lang": "en",
+            "value": "Septemvri railway station"
           },
           {
             "lang": "bg",
             "value": "Железопътна гара Септември"
           },
           {
-            "lang": "en",
-            "value": "Septemvri railway station"
+            "lang": "bg",
+            "value": "Септември"
           }
         ]
       },
@@ -2158,10 +2187,10 @@
         ],
         "labels": [
           {
-            "value": "Bratsigovo"
+            "value": "Bracigovo"
           },
           {
-            "value": "Bracigovo"
+            "value": "Bratsigovo"
           },
           {
             "lang": "bg",
@@ -2307,10 +2336,10 @@
         ],
         "labels": [
           {
-            "value": "Rp Musachevo"
+            "value": "Musachevo"
           },
           {
-            "value": "Musachevo"
+            "value": "Rp Musachevo"
           },
           {
             "lang": "bg",
@@ -2432,15 +2461,31 @@
         ],
         "labels": [
           {
-            "value": "Plovdiv"
-          },
-          {
-            "lang": "uk",
-            "value": "Центральний залізничний вокзал Пловдива"
+            "lang": "nl",
+            "value": "Centraal station Plovdiv"
           },
           {
             "lang": "sk",
             "value": "Centrálna stanica Plovdiv"
+          },
+          {
+            "lang": "fr",
+            "value": "gare centrale de Plovdiv"
+          },
+          {
+            "lang": "fr",
+            "value": "gare de Plovdiv"
+          },
+          {
+            "value": "Plovdiv"
+          },
+          {
+            "lang": "en",
+            "value": "Plovdiv Central railway station"
+          },
+          {
+            "lang": "pl",
+            "value": "Płowdiw"
           },
           {
             "lang": "bg",
@@ -2451,24 +2496,8 @@
             "value": "Централна гара Пловдив"
           },
           {
-            "lang": "en",
-            "value": "Plovdiv Central railway station"
-          },
-          {
-            "lang": "fr",
-            "value": "gare de Plovdiv"
-          },
-          {
-            "lang": "fr",
-            "value": "gare centrale de Plovdiv"
-          },
-          {
-            "lang": "nl",
-            "value": "Centraal station Plovdiv"
-          },
-          {
-            "lang": "pl",
-            "value": "Płowdiw"
+            "lang": "uk",
+            "value": "Центральний залізничний вокзал Пловдива"
           },
           {
             "lang": "zh",
@@ -2804,10 +2833,10 @@
         ],
         "labels": [
           {
-            "value": "Yabalkovo"
+            "value": "Jabalkovo"
           },
           {
-            "value": "Jabalkovo"
+            "value": "Yabalkovo"
           },
           {
             "lang": "bg",
@@ -2850,13 +2879,13 @@
         ],
         "P722": [
           {
+            "value": "5200001"
+          },
+          {
             "info": {
               "reliability": 0.4
             },
             "value": "5218610"
-          },
-          {
-            "value": "5200001"
           }
         ],
         "P954": [
@@ -2874,12 +2903,20 @@
             "value": "Asenovgrad"
           },
           {
+            "lang": "pl",
+            "value": "Asenowgrad"
+          },
+          {
             "lang": "bg",
             "value": "Асеновград"
           },
           {
-            "lang": "pl",
-            "value": "Asenowgrad"
+            "lang": "ru",
+            "value": "Железнодорожный вокзал Асеновграда"
+          },
+          {
+            "lang": "bg",
+            "value": "железопътна гара Асеновград"
           },
           {
             "lang": "bg",
@@ -2888,14 +2925,6 @@
           {
             "lang": "bg",
             "value": "жп гара Асеновград"
-          },
-          {
-            "lang": "bg",
-            "value": "железопътна гара Асеновград"
-          },
-          {
-            "lang": "ru",
-            "value": "Железнодорожный вокзал Асеновграда"
           }
         ]
       },
@@ -3062,12 +3091,12 @@
             "value": "Rebrovo"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Реброво"
-          },
-          {
             "lang": "en",
             "value": "Rebrovo train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Реброво"
           }
         ]
       },
@@ -3132,16 +3161,16 @@
             "value": "Svoge"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Своге"
-          },
-          {
             "lang": "en",
             "value": "Svoge train station"
           },
           {
             "lang": "pl",
             "value": "Swoge (stacja kolejowa)"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Своге"
           }
         ]
       },
@@ -3257,12 +3286,12 @@
             "value": "Lakatnik"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Лакатник"
-          },
-          {
             "lang": "en",
             "value": "Lakatnik train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Лакатник"
           }
         ]
       },
@@ -3314,10 +3343,10 @@
         ],
         "labels": [
           {
-            "value": "Eliseyna"
+            "value": "Elisejna"
           },
           {
-            "value": "Elisejna"
+            "value": "Eliseyna"
           },
           {
             "lang": "bg",
@@ -3502,25 +3531,6 @@
         ],
         "labels": [
           {
-            "value": "Gorna Orjahovica"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Горна Оряховица"
-          },
-          {
-            "lang": "bg",
-            "value": "жп гара Горна Оряховица"
-          },
-          {
-            "lang": "bg",
-            "value": "железопътна гара Горна Оряховица"
-          },
-          {
-            "lang": "en",
-            "value": "Gorna Oryahovitsa Railway Station"
-          },
-          {
             "lang": "ro",
             "value": "Gara Gorna Oreahovița"
           },
@@ -3529,12 +3539,31 @@
             "value": "Gare de Gorna Orjahovica"
           },
           {
+            "lang": "pl",
+            "value": "Gorna Orjachowica"
+          },
+          {
+            "value": "Gorna Orjahovica"
+          },
+          {
+            "lang": "en",
+            "value": "Gorna Oryahovitsa Railway Station"
+          },
+          {
             "lang": "bg",
             "value": "Горна Оряховица"
           },
           {
-            "lang": "pl",
-            "value": "Gorna Orjachowica"
+            "lang": "bg",
+            "value": "железопътна гара Горна Оряховица"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Горна Оряховица"
+          },
+          {
+            "lang": "bg",
+            "value": "жп гара Горна Оряховица"
           }
         ]
       },
@@ -3642,10 +3671,10 @@
         ],
         "labels": [
           {
-            "value": "Strazhitsa"
+            "value": "Strazhica"
           },
           {
-            "value": "Strazhica"
+            "value": "Strazhitsa"
           },
           {
             "lang": "bg",
@@ -4310,10 +4339,10 @@
         ],
         "labels": [
           {
-            "value": "Cherven Bryag"
+            "value": "Cherven Briag"
           },
           {
-            "value": "Cherven Briag"
+            "value": "Cherven Bryag"
           },
           {
             "lang": "bg",
@@ -4372,12 +4401,12 @@
             "value": "Telish"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Телиш"
-          },
-          {
             "lang": "en",
             "value": "Telish train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Телиш"
           }
         ]
       },
@@ -4541,10 +4570,10 @@
         ],
         "labels": [
           {
-            "value": "Yasen"
+            "value": "Jasen"
           },
           {
-            "value": "Jasen"
+            "value": "Yasen"
           },
           {
             "lang": "bg",
@@ -4659,12 +4688,12 @@
             "value": "Pleven"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Плевен"
-          },
-          {
             "lang": "en",
             "value": "Pleven train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Плевен"
           }
         ]
       },
@@ -4792,7 +4821,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "BG27202-5200416",
+      "id": "BG27202-5200416-Q97325940",
       "properties": {
         "P17": [
           {
@@ -4801,6 +4830,11 @@
               "reliability": 0
             },
             "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -4813,7 +4847,16 @@
         ],
         "P954": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "5200416"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q97325940"
           }
         ],
         "labels": [
@@ -4821,7 +4864,15 @@
             "value": "Dolna Mitropolia"
           },
           {
+            "lang": "en",
+            "value": "Dolna Mitropolia railway station"
+          },
+          {
             "value": "Dolna Mitropolija"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Долна Митрополия"
           }
         ]
       },
@@ -4980,10 +5031,10 @@
         ],
         "labels": [
           {
-            "value": "Doyrentsi"
+            "value": "Dojrenci"
           },
           {
-            "value": "Dojrenci"
+            "value": "Doyrentsi"
           },
           {
             "lang": "bg",
@@ -5047,16 +5098,16 @@
             "value": "Lovech"
           },
           {
-            "lang": "bg",
-            "value": "Ловеч"
+            "lang": "pl",
+            "value": "Łowecz"
           },
           {
             "lang": "bg",
             "value": "Железопътна гара Ловеч"
           },
           {
-            "lang": "pl",
-            "value": "Łowecz"
+            "lang": "bg",
+            "value": "Ловеч"
           }
         ]
       },
@@ -5108,10 +5159,10 @@
         ],
         "labels": [
           {
-            "value": "Rp Lovech Sever"
+            "value": "Lovech Sever"
           },
           {
-            "value": "Lovech Sever"
+            "value": "Rp Lovech Sever"
           },
           {
             "lang": "bg",
@@ -5167,10 +5218,10 @@
         ],
         "labels": [
           {
-            "value": "Troyan"
+            "value": "Trojan"
           },
           {
-            "value": "Trojan"
+            "value": "Troyan"
           },
           {
             "lang": "bg",
@@ -5341,15 +5392,15 @@
             "value": "Svishtov"
           },
           {
+            "lang": "en",
+            "value": "Svishtov train station"
+          },
+          {
             "value": "Svistov"
           },
           {
             "lang": "bg",
             "value": "Железопътна гара Свищов"
-          },
-          {
-            "lang": "en",
-            "value": "Svishtov train station"
           }
         ]
       },
@@ -5730,47 +5781,15 @@
         ],
         "labels": [
           {
-            "value": "Varna"
-          },
-          {
-            "lang": "en",
-            "value": "Varna railway station"
-          },
-          {
-            "lang": "bg",
-            "value": "ЖП гара Варна"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Варна"
+            "lang": "pl",
+            "value": "Dworzec kolejowy Warna"
           },
           {
             "lang": "fr",
             "value": "gare de Varna"
           },
           {
-            "lang": "hu",
-            "value": "Várna vasútállomás"
-          },
-          {
-            "lang": "ja",
-            "value": "ヴァルナ駅"
-          },
-          {
-            "lang": "uk",
-            "value": "Варна (станція)"
-          },
-          {
-            "lang": "zh",
-            "value": "瓦爾納車站"
-          },
-          {
-            "lang": "ro",
             "value": "Varna"
-          },
-          {
-            "lang": "pl",
-            "value": "Warna"
           },
           {
             "lang": "cs",
@@ -5781,8 +5800,40 @@
             "value": "Varna"
           },
           {
+            "lang": "ro",
+            "value": "Varna"
+          },
+          {
+            "lang": "en",
+            "value": "Varna railway station"
+          },
+          {
+            "lang": "hu",
+            "value": "Várna vasútállomás"
+          },
+          {
             "lang": "pl",
-            "value": "Dworzec kolejowy Warna"
+            "value": "Warna"
+          },
+          {
+            "lang": "uk",
+            "value": "Варна (станція)"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Варна"
+          },
+          {
+            "lang": "bg",
+            "value": "ЖП гара Варна"
+          },
+          {
+            "lang": "ja",
+            "value": "ヴァルナ駅"
+          },
+          {
+            "lang": "zh",
+            "value": "瓦爾納車站"
           }
         ]
       },
@@ -5985,12 +6036,12 @@
             "value": "Dobrich"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Добрич"
-          },
-          {
             "lang": "en",
             "value": "Dobrich Train Station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Добрич"
           }
         ]
       },
@@ -6144,10 +6195,10 @@
         ],
         "labels": [
           {
-            "value": "Svetovrachane"
+            "value": "Svetovracene"
           },
           {
-            "value": "Svetovracene"
+            "value": "Svetovrachane"
           },
           {
             "lang": "bg",
@@ -6203,10 +6254,10 @@
         ],
         "labels": [
           {
-            "value": "Kremikovtci"
+            "value": "Kremikovci"
           },
           {
-            "value": "Kremikovci"
+            "value": "Kremikovtci"
           },
           {
             "lang": "bg",
@@ -6262,10 +6313,10 @@
         ],
         "labels": [
           {
-            "value": "Yana"
+            "value": "Jana"
           },
           {
-            "value": "Jana"
+            "value": "Yana"
           },
           {
             "lang": "bg",
@@ -6377,10 +6428,10 @@
         ],
         "labels": [
           {
-            "value": "Sarantsi"
+            "value": "Saranci"
           },
           {
-            "value": "Saranci"
+            "value": "Sarantsi"
           },
           {
             "lang": "bg",
@@ -6436,10 +6487,10 @@
         ],
         "labels": [
           {
-            "value": "Makotsevo"
+            "value": "Makocevo"
           },
           {
-            "value": "Makocevo"
+            "value": "Makotsevo"
           },
           {
             "lang": "en",
@@ -6499,10 +6550,10 @@
         ],
         "labels": [
           {
-            "value": "Dolno Kamartsi"
+            "value": "Dolno Kamarci"
           },
           {
-            "value": "Dolno Kamarci"
+            "value": "Dolno Kamartsi"
           },
           {
             "lang": "bg",
@@ -6670,10 +6721,10 @@
         ],
         "labels": [
           {
-            "value": "Zlatitsa"
+            "value": "Zlatica"
           },
           {
-            "value": "Zlatica"
+            "value": "Zlatitsa"
           },
           {
             "lang": "bg",
@@ -6732,12 +6783,12 @@
             "value": "Pirdop"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Пирдоп"
-          },
-          {
             "lang": "en",
             "value": "Pirdop train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Пирдоп"
           }
         ]
       },
@@ -6827,10 +6878,10 @@
         ],
         "P276": [
           {
-            "value": "Q6435357"
+            "value": "Q12283320"
           },
           {
-            "value": "Q12283320"
+            "value": "Q6435357"
           }
         ],
         "P31": [
@@ -6858,10 +6909,18 @@
         ],
         "labels": [
           {
+            "value": "Koprivshtica"
+          },
+          {
             "value": "Koprivshtitsa"
           },
           {
-            "value": "Koprivshtica"
+            "lang": "en",
+            "value": "Koprivshtitsa train station"
+          },
+          {
+            "lang": "bg",
+            "value": "гара Копривщица"
           },
           {
             "lang": "bg",
@@ -6870,14 +6929,6 @@
           {
             "lang": "bg",
             "value": "Копривщица (железопътна гара)"
-          },
-          {
-            "lang": "bg",
-            "value": "гара Копривщица"
-          },
-          {
-            "lang": "en",
-            "value": "Koprivshtitsa train station"
           }
         ]
       },
@@ -6929,10 +6980,10 @@
         ],
         "labels": [
           {
-            "value": "Stryama"
+            "value": "Strjama"
           },
           {
-            "value": "Strjama"
+            "value": "Stryama"
           },
           {
             "lang": "bg",
@@ -7212,12 +7263,12 @@
             "value": "Karlovo"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Карлово"
-          },
-          {
             "lang": "en",
             "value": "Karlovo train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Карлово"
           }
         ]
       },
@@ -7493,10 +7544,10 @@
         ],
         "labels": [
           {
-            "value": "Dunavtci"
+            "value": "Dunavci"
           },
           {
-            "value": "Dunavci"
+            "value": "Dunavtci"
           },
           {
             "lang": "bg",
@@ -7832,10 +7883,10 @@
         ],
         "labels": [
           {
-            "value": "Shivachevo"
+            "value": "Shivacevo"
           },
           {
-            "value": "Shivacevo"
+            "value": "Shivachevo"
           },
           {
             "lang": "bg",
@@ -8003,10 +8054,10 @@
         ],
         "labels": [
           {
-            "value": "Zhelyu Voyvoda"
+            "value": "Gely Vojvoda"
           },
           {
-            "value": "Gely Vojvoda"
+            "value": "Zhelyu Voyvoda"
           },
           {
             "lang": "bg",
@@ -8065,24 +8116,24 @@
             "value": "Zimnica"
           },
           {
-            "lang": "bg",
-            "value": "ЖП гара Зимница"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Зимница"
-          },
-          {
-            "lang": "en",
-            "value": "Zimnitsa station"
+            "lang": "pl",
+            "value": "Zimnica"
           },
           {
             "lang": "en",
             "value": "Zimnitsa"
           },
           {
-            "lang": "pl",
-            "value": "Zimnica"
+            "lang": "en",
+            "value": "Zimnitsa station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Зимница"
+          },
+          {
+            "lang": "bg",
+            "value": "ЖП гара Зимница"
           }
         ]
       },
@@ -8134,10 +8185,10 @@
         ],
         "labels": [
           {
-            "value": "Straldzha"
+            "value": "Straldza"
           },
           {
-            "value": "Straldza"
+            "value": "Straldzha"
           },
           {
             "lang": "bg",
@@ -8736,12 +8787,12 @@
             "value": "Dalgopol"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Дългопол"
-          },
-          {
             "lang": "en",
             "value": "Dalgopol train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Дългопол"
           }
         ]
       },
@@ -9443,6 +9494,11 @@
             "value": "Q55678"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -9466,20 +9522,20 @@
             "value": "Dolapite"
           },
           {
-            "lang": "bg",
-            "value": "Жп гара Долапите"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Долапите"
+            "lang": "hu",
+            "value": "Dolapite megállóhely"
           },
           {
             "lang": "en",
             "value": "Dolapite railway station"
           },
           {
-            "lang": "hu",
-            "value": "Dolapite megállóhely"
+            "lang": "bg",
+            "value": "Железопътна гара Долапите"
+          },
+          {
+            "lang": "bg",
+            "value": "Жп гара Долапите"
           }
         ]
       },
@@ -9531,10 +9587,10 @@
         ],
         "labels": [
           {
-            "value": "Raduntsi"
+            "value": "Radunci"
           },
           {
-            "value": "Radunci"
+            "value": "Raduntsi"
           },
           {
             "lang": "bg",
@@ -9873,10 +9929,10 @@
         ],
         "labels": [
           {
-            "value": "Debelets"
+            "value": "Debelec"
           },
           {
-            "value": "Debelec"
+            "value": "Debelets"
           },
           {
             "lang": "bg",
@@ -9996,12 +10052,12 @@
             "value": "Gabrovo"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Габрово"
-          },
-          {
             "lang": "en",
             "value": "Gabrovo Railway Station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Габрово"
           }
         ]
       },
@@ -10389,10 +10445,10 @@
         ],
         "labels": [
           {
-            "value": "Kaloyanovets"
+            "value": "Kalojanovec"
           },
           {
-            "value": "Kalojanovec"
+            "value": "Kaloyanovets"
           },
           {
             "lang": "bg",
@@ -10451,12 +10507,12 @@
             "value": "Stara Zagora"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Стара Загора"
-          },
-          {
             "lang": "en",
             "value": "Stara Zagora train station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Стара Загора"
           }
         ]
       },
@@ -10630,35 +10686,35 @@
         ],
         "labels": [
           {
-            "value": "Ruse"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Русе"
-          },
-          {
-            "lang": "en",
-            "value": "Ruse Central railway station"
+            "lang": "ro",
+            "value": "Gara Ruse"
           },
           {
             "lang": "fr",
             "value": "gare centrale de Roussé"
           },
           {
-            "lang": "bg",
-            "value": "Железопътен възел Русе"
-          },
-          {
             "lang": "fr",
             "value": "gare de Roussé"
+          },
+          {
+            "value": "Ruse"
+          },
+          {
+            "lang": "en",
+            "value": "Ruse Central railway station"
           },
           {
             "lang": "hu",
             "value": "Rusze vasútállomás"
           },
           {
-            "lang": "ro",
-            "value": "Gara Ruse"
+            "lang": "bg",
+            "value": "Железопътен възел Русе"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Русе"
           }
         ]
       },
@@ -10772,15 +10828,15 @@
         ],
         "labels": [
           {
+            "lang": "en",
+            "value": "Zaharna fabrika"
+          },
+          {
             "value": "Zaharna Fabrika"
           },
           {
             "lang": "bg",
             "value": "Железопътна гара Захарна фабрика"
-          },
-          {
-            "lang": "en",
-            "value": "Zaharna fabrika"
           }
         ]
       },
@@ -10817,6 +10873,11 @@
             "value": "Q928830"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -10837,14 +10898,18 @@
         ],
         "labels": [
           {
-            "value": "Gorna Banya"
+            "lang": "fr",
+            "value": "Gorna banïa"
           },
           {
             "value": "Gorna Banja"
           },
           {
-            "lang": "bg",
-            "value": "Метростанция „Горна Баня“"
+            "lang": "en",
+            "value": "Gorna banya"
+          },
+          {
+            "value": "Gorna Banya"
           },
           {
             "lang": "en",
@@ -10856,23 +10921,19 @@
           },
           {
             "lang": "en",
-            "value": "Gorna banya"
-          },
-          {
-            "lang": "en",
             "value": "Горна баня"
           },
           {
             "lang": "fr",
             "value": "Горна баня"
-          },
-          {
-            "lang": "fr",
-            "value": "Gorna banïa"
           },
           {
             "lang": "ru",
             "value": "Горна баня (станция метро)"
+          },
+          {
+            "lang": "bg",
+            "value": "Метростанция „Горна Баня“"
           }
         ]
       },
@@ -10924,10 +10985,10 @@
         ],
         "labels": [
           {
-            "value": "Vladaya"
+            "value": "Vladaja"
           },
           {
-            "value": "Vladaja"
+            "value": "Vladaya"
           },
           {
             "lang": "bg",
@@ -11095,10 +11156,10 @@
         ],
         "labels": [
           {
-            "value": "Dolni Rakovets"
+            "value": "Dolni Rakovec"
           },
           {
-            "value": "Dolni Rakovec"
+            "value": "Dolni Rakovets"
           },
           {
             "lang": "bg",
@@ -11154,10 +11215,10 @@
         ],
         "labels": [
           {
-            "value": "Rp Galabnik"
+            "value": "Galbnik"
           },
           {
-            "value": "Galbnik"
+            "value": "Rp Galabnik"
           },
           {
             "lang": "bg",
@@ -11213,10 +11274,10 @@
         ],
         "labels": [
           {
-            "value": "Delyan"
+            "value": "Deljan"
           },
           {
-            "value": "Deljan"
+            "value": "Delyan"
           },
           {
             "lang": "bg",
@@ -11272,10 +11333,10 @@
         ],
         "labels": [
           {
-            "value": "Dyakovo"
+            "value": "Djakovo"
           },
           {
-            "value": "Djakovo"
+            "value": "Dyakovo"
           },
           {
             "lang": "bg",
@@ -11331,10 +11392,10 @@
         ],
         "labels": [
           {
-            "value": "Dupnitsa"
+            "value": "Dupnica"
           },
           {
-            "value": "Dupnica"
+            "value": "Dupnitsa"
           },
           {
             "lang": "en",
@@ -11514,8 +11575,16 @@
             "value": "Blagoevgrad"
           },
           {
+            "lang": "pl",
+            "value": "Błagojewgrad"
+          },
+          {
             "lang": "bg",
             "value": "Благоевград"
+          },
+          {
+            "lang": "bg",
+            "value": "железопътна гара Благоевград"
           },
           {
             "lang": "bg",
@@ -11524,14 +11593,6 @@
           {
             "lang": "bg",
             "value": "жп гара Благоевград"
-          },
-          {
-            "lang": "bg",
-            "value": "железопътна гара Благоевград"
-          },
-          {
-            "lang": "pl",
-            "value": "Błagojewgrad"
           }
         ]
       },
@@ -11695,10 +11756,10 @@
         ],
         "labels": [
           {
-            "value": "Peyo Yavorov"
+            "value": "Peju Javorov"
           },
           {
-            "value": "Peju Javorov"
+            "value": "Peyo Yavorov"
           },
           {
             "lang": "bg",
@@ -11810,10 +11871,10 @@
         ],
         "labels": [
           {
-            "value": "Strumyani"
+            "value": "Strumjani"
           },
           {
-            "value": "Strumjani"
+            "value": "Strumyani"
           },
           {
             "lang": "bg",
@@ -11925,10 +11986,10 @@
         ],
         "labels": [
           {
-            "value": "Damyanitsa"
+            "value": "Damjanica"
           },
           {
-            "value": "Damjanica"
+            "value": "Damyanitsa"
           },
           {
             "lang": "bg",
@@ -12043,19 +12104,19 @@
         ],
         "labels": [
           {
-            "value": "Kulata"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Кулата"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Kulata"
           },
           {
             "lang": "es",
             "value": "estación Kulata"
+          },
+          {
+            "value": "Kulata"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Кулата"
           }
         ]
       },
@@ -12107,10 +12168,10 @@
         ],
         "labels": [
           {
-            "value": "Petrich"
+            "value": "Petric"
           },
           {
-            "value": "Petric"
+            "value": "Petrich"
           },
           {
             "lang": "bg",
@@ -12456,26 +12517,10 @@
         ],
         "labels": [
           {
-            "value": "Vratsa"
-          },
-          {
             "value": "Vraca"
           },
           {
-            "lang": "bg",
-            "value": "Враца"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Враца"
-          },
-          {
-            "lang": "bg",
-            "value": "жп гара Враца"
-          },
-          {
-            "lang": "bg",
-            "value": "железопътна гара Враца"
+            "value": "Vratsa"
           },
           {
             "lang": "en",
@@ -12484,6 +12529,22 @@
           {
             "lang": "pl",
             "value": "Wraca"
+          },
+          {
+            "lang": "bg",
+            "value": "Враца"
+          },
+          {
+            "lang": "bg",
+            "value": "железопътна гара Враца"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Враца"
+          },
+          {
+            "lang": "bg",
+            "value": "жп гара Враца"
           }
         ]
       },
@@ -12647,10 +12708,10 @@
         ],
         "labels": [
           {
-            "value": "Boychinovtsi"
+            "value": "Bojchinovci"
           },
           {
-            "value": "Bojchinovci"
+            "value": "Boychinovtsi"
           },
           {
             "lang": "bg",
@@ -12762,10 +12823,10 @@
         ],
         "labels": [
           {
-            "value": "Medkovets"
+            "value": "Medkovec"
           },
           {
-            "value": "Medkovec"
+            "value": "Medkovets"
           },
           {
             "lang": "bg",
@@ -12821,10 +12882,10 @@
         ],
         "labels": [
           {
-            "value": "Brusartsi"
+            "value": "Brusarci"
           },
           {
-            "value": "Brusarci"
+            "value": "Brusartsi"
           },
           {
             "lang": "bg",
@@ -12880,10 +12941,10 @@
         ],
         "labels": [
           {
-            "value": "Drenovets"
+            "value": "Drenovec"
           },
           {
-            "value": "Drenovec"
+            "value": "Drenovets"
           },
           {
             "lang": "bg",
@@ -12939,10 +13000,10 @@
         ],
         "labels": [
           {
-            "value": "Oreshets"
+            "value": "Oreshec"
           },
           {
-            "value": "Oreshec"
+            "value": "Oreshets"
           },
           {
             "lang": "bg",
@@ -13054,10 +13115,10 @@
         ],
         "labels": [
           {
-            "value": "Sratsimir"
+            "value": "Sracimir"
           },
           {
-            "value": "Sracimir"
+            "value": "Sratsimir"
           },
           {
             "lang": "bg",
@@ -13187,18 +13248,8 @@
         ],
         "labels": [
           {
-            "value": "Vidin Patnicheska"
-          },
-          {
-            "value": "Vidin"
-          },
-          {
             "lang": "de",
             "value": "Bahnhof Vidin"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Видин"
           },
           {
             "lang": "de",
@@ -13209,16 +13260,26 @@
             "value": "estación de Vidin"
           },
           {
-            "lang": "en",
-            "value": "Vidin railway station"
-          },
-          {
             "lang": "es",
             "value": "estación Vidin"
           },
           {
             "lang": "ro",
             "value": "Gara Vidin"
+          },
+          {
+            "value": "Vidin"
+          },
+          {
+            "value": "Vidin Patnicheska"
+          },
+          {
+            "lang": "en",
+            "value": "Vidin railway station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Видин"
           }
         ]
       },
@@ -13357,18 +13418,18 @@
         ],
         "labels": [
           {
-            "value": "Berkovitsa"
-          },
-          {
             "value": "Berkovica"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Берковица"
+            "value": "Berkovitsa"
           },
           {
             "lang": "sv",
             "value": "Berkovitsa Train Station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Берковица"
           }
         ]
       },
@@ -13485,11 +13546,11 @@
           },
           {
             "lang": "bg",
-            "value": "Филипово"
+            "value": "Железопътна гара Филипово"
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Филипово"
+            "value": "Филипово"
           }
         ]
       },
@@ -13993,10 +14054,10 @@
         ],
         "labels": [
           {
-            "value": "Panagyurishte"
+            "value": "Panagyriste"
           },
           {
-            "value": "Panagyriste"
+            "value": "Panagyurishte"
           },
           {
             "lang": "bg",
@@ -14164,10 +14225,10 @@
         ],
         "labels": [
           {
-            "value": "Kaloyanovo"
+            "value": "Kalojanovo"
           },
           {
-            "value": "Kalojanovo"
+            "value": "Kaloyanovo"
           },
           {
             "lang": "bg",
@@ -14446,11 +14507,11 @@
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Айтос"
+            "value": "Айтос"
           },
           {
             "lang": "bg",
-            "value": "Айтос"
+            "value": "Железопътна гара Айтос"
           }
         ]
       },
@@ -14784,12 +14845,8 @@
             "value": "Burgas"
           },
           {
-            "lang": "bg",
-            "value": "жп гара Бургас"
-          },
-          {
-            "lang": "bg",
-            "value": "централна гара Бургас"
+            "lang": "pl",
+            "value": "Burgas"
           },
           {
             "lang": "en",
@@ -14804,20 +14861,24 @@
             "value": "gare de Bourgas"
           },
           {
+            "lang": "bg",
+            "value": "Бургас"
+          },
+          {
             "lang": "uk",
             "value": "Бургас (станція)"
           },
           {
             "lang": "bg",
-            "value": "Бургас"
-          },
-          {
-            "lang": "pl",
-            "value": "Burgas"
+            "value": "Железопътна гара Бургас"
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Бургас"
+            "value": "жп гара Бургас"
+          },
+          {
+            "lang": "bg",
+            "value": "централна гара Бургас"
           }
         ]
       },
@@ -15213,10 +15274,10 @@
         ],
         "labels": [
           {
-            "value": "Yambol"
+            "value": "Jambol"
           },
           {
-            "value": "Jambol"
+            "value": "Yambol"
           },
           {
             "lang": "en",
@@ -15224,11 +15285,11 @@
           },
           {
             "lang": "bg",
-            "value": "Ямбол (жп гара)"
+            "value": "Железопътна гара Ямбол"
           },
           {
             "lang": "bg",
-            "value": "Железопътна гара Ямбол"
+            "value": "Ямбол (жп гара)"
           }
         ]
       },
@@ -15434,22 +15495,11 @@
         ],
         "labels": [
           {
-            "value": "Obraztsov Chiflik"
+            "lang": "ro",
+            "value": "gara Obraztsov Chiflik"
           },
           {
             "value": "Obrazcov Ciflik"
-          },
-          {
-            "lang": "en",
-            "value": "Obraztsov Chiflik railway station"
-          },
-          {
-            "lang": "bg",
-            "value": "Образцов чифлик"
-          },
-          {
-            "lang": "bg",
-            "value": "Железопътна гара Образцов чифлик"
           },
           {
             "lang": "cs",
@@ -15460,8 +15510,19 @@
             "value": "Obrazcov Csiflik vasútállomás"
           },
           {
-            "lang": "ro",
-            "value": "gara Obraztsov Chiflik"
+            "value": "Obraztsov Chiflik"
+          },
+          {
+            "lang": "en",
+            "value": "Obraztsov Chiflik railway station"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Образцов чифлик"
+          },
+          {
+            "lang": "bg",
+            "value": "Образцов чифлик"
           }
         ]
       },
@@ -15521,12 +15582,12 @@
             "value": "Jastrebovo"
           },
           {
-            "lang": "bg",
-            "value": "Железопътна гара Ястребово"
-          },
-          {
             "lang": "hu",
             "value": "Jasztrebovo megállóhely"
+          },
+          {
+            "lang": "bg",
+            "value": "Железопътна гара Ястребово"
           }
         ]
       },
@@ -16074,16 +16135,27 @@
     {
       "geometry": {
         "coordinates": [
-          22.84921,
-          42.97704
+          [
+            22.84921,
+            42.97704
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "BG99093",
+      "id": "BG99093-Q115790411",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q219"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55488"
           }
         ],
         "P722": [
@@ -16094,9 +16166,18 @@
             "value": "5299093"
           }
         ],
+        "PWIKI": [
+          {
+            "value": "Q115790411"
+          }
+        ],
         "labels": [
           {
-            "value": "KALOTINA STRELKA 2"
+            "lang": "en",
+            "value": "Kalotina railway station"
+          },
+          {
+            "value": "Kalotina Strelka 2"
           }
         ]
       },
