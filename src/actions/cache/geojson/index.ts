@@ -1,19 +1,22 @@
 import { featureCollection, Feature, FeatureCollection } from "@turf/turf";
-import { Location } from "../../../types/location";
+import { Location, Claims } from "../../../types/location";
 
 export const createFeatureCollection = (
   features: Location[]
 ): FeatureCollection => {
-  // Sort labels
+  // Sort properties
   features.forEach((item) => {
-    if (!item.properties?.labels) return;
-
-    item.properties.labels = item.properties?.labels.sort((a, b) => {
-      return (
-        a.value?.localeCompare?.(b.value) ||
-        (b.lang && a.lang?.localeCompare?.(b.lang)) ||
-        0
-      );
+    Object.keys(item.properties).forEach((k: any) => {
+      const key: keyof Claims | "labels" = k;
+      item.properties[key] = item.properties[key]!.sort((a, b) => {
+        return (
+          (b.value && a.value?.localeCompare?.(b.value)) ||
+          (typeof b.lang === "string" &&
+            typeof a.lang === "string" &&
+            a.lang?.localeCompare?.(b.lang)) ||
+          0
+        );
+      }) as any;
     });
   });
 
