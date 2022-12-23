@@ -16,3 +16,7 @@
 .wrapper {
     max-width: calc(1440px - (30px * 2));
 }
+
+.mark-empty:empty {
+    background-color: orangered;
+}

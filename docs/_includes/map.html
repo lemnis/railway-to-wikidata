@@ -108,7 +108,7 @@
         euafr.addLayer(L.geoJSON(json, {
           onEachFeature,
           pointToLayer: (feature, coordinates) => L.marker(coordinates, { icon: Icon(0) })
-        });
+        }))
         layerControl.addOverlay(euafr, "Euafr");
       });
 
@@ -121,6 +121,6 @@
           const topoLayer = new L.TopoJSON();
           topoLayer.addData(data);
           layerControl.addOverlay(topoLayer, "Tracks");
-        }, () => console.error('The track seems broken.');
+        }, () => console.error('The track seems broken.'));
     {% endif %}
 </script>
