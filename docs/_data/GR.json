@@ -17351,15 +17351,21 @@
     {
       "geometry": {
         "coordinates": [
-          26.29199981689453,
-          41.035728454589844
+          [
+            26.29199981689453,
+            41.035728454589844
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΤΥΧΕ",
+      "id": "ΤΥΧΕ-Q104848849",
       "properties": {
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
           }
         ],
@@ -17368,13 +17374,31 @@
             "value": "ΤΥΧΕ"
           }
         ],
+        "P31": [
+          {
+            "value": "Q55488"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q104848849"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
             "lang": "en",
             "value": "Tychero"
+          },
+          {
+            "lang": "en",
+            "value": "Tychero railway station"
           },
           {
             "lang": "el",
