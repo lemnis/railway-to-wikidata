@@ -7,7 +7,9 @@ export const createFeatureCollection = (
   // Sort properties
   features.forEach((item) => {
     Object.keys(item.properties).forEach((k: any) => {
-      const key: keyof Claims | "labels" = k;
+      const key: keyof Location['properties'] = k;
+      if(key === 'info') return;
+
       item.properties[key] = item.properties[key]!.sort((a, b) => {
         return (
           (b.value && a.value?.localeCompare?.(b.value)) ||

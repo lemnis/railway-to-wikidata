@@ -51,14 +51,13 @@ const getPkp = async () => {
         coordinates,
         {
           labels: [{ value: stop_name }],
-          [CodeIssuer.UIC]: [
-            {
-              value: (
-                country.UIC?.[0]! * 100000 +
-                Math.floor((id as any) / 10)
-              ).toString(),
-            },
-          ],
+          ...(country === Country.Poland
+            ? {
+                [CodeIssuer.UIC]: [
+                  { value: Country.Poland.UIC?.[0]?.toString() + id },
+                ],
+              }
+            : {}),
           [Property.Country]: [{ value: country.wikidata }],
         },
         { id }
@@ -79,28 +78,29 @@ export const getLocations = async () => {
     stationsNested
       .flat()
       .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
+        const coordinates: [number, number] = [stop_lon, stop_lat];
+        const country = findCountryByAlpha2(
+          feature(coordinates)?.properties.iso1A2!
+        )!;
         const stationCode =
-          typeof id === "number" ? id : id?.match(/^[0-9]{5}/)?.[0];
+          typeof id === "number"
+            ? id.toString().slice(0, 5)
+            : id?.match(/^[0-9]{5}/)?.[0];
 
         return point(
-          [stop_lon, stop_lat],
+          coordinates,
           {
             labels: [{ value: stop_name }],
-            ...(stationCode
+            ...(stationCode && country === Country.Poland
               ? {
                   [CodeIssuer.UIC]: [
                     {
-                      value: (
-                        Country.Poland.UIC?.[0] * 100000 +
-                        parseFloat(stationCode.toString())
-                      ).toString(),
+                      value: Country.Poland.UIC?.[0] + stationCode,
                     },
                   ],
                 }
               : {}),
-            [Property.Country]: [
-              { value: feature([stop_lon, stop_lat])?.properties.wikidata },
-            ],
+            [Property.Country]: [{ value: country?.wikidata }],
           },
           { id }
         );

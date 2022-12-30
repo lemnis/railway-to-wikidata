@@ -14,8 +14,6 @@ export const getLocations = async () => {
     "ro-gov"
   );
 
-  console.log(data?.[0]);
-
   return data
     .map<Location>(({ stop_id, stop_lat, stop_lon, stop_name }) => {
       const coordinates = [stop_lon, stop_lat] as [number, number];

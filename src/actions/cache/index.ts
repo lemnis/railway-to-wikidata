@@ -75,7 +75,7 @@ const questions = [
       { value: "pt-cp", checked: true },
       { value: "ro-gov", checked: true },
       { value: "sk-zsr", checked: true },
-      { value: "uk-atoc", checked: true },
+      { value: "gb-atoc", checked: true },
       {
         value: "_trainline",
         short: "trainline",

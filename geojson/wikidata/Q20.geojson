@@ -1771,6 +1771,10 @@
             "value": "Skogmo stasjon"
           },
           {
+            "lang": "en",
+            "value": "Skogmo Station"
+          },
+          {
             "lang": "nb",
             "value": "Skogmo stoppested"
           }
@@ -3297,6 +3301,59 @@
       "geometry": {
         "coordinates": [
           [
+            11.196935,
+            59.958572
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "Q115869212",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q57082"
+          },
+          {
+            "value": "Q60806432"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q20"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q115485166"
+          }
+        ],
+        "P625": [],
+        "PWIKI": [
+          {
+            "value": "Q115869212"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "nb",
+            "value": "Roven stasjon"
+          },
+          {
+            "lang": "nn",
+            "value": "Roven stasjon"
+          },
+          {
+            "lang": "en",
+            "value": "Roven Station"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             12.4938,
             64.5686
           ]
@@ -4293,16 +4350,20 @@
         ],
         "labels": [
           {
-            "lang": "en",
+            "lang": "nb",
             "value": "Bingsfos stasjon"
           },
           {
-            "lang": "nb",
-            "value": "Bingsfoss stasjon"
+            "lang": "nn",
+            "value": "Bingsfos stasjon"
           },
           {
             "lang": "da",
-            "value": "Bingsfoss Station"
+            "value": "Bingsfos Station"
+          },
+          {
+            "lang": "en",
+            "value": "Bingsfos Station"
           }
         ]
       },
@@ -4530,6 +4591,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P625": [],
         "P722": [
           {
@@ -4544,6 +4610,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Brandval stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Brandval stasjon"
           },
           {
@@ -5935,10 +6005,10 @@
         ],
         "P31": [
           {
-            "value": "Q2065736"
+            "value": "Q115485166"
           },
           {
-            "value": "Q55488"
+            "value": "Q2065736"
           }
         ],
         "P625": [],
@@ -6287,15 +6357,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Fossum stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Fossum stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Fossum stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Fossum Station"
+          },
+          {
+            "lang": "en",
             "value": "Fossum Station"
           }
         ]
@@ -6896,6 +6970,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P625": [],
         "P722": [
           {
@@ -6910,6 +6989,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Grinder stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Grinder stasjon"
           },
           {
@@ -7524,6 +7607,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P625": [],
         "PWIKI": [
           {
@@ -7531,6 +7619,10 @@
           }
         ],
         "labels": [
+          {
+            "lang": "nn",
+            "value": "Hasle haldeplass"
+          },
           {
             "lang": "nb",
             "value": "Hasle holdeplass"
@@ -9086,6 +9178,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -9105,6 +9202,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Jømna stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Jømna stasjon"
           },
           {
@@ -10459,17 +10560,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
-          }
-        ],
-        "P3999": [
-          {
-            "value": "1965-01-01T00:00:00Z"
-          }
-        ],
-        "P576": [
-          {
-            "value": "1985-01-01T00:00:00Z"
+            "value": "Q115485166"
           }
         ],
         "P625": [],
@@ -10494,6 +10585,10 @@
           },
           {
             "lang": "nb",
+            "value": "Magnor stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Magnor stasjon"
           },
           {
@@ -10605,10 +10700,10 @@
         ],
         "P31": [
           {
-            "value": "Q2065736"
+            "value": "Q115485166"
           },
           {
-            "value": "Q55488"
+            "value": "Q2065736"
           }
         ],
         "P625": [],
@@ -10625,6 +10720,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Matrand stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Matrand stasjon"
           },
           {
@@ -11229,6 +11328,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P625": [],
         "P722": [
           {
@@ -11243,6 +11347,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Namnå stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Namnå stasjon"
           },
           {
@@ -12426,6 +12534,10 @@
             "value": "Reitstøa stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Reitstøa stasjon"
+          },
+          {
             "lang": "da",
             "value": "Reitstøa Station"
           },
@@ -12735,6 +12847,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P625": [],
         "P722": [
           {
@@ -12753,6 +12870,10 @@
           },
           {
             "lang": "nb",
+            "value": "Roverud stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Roverud stasjon"
           },
           {
@@ -12803,11 +12924,6 @@
             "value": "Q55488"
           }
         ],
-        "P3999": [
-          {
-            "value": "2003-01-01T00:00:00Z"
-          }
-        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -12826,10 +12942,6 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Rugldalen stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Rugldalen stasjon"
           },
@@ -12839,6 +12951,10 @@
           },
           {
             "lang": "da",
+            "value": "Rugldalen Station"
+          },
+          {
+            "lang": "en",
             "value": "Rugldalen Station"
           },
           {
@@ -14189,6 +14305,10 @@
             "value": "Stensli stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Stensli stasjon"
+          },
+          {
             "lang": "da",
             "value": "Stensli Station"
           },
@@ -14787,10 +14907,6 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Telneset stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Telneset stasjon"
           },
@@ -14800,6 +14916,10 @@
           },
           {
             "lang": "da",
+            "value": "Telneset Station"
+          },
+          {
+            "lang": "en",
             "value": "Telneset Station"
           }
         ]
@@ -15498,7 +15618,7 @@
         ],
         "P3999": [
           {
-            "value": "1994-01-01T00:00:00Z"
+            "value": "1994-08-29T00:00:00Z"
           }
         ],
         "P625": [],
@@ -15523,6 +15643,10 @@
           },
           {
             "lang": "nb",
+            "value": "Våler stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Våler stasjon"
           },
           {
@@ -15949,6 +16073,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1990-05-27T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -15964,6 +16093,10 @@
           {
             "lang": "en",
             "value": "Åsnes Church Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Åsnes kirke haldeplass"
           },
           {
             "lang": "nb",
@@ -16018,6 +16151,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Åsta stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Åsta stasjon"
           },
           {
@@ -17144,7 +17281,7 @@
         ],
         "P2044": [
           {
-            "value": "230"
+            "value": "235.9"
           }
         ],
         "P296": [
@@ -17187,6 +17324,10 @@
           },
           {
             "lang": "nb",
+            "value": "Langlete stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Langlete stasjon"
           },
           {
@@ -17897,16 +18038,20 @@
         ],
         "labels": [
           {
-            "lang": "nb",
-            "value": "Vist stasjon"
-          },
-          {
             "lang": "da",
             "value": "Vist Station"
           },
           {
             "lang": "en",
             "value": "Vist Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Vist stoppestad"
+          },
+          {
+            "lang": "nb",
+            "value": "Vist stoppested"
           }
         ]
       },
@@ -18410,6 +18555,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P625": [],
         "P722": [
           {
@@ -18424,6 +18574,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Arneberg stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Arneberg stasjon"
           },
           {
@@ -18924,7 +19078,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q115485166"
           }
         ],
         "P625": [],
@@ -18941,6 +19095,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Braskereidfoss stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Braskereidfoss stasjon"
           },
           {
@@ -19515,6 +19673,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1994-08-29T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -19534,6 +19697,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Heradsbygd stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Heradsbygd stasjon"
           },
           {
@@ -19713,7 +19880,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q115485166"
           }
         ],
         "P625": [],
@@ -19730,6 +19897,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Kirkenær stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Kirkenær stasjon"
           },
           {
@@ -20572,7 +20743,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q115485166"
           }
         ],
         "P625": [],
@@ -20589,6 +20760,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Skotterud stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Skotterud stasjon"
           },
           {
@@ -21007,6 +21182,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1990-05-27T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -21026,6 +21206,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Vesterhaug stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Vesterhaug stasjon"
           },
           {
@@ -21069,7 +21253,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q115485166"
           }
         ],
         "P625": [],
@@ -21086,6 +21270,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Åbogen stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Åbogen stasjon"
           },
           {
@@ -21716,6 +21904,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Bjørgen stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Bjørgen stasjon"
           },
           {
@@ -23004,15 +23196,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Aurskog stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Aurskog stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Aurskog stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Aurskog Station"
+          },
+          {
+            "lang": "en",
             "value": "Aurskog Station"
           }
         ]
@@ -23202,15 +23398,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Bjørkelangen stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Bjørkelangen stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Bjørkelangen stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Bjørkelangen Station"
+          },
+          {
+            "lang": "en",
             "value": "Bjørkelangen Station"
           }
         ]
@@ -23884,15 +24084,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Finstadbru stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Finstadbru stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Finstadbru stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Finstadbru Station"
+          },
+          {
+            "lang": "en",
             "value": "Finstadbru Station"
           }
         ]
@@ -24130,15 +24334,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Fosser stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Fosser stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Fosser stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Fosser Station"
+          },
+          {
+            "lang": "en",
             "value": "Fosser Station"
           }
         ]
@@ -31854,6 +32062,10 @@
           {
             "lang": "en",
             "value": "Hjartåsen Station"
+          },
+          {
+            "lang": "nl",
+            "value": "Station Hjartåsen"
           }
         ]
       },
@@ -32657,12 +32869,12 @@
             "value": "Harborg Station"
           },
           {
-            "lang": "nn",
-            "value": "Harborg stoppestad"
+            "lang": "en",
+            "value": "Harborg Station"
           },
           {
-            "lang": "en",
-            "value": "Harborg stoppested"
+            "lang": "nn",
+            "value": "Harborg stoppestad"
           },
           {
             "lang": "nb",
@@ -32719,6 +32931,14 @@
           {
             "lang": "da",
             "value": "Høsøien Station"
+          },
+          {
+            "lang": "en",
+            "value": "Høsøien Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Høsøien stoppestad"
           },
           {
             "lang": "nb",
@@ -32819,6 +33039,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1990-05-27T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -32838,6 +33063,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Haslemo stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Haslemo stasjon"
           },
           {
@@ -32879,6 +33108,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1990-05-27T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -32891,6 +33125,10 @@
           }
         ],
         "labels": [
+          {
+            "lang": "nn",
+            "value": "Hornberget haldeplass"
+          },
           {
             "lang": "nb",
             "value": "Hornberget holdeplass"
@@ -34173,15 +34411,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Hemnes stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Hemnes stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Hemnes stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Hemnes Station"
+          },
+          {
+            "lang": "en",
             "value": "Hemnes Station"
           }
         ]
@@ -34237,7 +34479,15 @@
             "value": "Hjellebøl stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Hjellebøl stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Hjellebøl Station"
+          },
+          {
+            "lang": "en",
             "value": "Hjellebøl Station"
           }
         ]
@@ -34287,7 +34537,15 @@
             "value": "Hornåseng stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Hornåseng stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Hornåseng Station"
+          },
+          {
+            "lang": "en",
             "value": "Hornåseng Station"
           }
         ]
@@ -34493,10 +34751,14 @@
         "labels": [
           {
             "lang": "en",
-            "value": "Killingmo stasjon"
+            "value": "Killingmo Station"
           },
           {
             "lang": "nb",
+            "value": "Kjellingmo stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Kjellingmo stasjon"
           },
           {
@@ -34691,15 +34953,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Kvevli stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Kvevli stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Kvevli stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Kvevli Station"
+          },
+          {
+            "lang": "en",
             "value": "Kvevli Station"
           }
         ]
@@ -34745,15 +35011,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Lierfoss stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Lierfoss stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Lierfoss stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Lierfoss Station"
+          },
+          {
+            "lang": "en",
             "value": "Lierfoss Station"
           }
         ]
@@ -34984,7 +35254,15 @@
             "value": "Løken stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Løken stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Løken Station"
+          },
+          {
+            "lang": "en",
             "value": "Løken Station"
           }
         ]
@@ -35115,7 +35393,15 @@
             "value": "Mork stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Mork stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Mork Station"
+          },
+          {
+            "lang": "en",
             "value": "Mork Station"
           }
         ]
@@ -35549,15 +35835,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Skulerud stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Skulerud stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Skulerud stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Skulerud Station"
+          },
+          {
+            "lang": "en",
             "value": "Skulerud Station"
           }
         ]
@@ -38480,6 +38770,11 @@
             "value": "Q55488"
           }
         ],
+        "P3999": [
+          {
+            "value": "1990-05-27T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -38499,6 +38794,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Nor stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Nor stasjon"
           },
           {
@@ -43198,6 +43497,10 @@
             "value": "Håmålvoll Station"
           },
           {
+            "lang": "nn",
+            "value": "Håmålvoll stoppestad"
+          },
+          {
             "lang": "nb",
             "value": "Håmålvoll stoppested"
           }
@@ -43964,10 +44267,6 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Alvdal stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Alvdal stasjon"
           },
@@ -43977,6 +44276,10 @@
           },
           {
             "lang": "da",
+            "value": "Alvdal Station"
+          },
+          {
+            "lang": "en",
             "value": "Alvdal Station"
           },
           {
@@ -44047,6 +44350,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Auma stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Auma stasjon"
           },
           {
@@ -45034,6 +45341,10 @@
             "value": "Rognes stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Rognes stasjon"
+          },
+          {
             "lang": "da",
             "value": "Rognes Station"
           },
@@ -45121,6 +45432,10 @@
             "value": "Tolga stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Tolga stasjon"
+          },
+          {
             "lang": "da",
             "value": "Tolga Station"
           },
@@ -45196,6 +45511,10 @@
           },
           {
             "lang": "nb",
+            "value": "Tynset stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Tynset stasjon"
           },
           {
@@ -45805,12 +46124,16 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Røsta holdeplass"
-          },
-          {
             "lang": "da",
             "value": "Røsta Station"
+          },
+          {
+            "lang": "en",
+            "value": "Røsta Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Røsta stoppestad"
           },
           {
             "lang": "nb",
@@ -45874,12 +46197,12 @@
             "value": "Eid Station"
           },
           {
-            "lang": "nn",
-            "value": "Eid stoppestad"
+            "lang": "en",
+            "value": "Eid Station"
           },
           {
-            "lang": "en",
-            "value": "Eid stoppested"
+            "lang": "nn",
+            "value": "Eid stoppestad"
           },
           {
             "lang": "nb",
@@ -45935,6 +46258,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Bjørånes stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Bjørånes stasjon"
           },
           {
@@ -47813,6 +48140,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Granli stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Granli stasjon"
           },
           {
@@ -55827,6 +56158,10 @@
             "value": "Tuen"
           },
           {
+            "lang": "nn",
+            "value": "Tuen haldeplass"
+          },
+          {
             "lang": "nb",
             "value": "Tuen holdeplass"
           },
@@ -55978,6 +56313,10 @@
             "value": "Fetsund stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Fetsund stasjon"
+          },
+          {
             "lang": "da",
             "value": "Fetsund Station"
           },
@@ -56060,6 +56399,10 @@
           {
             "lang": "pl",
             "value": "Svingen"
+          },
+          {
+            "lang": "nn",
+            "value": "Svingen haldeplass"
           },
           {
             "lang": "nb",
@@ -56350,6 +56693,10 @@
             "value": "Blaker stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Blaker stasjon"
+          },
+          {
             "lang": "da",
             "value": "Blaker Station"
           },
@@ -56418,12 +56765,12 @@
             "value": "Auli"
           },
           {
-            "lang": "nb",
-            "value": "Auli holdeplass"
+            "lang": "nn",
+            "value": "Auli haldeplass"
           },
           {
             "lang": "nb",
-            "value": "Auli stasjon"
+            "value": "Auli holdeplass"
           },
           {
             "lang": "da",
@@ -56519,6 +56866,10 @@
             "value": "Rånåsfoss stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Rånåsfoss stasjon"
+          },
+          {
             "lang": "en",
             "value": "Rånåsfoss Station"
           },
@@ -56606,6 +56957,10 @@
           },
           {
             "lang": "nb",
+            "value": "Sørumsand stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Sørumsand stasjon"
           },
           {
@@ -56704,6 +57059,10 @@
             "value": "Skarnes stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Skarnes stasjon"
+          },
+          {
             "lang": "da",
             "value": "Skarnes Station"
           },
@@ -56784,6 +57143,10 @@
           },
           {
             "lang": "nb",
+            "value": "Årnes stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Årnes stasjon"
           },
           {
@@ -56870,7 +57233,7 @@
           },
           {
             "lang": "nb",
-            "value": "Bodung stasjon"
+            "value": "Bodung holdeplass"
           },
           {
             "lang": "da",
@@ -56879,6 +57242,10 @@
           {
             "lang": "en",
             "value": "Bodung Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Bodung stoppestad"
           },
           {
             "lang": "nb",
@@ -56973,6 +57340,10 @@
             "value": "Kongsvinger stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Kongsvinger stasjon"
+          },
+          {
             "lang": "da",
             "value": "Kongsvinger Station"
           },
@@ -57056,6 +57427,10 @@
           },
           {
             "lang": "nb",
+            "value": "Haga stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Haga stasjon"
           },
           {
@@ -57717,17 +58092,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
-          }
-        ],
-        "P3999": [
-          {
-            "value": "2012-01-01T00:00:00Z"
-          }
-        ],
-        "P576": [
-          {
-            "value": "2012-12-09T00:00:00Z"
+            "value": "Q115485166"
           }
         ],
         "P5817": [
@@ -57753,6 +58118,10 @@
           },
           {
             "lang": "nb",
+            "value": "Galterud stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Galterud stasjon"
           },
           {
@@ -58072,15 +58441,10 @@
         ],
         "P31": [
           {
-            "value": "Q2065736"
+            "value": "Q115485166"
           },
           {
-            "value": "Q55488"
-          }
-        ],
-        "P3999": [
-          {
-            "value": "2012-01-01T00:00:00Z"
+            "value": "Q2065736"
           }
         ],
         "P5817": [
@@ -58106,6 +58470,10 @@
           },
           {
             "lang": "nb",
+            "value": "Seterstøa stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Seterstøa stasjon"
           },
           {
@@ -58288,6 +58656,10 @@
           },
           {
             "lang": "nb",
+            "value": "Haltdalen stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Haltdalen stasjon"
           },
           {
@@ -58650,15 +59022,10 @@
         ],
         "P31": [
           {
-            "value": "Q2065736"
+            "value": "Q115485166"
           },
           {
-            "value": "Q55488"
-          }
-        ],
-        "P3999": [
-          {
-            "value": "2012-01-01T00:00:00Z"
+            "value": "Q2065736"
           }
         ],
         "P5817": [
@@ -58684,6 +59051,10 @@
           },
           {
             "lang": "nb",
+            "value": "Sander stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Sander stasjon"
           },
           {
@@ -64904,17 +65275,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
-          }
-        ],
-        "P3999": [
-          {
-            "value": "2012-01-01T00:00:00Z"
-          }
-        ],
-        "P576": [
-          {
-            "value": "2012-12-09T00:00:00Z"
+            "value": "Q115485166"
           }
         ],
         "P5817": [
@@ -64940,6 +65301,10 @@
           },
           {
             "lang": "nb",
+            "value": "Disenå stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Disenå stasjon"
           },
           {
@@ -66733,12 +67098,12 @@
         ],
         "labels": [
           {
-            "lang": "nb",
-            "value": "Guttersrud holdeplass"
+            "lang": "nn",
+            "value": "Guttersrud haldeplass"
           },
           {
             "lang": "nb",
-            "value": "Guttersrud stasjon"
+            "value": "Guttersrud holdeplass"
           },
           {
             "lang": "da",
@@ -70157,6 +70522,10 @@
             "value": "Reitan stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Reitan stasjon"
+          },
+          {
             "lang": "da",
             "value": "Reitan Station"
           },
@@ -70244,6 +70613,10 @@
           },
           {
             "lang": "nb",
+            "value": "Singsås stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Singsås stasjon"
           },
           {
@@ -70346,6 +70719,10 @@
           },
           {
             "lang": "nb",
+            "value": "Glåmos stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Glåmos stasjon"
           },
           {
@@ -70461,6 +70838,10 @@
             "value": "Røros stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Røros stasjon"
+          },
+          {
             "lang": "da",
             "value": "Røros Station"
           },
@@ -70550,16 +70931,20 @@
             "value": "Ålen"
           },
           {
-            "lang": "nb",
-            "value": "Ålen holdeplass"
-          },
-          {
             "lang": "da",
             "value": "Ålen Station"
           },
           {
             "lang": "en",
             "value": "Ålen Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Ålen stoppestad"
+          },
+          {
+            "lang": "nb",
+            "value": "Ålen stoppested"
           },
           {
             "lang": "de",
@@ -70646,6 +71031,10 @@
           },
           {
             "lang": "nb",
+            "value": "Os stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Os stasjon"
           },
           {
@@ -71201,12 +71590,12 @@
         ],
         "labels": [
           {
-            "lang": "nb",
-            "value": "Ladalen holdeplass"
+            "lang": "nn",
+            "value": "Ladalen haldeplass"
           },
           {
             "lang": "nb",
-            "value": "Ladalen stasjon"
+            "value": "Ladalen holdeplass"
           },
           {
             "lang": "da",
@@ -77447,6 +77836,10 @@
         ],
         "labels": [
           {
+            "lang": "nn",
+            "value": "Bellingmo haldeplass"
+          },
+          {
             "lang": "nb",
             "value": "Bellingmo holdeplass"
           },
@@ -77536,6 +77929,10 @@
         "labels": [
           {
             "lang": "nb",
+            "value": "Atna stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Atna stasjon"
           },
           {
@@ -77634,6 +78031,10 @@
             "value": "Hanestad stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Hanestad stasjon"
+          },
+          {
             "lang": "da",
             "value": "Hanestad Station"
           },
@@ -77699,15 +78100,19 @@
         ],
         "labels": [
           {
-            "lang": "en",
-            "value": "Barkald stasjon"
-          },
-          {
             "lang": "nb",
             "value": "Barkald stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Barkald stasjon"
+          },
+          {
             "lang": "da",
+            "value": "Barkald Station"
+          },
+          {
+            "lang": "en",
             "value": "Barkald Station"
           },
           {
@@ -78976,16 +79381,20 @@
         ],
         "labels": [
           {
-            "lang": "nb",
-            "value": "Sona stasjon"
-          },
-          {
             "lang": "da",
             "value": "Sona Station"
           },
           {
             "lang": "en",
             "value": "Sona Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Sona stoppestad"
+          },
+          {
+            "lang": "nb",
+            "value": "Sona stoppested"
           }
         ]
       },
@@ -83697,6 +84106,10 @@
             "value": "Koppang stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Koppang stasjon"
+          },
+          {
             "lang": "da",
             "value": "Koppang Station"
           },
@@ -83795,6 +84208,10 @@
             "value": "Stai stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Stai stasjon"
+          },
+          {
             "lang": "da",
             "value": "Stai Station"
           },
@@ -83873,16 +84290,20 @@
             "value": "Evenstad holdeplass"
           },
           {
-            "lang": "nb",
-            "value": "Evenstad stasjon"
-          },
-          {
             "lang": "da",
             "value": "Evenstad Station"
           },
           {
             "lang": "en",
             "value": "Evenstad Station"
+          },
+          {
+            "lang": "nn",
+            "value": "Evenstad stoppestad"
+          },
+          {
+            "lang": "nb",
+            "value": "Evenstad stoppested"
           },
           {
             "lang": "fr",
@@ -83956,6 +84377,10 @@
           },
           {
             "lang": "nb",
+            "value": "Rasta stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Rasta stasjon"
           },
           {
@@ -85847,6 +86272,10 @@
             "value": "Steinvik stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Steinvik stasjon"
+          },
+          {
             "lang": "da",
             "value": "Steinvik Station"
           },
@@ -86124,6 +86553,10 @@
             "value": "Rena stasjon"
           },
           {
+            "lang": "nn",
+            "value": "Rena stasjon"
+          },
+          {
             "lang": "da",
             "value": "Rena Station"
           },
@@ -86208,6 +86641,10 @@
           },
           {
             "lang": "nb",
+            "value": "Opphus stasjon"
+          },
+          {
+            "lang": "nn",
             "value": "Opphus stasjon"
           },
           {
