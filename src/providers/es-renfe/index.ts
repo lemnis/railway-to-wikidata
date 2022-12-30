@@ -60,7 +60,7 @@ export const getLocations = async () => {
         ],
       },
       properties: {
-        labels: [{ value: description, lang: Language.Spanish[1] }],
+        labels: [{ value: description }],
         ...(code
           ? {
               [CodeIssuer.UIC]: [
