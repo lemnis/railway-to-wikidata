@@ -53,8 +53,7 @@
           <br />
           {% endfor %}
         </td>
-        <td class="mark-empty">
-          {% for label in feature.properties.PWIKI %}
+        <td class="mark-empty">{% for label in feature.properties.PWIKI %}
           <a
             href="https://www.wikidata.org/wiki/{{ label.value }}"
             target="_blank"
@@ -62,8 +61,7 @@
             {{ label.value }}
           </a>
           <br />
-          {% endfor %}
-        </td>
+          {% endfor %}</td>
         <td>{% for label in feature.properties.P238 %}
           <a href="https://www.iata.org/en/publications/directories/code-search/?airport.search={{ label.value }}" target="_blank">
             {{ label.value }}
