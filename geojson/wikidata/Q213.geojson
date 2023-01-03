@@ -185,14 +185,19 @@
     },
     {
       "geometry": {
-        "coordinates": [],
+        "coordinates": [
+          [
+            14.558796388,
+            50.107220555
+          ]
+        ],
         "type": "MultiPoint"
       },
       "id": "Q101433321",
       "properties": {
         "P131": [
           {
-            "value": "Q1085"
+            "value": "Q3509657"
           }
         ],
         "P17": [
@@ -203,8 +208,12 @@
         "P31": [
           {
             "value": "Q3918409"
+          },
+          {
+            "value": "Q55678"
           }
         ],
+        "P625": [],
         "PWIKI": [
           {
             "value": "Q101433321"
@@ -5578,6 +5587,105 @@
           {
             "lang": "cs",
             "value": "Troubelice střed"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            12.470305555,
+            50.352555555
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "Q115942875",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q1000029"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q213"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q55678"
+          }
+        ],
+        "P625": [],
+        "PWIKI": [
+          {
+            "value": "Q115942875"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "cs",
+            "value": "Hraničná"
+          },
+          {
+            "lang": "de",
+            "value": "Hraničná"
+          },
+          {
+            "lang": "en",
+            "value": "Hraničná"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            16.567016666,
+            49.173318888
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "Q115982835",
+      "properties": {
+        "P131": [
+          {
+            "value": "Q3565077"
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q213"
+          }
+        ],
+        "P31": [
+          {
+            "value": "Q2175765"
+          },
+          {
+            "value": "Q22808403"
+          }
+        ],
+        "P625": [],
+        "PWIKI": [
+          {
+            "value": "Q115982835"
+          }
+        ],
+        "labels": [
+          {
+            "lang": "cs",
+            "value": "Nová Jihlavská"
+          },
+          {
+            "lang": "cs",
+            "value": "Západní brána"
           }
         ]
       },
@@ -50981,8 +51089,8 @@
       "geometry": {
         "coordinates": [
           [
-            15.7925,
-            50.2347
+            15.7919244,
+            50.2354125
           ]
         ],
         "type": "MultiPoint"
@@ -69817,7 +69925,23 @@
             "value": "Oloví"
           },
           {
+            "lang": "de",
+            "value": "Oloví"
+          },
+          {
+            "lang": "en",
+            "value": "Oloví"
+          },
+          {
+            "lang": "id",
+            "value": "Oloví"
+          },
+          {
             "lang": "pl",
+            "value": "Oloví"
+          },
+          {
+            "lang": "ro",
             "value": "Oloví"
           }
         ]
@@ -70313,7 +70437,23 @@
             "value": "Rotava"
           },
           {
+            "lang": "de",
+            "value": "Rotava"
+          },
+          {
+            "lang": "en",
+            "value": "Rotava"
+          },
+          {
+            "lang": "id",
+            "value": "Rotava"
+          },
+          {
             "lang": "pl",
+            "value": "Rotava"
+          },
+          {
+            "lang": "ro",
             "value": "Rotava"
           }
         ]
@@ -77279,7 +77419,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q55678"
           }
         ],
         "P625": [],
@@ -78240,11 +78380,23 @@
             "value": "Svatava"
           },
           {
+            "lang": "de",
+            "value": "Svatava"
+          },
+          {
             "lang": "en",
             "value": "Svatava"
           },
           {
+            "lang": "id",
+            "value": "Svatava"
+          },
+          {
             "lang": "pl",
+            "value": "Svatava"
+          },
+          {
+            "lang": "ro",
             "value": "Svatava"
           }
         ]
@@ -100231,7 +100383,23 @@
             "value": "Svatava zastávka"
           },
           {
+            "lang": "de",
+            "value": "Svatava zastávka"
+          },
+          {
+            "lang": "en",
+            "value": "Svatava zastávka"
+          },
+          {
+            "lang": "id",
+            "value": "Svatava zastávka"
+          },
+          {
             "lang": "pl",
+            "value": "Svatava zastávka"
+          },
+          {
+            "lang": "ro",
             "value": "Svatava zastávka"
           }
         ]
@@ -104722,62 +104890,6 @@
       "geometry": {
         "coordinates": [
           [
-            12.518678333,
-            50.311902222
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "Q19632319",
-      "properties": {
-        "P131": [
-          {
-            "value": "Q1000029"
-          }
-        ],
-        "P17": [
-          {
-            "value": "Q213"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "P625": [],
-        "P722": [
-          {
-            "value": "5476525"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5401595"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q19632319"
-          }
-        ],
-        "labels": [
-          {
-            "lang": "cs",
-            "value": "Kraslice předměstí"
-          },
-          {
-            "lang": "pl",
-            "value": "Kraslice předměstí"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             14.128643055,
             49.874806388
           ]
@@ -105016,6 +105128,10 @@
         "labels": [
           {
             "lang": "cs",
+            "value": "Hřebeny"
+          },
+          {
+            "lang": "en",
             "value": "Hřebeny"
           },
           {
@@ -108662,6 +108778,10 @@
           [
             16.10861,
             49.99472
+          ],
+          [
+            16.10871144,
+            49.994742174
           ]
         ],
         "type": "MultiPoint"
@@ -108676,6 +108796,9 @@
         "P131": [
           {
             "value": "Q246911"
+          },
+          {
+            "value": "Q56416231"
           }
         ],
         "P17": [
@@ -108694,6 +108817,11 @@
           }
         ],
         "P625": [],
+        "P6375": [
+          {
+            "value": "Zámrsk, č.p. 78"
+          }
+        ],
         "P722": [
           {
             "value": "5453693"
@@ -108725,6 +108853,10 @@
           {
             "lang": "pl",
             "value": "Zámrsk"
+          },
+          {
+            "lang": "cs",
+            "value": "železniční stanice"
           }
         ]
       },
@@ -116276,6 +116408,14 @@
             "value": "Kraslice-Pod vlekem"
           },
           {
+            "lang": "de",
+            "value": "Kraslice-Pod vlekem"
+          },
+          {
+            "lang": "en",
+            "value": "Kraslice-Pod vlekem"
+          },
+          {
             "lang": "pl",
             "value": "Kraslice-Pod vlekem"
           }
@@ -117896,6 +118036,10 @@
         "labels": [
           {
             "lang": "cs",
+            "value": "Luh nad Svatavou"
+          },
+          {
+            "lang": "en",
             "value": "Luh nad Svatavou"
           },
           {
@@ -146841,8 +146985,8 @@
       "geometry": {
         "coordinates": [
           [
-            14.469007,
-            49.987782
+            14.4799,
+            49.9939
           ]
         ],
         "type": "MultiPoint"

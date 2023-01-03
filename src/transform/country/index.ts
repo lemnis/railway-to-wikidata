@@ -233,11 +233,6 @@ export const findCountryByUIC = (code: number): CountryInfo | undefined =>
     (country as CountryInfo).UIC?.includes(code)
   );
 
-export const findCountryByIBNR = (code: number): CountryInfo | undefined =>
-  Object.values(Country).find((country) =>
-    (country as CountryInfo).IBNR?.includes(code)
-  );
-
 export const findCountryByIVR = (code: string): CountryInfo | undefined =>
   Object.values(Country).find(
     (country) => (country as CountryInfo).IVR === code

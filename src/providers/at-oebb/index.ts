@@ -1,5 +1,5 @@
 import { CodeIssuer, Property } from "../../types/wikidata";
-import { Location } from "../../types/location";
+import { Location, LocationProperties } from "../../types/location";
 import { Country } from "../../transform/country";
 import { getGtfsStations } from "../../utils/gtfs";
 import { Language } from "../../transform/language";
@@ -22,7 +22,7 @@ export const getLocations = (): Promise<Location[]> =>
       const country = feature(coordinates as [number, number])?.properties
         .wikidata;
 
-      return point(
+      return point<LocationProperties>(
         coordinates,
         {
           labels: [{ value: stop_name, lang: Language.German[1] }],

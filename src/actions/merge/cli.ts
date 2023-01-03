@@ -7,11 +7,14 @@ import { createFeatureCollection } from "../cache/geojson";
 import sortJson from "sort-json";
 import { FeatureCollection, Point, point } from "@turf/turf";
 import { feature } from "@ideditor/country-coder";
+import path from "path";
 
-console.log("Starting...");
+const projectRoot = path.join(__dirname, "../../../");
+
+console.log("Starting...", projectRoot);
 
 async function importLocations(file: string) {
-  console.log("Import", file);
+  console.log("Import", path.relative(projectRoot, file));
   const data = await fs.readFile(file, "utf8");
   return JSON.parse(data).features as Location[];
 }
@@ -21,9 +24,9 @@ const filter = (country: CountryInfo) => (feature: Location) =>
     ({ value }) => value === country.wikidata
   ) && [undefined, true].includes(feature.properties.info?.enabled);
 
-const GeoJSONPath = __dirname + "/../../../geojson";
+const GeoJSONPath = projectRoot + "/geojson";
 
-const folder = __dirname + "/../../../hafas-full";
+const folder = projectRoot + "/hafas-full";
 const getStations = (geojson: FeatureCollection<Point>) =>
   geojson.features
     .filter(
@@ -75,8 +78,9 @@ const getStations = (geojson: FeatureCollection<Point>) =>
   );
   const wikidata = await Promise.all(
     (
-      await fs.readdir(`${GeoJSONPath}`)
+      await fs.readdir(`${GeoJSONPath}/wikidata`)
     ).map((file) => {
+      if (!file.endsWith(".geojson")) return [];
       return importLocations(`${GeoJSONPath}/wikidata/${file}`);
     })
   ).then((items) => items.flat());
@@ -98,7 +102,7 @@ const getStations = (geojson: FeatureCollection<Point>) =>
   const mav = await importLocations(`${GeoJSONPath}/hu-mav.geojson`);
   const regiojet = await importLocations(`${GeoJSONPath}/cz-regiojet.geojson`);
   const zsr = await importLocations(`${GeoJSONPath}/sk-zsr.geojson`);
-  const atoc = await importLocations(`${GeoJSONPath}/uk-atoc.geojson`);
+  const atoc = await importLocations(`${GeoJSONPath}/gb-atoc.geojson`);
   const irishRail = await importLocations(
     `${GeoJSONPath}/ie-irish-rail.geojson`
   );
@@ -126,7 +130,7 @@ const getStations = (geojson: FeatureCollection<Point>) =>
     const k = base.filter(filter(country));
     const result = k;
     const mergeLocation = async (item: Location, i: Location) => {
-      result[result.indexOf(item)] = (await merge([item, i], true)) as Location;
+      result[result.indexOf(item)] = (await merge([item, i], false)) as Location;
     };
 
     for await (const iterator of others) {
@@ -209,10 +213,9 @@ const getStations = (geojson: FeatureCollection<Point>) =>
   );
   await generate(
     litrail,
-    [fullHafas, nsInternational, euafr, trainline, wikidata, wikidata],
+    [fullHafas, nsInternational, euafr, trainline, wikidata],
     Country.Lithuania
   );
-  // TODO: has wikidata currently
   await generate(
     ns,
     [nsInternational, euafr, fullHafas, iris, trainline, wikidata],
@@ -221,7 +224,7 @@ const getStations = (geojson: FeatureCollection<Point>) =>
   await generate(cp, [euafr, renfe, trainline, wikidata], Country.Portugal);
   await generate(
     gov,
-    [nsInternational, euafr, oebb, fullHafas, iris, trainline, wikidata],
+    [nsInternational, oebb, fullHafas, iris, trainline, wikidata],
     Country.Romania
   );
   await generate(
