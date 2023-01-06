@@ -46,10 +46,17 @@
         ],
         "P31": [
           {
-            "value": "Q20202072"
-          },
+            "value": "Q65464941"
+          }
+        ],
+        "P3999": [
           {
-            "value": "Q55488"
+            "value": "2018-05-15T00:00:00Z"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q56556915"
           }
         ],
         "P722": [
@@ -80,6 +87,10 @@
           {
             "lang": "en",
             "value": "Ag. Vassileios"
+          },
+          {
+            "lang": "en",
+            "value": "Agios Vasileios"
           },
           {
             "lang": "en",
@@ -214,6 +225,9 @@
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55678"
           }
         ],
@@ -237,11 +251,15 @@
         "labels": [
           {
             "lang": "en",
+            "value": "Agyia"
+          },
+          {
+            "lang": "en",
             "value": "Agyia Patron"
           },
           {
             "lang": "en",
-            "value": "Agyia railway stop"
+            "value": "Agyia railway halt"
           },
           {
             "lang": "el",
@@ -726,6 +744,11 @@
             "value": "Q4663385"
           }
         ],
+        "P3999": [
+          {
+            "value": "2007-07-09T00:00:00Z"
+          }
+        ],
         "P5817": [
           {
             "value": "Q11639308"
@@ -763,25 +786,15 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            22.540719985961914,
-            40.511661529541016
-          ],
-          [
-            22.5523269,
-            40.4978381
-          ]
+          22.540719985961914,
+          40.511661529541016
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "ΑΙΓΝ-Q98768991",
+      "id": "ΑΙΓΝ",
       "properties": {
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q41"
           }
         ],
@@ -790,31 +803,13 @@
             "value": "ΑΙΓΝ"
           }
         ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q98768991"
-          }
-        ],
         "info": {
-          "pregrouped": [
-            {
-              "enabled": true
-            }
-          ]
+          "enabled": true
         },
         "labels": [
           {
             "lang": "en",
             "value": "Aiginio"
-          },
-          {
-            "lang": "en",
-            "value": "Aiginio railway station"
           },
           {
             "lang": "el",
@@ -902,12 +897,17 @@
         ],
         "P31": [
           {
-            "value": "Q55678"
+            "value": "Q65464941"
+          }
+        ],
+        "P3999": [
+          {
+            "value": "2018-05-15T00:00:00Z"
           }
         ],
         "P5817": [
           {
-            "value": "Q55654238"
+            "value": "Q56556915"
           }
         ],
         "PWIKI": [
@@ -925,7 +925,11 @@
         "labels": [
           {
             "lang": "en",
-            "value": "Aktaio railway stop"
+            "value": "Aktaio"
+          },
+          {
+            "lang": "en",
+            "value": "Aktaio railway halt"
           },
           {
             "lang": "en",
@@ -1520,16 +1524,36 @@
     {
       "geometry": {
         "coordinates": [
-          21.59547996520996,
-          38.1427116394043
+          [
+            21.59547996520996,
+            38.1427116394043
+          ],
+          [
+            21.590175,
+            38.14304
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΑΛΥΣ",
+      "id": "ΑΛΥΣ-Q116039341",
       "properties": {
+        "P131": [
+          {
+            "value": "Q2194495"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q474812"
           }
         ],
         "P296": [
@@ -1537,8 +1561,30 @@
             "value": "ΑΛΥΣ"
           }
         ],
+        "P31": [
+          {
+            "value": "Q22808404"
+          },
+          {
+            "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q116039341"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
@@ -1546,8 +1592,24 @@
             "value": "Alissos"
           },
           {
+            "lang": "en",
+            "value": "Alyssos"
+          },
+          {
+            "lang": "en",
+            "value": "Alyssos railway halt"
+          },
+          {
             "lang": "el",
             "value": "Αλισσός"
+          },
+          {
+            "lang": "el",
+            "value": "Αλυσσός"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομικός Σταθμός Αλυσσού"
           }
         ]
       },
@@ -1938,7 +2000,15 @@
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55488"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "P954": [
@@ -1962,6 +2032,10 @@
           {
             "lang": "en",
             "value": "Ag. Andreas"
+          },
+          {
+            "lang": "en",
+            "value": "Agios Andreas"
           },
           {
             "lang": "en",
@@ -2009,6 +2083,11 @@
             "value": "Q41"
           }
         ],
+        "P276": [
+          {
+            "value": "Q133123"
+          }
+        ],
         "P296": [
           {
             "value": "ΑΝΘΕ"
@@ -2016,7 +2095,15 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q22808404"
+          },
+          {
+            "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
@@ -2034,7 +2121,11 @@
         "labels": [
           {
             "lang": "en",
-            "value": "Antheias railway station"
+            "value": "Antheias"
+          },
+          {
+            "lang": "en",
+            "value": "Antheias railway halt"
           },
           {
             "lang": "en",
@@ -2777,7 +2868,15 @@
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55488"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
@@ -3518,8 +3617,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΒΡΧΝ-Q116008698",
+      "id": "ΒΡΧΝ-Q87482164",
       "properties": {
+        "P131": [
+          {
+            "value": "Q12875753"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -3527,6 +3631,11 @@
               "reliability": 0
             },
             "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q12874746"
           }
         ],
         "P296": [
@@ -3540,12 +3649,20 @@
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q116008698"
+            "value": "Q87482164"
           }
         ],
         "info": {
@@ -3561,8 +3678,16 @@
             "value": "Vrachneika"
           },
           {
+            "lang": "en",
+            "value": "Vrachneika railway halt"
+          },
+          {
             "lang": "el",
             "value": "Βραχνέικα"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Βραχναίικων"
           }
         ]
       },
@@ -4972,13 +5097,13 @@
             38.21472930908203
           ],
           [
-            22.14116,
-            38.215924
+            22.144195,
+            38.214875
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "ΕΛΙΚ-Q97215845",
+      "id": "ΕΛΙΚ-Q116035907",
       "properties": {
         "P131": [
           {
@@ -4994,6 +5119,11 @@
             "value": "Q41"
           }
         ],
+        "P276": [
+          {
+            "value": "Q3563633"
+          }
+        ],
         "P296": [
           {
             "value": "ΕΛΙΚ"
@@ -5001,17 +5131,22 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q4663385"
+          }
+        ],
+        "P3999": [
+          {
+            "value": "2007-07-09T00:00:00Z"
           }
         ],
         "P5817": [
           {
-            "value": "Q55654238"
+            "value": "Q56556915"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q97215845"
+            "value": "Q116035907"
           }
         ],
         "info": {
@@ -5027,20 +5162,12 @@
             "value": "Eliki"
           },
           {
-            "lang": "fr",
-            "value": "Eliki"
-          },
-          {
             "lang": "en",
-            "value": "Eliki railway station"
+            "value": "Eliki railway halt"
           },
           {
             "lang": "el",
             "value": "Ελίκη"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Ελίκης"
           }
         ]
       },
@@ -5797,6 +5924,11 @@
             "value": "Q41"
           }
         ],
+        "P276": [
+          {
+            "value": "Q133123"
+          }
+        ],
         "P296": [
           {
             "value": "ΙΤΙΕ"
@@ -5804,7 +5936,15 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q22808404"
+          },
+          {
+            "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
@@ -5826,7 +5966,7 @@
           },
           {
             "lang": "en",
-            "value": "Ities railway station"
+            "value": "Ities railway halt"
           },
           {
             "lang": "el",
@@ -6208,6 +6348,11 @@
       },
       "id": "ΚΑΜΙ-Q116008701",
       "properties": {
+        "P131": [
+          {
+            "value": "Q12875753"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -6215,6 +6360,11 @@
               "reliability": 0
             },
             "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3560233"
           }
         ],
         "P296": [
@@ -6228,7 +6378,15 @@
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
@@ -6247,6 +6405,10 @@
           {
             "lang": "en",
             "value": "Kaminia"
+          },
+          {
+            "lang": "en",
+            "value": "Kaminia railway halt"
           },
           {
             "lang": "el",
@@ -6397,7 +6559,7 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q22808404"
           },
           {
             "value": "Q55678"
@@ -6423,7 +6585,11 @@
         "labels": [
           {
             "lang": "en",
-            "value": "Kastellokampos railway stop"
+            "value": "Kastellokampos"
+          },
+          {
+            "lang": "en",
+            "value": "Kastellokampos railway halt"
           },
           {
             "lang": "en",
@@ -7627,6 +7793,11 @@
               "reliability": 0
             },
             "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q2716250"
           }
         ],
         "P296": [
@@ -9968,8 +10139,13 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "ΜΙΝΔ-Q116008705",
+      "id": "ΜΙΝΔ-Q87482163",
       "properties": {
+        "P131": [
+          {
+            "value": "Q12875753"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -9977,6 +10153,11 @@
               "reliability": 0
             },
             "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q4118397"
           }
         ],
         "P296": [
@@ -9990,12 +10171,20 @@
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q116008705"
+            "value": "Q87482163"
           }
         ],
         "info": {
@@ -10011,8 +10200,16 @@
             "value": "Mintilogli"
           },
           {
+            "lang": "en",
+            "value": "Mintilogli railway halt"
+          },
+          {
             "lang": "el",
             "value": "Μιντιλόγλι"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Μιντιλογλίου"
           }
         ]
       },
@@ -10124,6 +10321,9 @@
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55678"
           }
         ],
@@ -10151,7 +10351,7 @@
           },
           {
             "lang": "en",
-            "value": "Bozaitika railway stop"
+            "value": "Bozaitika railway halt"
           },
           {
             "lang": "el",
@@ -11223,6 +11423,11 @@
               "reliability": 0
             },
             "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q2248347"
           }
         ],
         "P296": [
@@ -12670,12 +12875,12 @@
           ],
           [
             21.742315,
-            38.262395
+            38.26247
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "ΠΑΝΧ-Q20751776",
+      "id": "ΠΑΝΧ-Q17842642",
       "properties": {
         "P131": [
           {
@@ -12691,6 +12896,11 @@
             "value": "Q41"
           }
         ],
+        "P276": [
+          {
+            "value": "Q133123"
+          }
+        ],
         "P296": [
           {
             "value": "ΠΑΝΧ"
@@ -12698,12 +12908,20 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q22808404"
+          },
+          {
+            "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q20751776"
+            "value": "Q17842642"
           }
         ],
         "info": {
@@ -12720,11 +12938,15 @@
           },
           {
             "lang": "en",
-            "value": "Panachaiki railway stop"
+            "value": "Panachaiki railway halt"
           },
           {
             "lang": "el",
             "value": "Παναχαϊκή"
+          },
+          {
+            "lang": "el",
+            "value": "Σιδηροδρομική στάση Παναχαϊκής"
           },
           {
             "lang": "el",
@@ -13044,6 +13266,11 @@
             "value": "Q55488"
           }
         ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
         "P6724": [
           {
             "info": {
@@ -13135,6 +13362,10 @@
           },
           {
             "lang": "de",
+            "value": "Patras"
+          },
+          {
+            "lang": "en",
             "value": "Patras"
           },
           {
@@ -15195,22 +15426,17 @@
             38.019771575927734
           ],
           [
-            23.41462,
-            38.01337
+            23.42139,
+            38.006805
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "ΠΝΕΠ-Q16895578",
+      "id": "ΠΝΕΠ-Q116039859",
       "properties": {
         "P131": [
           {
             "value": "Q12875720"
-          }
-        ],
-        "P137": [
-          {
-            "value": "Q7832852"
           }
         ],
         "P17": [
@@ -15234,17 +15460,22 @@
         ],
         "P31": [
           {
-            "value": "Q55488"
+            "value": "Q4663385"
+          }
+        ],
+        "P3999": [
+          {
+            "value": "2007-06-02T00:00:00Z"
           }
         ],
         "P5817": [
           {
-            "value": "Q55654238"
+            "value": "Q63065035"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q16895578"
+            "value": "Q116039859"
           }
         ],
         "info": {
@@ -15260,24 +15491,12 @@
             "value": "Nea Peramos"
           },
           {
-            "lang": "fr",
-            "value": "Nea Peramos"
-          },
-          {
             "lang": "en",
             "value": "Nea Peramos railway station"
           },
           {
-            "lang": "en",
-            "value": "Nea Peramos station"
-          },
-          {
             "lang": "el",
             "value": "Νέα Πέραμος"
-          },
-          {
-            "lang": "el",
-            "value": "σιδηροδρομικός σταθμός Νέας Περάμου"
           }
         ]
       },
@@ -15783,6 +16002,11 @@
       },
       "id": "ΠΠΑΤ-Q116008707",
       "properties": {
+        "P131": [
+          {
+            "value": "Q12875753"
+          }
+        ],
         "P17": [
           {
             "info": {
@@ -15792,18 +16016,27 @@
             "value": "Q41"
           }
         ],
+        "P276": [
+          {
+            "value": "Q16332345"
+          }
+        ],
         "P296": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "ΠΠΑΤ"
           }
         ],
         "P31": [
           {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
@@ -15822,6 +16055,10 @@
           {
             "lang": "en",
             "value": "Paralia Patron"
+          },
+          {
+            "lang": "en",
+            "value": "Paralia Patron railway halt"
           },
           {
             "lang": "el",
@@ -16752,7 +16989,18 @@
         ],
         "P31": [
           {
+            "value": "Q11606300"
+          },
+          {
+            "value": "Q22808404"
+          },
+          {
             "value": "Q55488"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
           }
         ],
         "PWIKI": [
@@ -18874,16 +19122,36 @@
     {
       "geometry": {
         "coordinates": [
-          21.645299911499023,
-          38.1556282043457
+          [
+            21.645299911499023,
+            38.1556282043457
+          ],
+          [
+            21.646925,
+            38.156375
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "ΤΣΟΥ",
+      "id": "ΤΣΟΥ-Q87482166",
       "properties": {
+        "P131": [
+          {
+            "value": "Q12875753"
+          }
+        ],
         "P17": [
           {
+            "info": {
+              "pregrouped": [],
+              "reliability": 0
+            },
             "value": "Q41"
+          }
+        ],
+        "P276": [
+          {
+            "value": "Q3560241"
           }
         ],
         "P296": [
@@ -18891,13 +19159,43 @@
             "value": "ΤΣΟΥ"
           }
         ],
+        "P31": [
+          {
+            "value": "Q22808404"
+          },
+          {
+            "value": "Q55678"
+          }
+        ],
+        "P5817": [
+          {
+            "value": "Q55654238"
+          }
+        ],
+        "PWIKI": [
+          {
+            "value": "Q87482166"
+          }
+        ],
         "info": {
-          "enabled": true
+          "pregrouped": [
+            {
+              "enabled": true
+            }
+          ]
         },
         "labels": [
           {
             "lang": "en",
             "value": "Tsoukaleika"
+          },
+          {
+            "lang": "en",
+            "value": "Tsoukaleika railway halt"
+          },
+          {
+            "lang": "el",
+            "value": "σιδηροδρομικός σταθμός Τσουκαλαίικων"
           },
           {
             "lang": "el",
