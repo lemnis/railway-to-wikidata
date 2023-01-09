@@ -87,7 +87,22 @@ export const getLocations = async () => {
         (r) => r.sort((a, b) => b[1].percentage - a[1].percentage)?.[0]
       )) || [];
 
-    if (highestMatch?.percentage >= 2) {
+    // Adamstown is having a incorrect coordinate, lets manually ignore it O:)
+    if (
+      station.properties.labels[0].value === "Adamstown" &&
+      groupedStations?.[index]?.[0]?.properties.labels[0].value === "Adamstown"
+    ) {
+      groupedStations[index].push(station);
+
+      groupedStations[index].forEach((item) => {
+        if (item.geometry.coordinates?.[0] === -7) {
+          item.geometry = {
+            coordinates: [],
+            type: "MultiPoint",
+          };
+        }
+      });
+    } else if (highestMatch?.percentage >= 2) {
       groupedStations[index].push(station);
     } else {
       groupedStations.push([station]);
