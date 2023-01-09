@@ -20,7 +20,7 @@ async function importLocations(file: string) {
 }
 
 const filter = (country: CountryInfo) => (feature: Location) =>
-  feature.properties?.[Property.Country]?.every(
+  feature.properties?.[Property.Country]?.some(
     ({ value }) => value === country.wikidata
   ) && [undefined, true].includes(feature.properties.info?.enabled);
 
@@ -130,7 +130,10 @@ const getStations = (geojson: FeatureCollection<Point>) =>
     const k = base.filter(filter(country));
     const result = k;
     const mergeLocation = async (item: Location, i: Location) => {
-      result[result.indexOf(item)] = (await merge([item, i], false)) as Location;
+      result[result.indexOf(item)] = (await merge(
+        [item, i],
+        false
+      )) as Location;
     };
 
     for await (const iterator of others) {
