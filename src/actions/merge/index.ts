@@ -1,4 +1,4 @@
-import { coordEach, multiPoint } from "@turf/turf";
+import { cleanCoords, coordEach, multiPoint } from "@turf/turf";
 import { isEqual } from "lodash";
 import { normalize } from "station-name-diff";
 import { score } from "../../score";
@@ -9,8 +9,18 @@ import { logger } from "../../utils/logger";
 import { matchIds } from "../match";
 import { propertyMatch } from "../match/property";
 
-const mergeProperty = async (properties: ClaimObject<any>[]) => {
-  const result: ClaimObject<any> = { info: { pregrouped: [], reliability: 0 } };
+type Score = Awaited<ReturnType<typeof score>>;
+
+let count = 0;
+
+const mergeProperty = async (
+  properties: ClaimObject<any>[],
+  verbose: boolean
+) => {
+  const result: ClaimObject<any> = verbose
+    ? { info: { pregrouped: [], reliability: 0 } }
+    : {};
+
   // properties.forEach((prop) => {
   for await (const prop of properties) {
     if (!result.value) result.value = prop.value;
@@ -39,15 +49,15 @@ const mergeProperty = async (properties: ClaimObject<any>[]) => {
       }
     }
 
-    if (prop.info?.pregrouped) {
+    if (verbose && prop.info?.pregrouped) {
       prop.info?.pregrouped?.forEach((i: any) =>
         result.info?.pregrouped?.push(i)
       );
-    } else if (prop.info) {
+    } else if (verbose && prop.info) {
       result.info?.pregrouped?.push(prop.info);
     }
 
-    if (prop.info) {
+    if (verbose && prop.info) {
       result.info!.reliability! =
         (result.info!.reliability || 0) + (prop.info?.reliability || 0);
     }
@@ -55,7 +65,11 @@ const mergeProperty = async (properties: ClaimObject<any>[]) => {
   return result;
 };
 
-const mergeProperties = async (accumulated: Claims, properties: Claims) => {
+const mergeProperties = async (
+  accumulated: Claims,
+  properties: Claims,
+  verbose = true
+) => {
   const entries = Object.entries(properties) as [
     CodeIssuer | Property,
     ClaimObject<any>[] | undefined
@@ -77,7 +91,7 @@ const mergeProperties = async (accumulated: Claims, properties: Claims) => {
       if (match && origin) {
         accumulated[propertiesKey]![
           accumulated[propertiesKey]?.indexOf(origin)!
-        ] = await mergeProperty([value, origin]);
+        ] = await mergeProperty([value, origin], verbose);
       } else {
         accumulated[propertiesKey]!.push(value);
       }
@@ -88,7 +102,8 @@ const mergeProperties = async (accumulated: Claims, properties: Claims) => {
 
 export const merge = async (
   locations: Location[],
-  skipCoordinates?: boolean
+  skipCoordinates?: boolean,
+  verbose = true
 ): Promise<Location> => {
   let feature = multiPoint<Location["properties"]>([], { labels: [] });
 
@@ -126,7 +141,7 @@ export const merge = async (
     }
 
     // Info
-    if (info) {
+    if (verbose && info) {
       const { pregrouped, ...clone } = info;
       feature.properties.info ||= {};
       feature.properties.info!.pregrouped ||= [];
@@ -136,11 +151,11 @@ export const merge = async (
     // Properties
     Object.assign(
       feature.properties,
-      await mergeProperties(feature.properties, p)
+      await mergeProperties(feature.properties, p, verbose)
     );
   }
 
-  return feature;
+  return cleanCoords(feature);
 };
 
 export async function matchAndMerge(
@@ -148,46 +163,59 @@ export async function matchAndMerge(
   to: Location[],
   ok?: (a: Location, b: Location) => Promise<any>
 ) {
+  const map = new Map<any, any[]>();
+
   await Promise.all(
     origin.map(async (a) => {
-      const matchByIds = to.filter((b) => matchIds(b, a));
+      const matchByIds = to.filter((b) => matchIds(a, b));
 
-      if (matchByIds.length === 1) {
-        const [idLoc, scored, b] = (
+      if (matchByIds.length) {
+        const scoredMatchByIds = (
           await Promise.all(
-            matchByIds.map(
-              async (idLoc) =>
-                [idLoc, await score(idLoc, a), a] as [
-                  Location,
-                  Awaited<ReturnType<typeof score>>,
-                  Location
-                ]
-            )
+            matchByIds.map(async (b) => {
+              let first = await score(b, a);
+              let second = await score(a, b);
+              return [
+                b,
+                first.percentage > second.percentage ? first : second,
+              ] as [Location, Score];
+            })
           )
-        ).sort((a, b) => b[1].percentage - a[1].percentage)?.[0];
+        ).sort((a, b) => b[1].percentage - a[1].percentage);
+        const [b, scored] = scoredMatchByIds?.[0];
 
         if (
+          // Default match
           scored.percentage >= 1.9 ||
+          // If labels not fully match, but coordinates are within 150 meters
           (scored.labels.percentage !== 1 &&
-            scored.coordinates.percentage > 0.99 &&
+            scored.coordinates.percentage > 0.95 &&
+            scored.percentage > 1.49) ||
+          // If no coordinates are present
+          ((!!b.geometry.coordinates?.[0] || b.geometry.coordinates?.[0]) &&
+            scored.percentage > 1.4) ||
+          (scored.labels.percentage !== 1 &&
+            scored.claims.percentage === 1 &&
             scored.percentage > 1.49)
         ) {
-          await ok?.(a, idLoc);
+          // await ok?.(a, b);
+          if (!map.has(b)) map.set(b, []);
+          map.get(b)?.push(a);
           return;
-        } else if (
-          scored.percentage < 2 &&
-          scored.coordinates.percentage > 0.997
-        )
-          console.log(
-            [
-              `${idLoc?.id} vs ${b.id}`,
-              scored.percentage,
-              scored.labels.percentage,
-              scored.claims.percentage,
-            ],
-            idLoc.properties,
-            b.properties
-          );
+        } else if (scored.labels.matches.some((i) => i.similarity))
+          console
+            .log
+            // [
+            //   `${idLoc?.id} vs ${b.id}`,
+            //   scored.labels.percentage,
+            //   scored.claims.percentage,
+            //   scored.coordinates.percentage,
+            // ],
+            // idLoc.geometry.coordinates,
+            // idLoc.properties,
+            // b.geometry.coordinates,
+            // b.properties
+            ();
       }
 
       const matchedByDistance = to.filter((b) => {
@@ -195,39 +223,81 @@ export async function matchAndMerge(
           maxDistance: 8000,
         }).some((i) => i.match);
       });
+
       if (matchedByDistance.length) {
         const scoredByDistance = (
           await Promise.all(
-            matchedByDistance.map(
-              async (b) =>
-                [b, await score(a, b), a] as [Location, any, Location]
-            )
+            matchedByDistance.map(async (b) => {
+              let first = await score(b, a);
+              let second = await score(a, b);
+              return [
+                b,
+                first.percentage > second.percentage ? first : second,
+              ] as [Location, Score];
+            })
           )
         )?.sort((a, b) => b[1].percentage - a[1].percentage);
-        const [idLoc, scored, b] = scoredByDistance?.[0];
+
+        const [b, scored] = scoredByDistance?.[0];
 
         if (
           scored.percentage >= 1.9 ||
           (scored.labels.percentage !== 1 &&
-            scored.coordinates.percentage > 0.99 &&
+            scored.coordinates.percentage > 0.8 &&
             scored.percentage > 1.49)
         ) {
-          await ok?.(a, idLoc);
-        } else if (
-          scored.percentage < 2 &&
-          scored.coordinates.percentage > 0.997
-        )
-          console.log(
-            [
-              `${idLoc?.id} vs ${b.id}`,
-              scored.percentage,
-              scored.labels.percentage,
-              scored.claims.percentage,
-            ],
-            idLoc.properties,
-            b.properties
-          );
+          if (!map.has(b)) map.set(b, []);
+          map.get(b)?.push(a);
+        }
+        // else if (
+        //   typeof idLoc.id === "string" &&
+        //   idLoc.id?.startsWith("Q") &&
+        //   scored.coordinates.percentage > 0.8
+        // )
+        // console.log(
+        //   [
+        //     `${idLoc?.id} vs ${b.id}`,
+        //     scored.labels.percentage,
+        //     scored.claims.percentage,
+        //     scored.coordinates.percentage,
+        //     scored.coordinates.matches?.[0]?.distance,
+        //   ],
+        //   idLoc.geometry.coordinates,
+        //   idLoc.properties,
+        //   b.geometry.coordinates,
+        //   b.properties
+        // );
       }
     })
   );
+
+  await Promise.all(
+    Array.from(map.entries()).map(async ([b, aItems]) => {
+      if (aItems.length > 1) {
+        await Promise.all(aItems.map(async (a) => [a, await score(a, b)])).then(
+          async (i) => {
+            const sorted = i.sort((k, l) => l[1].percentage - k[1].percentage);
+
+            if (
+              sorted.length > 1 &&
+              sorted[0][1].percentage - sorted[1][1].percentage < 0.4
+            ) {
+              count++;
+            }
+
+            if (sorted?.[0]) await ok?.(sorted[0][0], b);
+          }
+        );
+        return;
+      }
+
+      return Promise.all(
+        aItems.map(async (a) => {
+          await ok?.(a, b);
+        })
+      );
+    })
+  );
+
+  console.log(count);
 }

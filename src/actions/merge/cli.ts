@@ -129,9 +129,9 @@ const getStations = (geojson: FeatureCollection<Point>) =>
   ) => {
     const k = base.filter(filter(country));
     const result = k;
-    const mergeLocation = async (item: Location, i: Location) => {
-      result[result.indexOf(item)] = (await merge(
-        [item, i],
+    const mergeLocation = async (a: Location, b: Location) => {
+      result[result.indexOf(a)] = (await merge(
+        [a, b],
         false
       )) as Location;
     };

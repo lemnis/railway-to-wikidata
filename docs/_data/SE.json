@@ -36940,25 +36940,13 @@
             59.6468
           ],
           [
-            17.928419,
-            59.649496
-          ],
-          [
-            17.928422,
-            59.649495
-          ],
-          [
-            17.9280917,
-            59.64957
-          ],
-          [
             17.92822,
             59.64614
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "740000492-SEArns-7400718-SEARC-trainline-38696-Q4792098",
+      "id": "740000492-SEArns-Q4792098",
       "properties": {
         "P17": [
           {
@@ -36985,19 +36973,6 @@
             "value": "Q55491"
           }
         ],
-        "P6724": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38696"
-              }
-            ],
-            "value": "38696"
-          }
-        ],
         "P722": [
           {
             "info": {
@@ -37006,44 +36981,12 @@
             "value": "7400492"
           }
         ],
-        "P8448": [
-          {
-            "info": {
-              "reliability": 0.7999999999999999
-            },
-            "value": "SEARC"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7000000000000001
-                },
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 1.5
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/38696"
-              }
-            ],
-            "value": "7400718"
-          }
-        ],
         "PWIKI": [
           {
             "value": "Q4792098"
           }
         ],
         "labels": [
-          {
-            "value": "Arlanda Central"
-          },
           {
             "lang": "sv",
             "value": "Arlanda södra"
@@ -37059,10 +37002,6 @@
           {
             "lang": "en",
             "value": "Arlanda South Station"
-          },
-          {
-            "lang": "sv",
-            "value": "Stockholm Arlanda Central"
           },
           {
             "lang": "ru",
@@ -67909,18 +67848,19 @@
             58.913368
           ],
           [
-            17.950604,
-            58.900676
-          ],
-          [
-            17.9508,
-            58.9008
+            17.94257,
+            58.91392
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "740030036-7400578-Q15603706",
+      "id": "740030036-Q10604867",
       "properties": {
+        "P1103": [
+          {
+            "value": "1"
+          }
+        ],
         "P131": [
           {
             "value": "Q505090"
@@ -67942,15 +67882,17 @@
         ],
         "P296": [
           {
-            "value": "Nyh"
+            "value": "Ngd"
           }
         ],
         "P31": [
           {
-            "value": "Q494829"
-          },
-          {
             "value": "Q55488"
+          }
+        ],
+        "P5595": [
+          {
+            "value": "2"
           }
         ],
         "P5817": [
@@ -67968,65 +67910,38 @@
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "7400578"
+            "value": "7400577"
           }
         ],
         "PWIKI": [
           {
-            "value": "Q15603706"
+            "value": "Q10604867"
           }
         ],
         "labels": [
           {
             "lang": "fr",
-            "value": "gare de Nynäshamn"
+            "value": "Nynäsgård"
+          },
+          {
+            "lang": "en",
+            "value": "Nynäsgård railway station"
           },
           {
             "lang": "sv",
             "value": "Nynäsgård station"
           },
           {
-            "lang": "fr",
-            "value": "Nynäshamn"
+            "lang": "da",
+            "value": "Nynäsgård Station"
+          },
+          {
+            "lang": "sv",
+            "value": "Nynäsgårds station"
           },
           {
             "lang": "pl",
-            "value": "Nynäshamn"
-          },
-          {
-            "lang": "sv",
-            "value": "Nynäshamn"
-          },
-          {
-            "lang": "en",
-            "value": "Nynäshamn railway station"
-          },
-          {
-            "lang": "en",
-            "value": "Nynäshamn station"
-          },
-          {
-            "value": "Nynäshamn Station"
-          },
-          {
-            "lang": "da",
-            "value": "Nynäshamn Station"
-          },
-          {
-            "lang": "sv",
-            "value": "Nynäshamns station"
-          },
-          {
-            "lang": "nl",
-            "value": "station Nynäshamn"
-          },
-          {
-            "lang": "zh",
-            "value": "尼奈斯港站"
+            "value": "Nynäshamn Nynäsgård"
           }
         ]
       },
@@ -69013,67 +68928,19 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            14.55873,
-            61.009104
-          ],
-          [
-            14.5591,
-            61.0087
-          ],
-          [
-            14.558929,
-            61.00888
-          ],
-          [
-            14.558929,
-            61.008877
-          ],
-          [
-            14.558825,
-            61.008781
-          ]
+          14.55873,
+          61.009104
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "740074531-SEMrc-7400119-SEAIN-Q15882313",
+      "id": 740074531,
       "properties": {
-        "P131": [
-          {
-            "value": "Q504239"
-          }
-        ],
         "P17": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "Q34"
           }
         ],
-        "P276": [
-          {
-            "value": "Q849874"
-          }
-        ],
-        "P296": [
-          {
-            "info": {
-              "reliability": 0.6400000000000001
-            },
-            "value": "Mrc"
-          }
-        ],
-        "P31": [
-          {
-            "value": "Q55488"
-          }
-        ],
         "P722": [
-          {
-            "value": "7400302"
-          },
           {
             "info": {
               "reliability": 0.6
@@ -69081,59 +68948,7 @@
             "value": "7474531"
           }
         ],
-        "P8448": [
-          {
-            "info": {
-              "reliability": 0.7999999999999999
-            },
-            "value": "SEAIN"
-          }
-        ],
-        "P954": [
-          {
-            "info": {
-              "pregrouped": [
-                {
-                  "reliability": 0.7999999999999999
-                }
-              ],
-              "reliability": 0.7999999999999999
-            },
-            "value": "7400119"
-          }
-        ],
-        "PWIKI": [
-          {
-            "value": "Q15882313"
-          }
-        ],
         "labels": [
-          {
-            "value": "Mora"
-          },
-          {
-            "lang": "sv",
-            "value": "Mora central"
-          },
-          {
-            "value": "Mora station"
-          },
-          {
-            "lang": "sv",
-            "value": "Mora station"
-          },
-          {
-            "lang": "da",
-            "value": "Mora Station"
-          },
-          {
-            "lang": "en",
-            "value": "Mora Station"
-          },
-          {
-            "lang": "nl",
-            "value": "Station Mora"
-          },
           {
             "lang": "sv",
             "value": "Vasaloppet"
