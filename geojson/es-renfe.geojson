@@ -46939,12 +46939,18 @@
     {
       "geometry": {
         "coordinates": [
-          0.9131,
-          40.99943
+          [
+            0.9131,
+            40.99943
+          ],
+          [
+            0.9207072,
+            40.9958894
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "60420",
+      "id": "60420-65407",
       "properties": {
         "P17": [
           {
@@ -46953,10 +46959,16 @@
         ],
         "P276": [
           {
+            "value": "CARRER L'ESTACIO FERROCARRIL, S/N"
+          },
+          {
             "value": "PLAÇA DE L'ESTACIÓ"
           }
         ],
         "P281": [
+          {
+            "value": "43890"
+          },
           {
             "value": "43891"
           }
@@ -46964,6 +46976,9 @@
         "P296": [
           {
             "value": "60420"
+          },
+          {
+            "value": "65407"
           }
         ],
         "P722": [
@@ -46972,11 +46987,17 @@
               "reliability": 0.7
             },
             "value": "7160420"
+          },
+          {
+            "info": {
+              "reliability": 0.7
+            },
+            "value": "7165407"
           }
         ],
         "labels": [
           {
-            "value": "L'HOSPITALET DE L'INFANT"
+            "value": "L'Hospitalet De L'Infant"
           }
         ]
       },
@@ -50611,52 +50632,6 @@
         "labels": [
           {
             "value": "L'AMETLLA DE MAR"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          0.9207072,
-          40.9958894
-        ],
-        "type": "Point"
-      },
-      "id": "65407",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q29"
-          }
-        ],
-        "P276": [
-          {
-            "value": "CARRER L'ESTACIO FERROCARRIL, S/N"
-          }
-        ],
-        "P281": [
-          {
-            "value": "43890"
-          }
-        ],
-        "P296": [
-          {
-            "value": "65407"
-          }
-        ],
-        "P722": [
-          {
-            "info": {
-              "reliability": 0.7
-            },
-            "value": "7165407"
-          }
-        ],
-        "labels": [
-          {
-            "value": "L'HOSPITALET DE L'INFANT"
           }
         ]
       },

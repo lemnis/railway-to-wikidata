@@ -20581,34 +20581,6 @@
     {
       "geometry": {
         "coordinates": [
-          11.2683696831624,
-          43.7864688092563
-        ],
-        "type": "Point"
-      },
-      "id": "Firenze",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q38"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.rfi.it/en/stations/le-cure.html"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Le Cure"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           11.3081518162681,
           43.7687155381953
         ],
@@ -20629,34 +20601,6 @@
         "labels": [
           {
             "value": "Firenze Rovezzano"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          11.2685176744521,
-          43.7861813246292
-        ],
-        "type": "Point"
-      },
-      "id": "Firenze",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q38"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.rfi.it/en/stations/le-cure0.html"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Le Cure"
           }
         ]
       },
@@ -20741,6 +20685,40 @@
         "labels": [
           {
             "value": "Firenze Porta Prato"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            11.2683696831624,
+            43.7864688092563
+          ],
+          [
+            11.2685176744521,
+            43.7861813246292
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "Firenze-Firenze",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q38"
+          }
+        ],
+        "P856": [
+          {
+            "value": "https://www.rfi.it/en/stations/le-cure.html"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Le Cure"
           }
         ]
       },
@@ -21851,40 +21829,14 @@
     {
       "geometry": {
         "coordinates": [
-          11.6426179168106,
-          45.0387588658338
+          [
+            11.6426179168106,
+            45.0387588658338
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "Fratta Polesine",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q38"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.rfi.it/en/stations/fratta0.html"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Fratta"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          11.6426179168106,
-          45.0387588658338
-        ],
-        "type": "Point"
-      },
-      "id": "Fratta Polesine",
+      "id": "Fratta Polesine-Fratta Polesine",
       "properties": {
         "P17": [
           {
@@ -26313,12 +26265,18 @@
     {
       "geometry": {
         "coordinates": [
-          9.13349034526337,
-          45.6685029051031
+          [
+            9.13349034526337,
+            45.6685029051031
+          ],
+          [
+            9.13347065305967,
+            45.6684252586398
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "Lentate Sul Seveso",
+      "id": "Lentate Sul Seveso-Lentate Sul Seveso",
       "properties": {
         "P17": [
           {
@@ -26328,34 +26286,6 @@
         "P856": [
           {
             "value": "https://www.rfi.it/en/stations/camnago-lentate.html"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Camnago-Lentate"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          9.13347065305967,
-          45.6684252586398
-        ],
-        "type": "Point"
-      },
-      "id": "Lentate Sul Seveso",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q38"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.rfi.it/en/stations/camnago-lentate0.html"
           }
         ],
         "labels": [
@@ -31176,12 +31106,14 @@
     {
       "geometry": {
         "coordinates": [
-          16.78527302,
-          41.07206379
+          [
+            16.78527302,
+            41.07206379
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "Modugno",
+      "id": "Modugno-Modugno",
       "properties": {
         "P17": [
           {
@@ -31191,34 +31123,6 @@
         "P856": [
           {
             "value": "https://www.rfi.it/en/stations/modugno.html"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Modugno"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          16.78527302,
-          41.07206379
-        ],
-        "type": "Point"
-      },
-      "id": "Modugno",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q38"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.rfi.it/en/stations/modugno0.html"
           }
         ],
         "labels": [
@@ -48486,12 +48390,18 @@
     {
       "geometry": {
         "coordinates": [
-          11.9066496527676,
-          45.5859257291661
+          [
+            11.9066496527676,
+            45.5859257291661
+          ],
+          [
+            11.906647463506,
+            45.5858393420686
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "Santa Giustina In Colle",
+      "id": "Santa Giustina In Colle-Santa Giustina In Colle",
       "properties": {
         "P17": [
           {
@@ -48501,34 +48411,6 @@
         "P856": [
           {
             "value": "https://www.rfi.it/en/stations/fratte-centro.html"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Fratte Centro"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          11.906647463506,
-          45.5858393420686
-        ],
-        "type": "Point"
-      },
-      "id": "Santa Giustina In Colle",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q38"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.rfi.it/en/stations/fratte-centro0.html"
           }
         ],
         "labels": [
@@ -50512,12 +50394,14 @@
     {
       "geometry": {
         "coordinates": [
-          9.23929438475429,
-          45.5411700427219
+          [
+            9.23929438475429,
+            45.5411700427219
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "Sesto San Giovanni",
+      "id": "Sesto San Giovanni-Sesto San Giovanni",
       "properties": {
         "P17": [
           {
@@ -50527,34 +50411,6 @@
         "P856": [
           {
             "value": "https://www.rfi.it/en/stations/sesto-s-giovanni.html"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Sesto S.Giovanni"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          9.23929438475429,
-          45.5411700427219
-        ],
-        "type": "Point"
-      },
-      "id": "Sesto San Giovanni",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q38"
-          }
-        ],
-        "P856": [
-          {
-            "value": "https://www.rfi.it/en/stations/sesto-s-giovanni0.html"
           }
         ],
         "labels": [

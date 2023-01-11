@@ -9,6 +9,7 @@ import { RELIABILITY_RENFE_UIC } from "./renfe.constants";
 import { Reliability } from "../../score/reliability";
 import { merge } from "../../actions/merge";
 import { score } from "../../score";
+import { groupByScore } from "../../group/score";
 
 const StringToCountry = {
   Francia: Country.France,
@@ -91,28 +92,10 @@ export const getLocations = async () => {
     })
   );
 
-  const groupedStations: Location[][] = [];
-
-  for await (const station of ungroupedStations) {
-    const [index, highestMatch] =
-      (await Promise.all(
-        groupedStations.map((r, index) =>
-          Promise.all(r.map((b) => score(station, b)))
-            .then((r) => r.sort((a, b) => b.percentage - a.percentage)?.[0])
-            .then(
-              (r) => [index, r] as [number, Awaited<ReturnType<typeof score>>]
-            )
-        )
-      ).then(
-        (r) => r.sort((a, b) => b[1].percentage - a[1].percentage)?.[0]
-      )) || [];
-
-    if (highestMatch?.percentage >= 2) {
-      groupedStations[index].push(station);
-    } else {
-      groupedStations.push([station]);
-    }
-  }
+  const groupedStations: Location[][] = await groupByScore(
+    ungroupedStations,
+    (score) => score?.percentage >= 1.9
+  );
 
   return await Promise.all(
     groupedStations.map((stations) =>

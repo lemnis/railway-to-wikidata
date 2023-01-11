@@ -11,6 +11,12 @@ import { Language, LanguageInfo } from "../../transform/language";
 import { getReliabilityScore } from "./euafr.constants";
 import { feature } from "@ideditor/country-coder";
 import { point } from "@turf/turf";
+import { merge } from "../../actions/merge";
+import { score } from "../../score";
+import { progressBar } from "../../utils/logger";
+import { groupByCoordinateRegion } from "../../group/location";
+
+type Score = Awaited<ReturnType<typeof score>>;
 
 const API_BASE_URL = "https://rinf.era.europa.eu/api";
 
@@ -137,6 +143,8 @@ const mapping: Record<
 };
 
 export const getLocations = async () => {
+  console.log(`Requesting euafr locations`);
+
   const response = await fetch(`${API_BASE_URL}/OperationalPoints`, {
     headers: {
       Authorization: `Bearer ${await token}`,
@@ -160,7 +168,9 @@ export const getLocations = async () => {
     }[];
   } = await response.json();
 
-  return locations
+  console.log(`Received ${locations.length} euafr locations`);
+
+  const filteredLocations = locations
     .filter(({ Type }) =>
       [
         "station",
@@ -172,8 +182,10 @@ export const getLocations = async () => {
     .filter(({ Name, Country, UOPID }) => {
       const type = mapping[Country as keyof typeof mapping];
       return type?.filter ? type?.filter(UOPID, Name) : true;
-    })
-    .map<Location>(({ Name, Country, Longitude, Latitude, UOPID: id }) => {
+    });
+
+  const ungroupedStations = filteredLocations.map(
+    ({ Name, Country, Longitude, Latitude, UOPID: id }) => {
       const type = mapping[Country as keyof typeof mapping];
       const isNumericCode = id.match(endsWith5Numbers);
       const country = findCountryByAlpha2(
@@ -208,7 +220,7 @@ export const getLocations = async () => {
               lang: type?.language?.[1],
             },
           ],
-          ...((property && stationCode)
+          ...(property && stationCode
             ? {
                 [property]: [
                   {
@@ -227,5 +239,52 @@ export const getLocations = async () => {
         },
         { id }
       );
-    });
+    }
+  );
+
+  const p = progressBar("Merging locations", ungroupedStations?.length);
+  const groupedStations: Location[][] = [];
+
+  groupByCoordinateRegion(
+    ungroupedStations,
+    async (station, closishStations) => {
+      p.tick();
+
+      const scoredClosishStations = await Promise.all(
+        closishStations.map(
+          async (b) => [await score(station, b), b] as [Score, Location]
+        )
+      );
+
+      const sorted = scoredClosishStations.sort(
+        (a, b) => b[0].percentage - a[0].percentage
+      );
+      const indexedMatch = sorted.find((item) =>
+        groupedStations.some((group) => group.includes(item[1]))
+      );
+
+      if (indexedMatch?.[0].percentage && indexedMatch[0].percentage >= 2.7) {
+        const index = groupedStations.findIndex((o) =>
+          o.includes(indexedMatch[1])
+        );
+        groupedStations[index].push(station);
+        if (indexedMatch[0].labels.percentage !== 1) {
+          p.interrupt(
+            require("util").inspect(
+              groupedStations[index].map((i) => i.properties.labels),
+              { colors: true }
+            )
+          );
+        }
+      } else {
+        groupedStations.push([station]);
+      }
+    }
+  );
+
+  return await Promise.all(
+    groupedStations.map((stations) =>
+      stations.length > 1 ? merge(stations, false, false) : stations[0]
+    )
+  );
 };
