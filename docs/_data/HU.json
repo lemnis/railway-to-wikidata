@@ -8600,47 +8600,6 @@
       "geometry": {
         "coordinates": [
           [
-            20.33861111111111,
-            46.41305555555556
-          ],
-          [
-            20.339991,
-            46.413338
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "152459-5518810",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q28"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5518810"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Hodmezövasarhely vasutallomas"
-          },
-          {
-            "value": "Hódmezővásárhely vasútállomás"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
             20.13888888888889,
             46.260555555555555
           ],
@@ -8799,97 +8758,12 @@
       "geometry": {
         "coordinates": [
           [
-            20.31277777777778,
-            46.40361111111111
-          ],
-          [
-            20.312781,
-            46.403333
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "152464-5518800",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q28"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5518800"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Hodmezövasarhelyi Nepkert vasutallomas"
-          },
-          {
-            "value": "Hódmezővásárhelyi Népkert vasútállomás"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            20.1425,
-            46.23972222222222
+            20.141111111111112,
+            46.24
           ],
           [
             20.142427,
             46.235433
-          ],
-          [
-            20.142498,
-            46.23972
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "152465-HU119//1-5500700",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q28"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5500700"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Szeged vasútállomás"
-          },
-          {
-            "value": "Szeged-Tisza"
-          },
-          {
-            "value": "Szeged, vasutallomas"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            20.141111111111112,
-            46.24
           ],
           [
             20.141114,
@@ -8898,7 +8772,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "152466-5510713",
+      "id": "152466-HU119//1-5510713",
       "properties": {
         "P17": [
           {
@@ -8915,6 +8789,9 @@
           }
         ],
         "labels": [
+          {
+            "value": "Szeged-Tisza"
+          },
           {
             "value": "Szeged, Bem utca"
           }
@@ -9037,47 +8914,6 @@
           },
           {
             "value": "Szeged, Pulz Utca"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            20.125555555555554,
-            46.26583333333333
-          ],
-          [
-            20.125553,
-            46.265834
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "152470-5510712",
-      "properties": {
-        "P17": [
-          {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
-            "value": "Q28"
-          }
-        ],
-        "P954": [
-          {
-            "value": "5510712"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Szeged, Rokus vasutallomas"
-          },
-          {
-            "value": "Szeged, Rókus vasútállomás"
           }
         ]
       },
@@ -94458,6 +94294,14 @@
             46.23972222222222
           ],
           [
+            20.1425,
+            46.23972222222222
+          ],
+          [
+            20.142498,
+            46.23972
+          ],
+          [
             20.143181,
             46.23981
           ],
@@ -94468,7 +94312,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "6110-5500101-trainline-18808-Q1295359",
+      "id": "6110-152465-5500700-trainline-18808-Q1295359",
       "properties": {
         "P1103": [
           {
@@ -94583,6 +94427,9 @@
               }
             ],
             "value": "5500101"
+          },
+          {
+            "value": "5500700"
           }
         ],
         "PWIKI": [
@@ -94631,8 +94478,14 @@
             "value": "Szeged railway station"
           },
           {
+            "value": "Szeged vasútállomás"
+          },
+          {
             "lang": "hu",
             "value": "Szeged vasútállomás"
+          },
+          {
+            "value": "Szeged, vasutallomas"
           },
           {
             "lang": "de",
@@ -107202,8 +107055,12 @@
             46.26611111111111
           ],
           [
-            20.12505,
-            46.266472
+            20.125555555555554,
+            46.26583333333333
+          ],
+          [
+            20.125553,
+            46.265834
           ],
           [
             20.125194,
@@ -107212,7 +107069,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "7258-5501241-Q22044056",
+      "id": "7258-152470-5510712-Q22044056",
       "properties": {
         "P131": [
           {
@@ -107258,11 +107115,10 @@
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5501241"
+          },
+          {
+            "value": "5510712"
           }
         ],
         "PWIKI": [
@@ -107271,9 +107127,6 @@
           }
         ],
         "labels": [
-          {
-            "value": "Szeged-Rokus"
-          },
           {
             "value": "Szeged-Rókus"
           },
@@ -107284,6 +107137,12 @@
           {
             "lang": "hu",
             "value": "Szeged-Rókus vasútállomás"
+          },
+          {
+            "value": "Szeged, Rokus vasutallomas"
+          },
+          {
+            "value": "Szeged, Rókus vasútállomás"
           }
         ]
       },
@@ -107392,12 +107251,16 @@
             46.403333333333336
           ],
           [
+            20.31277777777778,
+            46.40361111111111
+          ],
+          [
             20.312696,
             46.403417
           ],
           [
-            20.312331,
-            46.403522
+            20.312781,
+            46.403333
           ],
           [
             20.312836,
@@ -107406,7 +107269,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "7261-HU82/3/6-5501558-Q22043849",
+      "id": "7261-152464-HU82/3/6-5518800-Q22043849",
       "properties": {
         "P1103": [
           {
@@ -107452,11 +107315,10 @@
         ],
         "P954": [
           {
-            "info": {
-              "pregrouped": [],
-              "reliability": 0
-            },
             "value": "5501558"
+          },
+          {
+            "value": "5518800"
           }
         ],
         "PWIKI": [
@@ -107465,9 +107327,6 @@
           }
         ],
         "labels": [
-          {
-            "value": "Hodmezövasarhelyi Nepkert"
-          },
           {
             "value": "Hódmezővásárhelyi Népkert"
           },
@@ -107482,6 +107341,12 @@
           {
             "lang": "en",
             "value": "Hódmezővásárhelyi Népkert railway halt"
+          },
+          {
+            "value": "Hodmezövasarhelyi Nepkert vasutallomas"
+          },
+          {
+            "value": "Hódmezővásárhelyi Népkert vasútállomás"
           },
           {
             "lang": "hu",
@@ -107503,12 +107368,16 @@
             46.413333333333334
           ],
           [
+            20.33861111111111,
+            46.41305555555556
+          ],
+          [
             20.339659,
             46.41329
           ],
           [
-            20.340575,
-            46.413428
+            20.339991,
+            46.413338
           ],
           [
             20.340575,
@@ -107521,7 +107390,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "7262-HU82/4/0-5500124-trainline-38823-Q21877080",
+      "id": "7262-152459-HU82/4/0-5518810-trainline-38823-Q21877080",
       "properties": {
         "P131": [
           {
@@ -107594,6 +107463,9 @@
               }
             ],
             "value": "5500124"
+          },
+          {
+            "value": "5518810"
           }
         ],
         "PWIKI": [
@@ -107627,6 +107499,12 @@
           {
             "lang": "en",
             "value": "Hódmezővásárhely railway station"
+          },
+          {
+            "value": "Hodmezövasarhely vasutallomas"
+          },
+          {
+            "value": "Hódmezővásárhely vasútállomás"
           },
           {
             "lang": "hu",

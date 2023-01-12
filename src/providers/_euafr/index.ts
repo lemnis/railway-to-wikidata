@@ -245,7 +245,7 @@ export const getLocations = async () => {
   const p = progressBar("Merging locations", ungroupedStations?.length);
   const groupedStations: Location[][] = [];
 
-  groupByCoordinateRegion(
+  await groupByCoordinateRegion(
     ungroupedStations,
     async (station, closishStations) => {
       p.tick();
@@ -263,7 +263,12 @@ export const getLocations = async () => {
         groupedStations.some((group) => group.includes(item[1]))
       );
 
-      if (indexedMatch?.[0].percentage && indexedMatch[0].percentage >= 2.7) {
+      if (
+        indexedMatch?.[0].percentage &&
+        indexedMatch[0].labels.percentage +
+          indexedMatch[0].coordinates.percentage >=
+          1.7
+      ) {
         const index = groupedStations.findIndex((o) =>
           o.includes(indexedMatch[1])
         );
