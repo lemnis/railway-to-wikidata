@@ -7,8 +7,6 @@ import {
   catchError,
   Observable,
   EMPTY,
-  map,
-  tap,
   throwError,
 } from "rxjs";
 import { labelKeys, labelQuery } from "./label";
@@ -19,6 +17,7 @@ import { Location } from "../../types/location";
 import { Property, CodeIssuer } from "../../types/wikidata";
 import { logger } from "../../utils/logger";
 import { Country } from "../../transform/country";
+import { urls } from "./urls";
 
 export const getAllRailwayStations = async () => {
   // TODO: Exclude closed station, but  include stations who got reopened (e.g. veendam)
@@ -30,7 +29,7 @@ export const getAllRailwayStations = async () => {
       ?item wdt:${Property.Country} ?${Property.Country}.
   }
   ORDER BY ?item`),
-    [{ property: Property.Country }, { property: Property.InstanceOf}]
+    [{ property: Property.Country }, { property: Property.InstanceOf }]
   );
   const ids = k
     .filter(({ properties }) =>
@@ -68,15 +67,24 @@ export const getAllRailwayStations = async () => {
           VALUES ?item {
             ${ids.map((i) => `wd:${i}`).join(" ")}
           }
-          VALUES ?key {
-            ${properties.map((property) => `wdt:${property}`).join(" ")}
-            rdfs:label
-            skos:altLabel
-            wdt:P31
-          }
-         
-          OPTIONAL {
-            ?item ?key ?value
+          {
+            {
+              VALUES ?key {
+                ${properties.map((property) => `wdt:${property}`).join(" ")}
+                rdfs:label
+                skos:altLabel
+                wdt:P31
+              }
+            
+              OPTIONAL {
+                ?item ?key ?value
+              }
+            }
+            UNION
+            {
+              ?value schema:about ?item.
+              ?value schema:isPartOf ?key
+            }
           }
         }`
       ).catch((res) => catchError(res))
@@ -87,10 +95,10 @@ export const getAllRailwayStations = async () => {
         }
 
         return from([
-          simplifyByKeyValue(
-            response,
-            properties.map((property) => ({ property }))
-          ),
+          simplifyByKeyValue(response, [
+            ...properties.map((property) => ({ property })),
+            ...urls.map(({ wikipedia: property }) => ({ property }))
+          ]),
         ]);
       })
     );
@@ -102,7 +110,7 @@ export const getAllRailwayStations = async () => {
     const split = Math.floor(ids.length / 2);
     return getLocations(ids).pipe(
       catchError((e) => {
-        console.log(e, `Decreasing size of ids to ${split} per call`);
+        console.log(`Decreasing size of ids to ${split} per call`, e);
         return of(ids.slice(0, split), ids.slice(split)).pipe(
           filter((lo) => lo.length > 0),
           concatMap((lo) => splitter(lo))
@@ -111,7 +119,7 @@ export const getAllRailwayStations = async () => {
     );
   };
 
-  return splitter(filtered as string[]);
+  return splitter(ids as string[]);
 };
 
 export const getUICRailwayStations = async () => {
