@@ -9,21 +9,27 @@ import { CodeIssuer, Property } from "../../types/wikidata";
 
 export const getLocations = async () => {
   const rawLocations = await comboios.stations();
-  const ungroupedStations = await Promise.all(
-    rawLocations.map<Promise<Location>>(
-      async ({ uicId, name, location: { longitude, latitude }, country, id }) =>
-        point(
-          [longitude, latitude],
-          {
-            labels: [{ value: name }],
-            [CodeIssuer.UIC]: [{ value: uicId }],
-            [Property.Country]: [
-              { value: findCountryByAlpha2(country)?.wikidata! },
-            ],
-          },
-          { id }
-        )
-    )
+  const ungroupedStations = rawLocations.map<Location>(
+    ({ uicId, name, location: { longitude, latitude }, country, id }) =>
+      point(
+        [longitude, latitude],
+        {
+          labels: [{ value: name }],
+          [CodeIssuer.UIC]: [
+            {
+              value: uicId,
+              info: {
+                enabled: ["pt-cp"],
+                slug: name.toLowerCase().replace(/ /g, "-"),
+              },
+            },
+          ],
+          [Property.Country]: [
+            { value: findCountryByAlpha2(country)?.wikidata! },
+          ],
+        },
+        { id }
+      )
   );
 
   const groupedStations: Location[][] = await groupByScore(
