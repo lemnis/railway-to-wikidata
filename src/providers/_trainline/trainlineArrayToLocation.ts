@@ -10,7 +10,7 @@ export const trainlineArrayToLocation = async (
   stations: TrainlineStation[]
 ): Promise<Location> => {
   const url = `https://trainline-eu.github.io/stations-studio/#/station/${stations[0].id}`;
-  const references = [{ [Property.ReferenceURL]: url }];
+  const references: any = [{ [Property.ReferenceURL]: url }];
 
   const labels = stations
     .map((station) => {
@@ -38,11 +38,24 @@ export const trainlineArrayToLocation = async (
   if (stations?.filter(({ properties }) => properties.uic).length) {
     properties[CodeIssuer.UIC] = stations
       ?.filter(({ properties }) => properties.uic)
-      .map(({ properties }) => ({
-        value: properties.uic,
-        references,
-        info: { reliability: ReliabilityTrainline[CodeIssuer.UIC] },
-      }));
+      .map(({ properties }) => {
+        const enabled = [];
+        if (properties.sncf_is_enabled) enabled.push("trainline-sncf");
+        if (
+          properties.trenitalia_is_enabled &&
+          properties.uic === properties.trenitalia_id
+        )
+          enabled.push("trainline-trenitalia");
+
+        return {
+          value: properties.uic,
+          references,
+          info: {
+            reliability: ReliabilityTrainline[CodeIssuer.UIC],
+            enabled: properties.sncf_is_enabled ? ["trainline-sncf"] : [],
+          },
+        };
+      });
   }
 
   const countries = stations
@@ -58,7 +71,9 @@ export const trainlineArrayToLocation = async (
         references,
         info: {
           reliability: ReliabilityTrainline[CodeIssuer.Benerail],
-          enabled: station.properties.benerail_is_enabled,
+          enabled: station.properties.benerail_is_enabled
+            ? ["trainline-benerail"]
+            : [],
         },
       });
     }
@@ -70,7 +85,7 @@ export const trainlineArrayToLocation = async (
         references,
         info: {
           reliability: ReliabilityTrainline[CodeIssuer.ATOC],
-          enabled: station.properties.atoc_is_enabled,
+          enabled: station.properties.atoc_is_enabled ? ["trainline-atoc"] : [],
         },
       });
     }
@@ -82,7 +97,7 @@ export const trainlineArrayToLocation = async (
         references,
         info: {
           reliability: ReliabilityTrainline[CodeIssuer.SNCF],
-          enabled: station.properties.sncf_is_enabled,
+          enabled: station.properties.sncf_is_enabled ? ["trainline-sncf"] : [],
         },
       });
     }
@@ -94,7 +109,8 @@ export const trainlineArrayToLocation = async (
         references,
         info: {
           reliability: ReliabilityTrainline[CodeIssuer.Trainline],
-          enabled: station.properties.is_suggestable
+          enabled: station.properties.is_suggestable ? ["trainline"] : [],
+          slug: station.properties.slug,
         },
       });
     }
@@ -106,15 +122,26 @@ export const trainlineArrayToLocation = async (
     ].forEach((id) => {
       if (!id || properties[CodeIssuer.IBNR]?.find(({ value }) => value === id))
         return;
+
+      const enabled: string[] | false =
+        station.properties.db_is_enabled ||
+        station.properties.cff_is_enabled ||
+        station.properties.obb_is_enabled
+          ? []
+          : false;
+      if (station.properties.db_is_enabled)
+        (enabled as any).push("trainline-db");
+      if (station.properties.cff_is_enabled)
+        (enabled as any).push("trainline-cff");
+      if (station.properties.obb_is_enabled)
+        (enabled as any).push("trainline-oebb");
+
       properties[CodeIssuer.IBNR] ||= [];
       properties[CodeIssuer.IBNR]?.push({
         value: id,
         references,
         info: { reliability: ReliabilityTrainline[CodeIssuer.IBNR] },
-        enabled:
-          station.properties.db_is_enabled ||
-          station.properties.cff_is_enabled ||
-          station.properties.obb_is_enabled,
+        enabled,
       });
     });
   });

@@ -1582,8 +1582,11 @@
         "P6724": [
           {
             "info": {
-              "enabled": true,
-              "reliability": 0.6400000000000001
+              "enabled": [
+                "trainline"
+              ],
+              "reliability": 0.6400000000000001,
+              "slug": "vilnius"
             },
             "references": [
               {
@@ -1596,10 +1599,10 @@
         "P722": [
           {
             "info": {
-              "enabled": false,
+              "enabled": [],
               "pregrouped": [
                 {
-                  "enabled": false,
+                  "enabled": [],
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -1621,7 +1624,7 @@
               ],
               "pregrouped": [
                 {
-                  "enabled": false,
+                  "enabled": [],
                   "reliability": 0.7000000000000001
                 },
                 {
@@ -7758,8 +7761,9 @@
         "P6724": [
           {
             "info": {
-              "enabled": false,
-              "reliability": 0.6400000000000001
+              "enabled": [],
+              "reliability": 0.6400000000000001,
+              "slug": "turmantas"
             },
             "references": [
               {
@@ -7772,7 +7776,7 @@
         "P722": [
           {
             "info": {
-              "enabled": false,
+              "enabled": [],
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7793,7 +7797,7 @@
         "P8448": [
           {
             "info": {
-              "enabled": false,
+              "enabled": [],
               "reliability": 0.7000000000000001
             },
             "references": [

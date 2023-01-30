@@ -738,8 +738,11 @@
         "P6724": [
           {
             "info": {
-              "enabled": true,
-              "reliability": 0.6400000000000001
+              "enabled": [
+                "trainline"
+              ],
+              "reliability": 0.6400000000000001,
+              "slug": "riga"
             },
             "references": [
               {
@@ -755,7 +758,7 @@
           },
           {
             "info": {
-              "enabled": false,
+              "enabled": [],
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -774,7 +777,7 @@
               ],
               "pregrouped": [
                 {
-                  "enabled": false,
+                  "enabled": [],
                   "reliability": 0.7000000000000001
                 },
                 {
