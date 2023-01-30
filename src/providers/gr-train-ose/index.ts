@@ -4,7 +4,9 @@ import fetch from "node-fetch";
 import { Country, findCountryByAlpha3 } from "../../transform/country";
 import { Language } from "../../transform/language";
 import { Location } from "../../types/location";
-import { Property } from "../../types/wikidata";
+import { Items, Property } from "../../types/wikidata";
+import { inspect } from "util";
+import { score } from "../../score";
 
 export const getLocations = async () => {
   const response = await fetch(
@@ -20,9 +22,8 @@ export const getLocations = async () => {
     LON: number;
   }[] = json.data.nodes;
   const nodesInUse = json.data.nodes_in_use;
-  return nodes
-    .filter(({ LAT, LON, STAT }) => nodesInUse.includes(STAT) || LAT || LON)
-    .map<Location>(({ STAT, LON, LAT, LABEL_EL, LABEL_EN, COUNTRY }) => {
+  const result = nodes.map<Location>(
+    ({ STAT, LON, LAT, LABEL_EL, LABEL_EN, COUNTRY }) => {
       const hasCoordinates = LON && LAT;
       const coordinates: [number, number] = [LON, LAT];
 
@@ -40,17 +41,28 @@ export const getLocations = async () => {
           ...(englishName
             ? [{ value: englishName, lang: Language.English[1] }]
             : []),
-          ...(greekName
-            ? [{ value: greekName, lang: Language.Greek[1] }]
-            : []),
+          ...(greekName ? [{ value: greekName, lang: Language.Greek[1] }] : []),
         ],
         ...(country ? { [Property.Country]: [{ value: country }] } : {}),
-        [Property.StationCode]: [{ value: STAT }],
+        [Property.StationCode]: [
+          {
+            value: STAT,
+            qualifiers: {
+              [Property.AppliesToPart]: [{ value: Items.HellenicTrain }],
+            },
+            info: {
+              enabled: nodesInUse.includes(STAT),
+            },
+          },
+        ],
         info: { enabled: nodesInUse.includes(STAT) },
       };
 
       return hasCoordinates
         ? point(coordinates, properties, { id: STAT })
         : multiPoint([], properties, { id: STAT });
-    });
+    }
+  );
+
+  return result;
 };

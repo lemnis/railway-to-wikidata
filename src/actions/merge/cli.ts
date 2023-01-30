@@ -8,14 +8,15 @@ import sortJson from "sort-json";
 import { FeatureCollection, Point, point } from "@turf/turf";
 import { feature } from "@ideditor/country-coder";
 import path from "path";
+import { logger } from "../../utils/logger";
 
 const projectRoot = path.join(__dirname, "../../../");
 
 console.log("Starting...", projectRoot);
 
 async function importLocations(file: string) {
-  console.log("Import", path.relative(projectRoot, file));
   const data = await fs.readFile(file, "utf8");
+  logger.debug(`Import ${path.relative(projectRoot, file)}`);
   return JSON.parse(data).features as Location[];
 }
 
@@ -84,6 +85,7 @@ const getStations = (geojson: FeatureCollection<Point>) =>
       return importLocations(`${GeoJSONPath}/wikidata/${file}`);
     })
   ).then((items) => items.flat());
+  console.log(wikidata.length);
   const irail = await importLocations(`${GeoJSONPath}/be-irail.geojson`);
   const ns = await importLocations(`${GeoJSONPath}/nl-ns.geojson`);
   const openov = await importLocations(`${GeoJSONPath}/lu-openov.geojson`);
@@ -117,6 +119,7 @@ const getStations = (geojson: FeatureCollection<Point>) =>
     `${GeoJSONPath}/se-trafiklab.geojson`
   );
   const db = await importLocations(`${GeoJSONPath}/de-db.geojson`);
+  const bdz = await importLocations(`${GeoJSONPath}/bg-bdz.geojson`);
   const litrail = await importLocations(`${GeoJSONPath}/lt-litrail.geojson`);
   const gov = await importLocations(`${GeoJSONPath}/ro-gov.geojson`);
   const entur = await importLocations(`${GeoJSONPath}/no-entur.geojson`);
@@ -130,10 +133,7 @@ const getStations = (geojson: FeatureCollection<Point>) =>
     const k = base.filter(filter(country));
     const result = k;
     const mergeLocation = async (a: Location, b: Location) => {
-      result[result.indexOf(a)] = (await merge(
-        [a, b],
-        false
-      )) as Location;
+      result[result.indexOf(a)] = (await merge([a, b], false)) as Location;
     };
 
     for await (const iterator of others) {
@@ -185,7 +185,7 @@ const getStations = (geojson: FeatureCollection<Point>) =>
   );
   await generate(
     euafr,
-    [fullHafas, nsInternational, trainline, wikidata],
+    [bdz, fullHafas, nsInternational, trainline, wikidata],
     Country.Bulgaria
   );
   await generate(

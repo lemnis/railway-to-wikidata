@@ -738,6 +738,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -754,6 +755,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -767,12 +769,18 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "ns-international"
+              ],
               "pregrouped": [
                 {
                   "enabled": false,
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],

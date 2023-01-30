@@ -60,7 +60,7 @@ export const Stations = new Promise<
     "S. Radića 16, Banova Jaruga",
     map,
     "Banova Jaruga, S. Radića 16, Banova Jaruga",
-    "Train station, <br />Working hours: mon - sat            4.40 - 16.100 sun and blagdan      12.30 - 20.00"
+    "Train station, <br />Working hours: mon - fri 4.40 - 12.10 sun/blagdan 12.40 - 20.10"
   );
   addMarker(
     46.0415259064,
@@ -78,7 +78,7 @@ export const Stations = new Promise<
     "Trg slobode 26, Beli Manastir",
     map,
     "Beli Manastir, Trg slobode 26, Beli Manastir",
-    "Train station, <br />Working hours: mon - fri               06.40 - 14.10   "
+    "Train station, <br />Working hours: mon - fri               06.40 - 14.10"
   );
   addMarker(
     44.0263297609,
@@ -87,7 +87,7 @@ export const Stations = new Promise<
     "Benkovačke bojne 4, Benkovac",
     map,
     "Benkovac, Benkovačke bojne 4, Benkovac",
-    "Train station, <br />Buy ticket on the bus"
+    "Train station, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     44.0813381729,
@@ -96,7 +96,7 @@ export const Stations = new Promise<
     "Kralja Petra Krešimira IV. 67, Bibinje",
     map,
     "Bibinje, Kralja Petra Krešimira IV. 67, Bibinje",
-    "Train station, <br />Buy ticket on the bus"
+    "Train station, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.5871337927,
@@ -105,7 +105,7 @@ export const Stations = new Promise<
     "Kolodvorska b.b., Bizovac",
     map,
     "Bizovac, Kolodvorska b.b., Bizovac",
-    "Train station, <br />Working hours: mon - fri                05.20 -12.50         "
+    "Train station, <br />Buy ticket on the train"
   );
   addMarker(
     45.8940714232,
@@ -114,7 +114,7 @@ export const Stations = new Promise<
     "Tomislavov trg 2, Bjelovar",
     map,
     "Bjelovar, Tomislavov trg 2, Bjelovar",
-    "Train station, <br />Working hours: mon - fri             05.40 - 17.10          sat                     07.30 - 15.00       sun and blagdan                     12.40 - 20.10                      "
+    "Train station, <br />Working hours: mon - fri  05.40 - 17.10, sat 07.30 - 15.00 sun/blagdan  13.10 - 20.40"
   );
   addMarker(
     45.3356930828,
@@ -240,7 +240,7 @@ export const Stations = new Promise<
     "Kolodvorska 2, Čakovec",
     map,
     "Čakovec, Kolodvorska 2, Čakovec",
-    "Train station, <br />Working hours: mon - fri 04.50 - 19.40, sat 06.00 - 13.30 sun and blagdan 12.40 - 20.10"
+    "Train station, <br />Working hours: mon - fri 04.50 - 16.20, sat 06.00 - 13.30 sun and blagdan 12.40 - 20.10"
   );
   addMarker(
     45.5004930351,
@@ -267,7 +267,7 @@ export const Stations = new Promise<
     "Kolodvorska 5, Daruvar",
     map,
     "Daruvar, Kolodvorska 5, Daruvar",
-    "Train station, <br />Working hours: mon - fri                  05.50 -13.20    "
+    "Train station, <br />Buy ticket on the train"
   );
   addMarker(
     45.6894670459,
@@ -339,7 +339,7 @@ export const Stations = new Promise<
     "Trg sv. Jurja 18, Duga Resa",
     map,
     "Duga Resa, Trg sv. Jurja 18, Duga Resa",
-    "Train station, <br />Working hours: mon - fri             4.55 - 12.25"
+    "Train station, <br />Working hours: mon - fri             5.30 - 13.00 (iznimno from 4.1. ne radi)"
   );
   addMarker(
     45.8013583056,
@@ -348,7 +348,7 @@ export const Stations = new Promise<
     "Matije Gupca 4, Dugo Selo",
     map,
     "Dugo Selo, Matije Gupca 4, Dugo Selo",
-    "Train station, <br />Working hours: mon - sat            05.15 - 20.45 sun and blagdan     06.20 - 20.15            "
+    "Train station, <br />Working hours: mon - fri            05.20 - 20.50 sat, sun and blagdan     06.10 - 20.15"
   );
   addMarker(
     45.3136468325,
@@ -546,7 +546,7 @@ export const Stations = new Promise<
     "Kolodvorska 2, Ivanić Grad",
     map,
     "Ivanić Grad, Kolodvorska 2, Ivanić Grad",
-    "Train station, <br />Working hours: 05.10 - 19.55 "
+    "Train station, <br />Working hours: mon-sat 5.10-16.40, sun and blagdan 13.45-21.15  "
   );
   addMarker(
     45.2784122464,
@@ -573,7 +573,7 @@ export const Stations = new Promise<
     "Nikole Tesle b.b., Jastrebarsko ",
     map,
     "Jastrebarsko, Nikole Tesle b.b., Jastrebarsko ",
-    "Train station, <br />Working hours: mon - fri             05.20 - 12.50"
+    "Train station, <br />Working hours: mon - fri 05.20 - 12.50"
   );
   addMarker(
     45.1973621588,
@@ -618,7 +618,7 @@ export const Stations = new Promise<
     "Vilima Reinera 3, Karlovac ",
     map,
     "Karlovac, Vilima Reinera 3, Karlovac ",
-    "Train station, <br />Working hours: mon - fri                  5.00 - 19.40, sat 6.10 - 17.40, sun and blagdan 13.55 - 21.25  "
+    "Train station, <br />Working hours: mon - fri 5.00 - 19.30, sat 7.10 - 17.40, sun and blagdan 14.00 - 21.30"
   );
   addMarker(
     43.5673880121,
@@ -645,7 +645,7 @@ export const Stations = new Promise<
     "Kistanje b.b., Kistanje",
     map,
     "Kistanje, Kistanje b.b., Kistanje",
-    "Train station, <br />Buy ticket on the bus"
+    "Train station, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.9814445778,
@@ -663,7 +663,7 @@ export const Stations = new Promise<
     "Trg A. Starčevića 4, Knin",
     map,
     "Knin, Trg A. Starčevića 4, Knin",
-    "Train station, <br />Working hours: mon - fri               7.30 - 15.00                       "
+    "Train station, <br />Working hours: mon - fri 7.30 - 15.00"
   );
   addMarker(
     46.0505453752,
@@ -681,7 +681,7 @@ export const Stations = new Promise<
     "Kolodvorska 10, Koprivnica",
     map,
     "Koprivnica, Kolodvorska 10, Koprivnica",
-    "Train station, <br />Working hours: 04.40 - 20.40              "
+    "Train station, <br />Working hours: 4.20-20.40"
   );
   addMarker(
     43.9497185207,
@@ -708,7 +708,7 @@ export const Stations = new Promise<
     "Kolodvorska b.b., Kotoriba",
     map,
     "Kotoriba, Kolodvorska b.b., Kotoriba",
-    "Train station, <br />Working hours: mon - fri             05.20 - 12.50"
+    "Train station, <br />Working hours: mon - fri 05.20 - 12.50"
   );
   addMarker(
     46.1594733404,
@@ -717,7 +717,7 @@ export const Stations = new Promise<
     "Frana Galovića 8, Krapina",
     map,
     "Krapina, Frana Galovića 8, Krapina",
-    "Train station, <br />Working hours: mon - fri             05.20 - 12.50    "
+    "Train station, <br />Working hours: mon - fri 05.20 - 12.50    "
   );
   addMarker(
     46.0062652062,
@@ -726,7 +726,7 @@ export const Stations = new Promise<
     "Kralja Tomislava 69, Križevci",
     map,
     "Križevci, Kralja Tomislava 69, Križevci",
-    "Train station, <br />Working hours: 05.00 - 20.20           "
+    "Train station, <br />Working hours: mon - fri 05.00 - 16.30, sat 5.00-12.30, sun and blagdanom 10.50-20.20    "
   );
   addMarker(
     45.2340421079,
@@ -744,7 +744,7 @@ export const Stations = new Promise<
     "Metanska 6, Kutina",
     map,
     "Kutina, Metanska 6, Kutina",
-    "Train station, <br />Working hours: mon-fri 4.50-19.50, sun-blagdan 13.15-20.45"
+    "Train station, <br />Working hours: mon-fri 4.50-16.20, sun, blagdan 13.20-20.50  "
   );
   addMarker(
     43.5837773092,
@@ -834,7 +834,7 @@ export const Stations = new Promise<
     "Kolodvorska b.b., Ludbreg",
     map,
     "Ludbreg, Kolodvorska b.b., Ludbreg",
-    "Train station, <br />Working hours: mon - fri             05.20 - 12.50 "
+    "Train station, <br />Working hours: mon - fri 05.20 - 12.50"
   );
   addMarker(
     45.6005568378,
@@ -924,7 +924,7 @@ export const Stations = new Promise<
     "Ulica žrtava fašizma 12, Moravice",
     map,
     "Moravice, Ulica žrtava fašizma 12, Moravice",
-    "Train station, <br />Working hours: mon - fri             5.40 - 13.10   "
+    "Train station, <br />Working hours: mon - fri 5.40 - 13.10"
   );
   addMarker(
     45.5140189054,
@@ -960,7 +960,7 @@ export const Stations = new Promise<
     "Kolodvorska 4, Našice",
     map,
     "Našice, Kolodvorska 4, Našice",
-    "Train station, <br />Working hours: mon - fri  4.40 - 12.10        "
+    "Train station, <br />Working hours: mon - fri  4.35 - 12.05"
   );
   addMarker(
     45.2533584422,
@@ -969,7 +969,7 @@ export const Stations = new Promise<
     "Kolodvorska 5, Nova Gradiška ",
     map,
     "Nova Gradiška, Kolodvorska 5, Nova Gradiška ",
-    "Train station, <br />Working hours: mon - fri 05.00 - 16.30, sat/sun and blagdan 09.30 - 19.00                               "
+    "Train station, <br />Working hours: mon - fri 05.00 - 16.30, sat/sun/blagdan 09.50 - 19.20"
   );
   addMarker(
     45.1898264923,
@@ -978,7 +978,7 @@ export const Stations = new Promise<
     "Kralja D. Zvonimira 19, Nova Kapela ",
     map,
     "Nova Kapela-Batrina, Kralja D. Zvonimira 19, Nova Kapela ",
-    "Train station, <br />Working hours: mon - fri             05.30 - 13.00               "
+    "Train station, <br />Working hours: mon - fri 05.25 - 12.55"
   );
   addMarker(
     45.879684399,
@@ -1005,7 +1005,7 @@ export const Stations = new Promise<
     "Kolodvorska b.b., Novoselec ",
     map,
     "Novoselec, Kolodvorska b.b., Novoselec ",
-    "Train station, <br />Working hours: mon - sat            05.30 - 17.00, sun and blagdan 14.05 - 21.35 "
+    "Train station, <br />Working hours: mon - fri 4.55 - 12.25"
   );
   addMarker(
     45.3268875768,
@@ -1014,7 +1014,7 @@ export const Stations = new Promise<
     "Kolodvorska b.b., Novska ",
     map,
     "Novska, Kolodvorska b.b., Novska ",
-    "Train station, <br />Working hours: mon - fri 4.25 - 19.40, sun and blagdan 12.45 - 20.15         "
+    "Train station, <br />Working hours: mon - fri 4.25 - 15.55, sun and blagdan 12.55 - 20.25 "
   );
   addMarker(
     45.266043194,
@@ -1041,7 +1041,7 @@ export const Stations = new Promise<
     "Fra Luke Ibrišimovića 10, Okučani ",
     map,
     "Okučani, Fra Luke Ibrišimovića 10, Okučani ",
-    "Train station, <br />Working hours: mon - fri             06.10 - 13.40  (iznimno from 17.1.-7.2.2022. blagajna ne radi)"
+    "Train station, <br />Working hours: mon - fri  06.05 - 13.35"
   );
   addMarker(
     45.3645935927,
@@ -1077,7 +1077,7 @@ export const Stations = new Promise<
     "Trg Lavoslava Ružičke 2, Osijek ",
     map,
     "Osijek, Trg Lavoslava Ružičke 2, Osijek ",
-    "Train station, <br />Working hours: 07.00 - 20.05                              "
+    "Train station, <br />Working hours: 5.20 - 20.30 (iznimno to 31.12 radi 8.10-19.40)"
   );
   addMarker(
     45.5522315055,
@@ -1122,7 +1122,7 @@ export const Stations = new Promise<
     "Od stareh kostanji 3b, Pazin",
     map,
     "Pazin, Od stareh kostanji 3b, Pazin",
-    "Train station, <br />Working hours: mon - fri             05.40 - 13.10          "
+    "Train station, <br />Working hours: mon - fri  05.30 - 13.00"
   );
   addMarker(
     43.6755816098,
@@ -1176,7 +1176,16 @@ export const Stations = new Promise<
     "V. Nazora 11, 34 310 Pleternica ",
     map,
     "Pleternica, V. Nazora 11, 34 310 Pleternica ",
-    "Train station, <br />Working hours: mon - fri              06.10 - 13.40 (iznimno from 17.12.2020. blagajna ne radi)"
+    "Train station, <br />Working hours: mon - fri              06.10 - 13.40"
+  );
+  addMarker(
+    43.0485917,
+    17.4334095,
+    "Ploče",
+    "",
+    map,
+    "Ploče",
+    "Train station, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.5592216191,
@@ -1185,7 +1194,7 @@ export const Stations = new Promise<
     "Kolodvorska 86, Popovača",
     map,
     "Popovača, Kolodvorska 86, Popovača",
-    "Train station, <br />Working hours: mon - sat            05.20 - 16.50 sun and blagdan      13.50 - 21.20 "
+    "Train station, <br />Working hours: mon - fri            05.10 - 12.40   "
   );
   addMarker(
     45.3375042221,
@@ -1194,7 +1203,7 @@ export const Stations = new Promise<
     "F.Cirakija 5, Požega ",
     map,
     "Požega, F.Cirakija 5, Požega ",
-    "Train station, <br />Working hours: mon - sat            07.10 - 18.10 sun and blagdan      12.10 - 19.40"
+    "Train station, <br />Working hours: mon - fri           07.10 - 18.10 sun and blagdan      12.10 - 19.40 (iznimno radi mon-fri 7.10-14.40, sat, sun ne radi; 30.12. ne radi)"
   );
   addMarker(
     43.6366902827,
@@ -1221,7 +1230,7 @@ export const Stations = new Promise<
     "Kolodvorska 5, Pula",
     map,
     "Pula, Kolodvorska 5, Pula",
-    "Train station, <br />Working hours: from 12.12.2021.-15.4.2022. and from 26.9.-10.12.2022. mon - fri  08.15 - 15.45, from 16.4.-25.9.2022. svakodnevno 8.40-18.10                     "
+    "Train station, <br />Working hours: from 11.12.2022.-16.6.2023. and from 4.9.-9.12.2023. mon - fri  08.15 - 15.45, from 17.6.-3.9.2023. svakodnevno 8.40-18.10                 "
   );
   addMarker(
     46.2058966856,
@@ -1248,7 +1257,7 @@ export const Stations = new Promise<
     "Trg kralja Tomislava 1, Rijeka",
     map,
     "Rijeka, Trg kralja Tomislava 1, Rijeka",
-    "Train station, <br />Working hours: 06.40 - 20.40                                          "
+    "Train station, <br />Working hours: mon - fri 06.40 - 18.50,  sat 11.20-18.50, sun and blagdanom 11.00 - 19.30 (iznimno 1.1. radi from 11 to 19.30, from 2.1. radi mon-fri 6.40-19.40, sat/sun/blagdan 9.40-19.40)"
   );
   addMarker(
     45.4003666843,
@@ -1275,7 +1284,7 @@ export const Stations = new Promise<
     "",
     map,
     "Sarvaš",
-    "Train station, <br />Buy ticket on the train"
+    "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.8720767976,
@@ -1284,7 +1293,7 @@ export const Stations = new Promise<
     "A. Kovačića, Prigorje Brdovečko (Savski Marof)",
     map,
     "Savski Marof, A. Kovačića, Prigorje Brdovečko (Savski Marof)",
-    "Train station, <br />Working hours: mon - sat             05.40 - 17.10          sun and blagdan      07.30 - 15.00 "
+    "Train station, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05, mon - fri from 10.7.-15.8.2023. 6.00-13.30"
   );
   addMarker(
     45.8248451177,
@@ -1293,7 +1302,7 @@ export const Stations = new Promise<
     "Ninska b.b., Sesvete",
     map,
     "Sesvete, Ninska b.b., Sesvete",
-    "Train station, <br />Working hours: mon - sat                05.20 - 19.50 sun and blagdan     06.20 - 18.30"
+    "Train station, <br />Working hours: mon - fri                5.30 - 19.50  sat, sun and blagdan     6.20 - 17.50"
   );
   addMarker(
     45.1809170789,
@@ -1320,7 +1329,7 @@ export const Stations = new Promise<
     "Trg Republike 1, Sisak",
     map,
     "Sisak, Trg Republike 1, Sisak",
-    "Train station, <br />Working hours: 05.10 - 20.00                  "
+    "Train station, <br />Working hours: 05.10 - 20.15                  "
   );
   addMarker(
     45.458077153,
@@ -1329,7 +1338,7 @@ export const Stations = new Promise<
     "Božidara Adžije b.b.,Sisak Caprag",
     map,
     "Sisak Caprag, Božidara Adžije b.b.,Sisak Caprag",
-    "Train station, <br />Working hours: mon - sat 05.15 - 16.45, sun and blagdan 12.00 - 19.30         "
+    "Train station, <br />Working hours: mon - fri 5.10 - 16.40,  sat   05.10-12.40,  sun and blagdan 13.55-21.25   "
   );
   addMarker(
     45.4253963086,
@@ -1347,7 +1356,7 @@ export const Stations = new Promise<
     "Kolodvorska b.b.,Slatina",
     map,
     "Slatina, Kolodvorska b.b.,Slatina",
-    "Train station, <br />Working hours: mon - fri, sun and blagdan               06.30 - 18.00            sat 10.30 - 18.00 (iznimno from 7.10.2021. blagajna radi mon-fri 7.20-14.50)"
+    "Train station, <br />Working hours: mon - fri 7.20-14.50"
   );
   addMarker(
     45.1636245438,
@@ -1356,7 +1365,7 @@ export const Stations = new Promise<
     "Trg Hrvatskog proljeća 4, Slavonski Brod",
     map,
     "Slavonski Brod, Trg Hrvatskog proljeća 4, Slavonski Brod",
-    "Train station, <br />Working hours: 05.45 - 20.45                                 "
+    "Train station, <br />Working hours: 05.45 - 20.55"
   );
   addMarker(
     43.5371670288,
@@ -1383,7 +1392,7 @@ export const Stations = new Promise<
     "Domagojeva obala 9, Split",
     map,
     "Split, Domagojeva obala 9, Split",
-    "Train station, <br />Working hours: 06.20 - 21.50 (iznimno from 23.9.2021. 6.10-17.10)"
+    "Train station, <br />Working hours: 06.15 - 21.45,    from 2.7.-2.9.2023. 6.50 - 22.20"
   );
   addMarker(
     43.5221211067,
@@ -1392,7 +1401,7 @@ export const Stations = new Promise<
     "Hercegovačka b.b., Split",
     map,
     "Split Predgrađe, Hercegovačka b.b., Split",
-    "Train station, <br />Working hours: mon - fri             07.05 - 14.35   (iznimno from 8.2.2022. mon-fri  6.10-13.40)                      "
+    "Train station, <br />Working hours: mon - fri             7.10 - 14.40                     "
   );
   addMarker(
     45.266579259,
@@ -1419,7 +1428,7 @@ export const Stations = new Promise<
     "Kolodvorska b.b., Strizivojna",
     map,
     "Strizivojna-Vrpolje, Kolodvorska b.b., Strizivojna",
-    "Train station, <br />Working hours: mon - sat            05.40 - 17.10            sun and blagdan                                         11.40-19.10 (iznimno 21. and 22.2.2022. blagajna radi u vremenu from 5.40-13.10)"
+    "Train station, <br />Working hours: mon - fri 05.10 - 16.40, sun and blagdan 11.40-19.10 (iznimno from 5.4. radi mon-fri 5.40 - 13.10)"
   );
   addMarker(
     45.7940430278,
@@ -1437,7 +1446,7 @@ export const Stations = new Promise<
     "Ulica branitelja b.b., Sunja",
     map,
     "Sunja, Ulica branitelja b.b., Sunja",
-    "Train station, <br />Working hours: mon - fri             05.40 - 13.10      "
+    "Train station, <br />Working hours: mon - fri             04.50 - 12.20     "
   );
   addMarker(
     45.3208285277,
@@ -1482,7 +1491,7 @@ export const Stations = new Promise<
     "Fra Jeronima Milete 24, Šibenik",
     map,
     "Šibenik, Fra Jeronima Milete 24, Šibenik",
-    "Train station, <br />Working hours: mon - fri             07.05 - 14.35  (iznimno 11.1.2022. blagajna ne radi)"
+    "Train station, <br />Working hours: mon - fri             07.05 - 14.35 "
   );
   addMarker(
     44.0872734939,
@@ -1491,7 +1500,7 @@ export const Stations = new Promise<
     "Gojka Šuška 50, Škabrnja",
     map,
     "Škabrnje, Gojka Šuška 50, Škabrnja",
-    "Train station, <br />Buy ticket on the bus"
+    "Train station, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.3245358259,
@@ -1554,7 +1563,7 @@ export const Stations = new Promise<
     "Supilova 1, Varaždin",
     map,
     "Varaždin, Supilova 1, Varaždin",
-    "Train station, <br />Working hours: mon - fri 05.10 - 19.40, sat 05.10 - 14.40 , sun and blagdan 12.10 - 19.40                     "
+    "Train station, <br />Working hours: mon - fri 05.10 - 20.20, sat 05.10 - 14.40 , sun and blagdan 12.10 - 19.40"
   );
   addMarker(
     45.4389359699,
@@ -1581,7 +1590,7 @@ export const Stations = new Promise<
     "Kolodvorska 2, Veliko Trgovišće",
     map,
     "Veliko Trgovišće, Kolodvorska 2, Veliko Trgovišće",
-    "Train station, <br />Buy ticket on the train"
+    "Train station, <br />Working hours: mon - fri   5.30-13.00"
   );
   addMarker(
     45.300398403,
@@ -1590,7 +1599,7 @@ export const Stations = new Promise<
     "Trg Kralja Tomislava 3, Vinkovci",
     map,
     "Vinkovci, Trg Kralja Tomislava 3, Vinkovci",
-    "Train station, <br />Working hours: mon - sat 05.20 - 19.40, sun and blagdan 08.10-19.40"
+    "Train station, <br />Working hours: mon - sat 05.10 - 19.45, sun and blagdan 08.10-19.45"
   );
   addMarker(
     46.0685571682,
@@ -1608,7 +1617,7 @@ export const Stations = new Promise<
     "Stjepana Radića 104, Virovitica",
     map,
     "Virovitica, Stjepana Radića 104, Virovitica",
-    "Train station, <br />Working hours: mon - fri  05.40 - 19.40, sat 05.40 - 13.10, sun and blagdan 12.10 - 19.40"
+    "Train station, <br />Working hours: mon - fri  05.40 - 17.10, sat 05.40 - 13.10, sun and blagdan 12.10 - 19.40"
   );
   addMarker(
     45.4754766706,
@@ -1644,7 +1653,7 @@ export const Stations = new Promise<
     "Kolodvorska 124, Vrbovec",
     map,
     "Vrbovec, Kolodvorska 124, Vrbovec",
-    "Train station, <br />Working hours: 05.20 - 20.40                      "
+    "Train station, <br />Working hours: mon - fri 5.20-16.50,  sat 5.30-14.00,  sun and blagdanom 11.10 - 20.40                "
   );
   addMarker(
     45.3726775384,
@@ -1689,7 +1698,7 @@ export const Stations = new Promise<
     "Trg Ksavera Šandora Đalskog 3, Zabok",
     map,
     "Zabok, Trg Ksavera Šandora Đalskog 3, Zabok",
-    "Train station, <br />Working hours: 04.40 - 21.25"
+    "Train station, <br />Working hours: 5.20-21.20"
   );
   addMarker(
     44.1062622862,
@@ -1698,7 +1707,7 @@ export const Stations = new Promise<
     "Ante Starčevića 3, Zadar",
     map,
     "Zadar, Ante Starčevića 3, Zadar",
-    "Train station, <br />Buy ticket on the bus"
+    "Train station, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.8044511799,
@@ -1707,7 +1716,7 @@ export const Stations = new Promise<
     "Trga kralja Tomislava 12, Zagreb ",
     map,
     "Zagreb Glavni kolodvor, Trga kralja Tomislava 12, Zagreb ",
-    "Train station, <br />Working hours: 05.30 - 22.00               "
+    "Train station, <br />Working hours: 05.20 - 21.40         From 1.7.-1.9.2023.   5.20 - 22.30              "
   );
   addMarker(
     45.7601347072,
@@ -1725,7 +1734,7 @@ export const Stations = new Promise<
     "Trg Francuske Republike 13 b,  Zagreb",
     map,
     "Zagreb Zapadni Kolodvor, Trg Francuske Republike 13 b,  Zagreb",
-    "Train station, <br />Working hours: mon - sat 5.40 - 17.10, sun and blagdan 07.30 - 15.00"
+    "Train station, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05, mon - fri from 10.7.-15.8.2023. 6.00-13.30"
   );
   addMarker(
     45.3980282531,
@@ -1743,7 +1752,7 @@ export const Stations = new Promise<
     "Trg žrtava 1903. 2, Zaprešić",
     map,
     "Zaprešić, Trg žrtava 1903. 2, Zaprešić",
-    "Train station, <br />Working hours: mon - sat                      05.40 - 17.10 sun and blagdan      07.30 - 15.00 "
+    "Train station, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05, mon - fri from 10.7.-15.8.2023. 6.00-13.30"
   );
   addMarker(
     45.5685962207,
@@ -1761,7 +1770,7 @@ export const Stations = new Promise<
     "Matije Gupca 2, Donja Zdenčina",
     map,
     "Zdenčina, Matije Gupca 2, Donja Zdenčina",
-    "Train station, <br />Working hours: mon - fri             05.30 - 13.00 "
+    "Train station, <br />Buy ticket on the train"
   );
   addMarker(
     46.0441446078,
@@ -1824,7 +1833,7 @@ export const Stations = new Promise<
     "Kolodvorska 1, Donja Stubica",
     map,
     "Donja Stubica, Kolodvorska 1, Donja Stubica",
-    "Train stop, <br />Working hours: mon-fri 05.40-14.00"
+    "Train stop, <br />Working hours: mon-fri 05.40-13.40"
   );
   addMarker(
     45.2253328356,
@@ -1896,7 +1905,7 @@ export const Stations = new Promise<
     "Čulinečka 77, Čulinec, Zagreb",
     map,
     "Čulinec, Čulinečka 77, Čulinec, Zagreb",
-    "Train stop, <br />Working hours: mon - fri 5.40 - 17.10 sun and blagdan      07.30 - 15.00 (iznimno from 25.1.2022. blagajna radi mon-fri 5.40-13.10)"
+    "Train stop, <br />Working hours: mon - fri 5.40 - 17.10, sat 9.10-16.40 ,   mon - fri from 10.7.-25.8.2023.  5.40-13.10 (izimno from 2.1. to daljnjeg radi mon-fri 5.40-13.10)"
   );
   addMarker(
     46.0208648595,
@@ -1995,7 +2004,7 @@ export const Stations = new Promise<
     "Dragutina Butorca 17, Prigorje Brdovečko ",
     map,
     "Brdovec, Dragutina Butorca 17, Prigorje Brdovečko ",
-    "train stop, <br />Working hours: mon - sat 05.40 - 17.10 sun and blagdan 07.30 - 15.00 (iznimno from 13.1.2022. mon-fri 5.40-13.10)"
+    "train stop, <br />Working hours: mon - fri 6.00 - 13.30"
   );
   addMarker(
     45.4447974841,
@@ -2085,7 +2094,7 @@ export const Stations = new Promise<
     "",
     map,
     "Bulić",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.7434100911,
@@ -2175,7 +2184,7 @@ export const Stations = new Promise<
     "Preloška b.b., Čakovec",
     map,
     "Čakovec-Buzovec, Preloška b.b., Čakovec",
-    "train stop, <br />Working hours: mon - sri and fri      05.20 - 13.20            thu                      06.40 - 15.40"
+    "train stop, <br />Working hours: mon - sri and fri      05.25 - 13.25, thu  06.50 - 15.50 (iznimno from 16. to 30.12. ne radi)"
   );
   addMarker(
     46.3703133895,
@@ -2229,7 +2238,7 @@ export const Stations = new Promise<
     "",
     map,
     "Dalmatinska Ostrovica",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     44.050409921,
@@ -2238,7 +2247,7 @@ export const Stations = new Promise<
     "",
     map,
     "Debeljak",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.6730280576,
@@ -2391,7 +2400,7 @@ export const Stations = new Promise<
     "",
     map,
     "Đevrske",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.4451009529,
@@ -2436,7 +2445,7 @@ export const Stations = new Promise<
     "Aleja Bologne b.b., Zagreb-Susedgrad",
     map,
     "Gajnice, Aleja Bologne b.b., Zagreb-Susedgrad",
-    "train stop, <br />Working hours: mon - sat            05.40 - 17.10         sun and blagdan     07.30 - 15.00 (iznimno from 18.1.2022. blagajna ne radi)"
+    "train stop, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05 (iznimno from 28.12. to daljnjeg radi mon-fri 6.00-13.30), 10.7.-15.8.2023. mon - fri 6.00-13.30"
   );
   addMarker(
     44.9334649803,
@@ -2454,7 +2463,7 @@ export const Stations = new Promise<
     "",
     map,
     "Galovci",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.3759445799,
@@ -2634,7 +2643,7 @@ export const Stations = new Promise<
     "Prilaz Većeslava Holjevca b.b., Karlovac",
     map,
     "Karlovac Centar, Prilaz Većeslava Holjevca b.b., Karlovac",
-    "train stop, <br />Working hours: mon - fri 05.50 - 20.40"
+    "train stop, <br />Working hours: mon - fri 05.50 - 13.20 "
   );
   addMarker(
     43.5534973434,
@@ -2715,7 +2724,7 @@ export const Stations = new Promise<
     "",
     map,
     "Kožlovac",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.160054846,
@@ -2805,7 +2814,7 @@ export const Stations = new Promise<
     "Sokolska b.b., Zagreb",
     map,
     "Kustošija, Sokolska b.b., Zagreb",
-    "train stop, <br />Working hours: mon - sat 5.40 - 17.10 sun and blagdan 07.30 - 15.00 (iznimno blagajna radi mon-fri 5.40-13.10)"
+    "train stop, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05, mon - fri from 10.7.-15.8.2023. 6.00-13.30 (iznimno from 4.1. radi mon-fri from 6 to 13.30)"
   );
   addMarker(
     45.1636365957,
@@ -2868,7 +2877,7 @@ export const Stations = new Promise<
     "",
     map,
     "Lepuri",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.2815748245,
@@ -2967,7 +2976,7 @@ export const Stations = new Promise<
     "Ulica kneza Branimira b.b., Zagreb",
     map,
     "Maksimir, Ulica kneza Branimira b.b., Zagreb",
-    "train stop, <br />Working hours: mon - fri             05.40 - 17.10"
+    "train stop, <br />Working hours: mon - fri 5.40 - 17.10, sat 9.10-16.40 ,   mon - fri from 10.7.-25.8.2023.  5.40-13.10 (izimno from 2.1. to daljnjeg radi mon-fri 5.40-13.10)"
   );
   addMarker(
     43.7200648108,
@@ -3084,7 +3093,7 @@ export const Stations = new Promise<
     "",
     map,
     "Nadin",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.4874379224,
@@ -3363,7 +3372,7 @@ export const Stations = new Promise<
     "Samoborska cesta b.b., Zagreb- Susedgrad",
     map,
     "Podsused Stajalište, Samoborska cesta b.b., Zagreb- Susedgrad",
-    "train stop, <br />Working hours: mon - sat            05.40 - 17.10          sun and blagdan        07.30 - 15.30"
+    "train stop, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05, mon - fri from 10.7.-15.8.2023. 6.00-13.30"
   );
   addMarker(
     45.9094017902,
@@ -3471,7 +3480,7 @@ export const Stations = new Promise<
     "",
     map,
     "Prkos",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     44.0226061586,
@@ -3480,7 +3489,7 @@ export const Stations = new Promise<
     "",
     map,
     "Radučić",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.2959750533,
@@ -3498,7 +3507,7 @@ export const Stations = new Promise<
     "",
     map,
     "Raštević",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.2305499322,
@@ -3615,7 +3624,7 @@ export const Stations = new Promise<
     "Željeznička 57, Sesvetski Kraljevec",
     map,
     "Sesvetski Kraljevec, Željeznička 57, Sesvetski Kraljevec",
-    "train stop, <br />Working hours: mon - fri              05.40 - 17.10     "
+    "train stop, <br />Working hours: mon - fri              5.40 - 13.10 (ne radi to daljnjeg)"
   );
   addMarker(
     45.9592075842,
@@ -3702,18 +3711,18 @@ export const Stations = new Promise<
     45.5453014983,
     18.7421494903,
     "Standard",
-    "",
+    "Stara Subocka 1, Novska",
     map,
-    "Standard",
+    "Standard, Stara Subocka 1, Novska",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.3641343387,
     16.9114369639,
     "Stara Subocka",
-    "Stara Subocka 1, Novska",
+    "",
     map,
-    "Stara Subocka, Stara Subocka 1, Novska",
+    "Stara Subocka",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
@@ -3729,18 +3738,18 @@ export const Stations = new Promise<
     45.1702495585,
     17.8420350171,
     "Stari Slatnik",
-    "",
+    "Ive Lole Ribara 21, Donji Andrijevci",
     map,
-    "Stari Slatnik",
+    "Stari Slatnik, Ive Lole Ribara 21, Donji Andrijevci",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.1828945929,
     18.2471860213,
     "Staro Topolje",
-    "Ive Lole Ribara 21, Donji Andrijevci",
+    "",
     map,
-    "Staro Topolje, Ive Lole Ribara 21, Donji Andrijevci",
+    "Staro Topolje",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
@@ -3756,27 +3765,27 @@ export const Stations = new Promise<
     46.2417418206,
     16.174123427,
     "Stažnjevec",
-    "",
+    "Viktora Šipeka 68, Stubičke Toplice ",
     map,
-    "Stažnjevec",
+    "Stažnjevec, Viktora Šipeka 68, Stubičke Toplice ",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.9749009072,
     15.9414216546,
     "Stubičke Toplice",
-    "Viktora Šipeka 68, Stubičke Toplice ",
+    "Stupno b.b., Stupno",
     map,
-    "Stubičke Toplice, Viktora Šipeka 68, Stubičke Toplice ",
+    "Stubičke Toplice, Stupno b.b., Stupno",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.5022182215,
     16.3320122974,
     "Stupno",
-    "Stupno b.b., Stupno",
+    "",
     map,
-    "Stupno, Stupno b.b., Stupno",
+    "Stupno",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
@@ -3786,24 +3795,24 @@ export const Stations = new Promise<
     "",
     map,
     "Sukošan",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     45.2590270269,
     17.7760218325,
     "Sulkovci",
-    "",
+    "Mokrička 13, Ključ Brdovečki, Šenkovec",
     map,
-    "Sulkovci",
+    "Sulkovci, Mokrička 13, Ključ Brdovečki, Šenkovec",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.8861215968,
     15.6950718844,
     "Sutla",
-    "Mokrička 13, Ključ Brdovečki, Šenkovec",
+    "",
     map,
-    "Sutla, Mokrička 13, Ključ Brdovečki, Šenkovec",
+    "Sutla",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
@@ -3876,7 +3885,7 @@ export const Stations = new Promise<
     "",
     map,
     "Šopot",
-    "train stop, <br />Buy ticket on the bus"
+    "train stop, <br />Working hours: HŽPP ne pruža uslugu"
   );
   addMarker(
     46.0317300443,
@@ -3927,27 +3936,27 @@ export const Stations = new Promise<
     45.4009292395,
     17.6626122757,
     "Trenkovo",
-    "",
+    "Ulica kneza Branimira b.b., Zagreb",
     map,
-    "Trenkovo",
+    "Trenkovo, Ulica kneza Branimira b.b., Zagreb",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.8184452691,
     16.0494026724,
     "Trnava",
-    "Ulica kneza Branimira b.b., Zagreb",
+    "Gornja Pačetina 11a",
     map,
-    "Trnava, Ulica kneza Branimira b.b., Zagreb",
-    "train stop, <br />Working hours: mon - sat             05.40 - 17.10          sun and blagdan      07.30 - 15.00 "
+    "Trnava, Gornja Pačetina 11a",
+    "train stop, <br />Working hours: mon - fri 5.40 - 17.10, sat 9.10-16.40 ,   mon - fri from 10.7.-25.8.2023.  5.40-13.10 (izimno from 3.1. to daljnjeg radi mon-fri 5.40-13.10)"
   );
   addMarker(
     46.1150378711,
     15.8876965341,
     "Velika Ves",
-    "Gornja Pačetina 11a",
+    "",
     map,
-    "Velika Ves, Gornja Pačetina 11a",
+    "Velika Ves",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
@@ -4098,19 +4107,19 @@ export const Stations = new Promise<
     45.5375742604,
     16.6579028571,
     "Voloder",
-    "",
+    "Aleja Bologne b.b., Zagreb- Susedgrad",
     map,
-    "Voloder",
+    "Voloder, Aleja Bologne b.b., Zagreb- Susedgrad",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.8122886632,
     15.896561914,
     "Vrapče",
-    "Aleja Bologne b.b., Zagreb- Susedgrad",
+    "",
     map,
-    "Vrapče, Aleja Bologne b.b., Zagreb- Susedgrad",
-    "train stop, <br />Working hours: mon - sat             05.40 - 17.10         sun and blagdan       07.30 - 15.00 "
+    "Vrapče",
+    "train stop, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05 (iznimno from 28.12. to daljnjeg radi mon-fri 6.00-13.30), 10.7.-15.8.2023. mon - fri 6.00-13.30"
   );
   addMarker(
     45.3176533215,
@@ -4170,18 +4179,18 @@ export const Stations = new Promise<
     45.6196857942,
     17.2722651062,
     "Vukovje",
-    "",
+    "Slavonska 1, Garčin",
     map,
-    "Vukovje",
+    "Vukovje, Slavonska 1, Garčin",
     "train stop, <br />Buy ticket on the bus"
   );
   addMarker(
     45.1685435369,
     18.1535453951,
     "Zadubravlje",
-    "Slavonska 1, Garčin",
+    "",
     map,
-    "Zadubravlje, Slavonska 1, Garčin",
+    "Zadubravlje",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
@@ -4197,19 +4206,19 @@ export const Stations = new Promise<
     45.2355921521,
     17.4628865981,
     "Zapolje",
-    "",
+    "Savska 54, Zaprešić",
     map,
-    "Zapolje",
+    "Zapolje, Savska 54, Zaprešić",
     "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.854990863,
     15.7947729789,
     "Zaprešić Savska",
-    "Savska 54, Zaprešić",
+    "",
     map,
-    "Zaprešić Savska, Savska 54, Zaprešić",
-    "train stop, <br />Working hours: mon - fri 05.40 - 17.10"
+    "Zaprešić Savska",
+    "train stop, <br />Working hours: mon - fri 6.00 - 17.30, sat 8.35 - 16.05, mon - fri from 10.7.-15.8.2023. 6.00-13.30"
   );
   addMarker(
     45.334311966,
@@ -4326,7 +4335,7 @@ export const Stations = new Promise<
     "",
     map,
     "Bijela",
-    "Buy ticket on the train"
+    "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.383018,
@@ -4344,7 +4353,7 @@ export const Stations = new Promise<
     "",
     map,
     "Jurdani",
-    "Buy ticket on the train"
+    "Train station, <br />Buy ticket on the train"
   );
   addMarker(
     45.38051,
@@ -4353,7 +4362,7 @@ export const Stations = new Promise<
     "",
     map,
     "Jušići",
-    "Buy ticket on the train"
+    "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.33832,
@@ -4362,7 +4371,7 @@ export const Stations = new Promise<
     "",
     map,
     "Krnjevo",
-    "Buy ticket on the train"
+    "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.41224,
@@ -4371,7 +4380,7 @@ export const Stations = new Promise<
     "",
     map,
     "Permani",
-    "Buy ticket on the train"
+    "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.37003,
@@ -4380,7 +4389,7 @@ export const Stations = new Promise<
     "",
     map,
     "Rukavac",
-    "Buy ticket on the train"
+    "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.1941680177,
@@ -4407,7 +4416,7 @@ export const Stations = new Promise<
     "",
     map,
     "Gradec",
-    "Buy ticket on the train"
+    "train stop, <br />Buy ticket on the train"
   );
   addMarker(
     45.9236,
@@ -4444,6 +4453,15 @@ export const Stations = new Promise<
     map,
     "Gradec ",
     "za prometne potrebe, <br />Working hours: nema zaustavljanja putničkih vlakova"
+  );
+  addMarker(
+    45.82486,
+    16.08744,
+    "Sesvetska Sopnica",
+    "Željeznička cesta 56, 10040, Zagreb",
+    map,
+    "Sesvetska Sopnica, Željeznička cesta 56, 10040, Zagreb",
+    "train stop, <br />Buy ticket on the train"
   );
 
   return resolve(result);

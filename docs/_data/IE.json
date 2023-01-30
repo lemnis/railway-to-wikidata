@@ -80,7 +80,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -99,6 +101,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -117,7 +120,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6000045"
@@ -376,7 +388,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -395,6 +409,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -413,7 +428,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6000043"
@@ -718,7 +742,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6010034"
@@ -887,7 +920,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6010025"
@@ -1045,6 +1087,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010044"
           }
         ],
@@ -1208,6 +1255,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010028"
           }
         ],
@@ -1375,6 +1427,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010026"
           }
         ],
@@ -1527,7 +1584,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6010006"
@@ -1677,6 +1743,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010055"
           }
         ],
@@ -1823,6 +1894,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092307"
           }
         ],
@@ -1971,6 +2047,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010009"
           }
         ],
@@ -2103,6 +2184,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010024"
           }
         ],
@@ -2242,6 +2328,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010013"
           }
         ],
@@ -2395,7 +2486,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -2409,6 +2502,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2421,6 +2515,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000010"
           }
         ],
@@ -2555,6 +2654,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010004"
           }
         ],
@@ -2712,7 +2816,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6010043"
@@ -2858,6 +2971,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000067"
           }
         ],
@@ -3023,6 +3141,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010015"
           }
         ],
@@ -3180,7 +3303,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6010046"
@@ -3322,6 +3454,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000086"
           }
         ],
@@ -3461,6 +3598,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000007"
           }
         ],
@@ -3609,6 +3751,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010058"
           }
         ],
@@ -3775,6 +3922,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010038"
           }
         ],
@@ -3924,7 +4076,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -3938,6 +4092,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3950,6 +4105,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000088"
           }
         ],
@@ -4095,7 +4255,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -4109,6 +4271,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4121,6 +4284,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000039"
           }
         ],
@@ -4302,7 +4470,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -4316,6 +4486,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4328,6 +4499,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000048"
           }
         ],
@@ -4508,6 +4684,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010056"
           }
         ],
@@ -4685,6 +4866,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010036"
           }
         ],
@@ -4838,6 +5024,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010051"
           }
         ],
@@ -4965,6 +5156,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010005"
           }
         ],
@@ -5109,6 +5305,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010003"
           }
         ],
@@ -5253,6 +5454,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010049"
           }
         ],
@@ -5376,7 +5582,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -5390,6 +5598,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5402,6 +5611,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000090"
           }
         ],
@@ -5550,6 +5764,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010050"
           }
         ],
@@ -5690,6 +5909,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000047"
           }
         ],
@@ -5855,6 +6079,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010048"
           }
         ],
@@ -5993,6 +6222,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010021"
           }
         ],
@@ -6141,6 +6375,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010017"
           }
         ],
@@ -6290,6 +6529,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010032"
           }
         ],
@@ -6444,6 +6688,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010052"
           }
         ],
@@ -6580,6 +6829,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000059"
           }
         ],
@@ -6730,6 +6984,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000017"
           }
         ],
@@ -6905,7 +7164,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -6919,6 +7180,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6931,6 +7193,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000058"
           }
         ],
@@ -7124,7 +7391,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -7138,6 +7407,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7150,6 +7420,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000099"
           }
         ],
@@ -7300,7 +7575,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -7314,6 +7591,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7326,6 +7604,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000079"
           }
         ],
@@ -7471,7 +7754,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -7485,6 +7770,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7497,6 +7783,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000002"
           }
         ],
@@ -7663,7 +7954,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -7677,6 +7970,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7689,6 +7983,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000056"
           }
         ],
@@ -7838,7 +8137,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -7852,6 +8153,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7864,6 +8166,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000051"
           }
         ],
@@ -8027,7 +8334,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -8041,6 +8350,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8053,6 +8363,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000098"
           }
         ],
@@ -8205,6 +8520,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000102"
           }
         ],
@@ -8421,6 +8741,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6090868"
           }
         ],
@@ -8517,7 +8842,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -8531,6 +8858,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8543,6 +8871,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000075"
           }
         ],
@@ -8687,7 +9020,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -8701,6 +9036,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8713,6 +9049,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000004"
           }
         ],
@@ -8858,7 +9199,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -8872,6 +9215,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8884,6 +9228,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000009"
           }
         ],
@@ -9033,7 +9382,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -9047,6 +9398,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9059,6 +9411,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000100"
           }
         ],
@@ -9200,7 +9557,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -9214,6 +9573,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9232,7 +9592,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6000006"
@@ -9376,7 +9745,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -9390,6 +9761,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9402,6 +9774,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000064"
           }
         ],
@@ -9591,6 +9968,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010067"
           }
         ],
@@ -9709,7 +10091,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -9723,6 +10107,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9735,6 +10120,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000003"
           }
         ],
@@ -9885,7 +10275,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -9899,6 +10291,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9911,6 +10304,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000081"
           }
         ],
@@ -10060,7 +10458,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10074,6 +10474,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10086,6 +10487,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000027"
           }
         ],
@@ -10223,7 +10629,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10237,6 +10645,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10249,6 +10658,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000012"
           }
         ],
@@ -10396,7 +10810,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10410,6 +10826,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10422,6 +10839,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000030"
           }
         ],
@@ -10567,7 +10989,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10581,6 +11005,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10593,6 +11018,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000008"
           }
         ],
@@ -10735,7 +11165,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10749,6 +11181,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10761,6 +11194,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000025"
           }
         ],
@@ -10916,7 +11354,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -10930,6 +11370,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10942,6 +11383,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000097"
           }
         ],
@@ -11113,7 +11559,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -11127,6 +11575,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11139,6 +11588,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000055"
           }
         ],
@@ -11321,6 +11775,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010019"
           }
         ],
@@ -11466,7 +11925,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -11480,6 +11941,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11492,6 +11954,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000066"
           }
         ],
@@ -11654,7 +12121,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -11668,6 +12137,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11680,6 +12150,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000042"
           }
         ],
@@ -11811,7 +12286,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -11825,6 +12302,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11837,6 +12315,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000022"
           }
         ],
@@ -11999,7 +12482,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -12013,6 +12498,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12025,6 +12511,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000016"
           }
         ],
@@ -12170,7 +12661,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -12184,6 +12677,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12196,6 +12690,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000013"
           }
         ],
@@ -12349,7 +12848,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -12363,6 +12864,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12375,6 +12877,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000036"
           }
         ],
@@ -12525,7 +13032,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -12539,6 +13048,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12551,6 +13061,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000087"
           }
         ],
@@ -12735,7 +13250,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -12749,6 +13266,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12761,6 +13279,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000050"
           }
         ],
@@ -12919,6 +13442,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000057"
           }
         ],
@@ -13056,6 +13584,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000001"
           }
         ],
@@ -13199,6 +13732,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092312"
           }
         ],
@@ -13324,6 +13862,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092315"
           }
         ],
@@ -13455,6 +13998,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092316"
           }
         ],
@@ -13608,6 +14156,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010054"
           }
         ],
@@ -13737,7 +14290,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -13751,6 +14306,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13763,6 +14319,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000028"
           }
         ],
@@ -13900,7 +14461,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -13919,6 +14482,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13931,6 +14495,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000054"
           }
         ],
@@ -14056,7 +14625,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -14070,6 +14641,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14082,6 +14654,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000069"
           }
         ],
@@ -14225,7 +14802,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -14239,6 +14818,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14251,6 +14831,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000068"
           }
         ],
@@ -14410,7 +14995,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -14424,6 +15011,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14436,6 +15024,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000014"
           }
         ],
@@ -14570,7 +15163,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -14584,6 +15179,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14596,6 +15192,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000071"
           }
         ],
@@ -14742,7 +15343,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -14756,6 +15359,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14768,6 +15372,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000080"
           }
         ],
@@ -14905,7 +15514,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -14919,6 +15530,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14931,6 +15543,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000062"
           }
         ],
@@ -15081,7 +15698,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -15095,6 +15714,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -15107,6 +15727,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000052"
           }
         ],
@@ -15244,7 +15869,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -15258,6 +15885,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -15270,6 +15898,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000092"
           }
         ],
@@ -15426,7 +16059,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -15440,6 +16075,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -15452,6 +16088,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000037"
           }
         ],
@@ -15623,7 +16264,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -15637,6 +16280,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -15649,6 +16293,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000082"
           }
         ],
@@ -15785,7 +16434,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -15799,6 +16450,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -15811,6 +16463,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000032"
           }
         ],
@@ -15948,7 +16605,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -15962,6 +16621,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -15974,6 +16634,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000076"
           }
         ],
@@ -16114,7 +16779,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -16128,6 +16795,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16140,6 +16808,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000015"
           }
         ],
@@ -16278,7 +16951,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -16292,6 +16967,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16304,6 +16980,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000026"
           }
         ],
@@ -16439,6 +17120,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010020"
           }
         ],
@@ -16583,7 +17269,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -16597,6 +17285,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16609,6 +17298,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000101"
           }
         ],
@@ -16766,7 +17460,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -16780,6 +17476,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16792,6 +17489,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000063"
           }
         ],
@@ -16974,7 +17676,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -16988,6 +17692,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17000,6 +17705,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000091"
           }
         ],
@@ -17148,7 +17858,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -17162,6 +17874,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17174,6 +17887,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000019"
           }
         ],
@@ -17318,7 +18036,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -17332,6 +18052,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17344,6 +18065,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000031"
           }
         ],
@@ -17493,7 +18219,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -17507,6 +18235,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17519,6 +18248,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000023"
           }
         ],
@@ -17686,7 +18420,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -17705,6 +18441,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17722,6 +18459,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000005"
           }
         ],
@@ -17875,7 +18617,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -17889,6 +18633,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17901,6 +18646,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000021"
           }
         ],
@@ -18052,7 +18802,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -18066,6 +18818,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -18078,6 +18831,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000074"
           }
         ],
@@ -18222,7 +18980,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -18236,6 +18996,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -18248,6 +19009,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000061"
           }
         ],
@@ -18418,7 +19184,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -18432,6 +19200,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -18444,6 +19213,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000089"
           }
         ],
@@ -18620,7 +19394,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -18634,6 +19410,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -18646,6 +19423,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000095"
           }
         ],
@@ -19352,7 +20134,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -19371,6 +20155,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -19383,6 +20168,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000084"
           }
         ],
@@ -19533,7 +20323,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -19547,6 +20339,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -19559,6 +20352,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000060"
           }
         ],
@@ -19716,7 +20514,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -19730,6 +20530,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -19754,6 +20555,11 @@
             "value": "6000083"
           },
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6001001"
           }
         ],
@@ -19890,6 +20696,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000065"
           }
         ],
@@ -20011,6 +20822,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000053"
           }
         ],
@@ -20129,6 +20945,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000024"
           }
         ],
@@ -20256,6 +21077,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000085"
           }
         ],
@@ -20381,6 +21207,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000033"
           }
         ],
@@ -20530,6 +21361,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092318"
           }
         ],
@@ -20680,6 +21516,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092317"
           }
         ],
@@ -20807,6 +21648,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010060"
           }
         ],
@@ -20926,7 +21772,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -20945,6 +21793,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -20957,6 +21806,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000094"
           }
         ],
@@ -21114,7 +21968,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -21128,6 +21984,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -21140,6 +21997,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000029"
           }
         ],
@@ -21289,7 +22151,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "6010008"
@@ -21444,6 +22315,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010027"
           }
         ],
@@ -21574,6 +22450,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010047"
           }
         ],
@@ -21719,7 +22600,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -21733,6 +22616,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -21745,6 +22629,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000077"
           }
         ],
@@ -21960,7 +22849,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -21974,6 +22865,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -21986,6 +22878,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000049"
           }
         ],
@@ -22104,6 +23001,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010061"
           }
         ],
@@ -22244,6 +23146,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092309"
           }
         ],
@@ -22367,6 +23274,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092308"
           }
         ],
@@ -22488,6 +23400,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092310"
           }
         ],
@@ -22615,6 +23532,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6092311"
           }
         ],
@@ -22755,7 +23677,9 @@
         "P4755": [
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-atoc"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -22769,6 +23693,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -22781,6 +23706,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000078"
           }
         ],
@@ -22925,6 +23855,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010029"
           }
         ],
@@ -23066,6 +24001,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6000070"
           }
         ],
@@ -23210,6 +24150,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010041"
           }
         ],
@@ -23353,6 +24298,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010040"
           }
         ],
@@ -23493,6 +24443,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010010"
           }
         ],
@@ -23611,6 +24566,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010011"
           }
         ],
@@ -23751,6 +24711,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010012"
           }
         ],
@@ -23887,6 +24852,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010059"
           }
         ],
@@ -24026,6 +24996,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010001"
           }
         ],
@@ -24187,6 +25162,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "6010016"
           }
         ],

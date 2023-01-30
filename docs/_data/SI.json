@@ -62,6 +62,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -73,6 +74,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -86,6 +88,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -99,6 +102,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -118,6 +122,7 @@
         "P8448": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -150,12 +155,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -294,6 +307,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -315,9 +329,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -430,6 +452,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900138"
           }
         ],
@@ -527,6 +554,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -561,12 +589,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -599,10 +635,6 @@
         ],
         "labels": [
           {
-            "value": "Krsko"
-          },
-          {
-            "lang": "sl",
             "value": "Krsko"
           },
           {
@@ -675,6 +707,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900084"
           }
         ],
@@ -784,6 +821,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900078"
           }
         ],
@@ -894,6 +936,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -928,12 +971,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -1061,6 +1112,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900083"
           }
         ],
@@ -1177,6 +1233,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900147"
           }
         ],
@@ -1285,6 +1346,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900197"
           }
         ],
@@ -1399,8 +1465,10 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "pregrouped": [
                 {
+                  "enabled": true,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -1419,6 +1487,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -1438,6 +1507,7 @@
         "P8448": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -1475,12 +1545,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -1627,6 +1705,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -1648,9 +1727,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -1772,6 +1859,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -1806,12 +1894,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -1941,6 +2037,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -1980,12 +2077,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -2105,6 +2210,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900208"
           }
         ],
@@ -2214,6 +2324,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2248,12 +2359,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -2378,6 +2497,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900135"
           }
         ],
@@ -2485,6 +2609,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900122"
           }
         ],
@@ -2601,6 +2730,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900137"
           }
         ],
@@ -2717,6 +2851,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900142"
           }
         ],
@@ -2867,6 +3006,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2882,6 +3022,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -2942,15 +3083,27 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "oebb",
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "oebb"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.2
@@ -3359,6 +3512,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900269"
           }
         ],
@@ -3450,6 +3608,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900150"
           }
         ],
@@ -3542,6 +3705,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900201"
           }
         ],
@@ -3642,6 +3810,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3676,12 +3845,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -3714,10 +3891,6 @@
         ],
         "labels": [
           {
-            "value": "Skofja Loka"
-          },
-          {
-            "lang": "sl",
             "value": "Skofja Loka"
           },
           {
@@ -3787,6 +3960,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3802,6 +3976,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -3848,12 +4023,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -3992,6 +4175,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900049"
           }
         ],
@@ -4087,6 +4275,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900050"
           }
         ],
@@ -4165,6 +4358,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900104"
           }
         ],
@@ -4252,6 +4450,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900045"
           }
         ],
@@ -4353,6 +4556,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4368,6 +4572,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -4387,6 +4592,7 @@
         "P8448": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -4419,12 +4625,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -4544,6 +4758,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900046"
           }
         ],
@@ -4649,6 +4868,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900051"
           }
         ],
@@ -4735,6 +4959,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900141"
           }
         ],
@@ -4840,6 +5069,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900266"
           }
         ],
@@ -4958,6 +5192,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900090"
           }
         ],
@@ -5070,6 +5309,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900067"
           }
         ],
@@ -5170,6 +5414,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900120"
           }
         ],
@@ -5282,7 +5531,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900058"
@@ -5378,7 +5636,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900124"
@@ -5477,6 +5744,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900085"
           }
         ],
@@ -5584,6 +5856,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900238"
           }
         ],
@@ -5674,6 +5951,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900237"
           }
         ],
@@ -5756,6 +6038,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900203"
           }
         ],
@@ -5838,6 +6125,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900270"
           }
         ],
@@ -5920,6 +6212,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900224"
           }
         ],
@@ -6002,6 +6299,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900268"
           }
         ],
@@ -6102,6 +6404,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900267"
           }
         ],
@@ -6209,6 +6516,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900278"
           }
         ],
@@ -6308,6 +6620,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6319,6 +6632,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6334,6 +6648,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -6351,6 +6666,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6390,7 +6706,10 @@
         ],
         "P954": [
           {
-            "enabled": true,
+            "enabled": [
+              "trainline-db",
+              "trainline-oebb"
+            ],
             "info": {
               "reliability": 0.7000000000000001
             },
@@ -6403,15 +6722,27 @@
           },
           {
             "info": {
+              "enabled": [
+                "oebb",
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "oebb"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.2
@@ -6574,6 +6905,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900205"
           }
         ],
@@ -6653,6 +6989,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6668,6 +7005,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -6701,9 +7039,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -6803,6 +7149,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900093"
           }
         ],
@@ -6885,6 +7236,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900107"
           }
         ],
@@ -6963,6 +7319,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900028"
           }
         ],
@@ -7053,6 +7414,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900166"
           }
         ],
@@ -7131,6 +7497,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900035"
           }
         ],
@@ -7209,6 +7580,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900206"
           }
         ],
@@ -7292,6 +7668,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900240"
           }
         ],
@@ -7387,6 +7768,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900076"
           }
         ],
@@ -7475,6 +7861,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900271"
           }
         ],
@@ -7581,6 +7972,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900160"
           }
         ],
@@ -7680,6 +8076,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942514"
           }
         ],
@@ -7755,6 +8156,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7776,9 +8178,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -7886,6 +8296,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900153"
           }
         ],
@@ -7968,6 +8383,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900189"
           }
         ],
@@ -8046,6 +8466,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900117"
           }
         ],
@@ -8129,6 +8554,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900038"
           }
         ],
@@ -8220,6 +8650,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900230"
           }
         ],
@@ -8298,6 +8733,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900241"
           }
         ],
@@ -8376,6 +8816,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900217"
           }
         ],
@@ -8454,6 +8899,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900103"
           }
         ],
@@ -8532,6 +8982,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900198"
           }
         ],
@@ -8610,6 +9065,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900221"
           }
         ],
@@ -8688,6 +9148,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900118"
           }
         ],
@@ -8766,6 +9231,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900187"
           }
         ],
@@ -8844,6 +9314,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900247"
           }
         ],
@@ -8926,6 +9401,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900256"
           }
         ],
@@ -9004,6 +9484,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900154"
           }
         ],
@@ -9091,6 +9576,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900060"
           }
         ],
@@ -9182,6 +9672,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900226"
           }
         ],
@@ -9284,6 +9779,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900223"
           }
         ],
@@ -9357,6 +9857,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942803"
           }
         ],
@@ -9445,6 +9950,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900143"
           }
         ],
@@ -9562,6 +10072,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900284"
           }
         ],
@@ -9681,6 +10196,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942851"
           }
         ],
@@ -9772,6 +10292,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942852"
           }
         ],
@@ -9857,6 +10382,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942853"
           }
         ],
@@ -9939,6 +10469,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942854"
           }
         ],
@@ -10025,6 +10560,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942855"
           }
         ],
@@ -10110,6 +10650,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942856"
           }
         ],
@@ -10192,6 +10737,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942857"
           }
         ],
@@ -10285,6 +10835,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942859"
           }
         ],
@@ -10370,6 +10925,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7942860"
           }
         ],
@@ -10455,6 +11015,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900081"
           }
         ],
@@ -10533,6 +11098,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900121"
           }
         ],
@@ -10611,6 +11181,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900239"
           }
         ],
@@ -10689,6 +11264,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900173"
           }
         ],
@@ -10767,6 +11347,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900155"
           }
         ],
@@ -10849,6 +11434,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900219"
           }
         ],
@@ -10927,6 +11517,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900152"
           }
         ],
@@ -11005,6 +11600,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900105"
           }
         ],
@@ -11083,6 +11683,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900123"
           }
         ],
@@ -11163,6 +11768,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11184,9 +11790,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -11279,6 +11893,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11313,12 +11928,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -11346,10 +11969,6 @@
         ],
         "labels": [
           {
-            "value": "Lasko"
-          },
-          {
-            "lang": "sl",
             "value": "Lasko"
           },
           {
@@ -11426,6 +12045,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11441,6 +12061,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -11487,12 +12108,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -11663,6 +12292,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900231"
           }
         ],
@@ -11750,6 +12384,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900216"
           }
         ],
@@ -11833,6 +12472,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11846,6 +12486,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11879,9 +12520,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -11978,6 +12627,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900188"
           }
         ],
@@ -12064,6 +12718,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900096"
           }
         ],
@@ -12147,6 +12806,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12168,9 +12828,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -12258,6 +12926,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900036"
           }
         ],
@@ -12344,6 +13017,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900165"
           }
         ],
@@ -12422,6 +13100,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900275"
           }
         ],
@@ -12504,6 +13187,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900276"
           }
         ],
@@ -12588,6 +13276,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12603,6 +13292,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -12649,12 +13339,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -12758,6 +13456,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900196"
           }
         ],
@@ -12840,6 +13543,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900258"
           }
         ],
@@ -12918,6 +13626,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900112"
           }
         ],
@@ -12996,6 +13709,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900088"
           }
         ],
@@ -13074,7 +13792,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900212"
@@ -13154,6 +13881,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900128"
           }
         ],
@@ -13232,7 +13964,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900110"
@@ -13318,6 +14059,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13339,9 +14081,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -13449,6 +14199,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900156"
           }
         ],
@@ -13523,7 +14278,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900164"
@@ -13604,7 +14368,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900242"
@@ -13680,7 +14453,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900253"
@@ -13756,7 +14538,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900222"
@@ -13913,6 +14704,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13928,6 +14720,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -13974,15 +14767,27 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "oebb",
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "oebb"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.2
@@ -14168,7 +14973,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900148"
@@ -14253,6 +15067,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900139"
           }
         ],
@@ -14336,6 +15155,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900077"
           }
         ],
@@ -14422,6 +15246,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900052"
           }
         ],
@@ -14504,6 +15333,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900100"
           }
         ],
@@ -14586,6 +15420,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900207"
           }
         ],
@@ -14663,6 +15502,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900167"
           }
         ],
@@ -14750,6 +15594,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900184"
           }
         ],
@@ -14832,6 +15681,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900250"
           }
         ],
@@ -14917,6 +15771,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900053"
           }
         ],
@@ -14999,6 +15858,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900251"
           }
         ],
@@ -15077,6 +15941,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900235"
           }
         ],
@@ -15162,6 +16031,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900233"
           }
         ],
@@ -15248,6 +16122,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900149"
           }
         ],
@@ -15326,6 +16205,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900260"
           }
         ],
@@ -15408,6 +16292,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900236"
           }
         ],
@@ -15493,6 +16382,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900091"
           }
         ],
@@ -15578,6 +16472,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900213"
           }
         ],
@@ -15663,6 +16562,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900111"
           }
         ],
@@ -15763,9 +16667,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7999999999999999
@@ -15867,9 +16779,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7999999999999999
@@ -15963,6 +16883,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -15997,12 +16918,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -16042,10 +16971,6 @@
             "value": "gare de Šentilj"
           },
           {
-            "value": "Sentilj"
-          },
-          {
-            "lang": "sl",
             "value": "Sentilj"
           },
           {
@@ -16118,6 +17043,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16139,9 +17065,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -16239,6 +17173,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16260,9 +17195,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -16356,6 +17299,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16377,9 +17321,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -16475,6 +17427,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900055"
           }
         ],
@@ -16561,6 +17518,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900181"
           }
         ],
@@ -16646,6 +17608,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900095"
           }
         ],
@@ -16729,6 +17696,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -16750,9 +17718,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -16858,7 +17834,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900195"
@@ -16938,6 +17923,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900169"
           }
         ],
@@ -17024,7 +18014,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900119"
@@ -17100,7 +18099,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900257"
@@ -17175,6 +18183,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900144"
           }
         ],
@@ -17261,7 +18274,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900161"
@@ -17341,6 +18363,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900066"
           }
         ],
@@ -17423,6 +18450,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900102"
           }
         ],
@@ -17499,6 +18531,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17633,6 +18666,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -17654,9 +18688,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -17753,7 +18795,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900244"
@@ -17834,7 +18885,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900109"
@@ -17914,6 +18974,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900075"
           }
         ],
@@ -17998,6 +19063,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -18013,6 +19079,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -18032,6 +19099,7 @@
         "P8448": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -18051,9 +19119,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -18192,6 +19268,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900281"
           }
         ],
@@ -18343,6 +19424,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7943774"
           }
         ],
@@ -18428,6 +19514,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7943775"
           }
         ],
@@ -18509,6 +19600,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7943776"
           }
         ],
@@ -18591,6 +19687,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -18612,9 +19709,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -18737,6 +19842,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900062"
           }
         ],
@@ -18827,6 +19937,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900151"
           }
         ],
@@ -18909,6 +20024,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900183"
           }
         ],
@@ -18993,6 +20113,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -19014,9 +20135,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -19108,6 +20237,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900063"
           }
         ],
@@ -19190,6 +20324,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900092"
           }
         ],
@@ -19272,6 +20411,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900214"
           }
         ],
@@ -19354,6 +20498,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900232"
           }
         ],
@@ -19436,6 +20585,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900202"
           }
         ],
@@ -19597,6 +20751,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900194"
           }
         ],
@@ -19675,6 +20834,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900209"
           }
         ],
@@ -19753,6 +20917,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900177"
           }
         ],
@@ -19836,6 +21005,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900061"
           }
         ],
@@ -19927,7 +21101,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900178"
@@ -20012,6 +21195,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900072"
           }
         ],
@@ -20102,6 +21290,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900172"
           }
         ],
@@ -20180,6 +21373,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900255"
           }
         ],
@@ -20262,6 +21460,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900215"
           }
         ],
@@ -20344,6 +21547,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900186"
           }
         ],
@@ -20426,6 +21634,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900227"
           }
         ],
@@ -20504,6 +21717,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900168"
           }
         ],
@@ -20587,6 +21805,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900228"
           }
         ],
@@ -20686,6 +21909,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900274"
           }
         ],
@@ -20761,6 +21989,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -20782,9 +22011,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -20872,6 +22109,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900273"
           }
         ],
@@ -20958,6 +22200,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900101"
           }
         ],
@@ -21039,6 +22286,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900071"
           }
         ],
@@ -21152,6 +22404,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900159"
           }
         ],
@@ -21241,6 +22498,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900191"
           }
         ],
@@ -21319,6 +22581,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -21334,6 +22597,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -21352,6 +22616,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900080"
           }
         ],
@@ -21515,6 +22784,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -21530,6 +22800,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -21548,6 +22819,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900145"
           }
         ],
@@ -21634,6 +22910,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900174"
           }
         ],
@@ -21722,6 +23003,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -21737,6 +23019,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -21756,7 +23039,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900199"
@@ -21857,6 +23149,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -21872,6 +23165,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -21891,6 +23185,7 @@
         "P8448": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -21910,9 +23205,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -22070,6 +23373,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900192"
           }
         ],
@@ -22171,6 +23479,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900283"
           }
         ],
@@ -22290,6 +23603,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7944012"
           }
         ],
@@ -22377,6 +23695,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -22392,6 +23711,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -22425,9 +23745,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -22572,6 +23900,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900133"
           }
         ],
@@ -22669,6 +24002,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900259"
           }
         ],
@@ -22758,6 +24096,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -22773,6 +24112,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -22806,9 +24146,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -22961,6 +24309,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900204"
           }
         ],
@@ -23059,6 +24412,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -23080,9 +24434,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -23227,6 +24589,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900190"
           }
         ],
@@ -23332,6 +24699,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900193"
           }
         ],
@@ -23437,6 +24809,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900179"
           }
         ],
@@ -23543,6 +24920,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900041"
           }
         ],
@@ -23655,6 +25037,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -23670,6 +25053,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -23689,9 +25073,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -23858,6 +25250,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900089"
           }
         ],
@@ -23959,6 +25356,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900115"
           }
         ],
@@ -24173,6 +25575,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -24188,6 +25591,7 @@
             "info": {
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 },
                 {
@@ -24207,6 +25611,7 @@
         "P8448": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -24226,9 +25631,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -24380,6 +25793,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900131"
           }
         ],
@@ -24475,6 +25893,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900229"
           }
         ],
@@ -24576,6 +25999,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900082"
           }
         ],
@@ -24677,6 +26105,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900211"
           }
         ],
@@ -24783,6 +26216,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900097"
           }
         ],
@@ -24884,6 +26322,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900021"
           }
         ],
@@ -24985,6 +26428,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900162"
           }
         ],
@@ -25091,6 +26539,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900248"
           }
         ],
@@ -25192,6 +26645,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900106"
           }
         ],
@@ -25757,6 +27215,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -25783,9 +27242,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -25953,6 +27420,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900210"
           }
         ],
@@ -26058,6 +27530,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900175"
           }
         ],
@@ -26168,6 +27645,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900056"
           }
         ],
@@ -26299,6 +27781,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900126"
           }
         ],
@@ -26400,6 +27887,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900073"
           }
         ],
@@ -26497,6 +27989,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -26518,9 +28011,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -26648,6 +28149,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900182"
           }
         ],
@@ -26769,6 +28275,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900108"
           }
         ],
@@ -26879,6 +28390,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900116"
           }
         ],
@@ -26984,6 +28500,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900176"
           }
         ],
@@ -27097,6 +28618,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -27118,9 +28640,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -27221,6 +28751,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900158"
           }
         ],
@@ -27299,6 +28834,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900079"
           }
         ],
@@ -27388,7 +28928,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900008"
@@ -27490,6 +29039,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900180"
           }
         ],
@@ -27573,6 +29127,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900246"
           }
         ],
@@ -27659,6 +29218,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "7900130"
           }
         ],
@@ -27845,7 +29409,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900099"
@@ -28054,7 +29627,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900129"
@@ -28160,6 +29742,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -28186,9 +29769,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7000000000000001
@@ -28342,7 +29933,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "7900234"

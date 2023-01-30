@@ -17,15 +17,10 @@ export const trainlineArrayToLocation = async (
       const result = [];
 
       if (station.properties.name) {
-        result.push({
-          value: station.properties.name,
-          lang:
-            station.properties.country &&
-            findCountryByAlpha2(station.properties.country)?.language?.[1],
-        });
+        result.push({ value: station.properties.name });
       }
 
-      Object.entries(station)
+      Object.entries(station.properties)
         .filter(([key]) => key.startsWith("info:"))
         ?.forEach(([key, value]) =>
           result.push({
@@ -97,7 +92,10 @@ export const trainlineArrayToLocation = async (
       properties[CodeIssuer.Trainline]?.push({
         value: station.id.toString(),
         references,
-        info: { reliability: ReliabilityTrainline[CodeIssuer.Trainline] },
+        info: {
+          reliability: ReliabilityTrainline[CodeIssuer.Trainline],
+          enabled: station.properties.is_suggestable
+        },
       });
     }
 

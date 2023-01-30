@@ -18,17 +18,17 @@ export const getLocations = (): Promise<Location[]> =>
     "oebb"
   ).then((data) =>
     data.map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
-      const coordinates = [parseFloat(stop_lon), parseFloat(stop_lat)];
+      const coordinates = [stop_lon!, stop_lat!];
       const country = feature(coordinates as [number, number])?.properties
         .wikidata;
 
       return point<LocationProperties>(
         coordinates,
         {
-          labels: [{ value: stop_name, lang: Language.German[1] }],
+          labels: [{ value: stop_name!, lang: Language.German[1] }],
           [CodeIssuer.IBNR]: [
             {
-              value: stop_id,
+              value: stop_id.toString(),
               info: {
                 reliability:
                   country === Country.Austria.wikidata

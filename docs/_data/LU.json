@@ -60,6 +60,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -73,8 +74,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -105,12 +108,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -140,6 +153,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -149,6 +165,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -312,6 +333,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -325,6 +347,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -352,12 +375,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -411,6 +444,11 @@
             "value": "8200136"
           },
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "8290601"
           }
         ],
@@ -581,6 +619,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -594,6 +633,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -621,12 +661,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -656,6 +706,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -665,6 +718,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -826,6 +884,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "8270710"
           },
           {
@@ -979,6 +1042,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -992,8 +1056,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -1024,12 +1090,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -1046,12 +1122,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -1203,7 +1287,16 @@
         "P954": [
           {
             "info": {
-              "pregrouped": [],
+              "enabled": [
+                "hafas"
+              ],
+              "pregrouped": [
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
               "reliability": 0
             },
             "value": "8271143"
@@ -1344,6 +1437,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -1357,8 +1451,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -1375,12 +1471,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -1410,6 +1515,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -1419,6 +1527,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -1592,6 +1705,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -1605,6 +1719,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -1618,12 +1733,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -1652,6 +1776,11 @@
         ],
         "P954": [
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "8217201"
           },
           {
@@ -1819,6 +1948,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -1832,8 +1962,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -1864,12 +1996,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -1891,12 +2033,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -2065,6 +2215,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2078,8 +2229,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -2110,12 +2263,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -2150,6 +2313,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -2159,6 +2325,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -2318,6 +2489,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2331,6 +2503,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2344,12 +2517,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -2371,12 +2553,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -2533,6 +2723,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2546,8 +2737,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -2564,12 +2757,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -2591,12 +2793,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -2753,6 +2963,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2766,8 +2977,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -2784,12 +2997,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -2811,12 +3033,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -2973,6 +3203,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -2986,8 +3217,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -3004,12 +3237,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -3031,12 +3273,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -3207,6 +3457,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3220,8 +3471,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -3238,6 +3491,7 @@
         "P8181": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -3257,12 +3511,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -3321,6 +3584,11 @@
             "value": "8200110"
           },
           {
+            "info": {
+              "enabled": [
+                "hafas"
+              ]
+            },
             "value": "8253501"
           }
         ],
@@ -3492,6 +3760,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3505,8 +3774,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -3523,12 +3794,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -3550,12 +3830,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -3712,6 +4000,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3725,8 +4014,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -3743,12 +4034,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -3778,6 +4079,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -3787,6 +4091,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -3944,6 +4253,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3957,6 +4267,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -3970,12 +4281,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -4005,6 +4326,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -4014,6 +4338,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -4178,6 +4507,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4191,8 +4521,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -4209,12 +4541,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -4244,6 +4586,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -4253,6 +4598,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -4403,6 +4753,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4416,8 +4767,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -4434,12 +4787,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -4469,6 +4832,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -4478,6 +4844,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -4632,6 +5003,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4645,8 +5017,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -4663,12 +5037,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -4703,6 +5087,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -4712,6 +5099,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -4883,6 +5275,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4894,6 +5287,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4907,8 +5301,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -4923,6 +5319,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -4936,6 +5333,7 @@
         "P8181": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -4955,12 +5353,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -5000,6 +5407,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -5009,6 +5419,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -5202,6 +5617,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5215,6 +5631,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5228,12 +5645,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -5263,6 +5689,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -5272,6 +5701,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -5437,6 +5871,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5450,6 +5885,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5463,12 +5899,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -5498,6 +5944,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -5507,6 +5956,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -5659,6 +6113,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5672,6 +6127,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5685,12 +6141,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -5720,6 +6186,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -5729,6 +6198,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -5874,6 +6348,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -5887,8 +6362,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -5905,12 +6382,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -5940,6 +6426,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -5949,6 +6438,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -6134,6 +6628,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6147,8 +6642,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -6165,12 +6662,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -6200,6 +6707,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -6209,6 +6719,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -6385,6 +6900,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6398,6 +6914,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6411,12 +6928,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -6446,6 +6972,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -6455,6 +6984,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -6648,6 +7182,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6661,8 +7196,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -6679,12 +7216,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -6714,6 +7261,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -6723,6 +7273,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -6877,6 +7432,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -6890,8 +7446,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -6908,12 +7466,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -6943,6 +7510,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -6952,6 +7522,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -7118,6 +7693,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7131,8 +7707,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -7149,12 +7727,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -7184,6 +7772,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -7193,6 +7784,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -7347,6 +7943,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7360,8 +7957,14 @@
         "P722": [
           {
             "info": {
+              "enabled": [
+                "trainline-sncf"
+              ],
               "pregrouped": [
                 {
+                  "enabled": [
+                    "trainline-sncf"
+                  ],
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -7378,9 +7981,14 @@
         "P8181": [
           {
             "info": {
+              "enabled": [
+                "trainline-sncf"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-sncf"
+                  ],
                   "reliability": 0.7000000000000001
                 }
               ],
@@ -7397,13 +8005,18 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "ns-international"
+              ],
               "reliability": 0.7999999999999999
             },
             "value": "LUHOW"
           },
           {
             "info": {
-              "enabled": true,
+              "enabled": [
+                "trainline-benerail"
+              ],
               "reliability": 0.7000000000000001
             },
             "references": [
@@ -7430,6 +8043,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -7439,6 +8055,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -7572,6 +8193,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7583,6 +8205,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7596,8 +8219,14 @@
         "P722": [
           {
             "info": {
+              "enabled": [
+                "trainline-sncf"
+              ],
               "pregrouped": [
                 {
+                  "enabled": [
+                    "trainline-sncf"
+                  ],
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -7612,6 +8241,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -7637,9 +8267,14 @@
           },
           {
             "info": {
+              "enabled": [
+                "trainline-sncf"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-sncf"
+                  ],
                   "reliability": 0.7000000000000001
                 }
               ],
@@ -7656,12 +8291,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -7696,6 +8340,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -7705,6 +8352,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -8050,6 +8702,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8063,8 +8716,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -8081,12 +8736,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -8121,6 +8786,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -8130,6 +8798,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -8288,6 +8961,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8301,8 +8975,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -8319,12 +8995,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -8364,6 +9049,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -8373,6 +9061,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -8541,6 +9234,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8554,6 +9248,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8567,12 +9262,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -8607,6 +9311,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -8616,6 +9323,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -8779,8 +9491,14 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "ns-international"
+              ],
               "pregrouped": [
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -8797,9 +9515,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7999999999999999
@@ -8933,6 +9659,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -8946,8 +9673,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -8964,12 +9693,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -8999,6 +9738,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -9008,6 +9750,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -9162,6 +9909,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9175,8 +9923,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -9193,12 +9943,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -9228,6 +9988,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -9237,6 +10000,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -9395,6 +10163,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9408,6 +10177,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9421,12 +10191,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -9448,12 +10227,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -9610,6 +10397,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9623,8 +10411,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -9641,12 +10431,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -9681,6 +10480,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -9690,6 +10492,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -9858,6 +10665,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9869,6 +10677,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -9882,8 +10691,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -9926,12 +10737,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -9961,6 +10782,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -9970,6 +10794,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -10156,6 +10985,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10169,8 +10999,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -10187,12 +11019,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -10222,6 +11064,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -10231,6 +11076,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -10381,6 +11231,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10394,6 +11245,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10421,12 +11273,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -10456,6 +11318,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -10465,6 +11330,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -10609,6 +11479,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10622,6 +11493,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10635,12 +11507,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -10670,6 +11552,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -10679,6 +11564,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -10833,6 +11723,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10846,6 +11737,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -10859,12 +11751,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -10894,6 +11796,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -10903,6 +11808,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -11044,6 +11954,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11057,8 +11968,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -11075,12 +11988,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -11097,12 +12020,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -11250,6 +12181,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11263,8 +12195,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -11281,12 +12215,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -11303,12 +12247,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -11461,6 +12413,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11477,6 +12430,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11490,12 +12444,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -11512,12 +12475,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -11679,6 +12650,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11692,6 +12664,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11719,12 +12692,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -11741,12 +12724,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -11898,6 +12889,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11911,6 +12903,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -11924,12 +12917,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -11959,6 +12961,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -11968,6 +12973,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -12125,6 +13135,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12136,6 +13147,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12149,6 +13161,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12160,8 +13173,10 @@
           },
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -12192,12 +13207,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -12227,6 +13252,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -12236,6 +13264,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -12413,6 +13446,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12426,8 +13460,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -12444,12 +13480,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -12466,12 +13512,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -12623,6 +13677,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12636,8 +13691,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -12654,12 +13711,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -12676,12 +13743,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -12844,6 +13919,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12857,6 +13933,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -12870,12 +13947,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -12905,6 +13992,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -12914,6 +14004,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -13063,8 +14158,14 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "ns-international"
+              ],
               "pregrouped": [
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -13089,12 +14190,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7999999999999999
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5999999999999999
@@ -13250,6 +14359,7 @@
           },
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13263,8 +14373,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -13281,6 +14393,7 @@
         "P8181": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
                   "enabled": false,
@@ -13300,12 +14413,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -13335,6 +14457,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -13344,6 +14469,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -13567,6 +14697,7 @@
           },
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13578,6 +14709,7 @@
           },
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13591,6 +14723,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13602,8 +14735,10 @@
           },
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -13646,12 +14781,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -13681,6 +14825,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -13690,6 +14837,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -13850,6 +15002,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13863,6 +15016,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -13876,12 +15030,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -13916,6 +15080,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -13925,6 +15092,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -14057,6 +15229,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14070,8 +15243,10 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "pregrouped": [
                 {
+                  "enabled": false,
                   "reliability": 0.6400000000000001
                 }
               ],
@@ -14088,12 +15263,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -14110,12 +15295,20 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 1.5
@@ -14267,6 +15460,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14280,6 +15474,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14293,12 +15488,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -14328,6 +15533,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -14337,6 +15545,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -14485,6 +15698,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14498,6 +15712,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14511,12 +15726,21 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -14546,6 +15770,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -14555,6 +15782,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
@@ -14722,9 +15954,17 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 0.7999999999999999
@@ -14856,6 +16096,7 @@
         "P6724": [
           {
             "info": {
+              "enabled": true,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14869,6 +16110,7 @@
         "P722": [
           {
             "info": {
+              "enabled": false,
               "reliability": 0.6400000000000001
             },
             "references": [
@@ -14882,12 +16124,22 @@
         "P8448": [
           {
             "info": {
+              "enabled": [
+                "trainline-benerail",
+                "trainline-benerail",
+                "ns-international"
+              ],
               "pregrouped": [
                 {
-                  "enabled": true,
+                  "enabled": [
+                    "trainline-benerail"
+                  ],
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "enabled": [
+                    "ns-international"
+                  ],
                   "reliability": 0.7999999999999999
                 }
               ],
@@ -14917,6 +16169,9 @@
         "P954": [
           {
             "info": {
+              "enabled": [
+                "hafas"
+              ],
               "pregrouped": [
                 {
                   "reliability": 0.7000000000000001
@@ -14926,6 +16181,11 @@
                 },
                 {
                   "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
                 }
               ],
               "reliability": 2.3
