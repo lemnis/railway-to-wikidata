@@ -3,15 +3,16 @@ import { point } from "@turf/turf";
 import comboios from "comboios";
 import { merge } from "../../actions/merge";
 import { groupByScore } from "../../group/score";
-import { findCountryByAlpha2 } from "../../transform/country";
+import { Country, findCountryByAlpha2 } from "../../transform/country";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 
 export const getLocations = async () => {
   const rawLocations = await comboios.stations();
   const ungroupedStations = rawLocations.map<Location>(
-    ({ uicId, name, location: { longitude, latitude }, country, id }) =>
-      point(
+    ({ uicId, name, location: { longitude, latitude }, country, id }) => {
+      const c = findCountryByAlpha2(country);
+      return point(
         [longitude, latitude],
         {
           labels: [{ value: name }],
@@ -20,16 +21,17 @@ export const getLocations = async () => {
               value: uicId,
               info: {
                 enabled: ["pt-cp"],
-                slug: name.toLowerCase().replace(/ /g, "-"),
+                ...(c === Country.Portugal
+                  ? { slug: name.toLowerCase().replace(/ /g, "-") }
+                  : {}),
               },
             },
           ],
-          [Property.Country]: [
-            { value: findCountryByAlpha2(country)?.wikidata! },
-          ],
+          [Property.Country]: [{ value: c?.wikidata! }],
         },
         { id }
-      )
+      );
+    }
   );
 
   const groupedStations: Location[][] = await groupByScore(
