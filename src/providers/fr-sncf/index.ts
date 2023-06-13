@@ -61,7 +61,13 @@ export const getLocations = async () => {
               .map((value) => ({ value, lang: Language.French[1] })),
             ...{
               [CodeIssuer.UIC]: [
-                { value: uic, info: { reliability: RELIABILITY_SNCF_UIC } },
+                {
+                  value: uic,
+                  info: {
+                    reliability: RELIABILITY_SNCF_UIC,
+                    enabled: ["sncf"],
+                  },
+                },
               ],
               [Property.Country]: [
                 {
@@ -106,9 +112,7 @@ export const getLocations = async () => {
       {}
     )
   );
-  const merged = await Promise.all(
-    grouped.map((i) => merge(i))
-  );
+  const merged = await Promise.all(grouped.map((i) => merge(i)));
   return merged.sort((a, b) =>
     a.id!.toString().localeCompare(b.id!.toString())
   );

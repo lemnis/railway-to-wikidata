@@ -3,6 +3,7 @@ import { CodeIssuer, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
 import { findCountryByAlpha2 } from "../../transform/country";
 import { Language } from "../../transform/language";
+import { point } from "@turf/turf";
 
 /**
  *
@@ -29,28 +30,28 @@ export const getLocations = async () => {
         longitude,
         latitude,
         countryCode,
-        stationShortCode,
+        stationShortCode: id,
         stationName,
         stationUICCode,
-      }) => ({
-        type: "Feature",
-        id: stationShortCode,
-        geometry: { type: "Point", coordinates: [longitude, latitude] },
-        properties: {
-          labels: [{ value: stationName, lang: Language.Finnish[1] }],
-          [CodeIssuer.UIC]: [
-            {
-              value: (
-                findCountryByAlpha2(countryCode)!.UIC![0] * 100000 +
-                stationUICCode
-              ).toString(),
-            },
-          ],
-          [Property.StationCode]: [{ value: stationShortCode }],
-          [Property.Country]: [
-            { value: findCountryByAlpha2(countryCode)!.wikidata },
-          ],
-        },
-      })
+      }) =>
+        point(
+          [longitude, latitude],
+          {
+            labels: [{ value: stationName, lang: Language.Finnish[1] }],
+            [CodeIssuer.UIC]: [
+              {
+                value: (
+                  findCountryByAlpha2(countryCode)!.UIC![0] * 100000 +
+                  stationUICCode
+                ).toString(),
+              },
+            ],
+            [Property.StationCode]: [{ value: id }],
+            [Property.Country]: [
+              { value: findCountryByAlpha2(countryCode)!.wikidata },
+            ],
+          },
+          { id }
+        )
     );
 };

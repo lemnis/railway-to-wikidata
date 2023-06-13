@@ -50,12 +50,9 @@ export const getLocations = async () => {
             qualifiers: {
               [Property.AppliesToPart]: [{ value: Items.HellenicTrain }],
             },
-            info: {
-              enabled: nodesInUse.includes(STAT),
-            },
           },
         ],
-        info: { enabled: nodesInUse.includes(STAT) },
+        info: { enabled: nodesInUse.includes(STAT) ? ["gr-train-ose"] : [] },
       };
 
       return hasCoordinates

@@ -12,7 +12,7 @@ const peatus: Location[] = JSON.parse(
   fs.readFileSync(path + "peatus.geojson", "utf-8")
 ).features;
 const wikipedia: Location[] = JSON.parse(
-  fs.readFileSync(path + "wikidata-railway-stations.geojson", "utf-8")
+  fs.readFileSync(`${path}wikidata/${Country.Estonia.wikidata}.geojson`, "utf-8")
 ).features;
 
 test("Estonian locations should match expected score", async (t) => {
