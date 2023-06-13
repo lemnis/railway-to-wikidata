@@ -23,7 +23,9 @@ async function importLocations(file: string) {
 const filter = (country: CountryInfo) => (feature: Location) =>
   feature.properties?.[Property.Country]?.some(
     ({ value }) => value === country.wikidata
-  ) && [undefined, true].includes(feature.properties.info?.enabled);
+  ) &&
+  (Array.isArray(feature.properties.info?.enabled) ||
+    [undefined, true].includes(feature.properties.info?.enabled as any));
 
 const GeoJSONPath = projectRoot + "/geojson";
 
@@ -42,7 +44,9 @@ const getStations = (geojson: FeatureCollection<Point>) =>
       point(
         i.geometry.coordinates,
         {
-          [CodeIssuer.IBNR]: [{ value: i.properties?.id }],
+          [CodeIssuer.IBNR]: [
+            { value: i.properties?.id, info: { enabled: ["hafas"] } },
+          ],
           [Property.Country]: [
             {
               value: feature(i.geometry.coordinates as any)?.properties
@@ -70,13 +74,6 @@ const getStations = (geojson: FeatureCollection<Point>) =>
     )
   ).flat(2);
 
-  const nsInternational = await importLocations(
-    `${GeoJSONPath}/nl-ns-international.geojson`
-  );
-  const euafr = await importLocations(`${GeoJSONPath}/_euafr.geojson`);
-  const trainline = await importLocations(
-    `${GeoJSONPath}/trainline-stations.geojson`
-  );
   const wikidata = await Promise.all(
     (
       await fs.readdir(`${GeoJSONPath}/wikidata`)
@@ -86,44 +83,14 @@ const getStations = (geojson: FeatureCollection<Point>) =>
     })
   ).then((items) => items.flat());
   console.log(wikidata.length);
-  const irail = await importLocations(`${GeoJSONPath}/be-irail.geojson`);
-  const ns = await importLocations(`${GeoJSONPath}/nl-ns.geojson`);
-  const openov = await importLocations(`${GeoJSONPath}/lu-openov.geojson`);
-  const iris = await importLocations(`${GeoJSONPath}/_iris.geojson`);
-  const golemio = await importLocations(`${GeoJSONPath}/cz-golemio.geojson`);
-  const leoExpress = await importLocations(
-    `${GeoJSONPath}/cz-leo-express.geojson`
-  );
-  const cp = await importLocations(`${GeoJSONPath}/pt-cp.geojson`);
-  const oebb = await importLocations(`${GeoJSONPath}/at-oebb.geojson`);
-  const peatus = await importLocations(`${GeoJSONPath}/ee-peatus.geojson`);
-  const pkp = await importLocations(`${GeoJSONPath}/pl-pkp.geojson`);
-  const renfe = await importLocations(`${GeoJSONPath}/es-renfe.geojson`);
-  const sbb = await importLocations(`${GeoJSONPath}/ch-sbb.geojson`);
-  const trainOse = await importLocations(`${GeoJSONPath}/gr-train-ose.geojson`);
-  const mav = await importLocations(`${GeoJSONPath}/hu-mav.geojson`);
-  const regiojet = await importLocations(`${GeoJSONPath}/cz-regiojet.geojson`);
-  const zsr = await importLocations(`${GeoJSONPath}/sk-zsr.geojson`);
-  const atoc = await importLocations(`${GeoJSONPath}/gb-atoc.geojson`);
-  const irishRail = await importLocations(
-    `${GeoJSONPath}/ie-irish-rail.geojson`
-  );
-  const hzpp = await importLocations(`${GeoJSONPath}/hr-hzpp.geojson`);
-  const digitraffic = await importLocations(
-    `${GeoJSONPath}/fi-digitraffic.geojson`
-  );
-  const trenitalia = await importLocations(
-    `${GeoJSONPath}/it-trenitalia.geojson`
-  );
-  const trafiklab = await importLocations(
-    `${GeoJSONPath}/se-trafiklab.geojson`
-  );
-  const db = await importLocations(`${GeoJSONPath}/de-db.geojson`);
-  const bdz = await importLocations(`${GeoJSONPath}/bg-bdz.geojson`);
-  const litrail = await importLocations(`${GeoJSONPath}/lt-litrail.geojson`);
-  const gov = await importLocations(`${GeoJSONPath}/ro-gov.geojson`);
-  const entur = await importLocations(`${GeoJSONPath}/no-entur.geojson`);
-  const sncf = await importLocations(`${GeoJSONPath}/fr-sncf.geojson`);
+
+  const cache: Record<string, Promise<Location[]>> = {};
+  const load = (name: string) => {
+    if ((cache as any)[name]) return cache[name];
+    const loc = importLocations(`${GeoJSONPath}/${name}.geojson`);
+    cache[name] = loc;
+    return loc;
+  };
 
   const generate = async (
     base: Location[],
@@ -152,250 +119,384 @@ const getStations = (geojson: FeatureCollection<Point>) =>
     );
 
     const orignalSize = base.filter(filter(country))?.length;
-    const euafrSize = euafr.filter(filter(country))?.length;
-    const irisSize = iris.filter(filter(country))?.length;
+    const euafrSize = (await load("_euafr")).filter(filter(country))?.length;
+    const irisSize = (await load("_iris")).filter(filter(country))?.length;
     const hafasSize = fullHafas.filter(filter(country))?.length;
-    const trainlineSize = trainline.filter(filter(country))?.length;
+    const trainlineSize = (await load("trainline-stations")).filter(
+      filter(country)
+    )?.length;
     console.log(`Original size ${orignalSize}`);
     // if (others.includes(euafr) && euafrSize > orignalSize)
     console.log(`Euafr size ${euafrSize}`);
-    if (others.includes(iris) && irisSize > orignalSize)
-      console.log(`Iris size ${irisSize}`);
+    if (others.includes(await load("_iris")) && irisSize > orignalSize)
+      console.log(`iris size ${irisSize}`);
     if (others.includes(fullHafas) && hafasSize > orignalSize)
       console.log(`Hafas size ${hafasSize}`);
-    if (others.includes(trainline) && trainlineSize > orignalSize)
+    if (
+      others.includes(await load("trainline-stations")) &&
+      trainlineSize > orignalSize
+    )
       console.log(`Trainline size ${trainlineSize}`);
 
     console.log();
   };
 
   await generate(
-    irail,
+    await load("be-irail"),
     [
       fullHafas,
-      euafr,
-      regiojet,
-      openov,
-      ns,
-      nsInternational,
-      trainline,
+      await load("_euafr"),
+      await load("cz-regiojet"),
+      await load("lu-openov"),
+      await load("nl-ns"),
+      await load("nl-ns-international"),
+      await load("trainline-stations"),
       wikidata,
     ],
     Country.Belgium
   );
   await generate(
-    euafr,
-    [bdz, fullHafas, nsInternational, trainline, wikidata],
+    await load("_euafr"),
+    [
+      await load("bg-bdz"),
+      fullHafas,
+      await load("nl-ns-international"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Bulgaria
   );
   await generate(
-    peatus,
-    [fullHafas, nsInternational, euafr, wikidata],
+    await load("ee-peatus"),
+    [
+      fullHafas,
+      await load("nl-ns-international"),
+      await load("_euafr"),
+      wikidata,
+    ],
     Country.Estonia
   );
   await generate(
-    renfe,
-    [fullHafas, euafr, cp, trainline, nsInternational, wikidata],
+    await load("es-renfe"),
+    [
+      fullHafas,
+      await load("_euafr"),
+      await load("pt-cp"),
+      await load("trainline-stations"),
+      await load("nl-ns-international"),
+      wikidata,
+    ],
     Country.Spain
   );
   await generate(
-    trainOse,
-    [fullHafas, trainline, nsInternational, wikidata],
+    await load("gr-train-ose"),
+    [
+      fullHafas,
+      await load("trainline-stations"),
+      await load("nl-ns-international"),
+      wikidata,
+    ],
     Country.Greece
   );
   await generate(
-    zsr,
-    [nsInternational, oebb, euafr, fullHafas, iris, trainline, wikidata],
+    await load("sk-zsr"),
+    [
+      await load("nl-ns-international"),
+      await load("at-oebb"),
+      await load("_euafr"),
+      fullHafas,
+      await load("_iris"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Slovakia
   );
 
   await generate(
-    trenitalia,
-    [nsInternational, sbb, oebb, euafr, fullHafas, iris, trainline, wikidata],
+    await load("it-trenitalia"),
+    [
+      await load("nl-ns-international"),
+      await load("ch-sbb"),
+      await load("at-oebb"),
+      await load("_euafr"),
+      fullHafas,
+      await load("_iris"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Italy
   );
   await generate(
-    litrail,
-    [fullHafas, nsInternational, euafr, trainline, wikidata],
+    await load("lt-litrail"),
+    [
+      fullHafas,
+      await load("nl-ns-international"),
+      await load("_euafr"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Lithuania
   );
   await generate(
-    ns,
-    [nsInternational, euafr, fullHafas, iris, trainline, wikidata],
+    await load("nl-ns"),
+    [
+      await load("nl-ns-international"),
+      await load("_euafr"),
+      fullHafas,
+      await load("_iris"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Netherlands
   );
-  await generate(cp, [euafr, renfe, trainline, wikidata], Country.Portugal);
   await generate(
-    gov,
-    [nsInternational, oebb, fullHafas, iris, trainline, wikidata],
+    await load("pt-cp"),
+    [
+      await load("_euafr"),
+      await load("es-renfe"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
+    Country.Portugal
+  );
+  await generate(
+    await load("ro-gov"),
+    [
+      await load("nl-ns-international"),
+      await load("at-oebb"),
+      fullHafas,
+      await load("_iris"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Romania
   );
   await generate(
-    trafiklab,
-    [entur, euafr, fullHafas, iris, nsInternational, trainline, wikidata],
+    await load("se-trafiklab"),
+    [
+      await load("se-sj"),
+      await load("no-entur"),
+      await load("_euafr"),
+      fullHafas,
+      await load("_iris"),
+      await load("nl-ns-international"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Sweden
   );
   await generate(
-    euafr,
+    await load("_euafr"),
     [
-      trainline,
-      oebb,
-      leoExpress,
-      nsInternational,
-      pkp,
-      zsr,
+      await load("trainline-stations"),
+      await load("at-oebb"),
+      await load("cz-leo-express"),
+      await load("nl-ns-international"),
+      await load("pl-pkp"),
+      await load("sk-zsr"),
       fullHafas,
-      iris,
-      regiojet,
+      await load("_iris"),
+      await load("cz-regiojet"),
       wikidata,
     ],
     Country.Czech
   );
   await generate(
-    hzpp,
-    [euafr, fullHafas, iris, oebb, trainline, wikidata],
+    await load("hr-hzpp"),
+    [
+      await load("_euafr"),
+      fullHafas,
+      await load("_iris"),
+      await load("at-oebb"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Croatia
   );
   await generate(
-    euafr,
-    [fullHafas, iris, nsInternational, trafiklab, trainline, wikidata],
+    await load("_euafr"),
+    [
+      await load("dk-rejseplanen"),
+      fullHafas,
+      await load("_iris"),
+      await load("nl-ns-international"),
+      await load("se-trafiklab"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Denmark
   );
   await generate(
-    digitraffic,
-    [fullHafas, fullHafas, nsInternational, euafr, wikidata],
+    await load("fi-digitraffic"),
+    [
+      fullHafas,
+      await load("nl-ns-international"),
+      await load("_euafr"),
+      wikidata,
+    ],
     Country.Finland
   );
   await generate(
-    sncf,
+    await load("fr-sncf"),
     [
-      euafr,
+      await load("_euafr"),
       fullHafas,
-      iris,
-      renfe,
-      openov,
-      nsInternational,
-      ns,
-      trainline,
+      await load("_iris"),
+      await load("es-renfe"),
+      await load("lu-openov"),
+      await load("nl-ns-international"),
+      await load("nl-ns"),
+      await load("trainline-stations"),
       wikidata,
     ],
     Country.France
   );
-  await generate(irishRail, [fullHafas, trainline, wikidata], Country.Ireland);
   await generate(
-    sbb,
+    await load("ie-irish-rail"),
+    [fullHafas, await load("trainline-stations"), wikidata],
+    Country.Ireland
+  );
+  await generate(
+    await load("ch-sbb"),
     [
-      euafr,
+      await load("_euafr"),
       fullHafas,
-      iris,
-      oebb,
-      nsInternational,
-      ns,
-      zsr,
-      trainline,
+      await load("_iris"),
+      await load("at-oebb"),
+      await load("nl-ns-international"),
+      await load("nl-ns"),
+      await load("sk-zsr"),
+      await load("trainline-stations"),
       wikidata,
     ],
     Country.Switzerland
   );
   await generate(
-    atoc,
-    [fullHafas, ns, nsInternational, irishRail, trainline, euafr, wikidata],
+    [...(await load("gb-atoc")), ...(await load("ie-irish-rail"))],
+    [
+      fullHafas,
+      await load("nl-ns"),
+      await load("nl-ns-international"),
+      await load("trainline-stations"),
+      await load("_euafr"),
+      wikidata,
+    ],
     Country.UnitedKingdom
   );
   await generate(
-    euafr,
+    await load("_euafr"),
     [
       fullHafas,
-      iris,
-      oebb,
-      regiojet,
-      nsInternational,
-      zsr,
-      trainline,
+      await load("_iris"),
+      await load("at-oebb"),
+      await load("cz-regiojet"),
+      await load("nl-ns-international"),
+      await load("sk-zsr"),
+      await load("trainline-stations"),
       wikidata,
     ],
     Country.Slovenia
   );
   await generate(
-    pkp,
+    await load("pl-pkp"),
     [
-      euafr,
+      await load("_euafr"),
       fullHafas,
-      iris,
-      oebb,
-      leoExpress,
-      regiojet,
-      nsInternational,
-      zsr,
-      trainline,
+      await load("_iris"),
+      await load("at-oebb"),
+      await load("cz-leo-express"),
+      await load("cz-regiojet"),
+      await load("nl-ns-international"),
+      await load("sk-zsr"),
+      await load("trainline-stations"),
       wikidata,
     ],
     Country.Poland
   );
   await generate(
-    entur,
-    [fullHafas, euafr, nsInternational, trafiklab, trainline, wikidata],
+    await load("no-entur"),
+    [
+      fullHafas,
+      await load("_euafr"),
+      await load("nl-ns-international"),
+      await load("se-trafiklab"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Norway
   );
   await generate(
-    openov,
-    [euafr, fullHafas, iris, regiojet, nsInternational, trainline, wikidata],
+    await load("lu-openov"),
+    [
+      await load("_euafr"),
+      fullHafas,
+      await load("_iris"),
+      await load("cz-regiojet"),
+      await load("nl-ns-international"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Luxembourg
   );
   await generate(
-    euafr,
-    [fullHafas, nsInternational, trainline, wikidata],
+    await load("_euafr"),
+    [
+      fullHafas,
+      await load("nl-ns-international"),
+      await load("trainline-stations"),
+      wikidata,
+    ],
     Country.Latvia
   );
   await generate(
-    mav,
+    await load("hu-mav"),
     [
-      euafr,
+      await load("_euafr"),
       fullHafas,
-      iris,
-      oebb,
-      regiojet,
-      nsInternational,
-      gov,
-      zsr,
-      trainline,
+      await load("_iris"),
+      await load("at-oebb"),
+      await load("cz-regiojet"),
+      await load("nl-ns-international"),
+      await load("ro-gov"),
+      await load("sk-zsr"),
+      await load("trainline-stations"),
       wikidata,
     ],
     Country.Hungary
   );
   await generate(
-    db,
+    await load("de-db"),
     [
-      euafr,
+      await load("_euafr"),
       fullHafas,
-      iris,
-      oebb,
-      sbb,
-      leoExpress,
-      trainline,
-      openov,
-      ns,
-      nsInternational,
-      pkp,
-      trafiklab,
-      zsr,
+      await load("_iris"),
+      await load("at-oebb"),
+      await load("ch-sbb"),
+      await load("cz-leo-express"),
+      await load("trainline-stations"),
+      await load("lu-openov"),
+      await load("nl-ns"),
+      await load("nl-ns-international"),
+      await load("pl-pkp"),
+      await load("se-trafiklab"),
+      await load("sk-zsr"),
       wikidata,
     ],
     Country.Germany
   );
   await generate(
-    oebb,
+    await load("at-oebb"),
     [
-      euafr,
+      await load("_euafr"),
       fullHafas,
-      iris,
-      sbb,
-      leoExpress,
-      ns,
-      nsInternational,
-      trafiklab,
-      zsr,
-      trainline,
+      await load("_iris"),
+      await load("ch-sbb"),
+      await load("cz-leo-express"),
+      await load("nl-ns"),
+      await load("nl-ns-international"),
+      await load("se-trafiklab"),
+      await load("sk-zsr"),
+      await load("trainline-stations"),
       wikidata,
     ],
     Country.Austria

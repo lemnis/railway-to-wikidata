@@ -21,9 +21,9 @@ export const getLocations = (): Promise<Location[]> =>
       const country = findCountryByUIC(parseInt(uicCountryCode))?.wikidata;
 
       return point(
-        [stop_lon, stop_lat],
+        [stop_lon!, stop_lat!],
         {
-          labels: [{ value: stop_name, lang: Language.Swedish[1] }],
+          labels: [{ value: stop_name!, lang: Language.Swedish[1] }],
           [CodeIssuer.UIC]: [
             {
               value: uicCountryCode + uicStationCode,

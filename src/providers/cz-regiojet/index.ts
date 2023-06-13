@@ -1,54 +1,62 @@
+import { point } from "@turf/turf";
 import { findCountryByAlpha2 } from "../../transform/country";
 import { Location } from "../../types/location";
-import { Property } from "../../types/wikidata";
+import { Items, Property } from "../../types/wikidata";
 
 interface RegiojetLocation {
-  stationImportants: number;
   aliases: string[];
   latitude: number;
   name: string;
   id: number;
   fullname: string;
   longitude: number;
+  stationsTypes: string[];
 }
 
 /**
  * @todo Add support for multiple languages / labels
  */
 export const getLocations = async () => {
-  const {
-    destinations,
-  }: {
-    destinations: {
-      country: string;
-      code: string;
-      cities: {
-        partnerCity: boolean;
-        name: string;
-        id: number;
-        icons: boolean;
-        stations: RegiojetLocation[];
-      }[];
+  const countries: {
+    country: string;
+    code: string;
+    cities: {
+      partnerCity: boolean;
+      name: string;
+      id: number;
+      icons: boolean;
+      stations: RegiojetLocation[];
     }[];
-  } = await fetch(
-    "https://www.studentagency.cz/shared/wc/ybus-form/destinations-en.json"
+  }[] = await fetch(
+    "https://brn-ybus-pubapi.sa.cz/restapi/consts/locations"
   ).then((result) => result.json());
 
-  return destinations.map((country) => {
-    return country.cities
-      .map(({ stations }) => stations)
-      .flat()
-      .map<Location>(({ id, longitude, latitude, fullname }) => ({
-        type: "Feature",
-        id,
-        geometry: { type: "Point", coordinates: [longitude, latitude] },
-        properties: {
-          labels: [{ value: fullname }],
-          [Property.StationCode]: [{ value: id.toString() }],
-          [Property.Country]: [
-            { value: findCountryByAlpha2(country.code)?.wikidata },
-          ],
-        },
-      }));
-  });
+  return countries
+    .map((country) => {
+      return country.cities
+        .map(({ stations }) => stations)
+        .flat()
+        .filter((item) => item.stationsTypes?.includes("TRAIN_STATION"))
+        .map<Location>(({ id, longitude, latitude, fullname }) =>
+          point(
+            [longitude, latitude],
+            {
+              labels: [{ value: fullname }],
+              [Property.StationCode]: [
+                {
+                  value: id.toString(),
+                  qualifiers: {
+                    [Property.AppliesToPart]: [{ value: Items.RegioJet }],
+                  },
+                },
+              ],
+              [Property.Country]: [
+                { value: findCountryByAlpha2(country.code)?.wikidata },
+              ],
+            },
+            { id }
+          )
+        );
+    })
+    .flat();
 };
