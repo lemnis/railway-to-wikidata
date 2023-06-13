@@ -4,6 +4,7 @@ import { Location } from "../../types/location";
 import { ReliabilityIris } from "./iris.constants";
 import { feature } from "@ideditor/country-coder";
 import { point } from "@turf/turf";
+import { ClaimObject } from "../../types/wikidata";
 
 const WEBSITE =
   "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json";
@@ -18,7 +19,7 @@ export const getLocations = async () => {
     "https://raw.githubusercontent.com/derf/Travel-Status-DE-IRIS/master/share/stations.json"
   ).then((response) => response.json());
 
-  const references = [{ [Property.ReferenceURL]: WEBSITE }];
+  const references = [{ [Property.ReferenceURL]: { value: WEBSITE } }];
 
   return data.map<Location>(({ name: value, ds100, eva, latlong }) => {
     const coordinates = [latlong[1], latlong[0]] as [number, number];
