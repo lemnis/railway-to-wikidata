@@ -1,4 +1,6 @@
+import { multiPoint, point } from "@turf/turf";
 import { Country } from "../../transform/country";
+import { LocationType } from "../../types/gtfs";
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { getGtfsStations } from "../../utils/gtfs";
@@ -14,23 +16,23 @@ export const getLocations = async () => {
     "irail"
   );
   return data
-    .filter(({ location_type }) => location_type === "1")
-    .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => ({
-      type: "Feature",
-      id: stop_id,
-      geometry: {
-        type: "Point",
-        coordinates: [parseFloat(stop_lon), parseFloat(stop_lat)],
-      },
-      properties: {
-        labels: [{ value: stop_name }],
+    .filter(({ location_type }) => location_type === LocationType.STATION)
+    .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
+      const properties = {
+        labels: stop_name ? [{ value: stop_name }] : [],
         [CodeIssuer.UIC]: [
           {
-            value: stop_id.slice(1, 8),
+            value: id.toString().slice(1, 8),
             info: { reliability: RELIABILITY_UIC_IRAIL },
           },
         ],
         [Property.Country]: [{ value: Country.Belgium.wikidata }],
-      },
-    }));
+      };
+
+      return stop_lon && stop_lat
+        ? point([stop_lon, stop_lat], properties, {
+            id,
+          })
+        : multiPoint([], properties, { id });
+    });
 };
