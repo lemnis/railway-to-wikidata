@@ -140,7 +140,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUBN"
@@ -182,7 +184,9 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28617"
               },
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300007"
@@ -32160,7 +32164,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "21236-5300003-Q60809010",
+      "id": "21236-5300003-XUSI-Q60809010",
       "properties": {
         "P131": [
           {
@@ -32201,13 +32205,46 @@
             "value": "5321236"
           }
         ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
+              }
+            ],
+            "value": "XUSI"
+          }
+        ],
         "P954": [
           {
             "info": {
               "enabled": [
                 "hafas"
-              ]
+              ],
+              "pregrouped": [
+                {
+                  "reliability": 0.7999999999999999
+                },
+                {
+                  "enabled": [
+                    "hafas"
+                  ]
+                }
+              ],
+              "reliability": 0.7999999999999999
             },
+            "references": [
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
+              }
+            ],
             "value": "5300003"
           }
         ],
@@ -32291,7 +32328,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "21286-5300073-trainline-28623-Q59653825",
+      "id": "21286-5300073-XUD-trainline-28623-Q59653825",
       "properties": {
         "P131": [
           {
@@ -32373,6 +32410,21 @@
             "value": "RODEV"
           }
         ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
+              }
+            ],
+            "value": "XUD"
+          }
+        ],
         "P954": [
           {
             "info": {
@@ -32384,16 +32436,24 @@
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "reliability": 0.7999999999999999
+                },
+                {
                   "enabled": [
                     "hafas"
                   ]
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28623"
+              },
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300073"
@@ -34753,7 +34813,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "21834-5300002-trainline-28610-Q4783610",
+      "id": "21834-5300002-XUA-trainline-28610-Q4783610",
       "properties": {
         "P131": [
           {
@@ -34832,6 +34892,21 @@
         ],
         "P8671": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
+              }
+            ],
             "value": "XUA"
           }
         ],
@@ -34846,16 +34921,24 @@
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "reliability": 0.7999999999999999
+                },
+                {
                   "enabled": [
                     "hafas"
                   ]
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28610"
+              },
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300002"
@@ -35042,7 +35125,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "21925-5300001-trainline-28622-Q59615918",
+      "id": "21925-5300001-XUCU-trainline-28622-Q59615918",
       "properties": {
         "P131": [
           {
@@ -35136,6 +35219,21 @@
         ],
         "P8671": [
           {
+            "info": {
+              "pregrouped": [
+                {
+                  "reliability": 0.7000000000000001
+                }
+              ],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
+              }
+            ],
             "value": "XUCU"
           }
         ],
@@ -35150,16 +35248,24 @@
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "reliability": 0.7999999999999999
+                },
+                {
                   "enabled": [
                     "hafas"
                   ]
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28622"
+              },
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300001"
@@ -39241,7 +39347,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "23038-5300096-trainline-28615-Q9144195",
+      "id": "23038-5300096-XUAI-trainline-28615-Q9144195",
       "properties": {
         "P131": [
           {
@@ -39313,6 +39419,21 @@
             "value": "ROAIU"
           }
         ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
+              }
+            ],
+            "value": "XUAI"
+          }
+        ],
         "P954": [
           {
             "info": {
@@ -39324,16 +39445,24 @@
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "reliability": 0.7999999999999999
+                },
+                {
                   "enabled": [
                     "hafas"
                   ]
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28615"
+              },
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300096"
@@ -50191,7 +50320,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUPV"
@@ -50217,7 +50348,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300006"
@@ -51280,7 +51413,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUSN"
@@ -51312,7 +51447,9 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/29543"
               },
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300084"
@@ -51690,7 +51827,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUP"
@@ -51716,7 +51855,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300069"
@@ -52161,7 +52302,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUBS"
@@ -52193,7 +52336,9 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28616"
               },
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300005"
@@ -54040,7 +54185,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUSG"
@@ -54072,7 +54219,9 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28612"
               },
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300083"
@@ -54651,7 +54800,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUM"
@@ -54683,7 +54834,9 @@
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/28613"
               },
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300063"
@@ -55318,7 +55471,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "XUBL"
@@ -55344,7 +55499,9 @@
             },
             "references": [
               {
-                "P854": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300017"
@@ -61572,7 +61729,7 @@
         ],
         "type": "MultiPoint"
       },
-      "id": "32742-5300095-trainline-67370-Q59688255",
+      "id": "32742-5300095-XUEB-trainline-67370-Q59688255",
       "properties": {
         "P131": [
           {
@@ -61632,6 +61789,21 @@
             "value": "5332742"
           }
         ],
+        "P8671": [
+          {
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
+              }
+            ],
+            "value": "XUEB"
+          }
+        ],
         "P954": [
           {
             "info": {
@@ -61643,16 +61815,24 @@
                   "reliability": 0.7000000000000001
                 },
                 {
+                  "reliability": 0.7999999999999999
+                },
+                {
                   "enabled": [
                     "hafas"
                   ]
                 }
               ],
-              "reliability": 0.7000000000000001
+              "reliability": 1.5
             },
             "references": [
               {
                 "P854": "https://trainline-eu.github.io/stations-studio/#/station/67370"
+              },
+              {
+                "P854": {
+                  "value": "https://github.com/derf/Travel-Status-DE-IRIS/blob/master/share/stations.json"
+                }
               }
             ],
             "value": "5300095"
