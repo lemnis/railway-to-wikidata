@@ -2166,26 +2166,10 @@
         "P722": [
           {
             "info": {
-              "enabled": [],
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8685"
-              }
-            ],
-            "value": "9406437"
-          },
-          {
-            "info": {
               "enabled": [
                 "pt-cp"
               ],
               "pregrouped": [
-                {
-                  "enabled": [],
-                  "reliability": 0.6400000000000001
-                },
                 {
                   "reliability": 0.5800000000000001
                 },
@@ -2196,13 +2180,8 @@
                   "slug": "viana-do-castelo"
                 }
               ],
-              "reliability": 1.2200000000000002
+              "reliability": 0.5800000000000001
             },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8685"
-              }
-            ],
             "value": "9418002"
           },
           {
@@ -7041,13 +7020,17 @@
             38.76798
           ],
           [
+            -9.122271,
+            38.71387
+          ],
+          [
             -9.099032,
             38.767839
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "94-31039-PT31039-94404-Q801115",
+      "id": "94-31039-PT31039-94404-trainline-8722-Q801115",
       "properties": {
         "P131": [
           {
@@ -7091,6 +7074,23 @@
             "value": "Av. D. João II"
           }
         ],
+        "P6724": [
+          {
+            "info": {
+              "enabled": [
+                "trainline"
+              ],
+              "reliability": 0.6400000000000001,
+              "slug": "lisboa-oriente"
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8722"
+              }
+            ],
+            "value": "8722"
+          }
+        ],
         "P722": [
           {
             "info": {
@@ -7122,9 +7122,37 @@
             "value": "9494404"
           }
         ],
+        "P8181": [
+          {
+            "info": {
+              "enabled": [],
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8722"
+              }
+            ],
+            "value": "PTLOR"
+          }
+        ],
         "P856": [
           {
             "value": "https://www.infraestruturasdeportugal.pt/negocios-e-servicos/estacoes/detalhe/9431039"
+          }
+        ],
+        "P954": [
+          {
+            "enabled": false,
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8722"
+              }
+            ],
+            "value": "9400674"
           }
         ],
         "PWIKI": [
@@ -7329,6 +7357,10 @@
             "value": "Gare do Oriente"
           },
           {
+            "lang": "cs",
+            "value": "Lisabon"
+          },
+          {
             "value": "Lisboa - Oriente"
           },
           {
@@ -7350,12 +7382,52 @@
             "value": "Lisboa-Oriente"
           },
           {
+            "lang": "en",
+            "value": "Lisbon"
+          },
+          {
+            "lang": "it",
+            "value": "Lisbona"
+          },
+          {
             "lang": "it",
             "value": "Lisbona Oriente"
           },
           {
+            "lang": "fr",
+            "value": "Lisbonne"
+          },
+          {
+            "lang": "da",
+            "value": "Lissabon"
+          },
+          {
+            "lang": "de",
+            "value": "Lissabon"
+          },
+          {
+            "lang": "nl",
+            "value": "Lissabon"
+          },
+          {
+            "lang": "sv",
+            "value": "Lissabon"
+          },
+          {
+            "lang": "hu",
+            "value": "Lisszabon"
+          },
+          {
             "lang": "hu",
             "value": "Lisszabon Oriente"
+          },
+          {
+            "lang": "tr",
+            "value": "Lizbon"
+          },
+          {
+            "lang": "pl",
+            "value": "Lizbona"
           },
           {
             "lang": "pt",
@@ -7386,8 +7458,16 @@
             "value": "Восточный вокзал (Лиссабон)"
           },
           {
+            "lang": "ru",
+            "value": "Лиссабон"
+          },
+          {
             "lang": "fa",
             "value": "ایستگاه راهآهن اورینته"
+          },
+          {
+            "lang": "ko",
+            "value": "리스본"
           },
           {
             "lang": "ko",
@@ -7396,6 +7476,10 @@
           {
             "lang": "ja",
             "value": "オリエンテ駅"
+          },
+          {
+            "lang": "ja",
+            "value": "リスボン"
           },
           {
             "lang": "zh",
@@ -47957,18 +48041,6 @@
           }
         ],
         "P722": [
-          {
-            "info": {
-              "enabled": [],
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8704"
-              }
-            ],
-            "value": "9430011"
-          },
           {
             "info": {
               "enabled": [

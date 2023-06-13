@@ -81014,18 +81014,6 @@
         ],
         "P722": [
           {
-            "info": {
-              "enabled": [],
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23610"
-              }
-            ],
-            "value": "5500009"
-          },
-          {
             "value": "5501131"
           }
         ],
@@ -84400,18 +84388,6 @@
           }
         ],
         "P722": [
-          {
-            "info": {
-              "enabled": [],
-              "reliability": 0.6400000000000001
-            },
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/23605"
-              }
-            ],
-            "value": "5500017"
-          },
           {
             "info": {
               "pregrouped": [],
@@ -101441,7 +101417,9 @@
         "P6724": [
           {
             "info": {
-              "enabled": [],
+              "enabled": [
+                "trainline"
+              ],
               "reliability": 0.6400000000000001,
               "slug": "pecs"
             },

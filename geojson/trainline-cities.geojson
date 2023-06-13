@@ -89,9 +89,7 @@
             ],
             "info": {
               "reliability": 0.7000000000000001,
-              "enabled": [
-                "trainline-sncf"
-              ]
+              "enabled": []
             }
           }
         ],
@@ -555,57 +553,6 @@
             47.2854337
           ]
         ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "trainline-10465",
-      "properties": {
-        "labels": [
-          {
-            "value": "Figueras (Figueres)"
-          }
-        ],
-        "P17": [
-          {
-            "value": "Q29"
-          }
-        ],
-        "P8181": [
-          {
-            "value": "ESFRS",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/10465"
-              }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001,
-              "enabled": [
-                "trainline-sncf"
-              ]
-            }
-          }
-        ],
-        "P6724": [
-          {
-            "value": "10465",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/10465"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": [],
-              "slug": "figueras-figueres"
-            }
-          }
-        ]
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": []
       }
     },
     {
@@ -11462,22 +11409,6 @@
             "lang": "zh"
           }
         ],
-        "P722": [
-          {
-            "value": "8311699",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/22157"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": [
-                "trainline-trenitalia"
-              ]
-            }
-          }
-        ],
         "P17": [
           {
             "value": "Q38"
@@ -11716,22 +11647,6 @@
           {
             "value": "カターニア",
             "lang": "ja"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8312796",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/22160"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": [
-                "trainline-trenitalia"
-              ]
-            }
           }
         ],
         "P17": [
@@ -12010,22 +11925,6 @@
             "lang": "zh"
           }
         ],
-        "P722": [
-          {
-            "value": "8312792",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/22186"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": [
-                "trainline-trenitalia"
-              ]
-            }
-          }
-        ],
         "P17": [
           {
             "value": "Q38"
@@ -12199,20 +12098,6 @@
               "slug": "ancona-citta"
             }
           }
-        ],
-        "P954": [
-          {
-            "value": "8300186",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/22189"
-              }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "enabled": false
-          }
         ]
       },
       "geometry": {
@@ -12358,22 +12243,6 @@
               ],
               "slug": "rimini-citta"
             }
-          }
-        ],
-        "P954": [
-          {
-            "value": "8300221",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/22533"
-              }
-            ],
-            "info": {
-              "reliability": 0.7000000000000001
-            },
-            "enabled": [
-              "trainline-oebb"
-            ]
           }
         ]
       },
@@ -12677,7 +12546,9 @@
             ],
             "info": {
               "reliability": 0.6400000000000001,
-              "enabled": [],
+              "enabled": [
+                "trainline"
+              ],
               "slug": "kostrzyn"
             }
           }
@@ -24897,7 +24768,9 @@
             ],
             "info": {
               "reliability": 0.6400000000000001,
-              "enabled": [],
+              "enabled": [
+                "trainline"
+              ],
               "slug": "fredrikstad"
             }
           }
@@ -43206,7 +43079,8 @@
               "reliability": 0.7000000000000001
             },
             "enabled": [
-              "trainline-db"
+              "trainline-db",
+              "trainline-oebb"
             ]
           }
         ]
@@ -57509,7 +57383,9 @@
             "info": {
               "reliability": 0.7000000000000001
             },
-            "enabled": false
+            "enabled": [
+              "trainline-db"
+            ]
           }
         ]
       },
@@ -70210,6 +70086,94 @@
     },
     {
       "type": "Feature",
+      "id": "trainline-6648",
+      "properties": {
+        "labels": [
+          {
+            "value": "Figueres"
+          }
+        ],
+        "P722": [
+          {
+            "value": "7179309",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6648"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001,
+              "enabled": [
+                "trainline-sncf"
+              ]
+            }
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q29"
+          }
+        ],
+        "P8181": [
+          {
+            "value": "ESFIG",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6648"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001,
+              "enabled": [
+                "trainline-sncf"
+              ]
+            }
+          }
+        ],
+        "P6724": [
+          {
+            "value": "6648",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6648"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001,
+              "enabled": [
+                "trainline"
+              ],
+              "slug": "figueres"
+            }
+          }
+        ],
+        "P954": [
+          {
+            "value": "7100078",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/6648"
+              }
+            ],
+            "info": {
+              "reliability": 0.7000000000000001
+            },
+            "enabled": false
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            2.969271,
+            42.264951
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "trainline-6655",
       "properties": {
         "labels": [
@@ -70854,6 +70818,64 @@
           [
             11.973424,
             57.709308
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trainline-68181",
+      "properties": {
+        "labels": [
+          {
+            "value": "Ischia"
+          }
+        ],
+        "P722": [
+          {
+            "value": "8314709",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68181"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001,
+              "enabled": [
+                "trainline-trenitalia"
+              ]
+            }
+          }
+        ],
+        "P17": [
+          {
+            "value": "Q38"
+          }
+        ],
+        "P6724": [
+          {
+            "value": "68181",
+            "references": [
+              {
+                "P854": "https://trainline-eu.github.io/stations-studio/#/station/68181"
+              }
+            ],
+            "info": {
+              "reliability": 0.6400000000000001,
+              "enabled": [
+                "trainline"
+              ],
+              "slug": "ischia"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            13.8740106,
+            40.7267526
           ]
         ]
       }
@@ -72574,20 +72596,6 @@
           {
             "value": "康斯坦茨",
             "lang": "zh"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8000495",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/7674"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": []
-            }
           }
         ],
         "P17": [
@@ -75530,23 +75538,6 @@
             "lang": "zh"
           }
         ],
-        "P722": [
-          {
-            "value": "8301650",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8483"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": [
-                "trainline-sncf",
-                "trainline-trenitalia"
-              ]
-            }
-          }
-        ],
         "P17": [
           {
             "value": "Q38"
@@ -75665,22 +75656,6 @@
           {
             "value": "罗马市",
             "lang": "zh"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8308349",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8542"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": [
-                "trainline-trenitalia"
-              ]
-            }
           }
         ],
         "P17": [
@@ -75803,23 +75778,6 @@
           {
             "value": "都灵",
             "lang": "zh"
-          }
-        ],
-        "P722": [
-          {
-            "value": "8300996",
-            "references": [
-              {
-                "P854": "https://trainline-eu.github.io/stations-studio/#/station/8565"
-              }
-            ],
-            "info": {
-              "reliability": 0.6400000000000001,
-              "enabled": [
-                "trainline-sncf",
-                "trainline-trenitalia"
-              ]
-            }
           }
         ],
         "P17": [
@@ -77063,7 +77021,9 @@
             ],
             "info": {
               "reliability": 0.6400000000000001,
-              "enabled": [],
+              "enabled": [
+                "trainline"
+              ],
               "slug": "orly"
             }
           }
