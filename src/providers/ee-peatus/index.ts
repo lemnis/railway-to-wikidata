@@ -1,4 +1,4 @@
-import { Property } from "../../types/wikidata";
+import { Items, Property } from "../../types/wikidata";
 import { Location } from "../../types/location";
 import { Country } from "../../transform/country";
 import { getGtfsStationsByRailRoute } from "../../utils/gtfs";
@@ -16,13 +16,21 @@ export const getLocations = async (): Promise<Location[]> => {
     "peatus"
   );
 
+  // https://web.peatus.ee/pysakit/estonia:10137
+
   const ungroupedStations = data
     .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) =>
       point(
-        [stop_lon, stop_lat],
+        [stop_lon!, stop_lat!],
         {
-          labels: [{ value: stop_name }],
+          labels: [{ value: stop_name! }],
           [Property.Country]: [{ value: Country.Estonia.wikidata }],
+          [Property.StationCode]: [
+            {
+              value: stop_id.toString(),
+              qualifiers: { [Property.AppliesToPart]: [{ value: Items.EstonianTransportAdministration }] },
+            },
+          ],
         },
         { id: stop_id }
       )

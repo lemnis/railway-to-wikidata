@@ -4,6 +4,7 @@ import { Country } from "../../transform/country";
 import { getGtfsStationsByRailRoute } from "../../utils/gtfs";
 import { groupByScore } from "../../group/score";
 import { merge } from "../../actions/merge";
+import { multiPoint, point } from "@turf/turf";
 
 /**
  * @see https://gtfs.menetbrand.com/letoltes/
@@ -13,22 +14,21 @@ export const getLocations = async () => {
     "https://gtfs.menetbrand.com/download/mav",
     "mav"
   ).then((data) =>
-    data.map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
-      return {
-        type: "Feature",
-        id: stop_id.toString(),
-        geometry: { type: "Point", coordinates: [stop_lon, stop_lat] },
-        properties: {
-          labels: [{ value: stop_name }],
-          [Property.Country]: [{ value: Country.Hungary.wikidata }],
-        },
+    data.map<Location>(({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
+      const properties = {
+        labels: [{ value: stop_name! }],
+        [Property.Country]: [{ value: Country.Hungary.wikidata }],
       };
+
+      return stop_lat && stop_lon
+        ? point([stop_lat, stop_lon], properties, { id })
+        : multiPoint([], properties, { id });
     })
   );
 
   const groupedStations = await groupByScore(
     ungroupedStations,
-    (score) => score?.percentage >= 2.7
+    (score) => score?.percentage >= 2.5
   );
 
   return await Promise.all(

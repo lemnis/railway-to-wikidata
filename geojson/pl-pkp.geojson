@@ -3,14 +3,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            21.13651401118,
-            54.17218815958
-          ]
+          21.13651401118,
+          54.17218815958
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "10009-10009",
+      "id": 10009,
       "properties": {
         "P17": [
           {
@@ -289,14 +287,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            21.38515338756,
-            54.07262720034
-          ]
+          21.38515338756,
+          54.07262720034
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "10405-10405",
+      "id": 10405,
       "properties": {
         "P17": [
           {
@@ -1713,36 +1709,6 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            21.77804811001,
-            54.03136915601
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "12609-12609",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5112609"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Giżycko"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.57506120865,
           54.01513127738
         ],
@@ -1763,62 +1729,6 @@
         "labels": [
           {
             "value": "Sterławki Wielkie"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.73798453613,
-          54.01961435742
-        ],
-        "type": "Point"
-      },
-      "id": 12658,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5112658"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Niegocin"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.64638429344,
-          54.01171397853
-        ],
-        "type": "Point"
-      },
-      "id": 12666,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5112666"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Sterławki Małe"
           }
         ]
       },
@@ -5267,6 +5177,34 @@
     {
       "geometry": {
         "coordinates": [
+          17.91107850342,
+          54.1237423648
+        ],
+        "type": "Point"
+      },
+      "id": 17590,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5117590"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Garczyn"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           17.78035044907,
           54.09680547844
         ],
@@ -6311,12 +6249,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.08288139505,
-          49.25228349894
+          [
+            22.08288139505,
+            49.25228349894
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 178902,
+      "id": "178902-178902",
       "properties": {
         "P17": [
           {
@@ -6324,6 +6264,9 @@
           }
         ],
         "P722": [
+          {
+            "value": "5117890"
+          },
           {
             "value": "51178902"
           }
@@ -6367,12 +6310,14 @@
     {
       "geometry": {
         "coordinates": [
-          21.44009152513,
-          52.19339671162
+          [
+            21.44009152513,
+            52.19339671162
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 179081,
+      "id": "179081-179081",
       "properties": {
         "P17": [
           {
@@ -6382,6 +6327,9 @@
         "P722": [
           {
             "value": "5117908"
+          },
+          {
+            "value": "51179081"
           }
         ],
         "labels": [
@@ -6481,29 +6429,6 @@
         "labels": [
           {
             "value": "Guben"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.60775475394,
-          52.56849125867
-        ],
-        "type": "Point"
-      },
-      "id": 179214,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q183"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Küstrien-Kietz"
           }
         ]
       },
@@ -6647,6 +6572,57 @@
         "labels": [
           {
             "value": "Basznia"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.30142306745,
+          52.33688292412
+        ],
+        "type": "Point"
+      },
+      "id": 179242,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5117924"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Łagów"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.90522874603,
+          49.26160700171
+        ],
+        "type": "Point"
+      },
+      "id": 179276,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q214"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Medzilaborce"
           }
         ]
       },
@@ -7104,12 +7080,14 @@
     {
       "geometry": {
         "coordinates": [
-          15.12096218901,
-          53.66611406458
+          [
+            15.12096218901,
+            53.66611406458
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 1859,
+      "id": "1859-1859",
       "properties": {
         "P17": [
           {
@@ -7406,6 +7384,29 @@
         "labels": [
           {
             "value": "Geniusze"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.90095543325,
+          49.2740173963
+        ],
+        "type": "Point"
+      },
+      "id": 190044,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q214"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Medzilaborce Mesto"
           }
         ]
       },
@@ -8044,6 +8045,80 @@
     {
       "geometry": {
         "coordinates": [
+          20.99602907628,
+          52.44378603322
+        ],
+        "type": "Point"
+      },
+      "id": "1929p1",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wieliszew Centrum"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.00889831513,
+          52.45227940155
+        ],
+        "type": "Point"
+      },
+      "id": "1930p1",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Zegrze Południowe"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.99462102771,
+          51.58911622285
+        ],
+        "type": "Point"
+      },
+      "id": 19406,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5119406"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Zduńska Wola Karsznice"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             18.94675425261,
             51.61127947075
@@ -8188,12 +8263,14 @@
     {
       "geometry": {
         "coordinates": [
-          15.26130849969,
-          53.8082986669
+          [
+            15.26130849969,
+            53.8082986669
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 1958,
+      "id": "1958-1958",
       "properties": {
         "P17": [
           {
@@ -8552,6 +8629,34 @@
         "labels": [
           {
             "value": "Grudziądz"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.93280703879,
+          53.59187465865
+        ],
+        "type": "Point"
+      },
+      "id": 20552,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5120552"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Gardeja"
           }
         ]
       },
@@ -8958,12 +9063,14 @@
     {
       "geometry": {
         "coordinates": [
-          15.27763338805,
-          54.06059807419
+          [
+            15.27763338805,
+            54.06059807419
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 2147,
+      "id": "2147-2147",
       "properties": {
         "P17": [
           {
@@ -9270,12 +9377,14 @@
     {
       "geometry": {
         "coordinates": [
-          15.19175232243,
-          53.91486909876
+          [
+            15.19175232243,
+            53.91486909876
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 2170,
+      "id": "2170-2170",
       "properties": {
         "P17": [
           {
@@ -10656,6 +10765,62 @@
     {
       "geometry": {
         "coordinates": [
+          18.88045234718,
+          53.66726316996
+        ],
+        "type": "Point"
+      },
+      "id": 23143,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123143"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Sadlinki"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.9017196495,
+          53.61870496794
+        ],
+        "type": "Point"
+      },
+      "id": 23168,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123168"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Dziwno"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           18.96120131131,
           53.80243977919
         ],
@@ -10849,6 +11014,230 @@
         "labels": [
           {
             "value": "Siedlce Zachodnie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.53316019893,
+          53.07284167846
+        ],
+        "type": "Point"
+      },
+      "id": 23333,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123333"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Grabowo"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.41255735278,
+          53.08472623382
+        ],
+        "type": "Point"
+      },
+      "id": 23341,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123341"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nowa Wieś Kościelna"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.34836671591,
+          53.08460380225
+        ],
+        "type": "Point"
+      },
+      "id": 23358,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123358"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Zabiele Wielkie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.24736052513,
+          53.1326426275
+        ],
+        "type": "Point"
+      },
+      "id": 23366,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123366"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Jastrząbka"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.14110861244,
+          53.17479952878
+        ],
+        "type": "Point"
+      },
+      "id": 23374,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123374"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Parciaki"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.05940038359,
+          53.21430815735
+        ],
+        "type": "Point"
+      },
+      "id": 23382,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123382"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Olszewka"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.00394457275,
+          53.24610249644
+        ],
+        "type": "Point"
+      },
+      "id": 23390,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123390"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Raszujka"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          20.9430678889,
+          53.27941854423
+        ],
+        "type": "Point"
+      },
+      "id": 23416,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5123416"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Chorzele"
           }
         ]
       },
@@ -11982,6 +12371,34 @@
     {
       "geometry": {
         "coordinates": [
+          23.18444390816,
+          53.14024184289
+        ],
+        "type": "Point"
+      },
+      "id": 24273,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5124273"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Białystok Fabryczny"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           15.36666556906,
           53.30628810479
         ],
@@ -12002,6 +12419,34 @@
         "labels": [
           {
             "value": "Tarnowo Pomorskie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.32128220858,
+          53.11119978029
+        ],
+        "type": "Point"
+      },
+      "id": 24281,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5124281"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Kuriany"
           }
         ]
       },
@@ -12206,6 +12651,34 @@
     {
       "geometry": {
         "coordinates": [
+          23.35805805637,
+          53.10138172476
+        ],
+        "type": "Point"
+      },
+      "id": 24299,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5124299"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Zajezierce"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           22.71539751653,
           51.23498178221
         ],
@@ -12226,6 +12699,90 @@
         "labels": [
           {
             "value": "Lublin Airport"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.46981780015,
+          53.08702830397
+        ],
+        "type": "Point"
+      },
+      "id": 24323,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5124323"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Żednia"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.51135010435,
+          53.0862875424
+        ],
+        "type": "Point"
+      },
+      "id": 24331,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5124331"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Sokole Białostockie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.65107129355,
+          53.1081649054
+        ],
+        "type": "Point"
+      },
+      "id": 24349,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5124349"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Waliły"
           }
         ]
       },
@@ -12630,12 +13187,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.90869843918,
-          53.0042481735
+          [
+            22.90869843918,
+            53.0042481735
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 24547,
+      "id": "24547-24547",
       "properties": {
         "P17": [
           {
@@ -12796,34 +13355,6 @@
         "labels": [
           {
             "value": "Klepacze"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.09499646364,
-          53.11093713749
-        ],
-        "type": "Point"
-      },
-      "id": 24620,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5124620"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Białystok Wiadukt"
           }
         ]
       },
@@ -13126,14 +13657,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            22.22602298742,
-            52.76011977572
-          ]
+          22.22602298742,
+          52.76011977572
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "24745-24745",
+      "id": 24745,
       "properties": {
         "P17": [
           {
@@ -14750,14 +15279,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            19.60342883527,
-            49.74347611177
-          ]
+          19.60342883527,
+          49.74347611177
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "258708-258708",
+      "id": 258708,
       "properties": {
         "P17": [
           {
@@ -14765,9 +15292,6 @@
           }
         ],
         "P722": [
-          {
-            "value": "5125870"
-          },
           {
             "value": "51258708"
           }
@@ -14803,6 +15327,90 @@
         "labels": [
           {
             "value": "Drzeńsko"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.58990326708,
+          51.49173926919
+        ],
+        "type": "Point"
+      },
+      "id": 258747,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5125874"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Okuninka Białe"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.61112183884,
+          51.35680013316
+        ],
+        "type": "Point"
+      },
+      "id": 258748,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5125874"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Majdan Stuleński"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.58880959347,
+          51.23553876615
+        ],
+        "type": "Point"
+      },
+      "id": 258751,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5125875"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Ruda-Huta"
           }
         ]
       },
@@ -15497,12 +16105,14 @@
     {
       "geometry": {
         "coordinates": [
-          15.81518693923,
-          52.16850193898
+          [
+            15.81518693923,
+            52.16850193898
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 26161,
+      "id": "26161-26161",
       "properties": {
         "P17": [
           {
@@ -16518,6 +17128,146 @@
     {
       "geometry": {
         "coordinates": [
+          17.11443006724,
+          51.12232389459
+        ],
+        "type": "Point"
+      },
+      "id": 263506,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5126350"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wrocław Popiele"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.14551955193,
+          51.10991809259
+        ],
+        "type": "Point"
+      },
+      "id": 263507,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5126350"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wrocław Strachocin"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.16841757029,
+          51.09795532842
+        ],
+        "type": "Point"
+      },
+      "id": 263508,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5126350"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wrocław Wojnów Wschodni"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.2180437988,
+          51.08191872085
+        ],
+        "type": "Point"
+      },
+      "id": 263509,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5126350"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nadolice Małe"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.27632552117,
+          51.07323516719
+        ],
+        "type": "Point"
+      },
+      "id": 263510,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5126351"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Chrząstawa Mała"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           17.7182873452,
           50.60530611038
         ],
@@ -17455,12 +18205,14 @@
     {
       "geometry": {
         "coordinates": [
-          15.61872001401,
-          52.09276931251
+          [
+            15.61872001401,
+            52.09276931251
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 27300,
+      "id": "27300-27300",
       "properties": {
         "P17": [
           {
@@ -18075,6 +18827,34 @@
     {
       "geometry": {
         "coordinates": [
+          20.39987454619,
+          53.4192337567
+        ],
+        "type": "Point"
+      },
+      "id": 279322,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5127932"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wietrzychowo"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           15.43871049736,
           51.97768859717
         ],
@@ -18095,6 +18875,34 @@
         "labels": [
           {
             "value": "Zielona Góra Przylep"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.67327822356,
+          50.77740729472
+        ],
+        "type": "Point"
+      },
+      "id": 279428,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5127942"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Koniecpol Centrum"
           }
         ]
       },
@@ -18187,6 +18995,62 @@
     {
       "geometry": {
         "coordinates": [
+          20.56528917549,
+          53.80288260065
+        ],
+        "type": "Point"
+      },
+      "id": 279439,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5127943"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nikielkowo"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          20.99174862698,
+          53.99374730088
+        ],
+        "type": "Point"
+      },
+      "id": 279440,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5127944"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Kolno"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           15.66430319408,
           51.86555640721
         ],
@@ -18215,8 +19079,8 @@
     {
       "geometry": {
         "coordinates": [
-          19.75888430536,
-          50.37991411062
+          19.75873410166,
+          50.37984569342
         ],
         "type": "Point"
       },
@@ -18235,6 +19099,62 @@
         "labels": [
           {
             "value": "Wolbrom Zachodni"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.4053396529,
+          50.00540147057
+        ],
+        "type": "Point"
+      },
+      "id": 279915,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5127991"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Zator Park Rozrywki"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.1054335779,
+          53.11686060601
+        ],
+        "type": "Point"
+      },
+      "id": 279919,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5127991"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Białystok Zielone Wzgórza"
           }
         ]
       },
@@ -18263,6 +19183,202 @@
         "labels": [
           {
             "value": "Gubin"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.94361516798,
+          49.99441968253
+        ],
+        "type": "Point"
+      },
+      "id": 280245,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5128024"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Boguchwała Dolna"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.98395907342,
+          50.02756567401
+        ],
+        "type": "Point"
+      },
+      "id": 280246,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5128024"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Rzeszów Politechnika"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.99850737512,
+          50.04313999014
+        ],
+        "type": "Point"
+      },
+      "id": 280247,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5128024"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Rzeszów Centrum"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.80548672024,
+          50.22265755517
+        ],
+        "type": "Point"
+      },
+      "id": 280253,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5128025"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Kolbuszowa Górna"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.99238362698,
+          50.06259576799
+        ],
+        "type": "Point"
+      },
+      "id": 280254,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5128025"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Rzeszów Staromieście"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.9647480086,
+          50.13665486389
+        ],
+        "type": "Point"
+      },
+      "id": 280255,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5128025"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Głogów Małopolski Niwa"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.03183935316,
+          50.05245355583
+        ],
+        "type": "Point"
+      },
+      "id": 280256,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5128025"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Rzeszów Pobitno"
           }
         ]
       },
@@ -19790,7 +20906,7 @@
         ],
         "labels": [
           {
-            "value": "Świder"
+            "value": "Otwock Świder"
           }
         ]
       },
@@ -19830,10 +20946,6 @@
       "geometry": {
         "coordinates": [
           [
-            21.26319989428,
-            52.10961867076
-          ],
-          [
             21.26293033227,
             52.10952724629
           ],
@@ -19842,13 +20954,17 @@
             52.10945394185
           ],
           [
+            21.26319989428,
+            52.10961867076
+          ],
+          [
             21.26300835582,
             52.10961288372
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "2918p1-2918p2-2918p3-2918pUnknown-38885_platform_1-38885_platform_2-38885_platform_3-38885_platform_unknown-38885",
+      "id": "2918p2-2918p3-38885_platform_1-38885_platform_2-38885_platform_3-38885_platform_unknown-38885",
       "properties": {
         "P17": [
           {
@@ -23137,174 +24253,6 @@
     {
       "geometry": {
         "coordinates": [
-          20.98735749654,
-          52.16595234676
-        ],
-        "type": "Point"
-      },
-      "id": "33803_platform_1",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5133803"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Warszawa Okęcie"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            20.99122523993,
-            52.12855020325
-          ],
-          [
-            20.99102675647,
-            52.12854526349
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "33845_platform_2-33845_platform_1",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5133845"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Warszawa Dawidy"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            20.99328383669,
-            52.1098880012
-          ],
-          [
-            20.99300488696,
-            52.11075116548
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "33878_platform_2-33878_platform_1",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5133878"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Warszawa Jeziorki"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            21.01736001536,
-            52.06659305809
-          ],
-          [
-            21.01716957852,
-            52.06651885865
-          ],
-          [
-            21.01725960979,
-            52.06656150582
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "33902_platform_2-33902_platform_1-33902",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5133902"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Piaseczno"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            20.99535181984,
-            52.09134323084
-          ],
-          [
-            20.99515065417,
-            52.0913234553
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "33910_platform_2-33910_platform_1",
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5133910"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Nowa Iwiczna"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           [
             21.041782199,
             52.02665594873
@@ -23853,12 +24801,14 @@
     {
       "geometry": {
         "coordinates": [
-          20.23901892527,
-          52.21517565534
+          [
+            20.23901892527,
+            52.21517565534
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 34603,
+      "id": "34603-34603",
       "properties": {
         "P17": [
           {
@@ -26119,14 +27069,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            22.14081725397,
-            52.73097000613
-          ]
+          22.14081725397,
+          52.73097000613
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "38356-38356",
+      "id": 38356,
       "properties": {
         "P17": [
           {
@@ -26202,7 +27150,7 @@
         ],
         "labels": [
           {
-            "value": "Śródborów"
+            "value": "Otwock Śródborów"
           }
         ]
       },
@@ -26472,6 +27420,108 @@
       "geometry": {
         "coordinates": [
           [
+            20.99102675647,
+            52.12854526349
+          ],
+          [
+            20.99122523993,
+            52.12855020325
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "3902p1-3902p2-33845_platform_2-33845_platform_1",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5133845"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Warszawa Dawidy"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            20.99300488696,
+            52.11075116548
+          ],
+          [
+            20.99328383669,
+            52.1098880012
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "3903p1-3903p2-33878_platform_2-33878_platform_1",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5133878"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Warszawa Jeziorki"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            20.99515065417,
+            52.0913234553
+          ],
+          [
+            20.99535181984,
+            52.09134323084
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "3904p1-3904p2-33910_platform_2-33910_platform_1",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5133910"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nowa Iwiczna"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
             15.97770929606,
             54.00994582961
           ]
@@ -26493,6 +27543,44 @@
         "labels": [
           {
             "value": "Białogard"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            21.01716957852,
+            52.06651885865
+          ],
+          [
+            21.01736001536,
+            52.06659305809
+          ],
+          [
+            21.01725960979,
+            52.06656150582
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "3905p1-3905p2-33902_platform_2-33902_platform_1-33902",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5133902"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Piaseczno"
           }
         ]
       },
@@ -26613,12 +27701,14 @@
     {
       "geometry": {
         "coordinates": [
-          21.35011789815,
-          52.22343028926
+          [
+            21.35011789815,
+            52.22343028926
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 39131,
+      "id": "39131-39131",
       "properties": {
         "P17": [
           {
@@ -26669,12 +27759,14 @@
     {
       "geometry": {
         "coordinates": [
-          21.48263458895,
-          52.18439491026
+          [
+            21.48263458895,
+            52.18439491026
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 39156,
+      "id": "39156-39156",
       "properties": {
         "P17": [
           {
@@ -30783,6 +31875,34 @@
     {
       "geometry": {
         "coordinates": [
+          16.05419052646,
+          54.25418198276
+        ],
+        "type": "Point"
+      },
+      "id": 4515,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "514515"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Mielno Koszalińskie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           17.99797696306,
           51.70819767368
         ],
@@ -32133,6 +33253,34 @@
         "labels": [
           {
             "value": "Justynów"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.79104290298,
+          51.73219645271
+        ],
+        "type": "Point"
+      },
+      "id": 46532,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5146532"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Żakowice"
           }
         ]
       },
@@ -34964,17 +36112,17 @@
             52.22062093799
           ],
           [
-            20.96530839667,
-            52.22079840128
-          ],
-          [
             20.96576919014,
             52.21995562238
+          ],
+          [
+            20.96530839667,
+            52.22079840128
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "4900p2-4900p6-4900p7-4900p8-33506-33506_platform_2-33506_platform_6-33506_platform_7-33506_platform_8-33506_platform_unknown-33506",
+      "id": "4900p2-4900p6-4900p7-33506-33506_platform_2-33506_platform_6-33506_platform_7-33506_platform_8-33506_platform_unknown-33506",
       "properties": {
         "P17": [
           {
@@ -35597,6 +36745,36 @@
         "labels": [
           {
             "value": "Ostrowiec Świętokrzyski"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            20.98735749654,
+            52.16595234676
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "4920p1-33803_platform_1",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5133803"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Warszawa Okęcie"
           }
         ]
       },
@@ -37645,6 +38823,202 @@
     {
       "geometry": {
         "coordinates": [
+          23.60106779858,
+          51.24786124279
+        ],
+        "type": "Point"
+      },
+      "id": 50955,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5150955"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Ruda Opalin"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.5506913408,
+          51.18984962274
+        ],
+        "type": "Point"
+      },
+      "id": 50963,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5150963"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Karolinówka"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.61885665582,
+          51.29597088812
+        ],
+        "type": "Point"
+      },
+      "id": 50971,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5150971"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Uhrusk Przystanek"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.6192564963,
+          51.31953960656
+        ],
+        "type": "Point"
+      },
+      "id": 50989,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5150989"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Uhrusk"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.59704672794,
+          51.44416497942
+        ],
+        "type": "Point"
+      },
+      "id": 51029,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5151029"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Sobibór"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.61218118,
+          51.37629631653
+        ],
+        "type": "Point"
+      },
+      "id": 51037,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5151037"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Stulno"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.58574330315,
+          51.51622828021
+        ],
+        "type": "Point"
+      },
+      "id": 51045,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5151045"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Włodawa"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             16.66879392961,
             54.3556494354
@@ -38809,6 +40183,118 @@
     {
       "geometry": {
         "coordinates": [
+          17.73442913634,
+          54.54537776495
+        ],
+        "type": "Point"
+      },
+      "id": 5264,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "515264"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Lębork Nowy Świat"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.72161870168,
+          54.55833248538
+        ],
+        "type": "Point"
+      },
+      "id": 5272,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "515272"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nowa Wieś Lęborska"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.70312554831,
+          54.58931559892
+        ],
+        "type": "Point"
+      },
+      "id": 5280,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "515280"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Garczegorze"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.68155651953,
+          54.64523702145
+        ],
+        "type": "Point"
+      },
+      "id": 5298,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "515298"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Lędziechowo"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           16.16883872867,
           51.21400115827
         ],
@@ -38837,6 +40323,34 @@
     {
       "geometry": {
         "coordinates": [
+          17.66810688399,
+          54.67814082521
+        ],
+        "type": "Point"
+      },
+      "id": 5322,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "515322"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wrzeście"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           16.19368671298,
           51.3961934329
         ],
@@ -38857,6 +40371,64 @@
         "labels": [
           {
             "value": "Lubin"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.58209900873,
+          54.71495867132
+        ],
+        "type": "Point"
+      },
+      "id": 5348,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "515348"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Steknica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            17.55334656781,
+            54.75604005356
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "5355-5355",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "515355"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Łeba"
           }
         ]
       },
@@ -41009,6 +42581,62 @@
     {
       "geometry": {
         "coordinates": [
+          17.25201665819,
+          51.07990343271
+        ],
+        "type": "Point"
+      },
+      "id": 58214,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5158214"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nadolice Wielkie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.18006371915,
+          51.08749569107
+        ],
+        "type": "Point"
+      },
+      "id": 58222,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5158222"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Dobrzykowice Wrocławskie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           17.12302225946,
           51.02973759155
         ],
@@ -41832,11 +43460,15 @@
           [
             20.961428582,
             52.22224313933
+          ],
+          [
+            20.96142072884,
+            52.22223604539
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "5902p9-34868_platform_9",
+      "id": "5902p9-34868_platform_9-34868",
       "properties": {
         "P17": [
           {
@@ -41924,11 +43556,15 @@
           [
             20.95835510574,
             52.23895136669
+          ],
+          [
+            20.95845,
+            52.23895144989
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "5904p1-5904p2-34835_platform_1-34835_platform_2",
+      "id": "5904p1-5904p2-34835_platform_1-34835_platform_2-34835",
       "properties": {
         "P17": [
           {
@@ -42133,6 +43769,34 @@
     {
       "geometry": {
         "coordinates": [
+          17.100195584,
+          51.13487952433
+        ],
+        "type": "Point"
+      },
+      "id": 59238,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5159238"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wrocław Kowale"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           17.11842610185,
           51.15042371518
         ],
@@ -42153,6 +43817,62 @@
         "labels": [
           {
             "value": "Wrocław Psie Pole"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.12124556035,
+          51.11594966807
+        ],
+        "type": "Point"
+      },
+      "id": 59279,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5159279"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wrocław Swojczyce"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.15744465321,
+          51.10369878474
+        ],
+        "type": "Point"
+      },
+      "id": 59287,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5159287"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wrocław Wojnów"
           }
         ]
       },
@@ -42303,12 +44023,14 @@
     {
       "geometry": {
         "coordinates": [
-          17.40344358077,
-          51.34341205464
+          [
+            17.40344358077,
+            51.34341205464
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 59543,
+      "id": "59543-59543",
       "properties": {
         "P17": [
           {
@@ -42473,14 +44195,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            17.46855667725,
-            51.36031625873
-          ]
+          17.46855667725,
+          51.36031625873
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "59691-59691",
+      "id": 59691,
       "properties": {
         "P17": [
           {
@@ -46719,12 +48439,14 @@
     {
       "geometry": {
         "coordinates": [
-          19.94616149783,
-          50.85670346333
+          [
+            19.94616149783,
+            50.85670346333
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 64899,
+      "id": "64899-64899",
       "properties": {
         "P17": [
           {
@@ -47775,12 +49497,70 @@
     {
       "geometry": {
         "coordinates": [
-          22.97254160681,
-          50.67056163974
+          23.0870241873,
+          50.70873368048
         ],
         "type": "Point"
       },
-      "id": 66084,
+      "id": 66068,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166068"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wólka Niedzieliska"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.03879070575,
+          50.69781102868
+        ],
+        "type": "Point"
+      },
+      "id": 66076,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166076"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Klemensów"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.97254160681,
+            50.67056163974
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "66084-66084",
       "properties": {
         "P17": [
           {
@@ -47859,6 +49639,230 @@
     {
       "geometry": {
         "coordinates": [
+          23.4498879849,
+          50.37665766298
+        ],
+        "type": "Point"
+      },
+      "id": 66209,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166209"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Bełżec"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.52993472566,
+          50.33997277742
+        ],
+        "type": "Point"
+      },
+      "id": 66233,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166233"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Lubycza Królewska"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.22656415988,
+          50.41612738837
+        ],
+        "type": "Point"
+      },
+      "id": 66241,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166241"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Susiec"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.4035960436,
+          50.38074504079
+        ],
+        "type": "Point"
+      },
+      "id": 66258,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166258"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Bełżec Drugi"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.31457209222,
+          50.4050220613
+        ],
+        "type": "Point"
+      },
+      "id": 66266,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166266"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Maziły"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.14134511934,
+          50.44913233423
+        ],
+        "type": "Point"
+      },
+      "id": 66274,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166274"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nowiny"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.10185437924,
+          50.48247415611
+        ],
+        "type": "Point"
+      },
+      "id": 66282,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166282"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Długi Kąt"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.03973331784,
+          50.51801948439
+        ],
+        "type": "Point"
+      },
+      "id": 66324,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5166324"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Józefów Roztoczański"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           22.73176430583,
           50.55142585764
         ],
@@ -47915,12 +49919,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.98429796271,
-          50.60920539748
+          [
+            22.98429796271,
+            50.60920539748
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 66589,
+      "id": "66589-66589",
       "properties": {
         "P17": [
           {
@@ -47943,12 +49949,14 @@
     {
       "geometry": {
         "coordinates": [
-          18.40855335582,
-          54.7150832613
+          [
+            18.40855335582,
+            54.7150832613
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 6700,
+      "id": "6700-6700",
       "properties": {
         "P17": [
           {
@@ -48255,12 +50263,14 @@
     {
       "geometry": {
         "coordinates": [
-          18.50200384789,
-          54.76178380971
+          [
+            18.50200384789,
+            54.76178380971
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 6734,
+      "id": "6734-6734",
       "properties": {
         "P17": [
           {
@@ -48283,12 +50293,14 @@
     {
       "geometry": {
         "coordinates": [
-          18.40183055687,
-          54.79372147682
+          [
+            18.40183055687,
+            54.79372147682
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 6742,
+      "id": "6742-6742",
       "properties": {
         "P17": [
           {
@@ -48425,12 +50437,14 @@
     {
       "geometry": {
         "coordinates": [
-          18.7125494871,
-          54.68544926722
+          [
+            18.7125494871,
+            54.68544926722
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 6759,
+      "id": "6759-6759",
       "properties": {
         "P17": [
           {
@@ -48453,12 +50467,14 @@
     {
       "geometry": {
         "coordinates": [
-          18.57570659126,
-          54.73645918481
+          [
+            18.57570659126,
+            54.73645918481
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 6767,
+      "id": "6767-6767",
       "properties": {
         "P17": [
           {
@@ -48481,12 +50497,14 @@
     {
       "geometry": {
         "coordinates": [
-          18.67641617791,
-          54.7017925984
+          [
+            18.67641617791,
+            54.7017925984
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 6775,
+      "id": "6775-6775",
       "properties": {
         "P17": [
           {
@@ -48621,12 +50639,14 @@
     {
       "geometry": {
         "coordinates": [
-          18.80093927487,
-          54.61110813761
+          [
+            18.80093927487,
+            54.61110813761
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 6791,
+      "id": "6791-6791",
       "properties": {
         "P17": [
           {
@@ -49377,6 +51397,34 @@
         "labels": [
           {
             "value": "Pszczółki"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          18.68826984286,
+          50.21728226335
+        ],
+        "type": "Point"
+      },
+      "id": 70904,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5170904"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Knurów"
           }
         ]
       },
@@ -50491,6 +52539,34 @@
     {
       "geometry": {
         "coordinates": [
+          19.15448208466,
+          50.19727636067
+        ],
+        "type": "Point"
+      },
+      "id": 73676,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5173676"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Mysłowice Brzezinka"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           18.96409748912,
           50.13617725106
         ],
@@ -50577,8 +52653,8 @@
     {
       "geometry": {
         "coordinates": [
-          19.3736989515,
-          50.29543637907
+          19.37392425706,
+          50.2954535138
         ],
         "type": "Point"
       },
@@ -50633,8 +52709,8 @@
     {
       "geometry": {
         "coordinates": [
-          19.57147472361,
-          50.27435022546
+          19.57142644385,
+          50.27429536999
         ],
         "type": "Point"
       },
@@ -50689,8 +52765,8 @@
     {
       "geometry": {
         "coordinates": [
-          19.68513830094,
-          50.34324035644
+          19.68576593785,
+          50.34446595425
         ],
         "type": "Point"
       },
@@ -50857,14 +52933,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            19.12631094158,
-            50.27889039075
-          ]
+          19.12631094158,
+          50.27889039075
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "74658-74658",
+      "id": 74658,
       "properties": {
         "P17": [
           {
@@ -51171,34 +53245,6 @@
     {
       "geometry": {
         "coordinates": [
-          18.80966662288,
-          49.89281665303
-        ],
-        "type": "Point"
-      },
-      "id": 75796,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5175796"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Chybie"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           [
             18.5718739534,
             54.40984425779
@@ -51485,12 +53531,14 @@
     {
       "geometry": {
         "coordinates": [
-          19.2262486552,
-          49.88063495026
+          [
+            19.2262486552,
+            49.88063495026
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 76232,
+      "id": "76232-76232",
       "properties": {
         "P17": [
           {
@@ -51597,12 +53645,14 @@
     {
       "geometry": {
         "coordinates": [
-          19.35330458126,
-          49.85582652691
+          [
+            19.35330458126,
+            49.85582652691
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 76273,
+      "id": "76273-76273",
       "properties": {
         "P17": [
           {
@@ -52189,6 +54239,146 @@
     {
       "geometry": {
         "coordinates": [
+          19.18533483276,
+          50.07323480297
+        ],
+        "type": "Point"
+      },
+      "id": 77271,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5177271"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Nowy Bieruń"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.1838061037,
+          50.10951818276
+        ],
+        "type": "Point"
+      },
+      "id": 77321,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5177321"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Chełm Śląski"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.17641203069,
+          50.14129067817
+        ],
+        "type": "Point"
+      },
+      "id": 77339,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5177339"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Imielin"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.16217809325,
+          50.17081871834
+        ],
+        "type": "Point"
+      },
+      "id": 77347,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5177347"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Mysłowice Kosztowy"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.28609063121,
+          50.04541098924
+        ],
+        "type": "Point"
+      },
+      "id": 77461,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5177461"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Dwory"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             19.45263331513,
             50.15412725631
@@ -52331,6 +54521,34 @@
     {
       "geometry": {
         "coordinates": [
+          19.14711483069,
+          50.2133110743
+        ],
+        "type": "Point"
+      },
+      "id": 77669,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5177669"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Mysłowice Brzęczkowice"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             19.63411147213,
             50.13093009818
@@ -52417,6 +54635,34 @@
     {
       "geometry": {
         "coordinates": [
+          19.41376705146,
+          50.1440642364
+        ],
+        "type": "Point"
+      },
+      "id": 77834,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5177834"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Chrzanów Śródmieście"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           19.32686733695,
           50.11301687929
         ],
@@ -52473,12 +54719,98 @@
     {
       "geometry": {
         "coordinates": [
-          19.50179830643,
-          49.88519429991
+          19.42935311002,
+          50.00218620436
         ],
         "type": "Point"
       },
-      "id": 78204,
+      "id": 78113,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5178113"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Zator"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.36942555875,
+          50.01328069492
+        ],
+        "type": "Point"
+      },
+      "id": 78121,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5178121"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Przeciszów"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          19.32832501539,
+          50.02306857721
+        ],
+        "type": "Point"
+      },
+      "id": 78139,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5178139"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Włosienica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            19.50179830643,
+            49.88519429991
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "78204-78204",
       "properties": {
         "P17": [
           {
@@ -53496,10 +55828,6 @@
       "geometry": {
         "coordinates": [
           [
-            21.00309267506,
-            52.22904637568
-          ],
-          [
             21.00338771805,
             52.22858883397
           ],
@@ -53512,13 +55840,17 @@
             52.22891083868
           ],
           [
+            21.00309267506,
+            52.22904637568
+          ],
+          [
             21.0032749828,
             52.22884143194
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "7900p4-33605_platform_1-33605_platform_2-33605_platform_3-33605_platform_4-33605_platform_unknown-33605",
+      "id": "7900p1-7900p2-7900p3-7900p4-33605_platform_1-33605_platform_2-33605_platform_3-33605_platform_4-33605_platform_unknown-33605",
       "properties": {
         "P17": [
           {
@@ -53548,15 +55880,11 @@
           [
             21.00754111871,
             52.22944559134
-          ],
-          [
-            21.00759854233,
-            52.22938671429
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "7901p1/2-7901p2/3-33571_platform_1/2-33571_platform_2/3-33571",
+      "id": "7901p1/2-7901p2/3-33571_platform_1/2-33571_platform_2/3",
       "properties": {
         "P17": [
           {
@@ -53644,25 +55972,25 @@
       "geometry": {
         "coordinates": [
           [
-            20.99302500352,
-            52.25908512488
-          ],
-          [
-            20.99311973016,
-            52.25911858243
-          ],
-          [
             20.993018298,
             52.25892505315
           ],
           [
+            20.99302500352,
+            52.25908512488
+          ],
+          [
             20.99302902684,
             52.2592361664
+          ],
+          [
+            20.99311973016,
+            52.25911858243
           ]
         ],
         "type": "MultiPoint"
       },
-      "id": "7903p3-7903pUnknown-36103-36103_platform_2-36103_platform_3-36103_platform_4-36103_platform_unknown-36103",
+      "id": "7903p2-7903p3-7903p4-7903pUnknown-36103-36103_platform_2-36103_platform_3-36103_platform_4-36103_platform_unknown-36103",
       "properties": {
         "P17": [
           {
@@ -56524,14 +58852,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            21.19548618257,
-            49.69416026267
-          ]
+          21.19548618257,
+          49.69416026267
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "81703-81703",
+      "id": 81703,
       "properties": {
         "P17": [
           {
@@ -56582,70 +58908,12 @@
     {
       "geometry": {
         "coordinates": [
-          21.16266667306,
-          49.66355851671
+          21.26360892177,
+          49.73277370969
         ],
         "type": "Point"
       },
-      "id": 81760,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5181760"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Gorlice"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.17343306005,
-          49.67199188627
-        ],
-        "type": "Point"
-      },
-      "id": 81778,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5181778"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Gorlice Glinik"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            21.26360892177,
-            49.73277370969
-          ]
-        ],
-        "type": "MultiPoint"
-      },
-      "id": "81786-81786",
+      "id": 81786,
       "properties": {
         "P17": [
           {
@@ -56660,90 +58928,6 @@
         "labels": [
           {
             "value": "Biecz"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.24094962001,
-          49.71172257478
-        ],
-        "type": "Point"
-      },
-      "id": 81828,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5181828"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Libusza"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.29674224973,
-          49.75447248373
-        ],
-        "type": "Point"
-      },
-      "id": 81836,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5181836"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Siepietnica"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.33955299318,
-          49.74509842784
-        ],
-        "type": "Point"
-      },
-      "id": 81844,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5181844"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Skołoszyn"
           }
         ]
       },
@@ -58662,62 +60846,6 @@
     {
       "geometry": {
         "coordinates": [
-          21.39364778459,
-          49.73302681919
-        ],
-        "type": "Point"
-      },
-      "id": 83337,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5183337"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Przysieki"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          21.45118653238,
-          49.72616803131
-        ],
-        "type": "Point"
-      },
-      "id": 83352,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q36"
-          }
-        ],
-        "P722": [
-          {
-            "value": "5183352"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Jasło Niegłowice"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           21.57789973732,
           49.73627445126
         ],
@@ -59320,12 +61448,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.26428609352,
-          49.51343861102
+          [
+            22.26428609352,
+            49.51343861102
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 83758,
+      "id": "83758-83758",
       "properties": {
         "P17": [
           {
@@ -59348,12 +61478,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.25917712705,
-          49.52120253899
+          [
+            22.25917712705,
+            49.52120253899
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 83782,
+      "id": "83782-83782",
       "properties": {
         "P17": [
           {
@@ -59376,12 +61508,42 @@
     {
       "geometry": {
         "coordinates": [
-          22.33541964948,
-          49.50548166344
+          22.31087210808,
+          49.52935770929
         ],
         "type": "Point"
       },
-      "id": 83840,
+      "id": 83832,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5183832"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Załuż"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.33541964948,
+            49.50548166344
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "83840-83840",
       "properties": {
         "P17": [
           {
@@ -59404,12 +61566,98 @@
     {
       "geometry": {
         "coordinates": [
-          22.39985167444,
-          49.46535945234
+          22.35879242152,
+          49.48522079617
         ],
         "type": "Point"
       },
-      "id": 83923,
+      "id": 83857,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5183857"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Jankowce"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.38024472922,
+          49.46398579904
+        ],
+        "type": "Point"
+      },
+      "id": 83865,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5183865"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Uherce Tunel"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.50758528441,
+          49.43577908149
+        ],
+        "type": "Point"
+      },
+      "id": 83873,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5183873"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Ustianowa"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.39985167444,
+            49.46535945234
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "83923-83923",
       "properties": {
         "P17": [
           {
@@ -59432,12 +61680,210 @@
     {
       "geometry": {
         "coordinates": [
-          22.14305085794,
-          49.40717687192
+          22.43579596013,
+          49.47660346718
         ],
         "type": "Point"
       },
-      "id": 84087,
+      "id": 83931,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5183931"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Olszanica"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.59633153409,
+          49.42909295237
+        ],
+        "type": "Point"
+      },
+      "id": 83949,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5183949"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Ustrzyki Dolne"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.26003028011,
+          49.47964148107
+        ],
+        "type": "Point"
+      },
+      "id": 84012,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184012"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Tarnawa Dolna"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.21964104168,
+          49.45901911183
+        ],
+        "type": "Point"
+      },
+      "id": 84038,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184038"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Czaszyn"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.18659412878,
+          49.46211754924
+        ],
+        "type": "Point"
+      },
+      "id": 84046,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184046"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Morochów"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.16752008857,
+          49.44746633818
+        ],
+        "type": "Point"
+      },
+      "id": 84053,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184053"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Mokre Małopolskie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.15148057574,
+          49.43584462349
+        ],
+        "type": "Point"
+      },
+      "id": 84079,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184079"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Wysoczany"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            22.14305085794,
+            49.40717687192
+          ]
+        ],
+        "type": "MultiPoint"
+      },
+      "id": "84087-84087",
       "properties": {
         "P17": [
           {
@@ -59490,12 +61936,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.11202687154,
-          49.3717712909
+          [
+            22.11202687154,
+            49.3717712909
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 84095,
+      "id": "84095-84095",
       "properties": {
         "P17": [
           {
@@ -59518,12 +61966,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.08064910969,
-          49.34631051186
+          [
+            22.08064910969,
+            49.34631051186
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 84111,
+      "id": "84111-84111",
       "properties": {
         "P17": [
           {
@@ -59546,12 +61996,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.07240673019,
-          49.33881752699
+          [
+            22.07240673019,
+            49.33881752699
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 84129,
+      "id": "84129-84129",
       "properties": {
         "P17": [
           {
@@ -59574,12 +62026,14 @@
     {
       "geometry": {
         "coordinates": [
-          22.05922119511,
-          49.24722949438
+          [
+            22.05922119511,
+            49.24722949438
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": 84160,
+      "id": "84160-84160",
       "properties": {
         "P17": [
           {
@@ -60338,6 +62792,90 @@
     {
       "geometry": {
         "coordinates": [
+          23.48817912685,
+          50.24803149007
+        ],
+        "type": "Point"
+      },
+      "id": 84863,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184863"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Werchrata"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.5545618557,
+          50.261548941
+        ],
+        "type": "Point"
+      },
+      "id": 84947,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184947"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Siedliska Tomaszowskie"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.57647612879,
+          50.29833870559
+        ],
+        "type": "Point"
+      },
+      "id": 84954,
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "P722": [
+          {
+            "value": "5184954"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Hrebenne"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             14.49291904509,
             53.25433443787
@@ -60958,121 +63496,6 @@
         "labels": [
           {
             "value": "Kaliska"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.25285325529,
-          53.24012467884
-        ],
-        "type": "Point"
-      },
-      "id": 900101,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q183"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Petershagen (Uckermark)"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.20844985648,
-          53.21358187607
-        ],
-        "type": "Point"
-      },
-      "id": 900102,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q183"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Casekow"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.15436117064,
-          53.18506172334
-        ],
-        "type": "Point"
-      },
-      "id": 900103,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q183"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Schönow (Uckermark)"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          14.10185279762,
-          53.14906876579
-        ],
-        "type": "Point"
-      },
-      "id": 900104,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q183"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Passow (Uckermark)"
-          }
-        ]
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          13.99648438161,
-          53.015195182
-        ],
-        "type": "Point"
-      },
-      "id": 900105,
-      "properties": {
-        "P17": [
-          {
-            "value": "Q183"
-          }
-        ],
-        "labels": [
-          {
-            "value": "Angermünde"
           }
         ]
       },
@@ -61933,14 +64356,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            20.70010969799,
-            53.84476367874
-          ]
+          20.70010969799,
+          53.84476367874
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "9365-9365",
+      "id": 9365,
       "properties": {
         "P17": [
           {
@@ -62273,14 +64694,12 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            20.40235029057,
-            53.80886447858
-          ]
+          20.40235029057,
+          53.80886447858
         ],
-        "type": "MultiPoint"
+        "type": "Point"
       },
-      "id": "9514-9514",
+      "id": 9514,
       "properties": {
         "P17": [
           {
@@ -62649,6 +65068,29 @@
     {
       "geometry": {
         "coordinates": [
+          20.628435,
+          52.100645
+        ],
+        "type": "Point"
+      },
+      "id": "gmrad",
+      "properties": {
+        "P17": [
+          {
+            "value": "Q36"
+          }
+        ],
+        "labels": [
+          {
+            "value": "Grodzisk Mazowiecki Radońska"
+          }
+        ]
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           20.7742801,
           52.1316424
         ],
@@ -62856,12 +65298,18 @@
     {
       "geometry": {
         "coordinates": [
-          20.7384324,
-          52.1237864
+          [
+            20.7384324,
+            52.1237864
+          ],
+          [
+            20.7116318,
+            52.1207776
+          ]
         ],
-        "type": "Point"
+        "type": "MultiPoint"
       },
-      "id": "plwsc",
+      "id": "plwsc-plzac",
       "properties": {
         "P17": [
           {
@@ -62871,6 +65319,9 @@
         "labels": [
           {
             "value": "Podkowa Leśna Wschodnia"
+          },
+          {
+            "value": "Podkowa Leśna Zachodnia"
           }
         ]
       },

@@ -16,36 +16,34 @@ export const getLocations = async () => {
   );
 
   return data.map<Location>(({ stop_lat, stop_lon, stop_name, stop_id }) => {
-    const coordinates: [number, number] = [
-      parseFloat(stop_lon),
-      parseFloat(stop_lat),
-    ];
+    const coordinates: [number, number] = [stop_lon!, stop_lat!];
     const country = Object.values(Country).find(
       (i) => i.wikidata === feature(coordinates)?.properties.wikidata
     );
     const code =
-      stop_id.length === 7
+      stop_id.toString().length === 7
         ? stop_id
         : (
             country?.UIC?.[0]! * 100000 +
-            parseInt(stop_id.slice(-6, -1))
+            parseInt(stop_id.toString().slice(-6, -1))
           ).toString();
 
     return point(
       coordinates,
       {
-        labels: [{ value: stop_name, lang: Language.Slovak[1] }],
-        ...(stop_id.length === 7
-          ? { [CodeIssuer.IBNR]: [{ value: code }] }
-          : { [CodeIssuer.UIC]: [{ value: code }] }),
+        labels: [{ value: stop_name!, lang: Language.Slovak[1] }],
+        ...(stop_id.toString().length === 7
+          ? { [CodeIssuer.IBNR]: [{ value: code.toString() }] }
+          : { [CodeIssuer.UIC]: [{ value: code.toString() }] }),
         ...(country?.wikidata === Country.Slovakia?.wikidata
           ? {
               [Property.StationCode]: [
                 {
-                  value: stop_id,
+                  value: stop_id.toString(),
                   qualifiers: {
                     [Property.AppliesToPart]: [{ value: Items.ZSR }],
                   },
+                  info: { enabled: ['sk-zsr'] },
                 },
               ],
             }

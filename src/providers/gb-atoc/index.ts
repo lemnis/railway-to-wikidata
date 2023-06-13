@@ -20,20 +20,21 @@ export const getLocations = async () => {
 
   return data
     .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
-      const coordinates = [stop_lon, stop_lat];
+      const coordinates: [number, number] = [stop_lon!, stop_lat!];
       const properties = {
         labels: [
           {
-            value: stop_name.replace(/ +\(CIE\)?$/, ""),
+            value: stop_name?.replace(/ +\(CIE\)?$/, "") || "",
             lang: Language.English[1],
           },
         ],
         [CodeIssuer.ATOC]: [{ value: id?.toString() }],
         [Property.Country]: [
           {
-            value: stop_name.match(/\(CIE\)?$/)
-              ? Country.Ireland.wikidata
-              : Country.UnitedKingdom.wikidata,
+            value:
+              stop_name?.match(/\(CIE\)?$/) || ""
+                ? Country.Ireland.wikidata
+                : Country.UnitedKingdom.wikidata,
           },
         ],
       };

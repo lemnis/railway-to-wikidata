@@ -21,9 +21,9 @@ export const getLocations = async () => {
       return {
         type: "Feature",
         id: stop_id.toString(),
-        geometry: { type: "Point", coordinates: [stop_lon, stop_lat] },
+        geometry: { type: "Point", coordinates: [stop_lon!, stop_lat!] },
         properties: {
-          labels: [{ value: stop_name, lang: Language.Luxembourgish[1] }],
+          labels: [{ value: stop_name!, lang: Language.Luxembourgish[1] }],
           [Property.Country]: [
             {
               value:

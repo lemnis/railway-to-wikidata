@@ -14,9 +14,11 @@ export const getLocations = async () => {
         {
           labels: [{ value: id }],
           [Property.Country]: [{ value: Country.Croatia.wikidata }],
-          info: { enabled: true },
+          info: {
+            enabled: ['hr-hzpp']
+          }
         },
-        { id }
+        { id },
       )
   );
 

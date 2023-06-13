@@ -43,7 +43,7 @@ const getPkp = async () => {
 
   return stations.map<Location>(
     ({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
-      const coordinates: [number, number] = [stop_lon, stop_lat];
+      const coordinates: [number, number] = [stop_lon!, stop_lat!];
       const country = findCountryByAlpha2(
         feature(coordinates)?.properties.iso1A2!
       )!;
@@ -51,7 +51,7 @@ const getPkp = async () => {
       return point(
         coordinates,
         {
-          labels: [{ value: stop_name }],
+          labels: [{ value: stop_name || '' }],
           ...(country === Country.Poland
             ? {
                 [CodeIssuer.UIC]: [
@@ -79,7 +79,7 @@ export const getLocations = async () => {
     stationsNested
       .flat()
       .map<Location>(({ stop_lat, stop_lon, stop_name, stop_id: id }) => {
-        const coordinates: [number, number] = [stop_lon, stop_lat];
+        const coordinates: [number, number] = [stop_lon!, stop_lat!];
         const country = findCountryByAlpha2(
           feature(coordinates)?.properties.iso1A2!
         )!;
@@ -91,7 +91,7 @@ export const getLocations = async () => {
         return point(
           coordinates,
           {
-            labels: [{ value: stop_name.replace(/ \(?peron [0-9\/]+\)?$/i, '') }],
+            labels: [{ value: stop_name?.replace(/ \(?peron [0-9\/]+\)?$/i, '') || '' }],
             ...(stationCode && country === Country.Poland
               ? {
                   [CodeIssuer.UIC]: [

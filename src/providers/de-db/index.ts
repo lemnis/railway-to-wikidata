@@ -1,7 +1,7 @@
 import { isEqual, uniqWith } from "lodash";
 import fetch from "node-fetch";
 import { lastValueFrom, tap } from "rxjs";
-import { DB_API_KEY } from "../../../environment";
+import { DB_API_KEY, DB_CLIENT_KEY } from "../../../environment";
 import { EVANumber, RiL100Identifier, StationQuery } from "../../types/stada";
 import { Country } from "../../transform/country";
 import {
@@ -11,10 +11,12 @@ import {
 import { Location } from "../../types/location";
 import { CodeIssuer, Property } from "../../types/wikidata";
 import { logger, progressBar } from "../../utils/logger";
-import { getDBStationCategory } from "../../transform/deutscheBahnStationCategory";
 import { parse } from "csv-parse/sync";
 import { Language } from "../../transform/language";
 import { RELIABILITY_DB_IBNR } from "./db.constants";
+import { groupByScore } from "../../group/score";
+import { merge } from "../../actions/merge";
+import { multiPoint } from "@turf/turf";
 
 const getCoordinates = (coordinates: (EVANumber | RiL100Identifier)[]) => {
   return uniqWith(
@@ -109,9 +111,9 @@ export const getBetriebstellen2018 = async () => {
 export const getLocations = async (cache = true) => {
   logger.info("Getting data from DB API");
   const { result }: StationQuery = await fetch(
-    "https://api.deutschebahn.com/stada/v2/stations",
+    "https://apis.deutschebahn.com/db-api-marketplace/apis/station-data/v2/stations",
     {
-      headers: { Authorization: `Bearer ${DB_API_KEY}` },
+      headers: { "DB-Client-Id": DB_CLIENT_KEY, "DB-Api-Key": DB_API_KEY },
     }
   )
     .then(
@@ -134,7 +136,6 @@ export const getLocations = async (cache = true) => {
         throw error;
       }
     });
-
   const stationsInUse = (result || []).filter(
     (station) => station.category && station.category >= 1
   );
@@ -168,7 +169,7 @@ export const getLocations = async (cache = true) => {
     stationsInUse?.length
   );
 
-  return Promise.all(
+  const ungroupedStations = await Promise.all(
     stationsInUse.map<Promise<Location>>(
       async ({
         mailingAddress,
@@ -193,12 +194,11 @@ export const getLocations = async (cache = true) => {
 
         progress.tick();
 
-        return {
-          type: "Feature",
-          id: number,
-          geometry: { type: "MultiPoint", coordinates },
-          properties: {
+        return multiPoint(
+          coordinates,
+          {
             labels: name ? [{ value: name, language: Language.German[1] }] : [],
+            info: { enabled: ["de-db"] },
             [CodeIssuer.IBNR]:
               evaNumbers
                 ?.map(({ number }) => number)
@@ -219,13 +219,13 @@ export const getLocations = async (cache = true) => {
               .filter(Boolean)
               .map((value) => ({ value: value?.toString() })),
             [Property.Country]: [{ value: Country.Germany.wikidata }],
-            ...(category
-              ? {
-                  [Property.DBStationCategory]: [
-                    { value: getDBStationCategory(category) },
-                  ],
-                }
-              : {}),
+            // ...(category
+            //   ? {
+            //       [Property.DBStationCategory]: [
+            //         { value: getDBStationCategory(category) },
+            //       ],
+            //     }
+            //   : {}),
             ...(adminstrativeTerritory
               ? {
                   [Property.InAdministrativeTerritory]: [
@@ -234,8 +234,20 @@ export const getLocations = async (cache = true) => {
                 }
               : {}),
           },
-        };
+          { id: Number.toString() }
+        );
       }
+    )
+  );
+
+  const groupedStations = await groupByScore(
+    ungroupedStations,
+    (score) => score?.percentage >= 2.4
+  );
+
+  return await Promise.all(
+    groupedStations.map((stations) =>
+      stations.length > 1 ? merge(stations, false, false) : stations[0]
     )
   );
 };

@@ -70,6 +70,7 @@ export const getLocations = async () => {
                 {
                   value: StringToCountry[country].UIC[0] + code,
                   info: {
+                    enabled: ["es-renfe"],
                     reliability:
                       country === "España"
                         ? RELIABILITY_RENFE_UIC
